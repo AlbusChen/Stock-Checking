@@ -1093,7 +1093,9 @@
         "noteZh": "包含分部间交易，不能直接加总为净收入。",
         "noteEn": "Includes intersegment transactions and is not additive to net revenue."
       }
-    ]
+    ],
+    "latestPeriodZh": "2026 年第一季度 / 2025 财年基准",
+    "latestPeriodEn": "Q1 2026 / FY2025 baseline"
   },
   "news": [
     {

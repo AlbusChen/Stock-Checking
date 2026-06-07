@@ -39,6 +39,9 @@ ZH_BY_EN = {
     "FY2026": "2026 财年",
     "Q1 FY2027": "2027 财年第一财季",
     "Q1 2026": "2026 年第一季度",
+    "Q2 FY2026 / FY2025 baseline": "2026 财年第二财季 / 2025 财年基准",
+    "Q1 FY2027 / FY2026 baseline": "2027 财年第一财季 / 2026 财年基准",
+    "Q1 2026 / FY2025 baseline": "2026 年第一季度 / 2025 财年基准",
     "up 17% YoY": "同比增长 17%",
     "up 22% YoY": "同比增长 22%",
     "up 6% YoY": "同比增长 6%",
@@ -46,6 +49,7 @@ ZH_BY_EN = {
     "up 85% YoY": "同比增长 85%",
     "up 92% YoY": "同比增长 92%",
     "up 114% YoY": "同比增长 114%",
+    "up 65% YoY": "同比增长 65%",
     "up 12.3 ppts YoY": "同比提升 12.3 个百分点",
     "up 7% YoY": "同比增长 7%",
     "up 123% YoY": "同比增长 123%",
@@ -251,6 +255,8 @@ EN_BY_ZH = {
     "供给改善和 CPU 需求支撑业绩，但 GAAP 亏损、重组费用和 foundry 投入仍需跟踪。": "Supply improvement and CPU demand supported results, but GAAP losses, restructuring charges, and foundry spending still need tracking.",
     "强化 CPU 在 AI 推理和边缘场景中的定位，但商业转化取决于生态伙伴和客户部署速度。": "This reinforces CPUs in AI inference and edge workloads, while monetization depends on ecosystem partners and customer deployment pace.",
     "公司处于修复与重构阶段，分部重组、Altera 出表和制造资产效率是分析重点。": "The company is in a repair-and-rebuild phase; segment restructuring, Altera deconsolidation, and manufacturing asset efficiency are key.",
+    "NVIDIA 新披露框架下的主要平台。": "The primary platform under NVIDIA's newer disclosure framework.",
+    "涵盖 PC、游戏、工作站、汽车、机器人和 AI-RAN。": "Covers PCs, gaming, workstations, automotive, robotics, and AI-RAN.",
 }
 
 NEWS_OVERRIDES = {
@@ -437,6 +443,10 @@ def apply_business(report: dict) -> None:
 
 
 def apply_financials(report: dict) -> None:
+    financials = report.get("financials", {})
+    if isinstance(financials, dict):
+        set_pair(financials, "latestPeriod")
+
     for metric in report.get("financials", {}).get("highlights", []):
         set_pair(metric, "label")
         set_pair(metric, "period")

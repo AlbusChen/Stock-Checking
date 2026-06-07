@@ -1145,7 +1145,7 @@
         "labelEn": "FY2026 revenue",
         "periodZh": "2026 财年",
         "periodEn": "FY2026",
-        "changeZh": "up 65% YoY",
+        "changeZh": "同比增长 65%",
         "changeEn": "up 65% YoY"
       },
       {
@@ -1181,7 +1181,7 @@
         "periodZh": "2027 财年第一财季",
         "periodEn": "Q1 FY2027",
         "noteZh": "NVIDIA 新披露框架下的主要平台。",
-        "noteEn": "NVIDIA 新披露框架下的主要平台。"
+        "noteEn": "The primary platform under NVIDIA's newer disclosure framework."
       },
       {
         "name": "Edge Computing",
@@ -1198,9 +1198,11 @@
         "periodZh": "2027 财年第一财季",
         "periodEn": "Q1 FY2027",
         "noteZh": "涵盖 PC、游戏、工作站、汽车、机器人和 AI-RAN。",
-        "noteEn": "涵盖 PC、游戏、工作站、汽车、机器人和 AI-RAN。"
+        "noteEn": "Covers PCs, gaming, workstations, automotive, robotics, and AI-RAN."
       }
-    ]
+    ],
+    "latestPeriodZh": "2027 财年第一财季 / 2026 财年基准",
+    "latestPeriodEn": "Q1 FY2027 / FY2026 baseline"
   },
   "news": [
     {

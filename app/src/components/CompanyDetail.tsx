@@ -305,7 +305,9 @@ export function CompanyDetail({ report }: CompanyDetailProps) {
       {activeTab === "financials" && (
         <div className="content-stack">
           <article className="info-card wide">
-            <h2>{report.financials.latestPeriod}</h2>
+            <h2>
+              <TextPair text={localizedField(report.financials, "latestPeriod")} />
+            </h2>
             <div className="metric-list">
               {report.financials.highlights.map((metric) => (
                 <div className="metric-row" key={`${metric.label}-${metric.period}`}>

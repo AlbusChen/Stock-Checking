@@ -194,6 +194,8 @@ export interface CompanyReport {
   };
   financials: {
     latestPeriod: string;
+    latestPeriodZh?: string;
+    latestPeriodEn?: string;
     highlights: FinancialHighlight[];
     revenueMix: BusinessSegment[];
   };

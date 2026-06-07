@@ -119,6 +119,8 @@ def validate_report(path: Path) -> list[str]:
 
     if not report.get("financials", {}).get("highlights"):
         errors.append(f"{path.name}: needs financial highlights")
+    if isinstance(report.get("financials"), dict):
+        require_localized(errors, path, report["financials"], "latestPeriod", "financial latestPeriod")
 
     if not report.get("supplyChain", {}).get("tiers"):
         errors.append(f"{path.name}: needs supply-chain tiers")
