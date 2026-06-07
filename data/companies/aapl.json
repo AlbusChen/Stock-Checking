@@ -9,9 +9,14 @@
   "cik": "0000320193",
   "currency": "USD",
   "sector": "Consumer electronics and services",
-  "industry": ["Smartphones", "Personal computers", "Wearables", "Digital services"],
+  "industry": [
+    "Smartphones",
+    "Personal computers",
+    "Wearables",
+    "Digital services"
+  ],
   "homepage": "https://www.apple.com/",
-  "lastUpdated": "2026-06-07T16:45:00+08:00",
+  "lastUpdated": "2026-06-07T13:17:57.056288Z",
   "summary": "硬件生态和服务收入共同驱动，核心变量是 iPhone 周期、服务增长、供应链韧性与 AI 平台节奏。",
   "updateCadence": {
     "最新动态": "12 小时",
@@ -21,7 +26,12 @@
   },
   "business": {
     "description": "Apple 设计、制造并销售 iPhone、Mac、iPad、可穿戴设备、家庭与配件，同时通过 App Store、订阅、广告、云服务、AppleCare、支付与媒体内容获得服务收入。硬件装机量是服务收入和生态粘性的底层资产。",
-    "revenueModel": ["设备销售", "服务订阅与佣金", "授权与内容", "配件与保修"],
+    "revenueModel": [
+      "设备销售",
+      "服务订阅与佣金",
+      "授权与内容",
+      "配件与保修"
+    ],
     "segments": [
       {
         "name": "iPhone",
@@ -30,7 +40,9 @@
         "period": "FY2025",
         "share": 50.36,
         "note": "最大收入来源，换机周期、渠道库存和 Pro 机型组合对毛利有显著影响。",
-        "sourceIds": ["aapl-10k-2025"]
+        "sourceIds": [
+          "aapl-10k-2025"
+        ]
       },
       {
         "name": "Services",
@@ -39,7 +51,9 @@
         "period": "FY2025",
         "share": 26.23,
         "note": "规模仅次于 iPhone，毛利率通常高于硬件，是利润韧性的关键来源。",
-        "sourceIds": ["aapl-10k-2025"]
+        "sourceIds": [
+          "aapl-10k-2025"
+        ]
       },
       {
         "name": "Mac",
@@ -48,7 +62,9 @@
         "period": "FY2025",
         "share": 8.1,
         "note": "受 Apple silicon 产品周期、企业采购和教育需求影响。",
-        "sourceIds": ["aapl-10k-2025"]
+        "sourceIds": [
+          "aapl-10k-2025"
+        ]
       },
       {
         "name": "Wearables, Home and Accessories",
@@ -57,7 +73,9 @@
         "period": "FY2025",
         "share": 8.58,
         "note": "包括 Apple Watch、AirPods、家庭设备和配件，更多体现生态延展。",
-        "sourceIds": ["aapl-10k-2025"]
+        "sourceIds": [
+          "aapl-10k-2025"
+        ]
       },
       {
         "name": "iPad",
@@ -66,7 +84,9 @@
         "period": "FY2025",
         "share": 6.73,
         "note": "产品更新节奏和教育/企业采购对波动影响较大。",
-        "sourceIds": ["aapl-10k-2025"]
+        "sourceIds": [
+          "aapl-10k-2025"
+        ]
       }
     ],
     "thesis": "Apple 的核心不是单一硬件销量，而是高端设备装机基数、芯片/系统/服务一体化和渠道控制力。短期关注 iPhone 17 周期和 WWDC26 AI 进展，中期关注服务监管、供应链地域迁移和自研芯片路线。",
@@ -83,12 +103,18 @@
       {
         "level": 0,
         "title": "品牌、设计、系统集成",
-        "companies": ["Apple"],
+        "companies": [
+          "Apple"
+        ],
         "entities": [
           {
             "name": "Apple",
             "relationship": "目标企业本体；负责产品定义、系统软件、芯片设计、渠道和生态分发，外部供应商围绕其硬件路线与产能节奏组织交付。",
-            "productsServices": ["Product design", "Operating systems", "Apple silicon designs"],
+            "productsServices": [
+              "Product design",
+              "Operating systems",
+              "Apple silicon designs"
+            ],
             "listing": {
               "status": "listed",
               "ticker": "AAPL",
@@ -98,24 +124,45 @@
             },
             "companyUrl": "https://www.apple.com/",
             "confidence": "high",
-            "sourceIds": ["aapl-10k-2025"]
+            "sourceIds": [
+              "aapl-10k-2025"
+            ]
           }
         ],
-        "geography": ["United States", "Global"],
-        "materials": ["iOS/macOS ecosystem", "Apple silicon designs", "Industrial design"],
+        "geography": [
+          "United States",
+          "Global"
+        ],
+        "materials": [
+          "iOS/macOS ecosystem",
+          "Apple silicon designs",
+          "Industrial design"
+        ],
         "notes": "Apple 控制产品定义、系统软件、芯片设计、渠道和生态分发，制造与大量组件采购由供应商网络承担。",
         "confidence": "high",
-        "sourceIds": ["aapl-10k-2025"]
+        "sourceIds": [
+          "aapl-10k-2025"
+        ]
       },
       {
         "level": 1,
         "title": "最终组装与关键模组",
-        "companies": ["Hon Hai Precision/Foxconn", "Luxshare Precision", "Pegatron", "Compal", "Wistron"],
+        "companies": [
+          "Hon Hai Precision/Foxconn",
+          "Luxshare Precision",
+          "Pegatron",
+          "Compal",
+          "Wistron"
+        ],
         "entities": [
           {
             "name": "Hon Hai Precision / Foxconn",
             "relationship": "Apple 供应商名单中的大型电子制造服务商，承担 iPhone、Mac、iPad 等设备的最终组装、机电整合和全球制造产能调度。",
-            "productsServices": ["Finished device assembly", "EMS manufacturing", "Mechanical integration"],
+            "productsServices": [
+              "Finished device assembly",
+              "EMS manufacturing",
+              "Mechanical integration"
+            ],
             "listing": {
               "status": "listed",
               "ticker": "2317.TW",
@@ -125,12 +172,19 @@
             },
             "companyUrl": "https://www.honhai.com/en-us/",
             "confidence": "medium",
-            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+            "sourceIds": [
+              "apple-supplier-list",
+              "aapl-10k-2025"
+            ]
           },
           {
             "name": "Luxshare Precision",
             "relationship": "Apple 供应商名单中的连接器、声学、模组和整机制造伙伴；在 Apple 硬件供应链中承担部分装配和组件交付。",
-            "productsServices": ["Connectors", "Acoustic modules", "Device assembly"],
+            "productsServices": [
+              "Connectors",
+              "Acoustic modules",
+              "Device assembly"
+            ],
             "listing": {
               "status": "listed",
               "ticker": "002475.SZ",
@@ -140,12 +194,19 @@
             },
             "companyUrl": "https://www.luxshare-ict.com/en/",
             "confidence": "medium",
-            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+            "sourceIds": [
+              "apple-supplier-list",
+              "aapl-10k-2025"
+            ]
           },
           {
             "name": "Pegatron",
             "relationship": "Apple 供应商名单中的 EMS/ODM 伙伴，主要关系是消费电子整机装配、主板和系统级制造。",
-            "productsServices": ["EMS manufacturing", "System assembly", "Mainboard integration"],
+            "productsServices": [
+              "EMS manufacturing",
+              "System assembly",
+              "Mainboard integration"
+            ],
             "listing": {
               "status": "listed",
               "ticker": "4938.TW",
@@ -155,12 +216,19 @@
             },
             "companyUrl": "https://www.pegatroncorp.com/",
             "confidence": "medium",
-            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+            "sourceIds": [
+              "apple-supplier-list",
+              "aapl-10k-2025"
+            ]
           },
           {
             "name": "Compal",
             "relationship": "Apple 供应商名单中的 ODM/EMS 伙伴，偏向笔电、平板和可穿戴设备相关的系统制造与装配。",
-            "productsServices": ["ODM manufacturing", "Notebook/tablet assembly", "Wearable device manufacturing"],
+            "productsServices": [
+              "ODM manufacturing",
+              "Notebook/tablet assembly",
+              "Wearable device manufacturing"
+            ],
             "listing": {
               "status": "listed",
               "ticker": "2324.TW",
@@ -170,12 +238,19 @@
             },
             "companyUrl": "https://www.compal.com/",
             "confidence": "medium",
-            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+            "sourceIds": [
+              "apple-supplier-list",
+              "aapl-10k-2025"
+            ]
           },
           {
             "name": "Wistron",
             "relationship": "Apple 供应商名单中的制造伙伴，历史上参与 iPhone、Mac 或相关硬件装配；关系会随产品线和区域产能调整变化。",
-            "productsServices": ["EMS manufacturing", "Device assembly", "Regional production capacity"],
+            "productsServices": [
+              "EMS manufacturing",
+              "Device assembly",
+              "Regional production capacity"
+            ],
             "listing": {
               "status": "listed",
               "ticker": "3231.TW",
@@ -185,24 +260,52 @@
             },
             "companyUrl": "https://www.wistron.com/",
             "confidence": "medium",
-            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+            "sourceIds": [
+              "apple-supplier-list",
+              "aapl-10k-2025"
+            ]
           }
         ],
-        "geography": ["China mainland", "India", "Vietnam", "Taiwan"],
-        "materials": ["Finished devices", "Camera modules", "Enclosures", "Connectors"],
+        "geography": [
+          "China mainland",
+          "India",
+          "Vietnam",
+          "Taiwan"
+        ],
+        "materials": [
+          "Finished devices",
+          "Camera modules",
+          "Enclosures",
+          "Connectors"
+        ],
         "notes": "Apple 官方供应商名单覆盖组装、机械件、连接器、声学、摄像头和其他模组供应商；不同产品线的直接供应关系会随年份和机型变化。",
         "confidence": "medium",
-        "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+        "sourceIds": [
+          "apple-supplier-list",
+          "aapl-10k-2025"
+        ]
       },
       {
         "level": 1,
         "title": "半导体、显示与电池",
-        "companies": ["TSMC", "Samsung Display", "LG Display", "Sony Semiconductor", "Murata", "TDK", "Sunwoda"],
+        "companies": [
+          "TSMC",
+          "Samsung Display",
+          "LG Display",
+          "Sony Semiconductor",
+          "Murata",
+          "TDK",
+          "Sunwoda"
+        ],
         "entities": [
           {
             "name": "TSMC",
             "relationship": "Apple 自研 A/M/S 系列芯片的核心晶圆代工伙伴；关系重点是先进制程产能、良率、封装排产与 Apple silicon 节奏。",
-            "productsServices": ["Advanced logic wafers", "Apple silicon manufacturing", "Foundry services"],
+            "productsServices": [
+              "Advanced logic wafers",
+              "Apple silicon manufacturing",
+              "Foundry services"
+            ],
             "listing": {
               "status": "listed",
               "ticker": "2330.TW",
@@ -212,12 +315,19 @@
             },
             "companyUrl": "https://www.tsmc.com/english",
             "confidence": "medium",
-            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+            "sourceIds": [
+              "apple-supplier-list",
+              "aapl-10k-2025"
+            ]
           },
           {
             "name": "Samsung Display",
             "relationship": "Apple 高端设备 OLED 显示面板供应链的重要参与者；Samsung Display 本身未单独上市，上市主体为母公司 Samsung Electronics。",
-            "productsServices": ["OLED panels", "Display modules", "Panel technology"],
+            "productsServices": [
+              "OLED panels",
+              "Display modules",
+              "Panel technology"
+            ],
             "listing": {
               "status": "listed-parent",
               "parentCompany": "Samsung Electronics",
@@ -229,12 +339,19 @@
             },
             "companyUrl": "https://www.samsungdisplay.com/eng/index.jsp",
             "confidence": "medium",
-            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+            "sourceIds": [
+              "apple-supplier-list",
+              "aapl-10k-2025"
+            ]
           },
           {
             "name": "LG Display",
             "relationship": "Apple 显示面板供应链参与者，向部分 Apple 设备供应 OLED/LCD 面板或相关显示组件。",
-            "productsServices": ["OLED panels", "LCD panels", "Display components"],
+            "productsServices": [
+              "OLED panels",
+              "LCD panels",
+              "Display components"
+            ],
             "listing": {
               "status": "listed",
               "ticker": "034220.KS",
@@ -244,12 +361,19 @@
             },
             "companyUrl": "https://www.lgdisplay.com/eng",
             "confidence": "medium",
-            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+            "sourceIds": [
+              "apple-supplier-list",
+              "aapl-10k-2025"
+            ]
           },
           {
             "name": "Sony Semiconductor Solutions",
             "relationship": "Apple 摄像头图像传感器供应链的关键参与者；业务实体属于 Sony Group。",
-            "productsServices": ["CMOS image sensors", "Camera sensor technology", "Imaging components"],
+            "productsServices": [
+              "CMOS image sensors",
+              "Camera sensor technology",
+              "Imaging components"
+            ],
             "listing": {
               "status": "listed-parent",
               "parentCompany": "Sony Group",
@@ -261,12 +385,19 @@
             },
             "companyUrl": "https://www.sony-semicon.com/en/",
             "confidence": "medium",
-            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+            "sourceIds": [
+              "apple-supplier-list",
+              "aapl-10k-2025"
+            ]
           },
           {
             "name": "Murata",
             "relationship": "Apple 供应商名单中的电子元件厂，关系主要是 MLCC、射频/连接相关组件和被动元件供应。",
-            "productsServices": ["MLCC", "RF components", "Passive components"],
+            "productsServices": [
+              "MLCC",
+              "RF components",
+              "Passive components"
+            ],
             "listing": {
               "status": "listed",
               "ticker": "6981.T",
@@ -276,12 +407,19 @@
             },
             "companyUrl": "https://www.murata.com/en-global",
             "confidence": "medium",
-            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+            "sourceIds": [
+              "apple-supplier-list",
+              "aapl-10k-2025"
+            ]
           },
           {
             "name": "TDK",
             "relationship": "Apple 供应链中的被动元件、电池和磁性/传感类组件供应商之一，影响设备小型化和电源管理。",
-            "productsServices": ["Passive components", "Battery cells/components", "Sensors"],
+            "productsServices": [
+              "Passive components",
+              "Battery cells/components",
+              "Sensors"
+            ],
             "listing": {
               "status": "listed",
               "ticker": "6762.T",
@@ -291,12 +429,19 @@
             },
             "companyUrl": "https://www.tdk.com/en/index.html",
             "confidence": "medium",
-            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+            "sourceIds": [
+              "apple-supplier-list",
+              "aapl-10k-2025"
+            ]
           },
           {
             "name": "Sunwoda",
             "relationship": "Apple 供应商名单中的电池供应链参与者，关系主要是消费电子电池、电池模组或相关电源组件。",
-            "productsServices": ["Battery cells", "Battery packs", "Power modules"],
+            "productsServices": [
+              "Battery cells",
+              "Battery packs",
+              "Power modules"
+            ],
             "listing": {
               "status": "listed",
               "ticker": "300207.SZ",
@@ -306,24 +451,53 @@
             },
             "companyUrl": "https://en.sunwoda.com/",
             "confidence": "medium",
-            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+            "sourceIds": [
+              "apple-supplier-list",
+              "aapl-10k-2025"
+            ]
           }
         ],
-        "geography": ["Taiwan", "South Korea", "Japan", "China mainland"],
-        "materials": ["Application processors", "OLED panels", "Image sensors", "MLCC", "Batteries"],
+        "geography": [
+          "Taiwan",
+          "South Korea",
+          "Japan",
+          "China mainland"
+        ],
+        "materials": [
+          "Application processors",
+          "OLED panels",
+          "Image sensors",
+          "MLCC",
+          "Batteries"
+        ],
         "notes": "该层决定高端产品可得性和成本结构。Apple 年报没有逐项确认所有型号供应比例，因此供应商名单与行业公开资料需结合使用。",
         "confidence": "medium",
-        "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+        "sourceIds": [
+          "apple-supplier-list",
+          "aapl-10k-2025"
+        ]
       },
       {
         "level": 2,
         "title": "晶圆、设备、化学品与封装",
-        "companies": ["ASML", "Applied Materials", "Lam Research", "Tokyo Electron", "KLA", "Shin-Etsu", "SUMCO"],
+        "companies": [
+          "ASML",
+          "Applied Materials",
+          "Lam Research",
+          "Tokyo Electron",
+          "KLA",
+          "Shin-Etsu",
+          "SUMCO"
+        ],
         "entities": [
           {
             "name": "ASML",
             "relationship": "作为 TSMC、Samsung 等先进晶圆厂的上游设备供应商，间接影响 Apple silicon 先进制程产能；不是 Apple 年报逐项披露的直接供应商。",
-            "productsServices": ["EUV lithography systems", "DUV lithography systems", "Lithography services"],
+            "productsServices": [
+              "EUV lithography systems",
+              "DUV lithography systems",
+              "Lithography services"
+            ],
             "listing": {
               "status": "listed",
               "ticker": "ASML",
@@ -333,12 +507,18 @@
             },
             "companyUrl": "https://www.asml.com/en",
             "confidence": "low",
-            "sourceIds": ["aapl-10k-2025"]
+            "sourceIds": [
+              "aapl-10k-2025"
+            ]
           },
           {
             "name": "Applied Materials",
             "relationship": "半导体制造设备上游公司，向 foundry 和存储厂提供沉积、材料工程等设备，间接支撑 Apple 芯片供应链。",
-            "productsServices": ["Deposition tools", "Materials engineering", "Process equipment"],
+            "productsServices": [
+              "Deposition tools",
+              "Materials engineering",
+              "Process equipment"
+            ],
             "listing": {
               "status": "listed",
               "ticker": "AMAT",
@@ -348,12 +528,18 @@
             },
             "companyUrl": "https://www.appliedmaterials.com/",
             "confidence": "low",
-            "sourceIds": ["aapl-10k-2025"]
+            "sourceIds": [
+              "aapl-10k-2025"
+            ]
           },
           {
             "name": "Lam Research",
             "relationship": "向先进晶圆厂提供刻蚀、沉积和清洗设备，是 Apple 芯片上游制造约束中的设备层变量。",
-            "productsServices": ["Etch tools", "Deposition tools", "Wafer cleaning equipment"],
+            "productsServices": [
+              "Etch tools",
+              "Deposition tools",
+              "Wafer cleaning equipment"
+            ],
             "listing": {
               "status": "listed",
               "ticker": "LRCX",
@@ -363,12 +549,18 @@
             },
             "companyUrl": "https://www.lamresearch.com/",
             "confidence": "low",
-            "sourceIds": ["aapl-10k-2025"]
+            "sourceIds": [
+              "aapl-10k-2025"
+            ]
           },
           {
             "name": "Tokyo Electron",
             "relationship": "晶圆制造设备供应商，面向先进逻辑与存储工艺提供涂布显影、沉积、刻蚀等设备，间接影响 Apple 上游产能。",
-            "productsServices": ["Coater/developer tools", "Deposition equipment", "Etch systems"],
+            "productsServices": [
+              "Coater/developer tools",
+              "Deposition equipment",
+              "Etch systems"
+            ],
             "listing": {
               "status": "listed",
               "ticker": "8035.T",
@@ -378,12 +570,18 @@
             },
             "companyUrl": "https://www.tel.com/",
             "confidence": "low",
-            "sourceIds": ["aapl-10k-2025"]
+            "sourceIds": [
+              "aapl-10k-2025"
+            ]
           },
           {
             "name": "KLA",
             "relationship": "检测和量测设备供应商，帮助先进晶圆厂控制缺陷和良率，是 Apple silicon 上游良率风险的一部分。",
-            "productsServices": ["Inspection tools", "Metrology systems", "Process control"],
+            "productsServices": [
+              "Inspection tools",
+              "Metrology systems",
+              "Process control"
+            ],
             "listing": {
               "status": "listed",
               "ticker": "KLAC",
@@ -393,12 +591,18 @@
             },
             "companyUrl": "https://www.kla.com/",
             "confidence": "low",
-            "sourceIds": ["aapl-10k-2025"]
+            "sourceIds": [
+              "aapl-10k-2025"
+            ]
           },
           {
             "name": "Shin-Etsu",
             "relationship": "高纯硅晶圆、光刻胶等半导体材料供应商，处于 Apple 芯片供应链的原材料/耗材上游。",
-            "productsServices": ["Silicon wafers", "Photoresists", "Semiconductor materials"],
+            "productsServices": [
+              "Silicon wafers",
+              "Photoresists",
+              "Semiconductor materials"
+            ],
             "listing": {
               "status": "listed",
               "ticker": "4063.T",
@@ -408,12 +612,18 @@
             },
             "companyUrl": "https://www.shinetsu.co.jp/en/",
             "confidence": "low",
-            "sourceIds": ["aapl-10k-2025"]
+            "sourceIds": [
+              "aapl-10k-2025"
+            ]
           },
           {
             "name": "SUMCO",
             "relationship": "300mm 硅晶圆供应商，处于 foundry 上游；晶圆质量、交期和产能会间接影响 Apple 芯片供应。",
-            "productsServices": ["300mm silicon wafers", "Prime wafers", "Epitaxial wafers"],
+            "productsServices": [
+              "300mm silicon wafers",
+              "Prime wafers",
+              "Epitaxial wafers"
+            ],
             "listing": {
               "status": "listed",
               "ticker": "3436.T",
@@ -423,35 +633,64 @@
             },
             "companyUrl": "https://www.sumcosi.com/english/",
             "confidence": "low",
-            "sourceIds": ["aapl-10k-2025"]
+            "sourceIds": [
+              "aapl-10k-2025"
+            ]
           }
         ],
-        "geography": ["Netherlands", "United States", "Japan", "Taiwan"],
-        "materials": ["Silicon wafers", "Lithography tools", "Photoresists", "Specialty gases", "Advanced packaging"],
+        "geography": [
+          "Netherlands",
+          "United States",
+          "Japan",
+          "Taiwan"
+        ],
+        "materials": [
+          "Silicon wafers",
+          "Lithography tools",
+          "Photoresists",
+          "Specialty gases",
+          "Advanced packaging"
+        ],
         "notes": "这一级多数不是 Apple 直接披露供应商，而是上游半导体制造的必要投入；用于识别原材料和设备瓶颈。",
         "confidence": "low",
-        "sourceIds": ["aapl-10k-2025"]
+        "sourceIds": [
+          "aapl-10k-2025"
+        ]
       }
     ],
     "rawMaterials": [
       {
         "name": "硅晶圆",
         "usedIn": "Apple silicon、射频、存储与传感器芯片",
-        "upstream": ["Quartz", "Polysilicon", "Prime wafers"],
+        "upstream": [
+          "Quartz",
+          "Polysilicon",
+          "Prime wafers"
+        ],
         "risk": "先进制程受晶圆、EUV 设备和代工产能共同约束。",
         "confidence": "medium"
       },
       {
         "name": "锂、钴、镍、石墨",
         "usedIn": "电池",
-        "upstream": ["Lithium brine/hard rock", "Cobalt", "Nickel", "Graphite"],
+        "upstream": [
+          "Lithium brine/hard rock",
+          "Cobalt",
+          "Nickel",
+          "Graphite"
+        ],
         "risk": "电池材料受矿产来源、回收比例、合规审计和价格波动影响。",
         "confidence": "medium"
       },
       {
         "name": "稀土、铜、铝、金、锡、钨",
         "usedIn": "磁体、外壳、连接器、电路板和焊料",
-        "upstream": ["Rare earth oxides", "Copper concentrate", "Bauxite", "Conflict minerals"],
+        "upstream": [
+          "Rare earth oxides",
+          "Copper concentrate",
+          "Bauxite",
+          "Conflict minerals"
+        ],
         "risk": "合规追踪复杂，地缘和冶炼产能会影响交付。",
         "confidence": "medium"
       }
@@ -466,7 +705,9 @@
         "unit": "USD billions",
         "period": "Quarter ended 2026-03-28",
         "change": "up 17% YoY",
-        "sourceIds": ["aapl-q2-2026"]
+        "sourceIds": [
+          "aapl-q2-2026"
+        ]
       },
       {
         "label": "Q2 FY2026 diluted EPS",
@@ -474,7 +715,9 @@
         "unit": "USD",
         "period": "Quarter ended 2026-03-28",
         "change": "up 22% YoY",
-        "sourceIds": ["aapl-q2-2026"]
+        "sourceIds": [
+          "aapl-q2-2026"
+        ]
       },
       {
         "label": "FY2025 net sales",
@@ -482,7 +725,9 @@
         "unit": "USD billions",
         "period": "FY2025",
         "change": "up 6% YoY",
-        "sourceIds": ["aapl-10k-2025"]
+        "sourceIds": [
+          "aapl-10k-2025"
+        ]
       },
       {
         "label": "Q2 FY2026 operating cash flow",
@@ -490,7 +735,9 @@
         "unit": "USD billions",
         "period": "Quarter ended 2026-03-28",
         "change": "more than $28B",
-        "sourceIds": ["aapl-q2-2026"]
+        "sourceIds": [
+          "aapl-q2-2026"
+        ]
       }
     ],
     "revenueMix": [
@@ -501,7 +748,9 @@
         "period": "FY2025",
         "share": 50.36,
         "note": "FY2025 category net sales.",
-        "sourceIds": ["aapl-10k-2025"]
+        "sourceIds": [
+          "aapl-10k-2025"
+        ]
       },
       {
         "name": "Services",
@@ -510,7 +759,9 @@
         "period": "FY2025",
         "share": 26.23,
         "note": "FY2025 category net sales.",
-        "sourceIds": ["aapl-10k-2025"]
+        "sourceIds": [
+          "aapl-10k-2025"
+        ]
       },
       {
         "name": "Mac",
@@ -519,7 +770,9 @@
         "period": "FY2025",
         "share": 8.1,
         "note": "FY2025 category net sales.",
-        "sourceIds": ["aapl-10k-2025"]
+        "sourceIds": [
+          "aapl-10k-2025"
+        ]
       },
       {
         "name": "Wearables, Home and Accessories",
@@ -528,7 +781,9 @@
         "period": "FY2025",
         "share": 8.58,
         "note": "FY2025 category net sales.",
-        "sourceIds": ["aapl-10k-2025"]
+        "sourceIds": [
+          "aapl-10k-2025"
+        ]
       },
       {
         "name": "iPad",
@@ -537,18 +792,52 @@
         "period": "FY2025",
         "share": 6.73,
         "note": "FY2025 category net sales.",
-        "sourceIds": ["aapl-10k-2025"]
+        "sourceIds": [
+          "aapl-10k-2025"
+        ]
       }
     ]
   },
   "news": [
+    {
+      "date": "2026-06-04",
+      "title": "Apple and Major League Baseball announce July “Friday Night Baseball” schedule",
+      "category": "News",
+      "summary": "",
+      "impact": "自动抓取条目，需要人工复核业务影响。",
+      "sourceIds": [
+        "rss-aapl-apple-and-major-league-baseball-announce-july-frid"
+      ]
+    },
+    {
+      "date": "2026-06-04",
+      "title": "Mini Football Legends, Family Feud Pocket, and seven more hits join Apple Arcade",
+      "category": "News",
+      "summary": "",
+      "impact": "自动抓取条目，需要人工复核业务影响。",
+      "sourceIds": [
+        "rss-aapl-mini-football-legends-family-feud-pocket-and-seven"
+      ]
+    },
+    {
+      "date": "2026-06-04",
+      "title": "App Store ecosystem reaches $1.4 trillion as developers thrive globally",
+      "category": "News",
+      "summary": "",
+      "impact": "自动抓取条目，需要人工复核业务影响。",
+      "sourceIds": [
+        "rss-aapl-app-store-ecosystem-reaches-1-4-trillion-as-develo"
+      ]
+    },
     {
       "date": "2026-05-18",
       "title": "WWDC26 将于 6 月 8 日开幕",
       "category": "Product / Developer",
       "summary": "Apple 公布 WWDC26 日程，Keynote 和 Platforms State of the Union 将展示平台更新、AI 进展和开发者工具。",
       "impact": "短期观察点在 AI 功能是否能提升设备换机与服务使用频次。",
-      "sourceIds": ["aapl-wwdc-2026"]
+      "sourceIds": [
+        "aapl-wwdc-2026"
+      ]
     },
     {
       "date": "2026-04-30",
@@ -556,7 +845,9 @@
       "category": "Earnings",
       "summary": "季度收入 1112 亿美元，同比增长 17%；摊薄 EPS 为 2.01 美元，同比增长 22%；服务收入再创新高。",
       "impact": "业绩显示 iPhone 与服务仍是主线，回购授权和股息提升强化资本回报。",
-      "sourceIds": ["aapl-q2-2026"]
+      "sourceIds": [
+        "aapl-q2-2026"
+      ]
     },
     {
       "date": "2025-10-31",
@@ -564,7 +855,9 @@
       "category": "SEC filing",
       "summary": "FY2025 净销售额 4161.61 亿美元，iPhone 和 Services 是主要收入来源。",
       "impact": "年报提供业务结构、供应链风险和采购义务基线。",
-      "sourceIds": ["aapl-10k-2025"]
+      "sourceIds": [
+        "aapl-10k-2025"
+      ]
     }
   ],
   "filings": [
@@ -618,12 +911,43 @@
       "publishedAt": "2026-05-18",
       "accessedAt": "2026-06-07",
       "type": "company"
+    },
+    {
+      "id": "rss-aapl-apple-and-major-league-baseball-announce-july-frid",
+      "title": "Apple and Major League Baseball announce July “Friday Night Baseball” schedule",
+      "publisher": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/06/apple-and-major-league-baseball-announce-july-friday-night-baseball-schedule/",
+      "publishedAt": "2026-06-04",
+      "accessedAt": "2026-06-07",
+      "type": "company"
+    },
+    {
+      "id": "rss-aapl-mini-football-legends-family-feud-pocket-and-seven",
+      "title": "Mini Football Legends, Family Feud Pocket, and seven more hits join Apple Arcade",
+      "publisher": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/06/mini-football-legends-family-feud-pocket-and-seven-more-hits-join-apple-arcade/",
+      "publishedAt": "2026-06-04",
+      "accessedAt": "2026-06-07",
+      "type": "company"
+    },
+    {
+      "id": "rss-aapl-app-store-ecosystem-reaches-1-4-trillion-as-develo",
+      "title": "App Store ecosystem reaches $1.4 trillion as developers thrive globally",
+      "publisher": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/06/app-store-ecosystem-reaches-1-point-4-trillion-usd-as-developers-thrive-globally/",
+      "publishedAt": "2026-06-04",
+      "accessedAt": "2026-06-07",
+      "type": "company"
     }
   ],
   "automation": {
     "sec": {
       "cik": "0000320193",
-      "forms": ["10-K", "10-Q", "8-K"]
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K"
+      ]
     },
     "newsFeeds": [
       {
