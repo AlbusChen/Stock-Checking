@@ -1,8 +1,6 @@
 name: Weekly Research Refresh
 
 on:
-  schedule:
-    - cron: "15 2 * * 1"
   workflow_dispatch:
 
 permissions:

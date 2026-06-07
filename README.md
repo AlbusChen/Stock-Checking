@@ -27,8 +27,10 @@ npm run build
 GitHub Actions 已包含：
 
 - `Deploy GitHub Pages`：main 分支构建并发布 Pages。
-- `Refresh News`：每 12 小时刷新新闻与 SEC 元数据。
-- `Weekly Research Refresh`：每周刷新较低频研究元数据。
+- `Refresh News`：手动刷新新闻与 SEC 元数据；定时触发暂未启用。
+- `Weekly Research Refresh`：手动刷新较低频研究元数据；定时触发暂未启用。
+
+页面上的更新频率目前是目标设计说明。自动定时更新会等页面和数据结构进一步完善后再启用。
 
 ## 扩展公司
 
