@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "id": "nvda",
+  "ticker": "NVDA",
+  "exchange": "NASDAQ",
+  "market": "US",
+  "name": "NVIDIA Corporation",
+  "legalName": "NVIDIA Corporation",
+  "cik": "0001045810",
+  "currency": "USD",
+  "sector": "Accelerated computing and AI infrastructure",
+  "industry": ["AI accelerators", "Data center systems", "Graphics", "Networking", "Autonomous systems"],
+  "homepage": "https://www.nvidia.com/",
+  "lastUpdated": "2026-06-07T16:45:00+08:00",
+  "summary": "AI 数据中心平台是收入主轴，关注 Blackwell/Rubin 放量、HBM 与先进封装供给、出口限制和客户集中度。",
+  "updateCadence": {
+    "最新动态": "12 小时",
+    "财务与公告": "每日",
+    "主营业务": "每周",
+    "供应链溯源": "每周"
+  },
+  "business": {
+    "description": "NVIDIA 提供 GPU、CPU、DPU、网络、系统和软件栈，核心场景从训练扩展到推理、AI 工厂、云、企业、工业、机器人、汽车和 AI PC。FY2027 起公司披露框架更强调 Data Center 与 Edge Computing 两大平台。",
+    "revenueModel": ["AI 加速器与系统", "网络与互连", "软件与平台", "游戏/专业图形/汽车"],
+    "segments": [
+      {
+        "name": "Data Center",
+        "revenue": 75.2,
+        "unit": "USD billions",
+        "period": "Q1 FY2027",
+        "share": 92.14,
+        "note": "最大业务，包含 AI 计算、网络、Hyperscale 与 ACIE 需求。",
+        "sourceIds": ["nvda-q1-fy2027"]
+      },
+      {
+        "name": "Edge Computing",
+        "revenue": 6.4,
+        "unit": "USD billions",
+        "period": "Q1 FY2027",
+        "share": 7.86,
+        "note": "包括 PC、游戏机、工作站、AI-RAN、机器人和汽车等边缘计算场景。",
+        "sourceIds": ["nvda-q1-fy2027"]
+      }
+    ],
+    "thesis": "NVIDIA 的价值链核心是 CUDA/系统平台与供应链能力的结合。需求端由 hyperscaler、AI 云、主权 AI、企业和工业 AI 工厂驱动；供给端关键在 HBM、CoWoS/先进封装、先进制程和整机交付。",
+    "riskNotes": [
+      "数据中心收入占比极高，客户资本开支周期和大型云客户采购节奏影响明显。",
+      "先进封装、HBM 和代工产能是放量瓶颈，供应链集中在亚洲。",
+      "出口管制和中国数据中心计算收入限制会影响产品组合和库存风险。"
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-07T16:45:00+08:00",
+    "thesis": "NVIDIA 是无晶圆设计与平台公司，关键制造外包给 foundry、HBM、先进封装、板卡和系统 ODM。上溯到原材料后，瓶颈集中在先进晶圆、HBM 堆叠、ABF/有机基板、CoWoS 类先进封装、EUV 设备、特种气体和高纯化学品。",
+    "tiers": [
+      {
+        "level": 0,
+        "title": "芯片、系统和软件平台定义",
+        "companies": ["NVIDIA"],
+        "geography": ["United States", "Global"],
+        "materials": ["GPU/CPU/DPU designs", "CUDA", "Networking stack", "Reference systems"],
+        "notes": "NVIDIA 控制架构、软件生态、参考系统和客户平台路线，制造环节主要依赖外部供应商。",
+        "confidence": "high",
+        "sourceIds": ["nvda-10k-2026", "nvda-q1-fy2027"]
+      },
+      {
+        "level": 1,
+        "title": "晶圆代工、HBM 与封装",
+        "companies": ["TSMC", "Samsung Electronics", "SK Hynix", "Micron", "ASE/SPIL", "Amkor"],
+        "geography": ["Taiwan", "South Korea", "United States"],
+        "materials": ["Advanced logic wafers", "HBM", "CoWoS/advanced packaging", "DRAM stacks"],
+        "notes": "NVIDIA 年报披露使用 TSMC、Samsung 等 foundry，并采购 SK Hynix、Micron、Samsung 的 memory。HBM 与先进封装是 AI 加速器出货弹性的核心。",
+        "confidence": "high",
+        "sourceIds": ["nvda-10k-2026"]
+      },
+      {
+        "level": 1,
+        "title": "板卡、服务器和整机集成",
+        "companies": ["Foxconn", "Quanta", "Wistron", "Supermicro", "Dell", "HPE", "Lenovo"],
+        "geography": ["Taiwan", "China mainland", "United States", "Mexico"],
+        "materials": ["Accelerator boards", "AI servers", "Racks", "Cooling and power"],
+        "notes": "该层将芯片、网络、板卡、电源、散热和机柜整合为数据中心可部署系统；具体客户项目的供应商组合会变化。",
+        "confidence": "medium",
+        "sourceIds": ["nvda-10k-2026", "nvda-q1-fy2027"]
+      },
+      {
+        "level": 2,
+        "title": "设备、基板、材料和化学品",
+        "companies": ["ASML", "Applied Materials", "Lam Research", "Tokyo Electron", "KLA", "Ibiden", "Unimicron", "Shinko"],
+        "geography": ["Netherlands", "United States", "Japan", "Taiwan"],
+        "materials": ["EUV tools", "ABF substrates", "Photomasks", "Photoresists", "Specialty gases"],
+        "notes": "这一级大多是 NVIDIA 供应商的供应商；用于追踪产能瓶颈，而非直接采购关系。",
+        "confidence": "low",
+        "sourceIds": ["nvda-10k-2026"]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "高纯硅与先进晶圆",
+        "usedIn": "GPU、CPU、DPU、交换芯片",
+        "upstream": ["Quartz", "Polysilicon", "300mm wafers"],
+        "risk": "受先进制程产能、良率、EUV 和封装排产共同约束。",
+        "confidence": "medium"
+      },
+      {
+        "name": "HBM 相关材料",
+        "usedIn": "AI 加速器内存堆叠",
+        "upstream": ["DRAM wafers", "TSV materials", "Copper", "Packaging films"],
+        "risk": "HBM 供应商集中，堆叠良率和客户认证周期会影响交付。",
+        "confidence": "medium"
+      },
+      {
+        "name": "ABF 基板、铜、化学品、特种气体",
+        "usedIn": "先进封装、PCB、服务器电源和散热",
+        "upstream": ["Copper foil", "Resins", "Industrial gases", "Fluorochemicals"],
+        "risk": "AI 服务器拉动大尺寸基板、电源、散热和机柜需求，供应约束会从芯片扩散到系统层。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "financials": {
+    "latestPeriod": "Q1 FY2027 / FY2026 baseline",
+    "highlights": [
+      {
+        "label": "Q1 FY2027 revenue",
+        "value": 81.615,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-04-26",
+        "change": "up 85% YoY",
+        "sourceIds": ["nvda-q1-fy2027"]
+      },
+      {
+        "label": "Q1 FY2027 Data Center",
+        "value": 75.2,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-04-26",
+        "change": "up 92% YoY",
+        "sourceIds": ["nvda-q1-fy2027"]
+      },
+      {
+        "label": "FY2026 revenue",
+        "value": 215.938,
+        "unit": "USD billions",
+        "period": "FY2026",
+        "change": "up 65% YoY",
+        "sourceIds": ["nvda-fy2026-results"]
+      },
+      {
+        "label": "Q1 FY2027 GAAP gross margin",
+        "value": 74.9,
+        "unit": "percent",
+        "period": "Quarter ended 2026-04-26",
+        "change": "74.9%",
+        "sourceIds": ["nvda-q1-fy2027"]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "Data Center",
+        "revenue": 75.2,
+        "unit": "USD billions",
+        "period": "Q1 FY2027",
+        "share": 92.14,
+        "note": "NVIDIA 新披露框架下的主要平台。",
+        "sourceIds": ["nvda-q1-fy2027"]
+      },
+      {
+        "name": "Edge Computing",
+        "revenue": 6.4,
+        "unit": "USD billions",
+        "period": "Q1 FY2027",
+        "share": 7.86,
+        "note": "涵盖 PC、游戏、工作站、汽车、机器人和 AI-RAN。",
+        "sourceIds": ["nvda-q1-fy2027"]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-05-31",
+      "title": "NVIDIA 与 Microsoft 推动个人 AI Windows PC",
+      "category": "Product / Ecosystem",
+      "summary": "NVIDIA RTX Spark 面向个人智能体 PC，强调 1 petaflop AI 性能、统一内存和全栈 AI/图形技术。",
+      "impact": "边缘计算与 AI PC 可能成为数据中心之外的新平台入口。",
+      "sourceIds": ["nvda-rtx-spark"]
+    },
+    {
+      "date": "2026-05-20",
+      "title": "NVIDIA 发布 Q1 FY2027 业绩",
+      "category": "Earnings",
+      "summary": "季度收入 816.15 亿美元，同比增长 85%；Data Center 收入 752 亿美元，同比增长 92%；同时提高股息并新增 800 亿美元回购授权。",
+      "impact": "AI 工厂建设继续驱动高增长，市场会继续盯紧 HBM、先进封装和大型客户资本开支。",
+      "sourceIds": ["nvda-q1-fy2027"]
+    },
+    {
+      "date": "2026-02-25",
+      "title": "NVIDIA FY2026 年收入达到 2159.38 亿美元",
+      "category": "Earnings",
+      "summary": "FY2026 收入同比增长 65%，Data Center 全年收入达到 1937 亿美元。",
+      "impact": "公司收入结构进一步向 AI 数据中心集中。",
+      "sourceIds": ["nvda-fy2026-results"]
+    }
+  ],
+  "filings": [
+    {
+      "form": "10-K",
+      "filedAt": "2026-02-25",
+      "reportDate": "2026-01-25",
+      "title": "FY2026 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-05-22",
+      "reportDate": "2026-04-26",
+      "title": "Q1 FY2027 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/0001045810-26-000052-index.htm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "nvda-q1-fy2027",
+      "title": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027",
+      "publisher": "NVIDIA Investor Relations",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-First-Quarter-Fiscal-2027/default.aspx",
+      "publishedAt": "2026-05-20",
+      "accessedAt": "2026-06-07",
+      "type": "company"
+    },
+    {
+      "id": "nvda-fy2026-results",
+      "title": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+      "publisher": "NVIDIA Investor Relations",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026/",
+      "publishedAt": "2026-02-25",
+      "accessedAt": "2026-06-07",
+      "type": "company"
+    },
+    {
+      "id": "nvda-10k-2026",
+      "title": "NVIDIA FY2026 Form 10-K",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "publishedAt": "2026-02-25",
+      "accessedAt": "2026-06-07",
+      "type": "sec"
+    },
+    {
+      "id": "nvda-rtx-spark",
+      "title": "NVIDIA and Microsoft Reinvent Windows PCs for the Age of Personal AI",
+      "publisher": "NVIDIA Newsroom",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark",
+      "publishedAt": "2026-05-31",
+      "accessedAt": "2026-06-07",
+      "type": "company"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0001045810",
+      "forms": ["10-K", "10-Q", "8-K"]
+    },
+    "newsFeeds": [
+      {
+        "url": "https://nvidianews.nvidia.com/news?pagetemplate=rss",
+        "publisher": "NVIDIA Newsroom",
+        "sourceType": "company"
+      }
+    ]
+  }
+}

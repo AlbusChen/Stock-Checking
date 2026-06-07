@@ -16,18 +16,24 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
       - run: python3 scripts/update_news.py
       - run: python3 scripts/update_sec_filings.py
         env:
           SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT || 'Stock-Checking GitHub Action contact@example.com' }}
       - run: python3 scripts/build_company_index.py
       - run: python3 scripts/validate_data.py
+      - run: npm ci
+      - run: npm run sync:pages
       - name: Commit refreshed data
         run: |
-          if [[ -n "$(git status --porcelain public/data)" ]]; then
+          if [[ -n "$(git status --porcelain public/data data assets index.html)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add public/data
+            git add public/data data assets index.html
             git commit -m "chore: refresh company news data"
             git push
           else

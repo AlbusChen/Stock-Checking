@@ -36,6 +36,7 @@ GitHub Actions 已包含：
 ```bash
 python3 scripts/build_company_index.py
 python3 scripts/validate_data.py
+npm run sync:pages
 ```
 
 A 股数据模型已预留 `market: "CN"`，后续可接入巨潮资讯、上交所、深交所公告和公司年报。
