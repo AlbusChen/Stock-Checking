@@ -37,6 +37,20 @@ def parse_date(value: str | None) -> str:
         return value[:10]
 
 
+def bilingual_auto_news(title: str, summary: str) -> dict:
+    summary = summary[:260]
+    return {
+        "titleZh": f"自动抓取新闻：{title}",
+        "titleEn": title,
+        "categoryZh": "新闻",
+        "categoryEn": "News",
+        "summaryZh": "自动抓取摘要，需人工翻译与复核。" if summary else "自动抓取条目，需人工补充摘要。",
+        "summaryEn": summary,
+        "impactZh": "自动抓取条目，需要人工复核业务影响。",
+        "impactEn": "Automatically fetched item; business impact requires manual review.",
+    }
+
+
 def load_feed(url: str) -> list[dict]:
     request = urllib.request.Request(url, headers={"User-Agent": "Stock-Checking research bot"})
     with urllib.request.urlopen(request, timeout=30) as response:
@@ -98,6 +112,8 @@ def update_report(path: Path) -> bool:
                     {
                         "id": source_id,
                         "title": item["title"],
+                        "titleZh": f"自动抓取新闻：{item['title']}",
+                        "titleEn": item["title"],
                         "publisher": feed["publisher"],
                         "url": item["url"],
                         "publishedAt": item["date"],
@@ -106,6 +122,7 @@ def update_report(path: Path) -> bool:
                     }
                 )
                 source_ids.add(source_id)
+            localized = bilingual_auto_news(item["title"], item["summary"])
             news.append(
                 {
                     "date": item["date"],
@@ -113,6 +130,7 @@ def update_report(path: Path) -> bool:
                     "category": "News",
                     "summary": item["summary"][:260],
                     "impact": "自动抓取条目，需要人工复核业务影响。",
+                    **localized,
                     "sourceIds": [source_id],
                 }
             )

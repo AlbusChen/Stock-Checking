@@ -10,8 +10,10 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import { useMemo, useState } from "react";
+import { combineLocalized, localizedField, localizedList } from "../lib/localization";
 import type { BusinessSegment, CompanyReport, Source, SupplierListing } from "../types/company";
 import { MetricStrip } from "./MetricStrip";
+import { TextPair } from "./TextPair";
 
 interface CompanyDetailProps {
   report: CompanyReport;
@@ -59,7 +61,7 @@ function SegmentBars({ segments, sources }: { segments: BusinessSegment[]; sourc
       {segments.map((segment) => (
         <div className="bar-row" key={segment.name}>
           <div className="bar-label">
-            <span>{segment.name}</span>
+            <TextPair text={localizedField(segment, "name")} />
             <strong>
               {segment.revenue ? `$${segment.revenue.toLocaleString("en-US")}B` : "n/a"}
             </strong>
@@ -67,7 +69,9 @@ function SegmentBars({ segments, sources }: { segments: BusinessSegment[]; sourc
           <div className="bar-track">
             <div className="bar-fill" style={{ width: `${((segment.revenue ?? 0) / maxRevenue) * 100}%` }} />
           </div>
-          <p>{segment.note}</p>
+          <p>
+            <TextPair text={localizedField(segment, "note")} />
+          </p>
           <Evidence ids={segment.sourceIds} sources={sources} />
         </div>
       ))}
@@ -193,10 +197,14 @@ export function CompanyDetail({ report }: CompanyDetailProps) {
               <article className="tier-card" key={`${tier.level}-${tier.title}`}>
                 <div className="tier-top">
                   <span>Tier {tier.level}</span>
-                  <strong>{tier.title}</strong>
+                  <strong>
+                    <TextPair text={localizedField(tier, "title")} />
+                  </strong>
                   <em>{tier.confidence}</em>
                 </div>
-                <p>{tier.notes}</p>
+                <p>
+                  <TextPair text={localizedField(tier, "notes")} />
+                </p>
                 <div className="supplier-list">
                   {tier.entities.map((entity) => {
                     const href = listingHref(entity.listing);
@@ -212,15 +220,19 @@ export function CompanyDetail({ report }: CompanyDetailProps) {
                           ) : (
                             <span className="listing-status">{listingText(entity.listing)}</span>
                           )}
-                          {entity.listing.note ? <small>{entity.listing.note}</small> : null}
+                          {entity.listing.note ? (
+                            <TextPair className="listing-note" text={localizedField(entity.listing, "note")} />
+                          ) : null}
                         </div>
                         <div className="supplier-detail">
-                          <p>{entity.relationship}</p>
+                          <p>
+                            <TextPair text={localizedField(entity, "relationship")} />
+                          </p>
                           <div className="supplier-tags">
-                            {entity.productsServices.map((item) => (
-                              <span className="pill" key={`${entity.name}-${item}`}>
+                            {localizedList(entity, "productsServices").map((item) => (
+                              <span className="pill" key={`${entity.name}-${item.zh}`}>
                                 <Factory size={13} aria-hidden="true" />
-                                {item}
+                                <TextPair text={item} />
                               </span>
                             ))}
                           </div>
@@ -239,7 +251,19 @@ export function CompanyDetail({ report }: CompanyDetailProps) {
                     );
                   })}
                 </div>
-                <div className="subline">{tier.materials.join(" / ")}</div>
+                <div className="subline">
+                  <TextPair
+                    text={{
+                      zh: localizedList(tier, "materials")
+                        .map((item) => item.zh)
+                        .join(" / "),
+                      en: localizedList(tier, "materials")
+                        .map((item) => item.en)
+                        .filter(Boolean)
+                        .join(" / "),
+                    }}
+                  />
+                </div>
                 <Evidence ids={tier.sourceIds} sources={sources} />
               </article>
             ))}
@@ -249,9 +273,28 @@ export function CompanyDetail({ report }: CompanyDetailProps) {
             <div className="raw-grid">
               {report.supplyChain.rawMaterials.map((material) => (
                 <div className="raw-item" key={material.name}>
-                  <strong>{material.name}</strong>
-                  <span>{material.usedIn}</span>
-                  <p>{material.risk}</p>
+                  <strong>
+                    <TextPair text={localizedField(material, "name")} />
+                  </strong>
+                  <span>
+                    <TextPair text={localizedField(material, "usedIn")} />
+                  </span>
+                  <p>
+                    <TextPair text={localizedField(material, "risk")} />
+                  </p>
+                  <small>
+                    <TextPair
+                      text={{
+                        zh: `上游：${localizedList(material, "upstream")
+                          .map((item) => item.zh)
+                          .join(" / ")}`,
+                        en: `Upstream: ${localizedList(material, "upstream")
+                          .map((item) => item.en)
+                          .filter(Boolean)
+                          .join(" / ")}`,
+                      }}
+                    />
+                  </small>
                 </div>
               ))}
             </div>
@@ -266,13 +309,20 @@ export function CompanyDetail({ report }: CompanyDetailProps) {
             <div className="metric-list">
               {report.financials.highlights.map((metric) => (
                 <div className="metric-row" key={`${metric.label}-${metric.period}`}>
-                  <span>{metric.label}</span>
+                  <TextPair text={localizedField(metric, "label")} />
                   <strong>
                     {metric.unit === "USD billions" ? "$" : ""}
                     {metric.value.toLocaleString("en-US")}
                     {metric.unit === "USD billions" ? "B" : metric.unit === "percent" ? "%" : ""}
                   </strong>
-                  <small>{metric.change}</small>
+                  <TextPair
+                    className="metric-context"
+                    text={combineLocalized(
+                      [localizedField(metric, "period"), metric.change ? localizedField(metric, "change") : null].filter(
+                        Boolean,
+                      ) as ReturnType<typeof localizedField>[],
+                    )}
+                  />
                   <Evidence ids={metric.sourceIds} sources={sources} />
                 </div>
               ))}
@@ -291,10 +341,18 @@ export function CompanyDetail({ report }: CompanyDetailProps) {
             <article className="news-item" key={`${item.date}-${item.title}`}>
               <time>{item.date}</time>
               <div>
-                <span className="category">{item.category}</span>
-                <h2>{item.title}</h2>
-                <p>{item.summary}</p>
-                <strong>{item.impact}</strong>
+                <span className="category">
+                  <TextPair text={localizedField(item, "category")} />
+                </span>
+                <h2>
+                  <TextPair text={localizedField(item, "title")} />
+                </h2>
+                <p>
+                  <TextPair text={localizedField(item, "summary")} />
+                </p>
+                <strong>
+                  <TextPair text={localizedField(item, "impact")} />
+                </strong>
                 <Evidence ids={item.sourceIds} sources={sources} />
               </div>
             </article>
@@ -307,7 +365,9 @@ export function CompanyDetail({ report }: CompanyDetailProps) {
           {report.sources.map((source) => (
             <a className="source-card" href={source.url} target="_blank" rel="noreferrer" key={source.id}>
               <span>{source.type}</span>
-              <strong>{source.title}</strong>
+              <strong>
+                <TextPair text={localizedField(source, "title")} />
+              </strong>
               <small>
                 {source.publisher}
                 {source.publishedAt ? ` · ${source.publishedAt}` : ""}

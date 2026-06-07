@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "sync:pages": "npm run build && python3 scripts/sync_pages_artifacts.py",
+    "bilingual:data": "python3 scripts/apply_bilingual_fields.py",
     "validate:data": "python3 scripts/validate_data.py",
     "refresh:index": "python3 scripts/build_company_index.py"
   },

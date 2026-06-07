@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -35,6 +36,45 @@ REQUIRED_TOP_LEVEL = {
 }
 
 LISTING_STATUSES = {"listed", "listed-parent", "private", "delisted", "unknown"}
+
+
+def has_cjk(value: str) -> bool:
+    return bool(re.search(r"[\u3400-\u9fff]", value))
+
+
+def has_localized_pair(item: dict, field: str) -> bool:
+    base = item.get(field)
+    if not isinstance(base, str):
+        base = ""
+    zh = item.get(f"{field}Zh") or (base if has_cjk(base) else "")
+    en = item.get(f"{field}En") or (base if base and not has_cjk(base) else "")
+    return isinstance(zh, str) and bool(zh.strip()) and isinstance(en, str) and bool(en.strip())
+
+
+def has_localized_list_pair(item: dict, field: str) -> bool:
+    base = item.get(field)
+    if not isinstance(base, list) or not base:
+        return False
+    zh = item.get(f"{field}Zh")
+    en = item.get(f"{field}En")
+    return (
+        isinstance(zh, list)
+        and isinstance(en, list)
+        and len(zh) == len(base)
+        and len(en) == len(base)
+        and all(isinstance(value, str) and value.strip() for value in zh)
+        and all(isinstance(value, str) and value.strip() for value in en)
+    )
+
+
+def require_localized(errors: list[str], path: Path, item: dict, field: str, label: str) -> None:
+    if not has_localized_pair(item, field):
+        errors.append(f"{path.name}: {label} needs {field}Zh and {field}En")
+
+
+def require_localized_list(errors: list[str], path: Path, item: dict, field: str, label: str) -> None:
+    if not has_localized_list_pair(item, field):
+        errors.append(f"{path.name}: {label} needs {field}Zh and {field}En lists")
 
 
 def collect_source_refs(report: dict) -> set[str]:
@@ -83,6 +123,25 @@ def validate_report(path: Path) -> list[str]:
     if not report.get("supplyChain", {}).get("tiers"):
         errors.append(f"{path.name}: needs supply-chain tiers")
 
+    for metric in report.get("financials", {}).get("highlights", []):
+        label = metric.get("label", "unnamed metric")
+        require_localized(errors, path, metric, "label", f"metric {label}")
+        require_localized(errors, path, metric, "period", f"metric {label}")
+        if metric.get("change"):
+            require_localized(errors, path, metric, "change", f"metric {label}")
+
+    for segment in report.get("financials", {}).get("revenueMix", []):
+        label = segment.get("name", "unnamed revenue segment")
+        require_localized(errors, path, segment, "name", f"revenue segment {label}")
+        require_localized(errors, path, segment, "note", f"revenue segment {label}")
+
+    for item in report.get("news", []):
+        label = item.get("title", "untitled news")
+        require_localized(errors, path, item, "title", f"news {label}")
+        require_localized(errors, path, item, "category", f"news {label}")
+        require_localized(errors, path, item, "summary", f"news {label}")
+        require_localized(errors, path, item, "impact", f"news {label}")
+
     for tier in report.get("supplyChain", {}).get("tiers", []):
         tier_name = tier.get("title", "untitled tier")
         entities = tier.get("entities")
@@ -94,8 +153,10 @@ def validate_report(path: Path) -> list[str]:
             name = entity.get("name", "unnamed supplier")
             if not entity.get("relationship"):
                 errors.append(f"{path.name}: supplier {name} needs relationship")
+            require_localized(errors, path, entity, "relationship", f"supplier {name}")
             if not entity.get("productsServices"):
                 errors.append(f"{path.name}: supplier {name} needs productsServices")
+            require_localized_list(errors, path, entity, "productsServices", f"supplier {name}")
             if not entity.get("sourceIds"):
                 errors.append(f"{path.name}: supplier {name} needs sourceIds")
 

@@ -229,6 +229,33 @@ a {
   font-size: 13px;
 }
 
+.text-pair {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.text-pair > span,
+.text-pair > small {
+  min-width: 0;
+}
+
+.text-pair > small {
+  color: #6b756f;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.metric-context > span {
+  color: #5f6d68;
+  font-size: 13px;
+}
+
+.metric-context > small {
+  color: #7a8580;
+}
+
 .metric strong {
   color: #111817;
   font-size: 27px;
@@ -339,6 +366,14 @@ a {
   min-height: 28px;
   padding: 3px 10px;
   font-size: 13px;
+}
+
+.pill .text-pair {
+  gap: 0;
+}
+
+.pill .text-pair > small {
+  font-size: 11px;
 }
 
 .cadence {
@@ -494,6 +529,11 @@ a {
   line-height: 1.4;
 }
 
+.supplier-main .listing-note {
+  color: #6b756f;
+  font-size: 12px;
+}
+
 .listing-link,
 .listing-status,
 .supplier-links a,
@@ -576,6 +616,12 @@ a {
   font-weight: 700;
 }
 
+.raw-item small {
+  color: #6b756f;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
 .metric-list {
   display: grid;
   gap: 10px;
@@ -627,6 +673,18 @@ a {
   font-size: 12px;
   font-weight: 800;
   text-transform: uppercase;
+}
+
+.category .text-pair > small {
+  color: #9d8244;
+  font-size: 11px;
+  text-transform: none;
+}
+
+.source-card .text-pair > small,
+.news-item .text-pair > small,
+.bar-row .text-pair > small {
+  color: #6b756f;
 }
 
 .source-list {

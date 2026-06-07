@@ -43,7 +43,13 @@
         "note": "PC 与客户端平台是当前最重要收入来源之一。",
         "sourceIds": [
           "intc-q1-2026"
-        ]
+        ],
+        "nameZh": "客户端计算事业部",
+        "nameEn": "Client Computing Group",
+        "periodZh": "2026 年第一季度",
+        "periodEn": "Q1 2026",
+        "noteZh": "PC 与客户端平台是当前最重要收入来源之一。",
+        "noteEn": "PC 与客户端平台是当前最重要收入来源之一。"
       },
       {
         "name": "Data Center and AI",
@@ -54,7 +60,13 @@
         "note": "受 Xeon、AI 基础设施主机 CPU 和云/企业需求驱动。",
         "sourceIds": [
           "intc-q1-2026"
-        ]
+        ],
+        "nameZh": "数据中心与 AI",
+        "nameEn": "Data Center and AI",
+        "periodZh": "2026 年第一季度",
+        "periodEn": "Q1 2026",
+        "noteZh": "受 Xeon、AI 基础设施主机 CPU 和云/企业需求驱动。",
+        "noteEn": "受 Xeon、AI 基础设施主机 CPU 和云/企业需求驱动。"
       },
       {
         "name": "Intel Foundry",
@@ -65,7 +77,13 @@
         "note": "含内部交易，不能与总净收入直接相加；是中长期战略弹性来源。",
         "sourceIds": [
           "intc-q1-2026"
-        ]
+        ],
+        "nameZh": "英特尔代工",
+        "nameEn": "Intel Foundry",
+        "periodZh": "2026 年第一季度",
+        "periodEn": "Q1 2026",
+        "noteZh": "含内部交易，不能与总净收入直接相加；是中长期战略弹性来源。",
+        "noteEn": "含内部交易，不能与总净收入直接相加；是中长期战略弹性来源。"
       }
     ],
     "thesis": "Intel 的看点在于 CPU 基本盘、供给改善、Intel 18A/后续节点、先进封装和外部 foundry 客户能否同时兑现。若良率、成本和客户导入进展同步改善，估值弹性来自 foundry；若资本开支与折旧压力过大，则利润修复会受限。",
@@ -105,6 +123,18 @@
             "confidence": "high",
             "sourceIds": [
               "intc-10k-2025"
+            ],
+            "relationshipZh": "目标企业本体；既设计 CPU/AI PC/数据中心芯片，也运营自有晶圆厂、封装测试基地，并向外部客户推进 foundry 服务。",
+            "relationshipEn": "Intel is tracked in the Product design, manufacturing, and foundry services layer for CPU designs, Foundry services, Advanced packaging. Read the relationship together with the confidence level and cited sources.",
+            "productsServicesZh": [
+              "CPU 设计",
+              "晶圆代工服务",
+              "先进封装"
+            ],
+            "productsServicesEn": [
+              "CPU designs",
+              "Foundry services",
+              "Advanced packaging"
             ]
           }
         ],
@@ -126,6 +156,22 @@
         "confidence": "high",
         "sourceIds": [
           "intc-10k-2025"
+        ],
+        "titleZh": "产品设计、制造和 foundry 服务",
+        "titleEn": "Product design, manufacturing, and foundry services",
+        "notesZh": "Intel 年报披露 2025 年主要封装测试设施在中国、新墨西哥、越南和马来西亚，新墨西哥是关键先进封装设施，马来西亚有新先进封装设施在建设。",
+        "notesEn": "Intel 年报披露 2025 年主要封装测试设施在中国、新墨西哥、越南和马来西亚，新墨西哥是关键先进封装设施，马来西亚有新先进封装设施在建设。",
+        "materialsZh": [
+          "CPU 设计",
+          "制程节点",
+          "先进封装",
+          "封装测试"
+        ],
+        "materialsEn": [
+          "CPU designs",
+          "Process nodes",
+          "Advanced packaging",
+          "Assembly and test"
         ]
       },
       {
@@ -158,6 +204,18 @@
             "confidence": "medium",
             "sourceIds": [
               "intc-10k-2025"
+            ],
+            "relationshipZh": "Intel 年报明确提到先进节点需要 ASML EUV 工具；ASML 是 Intel 先进制程扩产和良率爬坡的关键设备供应商。",
+            "relationshipEn": "ASML is tracked in the Fab equipment and process tools layer for EUV lithography systems, DUV lithography systems, Lithography services. Read the relationship together with the confidence level and cited sources.",
+            "productsServicesZh": [
+              "EUV 光刻系统",
+              "DUV 光刻系统",
+              "光刻服务"
+            ],
+            "productsServicesEn": [
+              "EUV lithography systems",
+              "DUV lithography systems",
+              "Lithography services"
             ]
           },
           {
@@ -179,6 +237,18 @@
             "confidence": "medium",
             "sourceIds": [
               "intc-10k-2025"
+            ],
+            "relationshipZh": "向 Intel 和同类晶圆厂提供材料工程、沉积和工艺设备；关系重点是先进节点资本开支、设备交期和产能安装。",
+            "relationshipEn": "Applied Materials is tracked in the Fab equipment and process tools layer for Deposition tools, Materials engineering, Process equipment. Read the relationship together with the confidence level and cited sources.",
+            "productsServicesZh": [
+              "沉积设备",
+              "材料工程",
+              "工艺设备"
+            ],
+            "productsServicesEn": [
+              "Deposition tools",
+              "Materials engineering",
+              "Process equipment"
             ]
           },
           {
@@ -200,6 +270,18 @@
             "confidence": "medium",
             "sourceIds": [
               "intc-10k-2025"
+            ],
+            "relationshipZh": "为晶圆厂提供刻蚀、沉积和清洗设备；对 Intel 的关系主要是前道制程设备供应和先进节点良率支撑。",
+            "relationshipEn": "Lam Research is tracked in the Fab equipment and process tools layer for Etch tools, Deposition tools, Wafer cleaning equipment. Read the relationship together with the confidence level and cited sources.",
+            "productsServicesZh": [
+              "刻蚀设备",
+              "沉积设备",
+              "晶圆清洗设备"
+            ],
+            "productsServicesEn": [
+              "Etch tools",
+              "Deposition tools",
+              "Wafer cleaning equipment"
             ]
           },
           {
@@ -221,6 +303,18 @@
             "confidence": "medium",
             "sourceIds": [
               "intc-10k-2025"
+            ],
+            "relationshipZh": "半导体前道设备供应商，服务 Intel 及全球晶圆制造生态；关系集中在涂布显影、沉积、刻蚀等工艺设备。",
+            "relationshipEn": "Tokyo Electron is tracked in the Fab equipment and process tools layer for Coater/developer tools, Deposition equipment, Etch systems. Read the relationship together with the confidence level and cited sources.",
+            "productsServicesZh": [
+              "涂布/显影设备",
+              "沉积设备",
+              "刻蚀系统"
+            ],
+            "productsServicesEn": [
+              "Coater/developer tools",
+              "Deposition equipment",
+              "Etch systems"
             ]
           },
           {
@@ -242,6 +336,18 @@
             "confidence": "medium",
             "sourceIds": [
               "intc-10k-2025"
+            ],
+            "relationshipZh": "检测、量测和过程控制设备供应商；Intel 先进节点爬坡需要通过这类设备降低缺陷并提升良率。",
+            "relationshipEn": "KLA is tracked in the Fab equipment and process tools layer for Inspection tools, Metrology systems, Process control. Read the relationship together with the confidence level and cited sources.",
+            "productsServicesZh": [
+              "检测设备",
+              "量测系统",
+              "过程控制"
+            ],
+            "productsServicesEn": [
+              "Inspection tools",
+              "Metrology systems",
+              "Process control"
             ]
           }
         ],
@@ -261,6 +367,24 @@
         "confidence": "medium",
         "sourceIds": [
           "intc-10k-2025"
+        ],
+        "titleZh": "晶圆厂设备与工艺工具",
+        "titleEn": "Fab equipment and process tools",
+        "notesZh": "Intel 年报明确提到先进制程所需的 ASML EUV 工具；其他设备商为半导体制造通用关键环节，具体采购比例未逐项披露。",
+        "notesEn": "Intel 年报明确提到先进制程所需的 ASML EUV 工具；其他设备商为半导体制造通用关键环节，具体采购比例未逐项披露。",
+        "materialsZh": [
+          "EUV 光刻",
+          "沉积",
+          "刻蚀",
+          "检测",
+          "量测"
+        ],
+        "materialsEn": [
+          "EUV lithography",
+          "Deposition",
+          "Etch",
+          "Inspection",
+          "Metrology"
         ]
       },
       {
@@ -294,6 +418,18 @@
             "confidence": "low",
             "sourceIds": [
               "intc-10k-2025"
+            ],
+            "relationshipZh": "Intel 部分产品和 chiplet 可能使用外部 foundry；TSMC 是先进外部代工产能的核心变量，但具体产品和比例需以 Intel 后续披露为准。",
+            "relationshipEn": "TSMC is tracked in the External foundry, packaging, and substrates layer for External foundry wafers, Advanced process capacity, Chiplet manufacturing. Read the relationship together with the confidence level and cited sources.",
+            "productsServicesZh": [
+              "外部代工晶圆",
+              "先进制程产能",
+              "Chiplet 制造"
+            ],
+            "productsServicesEn": [
+              "External foundry wafers",
+              "Advanced process capacity",
+              "Chiplet manufacturing"
             ]
           },
           {
@@ -315,6 +451,18 @@
             "confidence": "low",
             "sourceIds": [
               "intc-10k-2025"
+            ],
+            "relationshipZh": "外部 OSAT 和先进封装测试生态参与者；对 Intel 的意义是封装/测试产能弹性和供应链备份，而非所有产品的直接供应商。",
+            "relationshipEn": "ASE Technology is tracked in the External foundry, packaging, and substrates layer for OSAT services, Advanced packaging, Semiconductor test. Read the relationship together with the confidence level and cited sources.",
+            "productsServicesZh": [
+              "封装测试服务",
+              "先进封装",
+              "半导体测试"
+            ],
+            "productsServicesEn": [
+              "OSAT services",
+              "Advanced packaging",
+              "Semiconductor test"
             ]
           },
           {
@@ -336,6 +484,18 @@
             "confidence": "low",
             "sourceIds": [
               "intc-10k-2025"
+            ],
+            "relationshipZh": "封装测试服务商；与 Intel 的关系主要是外部封测生态和先进封装产能备选，用于追踪供应弹性。",
+            "relationshipEn": "Amkor is tracked in the External foundry, packaging, and substrates layer for Semiconductor packaging, Test services, Advanced packages. Read the relationship together with the confidence level and cited sources.",
+            "productsServicesZh": [
+              "半导体封装",
+              "测试服务",
+              "先进封装件"
+            ],
+            "productsServicesEn": [
+              "Semiconductor packaging",
+              "Test services",
+              "Advanced packages"
             ]
           },
           {
@@ -357,6 +517,18 @@
             "confidence": "low",
             "sourceIds": [
               "intc-10k-2025"
+            ],
+            "relationshipZh": "封装基板供应商，处于 Intel 先进封装和高性能 CPU/GPU 封装的上游材料层。",
+            "relationshipEn": "Ibiden is tracked in the External foundry, packaging, and substrates layer for ABF substrates, Package substrates, Organic substrates. Read the relationship together with the confidence level and cited sources.",
+            "productsServicesZh": [
+              "ABF 基板",
+              "封装基板",
+              "有机基板"
+            ],
+            "productsServicesEn": [
+              "ABF substrates",
+              "Package substrates",
+              "Organic substrates"
             ]
           },
           {
@@ -378,6 +550,18 @@
             "confidence": "low",
             "sourceIds": [
               "intc-10k-2025"
+            ],
+            "relationshipZh": "IC 载板和 PCB 供应商，间接影响 Intel 封装、板级集成和服务器平台材料供应。",
+            "relationshipEn": "Unimicron is tracked in the External foundry, packaging, and substrates layer for IC substrates, PCBs, HDI boards. Read the relationship together with the confidence level and cited sources.",
+            "productsServicesZh": [
+              "IC 载板",
+              "印刷电路板",
+              "高密度互连板"
+            ],
+            "productsServicesEn": [
+              "IC substrates",
+              "PCBs",
+              "HDI boards"
             ]
           },
           {
@@ -391,13 +575,27 @@
             "listing": {
               "status": "delisted",
               "formerTicker": "6967.T",
-              "note": "2025 年公开文件显示 JICC-04 tender offer 以私有化为目的"
+              "note": "2025 年公开文件显示 JICC-04 tender offer 以私有化为目的",
+              "noteZh": "2025 年公开文件显示 JICC-04 tender offer 以私有化为目的",
+              "noteEn": "2025 年公开文件显示 JICC-04 tender offer 以私有化为目的"
             },
             "companyUrl": "https://www.shinko.co.jp/english/",
             "confidence": "low",
             "sourceIds": [
               "intc-10k-2025",
               "shinko-tender-2025"
+            ],
+            "relationshipZh": "封装基板与半导体封装材料供应链参与者；2025 年公开文件显示其 tender offer 目标包括私有化，因此这里作为供应链实体保留但不展示可交易股票链接。",
+            "relationshipEn": "Shinko Electric Industries is tracked in the External foundry, packaging, and substrates layer for Package substrates, Semiconductor packages, Lead frames. Read the relationship together with the confidence level and cited sources.",
+            "productsServicesZh": [
+              "封装基板",
+              "半导体封装件",
+              "引线框架"
+            ],
+            "productsServicesEn": [
+              "Package substrates",
+              "Semiconductor packages",
+              "Lead frames"
             ]
           }
         ],
@@ -417,6 +615,22 @@
         "confidence": "low",
         "sourceIds": [
           "intc-10k-2025"
+        ],
+        "titleZh": "外部 foundry、封装与基板",
+        "titleEn": "External foundry, packaging, and substrates",
+        "notesZh": "Intel 部分产品会依赖外部 foundry 或封装生态；该层用于追踪供应弹性和先进封装瓶颈。",
+        "notesEn": "Intel 部分产品会依赖外部 foundry 或封装生态；该层用于追踪供应弹性和先进封装瓶颈。",
+        "materialsZh": [
+          "外部代工晶圆",
+          "先进封装件",
+          "有机基板",
+          "组装服务"
+        ],
+        "materialsEn": [
+          "External foundry wafers",
+          "Advanced packages",
+          "Organic substrates",
+          "Assembly services"
         ]
       },
       {
@@ -450,6 +664,18 @@
             "confidence": "low",
             "sourceIds": [
               "intc-10k-2025"
+            ],
+            "relationshipZh": "硅晶圆和半导体材料供应商，处于 Intel 前道制造的上游原材料层。",
+            "relationshipEn": "Shin-Etsu is tracked in the Wafers, chemicals, gases, and consumables layer for Silicon wafers, Photoresists, Semiconductor materials. Read the relationship together with the confidence level and cited sources.",
+            "productsServicesZh": [
+              "硅晶圆",
+              "光刻胶",
+              "半导体材料"
+            ],
+            "productsServicesEn": [
+              "Silicon wafers",
+              "Photoresists",
+              "Semiconductor materials"
             ]
           },
           {
@@ -471,6 +697,18 @@
             "confidence": "low",
             "sourceIds": [
               "intc-10k-2025"
+            ],
+            "relationshipZh": "300mm 硅晶圆供应商，晶圆质量和交期会影响 Intel 晶圆厂连续生产和良率爬坡。",
+            "relationshipEn": "SUMCO is tracked in the Wafers, chemicals, gases, and consumables layer for 300mm silicon wafers, Prime wafers, Epitaxial wafers. Read the relationship together with the confidence level and cited sources.",
+            "productsServicesZh": [
+              "300mm 硅晶圆",
+              "抛光晶圆",
+              "外延晶圆"
+            ],
+            "productsServicesEn": [
+              "300mm silicon wafers",
+              "Prime wafers",
+              "Epitaxial wafers"
             ]
           },
           {
@@ -484,13 +722,27 @@
             "listing": {
               "status": "delisted",
               "formerTicker": "4185.T",
-              "note": "JPX 披露 JSR 于 2024-06-25 退市"
+              "note": "JPX 披露 JSR 于 2024-06-25 退市",
+              "noteZh": "JPX 披露 JSR 于 2024-06-25 退市",
+              "noteEn": "JPX 披露 JSR 于 2024-06-25 退市"
             },
             "companyUrl": "https://www.jsr.co.jp/jsr_e/",
             "confidence": "low",
             "sourceIds": [
               "intc-10k-2025",
               "jsr-delisting-2024"
+            ],
+            "relationshipZh": "光刻胶等半导体材料供应链参与者；JPX 披露其股票已于 2024 年 6 月 25 日退市，因此不作为当前上市标的展示。",
+            "relationshipEn": "JSR is tracked in the Wafers, chemicals, gases, and consumables layer for Photoresists, Lithography materials, Semiconductor chemicals. Read the relationship together with the confidence level and cited sources.",
+            "productsServicesZh": [
+              "光刻胶",
+              "光刻材料",
+              "半导体化学品"
+            ],
+            "productsServicesEn": [
+              "Photoresists",
+              "Lithography materials",
+              "Semiconductor chemicals"
             ]
           },
           {
@@ -512,6 +764,18 @@
             "confidence": "low",
             "sourceIds": [
               "intc-10k-2025"
+            ],
+            "relationshipZh": "半导体材料、过滤、液体处理和污染控制供应商，处于 Intel 晶圆厂化学品与消耗材料层。",
+            "relationshipEn": "Entegris is tracked in the Wafers, chemicals, gases, and consumables layer for Materials handling, Filtration, CMP consumables. Read the relationship together with the confidence level and cited sources.",
+            "productsServicesZh": [
+              "材料处理",
+              "过滤",
+              "CMP 消耗材料"
+            ],
+            "productsServicesEn": [
+              "Materials handling",
+              "Filtration",
+              "CMP consumables"
             ]
           },
           {
@@ -533,6 +797,18 @@
             "confidence": "low",
             "sourceIds": [
               "intc-10k-2025"
+            ],
+            "relationshipZh": "工业气体和电子特气供应商，支撑 Intel 晶圆厂沉积、刻蚀、清洗等连续制造流程。",
+            "relationshipEn": "Linde is tracked in the Wafers, chemicals, gases, and consumables layer for Electronic gases, Industrial gases, On-site gas supply. Read the relationship together with the confidence level and cited sources.",
+            "productsServicesZh": [
+              "电子特气",
+              "工业气体",
+              "现场供气"
+            ],
+            "productsServicesEn": [
+              "Electronic gases",
+              "Industrial gases",
+              "On-site gas supply"
             ]
           },
           {
@@ -554,6 +830,18 @@
             "confidence": "low",
             "sourceIds": [
               "intc-10k-2025"
+            ],
+            "relationshipZh": "电子气体、化学品和现场供气服务商，处于 Intel 晶圆厂特种气体与高纯材料供应层。",
+            "relationshipEn": "Air Liquide is tracked in the Wafers, chemicals, gases, and consumables layer for Electronic gases, Specialty materials, On-site gas systems. Read the relationship together with the confidence level and cited sources.",
+            "productsServicesZh": [
+              "电子特气",
+              "特种材料",
+              "现场供气系统"
+            ],
+            "productsServicesEn": [
+              "Electronic gases",
+              "Specialty materials",
+              "On-site gas systems"
             ]
           }
         ],
@@ -574,6 +862,24 @@
         "confidence": "low",
         "sourceIds": [
           "intc-10k-2025"
+        ],
+        "titleZh": "晶圆、化学品、气体和消耗材料",
+        "titleEn": "Wafers, chemicals, gases, and consumables",
+        "notesZh": "这些是半导体制造的原材料和消耗材料层，Intel 年报提示原材料短缺、交期和价格波动风险。",
+        "notesEn": "这些是半导体制造的原材料和消耗材料层，Intel 年报提示原材料短缺、交期和价格波动风险。",
+        "materialsZh": [
+          "300mm 晶圆",
+          "光刻胶",
+          "CMP 抛光液",
+          "特种气体",
+          "湿电子化学品"
+        ],
+        "materialsEn": [
+          "300mm wafers",
+          "Photoresists",
+          "CMP slurry",
+          "Specialty gases",
+          "Wet chemicals"
         ]
       }
     ],
@@ -587,7 +893,23 @@
           "300mm silicon wafers"
         ],
         "risk": "先进节点需要高规格晶圆和严格缺陷控制，供应质量直接影响良率。",
-        "confidence": "medium"
+        "confidence": "medium",
+        "nameZh": "高纯硅晶圆",
+        "nameEn": "High-purity silicon wafers",
+        "usedInZh": "CPU、chiplet、foundry 晶圆",
+        "usedInEn": "CPUs, chiplets, and foundry wafers",
+        "riskZh": "先进节点需要高规格晶圆和严格缺陷控制，供应质量直接影响良率。",
+        "riskEn": "Advanced nodes require high-spec wafers and strict defect control; supply quality directly affects yield.",
+        "upstreamZh": [
+          "石英",
+          "多晶硅",
+          "300mm 硅晶圆"
+        ],
+        "upstreamEn": [
+          "Quartz",
+          "Polysilicon",
+          "300mm silicon wafers"
+        ]
       },
       {
         "name": "光刻胶、特种气体和湿化学品",
@@ -599,7 +921,25 @@
           "Specialty polymers"
         ],
         "risk": "供应商集中且认证周期长，断供会影响晶圆厂连续生产。",
-        "confidence": "medium"
+        "confidence": "medium",
+        "nameZh": "光刻胶、特种气体和湿化学品",
+        "nameEn": "Photoresists, specialty gases, and wet chemicals",
+        "usedInZh": "光刻、刻蚀、清洗、沉积",
+        "usedInEn": "Lithography, etch, clean, and deposition",
+        "riskZh": "供应商集中且认证周期长，断供会影响晶圆厂连续生产。",
+        "riskEn": "Supplier concentration and long qualification cycles mean disruptions can affect continuous fab operations.",
+        "upstreamZh": [
+          "含氟化学品",
+          "稀有气体",
+          "溶剂",
+          "特种聚合物"
+        ],
+        "upstreamEn": [
+          "Fluorochemicals",
+          "Noble gases",
+          "Solvents",
+          "Specialty polymers"
+        ]
       },
       {
         "name": "铜、ABF 树脂、陶瓷和封装材料",
@@ -611,7 +951,25 @@
           "Ceramics"
         ],
         "risk": "先进封装扩产会拉动高层数基板和散热材料需求。",
-        "confidence": "medium"
+        "confidence": "medium",
+        "nameZh": "铜、ABF 树脂、陶瓷和封装材料",
+        "nameEn": "Copper, ABF resin, ceramics, and packaging materials",
+        "usedInZh": "先进封装、基板、互连和散热",
+        "usedInEn": "Advanced packaging, substrates, interconnects, and thermal management",
+        "riskZh": "先进封装扩产会拉动高层数基板和散热材料需求。",
+        "riskEn": "Advanced packaging expansion raises demand for high-layer-count substrates and thermal materials.",
+        "upstreamZh": [
+          "铜",
+          "环氧树脂",
+          "玻纤布",
+          "陶瓷"
+        ],
+        "upstreamEn": [
+          "Copper",
+          "Epoxy resins",
+          "Glass cloth",
+          "Ceramics"
+        ]
       }
     ]
   },
@@ -626,7 +984,13 @@
         "change": "up 7% YoY",
         "sourceIds": [
           "intc-q1-2026"
-        ]
+        ],
+        "labelZh": "2026 年第一季度收入",
+        "labelEn": "Q1 2026 revenue",
+        "periodZh": "截至 2026-03-28 的季度",
+        "periodEn": "Quarter ended 2026-03-28",
+        "changeZh": "同比增长 7%",
+        "changeEn": "up 7% YoY"
       },
       {
         "label": "Q1 2026 non-GAAP EPS",
@@ -636,7 +1000,13 @@
         "change": "up 123% YoY",
         "sourceIds": [
           "intc-q1-2026"
-        ]
+        ],
+        "labelZh": "2026 年第一季度 non-GAAP EPS",
+        "labelEn": "Q1 2026 non-GAAP EPS",
+        "periodZh": "截至 2026-03-28 的季度",
+        "periodEn": "Quarter ended 2026-03-28",
+        "changeZh": "同比增长 123%",
+        "changeEn": "up 123% YoY"
       },
       {
         "label": "FY2025 revenue",
@@ -646,7 +1016,13 @@
         "change": "flat YoY",
         "sourceIds": [
           "intc-fy2025-results"
-        ]
+        ],
+        "labelZh": "2025 财年收入",
+        "labelEn": "FY2025 revenue",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "changeZh": "同比基本持平",
+        "changeEn": "flat YoY"
       },
       {
         "label": "Q1 2026 GAAP gross margin",
@@ -656,7 +1032,13 @@
         "change": "up 2.5 ppts YoY",
         "sourceIds": [
           "intc-q1-2026"
-        ]
+        ],
+        "labelZh": "2026 年第一季度 GAAP 毛利率",
+        "labelEn": "Q1 2026 GAAP gross margin",
+        "periodZh": "截至 2026-03-28 的季度",
+        "periodEn": "Quarter ended 2026-03-28",
+        "changeZh": "同比提升 2.5 个百分点",
+        "changeEn": "up 2.5 ppts YoY"
       }
     ],
     "revenueMix": [
@@ -669,7 +1051,13 @@
         "note": "Operating segment revenue; includes rounded figures.",
         "sourceIds": [
           "intc-q1-2026"
-        ]
+        ],
+        "nameZh": "客户端计算事业部",
+        "nameEn": "Client Computing Group",
+        "periodZh": "2026 年第一季度",
+        "periodEn": "Q1 2026",
+        "noteZh": "经营分部收入；数字经四舍五入。",
+        "noteEn": "Operating segment revenue; includes rounded figures."
       },
       {
         "name": "Data Center and AI",
@@ -680,7 +1068,13 @@
         "note": "Operating segment revenue; includes rounded figures.",
         "sourceIds": [
           "intc-q1-2026"
-        ]
+        ],
+        "nameZh": "数据中心与 AI",
+        "nameEn": "Data Center and AI",
+        "periodZh": "2026 年第一季度",
+        "periodEn": "Q1 2026",
+        "noteZh": "经营分部收入；数字经四舍五入。",
+        "noteEn": "Operating segment revenue; includes rounded figures."
       },
       {
         "name": "Intel Foundry",
@@ -691,7 +1085,13 @@
         "note": "Includes intersegment transactions and is not additive to net revenue.",
         "sourceIds": [
           "intc-q1-2026"
-        ]
+        ],
+        "nameZh": "英特尔代工",
+        "nameEn": "Intel Foundry",
+        "periodZh": "2026 年第一季度",
+        "periodEn": "Q1 2026",
+        "noteZh": "包含分部间交易，不能直接加总为净收入。",
+        "noteEn": "Includes intersegment transactions and is not additive to net revenue."
       }
     ]
   },
@@ -704,7 +1104,15 @@
       "impact": "自动抓取条目，需要人工复核业务影响。",
       "sourceIds": [
         "rss-intc-postcard-from-computex-2026-new-intel-core-series-"
-      ]
+      ],
+      "titleZh": "Computex 2026 现场：Intel Core Series 3 笔记本面向日常创作与全天生产力",
+      "titleEn": "Postcard from Computex 2026: Intel Core Series 3 laptops for everyday creation and all-day productivity",
+      "categoryZh": "新闻",
+      "categoryEn": "News",
+      "summaryZh": "Intel 展示搭载新款 Core Series 3 的轻薄笔记本设计，强调续航、日常创作和生产力体验。",
+      "summaryEn": "Intel showcased thin-and-light laptop designs powered by Core Series 3, emphasizing battery life, everyday creation, and productivity.",
+      "impactZh": "该消息偏客户端产品线更新，影响取决于 OEM 设计落地、AI PC 需求和渠道销售。",
+      "impactEn": "This is a client-product update; impact depends on OEM design wins, AI PC demand, and channel sell-through."
     },
     {
       "date": "2026-06-03",
@@ -714,7 +1122,15 @@
       "impact": "自动抓取条目，需要人工复核业务影响。",
       "sourceIds": [
         "rss-intc-intel-introduces-ethernet-e835-controllers-and-net"
-      ]
+      ],
+      "titleZh": "Intel 推出面向云、边缘和企业数据中心的 Ethernet E835 控制器与网卡",
+      "titleEn": "Intel introduces Ethernet E835 controllers and network adapters for cloud, edge, and enterprise data centers",
+      "categoryZh": "新闻",
+      "categoryEn": "News",
+      "summaryZh": "Intel 发布 Ethernet E835 控制器和网卡，面向高密度数据中心、企业、边缘和 AI 网络需求。",
+      "summaryEn": "Intel launched Ethernet E835 controllers and network adapters for high-density data center, enterprise, edge, and AI networking needs.",
+      "impactZh": "该消息强化网络和数据中心平台组合，但收入转化取决于客户认证、服务器平台导入和采购周期。",
+      "impactEn": "The item strengthens Intel's networking and data center platform portfolio, while revenue conversion depends on customer qualification, platform adoption, and procurement cycles."
     },
     {
       "date": "2026-06-02",
@@ -724,7 +1140,15 @@
       "impact": "强化 CPU 在 AI 推理和边缘场景中的定位，但商业转化取决于生态伙伴和客户部署速度。",
       "sourceIds": [
         "intc-computex-2026"
-      ]
+      ],
+      "titleZh": "Intel 在 Computex 2026 发布 AI 创新",
+      "titleEn": "Intel announces AI innovations at Computex 2026",
+      "categoryZh": "产品 / 生态",
+      "categoryEn": "Product / Ecosystem",
+      "summaryZh": "Intel 公布面向推理和 agentic 工作负载的 rackscale AI 基础设施、Xeon 6+、产业合作和 Series 3 处理器动向。",
+      "summaryEn": "Intel announced rack-scale AI infrastructure for inference and agentic workloads, Xeon 6+, ecosystem partnerships, and Series 3 processor updates.",
+      "impactZh": "强化 CPU 在 AI 推理和边缘场景中的定位，但商业转化取决于生态伙伴和客户部署速度。",
+      "impactEn": "This reinforces CPUs in AI inference and edge workloads, while monetization depends on ecosystem partners and customer deployment pace."
     },
     {
       "date": "2026-06-02",
@@ -734,7 +1158,15 @@
       "impact": "自动抓取条目，需要人工复核业务影响。",
       "sourceIds": [
         "rss-intc-computex-2026-an-intelligent-world-built-on-silico"
-      ]
+      ],
+      "titleZh": "Computex 2026：建立在硅之上的智能世界",
+      "titleEn": "Computex 2026: An intelligent world built on silicon",
+      "categoryZh": "新闻",
+      "categoryEn": "News",
+      "summaryZh": "Intel 在 Computex 主题演讲中强调 x86、AI、客户端和数据中心平台在智能计算中的作用。",
+      "summaryEn": "Intel's Computex keynote emphasized the role of x86, AI, client, and data center platforms in intelligent computing.",
+      "impactZh": "该消息偏生态叙事，需结合具体产品发布、客户采用和 foundry 进展评估。",
+      "impactEn": "The item is mostly ecosystem narrative and should be assessed alongside specific product launches, customer adoption, and foundry progress."
     },
     {
       "date": "2026-04-23",
@@ -744,7 +1176,15 @@
       "impact": "供给改善和 CPU 需求支撑业绩，但 GAAP 亏损、重组费用和 foundry 投入仍需跟踪。",
       "sourceIds": [
         "intc-q1-2026"
-      ]
+      ],
+      "titleZh": "Intel 发布 2026 年第一季度业绩",
+      "titleEn": "Intel reports first-quarter 2026 results",
+      "categoryZh": "业绩",
+      "categoryEn": "Earnings",
+      "summaryZh": "Q1 收入 136 亿美元，同比增长 7%；non-GAAP EPS 为 0.29 美元；Q2 指引收入区间为 138 亿至 148 亿美元。",
+      "summaryEn": "Q1 revenue was $13.6 billion, up 7% year over year; non-GAAP EPS was $0.29; Q2 revenue guidance was $13.8 billion to $14.8 billion.",
+      "impactZh": "供给改善和 CPU 需求支撑业绩，但 GAAP 亏损、重组费用和 foundry 投入仍需跟踪。",
+      "impactEn": "Supply improvement and CPU demand supported results, but GAAP losses, restructuring charges, and foundry spending still need tracking."
     },
     {
       "date": "2026-01-22",
@@ -754,7 +1194,15 @@
       "impact": "公司处于修复与重构阶段，分部重组、Altera 出表和制造资产效率是分析重点。",
       "sourceIds": [
         "intc-fy2025-results"
-      ]
+      ],
+      "titleZh": "Intel 发布 2025 年全年业绩",
+      "titleEn": "Intel reports full-year 2025 results",
+      "categoryZh": "业绩",
+      "categoryEn": "Earnings",
+      "summaryZh": "FY2025 收入 529 亿美元，与 2024 年大体持平；Intel Products 收入 491 亿美元，Intel Foundry 收入 178 亿美元。",
+      "summaryEn": "FY2025 revenue was $52.9 billion, roughly flat with 2024; Intel Products revenue was $49.1 billion and Intel Foundry revenue was $17.8 billion.",
+      "impactZh": "公司处于修复与重构阶段，分部重组、Altera 出表和制造资产效率是分析重点。",
+      "impactEn": "The company is in a repair-and-rebuild phase; segment restructuring, Altera deconsolidation, and manufacturing asset efficiency are key."
     }
   ],
   "filings": [
@@ -781,7 +1229,9 @@
       "url": "https://www.intc.com/news-events/press-releases/detail/1767/intel-reports-first-quarter-2026-financial-results",
       "publishedAt": "2026-04-23",
       "accessedAt": "2026-06-07",
-      "type": "company"
+      "type": "company",
+      "titleZh": "Intel Reports First-Quarter 2026 Financial Results",
+      "titleEn": "Intel Reports First-Quarter 2026 Financial Results"
     },
     {
       "id": "intc-fy2025-results",
@@ -790,7 +1240,9 @@
       "url": "https://www.intc.com/news-events/press-releases/detail/1759/intel-reports-fourth-quarter-and-full-year-2025-financial",
       "publishedAt": "2026-01-22",
       "accessedAt": "2026-06-07",
-      "type": "company"
+      "type": "company",
+      "titleZh": "Intel Reports Fourth-Quarter and Full-Year 2025 Financial Results",
+      "titleEn": "Intel Reports Fourth-Quarter and Full-Year 2025 Financial Results"
     },
     {
       "id": "intc-10k-2025",
@@ -799,7 +1251,9 @@
       "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
       "publishedAt": "2026-01-23",
       "accessedAt": "2026-06-07",
-      "type": "sec"
+      "type": "sec",
+      "titleZh": "Intel FY2025 Form 10-K",
+      "titleEn": "Intel FY2025 Form 10-K"
     },
     {
       "id": "intc-computex-2026",
@@ -808,7 +1262,9 @@
       "url": "https://newsroom.intel.com/artificial-intelligence/intel-announces-new-ai-innovations-at-computex",
       "publishedAt": "2026-06-01",
       "accessedAt": "2026-06-07",
-      "type": "company"
+      "type": "company",
+      "titleZh": "Intel Announces New AI Innovations at Computex",
+      "titleEn": "Intel Announces New AI Innovations at Computex"
     },
     {
       "id": "rss-intc-postcard-from-computex-2026-new-intel-core-series-",
@@ -817,7 +1273,9 @@
       "url": "https://newsroom.intel.com/client-computing/postcard-from-computex-2026-new-intel-core-series-3-laptops-for-creation-productivity",
       "publishedAt": "2026-06-05",
       "accessedAt": "2026-06-07",
-      "type": "company"
+      "type": "company",
+      "titleZh": "Computex 2026 现场：Intel Core Series 3 笔记本面向日常创作与全天生产力",
+      "titleEn": "Postcard from Computex 2026: Intel Core Series 3 laptops for everyday creation and all-day productivity"
     },
     {
       "id": "rss-intc-intel-introduces-ethernet-e835-controllers-and-net",
@@ -826,7 +1284,9 @@
       "url": "https://newsroom.intel.com/data-center/intel-introduces-ethernet-e835-controllers-network-adapters",
       "publishedAt": "2026-06-03",
       "accessedAt": "2026-06-07",
-      "type": "company"
+      "type": "company",
+      "titleZh": "Intel 推出面向云、边缘和企业数据中心的 Ethernet E835 控制器与网卡",
+      "titleEn": "Intel introduces Ethernet E835 controllers and network adapters for cloud, edge, and enterprise data centers"
     },
     {
       "id": "rss-intc-computex-2026-an-intelligent-world-built-on-silico",
@@ -835,7 +1295,9 @@
       "url": "https://newsroom.intel.com/artificial-intelligence/computex-2026-an-intelligent-world-built-on-silicon",
       "publishedAt": "2026-06-02",
       "accessedAt": "2026-06-07",
-      "type": "company"
+      "type": "company",
+      "titleZh": "Computex 2026：建立在硅之上的智能世界",
+      "titleEn": "Computex 2026: An intelligent world built on silicon"
     },
     {
       "id": "jsr-delisting-2024",
@@ -844,7 +1306,9 @@
       "url": "https://www.jpx.co.jp/english/news/1023/20240605-11.html",
       "publishedAt": "2024-06-05",
       "accessedAt": "2026-06-07",
-      "type": "exchange"
+      "type": "exchange",
+      "titleZh": "TSE Decision on Delisting, etc.: JSR CORPORATION",
+      "titleEn": "TSE Decision on Delisting, etc.: JSR CORPORATION"
     },
     {
       "id": "shinko-tender-2025",
@@ -853,7 +1317,9 @@
       "url": "https://www.shinko.co.jp/english/news/docs/20250217-01_e.pdf",
       "publishedAt": "2025-02-17",
       "accessedAt": "2026-06-07",
-      "type": "company"
+      "type": "company",
+      "titleZh": "Announcement Regarding Commencement of the Tender Offer for Shinko Electric Industries",
+      "titleEn": "Announcement Regarding Commencement of the Tender Offer for Shinko Electric Industries"
     }
   ],
   "automation": {

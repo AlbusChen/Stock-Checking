@@ -19,6 +19,7 @@ npm run build
 ## 数据更新
 
 - `scripts/update_news.py`：每 12 小时抓取配置的 RSS 动态。
+- `scripts/apply_bilingual_fields.py`：为指标、新闻、供应链展示字段补齐中英文字段。
 - `scripts/update_sec_filings.py`：刷新 SEC 10-K、10-Q、8-K 链接。
 - `scripts/build_company_index.py`：根据公司 JSON 生成搜索索引。
 - `scripts/validate_data.py`：校验数据结构和来源引用。
@@ -35,6 +36,7 @@ GitHub Actions 已包含：
 
 ```bash
 python3 scripts/build_company_index.py
+python3 scripts/apply_bilingual_fields.py
 python3 scripts/validate_data.py
 npm run sync:pages
 ```
