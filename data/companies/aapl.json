@@ -84,6 +84,23 @@
         "level": 0,
         "title": "品牌、设计、系统集成",
         "companies": ["Apple"],
+        "entities": [
+          {
+            "name": "Apple",
+            "relationship": "目标企业本体；负责产品定义、系统软件、芯片设计、渠道和生态分发，外部供应商围绕其硬件路线与产能节奏组织交付。",
+            "productsServices": ["Product design", "Operating systems", "Apple silicon designs"],
+            "listing": {
+              "status": "listed",
+              "ticker": "AAPL",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/aapl"
+            },
+            "companyUrl": "https://www.apple.com/",
+            "confidence": "high",
+            "sourceIds": ["aapl-10k-2025"]
+          }
+        ],
         "geography": ["United States", "Global"],
         "materials": ["iOS/macOS ecosystem", "Apple silicon designs", "Industrial design"],
         "notes": "Apple 控制产品定义、系统软件、芯片设计、渠道和生态分发，制造与大量组件采购由供应商网络承担。",
@@ -94,6 +111,83 @@
         "level": 1,
         "title": "最终组装与关键模组",
         "companies": ["Hon Hai Precision/Foxconn", "Luxshare Precision", "Pegatron", "Compal", "Wistron"],
+        "entities": [
+          {
+            "name": "Hon Hai Precision / Foxconn",
+            "relationship": "Apple 供应商名单中的大型电子制造服务商，承担 iPhone、Mac、iPad 等设备的最终组装、机电整合和全球制造产能调度。",
+            "productsServices": ["Finished device assembly", "EMS manufacturing", "Mechanical integration"],
+            "listing": {
+              "status": "listed",
+              "ticker": "2317.TW",
+              "exchange": "TWSE",
+              "market": "Taiwan",
+              "stockUrl": "https://finance.yahoo.com/quote/2317.TW"
+            },
+            "companyUrl": "https://www.honhai.com/en-us/",
+            "confidence": "medium",
+            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+          },
+          {
+            "name": "Luxshare Precision",
+            "relationship": "Apple 供应商名单中的连接器、声学、模组和整机制造伙伴；在 Apple 硬件供应链中承担部分装配和组件交付。",
+            "productsServices": ["Connectors", "Acoustic modules", "Device assembly"],
+            "listing": {
+              "status": "listed",
+              "ticker": "002475.SZ",
+              "exchange": "SZSE",
+              "market": "China",
+              "stockUrl": "https://finance.yahoo.com/quote/002475.SZ"
+            },
+            "companyUrl": "https://www.luxshare-ict.com/en/",
+            "confidence": "medium",
+            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+          },
+          {
+            "name": "Pegatron",
+            "relationship": "Apple 供应商名单中的 EMS/ODM 伙伴，主要关系是消费电子整机装配、主板和系统级制造。",
+            "productsServices": ["EMS manufacturing", "System assembly", "Mainboard integration"],
+            "listing": {
+              "status": "listed",
+              "ticker": "4938.TW",
+              "exchange": "TWSE",
+              "market": "Taiwan",
+              "stockUrl": "https://finance.yahoo.com/quote/4938.TW"
+            },
+            "companyUrl": "https://www.pegatroncorp.com/",
+            "confidence": "medium",
+            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+          },
+          {
+            "name": "Compal",
+            "relationship": "Apple 供应商名单中的 ODM/EMS 伙伴，偏向笔电、平板和可穿戴设备相关的系统制造与装配。",
+            "productsServices": ["ODM manufacturing", "Notebook/tablet assembly", "Wearable device manufacturing"],
+            "listing": {
+              "status": "listed",
+              "ticker": "2324.TW",
+              "exchange": "TWSE",
+              "market": "Taiwan",
+              "stockUrl": "https://finance.yahoo.com/quote/2324.TW"
+            },
+            "companyUrl": "https://www.compal.com/",
+            "confidence": "medium",
+            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+          },
+          {
+            "name": "Wistron",
+            "relationship": "Apple 供应商名单中的制造伙伴，历史上参与 iPhone、Mac 或相关硬件装配；关系会随产品线和区域产能调整变化。",
+            "productsServices": ["EMS manufacturing", "Device assembly", "Regional production capacity"],
+            "listing": {
+              "status": "listed",
+              "ticker": "3231.TW",
+              "exchange": "TWSE",
+              "market": "Taiwan",
+              "stockUrl": "https://finance.yahoo.com/quote/3231.TW"
+            },
+            "companyUrl": "https://www.wistron.com/",
+            "confidence": "medium",
+            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+          }
+        ],
         "geography": ["China mainland", "India", "Vietnam", "Taiwan"],
         "materials": ["Finished devices", "Camera modules", "Enclosures", "Connectors"],
         "notes": "Apple 官方供应商名单覆盖组装、机械件、连接器、声学、摄像头和其他模组供应商；不同产品线的直接供应关系会随年份和机型变化。",
@@ -104,6 +198,117 @@
         "level": 1,
         "title": "半导体、显示与电池",
         "companies": ["TSMC", "Samsung Display", "LG Display", "Sony Semiconductor", "Murata", "TDK", "Sunwoda"],
+        "entities": [
+          {
+            "name": "TSMC",
+            "relationship": "Apple 自研 A/M/S 系列芯片的核心晶圆代工伙伴；关系重点是先进制程产能、良率、封装排产与 Apple silicon 节奏。",
+            "productsServices": ["Advanced logic wafers", "Apple silicon manufacturing", "Foundry services"],
+            "listing": {
+              "status": "listed",
+              "ticker": "2330.TW",
+              "exchange": "TWSE",
+              "market": "Taiwan",
+              "stockUrl": "https://finance.yahoo.com/quote/2330.TW"
+            },
+            "companyUrl": "https://www.tsmc.com/english",
+            "confidence": "medium",
+            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+          },
+          {
+            "name": "Samsung Display",
+            "relationship": "Apple 高端设备 OLED 显示面板供应链的重要参与者；Samsung Display 本身未单独上市，上市主体为母公司 Samsung Electronics。",
+            "productsServices": ["OLED panels", "Display modules", "Panel technology"],
+            "listing": {
+              "status": "listed-parent",
+              "parentCompany": "Samsung Electronics",
+              "parentTicker": "005930.KS",
+              "parentExchange": "KRX",
+              "market": "South Korea",
+              "parentStockUrl": "https://finance.yahoo.com/quote/005930.KS",
+              "note": "Samsung Display 为 Samsung Electronics 体系内公司"
+            },
+            "companyUrl": "https://www.samsungdisplay.com/eng/index.jsp",
+            "confidence": "medium",
+            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+          },
+          {
+            "name": "LG Display",
+            "relationship": "Apple 显示面板供应链参与者，向部分 Apple 设备供应 OLED/LCD 面板或相关显示组件。",
+            "productsServices": ["OLED panels", "LCD panels", "Display components"],
+            "listing": {
+              "status": "listed",
+              "ticker": "034220.KS",
+              "exchange": "KRX",
+              "market": "South Korea",
+              "stockUrl": "https://finance.yahoo.com/quote/034220.KS"
+            },
+            "companyUrl": "https://www.lgdisplay.com/eng",
+            "confidence": "medium",
+            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+          },
+          {
+            "name": "Sony Semiconductor Solutions",
+            "relationship": "Apple 摄像头图像传感器供应链的关键参与者；业务实体属于 Sony Group。",
+            "productsServices": ["CMOS image sensors", "Camera sensor technology", "Imaging components"],
+            "listing": {
+              "status": "listed-parent",
+              "parentCompany": "Sony Group",
+              "parentTicker": "6758.T",
+              "parentExchange": "TSE",
+              "market": "Japan",
+              "parentStockUrl": "https://finance.yahoo.com/quote/6758.T",
+              "note": "Sony Semiconductor Solutions 为 Sony Group 子公司"
+            },
+            "companyUrl": "https://www.sony-semicon.com/en/",
+            "confidence": "medium",
+            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+          },
+          {
+            "name": "Murata",
+            "relationship": "Apple 供应商名单中的电子元件厂，关系主要是 MLCC、射频/连接相关组件和被动元件供应。",
+            "productsServices": ["MLCC", "RF components", "Passive components"],
+            "listing": {
+              "status": "listed",
+              "ticker": "6981.T",
+              "exchange": "TSE",
+              "market": "Japan",
+              "stockUrl": "https://finance.yahoo.com/quote/6981.T"
+            },
+            "companyUrl": "https://www.murata.com/en-global",
+            "confidence": "medium",
+            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+          },
+          {
+            "name": "TDK",
+            "relationship": "Apple 供应链中的被动元件、电池和磁性/传感类组件供应商之一，影响设备小型化和电源管理。",
+            "productsServices": ["Passive components", "Battery cells/components", "Sensors"],
+            "listing": {
+              "status": "listed",
+              "ticker": "6762.T",
+              "exchange": "TSE",
+              "market": "Japan",
+              "stockUrl": "https://finance.yahoo.com/quote/6762.T"
+            },
+            "companyUrl": "https://www.tdk.com/en/index.html",
+            "confidence": "medium",
+            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+          },
+          {
+            "name": "Sunwoda",
+            "relationship": "Apple 供应商名单中的电池供应链参与者，关系主要是消费电子电池、电池模组或相关电源组件。",
+            "productsServices": ["Battery cells", "Battery packs", "Power modules"],
+            "listing": {
+              "status": "listed",
+              "ticker": "300207.SZ",
+              "exchange": "SZSE",
+              "market": "China",
+              "stockUrl": "https://finance.yahoo.com/quote/300207.SZ"
+            },
+            "companyUrl": "https://en.sunwoda.com/",
+            "confidence": "medium",
+            "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+          }
+        ],
         "geography": ["Taiwan", "South Korea", "Japan", "China mainland"],
         "materials": ["Application processors", "OLED panels", "Image sensors", "MLCC", "Batteries"],
         "notes": "该层决定高端产品可得性和成本结构。Apple 年报没有逐项确认所有型号供应比例，因此供应商名单与行业公开资料需结合使用。",
@@ -114,6 +319,113 @@
         "level": 2,
         "title": "晶圆、设备、化学品与封装",
         "companies": ["ASML", "Applied Materials", "Lam Research", "Tokyo Electron", "KLA", "Shin-Etsu", "SUMCO"],
+        "entities": [
+          {
+            "name": "ASML",
+            "relationship": "作为 TSMC、Samsung 等先进晶圆厂的上游设备供应商，间接影响 Apple silicon 先进制程产能；不是 Apple 年报逐项披露的直接供应商。",
+            "productsServices": ["EUV lithography systems", "DUV lithography systems", "Lithography services"],
+            "listing": {
+              "status": "listed",
+              "ticker": "ASML",
+              "exchange": "NASDAQ",
+              "market": "United States / Netherlands",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/asml"
+            },
+            "companyUrl": "https://www.asml.com/en",
+            "confidence": "low",
+            "sourceIds": ["aapl-10k-2025"]
+          },
+          {
+            "name": "Applied Materials",
+            "relationship": "半导体制造设备上游公司，向 foundry 和存储厂提供沉积、材料工程等设备，间接支撑 Apple 芯片供应链。",
+            "productsServices": ["Deposition tools", "Materials engineering", "Process equipment"],
+            "listing": {
+              "status": "listed",
+              "ticker": "AMAT",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/amat"
+            },
+            "companyUrl": "https://www.appliedmaterials.com/",
+            "confidence": "low",
+            "sourceIds": ["aapl-10k-2025"]
+          },
+          {
+            "name": "Lam Research",
+            "relationship": "向先进晶圆厂提供刻蚀、沉积和清洗设备，是 Apple 芯片上游制造约束中的设备层变量。",
+            "productsServices": ["Etch tools", "Deposition tools", "Wafer cleaning equipment"],
+            "listing": {
+              "status": "listed",
+              "ticker": "LRCX",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/lrcx"
+            },
+            "companyUrl": "https://www.lamresearch.com/",
+            "confidence": "low",
+            "sourceIds": ["aapl-10k-2025"]
+          },
+          {
+            "name": "Tokyo Electron",
+            "relationship": "晶圆制造设备供应商，面向先进逻辑与存储工艺提供涂布显影、沉积、刻蚀等设备，间接影响 Apple 上游产能。",
+            "productsServices": ["Coater/developer tools", "Deposition equipment", "Etch systems"],
+            "listing": {
+              "status": "listed",
+              "ticker": "8035.T",
+              "exchange": "TSE",
+              "market": "Japan",
+              "stockUrl": "https://finance.yahoo.com/quote/8035.T"
+            },
+            "companyUrl": "https://www.tel.com/",
+            "confidence": "low",
+            "sourceIds": ["aapl-10k-2025"]
+          },
+          {
+            "name": "KLA",
+            "relationship": "检测和量测设备供应商，帮助先进晶圆厂控制缺陷和良率，是 Apple silicon 上游良率风险的一部分。",
+            "productsServices": ["Inspection tools", "Metrology systems", "Process control"],
+            "listing": {
+              "status": "listed",
+              "ticker": "KLAC",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/klac"
+            },
+            "companyUrl": "https://www.kla.com/",
+            "confidence": "low",
+            "sourceIds": ["aapl-10k-2025"]
+          },
+          {
+            "name": "Shin-Etsu",
+            "relationship": "高纯硅晶圆、光刻胶等半导体材料供应商，处于 Apple 芯片供应链的原材料/耗材上游。",
+            "productsServices": ["Silicon wafers", "Photoresists", "Semiconductor materials"],
+            "listing": {
+              "status": "listed",
+              "ticker": "4063.T",
+              "exchange": "TSE",
+              "market": "Japan",
+              "stockUrl": "https://finance.yahoo.com/quote/4063.T"
+            },
+            "companyUrl": "https://www.shinetsu.co.jp/en/",
+            "confidence": "low",
+            "sourceIds": ["aapl-10k-2025"]
+          },
+          {
+            "name": "SUMCO",
+            "relationship": "300mm 硅晶圆供应商，处于 foundry 上游；晶圆质量、交期和产能会间接影响 Apple 芯片供应。",
+            "productsServices": ["300mm silicon wafers", "Prime wafers", "Epitaxial wafers"],
+            "listing": {
+              "status": "listed",
+              "ticker": "3436.T",
+              "exchange": "TSE",
+              "market": "Japan",
+              "stockUrl": "https://finance.yahoo.com/quote/3436.T"
+            },
+            "companyUrl": "https://www.sumcosi.com/english/",
+            "confidence": "low",
+            "sourceIds": ["aapl-10k-2025"]
+          }
+        ],
         "geography": ["Netherlands", "United States", "Japan", "Taiwan"],
         "materials": ["Silicon wafers", "Lithography tools", "Photoresists", "Specialty gases", "Advanced packaging"],
         "notes": "这一级多数不是 Apple 直接披露供应商，而是上游半导体制造的必要投入；用于识别原材料和设备瓶颈。",

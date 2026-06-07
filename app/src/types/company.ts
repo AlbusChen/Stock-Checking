@@ -49,10 +49,37 @@ export interface BusinessSegment {
   sourceIds: string[];
 }
 
+export type ListingStatus = "listed" | "listed-parent" | "private" | "delisted" | "unknown";
+
+export interface SupplierListing {
+  status: ListingStatus;
+  ticker?: string;
+  exchange?: string;
+  market?: string;
+  stockUrl?: string;
+  parentCompany?: string;
+  parentTicker?: string;
+  parentExchange?: string;
+  parentStockUrl?: string;
+  formerTicker?: string;
+  note?: string;
+}
+
+export interface SupplyChainEntity {
+  name: string;
+  relationship: string;
+  productsServices: string[];
+  listing: SupplierListing;
+  companyUrl?: string;
+  confidence: Confidence;
+  sourceIds: string[];
+}
+
 export interface SupplierTier {
   level: number;
   title: string;
   companies: string[];
+  entities: SupplyChainEntity[];
   geography: string[];
   materials: string[];
   notes: string;

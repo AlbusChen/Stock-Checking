@@ -34,6 +34,8 @@ REQUIRED_TOP_LEVEL = {
     "sources",
 }
 
+LISTING_STATUSES = {"listed", "listed-parent", "private", "delisted", "unknown"}
+
 
 def collect_source_refs(report: dict) -> set[str]:
     refs: set[str] = set()
@@ -80,6 +82,41 @@ def validate_report(path: Path) -> list[str]:
 
     if not report.get("supplyChain", {}).get("tiers"):
         errors.append(f"{path.name}: needs supply-chain tiers")
+
+    for tier in report.get("supplyChain", {}).get("tiers", []):
+        tier_name = tier.get("title", "untitled tier")
+        entities = tier.get("entities")
+        if not isinstance(entities, list) or not entities:
+            errors.append(f"{path.name}: supply-chain tier {tier_name} needs entities")
+            continue
+
+        for entity in entities:
+            name = entity.get("name", "unnamed supplier")
+            if not entity.get("relationship"):
+                errors.append(f"{path.name}: supplier {name} needs relationship")
+            if not entity.get("productsServices"):
+                errors.append(f"{path.name}: supplier {name} needs productsServices")
+            if not entity.get("sourceIds"):
+                errors.append(f"{path.name}: supplier {name} needs sourceIds")
+
+            listing = entity.get("listing")
+            if not isinstance(listing, dict):
+                errors.append(f"{path.name}: supplier {name} needs listing")
+                continue
+
+            status = listing.get("status")
+            if status not in LISTING_STATUSES:
+                errors.append(f"{path.name}: supplier {name} has invalid listing status {status}")
+            if status == "listed":
+                if not listing.get("ticker") or not listing.get("exchange"):
+                    errors.append(f"{path.name}: listed supplier {name} needs ticker and exchange")
+                if not listing.get("stockUrl"):
+                    errors.append(f"{path.name}: listed supplier {name} needs stockUrl")
+            if status == "listed-parent":
+                if not listing.get("parentTicker") or not listing.get("parentExchange"):
+                    errors.append(f"{path.name}: listed-parent supplier {name} needs parentTicker and parentExchange")
+                if not listing.get("parentStockUrl"):
+                    errors.append(f"{path.name}: listed-parent supplier {name} needs parentStockUrl")
 
     return errors
 

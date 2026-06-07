@@ -57,6 +57,23 @@
         "level": 0,
         "title": "芯片、系统和软件平台定义",
         "companies": ["NVIDIA"],
+        "entities": [
+          {
+            "name": "NVIDIA",
+            "relationship": "目标企业本体；负责 GPU/CPU/DPU 架构、CUDA 软件生态、参考系统和客户平台路线，制造、封装、内存和整机交付主要依赖外部供应链。",
+            "productsServices": ["GPU/CPU/DPU designs", "CUDA ecosystem", "Reference systems"],
+            "listing": {
+              "status": "listed",
+              "ticker": "NVDA",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/nvda"
+            },
+            "companyUrl": "https://www.nvidia.com/",
+            "confidence": "high",
+            "sourceIds": ["nvda-10k-2026", "nvda-q1-fy2027"]
+          }
+        ],
         "geography": ["United States", "Global"],
         "materials": ["GPU/CPU/DPU designs", "CUDA", "Networking stack", "Reference systems"],
         "notes": "NVIDIA 控制架构、软件生态、参考系统和客户平台路线，制造环节主要依赖外部供应商。",
@@ -67,6 +84,99 @@
         "level": 1,
         "title": "晶圆代工、HBM 与封装",
         "companies": ["TSMC", "Samsung Electronics", "SK Hynix", "Micron", "ASE/SPIL", "Amkor"],
+        "entities": [
+          {
+            "name": "TSMC",
+            "relationship": "NVIDIA 年报披露其使用 TSMC 等 foundry 生产半导体晶圆；对 AI GPU 来说，先进制程、CoWoS 类先进封装排产和良率是关键供给变量。",
+            "productsServices": ["Advanced logic wafers", "Foundry services", "Advanced packaging capacity"],
+            "listing": {
+              "status": "listed",
+              "ticker": "2330.TW",
+              "exchange": "TWSE",
+              "market": "Taiwan",
+              "stockUrl": "https://finance.yahoo.com/quote/2330.TW"
+            },
+            "companyUrl": "https://www.tsmc.com/english",
+            "confidence": "high",
+            "sourceIds": ["nvda-10k-2026"]
+          },
+          {
+            "name": "Samsung Electronics",
+            "relationship": "NVIDIA 年报披露其使用 Samsung 等 foundry，并从 Samsung 采购 memory；关系覆盖晶圆代工、DRAM/HBM 和存储供应弹性。",
+            "productsServices": ["Foundry services", "HBM/DRAM", "Memory components"],
+            "listing": {
+              "status": "listed",
+              "ticker": "005930.KS",
+              "exchange": "KRX",
+              "market": "South Korea",
+              "stockUrl": "https://finance.yahoo.com/quote/005930.KS"
+            },
+            "companyUrl": "https://www.samsung.com/global/ir/",
+            "confidence": "high",
+            "sourceIds": ["nvda-10k-2026"]
+          },
+          {
+            "name": "SK Hynix",
+            "relationship": "NVIDIA 年报披露其采购 SK Hynix memory；在 AI 加速器中主要关联 HBM 堆叠、DRAM 产能和客户认证周期。",
+            "productsServices": ["HBM", "DRAM", "Memory stacks"],
+            "listing": {
+              "status": "listed",
+              "ticker": "000660.KS",
+              "exchange": "KRX",
+              "market": "South Korea",
+              "stockUrl": "https://finance.yahoo.com/quote/000660.KS"
+            },
+            "companyUrl": "https://www.skhynix.com/",
+            "confidence": "high",
+            "sourceIds": ["nvda-10k-2026"]
+          },
+          {
+            "name": "Micron",
+            "relationship": "NVIDIA 年报披露其采购 Micron memory；关系主要是 HBM/DRAM/GDDR 等存储器件供应，影响数据中心 GPU 和消费 GPU 的交付弹性。",
+            "productsServices": ["HBM", "DRAM", "GDDR memory"],
+            "listing": {
+              "status": "listed",
+              "ticker": "MU",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/mu"
+            },
+            "companyUrl": "https://www.micron.com/",
+            "confidence": "high",
+            "sourceIds": ["nvda-10k-2026"]
+          },
+          {
+            "name": "ASE Technology / SPIL",
+            "relationship": "先进封装与测试生态参与者；对 NVIDIA 而言属于 GPU、内存和系统芯片量产后的封装、测试及供应弹性层，SPIL 已并入 ASE 体系。",
+            "productsServices": ["OSAT services", "Advanced packaging", "Semiconductor test"],
+            "listing": {
+              "status": "listed",
+              "ticker": "3711.TW",
+              "exchange": "TWSE",
+              "market": "Taiwan",
+              "stockUrl": "https://finance.yahoo.com/quote/3711.TW",
+              "note": "SPIL 为 ASE Technology 体系内业务"
+            },
+            "companyUrl": "https://www.aseglobal.com/",
+            "confidence": "medium",
+            "sourceIds": ["nvda-10k-2026"]
+          },
+          {
+            "name": "Amkor",
+            "relationship": "OSAT 封装测试服务商；在 GPU、网络芯片或相关半导体产品的封装测试环节提供产能备选和供应链韧性。",
+            "productsServices": ["Semiconductor packaging", "Test services", "Advanced packages"],
+            "listing": {
+              "status": "listed",
+              "ticker": "AMKR",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/amkr"
+            },
+            "companyUrl": "https://amkor.com/",
+            "confidence": "medium",
+            "sourceIds": ["nvda-10k-2026"]
+          }
+        ],
         "geography": ["Taiwan", "South Korea", "United States"],
         "materials": ["Advanced logic wafers", "HBM", "CoWoS/advanced packaging", "DRAM stacks"],
         "notes": "NVIDIA 年报披露使用 TSMC、Samsung 等 foundry，并采购 SK Hynix、Micron、Samsung 的 memory。HBM 与先进封装是 AI 加速器出货弹性的核心。",
@@ -77,6 +187,113 @@
         "level": 1,
         "title": "板卡、服务器和整机集成",
         "companies": ["Foxconn", "Quanta", "Wistron", "Supermicro", "Dell", "HPE", "Lenovo"],
+        "entities": [
+          {
+            "name": "Foxconn",
+            "relationship": "AI 服务器和整机制造生态的重要 ODM/EMS 伙伴；将 GPU、网络、电源、散热和机柜整合为可部署系统。",
+            "productsServices": ["AI server manufacturing", "Rack integration", "EMS capacity"],
+            "listing": {
+              "status": "listed",
+              "ticker": "2317.TW",
+              "exchange": "TWSE",
+              "market": "Taiwan",
+              "stockUrl": "https://finance.yahoo.com/quote/2317.TW"
+            },
+            "companyUrl": "https://www.honhai.com/en-us/",
+            "confidence": "medium",
+            "sourceIds": ["nvda-10k-2026", "nvda-q1-fy2027"]
+          },
+          {
+            "name": "Quanta",
+            "relationship": "AI 服务器 ODM 伙伴，关系重点是 GPU 服务器主板、机箱、整机组装和大规模数据中心交付。",
+            "productsServices": ["AI servers", "ODM manufacturing", "Rack systems"],
+            "listing": {
+              "status": "listed",
+              "ticker": "2382.TW",
+              "exchange": "TWSE",
+              "market": "Taiwan",
+              "stockUrl": "https://finance.yahoo.com/quote/2382.TW"
+            },
+            "companyUrl": "https://www.quantatw.com/",
+            "confidence": "medium",
+            "sourceIds": ["nvda-10k-2026", "nvda-q1-fy2027"]
+          },
+          {
+            "name": "Wistron",
+            "relationship": "服务器和系统制造生态参与者，承担部分板卡、整机或区域制造产能；具体项目组合会随客户和代际变化。",
+            "productsServices": ["Server manufacturing", "Board integration", "Regional production capacity"],
+            "listing": {
+              "status": "listed",
+              "ticker": "3231.TW",
+              "exchange": "TWSE",
+              "market": "Taiwan",
+              "stockUrl": "https://finance.yahoo.com/quote/3231.TW"
+            },
+            "companyUrl": "https://www.wistron.com/",
+            "confidence": "medium",
+            "sourceIds": ["nvda-10k-2026", "nvda-q1-fy2027"]
+          },
+          {
+            "name": "Supermicro",
+            "relationship": "NVIDIA GPU 服务器、HGX/GB 系统和 AI 机柜生态中的系统集成商之一，面向企业和云客户交付整机方案。",
+            "productsServices": ["GPU servers", "Rack systems", "Liquid-cooled AI systems"],
+            "listing": {
+              "status": "listed",
+              "ticker": "SMCI",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/smci"
+            },
+            "companyUrl": "https://www.supermicro.com/",
+            "confidence": "medium",
+            "sourceIds": ["nvda-10k-2026", "nvda-q1-fy2027"]
+          },
+          {
+            "name": "Dell",
+            "relationship": "NVIDIA 数据中心平台 OEM/系统伙伴，向企业客户提供搭载 NVIDIA GPU、网络和软件栈的服务器及 AI 基础设施方案。",
+            "productsServices": ["AI servers", "Enterprise infrastructure", "GPU systems"],
+            "listing": {
+              "status": "listed",
+              "ticker": "DELL",
+              "exchange": "NYSE",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/dell"
+            },
+            "companyUrl": "https://www.dell.com/",
+            "confidence": "medium",
+            "sourceIds": ["nvda-10k-2026", "nvda-q1-fy2027"]
+          },
+          {
+            "name": "HPE",
+            "relationship": "NVIDIA 企业和 HPC 数据中心生态伙伴，提供搭载 NVIDIA 加速器与网络的服务器、超算和 AI 基础设施解决方案。",
+            "productsServices": ["AI infrastructure", "HPC servers", "GPU systems"],
+            "listing": {
+              "status": "listed",
+              "ticker": "HPE",
+              "exchange": "NYSE",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/hpe"
+            },
+            "companyUrl": "https://www.hpe.com/",
+            "confidence": "medium",
+            "sourceIds": ["nvda-10k-2026", "nvda-q1-fy2027"]
+          },
+          {
+            "name": "Lenovo",
+            "relationship": "NVIDIA OEM/系统生态伙伴，向企业和云客户提供搭载 NVIDIA GPU 的服务器、工作站和 AI 基础设施方案。",
+            "productsServices": ["AI servers", "Workstations", "Enterprise systems"],
+            "listing": {
+              "status": "listed",
+              "ticker": "0992.HK",
+              "exchange": "HKEX",
+              "market": "Hong Kong",
+              "stockUrl": "https://finance.yahoo.com/quote/0992.HK"
+            },
+            "companyUrl": "https://www.lenovo.com/",
+            "confidence": "medium",
+            "sourceIds": ["nvda-10k-2026", "nvda-q1-fy2027"]
+          }
+        ],
         "geography": ["Taiwan", "China mainland", "United States", "Mexico"],
         "materials": ["Accelerator boards", "AI servers", "Racks", "Cooling and power"],
         "notes": "该层将芯片、网络、板卡、电源、散热和机柜整合为数据中心可部署系统；具体客户项目的供应商组合会变化。",
@@ -87,6 +304,126 @@
         "level": 2,
         "title": "设备、基板、材料和化学品",
         "companies": ["ASML", "Applied Materials", "Lam Research", "Tokyo Electron", "KLA", "Ibiden", "Unimicron", "Shinko"],
+        "entities": [
+          {
+            "name": "ASML",
+            "relationship": "TSMC、Samsung、SK Hynix 等先进晶圆/存储厂的关键光刻设备供应商，间接决定 NVIDIA GPU 与 HBM 上游产能。",
+            "productsServices": ["EUV lithography systems", "DUV lithography systems", "Lithography services"],
+            "listing": {
+              "status": "listed",
+              "ticker": "ASML",
+              "exchange": "NASDAQ",
+              "market": "United States / Netherlands",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/asml"
+            },
+            "companyUrl": "https://www.asml.com/en",
+            "confidence": "low",
+            "sourceIds": ["nvda-10k-2026"]
+          },
+          {
+            "name": "Applied Materials",
+            "relationship": "向 foundry 和存储厂提供材料工程及沉积等制造设备，是 NVIDIA 先进芯片上游设备链的一部分。",
+            "productsServices": ["Deposition tools", "Materials engineering", "Process equipment"],
+            "listing": {
+              "status": "listed",
+              "ticker": "AMAT",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/amat"
+            },
+            "companyUrl": "https://www.appliedmaterials.com/",
+            "confidence": "low",
+            "sourceIds": ["nvda-10k-2026"]
+          },
+          {
+            "name": "Lam Research",
+            "relationship": "刻蚀、沉积和清洗设备供应商，服务于逻辑晶圆与 DRAM/HBM 制程，间接影响 NVIDIA 晶圆和内存供应。",
+            "productsServices": ["Etch tools", "Deposition tools", "Wafer cleaning equipment"],
+            "listing": {
+              "status": "listed",
+              "ticker": "LRCX",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/lrcx"
+            },
+            "companyUrl": "https://www.lamresearch.com/",
+            "confidence": "low",
+            "sourceIds": ["nvda-10k-2026"]
+          },
+          {
+            "name": "Tokyo Electron",
+            "relationship": "半导体前道设备供应商，间接服务 TSMC、Samsung、SK Hynix 等 NVIDIA 上游制造伙伴。",
+            "productsServices": ["Coater/developer tools", "Deposition equipment", "Etch systems"],
+            "listing": {
+              "status": "listed",
+              "ticker": "8035.T",
+              "exchange": "TSE",
+              "market": "Japan",
+              "stockUrl": "https://finance.yahoo.com/quote/8035.T"
+            },
+            "companyUrl": "https://www.tel.com/",
+            "confidence": "low",
+            "sourceIds": ["nvda-10k-2026"]
+          },
+          {
+            "name": "KLA",
+            "relationship": "缺陷检测和量测设备供应商，支持先进逻辑与 HBM 制造良率控制，属于 NVIDIA 间接上游。",
+            "productsServices": ["Inspection tools", "Metrology systems", "Process control"],
+            "listing": {
+              "status": "listed",
+              "ticker": "KLAC",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/klac"
+            },
+            "companyUrl": "https://www.kla.com/",
+            "confidence": "low",
+            "sourceIds": ["nvda-10k-2026"]
+          },
+          {
+            "name": "Ibiden",
+            "relationship": "ABF/有机基板供应商，处于 GPU 先进封装和服务器板级集成的上游，影响大尺寸封装产能。",
+            "productsServices": ["ABF substrates", "Package substrates", "Organic substrates"],
+            "listing": {
+              "status": "listed",
+              "ticker": "4062.T",
+              "exchange": "TSE",
+              "market": "Japan",
+              "stockUrl": "https://finance.yahoo.com/quote/4062.T"
+            },
+            "companyUrl": "https://www.ibiden.com/",
+            "confidence": "low",
+            "sourceIds": ["nvda-10k-2026"]
+          },
+          {
+            "name": "Unimicron",
+            "relationship": "IC 载板和 PCB 供应商，间接支撑 NVIDIA GPU 封装、板卡和 AI 服务器供应链。",
+            "productsServices": ["IC substrates", "PCBs", "HDI boards"],
+            "listing": {
+              "status": "listed",
+              "ticker": "3037.TW",
+              "exchange": "TWSE",
+              "market": "Taiwan",
+              "stockUrl": "https://finance.yahoo.com/quote/3037.TW"
+            },
+            "companyUrl": "https://www.unimicron.com/",
+            "confidence": "low",
+            "sourceIds": ["nvda-10k-2026"]
+          },
+          {
+            "name": "Shinko Electric Industries",
+            "relationship": "封装基板与半导体封装材料供应链参与者；2025 年 JIC 相关 tender offer 后进入私有化/退市路径，因此不再作为可交易上市公司展示。",
+            "productsServices": ["Package substrates", "Semiconductor packages", "Lead frames"],
+            "listing": {
+              "status": "delisted",
+              "formerTicker": "6967.T",
+              "note": "2025 年公开文件显示 JICC-04 tender offer 以私有化为目的"
+            },
+            "companyUrl": "https://www.shinko.co.jp/english/",
+            "confidence": "low",
+            "sourceIds": ["nvda-10k-2026", "shinko-tender-2025"]
+          }
+        ],
         "geography": ["Netherlands", "United States", "Japan", "Taiwan"],
         "materials": ["EUV tools", "ABF substrates", "Photomasks", "Photoresists", "Specialty gases"],
         "notes": "这一级大多是 NVIDIA 供应商的供应商；用于追踪产能瓶颈，而非直接采购关系。",
@@ -251,6 +588,15 @@
       "publisher": "NVIDIA Newsroom",
       "url": "https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark",
       "publishedAt": "2026-05-31",
+      "accessedAt": "2026-06-07",
+      "type": "company"
+    },
+    {
+      "id": "shinko-tender-2025",
+      "title": "Announcement Regarding Commencement of the Tender Offer for Shinko Electric Industries",
+      "publisher": "Shinko Electric Industries",
+      "url": "https://www.shinko.co.jp/english/news/docs/20250217-01_e.pdf",
+      "publishedAt": "2025-02-17",
       "accessedAt": "2026-06-07",
       "type": "company"
     }

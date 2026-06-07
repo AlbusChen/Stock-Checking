@@ -10,7 +10,7 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import { useMemo, useState } from "react";
-import type { BusinessSegment, CompanyReport, Source } from "../types/company";
+import type { BusinessSegment, CompanyReport, Source, SupplierListing } from "../types/company";
 import { MetricStrip } from "./MetricStrip";
 
 interface CompanyDetailProps {
@@ -73,6 +73,26 @@ function SegmentBars({ segments, sources }: { segments: BusinessSegment[]; sourc
       ))}
     </div>
   );
+}
+
+function listingText(listing: SupplierListing) {
+  if (listing.status === "listed" && listing.ticker && listing.exchange) {
+    return `${listing.exchange} ${listing.ticker}`;
+  }
+  if (listing.status === "listed-parent" && listing.parentTicker && listing.parentExchange) {
+    return `${listing.parentExchange} ${listing.parentTicker}`;
+  }
+  if (listing.status === "delisted") {
+    return listing.formerTicker ? `已退市 ${listing.formerTicker}` : "已退市";
+  }
+  if (listing.status === "private") return "未上市";
+  return "上市状态待确认";
+}
+
+function listingHref(listing: SupplierListing) {
+  if (listing.status === "listed") return listing.stockUrl;
+  if (listing.status === "listed-parent") return listing.parentStockUrl;
+  return undefined;
 }
 
 export function CompanyDetail({ report }: CompanyDetailProps) {
@@ -177,13 +197,47 @@ export function CompanyDetail({ report }: CompanyDetailProps) {
                   <em>{tier.confidence}</em>
                 </div>
                 <p>{tier.notes}</p>
-                <div className="pill-row compact">
-                  {tier.companies.map((company) => (
-                    <span className="pill" key={company}>
-                      <Factory size={13} aria-hidden="true" />
-                      {company}
-                    </span>
-                  ))}
+                <div className="supplier-list">
+                  {tier.entities.map((entity) => {
+                    const href = listingHref(entity.listing);
+                    return (
+                      <div className="supplier-row" key={entity.name}>
+                        <div className="supplier-main">
+                          <strong>{entity.name}</strong>
+                          {href ? (
+                            <a className="listing-link" href={href} target="_blank" rel="noreferrer">
+                              {listingText(entity.listing)}
+                              <ExternalLink size={13} aria-hidden="true" />
+                            </a>
+                          ) : (
+                            <span className="listing-status">{listingText(entity.listing)}</span>
+                          )}
+                          {entity.listing.note ? <small>{entity.listing.note}</small> : null}
+                        </div>
+                        <div className="supplier-detail">
+                          <p>{entity.relationship}</p>
+                          <div className="supplier-tags">
+                            {entity.productsServices.map((item) => (
+                              <span className="pill" key={`${entity.name}-${item}`}>
+                                <Factory size={13} aria-hidden="true" />
+                                {item}
+                              </span>
+                            ))}
+                          </div>
+                          <div className="supplier-links">
+                            {entity.companyUrl ? (
+                              <a href={entity.companyUrl} target="_blank" rel="noreferrer">
+                                公司
+                                <ExternalLink size={13} aria-hidden="true" />
+                              </a>
+                            ) : null}
+                            <span>{entity.confidence}</span>
+                          </div>
+                          <Evidence ids={entity.sourceIds} sources={sources} />
+                        </div>
+                      </div>
+                    );
+                  })}
                 </div>
                 <div className="subline">{tier.materials.join(" / ")}</div>
                 <Evidence ids={tier.sourceIds} sources={sources} />
