@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "id": "aapl",
+  "ticker": "AAPL",
+  "exchange": "NASDAQ",
+  "market": "US",
+  "name": "Apple Inc.",
+  "legalName": "Apple Inc.",
+  "cik": "0000320193",
+  "currency": "USD",
+  "sector": "Consumer electronics and services",
+  "industry": ["Smartphones", "Personal computers", "Wearables", "Digital services"],
+  "homepage": "https://www.apple.com/",
+  "lastUpdated": "2026-06-07T16:45:00+08:00",
+  "summary": "硬件生态和服务收入共同驱动，核心变量是 iPhone 周期、服务增长、供应链韧性与 AI 平台节奏。",
+  "updateCadence": {
+    "最新动态": "12 小时",
+    "财务与公告": "每日",
+    "主营业务": "每周",
+    "供应链溯源": "每周"
+  },
+  "business": {
+    "description": "Apple 设计、制造并销售 iPhone、Mac、iPad、可穿戴设备、家庭与配件，同时通过 App Store、订阅、广告、云服务、AppleCare、支付与媒体内容获得服务收入。硬件装机量是服务收入和生态粘性的底层资产。",
+    "revenueModel": ["设备销售", "服务订阅与佣金", "授权与内容", "配件与保修"],
+    "segments": [
+      {
+        "name": "iPhone",
+        "revenue": 209.586,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "share": 50.36,
+        "note": "最大收入来源，换机周期、渠道库存和 Pro 机型组合对毛利有显著影响。",
+        "sourceIds": ["aapl-10k-2025"]
+      },
+      {
+        "name": "Services",
+        "revenue": 109.158,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "share": 26.23,
+        "note": "规模仅次于 iPhone，毛利率通常高于硬件，是利润韧性的关键来源。",
+        "sourceIds": ["aapl-10k-2025"]
+      },
+      {
+        "name": "Mac",
+        "revenue": 33.708,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "share": 8.1,
+        "note": "受 Apple silicon 产品周期、企业采购和教育需求影响。",
+        "sourceIds": ["aapl-10k-2025"]
+      },
+      {
+        "name": "Wearables, Home and Accessories",
+        "revenue": 35.686,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "share": 8.58,
+        "note": "包括 Apple Watch、AirPods、家庭设备和配件，更多体现生态延展。",
+        "sourceIds": ["aapl-10k-2025"]
+      },
+      {
+        "name": "iPad",
+        "revenue": 28.023,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "share": 6.73,
+        "note": "产品更新节奏和教育/企业采购对波动影响较大。",
+        "sourceIds": ["aapl-10k-2025"]
+      }
+    ],
+    "thesis": "Apple 的核心不是单一硬件销量，而是高端设备装机基数、芯片/系统/服务一体化和渠道控制力。短期关注 iPhone 17 周期和 WWDC26 AI 进展，中期关注服务监管、供应链地域迁移和自研芯片路线。",
+    "riskNotes": [
+      "iPhone 仍贡献约半数年度收入，单一产品周期风险较高。",
+      "供应链高度依赖亚洲制造和关键零部件伙伴，地缘、关税和产能扰动会放大库存波动。",
+      "App Store、默认搜索、支付和隐私政策面临监管不确定性。"
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-07T16:45:00+08:00",
+    "thesis": "Apple 采用轻资产设计与重度外包制造模式。公司披露其制造主要由外包伙伴完成，地区包括中国大陆、印度、日本、韩国、台湾、越南和美国；进一步上溯后，关键瓶颈集中在先进晶圆制造、显示面板、摄像头、存储、被动元件、电池材料和精密组装。",
+    "tiers": [
+      {
+        "level": 0,
+        "title": "品牌、设计、系统集成",
+        "companies": ["Apple"],
+        "geography": ["United States", "Global"],
+        "materials": ["iOS/macOS ecosystem", "Apple silicon designs", "Industrial design"],
+        "notes": "Apple 控制产品定义、系统软件、芯片设计、渠道和生态分发，制造与大量组件采购由供应商网络承担。",
+        "confidence": "high",
+        "sourceIds": ["aapl-10k-2025"]
+      },
+      {
+        "level": 1,
+        "title": "最终组装与关键模组",
+        "companies": ["Hon Hai Precision/Foxconn", "Luxshare Precision", "Pegatron", "Compal", "Wistron"],
+        "geography": ["China mainland", "India", "Vietnam", "Taiwan"],
+        "materials": ["Finished devices", "Camera modules", "Enclosures", "Connectors"],
+        "notes": "Apple 官方供应商名单覆盖组装、机械件、连接器、声学、摄像头和其他模组供应商；不同产品线的直接供应关系会随年份和机型变化。",
+        "confidence": "medium",
+        "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+      },
+      {
+        "level": 1,
+        "title": "半导体、显示与电池",
+        "companies": ["TSMC", "Samsung Display", "LG Display", "Sony Semiconductor", "Murata", "TDK", "Sunwoda"],
+        "geography": ["Taiwan", "South Korea", "Japan", "China mainland"],
+        "materials": ["Application processors", "OLED panels", "Image sensors", "MLCC", "Batteries"],
+        "notes": "该层决定高端产品可得性和成本结构。Apple 年报没有逐项确认所有型号供应比例，因此供应商名单与行业公开资料需结合使用。",
+        "confidence": "medium",
+        "sourceIds": ["apple-supplier-list", "aapl-10k-2025"]
+      },
+      {
+        "level": 2,
+        "title": "晶圆、设备、化学品与封装",
+        "companies": ["ASML", "Applied Materials", "Lam Research", "Tokyo Electron", "KLA", "Shin-Etsu", "SUMCO"],
+        "geography": ["Netherlands", "United States", "Japan", "Taiwan"],
+        "materials": ["Silicon wafers", "Lithography tools", "Photoresists", "Specialty gases", "Advanced packaging"],
+        "notes": "这一级多数不是 Apple 直接披露供应商，而是上游半导体制造的必要投入；用于识别原材料和设备瓶颈。",
+        "confidence": "low",
+        "sourceIds": ["aapl-10k-2025"]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "硅晶圆",
+        "usedIn": "Apple silicon、射频、存储与传感器芯片",
+        "upstream": ["Quartz", "Polysilicon", "Prime wafers"],
+        "risk": "先进制程受晶圆、EUV 设备和代工产能共同约束。",
+        "confidence": "medium"
+      },
+      {
+        "name": "锂、钴、镍、石墨",
+        "usedIn": "电池",
+        "upstream": ["Lithium brine/hard rock", "Cobalt", "Nickel", "Graphite"],
+        "risk": "电池材料受矿产来源、回收比例、合规审计和价格波动影响。",
+        "confidence": "medium"
+      },
+      {
+        "name": "稀土、铜、铝、金、锡、钨",
+        "usedIn": "磁体、外壳、连接器、电路板和焊料",
+        "upstream": ["Rare earth oxides", "Copper concentrate", "Bauxite", "Conflict minerals"],
+        "risk": "合规追踪复杂，地缘和冶炼产能会影响交付。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "financials": {
+    "latestPeriod": "Q2 FY2026 / FY2025 baseline",
+    "highlights": [
+      {
+        "label": "Q2 FY2026 revenue",
+        "value": 111.2,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-28",
+        "change": "up 17% YoY",
+        "sourceIds": ["aapl-q2-2026"]
+      },
+      {
+        "label": "Q2 FY2026 diluted EPS",
+        "value": 2.01,
+        "unit": "USD",
+        "period": "Quarter ended 2026-03-28",
+        "change": "up 22% YoY",
+        "sourceIds": ["aapl-q2-2026"]
+      },
+      {
+        "label": "FY2025 net sales",
+        "value": 416.161,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "change": "up 6% YoY",
+        "sourceIds": ["aapl-10k-2025"]
+      },
+      {
+        "label": "Q2 FY2026 operating cash flow",
+        "value": 28,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-28",
+        "change": "more than $28B",
+        "sourceIds": ["aapl-q2-2026"]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "iPhone",
+        "revenue": 209.586,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "share": 50.36,
+        "note": "FY2025 category net sales.",
+        "sourceIds": ["aapl-10k-2025"]
+      },
+      {
+        "name": "Services",
+        "revenue": 109.158,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "share": 26.23,
+        "note": "FY2025 category net sales.",
+        "sourceIds": ["aapl-10k-2025"]
+      },
+      {
+        "name": "Mac",
+        "revenue": 33.708,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "share": 8.1,
+        "note": "FY2025 category net sales.",
+        "sourceIds": ["aapl-10k-2025"]
+      },
+      {
+        "name": "Wearables, Home and Accessories",
+        "revenue": 35.686,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "share": 8.58,
+        "note": "FY2025 category net sales.",
+        "sourceIds": ["aapl-10k-2025"]
+      },
+      {
+        "name": "iPad",
+        "revenue": 28.023,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "share": 6.73,
+        "note": "FY2025 category net sales.",
+        "sourceIds": ["aapl-10k-2025"]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-05-18",
+      "title": "WWDC26 将于 6 月 8 日开幕",
+      "category": "Product / Developer",
+      "summary": "Apple 公布 WWDC26 日程，Keynote 和 Platforms State of the Union 将展示平台更新、AI 进展和开发者工具。",
+      "impact": "短期观察点在 AI 功能是否能提升设备换机与服务使用频次。",
+      "sourceIds": ["aapl-wwdc-2026"]
+    },
+    {
+      "date": "2026-04-30",
+      "title": "Apple 发布 FY2026 第二财季业绩",
+      "category": "Earnings",
+      "summary": "季度收入 1112 亿美元，同比增长 17%；摊薄 EPS 为 2.01 美元，同比增长 22%；服务收入再创新高。",
+      "impact": "业绩显示 iPhone 与服务仍是主线，回购授权和股息提升强化资本回报。",
+      "sourceIds": ["aapl-q2-2026"]
+    },
+    {
+      "date": "2025-10-31",
+      "title": "Apple 提交 FY2025 Form 10-K",
+      "category": "SEC filing",
+      "summary": "FY2025 净销售额 4161.61 亿美元，iPhone 和 Services 是主要收入来源。",
+      "impact": "年报提供业务结构、供应链风险和采购义务基线。",
+      "sourceIds": ["aapl-10k-2025"]
+    }
+  ],
+  "filings": [
+    {
+      "form": "10-K",
+      "filedAt": "2025-10-31",
+      "reportDate": "2025-09-27",
+      "title": "FY2025 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-01-30",
+      "reportDate": "2025-12-27",
+      "title": "Q1 FY2026 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "aapl-q2-2026",
+      "title": "Apple reports second quarter results",
+      "publisher": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/",
+      "publishedAt": "2026-04-30",
+      "accessedAt": "2026-06-07",
+      "type": "company"
+    },
+    {
+      "id": "aapl-10k-2025",
+      "title": "Apple FY2025 Form 10-K",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "publishedAt": "2025-10-31",
+      "accessedAt": "2026-06-07",
+      "type": "sec"
+    },
+    {
+      "id": "apple-supplier-list",
+      "title": "Apple Supplier List",
+      "publisher": "Apple Supplier Responsibility",
+      "url": "https://www.apple.com/in/supplier-responsibility/pdf/Apple-Supplier-List.pdf",
+      "accessedAt": "2026-06-07",
+      "type": "company"
+    },
+    {
+      "id": "aapl-wwdc-2026",
+      "title": "Apple kicks off Worldwide Developers Conference on June 8",
+      "publisher": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/",
+      "publishedAt": "2026-05-18",
+      "accessedAt": "2026-06-07",
+      "type": "company"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0000320193",
+      "forms": ["10-K", "10-Q", "8-K"]
+    },
+    "newsFeeds": [
+      {
+        "url": "https://www.apple.com/newsroom/rss-feed.rss",
+        "publisher": "Apple Newsroom",
+        "sourceType": "company"
+      }
+    ]
+  }
+}

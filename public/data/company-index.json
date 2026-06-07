@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-06-07T16:45:00+08:00",
+  "companies": [
+    {
+      "id": "aapl",
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "legalName": "Apple Inc.",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/aapl.json",
+      "aliases": ["Apple", "苹果", "苹果公司"],
+      "sector": "Consumer electronics and services",
+      "lastUpdated": "2026-06-07T16:45:00+08:00",
+      "summary": "硬件生态和服务收入共同驱动，核心变量是 iPhone 周期、服务增长、供应链韧性与 AI 平台节奏。"
+    },
+    {
+      "id": "nvda",
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "legalName": "NVIDIA Corporation",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/nvda.json",
+      "aliases": ["NVIDIA", "Nvidia", "英伟达", "辉达"],
+      "sector": "Accelerated computing and AI infrastructure",
+      "lastUpdated": "2026-06-07T16:45:00+08:00",
+      "summary": "AI 数据中心平台是收入主轴，关注 Blackwell/Rubin 放量、HBM 与先进封装供给、出口限制和客户集中度。"
+    },
+    {
+      "id": "intc",
+      "ticker": "INTC",
+      "name": "Intel Corporation",
+      "legalName": "Intel Corporation",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/intc.json",
+      "aliases": ["Intel", "英特尔"],
+      "sector": "Semiconductors and foundry",
+      "lastUpdated": "2026-06-07T16:45:00+08:00",
+      "summary": "CPU 业务提供现金流，Intel Foundry 与先进制程/封装决定中长期弹性，当前重点是供给、良率和外部客户。"
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "id": "intc",
+  "ticker": "INTC",
+  "exchange": "NASDAQ",
+  "market": "US",
+  "name": "Intel Corporation",
+  "legalName": "Intel Corporation",
+  "cik": "0000050863",
+  "currency": "USD",
+  "sector": "Semiconductors and foundry",
+  "industry": ["Client CPUs", "Data center CPUs", "Foundry", "Advanced packaging", "Edge AI"],
+  "homepage": "https://www.intel.com/",
+  "lastUpdated": "2026-06-07T16:45:00+08:00",
+  "summary": "CPU 业务提供现金流，Intel Foundry 与先进制程/封装决定中长期弹性，当前重点是供给、良率和外部客户。",
+  "updateCadence": {
+    "最新动态": "12 小时",
+    "财务与公告": "每日",
+    "主营业务": "每周",
+    "供应链溯源": "每周"
+  },
+  "business": {
+    "description": "Intel 设计并制造半导体，业务包括 Client Computing Group、Data Center and AI、Intel Foundry 以及其他业务。它既销售自有 CPU/平台产品，也试图把制程、晶圆制造、先进封装和测试能力作为外部 foundry 服务输出。",
+    "revenueModel": ["客户端 CPU", "数据中心 CPU 与平台", "晶圆制造与封装", "边缘/网络/其他"],
+    "segments": [
+      {
+        "name": "Client Computing Group",
+        "revenue": 7.7,
+        "unit": "USD billions",
+        "period": "Q1 2026",
+        "share": 56.7,
+        "note": "PC 与客户端平台是当前最重要收入来源之一。",
+        "sourceIds": ["intc-q1-2026"]
+      },
+      {
+        "name": "Data Center and AI",
+        "revenue": 5.1,
+        "unit": "USD billions",
+        "period": "Q1 2026",
+        "share": 37.6,
+        "note": "受 Xeon、AI 基础设施主机 CPU 和云/企业需求驱动。",
+        "sourceIds": ["intc-q1-2026"]
+      },
+      {
+        "name": "Intel Foundry",
+        "revenue": 5.4,
+        "unit": "USD billions",
+        "period": "Q1 2026",
+        "share": 39.8,
+        "note": "含内部交易，不能与总净收入直接相加；是中长期战略弹性来源。",
+        "sourceIds": ["intc-q1-2026"]
+      }
+    ],
+    "thesis": "Intel 的看点在于 CPU 基本盘、供给改善、Intel 18A/后续节点、先进封装和外部 foundry 客户能否同时兑现。若良率、成本和客户导入进展同步改善，估值弹性来自 foundry；若资本开支与折旧压力过大，则利润修复会受限。",
+    "riskNotes": [
+      "Intel Foundry 收入包含内部交易，观察时需要区分总净收入与分部口径。",
+      "先进制程和 EUV 工具资本开支高，良率爬坡和折旧会影响毛利。",
+      "PC 与数据中心 CPU 面临 AMD、Arm、自研 ASIC 和 GPU 加速架构竞争。"
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-07T16:45:00+08:00",
+    "thesis": "Intel 是 IDM 与 foundry 混合模式，供应链不仅包括上游材料和设备，也包括内部晶圆厂、封装测试基地和部分外部代工。上溯到原材料后，EUV 光刻、沉积/刻蚀/量测设备、高纯晶圆、特种气体、化学品、光刻胶和先进封装基板是关键约束。",
+    "tiers": [
+      {
+        "level": 0,
+        "title": "产品设计、制造和 foundry 服务",
+        "companies": ["Intel"],
+        "geography": ["United States", "Ireland", "Israel", "Malaysia", "Vietnam", "China"],
+        "materials": ["CPU designs", "Process nodes", "Advanced packaging", "Assembly and test"],
+        "notes": "Intel 年报披露 2025 年主要封装测试设施在中国、新墨西哥、越南和马来西亚，新墨西哥是关键先进封装设施，马来西亚有新先进封装设施在建设。",
+        "confidence": "high",
+        "sourceIds": ["intc-10k-2025"]
+      },
+      {
+        "level": 1,
+        "title": "晶圆厂设备与工艺工具",
+        "companies": ["ASML", "Applied Materials", "Lam Research", "Tokyo Electron", "KLA"],
+        "geography": ["Netherlands", "United States", "Japan"],
+        "materials": ["EUV lithography", "Deposition", "Etch", "Inspection", "Metrology"],
+        "notes": "Intel 年报明确提到先进制程所需的 ASML EUV 工具；其他设备商为半导体制造通用关键环节，具体采购比例未逐项披露。",
+        "confidence": "medium",
+        "sourceIds": ["intc-10k-2025"]
+      },
+      {
+        "level": 1,
+        "title": "外部 foundry、封装与基板",
+        "companies": ["TSMC", "ASE", "Amkor", "Ibiden", "Unimicron", "Shinko"],
+        "geography": ["Taiwan", "Japan", "United States", "Malaysia"],
+        "materials": ["External foundry wafers", "Advanced packages", "Organic substrates", "Assembly services"],
+        "notes": "Intel 部分产品会依赖外部 foundry 或封装生态；该层用于追踪供应弹性和先进封装瓶颈。",
+        "confidence": "low",
+        "sourceIds": ["intc-10k-2025"]
+      },
+      {
+        "level": 2,
+        "title": "晶圆、化学品、气体和消耗材料",
+        "companies": ["Shin-Etsu", "SUMCO", "JSR", "Entegris", "Linde", "Air Liquide"],
+        "geography": ["Japan", "United States", "Europe", "Taiwan"],
+        "materials": ["300mm wafers", "Photoresists", "CMP slurry", "Specialty gases", "Wet chemicals"],
+        "notes": "这些是半导体制造的原材料和消耗材料层，Intel 年报提示原材料短缺、交期和价格波动风险。",
+        "confidence": "low",
+        "sourceIds": ["intc-10k-2025"]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "高纯硅晶圆",
+        "usedIn": "CPU、chiplet、foundry 晶圆",
+        "upstream": ["Quartz", "Polysilicon", "300mm silicon wafers"],
+        "risk": "先进节点需要高规格晶圆和严格缺陷控制，供应质量直接影响良率。",
+        "confidence": "medium"
+      },
+      {
+        "name": "光刻胶、特种气体和湿化学品",
+        "usedIn": "光刻、刻蚀、清洗、沉积",
+        "upstream": ["Fluorochemicals", "Noble gases", "Solvents", "Specialty polymers"],
+        "risk": "供应商集中且认证周期长，断供会影响晶圆厂连续生产。",
+        "confidence": "medium"
+      },
+      {
+        "name": "铜、ABF 树脂、陶瓷和封装材料",
+        "usedIn": "先进封装、基板、互连和散热",
+        "upstream": ["Copper", "Epoxy resins", "Glass cloth", "Ceramics"],
+        "risk": "先进封装扩产会拉动高层数基板和散热材料需求。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "financials": {
+    "latestPeriod": "Q1 2026 / FY2025 baseline",
+    "highlights": [
+      {
+        "label": "Q1 2026 revenue",
+        "value": 13.6,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-28",
+        "change": "up 7% YoY",
+        "sourceIds": ["intc-q1-2026"]
+      },
+      {
+        "label": "Q1 2026 non-GAAP EPS",
+        "value": 0.29,
+        "unit": "USD",
+        "period": "Quarter ended 2026-03-28",
+        "change": "up 123% YoY",
+        "sourceIds": ["intc-q1-2026"]
+      },
+      {
+        "label": "FY2025 revenue",
+        "value": 52.9,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "change": "flat YoY",
+        "sourceIds": ["intc-fy2025-results"]
+      },
+      {
+        "label": "Q1 2026 GAAP gross margin",
+        "value": 39.4,
+        "unit": "percent",
+        "period": "Quarter ended 2026-03-28",
+        "change": "up 2.5 ppts YoY",
+        "sourceIds": ["intc-q1-2026"]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "Client Computing Group",
+        "revenue": 7.7,
+        "unit": "USD billions",
+        "period": "Q1 2026",
+        "share": 56.7,
+        "note": "Operating segment revenue; includes rounded figures.",
+        "sourceIds": ["intc-q1-2026"]
+      },
+      {
+        "name": "Data Center and AI",
+        "revenue": 5.1,
+        "unit": "USD billions",
+        "period": "Q1 2026",
+        "share": 37.6,
+        "note": "Operating segment revenue; includes rounded figures.",
+        "sourceIds": ["intc-q1-2026"]
+      },
+      {
+        "name": "Intel Foundry",
+        "revenue": 5.4,
+        "unit": "USD billions",
+        "period": "Q1 2026",
+        "share": 39.8,
+        "note": "Includes intersegment transactions and is not additive to net revenue.",
+        "sourceIds": ["intc-q1-2026"]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-06-02",
+      "title": "Intel 在 Computex 2026 发布 AI 创新",
+      "category": "Product / Ecosystem",
+      "summary": "Intel 公布面向推理和 agentic 工作负载的 rackscale AI 基础设施、Xeon 6+、产业合作和 Series 3 处理器动向。",
+      "impact": "强化 CPU 在 AI 推理和边缘场景中的定位，但商业转化取决于生态伙伴和客户部署速度。",
+      "sourceIds": ["intc-computex-2026"]
+    },
+    {
+      "date": "2026-04-23",
+      "title": "Intel 发布 2026 第一季度业绩",
+      "category": "Earnings",
+      "summary": "Q1 收入 136 亿美元，同比增长 7%；non-GAAP EPS 为 0.29 美元；Q2 指引收入区间为 138 亿至 148 亿美元。",
+      "impact": "供给改善和 CPU 需求支撑业绩，但 GAAP 亏损、重组费用和 foundry 投入仍需跟踪。",
+      "sourceIds": ["intc-q1-2026"]
+    },
+    {
+      "date": "2026-01-22",
+      "title": "Intel 发布 2025 全年业绩",
+      "category": "Earnings",
+      "summary": "FY2025 收入 529 亿美元，与 2024 年大体持平；Intel Products 收入 491 亿美元，Intel Foundry 收入 178 亿美元。",
+      "impact": "公司处于修复与重构阶段，分部重组、Altera 出表和制造资产效率是分析重点。",
+      "sourceIds": ["intc-fy2025-results"]
+    }
+  ],
+  "filings": [
+    {
+      "form": "10-K",
+      "filedAt": "2026-01-23",
+      "reportDate": "2025-12-27",
+      "title": "FY2025 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-05-01",
+      "reportDate": "2026-03-28",
+      "title": "Q1 2026 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000079/0000050863-26-000079-index.htm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "intc-q1-2026",
+      "title": "Intel Reports First-Quarter 2026 Financial Results",
+      "publisher": "Intel Investor Relations",
+      "url": "https://www.intc.com/news-events/press-releases/detail/1767/intel-reports-first-quarter-2026-financial-results",
+      "publishedAt": "2026-04-23",
+      "accessedAt": "2026-06-07",
+      "type": "company"
+    },
+    {
+      "id": "intc-fy2025-results",
+      "title": "Intel Reports Fourth-Quarter and Full-Year 2025 Financial Results",
+      "publisher": "Intel Investor Relations",
+      "url": "https://www.intc.com/news-events/press-releases/detail/1759/intel-reports-fourth-quarter-and-full-year-2025-financial",
+      "publishedAt": "2026-01-22",
+      "accessedAt": "2026-06-07",
+      "type": "company"
+    },
+    {
+      "id": "intc-10k-2025",
+      "title": "Intel FY2025 Form 10-K",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+      "publishedAt": "2026-01-23",
+      "accessedAt": "2026-06-07",
+      "type": "sec"
+    },
+    {
+      "id": "intc-computex-2026",
+      "title": "Intel Announces New AI Innovations at Computex",
+      "publisher": "Intel Newsroom",
+      "url": "https://newsroom.intel.com/artificial-intelligence/intel-announces-new-ai-innovations-at-computex",
+      "publishedAt": "2026-06-01",
+      "accessedAt": "2026-06-07",
+      "type": "company"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0000050863",
+      "forms": ["10-K", "10-Q", "8-K"]
+    },
+    "newsFeeds": [
+      {
+        "url": "https://newsroom.intel.com/feed",
+        "publisher": "Intel Newsroom",
+        "sourceType": "company"
+      }
+    ]
+  }
+}
