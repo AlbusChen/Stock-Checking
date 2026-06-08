@@ -468,18 +468,20 @@ a {
 .tier-top {
   align-items: center;
   display: grid;
-  gap: 10px;
-  grid-template-columns: 70px minmax(0, 1fr) auto;
+  gap: 12px;
+  grid-template-columns: minmax(70px, max-content) minmax(0, 1fr) auto;
 }
 
 .tier-top span {
   color: #2b7a78;
   font-size: 13px;
   font-weight: 800;
+  white-space: nowrap;
 }
 
 .tier-top strong {
   font-size: 17px;
+  min-width: 0;
 }
 
 .tier-top em {
