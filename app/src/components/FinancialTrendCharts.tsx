@@ -29,6 +29,18 @@ function formatValue(value: number, unit: string) {
   return value.toLocaleString("en-US", { maximumFractionDigits: 2 });
 }
 
+function formatShare(value: number) {
+  return `${value.toLocaleString("en-US", { maximumFractionDigits: 1 })}%`;
+}
+
+function segmentShare(segment: RevenueMixHistorySegment | undefined, period: RevenueMixHistoryPeriod) {
+  if (!segment) return 0;
+  if (typeof segment.share === "number") return segment.share;
+  if (period.totalRevenue && period.totalRevenue > 0) return (segment.revenue / period.totalRevenue) * 100;
+  const stackTotal = period.segments.reduce((sum, item) => sum + item.revenue, 0);
+  return stackTotal > 0 ? (segment.revenue / stackTotal) * 100 : 0;
+}
+
 function EvidenceLinks({ ids, sources }: { ids: string[]; sources: Record<string, Source> }) {
   const linked = ids.map((id) => sources[id]).filter(Boolean);
   if (linked.length === 0) return null;
@@ -186,21 +198,28 @@ function RevenueMixHistoryChart({
               {segmentNames.map((segmentName, segmentIndex) => {
                 const segment = period.segments.find((item) => item.name === segmentName.name);
                 const value = segment?.revenue ?? 0;
+                const share = segmentShare(segment, period);
                 const segmentHeight = (value / maxTotal) * innerHeight;
                 const y = padding.top + innerHeight - offset - segmentHeight;
                 offset += segmentHeight;
 
                 return (
-                  <rect
-                    className="stack-segment"
-                    fill={chartColors[segmentIndex % chartColors.length]}
-                    height={Math.max(segmentHeight, value > 0 ? 2 : 0)}
-                    key={`${period.period}-${segmentName.name}`}
-                    rx="3"
-                    width={barWidth}
-                    x={x}
-                    y={y}
-                  />
+                  <g key={`${period.period}-${segmentName.name}`}>
+                    <rect
+                      className="stack-segment"
+                      fill={chartColors[segmentIndex % chartColors.length]}
+                      height={Math.max(segmentHeight, value > 0 ? 2 : 0)}
+                      rx="3"
+                      width={barWidth}
+                      x={x}
+                      y={y}
+                    />
+                    {segmentHeight >= 24 ? (
+                      <text className="stack-percent" x={x + barWidth / 2} y={y + segmentHeight / 2 + 4}>
+                        {formatShare(share)}
+                      </text>
+                    ) : null}
+                  </g>
                 );
               })}
               <text className="axis-label x-label" x={x + barWidth / 2} y={height - 16}>
@@ -219,6 +238,36 @@ function RevenueMixHistoryChart({
             <i style={{ background: chartColors[index % chartColors.length] }} />
             <TextPair text={localizedField(segment, "name")} />
           </span>
+        ))}
+      </div>
+      <div className="mix-share-table">
+        <div className="mix-share-header">
+          <span>分部 / Segment</span>
+          {periods.map((period) => (
+            <span key={period.period}>{period.periodZh ?? period.period}</span>
+          ))}
+        </div>
+        {segmentNames.map((segmentName) => (
+          <div className="mix-share-row" key={`${segmentName.name}-share-row`}>
+            <span>
+              <TextPair text={localizedField(segmentName, "name")} />
+            </span>
+            {periods.map((period) => {
+              const segment = period.segments.find((item) => item.name === segmentName.name);
+              return (
+                <span key={`${period.period}-${segmentName.name}-share`}>
+                  {segment ? (
+                    <>
+                      <strong>{formatShare(segmentShare(segment, period))}</strong>
+                      <small>{formatValue(segment.revenue, "USD billions")}</small>
+                    </>
+                  ) : (
+                    "n/a"
+                  )}
+                </span>
+              );
+            })}
+          </div>
         ))}
       </div>
       <div className="mix-history-notes">

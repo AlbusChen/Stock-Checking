@@ -745,6 +745,14 @@ a {
   shape-rendering: geometricPrecision;
 }
 
+.stack-percent {
+  fill: #ffffff;
+  font-size: 12px;
+  font-weight: 800;
+  pointer-events: none;
+  text-anchor: middle;
+}
+
 .chart-legend {
   display: flex;
   flex-wrap: wrap;
@@ -774,6 +782,61 @@ a {
 
 .chart-legend .text-pair > small {
   font-size: 11px;
+}
+
+.mix-share-table {
+  border: 1px solid #e2e8e1;
+  border-radius: 8px;
+  display: grid;
+  overflow-x: auto;
+}
+
+.mix-share-header,
+.mix-share-row {
+  display: grid;
+  grid-template-columns: minmax(190px, 1.35fr) repeat(3, minmax(96px, 0.7fr));
+  min-width: 520px;
+}
+
+.mix-share-header {
+  background: #f2f5f0;
+  color: #5f6d68;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.mix-share-row {
+  background: #ffffff;
+}
+
+.mix-share-row + .mix-share-row {
+  border-top: 1px solid #edf0ea;
+}
+
+.mix-share-header > span,
+.mix-share-row > span {
+  align-items: center;
+  border-right: 1px solid #edf0ea;
+  display: grid;
+  gap: 2px;
+  min-height: 44px;
+  min-width: 0;
+  padding: 8px 10px;
+}
+
+.mix-share-header > span:last-child,
+.mix-share-row > span:last-child {
+  border-right: 0;
+}
+
+.mix-share-row strong {
+  color: #111817;
+  font-size: 14px;
+}
+
+.mix-share-row small {
+  color: #6b756f;
+  font-size: 12px;
 }
 
 .trend-note,
