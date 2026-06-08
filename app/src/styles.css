@@ -589,6 +589,46 @@ a {
   color: #596660;
 }
 
+.downstream-panel {
+  display: grid;
+  gap: 14px;
+}
+
+.downstream-list {
+  display: grid;
+  gap: 14px;
+}
+
+.downstream-tier {
+  border: 1px solid #e2e8e1;
+  border-radius: 8px;
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+}
+
+.customer-role {
+  background: #f6efe0;
+  border-radius: 999px;
+  color: #7a5d13;
+  display: inline-grid;
+  font-size: 12px;
+  font-weight: 800;
+  gap: 0;
+  min-height: 25px;
+  padding: 4px 8px;
+  width: fit-content;
+}
+
+.customer-role .text-pair {
+  gap: 0;
+}
+
+.customer-role .text-pair > small {
+  color: #8a6f28;
+  font-size: 11px;
+}
+
 .subline {
   color: #6b756f;
   font-size: 13px;

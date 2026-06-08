@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 import { useMemo, useState } from "react";
 import { combineLocalized, localizedField, localizedList } from "../lib/localization";
-import type { BusinessSegment, CompanyReport, Source, SupplierListing } from "../types/company";
+import type { BusinessSegment, CompanyReport, DownstreamChain, Source, SupplierListing } from "../types/company";
 import { FinancialTrendCharts } from "./FinancialTrendCharts";
 import { MetricStrip } from "./MetricStrip";
 import { TextPair } from "./TextPair";
@@ -98,6 +98,88 @@ function listingHref(listing: SupplierListing) {
   if (listing.status === "listed") return listing.stockUrl;
   if (listing.status === "listed-parent") return listing.parentStockUrl;
   return undefined;
+}
+
+function DownstreamPanel({
+  downstream,
+  sources,
+}: {
+  downstream?: DownstreamChain;
+  sources: Record<string, Source>;
+}) {
+  if (!downstream) return null;
+
+  return (
+    <article className="info-card wide downstream-panel">
+      <h2>下游客户与应用去向</h2>
+      <p>
+        <TextPair text={localizedField(downstream, "thesis")} />
+      </p>
+      <div className="downstream-list">
+        {downstream.tiers.map((tier) => (
+          <section className="downstream-tier" key={`${tier.level}-${tier.title}`}>
+            <div className="tier-top">
+              <span>Downstream {tier.level}</span>
+              <strong>
+                <TextPair text={localizedField(tier, "title")} />
+              </strong>
+              <em>{tier.confidence}</em>
+            </div>
+            <p>
+              <TextPair text={localizedField(tier, "notes")} />
+            </p>
+            <div className="supplier-list">
+              {tier.entities.map((entity) => {
+                const href = listingHref(entity.listing);
+                return (
+                  <div className="supplier-row" key={`${tier.title}-${entity.name}`}>
+                    <div className="supplier-main">
+                      <strong>{entity.name}</strong>
+                      <span className="customer-role">
+                        <TextPair text={localizedField(entity, "customerRole")} />
+                      </span>
+                      {href ? (
+                        <a className="listing-link" href={href} target="_blank" rel="noreferrer">
+                          {listingText(entity.listing)}
+                          <ExternalLink size={13} aria-hidden="true" />
+                        </a>
+                      ) : (
+                        <span className="listing-status">{listingText(entity.listing)}</span>
+                      )}
+                    </div>
+                    <div className="supplier-detail">
+                      <p>
+                        <TextPair text={localizedField(entity, "relationship")} />
+                      </p>
+                      <div className="supplier-tags">
+                        {localizedList(entity, "productsServices").map((item) => (
+                          <span className="pill" key={`${entity.name}-${item.zh}`}>
+                            <Factory size={13} aria-hidden="true" />
+                            <TextPair text={item} />
+                          </span>
+                        ))}
+                      </div>
+                      <div className="supplier-links">
+                        {entity.companyUrl ? (
+                          <a href={entity.companyUrl} target="_blank" rel="noreferrer">
+                            公司
+                            <ExternalLink size={13} aria-hidden="true" />
+                          </a>
+                        ) : null}
+                        <span>{entity.confidence}</span>
+                      </div>
+                      <Evidence ids={entity.sourceIds} sources={sources} />
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+            <Evidence ids={tier.sourceIds} sources={sources} />
+          </section>
+        ))}
+      </div>
+    </article>
+  );
 }
 
 export function CompanyDetail({ report }: CompanyDetailProps) {
@@ -300,6 +382,7 @@ export function CompanyDetail({ report }: CompanyDetailProps) {
               ))}
             </div>
           </article>
+          <DownstreamPanel downstream={report.supplyChain.downstream} sources={sources} />
         </div>
       )}
 

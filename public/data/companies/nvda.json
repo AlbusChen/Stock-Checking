@@ -1095,7 +1095,345 @@
           "Fluorochemicals"
         ]
       }
-    ]
+    ],
+    "downstream": {
+      "updatedAt": "2026-06-08",
+      "thesis": "NVIDIA sits in the middle of the AI infrastructure chain: upstream fabs, HBM and packaging constrain supply, while downstream cloud providers, GPU clouds and system OEMs convert NVIDIA platforms into rentable compute or deployable AI factories.",
+      "thesisZh": "NVIDIA 处在 AI 基础设施供应链中游：上游受代工、HBM 与先进封装约束；下游由云厂商、GPU 云和系统 OEM 将 NVIDIA 平台转化为可租用算力或可部署 AI 工厂。",
+      "thesisEn": "NVIDIA sits in the middle of the AI infrastructure chain: upstream fabs, HBM and packaging constrain supply, while downstream cloud providers, GPU clouds and system OEMs convert NVIDIA platforms into rentable compute or deployable AI factories.",
+      "tiers": [
+        {
+          "level": 1,
+          "title": "Cloud and GPU-cloud customers",
+          "titleZh": "云与 GPU 云客户",
+          "titleEn": "Cloud and GPU-cloud customers",
+          "entities": [
+            {
+              "name": "Microsoft",
+              "customerRole": "Cloud infrastructure customer",
+              "customerRoleZh": "云基础设施客户",
+              "customerRoleEn": "Cloud infrastructure customer",
+              "relationship": "Microsoft Azure is cited among cloud providers offering NVIDIA Blackwell Ultra-powered infrastructure and using NVIDIA platforms for large-scale AI clusters.",
+              "relationshipZh": "Microsoft Azure 被 NVIDIA 列为提供 Blackwell Ultra 算力基础设施的云厂商之一，并使用 NVIDIA 平台建设大规模 AI 集群。",
+              "relationshipEn": "Microsoft Azure is cited among cloud providers offering NVIDIA Blackwell Ultra-powered infrastructure and using NVIDIA platforms for large-scale AI clusters.",
+              "productsServices": [
+                "Blackwell GPUs",
+                "GB200/GB300 NVL systems",
+                "NVIDIA networking and AI software"
+              ],
+              "productsServicesZh": [
+                "Blackwell GPU",
+                "GB200/GB300 NVL 系统",
+                "NVIDIA 网络与 AI 软件"
+              ],
+              "productsServicesEn": [
+                "Blackwell GPUs",
+                "GB200/GB300 NVL systems",
+                "NVIDIA networking and AI software"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "MSFT",
+                "exchange": "NASDAQ",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/msft"
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "nvda-blackwell-ultra-2025"
+              ],
+              "companyUrl": "https://azure.microsoft.com/"
+            },
+            {
+              "name": "Amazon Web Services",
+              "customerRole": "Cloud infrastructure customer",
+              "customerRoleZh": "云基础设施客户",
+              "customerRoleEn": "Cloud infrastructure customer",
+              "relationship": "AWS is listed by NVIDIA among cloud service providers expected to offer Blackwell Ultra-powered instances.",
+              "relationshipZh": "AWS 被 NVIDIA 列为预计提供 Blackwell Ultra 实例的云服务商之一。",
+              "relationshipEn": "AWS is listed by NVIDIA among cloud service providers expected to offer Blackwell Ultra-powered instances.",
+              "productsServices": [
+                "Blackwell Ultra instances",
+                "GPU cloud infrastructure"
+              ],
+              "productsServicesZh": [
+                "Blackwell Ultra 实例",
+                "GPU 云基础设施"
+              ],
+              "productsServicesEn": [
+                "Blackwell Ultra instances",
+                "GPU cloud infrastructure"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "AMZN",
+                "exchange": "NASDAQ",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/amzn"
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "nvda-blackwell-ultra-2025"
+              ],
+              "companyUrl": "https://aws.amazon.com/"
+            },
+            {
+              "name": "Alphabet / Google Cloud",
+              "customerRole": "Cloud infrastructure customer",
+              "customerRoleZh": "云基础设施客户",
+              "customerRoleEn": "Cloud infrastructure customer",
+              "relationship": "Google Cloud is listed by NVIDIA among cloud service providers expected to offer Blackwell Ultra-powered instances.",
+              "relationshipZh": "Google Cloud 被 NVIDIA 列为预计提供 Blackwell Ultra 实例的云服务商之一。",
+              "relationshipEn": "Google Cloud is listed by NVIDIA among cloud service providers expected to offer Blackwell Ultra-powered instances.",
+              "productsServices": [
+                "Blackwell Ultra instances",
+                "GPU cloud infrastructure"
+              ],
+              "productsServicesZh": [
+                "Blackwell Ultra 实例",
+                "GPU 云基础设施"
+              ],
+              "productsServicesEn": [
+                "Blackwell Ultra instances",
+                "GPU cloud infrastructure"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "GOOGL",
+                "exchange": "NASDAQ",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/googl"
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "nvda-blackwell-ultra-2025"
+              ],
+              "companyUrl": "https://cloud.google.com/"
+            },
+            {
+              "name": "Oracle Cloud Infrastructure",
+              "customerRole": "Cloud infrastructure customer",
+              "customerRoleZh": "云基础设施客户",
+              "customerRoleEn": "Cloud infrastructure customer",
+              "relationship": "Oracle Cloud Infrastructure is listed by NVIDIA among cloud service providers expected to offer Blackwell Ultra-powered instances.",
+              "relationshipZh": "Oracle Cloud Infrastructure 被 NVIDIA 列为预计提供 Blackwell Ultra 实例的云服务商之一。",
+              "relationshipEn": "Oracle Cloud Infrastructure is listed by NVIDIA among cloud service providers expected to offer Blackwell Ultra-powered instances.",
+              "productsServices": [
+                "Blackwell Ultra instances",
+                "GPU cloud infrastructure"
+              ],
+              "productsServicesZh": [
+                "Blackwell Ultra 实例",
+                "GPU 云基础设施"
+              ],
+              "productsServicesEn": [
+                "Blackwell Ultra instances",
+                "GPU cloud infrastructure"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "ORCL",
+                "exchange": "NYSE",
+                "market": "US",
+                "stockUrl": "https://www.nyse.com/quote/XNYS:ORCL"
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "nvda-blackwell-ultra-2025"
+              ],
+              "companyUrl": "https://www.oracle.com/cloud/"
+            },
+            {
+              "name": "CoreWeave",
+              "customerRole": "GPU cloud customer",
+              "customerRoleZh": "GPU 云客户",
+              "customerRoleEn": "GPU cloud customer",
+              "relationship": "CoreWeave is listed by NVIDIA among GPU cloud providers expected to offer Blackwell Ultra-powered instances.",
+              "relationshipZh": "CoreWeave 被 NVIDIA 列为预计提供 Blackwell Ultra 实例的 GPU 云服务商之一。",
+              "relationshipEn": "CoreWeave is listed by NVIDIA among GPU cloud providers expected to offer Blackwell Ultra-powered instances.",
+              "productsServices": [
+                "GB200/GB300 systems",
+                "GPU cloud infrastructure"
+              ],
+              "productsServicesZh": [
+                "GB200/GB300 系统",
+                "GPU 云基础设施"
+              ],
+              "productsServicesEn": [
+                "GB200/GB300 systems",
+                "GPU cloud infrastructure"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "CRWV",
+                "exchange": "NASDAQ",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/crwv"
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "nvda-blackwell-ultra-2025"
+              ],
+              "companyUrl": "https://www.coreweave.com/"
+            }
+          ],
+          "notes": "Cloud providers buy or deploy NVIDIA GPUs, networking and software stacks, then expose them as AI infrastructure services to model developers and enterprises.",
+          "notesZh": "云厂商采购或部署 NVIDIA GPU、网络和软件栈，再将其作为 AI 基础设施服务提供给模型开发者和企业。",
+          "notesEn": "Cloud providers buy or deploy NVIDIA GPUs, networking and software stacks, then expose them as AI infrastructure services to model developers and enterprises.",
+          "confidence": "high",
+          "sourceIds": [
+            "nvda-blackwell-ultra-2025"
+          ]
+        },
+        {
+          "level": 2,
+          "title": "Enterprise system OEMs",
+          "titleZh": "企业系统 OEM",
+          "titleEn": "Enterprise system OEMs",
+          "entities": [
+            {
+              "name": "Dell Technologies",
+              "customerRole": "System OEM / route-to-market partner",
+              "customerRoleZh": "系统 OEM / 商业落地伙伴",
+              "customerRoleEn": "System OEM / route-to-market partner",
+              "relationship": "Dell is one of the system partners NVIDIA lists for RTX PRO and Blackwell server platforms.",
+              "relationshipZh": "Dell 是 NVIDIA 列出的 RTX PRO 与 Blackwell 服务器平台系统伙伴之一。",
+              "relationshipEn": "Dell is one of the system partners NVIDIA lists for RTX PRO and Blackwell server platforms.",
+              "productsServices": [
+                "RTX PRO 6000 Blackwell servers",
+                "AI factory systems"
+              ],
+              "productsServicesZh": [
+                "RTX PRO 6000 Blackwell 服务器",
+                "AI 工厂系统"
+              ],
+              "productsServicesEn": [
+                "RTX PRO 6000 Blackwell servers",
+                "AI factory systems"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "DELL",
+                "exchange": "NYSE",
+                "market": "US",
+                "stockUrl": "https://www.nyse.com/quote/XNYS:DELL"
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "nvda-rtx-pro-systems-2025"
+              ],
+              "companyUrl": "https://www.dell.com/"
+            },
+            {
+              "name": "Hewlett Packard Enterprise",
+              "customerRole": "System OEM / route-to-market partner",
+              "customerRoleZh": "系统 OEM / 商业落地伙伴",
+              "customerRoleEn": "System OEM / route-to-market partner",
+              "relationship": "HPE is one of the system partners NVIDIA lists for RTX PRO and Blackwell server platforms.",
+              "relationshipZh": "HPE 是 NVIDIA 列出的 RTX PRO 与 Blackwell 服务器平台系统伙伴之一。",
+              "relationshipEn": "HPE is one of the system partners NVIDIA lists for RTX PRO and Blackwell server platforms.",
+              "productsServices": [
+                "RTX PRO 6000 Blackwell servers",
+                "AI factory systems"
+              ],
+              "productsServicesZh": [
+                "RTX PRO 6000 Blackwell 服务器",
+                "AI 工厂系统"
+              ],
+              "productsServicesEn": [
+                "RTX PRO 6000 Blackwell servers",
+                "AI factory systems"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "HPE",
+                "exchange": "NYSE",
+                "market": "US",
+                "stockUrl": "https://www.nyse.com/quote/XNYS:HPE"
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "nvda-rtx-pro-systems-2025"
+              ],
+              "companyUrl": "https://www.hpe.com/"
+            },
+            {
+              "name": "Lenovo",
+              "customerRole": "System OEM / route-to-market partner",
+              "customerRoleZh": "系统 OEM / 商业落地伙伴",
+              "customerRoleEn": "System OEM / route-to-market partner",
+              "relationship": "Lenovo is one of the system partners NVIDIA lists for RTX PRO and Blackwell server platforms.",
+              "relationshipZh": "Lenovo 是 NVIDIA 列出的 RTX PRO 与 Blackwell 服务器平台系统伙伴之一。",
+              "relationshipEn": "Lenovo is one of the system partners NVIDIA lists for RTX PRO and Blackwell server platforms.",
+              "productsServices": [
+                "RTX PRO 6000 Blackwell servers",
+                "AI factory systems"
+              ],
+              "productsServicesZh": [
+                "RTX PRO 6000 Blackwell 服务器",
+                "AI 工厂系统"
+              ],
+              "productsServicesEn": [
+                "RTX PRO 6000 Blackwell servers",
+                "AI factory systems"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "0992",
+                "exchange": "HKEX",
+                "market": "HK",
+                "stockUrl": "https://www.hkex.com.hk/Market-Data/Securities-Prices/Equities/Equities-Quote?sym=992&sc_lang=en"
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "nvda-rtx-pro-systems-2025"
+              ],
+              "companyUrl": "https://www.lenovo.com/"
+            },
+            {
+              "name": "Super Micro Computer",
+              "customerRole": "System OEM / route-to-market partner",
+              "customerRoleZh": "系统 OEM / 商业落地伙伴",
+              "customerRoleEn": "System OEM / route-to-market partner",
+              "relationship": "Supermicro is one of the system partners NVIDIA lists for RTX PRO and Blackwell server platforms.",
+              "relationshipZh": "Supermicro 是 NVIDIA 列出的 RTX PRO 与 Blackwell 服务器平台系统伙伴之一。",
+              "relationshipEn": "Supermicro is one of the system partners NVIDIA lists for RTX PRO and Blackwell server platforms.",
+              "productsServices": [
+                "RTX PRO 6000 Blackwell servers",
+                "AI factory systems"
+              ],
+              "productsServicesZh": [
+                "RTX PRO 6000 Blackwell 服务器",
+                "AI 工厂系统"
+              ],
+              "productsServicesEn": [
+                "RTX PRO 6000 Blackwell servers",
+                "AI factory systems"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "SMCI",
+                "exchange": "NASDAQ",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/smci"
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "nvda-rtx-pro-systems-2025"
+              ],
+              "companyUrl": "https://www.supermicro.com/"
+            }
+          ],
+          "notes": "System OEMs integrate NVIDIA GPUs, networking and software into servers, workstations and AI-factory systems for enterprise and cloud buyers.",
+          "notesZh": "系统 OEM 将 NVIDIA GPU、网络和软件集成进服务器、工作站和 AI 工厂系统，再销售给企业和云客户。",
+          "notesEn": "System OEMs integrate NVIDIA GPUs, networking and software into servers, workstations and AI-factory systems for enterprise and cloud buyers.",
+          "confidence": "high",
+          "sourceIds": [
+            "nvda-rtx-pro-systems-2025"
+          ]
+        }
+      ]
+    }
   },
   "financials": {
     "latestPeriod": "Q1 FY2027 / FY2026 baseline",
@@ -1680,6 +2018,28 @@
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
       "accessedAt": "2026-06-08",
       "type": "sec"
+    },
+    {
+      "id": "nvda-blackwell-ultra-2025",
+      "title": "NVIDIA Blackwell Ultra AI Factory Platform Paves Way for Age of AI Reasoning",
+      "titleZh": "NVIDIA Blackwell Ultra AI 工厂平台发布",
+      "titleEn": "NVIDIA Blackwell Ultra AI Factory Platform Paves Way for Age of AI Reasoning",
+      "publisher": "NVIDIA Investor Relations",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Blackwell-Ultra-AI-Factory-Platform-Paves-Way-for-Age-of-AI-Reasoning/default.aspx",
+      "accessedAt": "2026-06-08",
+      "type": "company",
+      "publishedAt": "2025-03-18"
+    },
+    {
+      "id": "nvda-rtx-pro-systems-2025",
+      "title": "NVIDIA RTX PRO Servers With Blackwell Coming to World's Most Popular Enterprise Systems",
+      "titleZh": "NVIDIA RTX PRO Blackwell 服务器进入主流企业系统",
+      "titleEn": "NVIDIA RTX PRO Servers With Blackwell Coming to World's Most Popular Enterprise Systems",
+      "publisher": "NVIDIA Investor Relations",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-RTX-PRO-Servers-With-Blackwell-Coming-to-Worlds-Most-Popular-Enterprise-Systems/",
+      "accessedAt": "2026-06-08",
+      "type": "company",
+      "publishedAt": "2025-08-11"
     }
   ],
   "automation": {

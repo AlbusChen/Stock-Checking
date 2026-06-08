@@ -123,6 +123,44 @@ export interface RawMaterial {
   confidence: Confidence;
 }
 
+export interface DownstreamEntity {
+  name: string;
+  customerRole: string;
+  customerRoleZh?: string;
+  customerRoleEn?: string;
+  relationship: string;
+  relationshipZh?: string;
+  relationshipEn?: string;
+  productsServices: string[];
+  productsServicesZh?: string[];
+  productsServicesEn?: string[];
+  listing: SupplierListing;
+  companyUrl?: string;
+  confidence: Confidence;
+  sourceIds: string[];
+}
+
+export interface DownstreamTier {
+  level: number;
+  title: string;
+  titleZh?: string;
+  titleEn?: string;
+  entities: DownstreamEntity[];
+  notes: string;
+  notesZh?: string;
+  notesEn?: string;
+  confidence: Confidence;
+  sourceIds: string[];
+}
+
+export interface DownstreamChain {
+  updatedAt: string;
+  thesis: string;
+  thesisZh?: string;
+  thesisEn?: string;
+  tiers: DownstreamTier[];
+}
+
 export interface FinancialHighlight {
   label: string;
   labelZh?: string;
@@ -235,6 +273,7 @@ export interface CompanyReport {
     thesis: string;
     tiers: SupplierTier[];
     rawMaterials: RawMaterial[];
+    downstream?: DownstreamChain;
   };
   financials: {
     latestPeriod: string;

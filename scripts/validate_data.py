@@ -95,6 +95,26 @@ def collect_source_refs(report: dict) -> set[str]:
     return refs
 
 
+def validate_listing(errors: list[str], path: Path, listing: object, label: str) -> None:
+    if not isinstance(listing, dict):
+        errors.append(f"{path.name}: {label} needs listing")
+        return
+
+    status = listing.get("status")
+    if status not in LISTING_STATUSES:
+        errors.append(f"{path.name}: {label} has invalid listing status {status}")
+    if status == "listed":
+        if not listing.get("ticker") or not listing.get("exchange"):
+            errors.append(f"{path.name}: listed {label} needs ticker and exchange")
+        if not listing.get("stockUrl"):
+            errors.append(f"{path.name}: listed {label} needs stockUrl")
+    if status == "listed-parent":
+        if not listing.get("parentTicker") or not listing.get("parentExchange"):
+            errors.append(f"{path.name}: listed-parent {label} needs parentTicker and parentExchange")
+        if not listing.get("parentStockUrl"):
+            errors.append(f"{path.name}: listed-parent {label} needs parentStockUrl")
+
+
 def validate_report(path: Path) -> list[str]:
     errors: list[str] = []
     try:
@@ -192,24 +212,33 @@ def validate_report(path: Path) -> list[str]:
             if not entity.get("sourceIds"):
                 errors.append(f"{path.name}: supplier {name} needs sourceIds")
 
-            listing = entity.get("listing")
-            if not isinstance(listing, dict):
-                errors.append(f"{path.name}: supplier {name} needs listing")
-                continue
+            validate_listing(errors, path, entity.get("listing"), f"supplier {name}")
 
-            status = listing.get("status")
-            if status not in LISTING_STATUSES:
-                errors.append(f"{path.name}: supplier {name} has invalid listing status {status}")
-            if status == "listed":
-                if not listing.get("ticker") or not listing.get("exchange"):
-                    errors.append(f"{path.name}: listed supplier {name} needs ticker and exchange")
-                if not listing.get("stockUrl"):
-                    errors.append(f"{path.name}: listed supplier {name} needs stockUrl")
-            if status == "listed-parent":
-                if not listing.get("parentTicker") or not listing.get("parentExchange"):
-                    errors.append(f"{path.name}: listed-parent supplier {name} needs parentTicker and parentExchange")
-                if not listing.get("parentStockUrl"):
-                    errors.append(f"{path.name}: listed-parent supplier {name} needs parentStockUrl")
+    downstream = report.get("supplyChain", {}).get("downstream")
+    if isinstance(downstream, dict):
+        require_localized(errors, path, downstream, "thesis", "downstream thesis")
+        tiers = downstream.get("tiers")
+        if not isinstance(tiers, list) or not tiers:
+            errors.append(f"{path.name}: downstream needs tiers")
+        else:
+            for tier in tiers:
+                tier_name = tier.get("title", "untitled downstream tier")
+                require_localized(errors, path, tier, "title", f"downstream tier {tier_name}")
+                require_localized(errors, path, tier, "notes", f"downstream tier {tier_name}")
+                entities = tier.get("entities")
+                if not isinstance(entities, list) or not entities:
+                    errors.append(f"{path.name}: downstream tier {tier_name} needs entities")
+                    continue
+                for entity in entities:
+                    name = entity.get("name", "unnamed downstream entity")
+                    require_localized(errors, path, entity, "customerRole", f"downstream customer {name}")
+                    require_localized(errors, path, entity, "relationship", f"downstream customer {name}")
+                    if not entity.get("productsServices"):
+                        errors.append(f"{path.name}: downstream customer {name} needs productsServices")
+                    require_localized_list(errors, path, entity, "productsServices", f"downstream customer {name}")
+                    if not entity.get("sourceIds"):
+                        errors.append(f"{path.name}: downstream customer {name} needs sourceIds")
+                    validate_listing(errors, path, entity.get("listing"), f"downstream customer {name}")
 
     return errors
 

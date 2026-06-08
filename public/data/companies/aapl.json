@@ -1086,7 +1086,205 @@
           "Conflict minerals"
         ]
       }
-    ]
+    ],
+    "downstream": {
+      "updatedAt": "2026-06-08",
+      "thesis": "Apple is mostly the downstream demand owner rather than a midstream component supplier: its demand chain runs through direct sales, carriers/resellers, enterprise deployment partners, and the App Store/services ecosystem.",
+      "thesisZh": "Apple 更接近供应链终端需求方，而不是典型中游零部件供应商：其下游去向主要是直营、运营商/经销商、企业部署伙伴以及 App Store/服务生态。",
+      "thesisEn": "Apple is mostly the downstream demand owner rather than a midstream component supplier: its demand chain runs through direct sales, carriers/resellers, enterprise deployment partners, and the App Store/services ecosystem.",
+      "tiers": [
+        {
+          "level": 1,
+          "title": "Distribution channels and end markets",
+          "titleZh": "销售渠道与终端市场",
+          "titleEn": "Distribution channels and end markets",
+          "entities": [
+            {
+              "name": "Direct retail, online store and direct sales force",
+              "customerRole": "Direct channel",
+              "customerRoleZh": "直营渠道",
+              "customerRoleEn": "Direct channel",
+              "relationship": "Apple sells products and some services directly to end customers through its stores, online store and direct sales force.",
+              "relationshipZh": "Apple 通过 Apple Store、在线商店和直销团队直接向终端客户销售产品及部分服务。",
+              "relationshipEn": "Apple sells products and some services directly to end customers through its stores, online store and direct sales force.",
+              "productsServices": [
+                "iPhone, Mac, iPad, wearables and services"
+              ],
+              "productsServicesZh": [
+                "iPhone、Mac、iPad、可穿戴设备与服务"
+              ],
+              "productsServicesEn": [
+                "iPhone, Mac, iPad, wearables and services"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "AAPL",
+                "exchange": "NASDAQ",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/aapl"
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "aapl-10k-2025"
+              ],
+              "companyUrl": "https://www.apple.com/store"
+            },
+            {
+              "name": "Cellular carriers and resellers",
+              "customerRole": "Indirect channel",
+              "customerRoleZh": "间接渠道",
+              "customerRoleEn": "Indirect channel",
+              "relationship": "Apple's 10-K identifies third-party cellular network carriers and other resellers as indirect distribution channels for products and certain services.",
+              "relationshipZh": "Apple 10-K 将第三方蜂窝网络运营商和其他经销商列为产品及部分服务的间接分销渠道。",
+              "relationshipEn": "Apple's 10-K identifies third-party cellular network carriers and other resellers as indirect distribution channels for products and certain services.",
+              "productsServices": [
+                "device distribution",
+                "service distribution"
+              ],
+              "productsServicesZh": [
+                "设备分销",
+                "服务分销"
+              ],
+              "productsServicesEn": [
+                "device distribution",
+                "service distribution"
+              ],
+              "listing": {
+                "status": "unknown",
+                "note": "该条是渠道类别，不对应单一上市公司。",
+                "noteZh": "该条是渠道类别，不对应单一上市公司。",
+                "noteEn": "This row is a channel category rather than one listed company."
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "aapl-10k-2025"
+              ]
+            }
+          ],
+          "notes": "Apple discloses direct and indirect distribution channels; indirect channels include cellular carriers and resellers.",
+          "notesZh": "Apple 披露直营和间接渠道；间接渠道包括蜂窝网络运营商和经销商。",
+          "notesEn": "Apple discloses direct and indirect distribution channels; indirect channels include cellular carriers and resellers.",
+          "confidence": "high",
+          "sourceIds": [
+            "aapl-10k-2025"
+          ]
+        },
+        {
+          "level": 2,
+          "title": "Enterprise platform partners",
+          "titleZh": "企业平台伙伴",
+          "titleEn": "Enterprise platform partners",
+          "entities": [
+            {
+              "name": "IBM",
+              "customerRole": "Enterprise solution partner",
+              "customerRoleZh": "企业解决方案伙伴",
+              "customerRoleEn": "Enterprise solution partner",
+              "relationship": "Apple and IBM teams work together on enterprise clients and workflows; Apple supplies the device, OS and service layer while IBM contributes industry solutions and deployment services.",
+              "relationshipZh": "Apple 与 IBM 团队共同服务企业客户和工作流；Apple 提供设备、操作系统和服务层，IBM 提供行业解决方案与部署服务。",
+              "relationshipEn": "Apple and IBM teams work together on enterprise clients and workflows; Apple supplies the device, OS and service layer while IBM contributes industry solutions and deployment services.",
+              "productsServices": [
+                "iPhone and iPad enterprise platform",
+                "Apple services support"
+              ],
+              "productsServicesZh": [
+                "iPhone 与 iPad 企业平台",
+                "Apple 服务支持"
+              ],
+              "productsServicesEn": [
+                "iPhone and iPad enterprise platform",
+                "Apple services support"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "IBM",
+                "exchange": "NYSE",
+                "market": "US",
+                "stockUrl": "https://www.nyse.com/quote/XNYS:IBM"
+              },
+              "confidence": "medium",
+              "sourceIds": [
+                "aapl-enterprise"
+              ],
+              "companyUrl": "https://www.ibm.com/"
+            },
+            {
+              "name": "Accenture",
+              "customerRole": "Enterprise transformation partner",
+              "customerRoleZh": "企业转型伙伴",
+              "customerRoleEn": "Enterprise transformation partner",
+              "relationship": "Accenture combines digital transformation services with Apple products to help enterprise clients improve customer experience and productivity.",
+              "relationshipZh": "Accenture 将数字化转型服务与 Apple 产品结合，帮助企业客户改善客户体验和生产力。",
+              "relationshipEn": "Accenture combines digital transformation services with Apple products to help enterprise clients improve customer experience and productivity.",
+              "productsServices": [
+                "Apple hardware in enterprise workflows",
+                "mobility and app transformation"
+              ],
+              "productsServicesZh": [
+                "企业工作流中的 Apple 硬件",
+                "移动化与应用转型"
+              ],
+              "productsServicesEn": [
+                "Apple hardware in enterprise workflows",
+                "mobility and app transformation"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "ACN",
+                "exchange": "NYSE",
+                "market": "US",
+                "stockUrl": "https://www.nyse.com/quote/XNYS:ACN"
+              },
+              "confidence": "medium",
+              "sourceIds": [
+                "aapl-enterprise"
+              ],
+              "companyUrl": "https://www.accenture.com/"
+            },
+            {
+              "name": "Salesforce",
+              "customerRole": "Enterprise app ecosystem partner",
+              "customerRoleZh": "企业应用生态伙伴",
+              "customerRoleEn": "Enterprise app ecosystem partner",
+              "relationship": "Salesforce and Apple position iOS and Apple devices as part of CRM and customer-engagement workflows for business users.",
+              "relationshipZh": "Salesforce 与 Apple 将 iOS 和 Apple 设备嵌入 CRM 与客户互动工作流，面向企业用户落地。",
+              "relationshipEn": "Salesforce and Apple position iOS and Apple devices as part of CRM and customer-engagement workflows for business users.",
+              "productsServices": [
+                "iOS enterprise app workflows",
+                "Apple device integration"
+              ],
+              "productsServicesZh": [
+                "iOS 企业应用工作流",
+                "Apple 设备集成"
+              ],
+              "productsServicesEn": [
+                "iOS enterprise app workflows",
+                "Apple device integration"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "CRM",
+                "exchange": "NYSE",
+                "market": "US",
+                "stockUrl": "https://www.nyse.com/quote/XNYS:CRM"
+              },
+              "confidence": "medium",
+              "sourceIds": [
+                "aapl-enterprise"
+              ],
+              "companyUrl": "https://www.salesforce.com/"
+            }
+          ],
+          "notes": "These are ecosystem and route-to-market partners rather than simple purchase customers; they help take Apple devices, OS frameworks and services into enterprise workflows.",
+          "notesZh": "这些更接近生态与商业落地伙伴，而不是简单采购客户；它们帮助 Apple 设备、系统框架和服务进入企业工作流。",
+          "notesEn": "These are ecosystem and route-to-market partners rather than simple purchase customers; they help take Apple devices, OS frameworks and services into enterprise workflows.",
+          "confidence": "medium",
+          "sourceIds": [
+            "aapl-enterprise"
+          ]
+        }
+      ]
+    }
   },
   "financials": {
     "latestPeriod": "Q2 FY2026 / FY2025 baseline",
@@ -1788,6 +1986,16 @@
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
       "accessedAt": "2026-06-08",
       "type": "sec"
+    },
+    {
+      "id": "aapl-enterprise",
+      "title": "Apple Enterprise - hardware, software, and services",
+      "titleZh": "Apple 企业市场：硬件、软件与服务",
+      "titleEn": "Apple Enterprise - hardware, software, and services",
+      "publisher": "Apple",
+      "url": "https://www.apple.com/business/enterprise/",
+      "accessedAt": "2026-06-08",
+      "type": "company"
     }
   ],
   "automation": {

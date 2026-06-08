@@ -971,7 +971,324 @@
           "Ceramics"
         ]
       }
-    ]
+    ],
+    "downstream": {
+      "updatedAt": "2026-06-08",
+      "thesis": "Intel is a classic midstream semiconductor company: it supplies client CPUs to OEMs, Xeon platforms to server makers and cloud/enterprise infrastructure, and is trying to turn Intel Foundry into a downstream customer-facing manufacturing service.",
+      "thesisZh": "Intel 是典型中游半导体公司：向 OEM 提供客户端 CPU，向服务器厂商和云/企业基础设施提供 Xeon 平台，同时试图把 Intel Foundry 打造成面向下游客户的制造服务。",
+      "thesisEn": "Intel is a classic midstream semiconductor company: it supplies client CPUs to OEMs, Xeon platforms to server makers and cloud/enterprise infrastructure, and is trying to turn Intel Foundry into a downstream customer-facing manufacturing service.",
+      "tiers": [
+        {
+          "level": 1,
+          "title": "PC OEM customers and platform partners",
+          "titleZh": "PC OEM 客户与平台伙伴",
+          "titleEn": "PC OEM customers and platform partners",
+          "entities": [
+            {
+              "name": "Dell Technologies",
+              "customerRole": "PC OEM customer",
+              "customerRoleZh": "PC OEM 客户",
+              "customerRoleEn": "PC OEM customer",
+              "relationship": "Dell commercial PCs are part of Intel's cited vPro and Core Ultra partner ecosystem.",
+              "relationshipZh": "Dell 商用 PC 属于 Intel 披露的 vPro 与 Core Ultra 伙伴生态。",
+              "relationshipEn": "Dell commercial PCs are part of Intel's cited vPro and Core Ultra partner ecosystem.",
+              "productsServices": [
+                "Core Ultra processors",
+                "vPro commercial PC platform"
+              ],
+              "productsServicesZh": [
+                "Core Ultra 处理器",
+                "vPro 商用 PC 平台"
+              ],
+              "productsServicesEn": [
+                "Core Ultra processors",
+                "vPro commercial PC platform"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "DELL",
+                "exchange": "NYSE",
+                "market": "US",
+                "stockUrl": "https://www.nyse.com/quote/XNYS:DELL"
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "intc-vpro-oem-2024"
+              ],
+              "companyUrl": "https://www.dell.com/"
+            },
+            {
+              "name": "HP Inc.",
+              "customerRole": "PC OEM customer",
+              "customerRoleZh": "PC OEM 客户",
+              "customerRoleEn": "PC OEM customer",
+              "relationship": "HP commercial PCs are part of Intel's cited vPro and Core Ultra partner ecosystem.",
+              "relationshipZh": "HP 商用 PC 属于 Intel 披露的 vPro 与 Core Ultra 伙伴生态。",
+              "relationshipEn": "HP commercial PCs are part of Intel's cited vPro and Core Ultra partner ecosystem.",
+              "productsServices": [
+                "Core Ultra processors",
+                "vPro commercial PC platform"
+              ],
+              "productsServicesZh": [
+                "Core Ultra 处理器",
+                "vPro 商用 PC 平台"
+              ],
+              "productsServicesEn": [
+                "Core Ultra processors",
+                "vPro commercial PC platform"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "HPQ",
+                "exchange": "NYSE",
+                "market": "US",
+                "stockUrl": "https://www.nyse.com/quote/XNYS:HPQ"
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "intc-vpro-oem-2024"
+              ],
+              "companyUrl": "https://www.hp.com/"
+            },
+            {
+              "name": "Lenovo",
+              "customerRole": "PC OEM customer",
+              "customerRoleZh": "PC OEM 客户",
+              "customerRoleEn": "PC OEM customer",
+              "relationship": "Lenovo commercial PCs are part of Intel's cited vPro and Core Ultra partner ecosystem.",
+              "relationshipZh": "Lenovo 商用 PC 属于 Intel 披露的 vPro 与 Core Ultra 伙伴生态。",
+              "relationshipEn": "Lenovo commercial PCs are part of Intel's cited vPro and Core Ultra partner ecosystem.",
+              "productsServices": [
+                "Core Ultra processors",
+                "vPro commercial PC platform"
+              ],
+              "productsServicesZh": [
+                "Core Ultra 处理器",
+                "vPro 商用 PC 平台"
+              ],
+              "productsServicesEn": [
+                "Core Ultra processors",
+                "vPro commercial PC platform"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "0992",
+                "exchange": "HKEX",
+                "market": "HK",
+                "stockUrl": "https://www.hkex.com.hk/Market-Data/Securities-Prices/Equities/Equities-Quote?sym=992&sc_lang=en"
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "intc-vpro-oem-2024"
+              ],
+              "companyUrl": "https://www.lenovo.com/"
+            },
+            {
+              "name": "Microsoft Surface",
+              "customerRole": "PC OEM / device partner",
+              "customerRoleZh": "PC OEM / 设备伙伴",
+              "customerRoleEn": "PC OEM / device partner",
+              "relationship": "Microsoft Surface is listed in Intel's commercial Core Ultra/vPro design ecosystem.",
+              "relationshipZh": "Microsoft Surface 被列入 Intel 商用 Core Ultra/vPro 设计生态。",
+              "relationshipEn": "Microsoft Surface is listed in Intel's commercial Core Ultra/vPro design ecosystem.",
+              "productsServices": [
+                "Core Ultra processors",
+                "Surface commercial devices"
+              ],
+              "productsServicesZh": [
+                "Core Ultra 处理器",
+                "Surface 商用设备"
+              ],
+              "productsServicesEn": [
+                "Core Ultra processors",
+                "Surface commercial devices"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "MSFT",
+                "exchange": "NASDAQ",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/msft"
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "intc-vpro-oem-2024"
+              ],
+              "companyUrl": "https://www.microsoft.com/surface"
+            }
+          ],
+          "notes": "Intel discloses OEM design momentum for AI PCs and vPro; these partners convert Intel CPUs into commercial notebooks, desktops and workstations.",
+          "notesZh": "Intel 披露 AI PC 与 vPro 的 OEM 设计动能；这些伙伴把 Intel CPU 转化为商用笔记本、台式机和工作站。",
+          "notesEn": "Intel discloses OEM design momentum for AI PCs and vPro; these partners convert Intel CPUs into commercial notebooks, desktops and workstations.",
+          "confidence": "high",
+          "sourceIds": [
+            "intc-vpro-oem-2024"
+          ]
+        },
+        {
+          "level": 2,
+          "title": "Server OEMs and data-center platform customers",
+          "titleZh": "服务器 OEM 与数据中心平台客户",
+          "titleEn": "Server OEMs and data-center platform customers",
+          "entities": [
+            {
+              "name": "Dell Technologies",
+              "customerRole": "Server OEM customer",
+              "customerRoleZh": "服务器 OEM 客户",
+              "customerRoleEn": "Server OEM customer",
+              "relationship": "Dell PowerEdge systems use Intel Xeon platforms across enterprise and cloud infrastructure.",
+              "relationshipZh": "Dell PowerEdge 系统在企业和云基础设施中使用 Intel Xeon 平台。",
+              "relationshipEn": "Dell PowerEdge systems use Intel Xeon platforms across enterprise and cloud infrastructure.",
+              "productsServices": [
+                "Xeon 6 processors",
+                "server platform enablement"
+              ],
+              "productsServicesZh": [
+                "Xeon 6 处理器",
+                "服务器平台导入"
+              ],
+              "productsServicesEn": [
+                "Xeon 6 processors",
+                "server platform enablement"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "DELL",
+                "exchange": "NYSE",
+                "market": "US",
+                "stockUrl": "https://www.nyse.com/quote/XNYS:DELL"
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "intc-xeon6-partner-2025"
+              ],
+              "companyUrl": "https://www.dell.com/"
+            },
+            {
+              "name": "Hewlett Packard Enterprise",
+              "customerRole": "Server OEM customer",
+              "customerRoleZh": "服务器 OEM 客户",
+              "customerRoleEn": "Server OEM customer",
+              "relationship": "HPE server platforms are part of Intel's Xeon 6 partner ecosystem.",
+              "relationshipZh": "HPE 服务器平台属于 Intel Xeon 6 伙伴生态。",
+              "relationshipEn": "HPE server platforms are part of Intel's Xeon 6 partner ecosystem.",
+              "productsServices": [
+                "Xeon 6 processors",
+                "server platform enablement"
+              ],
+              "productsServicesZh": [
+                "Xeon 6 处理器",
+                "服务器平台导入"
+              ],
+              "productsServicesEn": [
+                "Xeon 6 processors",
+                "server platform enablement"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "HPE",
+                "exchange": "NYSE",
+                "market": "US",
+                "stockUrl": "https://www.nyse.com/quote/XNYS:HPE"
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "intc-xeon6-partner-2025"
+              ],
+              "companyUrl": "https://www.hpe.com/"
+            },
+            {
+              "name": "Super Micro Computer",
+              "customerRole": "Server OEM customer",
+              "customerRoleZh": "服务器 OEM 客户",
+              "customerRoleEn": "Server OEM customer",
+              "relationship": "Supermicro systems use Intel Xeon 6 platforms for enterprise and cloud data-center workloads.",
+              "relationshipZh": "Supermicro 系统使用 Intel Xeon 6 平台面向企业和云数据中心负载。",
+              "relationshipEn": "Supermicro systems use Intel Xeon 6 platforms for enterprise and cloud data-center workloads.",
+              "productsServices": [
+                "Xeon 6 processors",
+                "server platform enablement"
+              ],
+              "productsServicesZh": [
+                "Xeon 6 处理器",
+                "服务器平台导入"
+              ],
+              "productsServicesEn": [
+                "Xeon 6 processors",
+                "server platform enablement"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "SMCI",
+                "exchange": "NASDAQ",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/smci"
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "intc-xeon6-partner-2025"
+              ],
+              "companyUrl": "https://www.supermicro.com/"
+            }
+          ],
+          "notes": "Server OEMs turn Intel Xeon platforms into enterprise, cloud and telecom infrastructure systems.",
+          "notesZh": "服务器 OEM 将 Intel Xeon 平台转化为企业、云和电信基础设施系统。",
+          "notesEn": "Server OEMs turn Intel Xeon platforms into enterprise, cloud and telecom infrastructure systems.",
+          "confidence": "high",
+          "sourceIds": [
+            "intc-xeon6-partner-2025"
+          ]
+        },
+        {
+          "level": 3,
+          "title": "Foundry customers",
+          "titleZh": "晶圆代工客户",
+          "titleEn": "Foundry customers",
+          "entities": [
+            {
+              "name": "Microsoft",
+              "customerRole": "Foundry customer",
+              "customerRoleZh": "晶圆代工客户",
+              "customerRoleEn": "Foundry customer",
+              "relationship": "Intel states Microsoft chose a chip design it plans to produce on Intel 18A.",
+              "relationshipZh": "Intel 披露 Microsoft 选择了一款计划采用 Intel 18A 制程生产的芯片设计。",
+              "relationshipEn": "Intel states Microsoft chose a chip design it plans to produce on Intel 18A.",
+              "productsServices": [
+                "Intel 18A process technology",
+                "foundry manufacturing services"
+              ],
+              "productsServicesZh": [
+                "Intel 18A 制程技术",
+                "晶圆代工制造服务"
+              ],
+              "productsServicesEn": [
+                "Intel 18A process technology",
+                "foundry manufacturing services"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "MSFT",
+                "exchange": "NASDAQ",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/msft"
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "intc-foundry-microsoft-2024"
+              ],
+              "companyUrl": "https://www.microsoft.com/"
+            }
+          ],
+          "notes": "Intel Foundry is the clearest example of Intel moving from an internal-product company into a supplier for other chip designers.",
+          "notesZh": "Intel Foundry 是 Intel 从内部产品公司转向其他芯片设计公司供应商的最直接例子。",
+          "notesEn": "Intel Foundry is the clearest example of Intel moving from an internal-product company into a supplier for other chip designers.",
+          "confidence": "high",
+          "sourceIds": [
+            "intc-foundry-microsoft-2024"
+          ]
+        }
+      ]
+    }
   },
   "financials": {
     "latestPeriod": "Q1 2026 / FY2025 baseline",
@@ -1647,6 +1964,39 @@
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000050863.json",
       "accessedAt": "2026-06-08",
       "type": "sec"
+    },
+    {
+      "id": "intc-vpro-oem-2024",
+      "title": "Intel Core Ultra Extends AI PCs to the Enterprise with New Intel vPro Platform",
+      "titleZh": "Intel Core Ultra 与 vPro 平台进入企业 AI PC",
+      "titleEn": "Intel Core Ultra Extends AI PCs to the Enterprise with New Intel vPro Platform",
+      "publisher": "Intel Newsroom",
+      "url": "https://newsroom.intel.com/client-computing/mwc-2024-core-ultra-ai-pc-enterprise-vpro",
+      "accessedAt": "2026-06-08",
+      "type": "company",
+      "publishedAt": "2024-02-27"
+    },
+    {
+      "id": "intc-xeon6-partner-2025",
+      "title": "Customers and Ecosystem Partners Showcase Support for Intel Xeon 6 with Performance-cores",
+      "titleZh": "客户与生态伙伴支持 Intel Xeon 6 P-core",
+      "titleEn": "Customers and Ecosystem Partners Showcase Support for Intel Xeon 6 with Performance-cores",
+      "publisher": "Intel Newsroom",
+      "url": "https://download.intel.com/newsroom/2025/3jdc8gkA5/xeon-6-customer-partner-quote-sheet.pdf",
+      "accessedAt": "2026-06-08",
+      "type": "company",
+      "publishedAt": "2025-04-08"
+    },
+    {
+      "id": "intc-foundry-microsoft-2024",
+      "title": "Intel Launches World's First Systems Foundry Designed for the AI Era",
+      "titleZh": "Intel 推出面向 AI 时代的系统级晶圆代工",
+      "titleEn": "Intel Launches World's First Systems Foundry Designed for the AI Era",
+      "publisher": "Intel Newsroom",
+      "url": "https://newsroom.intel.com/intel-foundry/foundry-news-roadmaps-updates",
+      "accessedAt": "2026-06-08",
+      "type": "company",
+      "publishedAt": "2024-02-21"
     }
   ],
   "automation": {
