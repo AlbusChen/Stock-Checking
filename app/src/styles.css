@@ -645,6 +645,154 @@ a {
   font-size: 18px;
 }
 
+.trend-section,
+.trend-grid {
+  display: grid;
+  gap: 14px;
+}
+
+.trend-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.trend-card {
+  background: #ffffff;
+  border: 1px solid #dfe4de;
+  border-radius: 8px;
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+  padding: 16px;
+}
+
+.trend-card.wide-chart {
+  grid-column: 1 / -1;
+}
+
+.trend-card-top {
+  align-items: start;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.trend-card h3 {
+  color: #111817;
+  font-size: 16px;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.trend-card-top > span {
+  background: #eef1ec;
+  border-radius: 999px;
+  color: #596660;
+  flex-shrink: 0;
+  font-size: 12px;
+  font-weight: 800;
+  min-height: 24px;
+  padding: 4px 8px;
+}
+
+.line-chart,
+.stack-chart {
+  display: block;
+  height: auto;
+  overflow: visible;
+  width: 100%;
+}
+
+.chart-grid-line {
+  stroke: #dfe5dc;
+  stroke-width: 1;
+}
+
+.line-area {
+  fill: rgba(43, 122, 120, 0.1);
+}
+
+.trend-line {
+  fill: none;
+  stroke: #2b7a78;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3;
+}
+
+.trend-dot {
+  fill: #ffffff;
+  stroke: #2b7a78;
+  stroke-width: 3;
+}
+
+.axis-label,
+.point-value {
+  fill: #5f6d68;
+  font-size: 12px;
+}
+
+.point-value {
+  fill: #26312f;
+  font-weight: 800;
+  text-anchor: middle;
+}
+
+.x-label {
+  text-anchor: middle;
+}
+
+.stack-segment {
+  shape-rendering: geometricPrecision;
+}
+
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+}
+
+.chart-legend span {
+  align-items: center;
+  color: #26312f;
+  display: inline-flex;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  min-width: 0;
+}
+
+.chart-legend i {
+  border-radius: 999px;
+  display: inline-block;
+  height: 9px;
+  width: 9px;
+}
+
+.chart-legend .text-pair {
+  gap: 0;
+}
+
+.chart-legend .text-pair > small {
+  font-size: 11px;
+}
+
+.trend-note,
+.mix-history-notes p {
+  color: #5f6d68;
+  font-size: 13px;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.mix-history-notes {
+  display: grid;
+  gap: 6px;
+}
+
+.trend-evidence {
+  margin-top: 0;
+}
+
 .timeline {
   position: relative;
 }
@@ -772,6 +920,7 @@ a {
   }
 
   .metric-strip,
+  .trend-grid,
   .raw-grid,
   .source-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -786,6 +935,7 @@ a {
 
   .result-list,
   .metric-strip,
+  .trend-grid,
   .section-grid,
   .raw-grid,
   .source-list {

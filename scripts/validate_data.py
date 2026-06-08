@@ -132,10 +132,40 @@ def validate_report(path: Path) -> list[str]:
         if metric.get("change"):
             require_localized(errors, path, metric, "change", f"metric {label}")
 
+    for trend in report.get("financials", {}).get("trends", []):
+        label = trend.get("label", "unnamed trend")
+        require_localized(errors, path, trend, "label", f"trend {label}")
+        if trend.get("note"):
+            require_localized(errors, path, trend, "note", f"trend {label}")
+        points = trend.get("points")
+        if not isinstance(points, list) or len(points) < 2:
+            errors.append(f"{path.name}: trend {label} needs at least two points")
+            continue
+        for point in points:
+            period = point.get("period", "unnamed period")
+            require_localized(errors, path, point, "period", f"trend {label} point {period}")
+            if not isinstance(point.get("value"), (int, float)):
+                errors.append(f"{path.name}: trend {label} point {period} needs numeric value")
+
     for segment in report.get("financials", {}).get("revenueMix", []):
         label = segment.get("name", "unnamed revenue segment")
         require_localized(errors, path, segment, "name", f"revenue segment {label}")
         require_localized(errors, path, segment, "note", f"revenue segment {label}")
+
+    for period in report.get("financials", {}).get("revenueMixHistory", []):
+        label = period.get("period", "unnamed revenue mix period")
+        require_localized(errors, path, period, "period", f"revenue mix history {label}")
+        if period.get("note"):
+            require_localized(errors, path, period, "note", f"revenue mix history {label}")
+        segments = period.get("segments")
+        if not isinstance(segments, list) or not segments:
+            errors.append(f"{path.name}: revenue mix history {label} needs segments")
+            continue
+        for segment in segments:
+            segment_name = segment.get("name", "unnamed history segment")
+            require_localized(errors, path, segment, "name", f"revenue mix history segment {segment_name}")
+            if not isinstance(segment.get("revenue"), (int, float)):
+                errors.append(f"{path.name}: revenue mix history segment {segment_name} needs numeric revenue")
 
     for item in report.get("news", []):
         label = item.get("title", "untitled news")

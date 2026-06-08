@@ -1244,7 +1244,337 @@
       }
     ],
     "latestPeriodZh": "2026 财年第二财季 / 2025 财年基准",
-    "latestPeriodEn": "Q2 FY2026 / FY2025 baseline"
+    "latestPeriodEn": "Q2 FY2026 / FY2025 baseline",
+    "trends": [
+      {
+        "id": "quarterly-revenue",
+        "label": "Quarterly revenue",
+        "labelZh": "财季收入",
+        "labelEn": "Quarterly revenue",
+        "unit": "USD billions",
+        "cadence": "quarterly",
+        "note": "Q4 values are derived from full-year net sales minus the first three reported quarters.",
+        "noteZh": "第四财季数值由全年净销售额减前三个已披露财季推得。",
+        "noteEn": "Q4 values are derived from full-year net sales minus the first three reported quarters.",
+        "sourceIds": [
+          "aapl-sec-companyfacts",
+          "aapl-q2-2026",
+          "aapl-10k-2025"
+        ],
+        "points": [
+          {
+            "period": "Q1 FY2025",
+            "periodZh": "25财年Q1",
+            "periodEn": "Q1 FY2025",
+            "value": 124.3
+          },
+          {
+            "period": "Q2 FY2025",
+            "periodZh": "25财年Q2",
+            "periodEn": "Q2 FY2025",
+            "value": 95.359
+          },
+          {
+            "period": "Q3 FY2025",
+            "periodZh": "25财年Q3",
+            "periodEn": "Q3 FY2025",
+            "value": 94.036
+          },
+          {
+            "period": "Q4 FY2025",
+            "periodZh": "25财年Q4",
+            "periodEn": "Q4 FY2025",
+            "value": 102.466,
+            "sourceIds": [
+              "aapl-10k-2025"
+            ]
+          },
+          {
+            "period": "Q1 FY2026",
+            "periodZh": "26财年Q1",
+            "periodEn": "Q1 FY2026",
+            "value": 143.756
+          },
+          {
+            "period": "Q2 FY2026",
+            "periodZh": "26财年Q2",
+            "periodEn": "Q2 FY2026",
+            "value": 111.184,
+            "sourceIds": [
+              "aapl-q2-2026"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "quarterly-gaap-gross-margin",
+        "label": "Quarterly GAAP gross margin",
+        "labelZh": "财季 GAAP 毛利率",
+        "labelEn": "Quarterly GAAP gross margin",
+        "unit": "percent",
+        "cadence": "quarterly",
+        "note": "Gross margin is gross profit divided by net sales.",
+        "noteZh": "毛利率按毛利除以净销售额计算。",
+        "noteEn": "Gross margin is gross profit divided by net sales.",
+        "sourceIds": [
+          "aapl-sec-companyfacts",
+          "aapl-q2-2026",
+          "aapl-10k-2025"
+        ],
+        "points": [
+          {
+            "period": "Q1 FY2025",
+            "periodZh": "25财年Q1",
+            "periodEn": "Q1 FY2025",
+            "value": 46.88
+          },
+          {
+            "period": "Q2 FY2025",
+            "periodZh": "25财年Q2",
+            "periodEn": "Q2 FY2025",
+            "value": 47.05
+          },
+          {
+            "period": "Q3 FY2025",
+            "periodZh": "25财年Q3",
+            "periodEn": "Q3 FY2025",
+            "value": 46.49
+          },
+          {
+            "period": "Q4 FY2025",
+            "periodZh": "25财年Q4",
+            "periodEn": "Q4 FY2025",
+            "value": 47.18,
+            "sourceIds": [
+              "aapl-10k-2025"
+            ]
+          },
+          {
+            "period": "Q1 FY2026",
+            "periodZh": "26财年Q1",
+            "periodEn": "Q1 FY2026",
+            "value": 48.16
+          },
+          {
+            "period": "Q2 FY2026",
+            "periodZh": "26财年Q2",
+            "periodEn": "Q2 FY2026",
+            "value": 49.27,
+            "sourceIds": [
+              "aapl-q2-2026"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-revenue",
+        "label": "Annual net sales",
+        "labelZh": "财年净销售额",
+        "labelEn": "Annual net sales",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "Annual net sales in USD billions.",
+        "noteZh": "年度净销售额，单位为十亿美元。",
+        "noteEn": "Annual net sales in USD billions.",
+        "sourceIds": [
+          "aapl-sec-companyfacts",
+          "aapl-10k-2025"
+        ],
+        "points": [
+          {
+            "period": "FY2021",
+            "periodZh": "21财年",
+            "periodEn": "FY2021",
+            "value": 365.817
+          },
+          {
+            "period": "FY2022",
+            "periodZh": "22财年",
+            "periodEn": "FY2022",
+            "value": 394.328
+          },
+          {
+            "period": "FY2023",
+            "periodZh": "23财年",
+            "periodEn": "FY2023",
+            "value": 383.285
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "24财年",
+            "periodEn": "FY2024",
+            "value": 391.035
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "25财年",
+            "periodEn": "FY2025",
+            "value": 416.161,
+            "sourceIds": [
+              "aapl-10k-2025"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenueMixHistory": [
+      {
+        "period": "FY2023",
+        "periodZh": "23财年",
+        "periodEn": "FY2023",
+        "totalRevenue": 383.285,
+        "sourceIds": [
+          "aapl-10k-2025"
+        ],
+        "segments": [
+          {
+            "name": "iPhone",
+            "nameZh": "iPhone",
+            "nameEn": "iPhone",
+            "revenue": 200.583,
+            "unit": "USD billions",
+            "share": 52.33
+          },
+          {
+            "name": "Services",
+            "nameZh": "服务",
+            "nameEn": "Services",
+            "revenue": 85.2,
+            "unit": "USD billions",
+            "share": 22.23
+          },
+          {
+            "name": "Mac",
+            "nameZh": "Mac",
+            "nameEn": "Mac",
+            "revenue": 29.357,
+            "unit": "USD billions",
+            "share": 7.66
+          },
+          {
+            "name": "iPad",
+            "nameZh": "iPad",
+            "nameEn": "iPad",
+            "revenue": 28.3,
+            "unit": "USD billions",
+            "share": 7.38
+          },
+          {
+            "name": "Wearables, Home and Accessories",
+            "nameZh": "可穿戴、家居与配件",
+            "nameEn": "Wearables, Home and Accessories",
+            "revenue": 39.845,
+            "unit": "USD billions",
+            "share": 10.4
+          }
+        ],
+        "note": "Product and service category net sales from Apple Form 10-K.",
+        "noteZh": "来自 Apple 10-K 的产品与服务类别净销售额。",
+        "noteEn": "Product and service category net sales from Apple Form 10-K."
+      },
+      {
+        "period": "FY2024",
+        "periodZh": "24财年",
+        "periodEn": "FY2024",
+        "totalRevenue": 391.035,
+        "sourceIds": [
+          "aapl-10k-2025"
+        ],
+        "segments": [
+          {
+            "name": "iPhone",
+            "nameZh": "iPhone",
+            "nameEn": "iPhone",
+            "revenue": 201.183,
+            "unit": "USD billions",
+            "share": 51.45
+          },
+          {
+            "name": "Services",
+            "nameZh": "服务",
+            "nameEn": "Services",
+            "revenue": 96.169,
+            "unit": "USD billions",
+            "share": 24.59
+          },
+          {
+            "name": "Mac",
+            "nameZh": "Mac",
+            "nameEn": "Mac",
+            "revenue": 29.984,
+            "unit": "USD billions",
+            "share": 7.67
+          },
+          {
+            "name": "iPad",
+            "nameZh": "iPad",
+            "nameEn": "iPad",
+            "revenue": 26.694,
+            "unit": "USD billions",
+            "share": 6.83
+          },
+          {
+            "name": "Wearables, Home and Accessories",
+            "nameZh": "可穿戴、家居与配件",
+            "nameEn": "Wearables, Home and Accessories",
+            "revenue": 37.005,
+            "unit": "USD billions",
+            "share": 9.46
+          }
+        ]
+      },
+      {
+        "period": "FY2025",
+        "periodZh": "25财年",
+        "periodEn": "FY2025",
+        "totalRevenue": 416.161,
+        "sourceIds": [
+          "aapl-10k-2025"
+        ],
+        "segments": [
+          {
+            "name": "iPhone",
+            "nameZh": "iPhone",
+            "nameEn": "iPhone",
+            "revenue": 209.586,
+            "unit": "USD billions",
+            "share": 50.36
+          },
+          {
+            "name": "Services",
+            "nameZh": "服务",
+            "nameEn": "Services",
+            "revenue": 109.158,
+            "unit": "USD billions",
+            "share": 26.23
+          },
+          {
+            "name": "Mac",
+            "nameZh": "Mac",
+            "nameEn": "Mac",
+            "revenue": 33.708,
+            "unit": "USD billions",
+            "share": 8.1
+          },
+          {
+            "name": "iPad",
+            "nameZh": "iPad",
+            "nameEn": "iPad",
+            "revenue": 28.023,
+            "unit": "USD billions",
+            "share": 6.73
+          },
+          {
+            "name": "Wearables, Home and Accessories",
+            "nameZh": "可穿戴、家居与配件",
+            "nameEn": "Wearables, Home and Accessories",
+            "revenue": 35.686,
+            "unit": "USD billions",
+            "share": 8.58
+          }
+        ]
+      }
+    ]
   },
   "news": [
     {
@@ -1448,6 +1778,16 @@
       "type": "company",
       "titleZh": "App Store 生态规模达到 1.4 万亿美元，全球开发者持续增长",
       "titleEn": "App Store ecosystem reaches $1.4 trillion as developers thrive globally"
+    },
+    {
+      "id": "aapl-sec-companyfacts",
+      "title": "Apple SEC Companyfacts XBRL data",
+      "titleZh": "Apple SEC Companyfacts XBRL 数据",
+      "titleEn": "Apple SEC Companyfacts XBRL data",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
+      "accessedAt": "2026-06-08",
+      "type": "sec"
     }
   ],
   "automation": {

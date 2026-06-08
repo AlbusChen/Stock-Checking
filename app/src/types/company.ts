@@ -138,6 +138,50 @@ export interface FinancialHighlight {
   sourceIds: string[];
 }
 
+export interface FinancialTrendPoint {
+  period: string;
+  periodZh?: string;
+  periodEn?: string;
+  value: number;
+  sourceIds?: string[];
+}
+
+export interface FinancialTrendSeries {
+  id: string;
+  label: string;
+  labelZh?: string;
+  labelEn?: string;
+  unit: string;
+  cadence: "quarterly" | "annual";
+  note?: string;
+  noteZh?: string;
+  noteEn?: string;
+  sourceIds: string[];
+  points: FinancialTrendPoint[];
+}
+
+export interface RevenueMixHistorySegment {
+  name: string;
+  nameZh?: string;
+  nameEn?: string;
+  revenue: number;
+  unit: string;
+  share?: number;
+  sourceIds?: string[];
+}
+
+export interface RevenueMixHistoryPeriod {
+  period: string;
+  periodZh?: string;
+  periodEn?: string;
+  totalRevenue?: number;
+  note?: string;
+  noteZh?: string;
+  noteEn?: string;
+  sourceIds: string[];
+  segments: RevenueMixHistorySegment[];
+}
+
 export interface NewsItem {
   date: string;
   title: string;
@@ -197,7 +241,9 @@ export interface CompanyReport {
     latestPeriodZh?: string;
     latestPeriodEn?: string;
     highlights: FinancialHighlight[];
+    trends?: FinancialTrendSeries[];
     revenueMix: BusinessSegment[];
+    revenueMixHistory?: RevenueMixHistoryPeriod[];
   };
   news: NewsItem[];
   filings: FilingItem[];

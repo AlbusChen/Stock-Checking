@@ -1095,7 +1095,322 @@
       }
     ],
     "latestPeriodZh": "2026 年第一季度 / 2025 财年基准",
-    "latestPeriodEn": "Q1 2026 / FY2025 baseline"
+    "latestPeriodEn": "Q1 2026 / FY2025 baseline",
+    "trends": [
+      {
+        "id": "quarterly-revenue",
+        "label": "Quarterly revenue",
+        "labelZh": "季度收入",
+        "labelEn": "Quarterly revenue",
+        "unit": "USD billions",
+        "cadence": "quarterly",
+        "note": "Q4 values are derived from full-year revenue minus the first three reported quarters.",
+        "noteZh": "第四季度数值由全年收入减前三个已披露季度推得。",
+        "noteEn": "Q4 values are derived from full-year revenue minus the first three reported quarters.",
+        "sourceIds": [
+          "intc-sec-companyfacts",
+          "intc-q1-2026",
+          "intc-fy2025-results",
+          "intc-10k-2025"
+        ],
+        "points": [
+          {
+            "period": "Q4 2024",
+            "periodZh": "24年Q4",
+            "periodEn": "Q4 2024",
+            "value": 14.26,
+            "sourceIds": [
+              "intc-10k-2025"
+            ]
+          },
+          {
+            "period": "Q1 2025",
+            "periodZh": "25年Q1",
+            "periodEn": "Q1 2025",
+            "value": 12.667
+          },
+          {
+            "period": "Q2 2025",
+            "periodZh": "25年Q2",
+            "periodEn": "Q2 2025",
+            "value": 12.859
+          },
+          {
+            "period": "Q3 2025",
+            "periodZh": "25年Q3",
+            "periodEn": "Q3 2025",
+            "value": 13.653
+          },
+          {
+            "period": "Q4 2025",
+            "periodZh": "25年Q4",
+            "periodEn": "Q4 2025",
+            "value": 13.674,
+            "sourceIds": [
+              "intc-fy2025-results"
+            ]
+          },
+          {
+            "period": "Q1 2026",
+            "periodZh": "26年Q1",
+            "periodEn": "Q1 2026",
+            "value": 13.577,
+            "sourceIds": [
+              "intc-q1-2026"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "quarterly-gaap-gross-margin",
+        "label": "Quarterly GAAP gross margin",
+        "labelZh": "季度 GAAP 毛利率",
+        "labelEn": "Quarterly GAAP gross margin",
+        "unit": "percent",
+        "cadence": "quarterly",
+        "note": "Gross margin is gross profit divided by revenue.",
+        "noteZh": "毛利率按毛利除以收入计算。",
+        "noteEn": "Gross margin is gross profit divided by revenue.",
+        "sourceIds": [
+          "intc-sec-companyfacts",
+          "intc-q1-2026",
+          "intc-fy2025-results",
+          "intc-10k-2025"
+        ],
+        "points": [
+          {
+            "period": "Q4 2024",
+            "periodZh": "24年Q4",
+            "periodEn": "Q4 2024",
+            "value": 39.16,
+            "sourceIds": [
+              "intc-10k-2025"
+            ]
+          },
+          {
+            "period": "Q1 2025",
+            "periodZh": "25年Q1",
+            "periodEn": "Q1 2025",
+            "value": 36.88
+          },
+          {
+            "period": "Q2 2025",
+            "periodZh": "25年Q2",
+            "periodEn": "Q2 2025",
+            "value": 27.55
+          },
+          {
+            "period": "Q3 2025",
+            "periodZh": "25年Q3",
+            "periodEn": "Q3 2025",
+            "value": 38.22
+          },
+          {
+            "period": "Q4 2025",
+            "periodZh": "25年Q4",
+            "periodEn": "Q4 2025",
+            "value": 36.15,
+            "sourceIds": [
+              "intc-fy2025-results"
+            ]
+          },
+          {
+            "period": "Q1 2026",
+            "periodZh": "26年Q1",
+            "periodEn": "Q1 2026",
+            "value": 39.38,
+            "sourceIds": [
+              "intc-q1-2026"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-revenue",
+        "label": "Annual revenue",
+        "labelZh": "年度收入",
+        "labelEn": "Annual revenue",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "Annual revenue in USD billions.",
+        "noteZh": "年度收入，单位为十亿美元。",
+        "noteEn": "Annual revenue in USD billions.",
+        "sourceIds": [
+          "intc-sec-companyfacts",
+          "intc-10k-2025"
+        ],
+        "points": [
+          {
+            "period": "FY2021",
+            "periodZh": "21财年",
+            "periodEn": "FY2021",
+            "value": 79.024
+          },
+          {
+            "period": "FY2022",
+            "periodZh": "22财年",
+            "periodEn": "FY2022",
+            "value": 63.054
+          },
+          {
+            "period": "FY2023",
+            "periodZh": "23财年",
+            "periodEn": "FY2023",
+            "value": 54.228
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "24财年",
+            "periodEn": "FY2024",
+            "value": 53.101
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "25财年",
+            "periodEn": "FY2025",
+            "value": 52.853,
+            "sourceIds": [
+              "intc-10k-2025"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenueMixHistory": [
+      {
+        "period": "FY2023",
+        "periodZh": "23财年",
+        "periodEn": "FY2023",
+        "totalRevenue": 54.228,
+        "sourceIds": [
+          "intc-10k-2025"
+        ],
+        "segments": [
+          {
+            "name": "Client Computing Group",
+            "nameZh": "客户端计算事业部",
+            "nameEn": "Client Computing Group",
+            "revenue": 32.305,
+            "unit": "USD billions",
+            "share": 59.57
+          },
+          {
+            "name": "Data Center and AI",
+            "nameZh": "数据中心与 AI",
+            "nameEn": "Data Center and AI",
+            "revenue": 15.98,
+            "unit": "USD billions",
+            "share": 29.47
+          },
+          {
+            "name": "Intel Foundry",
+            "nameZh": "英特尔代工",
+            "nameEn": "Intel Foundry",
+            "revenue": 18.504,
+            "unit": "USD billions",
+            "share": 34.12
+          },
+          {
+            "name": "All Other",
+            "nameZh": "其他业务",
+            "nameEn": "All Other",
+            "revenue": 5.463,
+            "unit": "USD billions",
+            "share": 10.07
+          }
+        ],
+        "note": "Operating segment revenue includes intersegment activity; intersegment eliminations are not shown in the stacked chart.",
+        "noteZh": "经营分部收入包含分部间交易；堆叠图未展示分部间抵销项，不能直接加总为净收入。",
+        "noteEn": "Operating segment revenue includes intersegment activity; intersegment eliminations are not shown in the stacked chart."
+      },
+      {
+        "period": "FY2024",
+        "periodZh": "24财年",
+        "periodEn": "FY2024",
+        "totalRevenue": 53.101,
+        "sourceIds": [
+          "intc-10k-2025"
+        ],
+        "segments": [
+          {
+            "name": "Client Computing Group",
+            "nameZh": "客户端计算事业部",
+            "nameEn": "Client Computing Group",
+            "revenue": 33.346,
+            "unit": "USD billions",
+            "share": 62.8
+          },
+          {
+            "name": "Data Center and AI",
+            "nameZh": "数据中心与 AI",
+            "nameEn": "Data Center and AI",
+            "revenue": 16.125,
+            "unit": "USD billions",
+            "share": 30.37
+          },
+          {
+            "name": "Intel Foundry",
+            "nameZh": "英特尔代工",
+            "nameEn": "Intel Foundry",
+            "revenue": 17.317,
+            "unit": "USD billions",
+            "share": 32.61
+          },
+          {
+            "name": "All Other",
+            "nameZh": "其他业务",
+            "nameEn": "All Other",
+            "revenue": 3.601,
+            "unit": "USD billions",
+            "share": 6.78
+          }
+        ]
+      },
+      {
+        "period": "FY2025",
+        "periodZh": "25财年",
+        "periodEn": "FY2025",
+        "totalRevenue": 52.853,
+        "sourceIds": [
+          "intc-10k-2025",
+          "intc-fy2025-results"
+        ],
+        "segments": [
+          {
+            "name": "Client Computing Group",
+            "nameZh": "客户端计算事业部",
+            "nameEn": "Client Computing Group",
+            "revenue": 32.228,
+            "unit": "USD billions",
+            "share": 60.98
+          },
+          {
+            "name": "Data Center and AI",
+            "nameZh": "数据中心与 AI",
+            "nameEn": "Data Center and AI",
+            "revenue": 16.919,
+            "unit": "USD billions",
+            "share": 32.01
+          },
+          {
+            "name": "Intel Foundry",
+            "nameZh": "英特尔代工",
+            "nameEn": "Intel Foundry",
+            "revenue": 17.826,
+            "unit": "USD billions",
+            "share": 33.73
+          },
+          {
+            "name": "All Other",
+            "nameZh": "其他业务",
+            "nameEn": "All Other",
+            "revenue": 3.563,
+            "unit": "USD billions",
+            "share": 6.74
+          }
+        ]
+      }
+    ]
   },
   "news": [
     {
@@ -1322,6 +1637,16 @@
       "type": "company",
       "titleZh": "Announcement Regarding Commencement of the Tender Offer for Shinko Electric Industries",
       "titleEn": "Announcement Regarding Commencement of the Tender Offer for Shinko Electric Industries"
+    },
+    {
+      "id": "intc-sec-companyfacts",
+      "title": "Intel SEC Companyfacts XBRL data",
+      "titleZh": "Intel SEC Companyfacts XBRL 数据",
+      "titleEn": "Intel SEC Companyfacts XBRL data",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000050863.json",
+      "accessedAt": "2026-06-08",
+      "type": "sec"
     }
   ],
   "automation": {

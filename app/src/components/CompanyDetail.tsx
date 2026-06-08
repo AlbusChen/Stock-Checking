@@ -12,6 +12,7 @@ import {
 import { useMemo, useState } from "react";
 import { combineLocalized, localizedField, localizedList } from "../lib/localization";
 import type { BusinessSegment, CompanyReport, Source, SupplierListing } from "../types/company";
+import { FinancialTrendCharts } from "./FinancialTrendCharts";
 import { MetricStrip } from "./MetricStrip";
 import { TextPair } from "./TextPair";
 
@@ -330,6 +331,11 @@ export function CompanyDetail({ report }: CompanyDetailProps) {
               ))}
             </div>
           </article>
+          <FinancialTrendCharts
+            revenueMixHistory={report.financials.revenueMixHistory}
+            sources={sources}
+            trends={report.financials.trends}
+          />
           <article className="info-card wide">
             <h2>收入构成</h2>
             <SegmentBars segments={report.financials.revenueMix} sources={sources} />
