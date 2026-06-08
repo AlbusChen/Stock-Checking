@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T13:17:57.717473Z",
+  "generatedAt": "2026-06-08T13:39:19.228772Z",
   "companies": [
     {
       "id": "aapl",
@@ -26,6 +26,25 @@
       "sector": "Semiconductors and foundry",
       "lastUpdated": "2026-06-07T13:17:57.194160Z",
       "summary": "CPU 业务提供现金流，Intel Foundry 与先进制程/封装决定中长期弹性，当前重点是供给、良率和外部客户。"
+    },
+    {
+      "id": "mu",
+      "ticker": "MU",
+      "name": "Micron Technology, Inc.",
+      "legalName": "Micron Technology, Inc.",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/mu.json",
+      "aliases": [
+        "Micron",
+        "Micron Technology",
+        "美光",
+        "美光科技",
+        "MU"
+      ],
+      "sector": "Memory and storage semiconductors",
+      "lastUpdated": "2026-06-08T20:30:00+08:00",
+      "summary": "美光是美国存储器与存储解决方案龙头，核心变量是 AI 数据中心带来的 HBM、DDR5/LPDDR 与 SSD 需求、存储价格周期、产能/资本开支和先进封装能力。"
     },
     {
       "id": "nvda",

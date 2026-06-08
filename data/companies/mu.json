@@ -1,0 +1,1936 @@
+{
+  "schemaVersion": 1,
+  "id": "mu",
+  "ticker": "MU",
+  "exchange": "NASDAQ",
+  "market": "US",
+  "name": "Micron Technology, Inc.",
+  "legalName": "Micron Technology, Inc.",
+  "cik": "0000723125",
+  "currency": "USD",
+  "sector": "Memory and storage semiconductors",
+  "industry": [
+    "DRAM",
+    "NAND",
+    "High bandwidth memory",
+    "Data center SSDs",
+    "Automotive and embedded memory"
+  ],
+  "homepage": "https://www.micron.com/",
+  "lastUpdated": "2026-06-08T20:30:00+08:00",
+  "summary": "美光是美国存储器与存储解决方案龙头，核心变量是 AI 数据中心带来的 HBM、DDR5/LPDDR 与 SSD 需求、存储价格周期、产能/资本开支和先进封装能力。",
+  "aliases": [
+    "Micron",
+    "Micron Technology",
+    "美光",
+    "美光科技",
+    "MU"
+  ],
+  "updateCadence": {
+    "最新动态": "12 小时",
+    "财务与公告": "每日",
+    "主营业务": "每周",
+    "供应链溯源": "每周"
+  },
+  "business": {
+    "description": "Micron 设计、制造并销售 DRAM、NAND、NOR、HBM、SSD、托管 NAND、模块和多芯片封装等存储器与存储产品，面向云与数据中心、移动与客户端、汽车、工业和消费电子场景。FY2025 第四财季起，公司按 Cloud Memory、Core Data Center、Mobile and Client、Automotive and Embedded 四个业务单元披露。",
+    "revenueModel": [
+      "DRAM and HBM memory",
+      "NAND components and SSDs",
+      "Managed NAND and mobile memory",
+      "Automotive and embedded memory/storage"
+    ],
+    "segments": [
+      {
+        "name": "Cloud Memory Business Unit",
+        "nameZh": "云内存业务单元",
+        "nameEn": "Cloud Memory Business Unit",
+        "revenue": 7.749,
+        "unit": "USD billions",
+        "period": "Q2 FY2026",
+        "periodZh": "2026 财年第二财季",
+        "periodEn": "Q2 FY2026",
+        "share": 32.48,
+        "note": "主要面向 hyperscale 云数据中心，涵盖 HBM、DDR5/DDR4、LPDDR5 和 GDDR6 等内存产品。",
+        "noteZh": "主要面向 hyperscale 云数据中心，涵盖 HBM、DDR5/DDR4、LPDDR5 和 GDDR6 等内存产品。",
+        "noteEn": "Focused on hyperscale cloud data centers, including HBM, DDR5/DDR4, LPDDR5, and GDDR6 memory products.",
+        "sourceIds": [
+          "mu-q2-fy2026-results",
+          "mu-10k-2025"
+        ]
+      },
+      {
+        "name": "Core Data Center Business Unit",
+        "nameZh": "核心数据中心业务单元",
+        "nameEn": "Core Data Center Business Unit",
+        "revenue": 5.687,
+        "unit": "USD billions",
+        "period": "Q2 FY2026",
+        "periodZh": "2026 财年第二财季",
+        "periodEn": "Q2 FY2026",
+        "share": 23.84,
+        "note": "面向中型云、企业和 OEM 数据中心客户，覆盖服务器 DRAM、数据中心 SSD 和 NAND 组件。",
+        "noteZh": "面向中型云、企业和 OEM 数据中心客户，覆盖服务器 DRAM、数据中心 SSD 和 NAND 组件。",
+        "noteEn": "Focused on mid-tier cloud, enterprise, and OEM data center customers, including server DRAM, data center SSDs, and NAND components.",
+        "sourceIds": [
+          "mu-q2-fy2026-results",
+          "mu-10k-2025"
+        ]
+      },
+      {
+        "name": "Mobile and Client Business Unit",
+        "nameZh": "移动与客户端业务单元",
+        "nameEn": "Mobile and Client Business Unit",
+        "revenue": 7.711,
+        "unit": "USD billions",
+        "period": "Q2 FY2026",
+        "periodZh": "2026 财年第二财季",
+        "periodEn": "Q2 FY2026",
+        "share": 32.32,
+        "note": "覆盖智能手机、PC、客户端 SSD、LPDDR、UFS 和托管 NAND 等产品。",
+        "noteZh": "覆盖智能手机、PC、客户端 SSD、LPDDR、UFS 和托管 NAND 等产品。",
+        "noteEn": "Covers smartphones, PCs, client SSDs, LPDDR, UFS, and managed NAND products.",
+        "sourceIds": [
+          "mu-q2-fy2026-results",
+          "mu-10k-2025"
+        ]
+      },
+      {
+        "name": "Automotive and Embedded Business Unit",
+        "nameZh": "汽车与嵌入式业务单元",
+        "nameEn": "Automotive and Embedded Business Unit",
+        "revenue": 2.708,
+        "unit": "USD billions",
+        "period": "Q2 FY2026",
+        "periodZh": "2026 财年第二财季",
+        "periodEn": "Q2 FY2026",
+        "share": 11.35,
+        "note": "面向汽车、工业和消费嵌入式场景的长生命周期内存与存储。",
+        "noteZh": "面向汽车、工业和消费嵌入式场景的长生命周期内存与存储。",
+        "noteEn": "Long-life memory and storage products for automotive, industrial, and embedded consumer applications.",
+        "sourceIds": [
+          "mu-q2-fy2026-results",
+          "mu-10k-2025"
+        ]
+      }
+    ],
+    "thesis": "Micron 的投资与产业链逻辑从传统存储周期扩展到 AI 基础设施：HBM 和高端 DRAM 推动 ASP、毛利率与资本开支上行，NAND/SSD 则受数据中心和客户端需求共同影响。需要同时跟踪 AI GPU 平台认证、存储价格、产能利用率、先进封装、设备/材料供给和中国/美国政策风险。",
+    "riskNotes": [
+      "存储器仍有明显周期性，价格、库存和客户采购节奏会显著影响收入与毛利率。",
+      "HBM、先进 DRAM、NAND 和封装扩产依赖昂贵设备、材料和长期资本开支，供给约束可能同时带来增长和执行风险。",
+      "客户集中度、出口管制、地缘政策和中国市场变化会影响需求结构、产能规划与产品组合。"
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-08T20:30:00+08:00",
+    "thesis": "Micron 是垂直整合的存储制造商，核心上游是晶圆厂设备、硅片、高纯化学品、电子气体、CMP/过滤耗材与先进封装生态。向原材料追溯后，瓶颈集中在高纯多晶硅/石英、稀有气体、光刻胶/湿化学品、金属靶材和先进封装材料。",
+    "tiers": [
+      {
+        "level": 0,
+        "title": "目标企业：存储器设计与制造",
+        "titleZh": "目标企业：存储器设计与制造",
+        "titleEn": "Target company: memory design and manufacturing",
+        "companies": [
+          "Micron Technology"
+        ],
+        "entities": [
+          {
+            "name": "Micron Technology",
+            "nameZh": "美光科技",
+            "nameEn": "Micron Technology",
+            "relationship": "目标企业本体；负责 DRAM、NAND、HBM、SSD、模块和托管 NAND 等产品的研发、制造、封装协同、销售和客户认证。",
+            "relationshipZh": "目标企业本体；负责 DRAM、NAND、HBM、SSD、模块和托管 NAND 等产品的研发、制造、封装协同、销售和客户认证。",
+            "relationshipEn": "Target company; responsible for R&D, manufacturing, packaging coordination, sales, and customer qualification for DRAM, NAND, HBM, SSDs, modules, and managed NAND.",
+            "productsServices": [
+              "DRAM and HBM",
+              "NAND and SSDs",
+              "Managed NAND and modules"
+            ],
+            "productsServicesZh": [
+              "DRAM 与 HBM",
+              "NAND 与 SSD",
+              "托管 NAND 与模块"
+            ],
+            "productsServicesEn": [
+              "DRAM and HBM",
+              "NAND and SSDs",
+              "Managed NAND and modules"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "MU",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/mu"
+            },
+            "companyUrl": "https://www.micron.com/",
+            "confidence": "high",
+            "sourceIds": [
+              "mu-10k-2025",
+              "mu-q2-fy2026-results"
+            ]
+          }
+        ],
+        "geography": [
+          "United States",
+          "Japan",
+          "Taiwan",
+          "Singapore",
+          "Global"
+        ],
+        "materials": [
+          "DRAM wafers",
+          "NAND wafers",
+          "HBM stacks",
+          "SSD platforms"
+        ],
+        "materialsZh": [
+          "DRAM 晶圆",
+          "NAND 晶圆",
+          "HBM 堆叠",
+          "SSD 平台"
+        ],
+        "materialsEn": [
+          "DRAM wafers",
+          "NAND wafers",
+          "HBM stacks",
+          "SSD platforms"
+        ],
+        "notes": "Micron 是美国上市存储制造商，制造足迹覆盖美国、日本、台湾、新加坡等地。",
+        "notesZh": "Micron 是美国上市存储制造商，制造足迹覆盖美国、日本、台湾、新加坡等地。",
+        "notesEn": "Micron is a U.S.-listed memory manufacturer with manufacturing footprints across the United States, Japan, Taiwan, Singapore, and other regions.",
+        "confidence": "high",
+        "sourceIds": [
+          "mu-10k-2025"
+        ]
+      },
+      {
+        "level": 1,
+        "title": "晶圆厂设备与制程工具",
+        "titleZh": "晶圆厂设备与制程工具",
+        "titleEn": "Fab equipment and process tools",
+        "companies": [
+          "ASML",
+          "Applied Materials",
+          "Lam Research",
+          "Tokyo Electron",
+          "KLA"
+        ],
+        "entities": [
+          {
+            "name": "ASML",
+            "nameZh": "阿斯麦",
+            "nameEn": "ASML",
+            "relationship": "光刻设备供应链关键公司；Micron 的先进 DRAM/HBM 和 NAND 制造需要光刻步骤，EUV/DUV 设备影响先进节点扩产与良率。具体采购比例未逐项公开。",
+            "relationshipZh": "光刻设备供应链关键公司；Micron 的先进 DRAM/HBM 和 NAND 制造需要光刻步骤，EUV/DUV 设备影响先进节点扩产与良率。具体采购比例未逐项公开。",
+            "relationshipEn": "Key lithography equipment company; Micron's advanced DRAM/HBM and NAND manufacturing requires lithography steps, and EUV/DUV tool availability affects node scaling and yields. Micron does not disclose exact purchase mix by supplier.",
+            "productsServices": [
+              "EUV lithography systems",
+              "DUV lithography systems",
+              "Computational lithography"
+            ],
+            "productsServicesZh": [
+              "EUV 光刻系统",
+              "DUV 光刻系统",
+              "计算光刻"
+            ],
+            "productsServicesEn": [
+              "EUV lithography systems",
+              "DUV lithography systems",
+              "Computational lithography"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "ASML",
+              "exchange": "NASDAQ",
+              "market": "United States / Netherlands",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/asml"
+            },
+            "companyUrl": "https://www.asml.com/en",
+            "confidence": "medium",
+            "sourceIds": [
+              "mu-10k-2025",
+              "asml-about"
+            ]
+          },
+          {
+            "name": "Applied Materials",
+            "nameZh": "应用材料",
+            "nameEn": "Applied Materials",
+            "relationship": "与 Micron 在下一代 DRAM、HBM 和 NAND 材料/制程上开展公开合作；同时是存储晶圆制造中的沉积、材料工程和先进封装设备供应链核心公司。",
+            "relationshipZh": "与 Micron 在下一代 DRAM、HBM 和 NAND 材料/制程上开展公开合作；同时是存储晶圆制造中的沉积、材料工程和先进封装设备供应链核心公司。",
+            "relationshipEn": "Applied Materials has a disclosed collaboration with Micron on next-generation DRAM, HBM, and NAND, and is a core supplier category for deposition, materials engineering, and advanced packaging process equipment used in memory manufacturing.",
+            "productsServices": [
+              "Deposition tools",
+              "Materials engineering",
+              "Advanced packaging process technology"
+            ],
+            "productsServicesZh": [
+              "沉积设备",
+              "材料工程",
+              "先进封装制程技术"
+            ],
+            "productsServicesEn": [
+              "Deposition tools",
+              "Materials engineering",
+              "Advanced packaging process technology"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "AMAT",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/amat"
+            },
+            "companyUrl": "https://www.appliedmaterials.com/",
+            "confidence": "high",
+            "sourceIds": [
+              "applied-micron-ai-memory-2026",
+              "mu-10k-2025"
+            ]
+          },
+          {
+            "name": "Lam Research",
+            "nameZh": "泛林集团",
+            "nameEn": "Lam Research",
+            "relationship": "刻蚀、沉积和清洗工具供应链核心公司；Lam 公开说明其 DRAM/HBM 与 NAND 制程技术用于推进先进存储制造。Micron 未披露逐项采购金额。",
+            "relationshipZh": "刻蚀、沉积和清洗工具供应链核心公司；Lam 公开说明其 DRAM/HBM 与 NAND 制程技术用于推进先进存储制造。Micron 未披露逐项采购金额。",
+            "relationshipEn": "Core etch, deposition, and clean tool supplier category; Lam publicly describes DRAM/HBM and NAND process technologies used for advanced memory manufacturing. Micron does not disclose supplier-by-supplier spending.",
+            "productsServices": [
+              "Etch tools",
+              "Deposition tools",
+              "Wafer cleaning equipment"
+            ],
+            "productsServicesZh": [
+              "刻蚀设备",
+              "沉积设备",
+              "晶圆清洗设备"
+            ],
+            "productsServicesEn": [
+              "Etch tools",
+              "Deposition tools",
+              "Wafer cleaning equipment"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "LRCX",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/lrcx"
+            },
+            "companyUrl": "https://www.lamresearch.com/",
+            "confidence": "medium",
+            "sourceIds": [
+              "lam-dram-solutions",
+              "mu-10k-2025"
+            ]
+          },
+          {
+            "name": "Tokyo Electron",
+            "nameZh": "东京电子",
+            "nameEn": "Tokyo Electron",
+            "relationship": "前道制程设备供应链公司，覆盖涂胶显影、沉积、刻蚀等环节；对 Micron 的关系属于存储晶圆制造设备生态，具体采购比例未公开。",
+            "relationshipZh": "前道制程设备供应链公司，覆盖涂胶显影、沉积、刻蚀等环节；对 Micron 的关系属于存储晶圆制造设备生态，具体采购比例未公开。",
+            "relationshipEn": "Front-end process equipment supplier category covering coater/developer, deposition, and etch tools; tracked as part of the memory wafer manufacturing equipment ecosystem rather than a disclosed supplier-spend line item.",
+            "productsServices": [
+              "Coater/developer tools",
+              "Deposition equipment",
+              "Etch systems"
+            ],
+            "productsServicesZh": [
+              "涂胶显影设备",
+              "沉积设备",
+              "刻蚀系统"
+            ],
+            "productsServicesEn": [
+              "Coater/developer tools",
+              "Deposition equipment",
+              "Etch systems"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "8035.T",
+              "exchange": "TSE",
+              "market": "Japan",
+              "stockUrl": "https://finance.yahoo.com/quote/8035.T"
+            },
+            "companyUrl": "https://www.tel.com/",
+            "confidence": "medium",
+            "sourceIds": [
+              "mu-10k-2025"
+            ]
+          },
+          {
+            "name": "KLA",
+            "nameZh": "KLA",
+            "nameEn": "KLA",
+            "relationship": "过程控制、检测和量测设备供应链公司；对 DRAM/HBM 与 NAND 良率爬坡、缺陷控制和先进节点量产有关键间接作用。",
+            "relationshipZh": "过程控制、检测和量测设备供应链公司；对 DRAM/HBM 与 NAND 良率爬坡、缺陷控制和先进节点量产有关键间接作用。",
+            "relationshipEn": "Process-control, inspection, and metrology supplier category; important for yield ramp, defect control, and advanced-node production in DRAM/HBM and NAND manufacturing.",
+            "productsServices": [
+              "Inspection tools",
+              "Metrology systems",
+              "Process control"
+            ],
+            "productsServicesZh": [
+              "检测设备",
+              "量测系统",
+              "过程控制"
+            ],
+            "productsServicesEn": [
+              "Inspection tools",
+              "Metrology systems",
+              "Process control"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "KLAC",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/klac"
+            },
+            "companyUrl": "https://www.kla.com/",
+            "confidence": "medium",
+            "sourceIds": [
+              "kla-process-control",
+              "mu-10k-2025"
+            ]
+          }
+        ],
+        "geography": [
+          "United States",
+          "Netherlands",
+          "Japan",
+          "Global"
+        ],
+        "materials": [
+          "Lithography",
+          "Etch",
+          "Deposition",
+          "Metrology",
+          "Process control"
+        ],
+        "materialsZh": [
+          "光刻",
+          "刻蚀",
+          "沉积",
+          "量测",
+          "过程控制"
+        ],
+        "materialsEn": [
+          "Lithography",
+          "Etch",
+          "Deposition",
+          "Metrology",
+          "Process control"
+        ],
+        "notes": "Micron 10-K 披露其部分原材料和生产设备只有有限供应商甚至单一供应商；设备层用于跟踪产能和良率瓶颈。",
+        "notesZh": "Micron 10-K 披露其部分原材料和生产设备只有有限供应商甚至单一供应商；设备层用于跟踪产能和良率瓶颈。",
+        "notesEn": "Micron's 10-K notes that some raw materials and production equipment have limited or single-source suppliers; this layer tracks capacity and yield bottlenecks.",
+        "confidence": "medium",
+        "sourceIds": [
+          "mu-10k-2025",
+          "applied-micron-ai-memory-2026"
+        ]
+      },
+      {
+        "level": 2,
+        "title": "硅片、化学品、气体与耗材",
+        "titleZh": "硅片、化学品、气体与耗材",
+        "titleEn": "Wafers, chemicals, gases, and consumables",
+        "companies": [
+          "Shin-Etsu",
+          "SUMCO",
+          "Entegris",
+          "Linde",
+          "Air Liquide"
+        ],
+        "entities": [
+          {
+            "name": "Shin-Etsu",
+            "nameZh": "信越化学",
+            "nameEn": "Shin-Etsu",
+            "relationship": "半导体硅片与材料供应链核心公司；从多晶硅/单晶硅到低缺陷硅片，属于 Micron 晶圆制造上游原材料层。",
+            "relationshipZh": "半导体硅片与材料供应链核心公司；从多晶硅/单晶硅到低缺陷硅片，属于 Micron 晶圆制造上游原材料层。",
+            "relationshipEn": "Core semiconductor silicon wafer and materials supplier category; from polysilicon and single-crystal silicon to low-defect wafers, it sits upstream of Micron's wafer fabrication flow.",
+            "productsServices": [
+              "Silicon wafers",
+              "Semiconductor materials",
+              "Photoresist-related materials"
+            ],
+            "productsServicesZh": [
+              "硅片",
+              "半导体材料",
+              "光刻胶相关材料"
+            ],
+            "productsServicesEn": [
+              "Silicon wafers",
+              "Semiconductor materials",
+              "Photoresist-related materials"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "4063.T",
+              "exchange": "TSE",
+              "market": "Japan",
+              "stockUrl": "https://finance.yahoo.com/quote/4063.T"
+            },
+            "companyUrl": "https://www.shinetsu.co.jp/en/",
+            "confidence": "medium",
+            "sourceIds": [
+              "shinetsu-silicon-wafers",
+              "mu-10k-2025"
+            ]
+          },
+          {
+            "name": "SUMCO",
+            "nameZh": "胜高",
+            "nameEn": "SUMCO",
+            "relationship": "300mm 等半导体硅片供应链公司；对应 Micron DRAM、NAND 和 HBM 晶圆制造中的基底材料。",
+            "relationshipZh": "300mm 等半导体硅片供应链公司；对应 Micron DRAM、NAND 和 HBM 晶圆制造中的基底材料。",
+            "relationshipEn": "Semiconductor silicon wafer supplier category, including 300mm wafers; maps to the substrate material used in Micron's DRAM, NAND, and HBM wafer manufacturing.",
+            "productsServices": [
+              "300mm silicon wafers",
+              "Prime wafers",
+              "Epitaxial wafers"
+            ],
+            "productsServicesZh": [
+              "300mm 硅片",
+              "Prime 硅片",
+              "外延硅片"
+            ],
+            "productsServicesEn": [
+              "300mm silicon wafers",
+              "Prime wafers",
+              "Epitaxial wafers"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "3436.T",
+              "exchange": "TSE",
+              "market": "Japan",
+              "stockUrl": "https://finance.yahoo.com/quote/3436.T"
+            },
+            "companyUrl": "https://www.sumcosi.com/english/",
+            "confidence": "medium",
+            "sourceIds": [
+              "sumco-wafer-lineup",
+              "mu-10k-2025"
+            ]
+          },
+          {
+            "name": "Entegris",
+            "nameZh": "英特格",
+            "nameEn": "Entegris",
+            "relationship": "半导体材料、过滤、CMP 和流体管理耗材供应链公司；对 Micron 存储晶圆制程中的污染控制、CMP 和材料搬运有间接关键作用。",
+            "relationshipZh": "半导体材料、过滤、CMP 和流体管理耗材供应链公司；对 Micron 存储晶圆制程中的污染控制、CMP 和材料搬运有间接关键作用。",
+            "relationshipEn": "Materials, filtration, CMP, and fluid-management supplier category; important for contamination control, CMP, and materials handling in Micron's memory wafer processes.",
+            "productsServices": [
+              "CMP consumables",
+              "Liquid filtration",
+              "Materials handling"
+            ],
+            "productsServicesZh": [
+              "CMP 耗材",
+              "液体过滤",
+              "材料搬运"
+            ],
+            "productsServicesEn": [
+              "CMP consumables",
+              "Liquid filtration",
+              "Materials handling"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "ENTG",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/entg"
+            },
+            "companyUrl": "https://www.entegris.com/",
+            "confidence": "medium",
+            "sourceIds": [
+              "entegris-cmp",
+              "mu-10k-2025"
+            ]
+          },
+          {
+            "name": "Linde",
+            "nameZh": "林德",
+            "nameEn": "Linde",
+            "relationship": "电子特气和大宗气体供应链公司；氮气、氩气、氢气、氧气、氦气和特种气体用于沉积、刻蚀、清洗和惰性环境等半导体制程。",
+            "relationshipZh": "电子特气和大宗气体供应链公司；氮气、氩气、氢气、氧气、氦气和特种气体用于沉积、刻蚀、清洗和惰性环境等半导体制程。",
+            "relationshipEn": "Electronics specialty and bulk gas supplier category; nitrogen, argon, hydrogen, oxygen, helium, and specialty gases support deposition, etch, clean, and inert-atmosphere semiconductor processes.",
+            "productsServices": [
+              "Electronic gases",
+              "Specialty gases",
+              "On-site gas systems"
+            ],
+            "productsServicesZh": [
+              "电子气体",
+              "特种气体",
+              "现场供气系统"
+            ],
+            "productsServicesEn": [
+              "Electronic gases",
+              "Specialty gases",
+              "On-site gas systems"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "LIN",
+              "exchange": "NASDAQ",
+              "market": "United States / Europe",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/lin"
+            },
+            "companyUrl": "https://www.linde.com/",
+            "confidence": "medium",
+            "sourceIds": [
+              "linde-electronics-gases",
+              "mu-10k-2025"
+            ]
+          },
+          {
+            "name": "Air Liquide",
+            "nameZh": "液化空气",
+            "nameEn": "Air Liquide",
+            "relationship": "电子材料和高纯气体供应链公司；对存储晶圆厂的刻蚀、沉积、清洗和现场供气体系有间接关键作用。",
+            "relationshipZh": "电子材料和高纯气体供应链公司；对存储晶圆厂的刻蚀、沉积、清洗和现场供气体系有间接关键作用。",
+            "relationshipEn": "Electronics materials and high-purity gas supplier category; indirectly important for etch, deposition, cleaning, and on-site gas systems in memory fabs.",
+            "productsServices": [
+              "Electronic gases",
+              "Specialty materials",
+              "On-site gas supply"
+            ],
+            "productsServicesZh": [
+              "电子气体",
+              "特种材料",
+              "现场供气"
+            ],
+            "productsServicesEn": [
+              "Electronic gases",
+              "Specialty materials",
+              "On-site gas supply"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "AI.PA",
+              "exchange": "Euronext Paris",
+              "market": "France",
+              "stockUrl": "https://finance.yahoo.com/quote/AI.PA"
+            },
+            "companyUrl": "https://www.airliquide.com/",
+            "confidence": "medium",
+            "sourceIds": [
+              "mu-10k-2025"
+            ]
+          }
+        ],
+        "geography": [
+          "Japan",
+          "United States",
+          "Europe",
+          "Global"
+        ],
+        "materials": [
+          "Silicon wafers",
+          "Photoresists",
+          "CMP consumables",
+          "Electronic gases",
+          "Wet chemicals"
+        ],
+        "materialsZh": [
+          "硅片",
+          "光刻胶",
+          "CMP 耗材",
+          "电子气体",
+          "湿化学品"
+        ],
+        "materialsEn": [
+          "Silicon wafers",
+          "Photoresists",
+          "CMP consumables",
+          "Electronic gases",
+          "Wet chemicals"
+        ],
+        "notes": "这一层多数是 Micron 供应商的供应商或关键类别供应商；公开披露通常不会逐项列出采购金额。",
+        "notesZh": "这一层多数是 Micron 供应商的供应商或关键类别供应商；公开披露通常不会逐项列出采购金额。",
+        "notesEn": "Many entities in this layer are suppliers to Micron's suppliers or critical category suppliers; public disclosures usually do not provide supplier-by-supplier purchase amounts.",
+        "confidence": "medium",
+        "sourceIds": [
+          "mu-10k-2025",
+          "shinetsu-silicon-wafers",
+          "sumco-wafer-lineup",
+          "linde-electronics-gases"
+        ]
+      },
+      {
+        "level": 3,
+        "title": "封装、测试与系统集成生态",
+        "titleZh": "封装、测试与系统集成生态",
+        "titleEn": "Assembly, test, and system-integration ecosystem",
+        "companies": [
+          "ASE Technology",
+          "Amkor"
+        ],
+        "entities": [
+          {
+            "name": "ASE Technology",
+            "nameZh": "日月光投控",
+            "nameEn": "ASE Technology",
+            "relationship": "全球封装与测试生态参与者；Micron 拥有内部封装/测试能力，但 HBM、DRAM/NAND 模块和 SSD 系统也需要先进封装、测试和板级协同生态支持。",
+            "relationshipZh": "全球封装与测试生态参与者；Micron 拥有内部封装/测试能力，但 HBM、DRAM/NAND 模块和 SSD 系统也需要先进封装、测试和板级协同生态支持。",
+            "relationshipEn": "Global assembly and test ecosystem participant; Micron has internal assembly/test capability, while HBM, DRAM/NAND modules, and SSD platforms still depend on broader advanced packaging, test, and board-level ecosystem support.",
+            "productsServices": [
+              "Semiconductor assembly",
+              "Test services",
+              "Advanced packaging"
+            ],
+            "productsServicesZh": [
+              "半导体封装",
+              "测试服务",
+              "先进封装"
+            ],
+            "productsServicesEn": [
+              "Semiconductor assembly",
+              "Test services",
+              "Advanced packaging"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "3711.TW",
+              "exchange": "TWSE",
+              "market": "Taiwan",
+              "stockUrl": "https://finance.yahoo.com/quote/3711.TW"
+            },
+            "companyUrl": "https://www.aseglobal.com/",
+            "confidence": "medium",
+            "sourceIds": [
+              "mu-10k-2025"
+            ]
+          },
+          {
+            "name": "Amkor",
+            "nameZh": "安靠科技",
+            "nameEn": "Amkor",
+            "relationship": "外包封装与测试生态公司；对高端存储器、控制器、SSD 和系统级产品的封装/测试产能弹性有间接作用。",
+            "relationshipZh": "外包封装与测试生态公司；对高端存储器、控制器、SSD 和系统级产品的封装/测试产能弹性有间接作用。",
+            "relationshipEn": "Outsourced assembly and test ecosystem company; indirectly relevant to packaging/test capacity flexibility for high-end memory, controllers, SSDs, and system-level products.",
+            "productsServices": [
+              "Outsourced assembly",
+              "Test services",
+              "Advanced packages"
+            ],
+            "productsServicesZh": [
+              "外包封装",
+              "测试服务",
+              "先进封装"
+            ],
+            "productsServicesEn": [
+              "Outsourced assembly",
+              "Test services",
+              "Advanced packages"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "AMKR",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/amkr"
+            },
+            "companyUrl": "https://amkor.com/",
+            "confidence": "medium",
+            "sourceIds": [
+              "mu-10k-2025"
+            ]
+          }
+        ],
+        "geography": [
+          "Taiwan",
+          "United States",
+          "Asia",
+          "Global"
+        ],
+        "materials": [
+          "HBM stacks",
+          "Module substrates",
+          "SSD boards",
+          "Test capacity"
+        ],
+        "materialsZh": [
+          "HBM 堆叠",
+          "模块基板",
+          "SSD 板级产品",
+          "测试产能"
+        ],
+        "materialsEn": [
+          "HBM stacks",
+          "Module substrates",
+          "SSD boards",
+          "Test capacity"
+        ],
+        "notes": "Micron 的先进存储产品既依赖内部制造/封测，也依赖外部先进封装、基板、测试和系统生态。",
+        "notesZh": "Micron 的先进存储产品既依赖内部制造/封测，也依赖外部先进封装、基板、测试和系统生态。",
+        "notesEn": "Micron's advanced memory products depend on both internal manufacturing/test and the external advanced packaging, substrate, test, and system ecosystem.",
+        "confidence": "medium",
+        "sourceIds": [
+          "mu-10k-2025",
+          "mu-hbm4-vera-rubin-2026"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "Semiconductor-grade silicon",
+        "nameZh": "半导体级硅",
+        "nameEn": "Semiconductor-grade silicon",
+        "usedIn": "DRAM/NAND wafer substrates",
+        "usedInZh": "DRAM/NAND 晶圆基底",
+        "usedInEn": "DRAM/NAND wafer substrates",
+        "upstream": [
+          "Quartz",
+          "Metallurgical silicon",
+          "Polysilicon",
+          "Single-crystal ingots"
+        ],
+        "upstreamZh": [
+          "石英",
+          "冶金级硅",
+          "多晶硅",
+          "单晶硅锭"
+        ],
+        "upstreamEn": [
+          "Quartz",
+          "Metallurgical silicon",
+          "Polysilicon",
+          "Single-crystal ingots"
+        ],
+        "risk": "High purity, defect control and 300mm capacity are critical; supply is concentrated among a small number of global wafer makers.",
+        "riskZh": "高纯度、低缺陷和 300mm 产能关键，全球硅片供应集中度较高。",
+        "riskEn": "High purity, defect control, and 300mm capacity are critical; global wafer supply is relatively concentrated.",
+        "confidence": "medium"
+      },
+      {
+        "name": "Electronic gases",
+        "nameZh": "电子气体",
+        "nameEn": "Electronic gases",
+        "usedIn": "Deposition, etch, chamber clean and inert environments",
+        "usedInZh": "沉积、刻蚀、腔体清洗和惰性环境",
+        "usedInEn": "Deposition, etch, chamber clean, and inert environments",
+        "upstream": [
+          "Nitrogen",
+          "Argon",
+          "Hydrogen",
+          "Helium",
+          "Specialty fluorine gases"
+        ],
+        "upstreamZh": [
+          "氮气",
+          "氩气",
+          "氢气",
+          "氦气",
+          "含氟特种气体"
+        ],
+        "upstreamEn": [
+          "Nitrogen",
+          "Argon",
+          "Hydrogen",
+          "Helium",
+          "Specialty fluorine gases"
+        ],
+        "risk": "Purity, logistics and on-site supply reliability affect fab uptime; some rare gases can be exposed to geopolitical and energy-market shocks.",
+        "riskZh": "纯度、物流和现场供气可靠性影响晶圆厂稼动率，部分稀有气体受地缘和能源市场冲击。",
+        "riskEn": "Purity, logistics, and on-site supply reliability affect fab uptime; some rare gases can be exposed to geopolitical and energy-market shocks.",
+        "confidence": "medium"
+      },
+      {
+        "name": "Photoresists and wet chemicals",
+        "nameZh": "光刻胶与湿化学品",
+        "nameEn": "Photoresists and wet chemicals",
+        "usedIn": "Lithography, cleaning, etch and planarization process flows",
+        "usedInZh": "光刻、清洗、刻蚀和平坦化流程",
+        "usedInEn": "Lithography, cleaning, etch, and planarization process flows",
+        "upstream": [
+          "Specialty polymers",
+          "Solvents",
+          "Acids and bases",
+          "High-purity water"
+        ],
+        "upstreamZh": [
+          "特种聚合物",
+          "溶剂",
+          "酸碱化学品",
+          "超纯水"
+        ],
+        "upstreamEn": [
+          "Specialty polymers",
+          "Solvents",
+          "Acids and bases",
+          "High-purity water"
+        ],
+        "risk": "Advanced-node qualification can take time; a shortage or contamination event can disrupt yield.",
+        "riskZh": "先进节点验证周期长，短缺或污染事件可能直接扰动良率。",
+        "riskEn": "Advanced-node qualification can take time; shortages or contamination events can disrupt yield.",
+        "confidence": "medium"
+      },
+      {
+        "name": "Advanced packaging materials",
+        "nameZh": "先进封装材料",
+        "nameEn": "Advanced packaging materials",
+        "usedIn": "HBM stacks, TSV, interposers, substrates and SSD/module assembly",
+        "usedInZh": "HBM 堆叠、TSV、中介层、基板和 SSD/模块组装",
+        "usedInEn": "HBM stacks, TSV, interposers, substrates, and SSD/module assembly",
+        "upstream": [
+          "Copper",
+          "Solder materials",
+          "Organic substrates",
+          "Underfill and adhesives"
+        ],
+        "upstreamZh": [
+          "铜",
+          "焊料",
+          "有机基板",
+          "底部填充胶与粘接材料"
+        ],
+        "upstreamEn": [
+          "Copper",
+          "Solder materials",
+          "Organic substrates",
+          "Underfill and adhesives"
+        ],
+        "risk": "HBM ramp links memory wafers with advanced stacking, TSV, substrate and test capacity; bottlenecks can shift between wafer starts and packaging.",
+        "riskZh": "HBM 放量同时依赖存储晶圆、先进堆叠、TSV、基板和测试产能，瓶颈会在晶圆与封装之间切换。",
+        "riskEn": "HBM ramps link memory wafers with advanced stacking, TSV, substrate, and test capacity; bottlenecks can move between wafer starts and packaging.",
+        "confidence": "medium"
+      }
+    ],
+    "downstream": {
+      "updatedAt": "2026-06-08T20:30:00+08:00",
+      "thesis": "Micron 处于 AI、云、移动、PC、汽车和工业供应链的中上游：它向平台公司、数据中心 OEM/云客户、移动/客户端 OEM 与汽车/嵌入式客户供应内存和存储，再由这些客户把产品整合进 GPU 平台、服务器、SSD 系统、手机、PC 和车辆。",
+      "thesisZh": "Micron 处于 AI、云、移动、PC、汽车和工业供应链的中上游：它向平台公司、数据中心 OEM/云客户、移动/客户端 OEM 与汽车/嵌入式客户供应内存和存储，再由这些客户把产品整合进 GPU 平台、服务器、SSD 系统、手机、PC 和车辆。",
+      "thesisEn": "Micron sits upstream to midstream in AI, cloud, mobile, PC, automotive, and industrial supply chains: it supplies memory and storage to platform companies, data center OEM/cloud customers, mobile/client OEMs, and automotive/embedded customers, who integrate those products into GPU platforms, servers, SSD systems, phones, PCs, and vehicles.",
+      "tiers": [
+        {
+          "level": 1,
+          "title": "AI GPU 与加速计算平台客户",
+          "titleZh": "AI GPU 与加速计算平台客户",
+          "titleEn": "AI GPU and accelerated-computing platform customers",
+          "entities": [
+            {
+              "name": "NVIDIA",
+              "nameZh": "英伟达",
+              "nameEn": "NVIDIA",
+              "customerRole": "AI accelerator and platform customer",
+              "customerRoleZh": "AI 加速器与平台客户",
+              "customerRoleEn": "AI accelerator and platform customer",
+              "relationship": "Micron 官方披露 24GB 8H HBM3E 将用于 NVIDIA H200；2026 年又披露 HBM4 36GB 12H 已量产并面向 NVIDIA Vera Rubin 平台设计，同时 PCIe Gen6 SSD 和 SOCAMM2 也面向 NVIDIA 新平台生态。",
+              "relationshipZh": "Micron 官方披露 24GB 8H HBM3E 将用于 NVIDIA H200；2026 年又披露 HBM4 36GB 12H 已量产并面向 NVIDIA Vera Rubin 平台设计，同时 PCIe Gen6 SSD 和 SOCAMM2 也面向 NVIDIA 新平台生态。",
+              "relationshipEn": "Micron disclosed that its 24GB 8-high HBM3E would be part of NVIDIA H200; in 2026 it also disclosed high-volume HBM4 36GB 12-high designed for NVIDIA Vera Rubin, with PCIe Gen6 SSD and SOCAMM2 products tied to NVIDIA's next-generation platform ecosystem.",
+              "productsServices": [
+                "HBM3E for NVIDIA H200",
+                "HBM4 for NVIDIA Vera Rubin",
+                "PCIe Gen6 data center SSDs and SOCAMM2"
+              ],
+              "productsServicesZh": [
+                "用于 NVIDIA H200 的 HBM3E",
+                "用于 NVIDIA Vera Rubin 的 HBM4",
+                "PCIe Gen6 数据中心 SSD 与 SOCAMM2"
+              ],
+              "productsServicesEn": [
+                "HBM3E for NVIDIA H200",
+                "HBM4 for NVIDIA Vera Rubin",
+                "PCIe Gen6 data center SSDs and SOCAMM2"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "NVDA",
+                "exchange": "NASDAQ",
+                "market": "United States",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/nvda"
+              },
+              "companyUrl": "https://www.nvidia.com/",
+              "confidence": "high",
+              "sourceIds": [
+                "mu-hbm3e-nvidia-h200",
+                "mu-hbm4-vera-rubin-2026"
+              ]
+            }
+          ],
+          "notes": "HBM 和高速 SSD/内存模块把 Micron 直接连接到 AI 加速器平台；这也是当前最重要的下游增长线索。",
+          "notesZh": "HBM 和高速 SSD/内存模块把 Micron 直接连接到 AI 加速器平台；这也是当前最重要的下游增长线索。",
+          "notesEn": "HBM and high-speed SSD/memory modules connect Micron directly to AI accelerator platforms; this is the most important downstream growth signal today.",
+          "confidence": "high",
+          "sourceIds": [
+            "mu-hbm3e-nvidia-h200",
+            "mu-hbm4-vera-rubin-2026"
+          ]
+        },
+        {
+          "level": 2,
+          "title": "数据中心、移动、客户端和汽车 OEM",
+          "titleZh": "数据中心、移动、客户端和汽车 OEM",
+          "titleEn": "Data center, mobile, client, and automotive OEMs",
+          "entities": [
+            {
+              "name": "Hyperscale cloud and data center OEM customers",
+              "nameZh": "超大规模云与数据中心 OEM 客户",
+              "nameEn": "Hyperscale cloud and data center OEM customers",
+              "customerRole": "Buyers and integrators of DRAM, HBM and data center SSDs",
+              "customerRoleZh": "DRAM、HBM 与数据中心 SSD 的采购方和集成方",
+              "customerRoleEn": "Buyers and integrators of DRAM, HBM, and data center SSDs",
+              "relationship": "Micron 10-K 披露 CMBU 面向 hyperscale 云数据中心，CDBU 面向中型云、企业和 OEM 数据中心客户；产品包括 HBM、DDR5/DDR4、LPDDR、GDDR、数据中心 SSD 和 NAND 组件。具体客户名单大多未逐项公开。",
+              "relationshipZh": "Micron 10-K 披露 CMBU 面向 hyperscale 云数据中心，CDBU 面向中型云、企业和 OEM 数据中心客户；产品包括 HBM、DDR5/DDR4、LPDDR、GDDR、数据中心 SSD 和 NAND 组件。具体客户名单大多未逐项公开。",
+              "relationshipEn": "Micron's 10-K says CMBU serves hyperscale cloud data centers and CDBU serves mid-tier cloud, enterprise, and OEM data center customers; products include HBM, DDR5/DDR4, LPDDR, GDDR, data center SSDs, and NAND components. Most customer names are not disclosed one by one.",
+              "productsServices": [
+                "HBM and server DRAM",
+                "Data center SSDs",
+                "NAND components"
+              ],
+              "productsServicesZh": [
+                "HBM 与服务器 DRAM",
+                "数据中心 SSD",
+                "NAND 组件"
+              ],
+              "productsServicesEn": [
+                "HBM and server DRAM",
+                "Data center SSDs",
+                "NAND components"
+              ],
+              "listing": {
+                "status": "unknown",
+                "note": "Customer category; individual public-company customers are not comprehensively disclosed.",
+                "noteZh": "客户类别；具体上市客户名单未完整逐项披露。",
+                "noteEn": "Customer category; individual public-company customers are not comprehensively disclosed."
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "mu-10k-2025",
+                "mu-q2-fy2026-results"
+              ]
+            },
+            {
+              "name": "Mobile and client OEM customers",
+              "nameZh": "移动与客户端 OEM 客户",
+              "nameEn": "Mobile and client OEM customers",
+              "customerRole": "Smartphone, PC and client device makers",
+              "customerRoleZh": "智能手机、PC 与客户端设备制造商",
+              "customerRoleEn": "Smartphone, PC, and client device makers",
+              "relationship": "MCBU 向移动和客户端市场销售 LPDDR、托管 NAND、UFS、客户端 SSD 和相关存储产品；Micron 同时宣布退出 Crucial 消费者渠道，以把供给转向更大的战略客户和高增长领域。",
+              "relationshipZh": "MCBU 向移动和客户端市场销售 LPDDR、托管 NAND、UFS、客户端 SSD 和相关存储产品；Micron 同时宣布退出 Crucial 消费者渠道，以把供给转向更大的战略客户和高增长领域。",
+              "relationshipEn": "MCBU sells LPDDR, managed NAND, UFS, client SSDs, and related storage products into mobile and client markets; Micron also announced its exit from the Crucial consumer channel to redirect supply toward larger strategic customers and faster-growing segments.",
+              "productsServices": [
+                "LPDDR memory",
+                "Managed NAND and UFS",
+                "Client SSDs"
+              ],
+              "productsServicesZh": [
+                "LPDDR 内存",
+                "托管 NAND 与 UFS",
+                "客户端 SSD"
+              ],
+              "productsServicesEn": [
+                "LPDDR memory",
+                "Managed NAND and UFS",
+                "Client SSDs"
+              ],
+              "listing": {
+                "status": "unknown",
+                "note": "Customer category; individual customers are usually confidential.",
+                "noteZh": "客户类别；具体客户通常未公开披露。",
+                "noteEn": "Customer category; individual customers are usually confidential."
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "mu-10k-2025",
+                "mu-crucial-exit-2025"
+              ]
+            },
+            {
+              "name": "Automotive and embedded OEM customers",
+              "nameZh": "汽车与嵌入式 OEM 客户",
+              "nameEn": "Automotive and embedded OEM customers",
+              "customerRole": "Vehicle, industrial and embedded system makers",
+              "customerRoleZh": "汽车、工业与嵌入式系统制造商",
+              "customerRoleEn": "Vehicle, industrial, and embedded system makers",
+              "relationship": "AEBU 面向汽车、工业和消费嵌入式应用供应长生命周期内存与存储；该板块受车规认证、长供货周期和成熟 DRAM/NAND 供需影响。",
+              "relationshipZh": "AEBU 面向汽车、工业和消费嵌入式应用供应长生命周期内存与存储；该板块受车规认证、长供货周期和成熟 DRAM/NAND 供需影响。",
+              "relationshipEn": "AEBU supplies long-life memory and storage for automotive, industrial, and embedded consumer applications; the segment is shaped by automotive qualification, long product lifecycles, and mature DRAM/NAND supply-demand.",
+              "productsServices": [
+                "Automotive DRAM",
+                "Embedded NAND",
+                "Industrial memory and storage"
+              ],
+              "productsServicesZh": [
+                "车规 DRAM",
+                "嵌入式 NAND",
+                "工业内存与存储"
+              ],
+              "productsServicesEn": [
+                "Automotive DRAM",
+                "Embedded NAND",
+                "Industrial memory and storage"
+              ],
+              "listing": {
+                "status": "unknown",
+                "note": "Customer category; individual customers are not comprehensively disclosed.",
+                "noteZh": "客户类别；具体客户名单未完整逐项披露。",
+                "noteEn": "Customer category; individual customers are not comprehensively disclosed."
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "mu-10k-2025",
+                "mu-q2-fy2026-results"
+              ]
+            }
+          ],
+          "notes": "除 NVIDIA 等公开命名关系外，美光大多数下游客户按市场类别披露，适合先按客户群跟踪，再在后续研究中逐个补充公开上市公司客户。",
+          "notesZh": "除 NVIDIA 等公开命名关系外，美光大多数下游客户按市场类别披露，适合先按客户群跟踪，再在后续研究中逐个补充公开上市公司客户。",
+          "notesEn": "Aside from publicly named relationships such as NVIDIA, most Micron downstream customers are disclosed by market category; this should be tracked by customer group first and then expanded company by company as public evidence appears.",
+          "confidence": "high",
+          "sourceIds": [
+            "mu-10k-2025",
+            "mu-crucial-exit-2025"
+          ]
+        }
+      ]
+    }
+  },
+  "financials": {
+    "latestPeriod": "Q2 FY2026 / FY2025 baseline",
+    "latestPeriodZh": "2026 财年第二财季 / 2025 财年基准",
+    "latestPeriodEn": "Q2 FY2026 / FY2025 baseline",
+    "highlights": [
+      {
+        "label": "Q2 FY2026 revenue",
+        "labelZh": "2026 财年第二财季收入",
+        "labelEn": "Q2 FY2026 revenue",
+        "value": 23.86,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-02-26",
+        "periodZh": "截至 2026-02-26 的季度",
+        "periodEn": "Quarter ended 2026-02-26",
+        "change": "+196% year over year; +75% quarter over quarter",
+        "changeZh": "同比增长 196%；环比增长 75%",
+        "changeEn": "+196% year over year; +75% quarter over quarter",
+        "sourceIds": [
+          "mu-q2-fy2026-results"
+        ]
+      },
+      {
+        "label": "Q2 FY2026 GAAP gross margin",
+        "labelZh": "2026 财年第二财季 GAAP 毛利率",
+        "labelEn": "Q2 FY2026 GAAP gross margin",
+        "value": 74.4,
+        "unit": "percent",
+        "period": "Quarter ended 2026-02-26",
+        "periodZh": "截至 2026-02-26 的季度",
+        "periodEn": "Quarter ended 2026-02-26",
+        "change": "vs. 56.0% in Q1 FY2026 and 36.8% in Q2 FY2025",
+        "changeZh": "上一财季为 56.0%，上年同期为 36.8%",
+        "changeEn": "vs. 56.0% in Q1 FY2026 and 36.8% in Q2 FY2025",
+        "sourceIds": [
+          "mu-q2-fy2026-results"
+        ]
+      },
+      {
+        "label": "Q2 FY2026 GAAP diluted EPS",
+        "labelZh": "2026 财年第二财季 GAAP 摊薄 EPS",
+        "labelEn": "Q2 FY2026 GAAP diluted EPS",
+        "value": 12.07,
+        "unit": "USD/share",
+        "period": "Quarter ended 2026-02-26",
+        "periodZh": "截至 2026-02-26 的季度",
+        "periodEn": "Quarter ended 2026-02-26",
+        "change": "vs. $4.60 in Q1 FY2026 and $1.41 in Q2 FY2025",
+        "changeZh": "上一财季为 4.60 美元，上年同期为 1.41 美元",
+        "changeEn": "vs. $4.60 in Q1 FY2026 and $1.41 in Q2 FY2025",
+        "sourceIds": [
+          "mu-q2-fy2026-results"
+        ]
+      },
+      {
+        "label": "FY2025 revenue",
+        "labelZh": "2025 财年收入",
+        "labelEn": "FY2025 revenue",
+        "value": 37.378,
+        "unit": "USD billions",
+        "period": "Fiscal year ended 2025-08-28",
+        "periodZh": "截至 2025-08-28 的财年",
+        "periodEn": "Fiscal year ended 2025-08-28",
+        "change": "+49% year over year",
+        "changeZh": "同比增长 49%",
+        "changeEn": "+49% year over year",
+        "sourceIds": [
+          "mu-fy2025-results",
+          "mu-10k-2025"
+        ]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "Cloud Memory Business Unit",
+        "nameZh": "云内存业务单元",
+        "nameEn": "Cloud Memory Business Unit",
+        "revenue": 7.749,
+        "unit": "USD billions",
+        "period": "Q2 FY2026",
+        "periodZh": "2026 财年第二财季",
+        "periodEn": "Q2 FY2026",
+        "share": 32.48,
+        "note": "HBM and high-performance cloud memory demand are the main signal to watch.",
+        "noteZh": "HBM 与高性能云内存需求是最核心的观察信号。",
+        "noteEn": "HBM and high-performance cloud memory demand are the main signal to watch.",
+        "sourceIds": [
+          "mu-q2-fy2026-results"
+        ]
+      },
+      {
+        "name": "Core Data Center Business Unit",
+        "nameZh": "核心数据中心业务单元",
+        "nameEn": "Core Data Center Business Unit",
+        "revenue": 5.687,
+        "unit": "USD billions",
+        "period": "Q2 FY2026",
+        "periodZh": "2026 财年第二财季",
+        "periodEn": "Q2 FY2026",
+        "share": 23.84,
+        "note": "Includes server memory, data center SSDs and NAND components for enterprise and OEM customers.",
+        "noteZh": "包含面向企业与 OEM 客户的服务器内存、数据中心 SSD 和 NAND 组件。",
+        "noteEn": "Includes server memory, data center SSDs, and NAND components for enterprise and OEM customers.",
+        "sourceIds": [
+          "mu-q2-fy2026-results"
+        ]
+      },
+      {
+        "name": "Mobile and Client Business Unit",
+        "nameZh": "移动与客户端业务单元",
+        "nameEn": "Mobile and Client Business Unit",
+        "revenue": 7.711,
+        "unit": "USD billions",
+        "period": "Q2 FY2026",
+        "periodZh": "2026 财年第二财季",
+        "periodEn": "Q2 FY2026",
+        "share": 32.32,
+        "note": "Covers smartphone, PC and client storage demand; consumer channel strategy changed after the Crucial exit decision.",
+        "noteZh": "覆盖智能手机、PC 和客户端存储需求；Crucial 退出后消费渠道策略发生变化。",
+        "noteEn": "Covers smartphone, PC, and client storage demand; consumer channel strategy changed after the Crucial exit decision.",
+        "sourceIds": [
+          "mu-q2-fy2026-results",
+          "mu-crucial-exit-2025"
+        ]
+      },
+      {
+        "name": "Automotive and Embedded Business Unit",
+        "nameZh": "汽车与嵌入式业务单元",
+        "nameEn": "Automotive and Embedded Business Unit",
+        "revenue": 2.708,
+        "unit": "USD billions",
+        "period": "Q2 FY2026",
+        "periodZh": "2026 财年第二财季",
+        "periodEn": "Q2 FY2026",
+        "share": 11.35,
+        "note": "Long-lifecycle automotive and industrial products can behave differently from AI-driven leading-edge memory.",
+        "noteZh": "长生命周期汽车和工业产品与 AI 驱动的先进存储周期可能不同步。",
+        "noteEn": "Long-lifecycle automotive and industrial products can behave differently from AI-driven leading-edge memory.",
+        "sourceIds": [
+          "mu-q2-fy2026-results"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "id": "quarterly-revenue",
+        "label": "Quarterly revenue",
+        "labelZh": "财季收入",
+        "labelEn": "Quarterly revenue",
+        "unit": "USD billions",
+        "cadence": "quarterly",
+        "note": "Reported quarterly revenue from Micron results and SEC XBRL.",
+        "noteZh": "来自 Micron 业绩公告和 SEC XBRL 的已披露季度收入。",
+        "noteEn": "Reported quarterly revenue from Micron results and SEC XBRL.",
+        "sourceIds": [
+          "mu-q2-fy2026-results",
+          "mu-fy2025-results",
+          "mu-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "Q2 FY2025",
+            "periodZh": "25财年Q2",
+            "periodEn": "Q2 FY2025",
+            "value": 8.053,
+            "sourceIds": [
+              "mu-q2-fy2026-results",
+              "mu-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "Q3 FY2025",
+            "periodZh": "25财年Q3",
+            "periodEn": "Q3 FY2025",
+            "value": 9.301,
+            "sourceIds": [
+              "mu-fy2025-results",
+              "mu-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "Q4 FY2025",
+            "periodZh": "25财年Q4",
+            "periodEn": "Q4 FY2025",
+            "value": 11.315,
+            "sourceIds": [
+              "mu-fy2025-results"
+            ]
+          },
+          {
+            "period": "Q1 FY2026",
+            "periodZh": "26财年Q1",
+            "periodEn": "Q1 FY2026",
+            "value": 13.643,
+            "sourceIds": [
+              "mu-q2-fy2026-results",
+              "mu-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "Q2 FY2026",
+            "periodZh": "26财年Q2",
+            "periodEn": "Q2 FY2026",
+            "value": 23.86,
+            "sourceIds": [
+              "mu-q2-fy2026-results",
+              "mu-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "quarterly-gaap-gross-margin",
+        "label": "Quarterly GAAP gross margin",
+        "labelZh": "财季 GAAP 毛利率",
+        "labelEn": "Quarterly GAAP gross margin",
+        "unit": "percent",
+        "cadence": "quarterly",
+        "note": "Gross margin shows the memory upcycle, pricing and product-mix effect.",
+        "noteZh": "毛利率反映存储上行周期、价格和产品组合变化。",
+        "noteEn": "Gross margin shows the memory upcycle, pricing, and product-mix effect.",
+        "sourceIds": [
+          "mu-q2-fy2026-results",
+          "mu-fy2025-results",
+          "mu-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "Q2 FY2025",
+            "periodZh": "25财年Q2",
+            "periodEn": "Q2 FY2025",
+            "value": 36.8
+          },
+          {
+            "period": "Q3 FY2025",
+            "periodZh": "25财年Q3",
+            "periodEn": "Q3 FY2025",
+            "value": 37.7
+          },
+          {
+            "period": "Q4 FY2025",
+            "periodZh": "25财年Q4",
+            "periodEn": "Q4 FY2025",
+            "value": 44.7
+          },
+          {
+            "period": "Q1 FY2026",
+            "periodZh": "26财年Q1",
+            "periodEn": "Q1 FY2026",
+            "value": 56.0
+          },
+          {
+            "period": "Q2 FY2026",
+            "periodZh": "26财年Q2",
+            "periodEn": "Q2 FY2026",
+            "value": 74.4
+          }
+        ]
+      },
+      {
+        "id": "annual-revenue",
+        "label": "Annual revenue",
+        "labelZh": "财年收入",
+        "labelEn": "Annual revenue",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "Annual revenue in USD billions.",
+        "noteZh": "年度收入，单位为十亿美元。",
+        "noteEn": "Annual revenue in USD billions.",
+        "sourceIds": [
+          "mu-sec-companyfacts",
+          "mu-10k-2025",
+          "mu-fy2025-results"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "23财年",
+            "periodEn": "FY2023",
+            "value": 15.54,
+            "sourceIds": [
+              "mu-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "24财年",
+            "periodEn": "FY2024",
+            "value": 25.111,
+            "sourceIds": [
+              "mu-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "25财年",
+            "periodEn": "FY2025",
+            "value": 37.378,
+            "sourceIds": [
+              "mu-sec-companyfacts",
+              "mu-fy2025-results"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-net-income",
+        "label": "Annual GAAP net income",
+        "labelZh": "财年 GAAP 净利润",
+        "labelEn": "Annual GAAP net income",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "Net income shows the recovery from the memory downcycle into the AI-led upcycle.",
+        "noteZh": "净利润显示公司从存储下行周期恢复到 AI 驱动上行周期的过程。",
+        "noteEn": "Net income shows the recovery from the memory downcycle into the AI-led upcycle.",
+        "sourceIds": [
+          "mu-sec-companyfacts",
+          "mu-10k-2025",
+          "mu-fy2025-results"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "23财年",
+            "periodEn": "FY2023",
+            "value": -5.833,
+            "sourceIds": [
+              "mu-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "24财年",
+            "periodEn": "FY2024",
+            "value": 0.778,
+            "sourceIds": [
+              "mu-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "25财年",
+            "periodEn": "FY2025",
+            "value": 8.539,
+            "sourceIds": [
+              "mu-sec-companyfacts",
+              "mu-fy2025-results"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenueMixHistory": [
+      {
+        "period": "Q2 FY2025",
+        "periodZh": "25财年Q2",
+        "periodEn": "Q2 FY2025",
+        "totalRevenue": 8.053,
+        "sourceIds": [
+          "mu-q2-fy2026-results"
+        ],
+        "segments": [
+          {
+            "name": "Cloud Memory Business Unit",
+            "nameZh": "云内存业务单元",
+            "nameEn": "Cloud Memory Business Unit",
+            "revenue": 2.947,
+            "unit": "USD billions",
+            "share": 36.6
+          },
+          {
+            "name": "Core Data Center Business Unit",
+            "nameZh": "核心数据中心业务单元",
+            "nameEn": "Core Data Center Business Unit",
+            "revenue": 1.83,
+            "unit": "USD billions",
+            "share": 22.72
+          },
+          {
+            "name": "Mobile and Client Business Unit",
+            "nameZh": "移动与客户端业务单元",
+            "nameEn": "Mobile and Client Business Unit",
+            "revenue": 2.236,
+            "unit": "USD billions",
+            "share": 27.77
+          },
+          {
+            "name": "Automotive and Embedded Business Unit",
+            "nameZh": "汽车与嵌入式业务单元",
+            "nameEn": "Automotive and Embedded Business Unit",
+            "revenue": 1.034,
+            "unit": "USD billions",
+            "share": 12.84
+          }
+        ],
+        "note": "Business-unit history uses Micron's post-reorganization disclosure table; shares use reported company revenue as denominator, so rounding may leave small residuals.",
+        "noteZh": "业务单元历史采用 Micron 重组后披露表；百分比以公司披露收入为分母，四舍五入会留下少量差额。",
+        "noteEn": "Business-unit history uses Micron's post-reorganization disclosure table; shares use reported company revenue as denominator, so rounding may leave small residuals."
+      },
+      {
+        "period": "Q3 FY2025",
+        "periodZh": "25财年Q3",
+        "periodEn": "Q3 FY2025",
+        "totalRevenue": 9.301,
+        "sourceIds": [
+          "mu-fy2025-results"
+        ],
+        "segments": [
+          {
+            "name": "Cloud Memory Business Unit",
+            "nameZh": "云内存业务单元",
+            "nameEn": "Cloud Memory Business Unit",
+            "revenue": 3.386,
+            "unit": "USD billions",
+            "share": 36.41
+          },
+          {
+            "name": "Core Data Center Business Unit",
+            "nameZh": "核心数据中心业务单元",
+            "nameEn": "Core Data Center Business Unit",
+            "revenue": 1.53,
+            "unit": "USD billions",
+            "share": 16.45
+          },
+          {
+            "name": "Mobile and Client Business Unit",
+            "nameZh": "移动与客户端业务单元",
+            "nameEn": "Mobile and Client Business Unit",
+            "revenue": 3.255,
+            "unit": "USD billions",
+            "share": 34.99
+          },
+          {
+            "name": "Automotive and Embedded Business Unit",
+            "nameZh": "汽车与嵌入式业务单元",
+            "nameEn": "Automotive and Embedded Business Unit",
+            "revenue": 1.127,
+            "unit": "USD billions",
+            "share": 12.12
+          }
+        ]
+      },
+      {
+        "period": "Q4 FY2025",
+        "periodZh": "25财年Q4",
+        "periodEn": "Q4 FY2025",
+        "totalRevenue": 11.315,
+        "sourceIds": [
+          "mu-fy2025-results"
+        ],
+        "segments": [
+          {
+            "name": "Cloud Memory Business Unit",
+            "nameZh": "云内存业务单元",
+            "nameEn": "Cloud Memory Business Unit",
+            "revenue": 4.543,
+            "unit": "USD billions",
+            "share": 40.15
+          },
+          {
+            "name": "Core Data Center Business Unit",
+            "nameZh": "核心数据中心业务单元",
+            "nameEn": "Core Data Center Business Unit",
+            "revenue": 1.577,
+            "unit": "USD billions",
+            "share": 13.94
+          },
+          {
+            "name": "Mobile and Client Business Unit",
+            "nameZh": "移动与客户端业务单元",
+            "nameEn": "Mobile and Client Business Unit",
+            "revenue": 3.76,
+            "unit": "USD billions",
+            "share": 33.23
+          },
+          {
+            "name": "Automotive and Embedded Business Unit",
+            "nameZh": "汽车与嵌入式业务单元",
+            "nameEn": "Automotive and Embedded Business Unit",
+            "revenue": 1.434,
+            "unit": "USD billions",
+            "share": 12.67
+          }
+        ]
+      },
+      {
+        "period": "Q1 FY2026",
+        "periodZh": "26财年Q1",
+        "periodEn": "Q1 FY2026",
+        "totalRevenue": 13.643,
+        "sourceIds": [
+          "mu-q2-fy2026-results"
+        ],
+        "segments": [
+          {
+            "name": "Cloud Memory Business Unit",
+            "nameZh": "云内存业务单元",
+            "nameEn": "Cloud Memory Business Unit",
+            "revenue": 5.284,
+            "unit": "USD billions",
+            "share": 38.73
+          },
+          {
+            "name": "Core Data Center Business Unit",
+            "nameZh": "核心数据中心业务单元",
+            "nameEn": "Core Data Center Business Unit",
+            "revenue": 2.379,
+            "unit": "USD billions",
+            "share": 17.44
+          },
+          {
+            "name": "Mobile and Client Business Unit",
+            "nameZh": "移动与客户端业务单元",
+            "nameEn": "Mobile and Client Business Unit",
+            "revenue": 4.255,
+            "unit": "USD billions",
+            "share": 31.19
+          },
+          {
+            "name": "Automotive and Embedded Business Unit",
+            "nameZh": "汽车与嵌入式业务单元",
+            "nameEn": "Automotive and Embedded Business Unit",
+            "revenue": 1.72,
+            "unit": "USD billions",
+            "share": 12.61
+          }
+        ]
+      },
+      {
+        "period": "Q2 FY2026",
+        "periodZh": "26财年Q2",
+        "periodEn": "Q2 FY2026",
+        "totalRevenue": 23.86,
+        "sourceIds": [
+          "mu-q2-fy2026-results"
+        ],
+        "segments": [
+          {
+            "name": "Cloud Memory Business Unit",
+            "nameZh": "云内存业务单元",
+            "nameEn": "Cloud Memory Business Unit",
+            "revenue": 7.749,
+            "unit": "USD billions",
+            "share": 32.48
+          },
+          {
+            "name": "Core Data Center Business Unit",
+            "nameZh": "核心数据中心业务单元",
+            "nameEn": "Core Data Center Business Unit",
+            "revenue": 5.687,
+            "unit": "USD billions",
+            "share": 23.84
+          },
+          {
+            "name": "Mobile and Client Business Unit",
+            "nameZh": "移动与客户端业务单元",
+            "nameEn": "Mobile and Client Business Unit",
+            "revenue": 7.711,
+            "unit": "USD billions",
+            "share": 32.32
+          },
+          {
+            "name": "Automotive and Embedded Business Unit",
+            "nameZh": "汽车与嵌入式业务单元",
+            "nameEn": "Automotive and Embedded Business Unit",
+            "revenue": 2.708,
+            "unit": "USD billions",
+            "share": 11.35
+          }
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-03-18",
+      "title": "Micron 发布 2026 财年第二财季创纪录业绩",
+      "titleZh": "Micron 发布 2026 财年第二财季创纪录业绩",
+      "titleEn": "Micron reports record second-quarter FY2026 results",
+      "category": "Earnings",
+      "categoryZh": "业绩",
+      "categoryEn": "Earnings",
+      "summary": "季度收入 238.60 亿美元，GAAP 毛利率 74.4%，GAAP 摊薄 EPS 12.07 美元，并给出 Q3 FY2026 收入 335 亿美元上下 7.5 亿美元的指引。",
+      "summaryZh": "季度收入 238.60 亿美元，GAAP 毛利率 74.4%，GAAP 摊薄 EPS 12.07 美元，并给出 Q3 FY2026 收入 335 亿美元上下 7.5 亿美元的指引。",
+      "summaryEn": "Revenue was $23.86 billion, GAAP gross margin was 74.4%, GAAP diluted EPS was $12.07, and Q3 FY2026 revenue guidance was $33.5 billion plus or minus $750 million.",
+      "impact": "AI 时代内存价值、紧供给和价格上行成为核心业绩驱动；后续要跟踪 HBM、先进 DRAM/NAND 和资本开支执行。",
+      "impactZh": "AI 时代内存价值、紧供给和价格上行成为核心业绩驱动；后续要跟踪 HBM、先进 DRAM/NAND 和资本开支执行。",
+      "impactEn": "The results show memory value, tight supply, and pricing as key drivers in the AI era; HBM, advanced DRAM/NAND, and capex execution remain core follow-up items.",
+      "sourceIds": [
+        "mu-q2-fy2026-results"
+      ]
+    },
+    {
+      "date": "2026-03-16",
+      "title": "Micron HBM4 面向 NVIDIA Vera Rubin 平台进入高量产",
+      "titleZh": "Micron HBM4 面向 NVIDIA Vera Rubin 平台进入高量产",
+      "titleEn": "Micron HBM4 for NVIDIA Vera Rubin enters high-volume production",
+      "category": "Product / Ecosystem",
+      "categoryZh": "产品 / 生态",
+      "categoryEn": "Product / Ecosystem",
+      "summary": "Micron 披露 HBM4 36GB 12H 已在 2026 年第一季度出货并面向 NVIDIA Vera Rubin 设计，同时 PCIe Gen6 SSD 和 SOCAMM2 也服务于 NVIDIA 新一代平台生态。",
+      "summaryZh": "Micron 披露 HBM4 36GB 12H 已在 2026 年第一季度出货并面向 NVIDIA Vera Rubin 设计，同时 PCIe Gen6 SSD 和 SOCAMM2 也服务于 NVIDIA 新一代平台生态。",
+      "summaryEn": "Micron said HBM4 36GB 12-high began volume shipment in Q1 calendar 2026 and is designed for NVIDIA Vera Rubin, alongside PCIe Gen6 SSD and SOCAMM2 products for NVIDIA's next-generation platform ecosystem.",
+      "impact": "这强化了 Micron 在 AI 加速器内存供应链中的下游连接，HBM 认证和产能可能继续影响收入结构。",
+      "impactZh": "这强化了 Micron 在 AI 加速器内存供应链中的下游连接，HBM 认证和产能可能继续影响收入结构。",
+      "impactEn": "This strengthens Micron's downstream connection to AI accelerator platforms; HBM qualification and capacity may continue to shape revenue mix.",
+      "sourceIds": [
+        "mu-hbm4-vera-rubin-2026"
+      ]
+    },
+    {
+      "date": "2025-12-03",
+      "title": "Micron 宣布退出 Crucial 消费者业务",
+      "titleZh": "Micron 宣布退出 Crucial 消费者业务",
+      "titleEn": "Micron announces exit from the Crucial consumer business",
+      "category": "Strategy",
+      "categoryZh": "战略",
+      "categoryEn": "Strategy",
+      "summary": "公司计划在 2026 财年第二财季末前继续向消费者渠道出货 Crucial 产品，之后将供给和资源转向更大的战略客户及高增长领域。",
+      "summaryZh": "公司计划在 2026 财年第二财季末前继续向消费者渠道出货 Crucial 产品，之后将供给和资源转向更大的战略客户及高增长领域。",
+      "summaryEn": "Micron planned to continue Crucial consumer-channel shipments through the end of fiscal Q2 2026, then redirect supply and resources toward larger strategic customers and faster-growing segments.",
+      "impact": "这说明管理层愿意牺牲部分消费者渠道曝光，把有限 DRAM/NAND 供给转向 AI 数据中心和企业客户。",
+      "impactZh": "这说明管理层愿意牺牲部分消费者渠道曝光，把有限 DRAM/NAND 供给转向 AI 数据中心和企业客户。",
+      "impactEn": "The move shows management's willingness to reduce consumer-channel exposure and redirect constrained DRAM/NAND supply toward AI data center and enterprise customers.",
+      "sourceIds": [
+        "mu-crucial-exit-2025"
+      ]
+    },
+    {
+      "date": "2025-09-23",
+      "title": "Micron FY2025 年收入达到 373.78 亿美元",
+      "titleZh": "Micron 2025 财年收入达到 373.78 亿美元",
+      "titleEn": "Micron FY2025 revenue reaches $37.378 billion",
+      "category": "Earnings",
+      "categoryZh": "业绩",
+      "categoryEn": "Earnings",
+      "summary": "FY2025 收入同比增长 49%，GAAP 净利润 85.39 亿美元，公司称数据中心业务达到历史高位。",
+      "summaryZh": "FY2025 收入同比增长 49%，GAAP 净利润 85.39 亿美元，公司称数据中心业务达到历史高位。",
+      "summaryEn": "FY2025 revenue increased 49% year over year to $37.378 billion and GAAP net income was $8.539 billion; the company said its data center business reached all-time highs.",
+      "impact": "FY2025 是从存储周期底部恢复并向 AI 数据中心加速倾斜的基准年。",
+      "impactZh": "FY2025 是从存储周期底部恢复并向 AI 数据中心加速倾斜的基准年。",
+      "impactEn": "FY2025 is the baseline year for recovery from the memory downcycle and accelerated mix shift toward AI data centers.",
+      "sourceIds": [
+        "mu-fy2025-results"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "10-K",
+      "filedAt": "2025-10-03",
+      "reportDate": "2025-08-28",
+      "title": "FY2025 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-03-19",
+      "reportDate": "2026-02-26",
+      "title": "Q2 FY2026 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000006/mu-20260226.htm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "mu-q2-fy2026-results",
+      "title": "Micron Technology, Inc. Reports Results for the Second Quarter of Fiscal 2026",
+      "titleZh": "Micron Technology, Inc. Reports Results for the Second Quarter of Fiscal 2026",
+      "titleEn": "Micron Technology, Inc. Reports Results for the Second Quarter of Fiscal 2026",
+      "publisher": "Micron Investor Relations",
+      "url": "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-results-second-quarter-fiscal-2026",
+      "publishedAt": "2026-03-18",
+      "accessedAt": "2026-06-08",
+      "type": "company"
+    },
+    {
+      "id": "mu-fy2025-results",
+      "title": "Micron Technology, Inc. Reports Results for the Fourth Quarter and Full Year of Fiscal 2025",
+      "titleZh": "Micron Technology, Inc. Reports Results for the Fourth Quarter and Full Year of Fiscal 2025",
+      "titleEn": "Micron Technology, Inc. Reports Results for the Fourth Quarter and Full Year of Fiscal 2025",
+      "publisher": "Micron Investor Relations",
+      "url": "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-results-fourth-quarter-and-full-8",
+      "publishedAt": "2025-09-23",
+      "accessedAt": "2026-06-08",
+      "type": "company"
+    },
+    {
+      "id": "mu-10k-2025",
+      "title": "Micron FY2025 Form 10-K",
+      "titleZh": "Micron 2025 财年 Form 10-K",
+      "titleEn": "Micron FY2025 Form 10-K",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm",
+      "publishedAt": "2025-10-03",
+      "accessedAt": "2026-06-08",
+      "type": "sec"
+    },
+    {
+      "id": "mu-sec-companyfacts",
+      "title": "Micron SEC Companyfacts XBRL data",
+      "titleZh": "Micron SEC Companyfacts XBRL 数据",
+      "titleEn": "Micron SEC Companyfacts XBRL data",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000723125.json",
+      "accessedAt": "2026-06-08",
+      "type": "sec"
+    },
+    {
+      "id": "mu-hbm3e-nvidia-h200",
+      "title": "Micron Commences Volume Production of Industry-Leading HBM3E Solution to Accelerate the Growth of AI",
+      "titleZh": "Micron Commences Volume Production of Industry-Leading HBM3E Solution to Accelerate the Growth of AI",
+      "titleEn": "Micron Commences Volume Production of Industry-Leading HBM3E Solution to Accelerate the Growth of AI",
+      "publisher": "Micron Investor Relations",
+      "url": "https://investors.micron.com/news-releases/news-release-details/micron-commences-volume-production-industry-leading-hbm3e",
+      "publishedAt": "2024-02-26",
+      "accessedAt": "2026-06-08",
+      "type": "company"
+    },
+    {
+      "id": "mu-hbm4-vera-rubin-2026",
+      "title": "Micron in High-Volume Production of HBM4 Designed for NVIDIA Vera Rubin, PCIe Gen6 SSD and SOCAMM2",
+      "titleZh": "Micron HBM4 面向 NVIDIA Vera Rubin 进入高量产",
+      "titleEn": "Micron in High-Volume Production of HBM4 Designed for NVIDIA Vera Rubin, PCIe Gen6 SSD and SOCAMM2",
+      "publisher": "Micron Investor Relations",
+      "url": "https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin",
+      "publishedAt": "2026-03-16",
+      "accessedAt": "2026-06-08",
+      "type": "company"
+    },
+    {
+      "id": "mu-crucial-exit-2025",
+      "title": "Micron Announces Exit from Crucial Consumer Business",
+      "titleZh": "Micron 宣布退出 Crucial 消费者业务",
+      "titleEn": "Micron Announces Exit from Crucial Consumer Business",
+      "publisher": "Micron Investor Relations",
+      "url": "https://investors.micron.com/news-releases/news-release-details/micron-announces-exit-crucial-consumer-business",
+      "publishedAt": "2025-12-03",
+      "accessedAt": "2026-06-08",
+      "type": "company"
+    },
+    {
+      "id": "applied-micron-ai-memory-2026",
+      "title": "Applied Materials and Micron Partner To Advance U.S. Innovation in Next-Generation AI Memory Solutions",
+      "titleZh": "Applied Materials and Micron Partner To Advance U.S. Innovation in Next-Generation AI Memory Solutions",
+      "titleEn": "Applied Materials and Micron Partner To Advance U.S. Innovation in Next-Generation AI Memory Solutions",
+      "publisher": "Applied Materials Investor Relations",
+      "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-and-micron-partner-advance-us-innovation-next/",
+      "publishedAt": "2026-03-10",
+      "accessedAt": "2026-06-08",
+      "type": "company"
+    },
+    {
+      "id": "asml-about",
+      "title": "About ASML: Supplying the semiconductor industry",
+      "titleZh": "ASML 公司介绍：半导体行业设备供应",
+      "titleEn": "About ASML: Supplying the semiconductor industry",
+      "publisher": "ASML",
+      "url": "https://www.asml.com/en/company/about-asml",
+      "accessedAt": "2026-06-08",
+      "type": "company"
+    },
+    {
+      "id": "lam-dram-solutions",
+      "title": "DRAM: Lam Research Solutions",
+      "titleZh": "Lam Research DRAM 解决方案",
+      "titleEn": "DRAM: Lam Research Solutions",
+      "publisher": "Lam Research",
+      "url": "https://www.lamresearch.com/products/our-solutions/dram/",
+      "accessedAt": "2026-06-08",
+      "type": "company"
+    },
+    {
+      "id": "kla-process-control",
+      "title": "KLA: Process Control and Yield Management",
+      "titleZh": "KLA：过程控制与良率管理",
+      "titleEn": "KLA: Process Control and Yield Management",
+      "publisher": "KLA",
+      "url": "https://www.kla.com/",
+      "accessedAt": "2026-06-08",
+      "type": "company"
+    },
+    {
+      "id": "shinetsu-silicon-wafers",
+      "title": "Silicon Wafers: Shin-Etsu Chemical",
+      "titleZh": "信越化学：硅片业务",
+      "titleEn": "Silicon Wafers: Shin-Etsu Chemical",
+      "publisher": "Shin-Etsu Chemical",
+      "url": "https://www.shinetsu.co.jp/en/products/semiconductor-silicon-business/silicon-wafers/",
+      "accessedAt": "2026-06-08",
+      "type": "company"
+    },
+    {
+      "id": "sumco-wafer-lineup",
+      "title": "SUMCO Product Lineup",
+      "titleZh": "SUMCO 硅片产品线",
+      "titleEn": "SUMCO Product Lineup",
+      "publisher": "SUMCO",
+      "url": "https://www.sumcosi.com/english/products/lineup.html",
+      "accessedAt": "2026-06-08",
+      "type": "company"
+    },
+    {
+      "id": "entegris-cmp",
+      "title": "Chemical Mechanical Planarization: Entegris",
+      "titleZh": "Entegris CMP 解决方案",
+      "titleEn": "Chemical Mechanical Planarization: Entegris",
+      "publisher": "Entegris",
+      "url": "https://www.entegris.com/en/home/our-science/by-industry/microelectronics/semiconductor/cmp.html",
+      "accessedAt": "2026-06-08",
+      "type": "company"
+    },
+    {
+      "id": "linde-electronics-gases",
+      "title": "Linde Electronics Specialty Gases",
+      "titleZh": "林德电子特种气体",
+      "titleEn": "Linde Electronics Specialty Gases",
+      "publisher": "Linde",
+      "url": "https://www.linde-gas.com/industries/electronics/semiconductor",
+      "accessedAt": "2026-06-08",
+      "type": "company"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0000723125",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K"
+      ]
+    },
+    "newsFeeds": [
+      {
+        "url": "https://investors.micron.com/news-releases/rss",
+        "publisher": "Micron Investor Relations",
+        "sourceType": "company"
+      }
+    ]
+  }
+}
