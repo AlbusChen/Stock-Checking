@@ -168,7 +168,9 @@
               "Product design",
               "Operating systems",
               "Apple silicon designs"
-            ]
+            ],
+            "nameZh": "苹果",
+            "nameEn": "Apple"
           }
         ],
         "geography": [
@@ -243,7 +245,9 @@
               "Finished device assembly",
               "EMS manufacturing",
               "Mechanical integration"
-            ]
+            ],
+            "nameZh": "鸿海精密 / 富士康",
+            "nameEn": "Hon Hai Precision / Foxconn"
           },
           {
             "name": "Luxshare Precision",
@@ -277,7 +281,9 @@
               "Connectors",
               "Acoustic modules",
               "Device assembly"
-            ]
+            ],
+            "nameZh": "立讯精密",
+            "nameEn": "Luxshare Precision"
           },
           {
             "name": "Pegatron",
@@ -311,7 +317,9 @@
               "EMS manufacturing",
               "System assembly",
               "Mainboard integration"
-            ]
+            ],
+            "nameZh": "和硕",
+            "nameEn": "Pegatron"
           },
           {
             "name": "Compal",
@@ -345,7 +353,9 @@
               "ODM manufacturing",
               "Notebook/tablet assembly",
               "Wearable device manufacturing"
-            ]
+            ],
+            "nameZh": "仁宝电脑",
+            "nameEn": "Compal"
           },
           {
             "name": "Wistron",
@@ -379,7 +389,9 @@
               "EMS manufacturing",
               "Device assembly",
               "Regional production capacity"
-            ]
+            ],
+            "nameZh": "纬创",
+            "nameEn": "Wistron"
           }
         ],
         "geography": [
@@ -462,7 +474,9 @@
               "Advanced logic wafers",
               "Apple silicon manufacturing",
               "Foundry services"
-            ]
+            ],
+            "nameZh": "台积电",
+            "nameEn": "TSMC"
           },
           {
             "name": "Samsung Display",
@@ -500,7 +514,9 @@
               "OLED panels",
               "Display modules",
               "Panel technology"
-            ]
+            ],
+            "nameZh": "三星显示",
+            "nameEn": "Samsung Display"
           },
           {
             "name": "LG Display",
@@ -534,7 +550,9 @@
               "OLED panels",
               "LCD panels",
               "Display components"
-            ]
+            ],
+            "nameZh": "乐金显示",
+            "nameEn": "LG Display"
           },
           {
             "name": "Sony Semiconductor Solutions",
@@ -572,7 +590,9 @@
               "CMOS image sensors",
               "Camera sensor technology",
               "Imaging components"
-            ]
+            ],
+            "nameZh": "索尼半导体解决方案",
+            "nameEn": "Sony Semiconductor Solutions"
           },
           {
             "name": "Murata",
@@ -606,7 +626,9 @@
               "MLCC",
               "RF components",
               "Passive components"
-            ]
+            ],
+            "nameZh": "村田制作所",
+            "nameEn": "Murata"
           },
           {
             "name": "TDK",
@@ -640,7 +662,9 @@
               "Passive components",
               "Battery cells/components",
               "Sensors"
-            ]
+            ],
+            "nameZh": "TDK",
+            "nameEn": "TDK"
           },
           {
             "name": "Sunwoda",
@@ -674,7 +698,9 @@
               "Battery cells",
               "Battery packs",
               "Power modules"
-            ]
+            ],
+            "nameZh": "欣旺达",
+            "nameEn": "Sunwoda"
           }
         ],
         "geography": [
@@ -759,7 +785,9 @@
               "EUV lithography systems",
               "DUV lithography systems",
               "Lithography services"
-            ]
+            ],
+            "nameZh": "阿斯麦",
+            "nameEn": "ASML"
           },
           {
             "name": "Applied Materials",
@@ -792,7 +820,9 @@
               "Deposition tools",
               "Materials engineering",
               "Process equipment"
-            ]
+            ],
+            "nameZh": "应用材料",
+            "nameEn": "Applied Materials"
           },
           {
             "name": "Lam Research",
@@ -825,7 +855,9 @@
               "Etch tools",
               "Deposition tools",
               "Wafer cleaning equipment"
-            ]
+            ],
+            "nameZh": "泛林集团",
+            "nameEn": "Lam Research"
           },
           {
             "name": "Tokyo Electron",
@@ -858,7 +890,9 @@
               "Coater/developer tools",
               "Deposition equipment",
               "Etch systems"
-            ]
+            ],
+            "nameZh": "东京电子",
+            "nameEn": "Tokyo Electron"
           },
           {
             "name": "KLA",
@@ -891,7 +925,9 @@
               "Inspection tools",
               "Metrology systems",
               "Process control"
-            ]
+            ],
+            "nameZh": "KLA",
+            "nameEn": "KLA"
           },
           {
             "name": "Shin-Etsu",
@@ -924,7 +960,9 @@
               "Silicon wafers",
               "Photoresists",
               "Semiconductor materials"
-            ]
+            ],
+            "nameZh": "信越化学",
+            "nameEn": "Shin-Etsu"
           },
           {
             "name": "SUMCO",
@@ -957,7 +995,9 @@
               "300mm silicon wafers",
               "Prime wafers",
               "Epitaxial wafers"
-            ]
+            ],
+            "nameZh": "胜高",
+            "nameEn": "SUMCO"
           }
         ],
         "geography": [
@@ -1127,7 +1167,9 @@
               "sourceIds": [
                 "aapl-10k-2025"
               ],
-              "companyUrl": "https://www.apple.com/store"
+              "companyUrl": "https://www.apple.com/store",
+              "nameZh": "直营零售、在线商店与直销团队",
+              "nameEn": "Direct retail, online store and direct sales force"
             },
             {
               "name": "Cellular carriers and resellers",
@@ -1158,7 +1200,9 @@
               "confidence": "high",
               "sourceIds": [
                 "aapl-10k-2025"
-              ]
+              ],
+              "nameZh": "蜂窝网络运营商和经销商",
+              "nameEn": "Cellular carriers and resellers"
             }
           ],
           "notes": "Apple discloses direct and indirect distribution channels; indirect channels include cellular carriers and resellers.",
@@ -1206,7 +1250,9 @@
               "sourceIds": [
                 "aapl-enterprise"
               ],
-              "companyUrl": "https://www.ibm.com/"
+              "companyUrl": "https://www.ibm.com/",
+              "nameZh": "IBM",
+              "nameEn": "IBM"
             },
             {
               "name": "Accenture",
@@ -1239,7 +1285,9 @@
               "sourceIds": [
                 "aapl-enterprise"
               ],
-              "companyUrl": "https://www.accenture.com/"
+              "companyUrl": "https://www.accenture.com/",
+              "nameZh": "埃森哲",
+              "nameEn": "Accenture"
             },
             {
               "name": "Salesforce",
@@ -1272,7 +1320,9 @@
               "sourceIds": [
                 "aapl-enterprise"
               ],
-              "companyUrl": "https://www.salesforce.com/"
+              "companyUrl": "https://www.salesforce.com/",
+              "nameZh": "赛富时",
+              "nameEn": "Salesforce"
             }
           ],
           "notes": "These are ecosystem and route-to-market partners rather than simple purchase customers; they help take Apple devices, OS frameworks and services into enterprise workflows.",

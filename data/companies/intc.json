@@ -135,7 +135,9 @@
               "CPU designs",
               "Foundry services",
               "Advanced packaging"
-            ]
+            ],
+            "nameZh": "英特尔",
+            "nameEn": "Intel"
           }
         ],
         "geography": [
@@ -216,7 +218,9 @@
               "EUV lithography systems",
               "DUV lithography systems",
               "Lithography services"
-            ]
+            ],
+            "nameZh": "阿斯麦",
+            "nameEn": "ASML"
           },
           {
             "name": "Applied Materials",
@@ -249,7 +253,9 @@
               "Deposition tools",
               "Materials engineering",
               "Process equipment"
-            ]
+            ],
+            "nameZh": "应用材料",
+            "nameEn": "Applied Materials"
           },
           {
             "name": "Lam Research",
@@ -282,7 +288,9 @@
               "Etch tools",
               "Deposition tools",
               "Wafer cleaning equipment"
-            ]
+            ],
+            "nameZh": "泛林集团",
+            "nameEn": "Lam Research"
           },
           {
             "name": "Tokyo Electron",
@@ -315,7 +323,9 @@
               "Coater/developer tools",
               "Deposition equipment",
               "Etch systems"
-            ]
+            ],
+            "nameZh": "东京电子",
+            "nameEn": "Tokyo Electron"
           },
           {
             "name": "KLA",
@@ -348,7 +358,9 @@
               "Inspection tools",
               "Metrology systems",
               "Process control"
-            ]
+            ],
+            "nameZh": "KLA",
+            "nameEn": "KLA"
           }
         ],
         "geography": [
@@ -430,7 +442,9 @@
               "External foundry wafers",
               "Advanced process capacity",
               "Chiplet manufacturing"
-            ]
+            ],
+            "nameZh": "台积电",
+            "nameEn": "TSMC"
           },
           {
             "name": "ASE Technology",
@@ -463,7 +477,9 @@
               "OSAT services",
               "Advanced packaging",
               "Semiconductor test"
-            ]
+            ],
+            "nameZh": "日月光投控",
+            "nameEn": "ASE Technology"
           },
           {
             "name": "Amkor",
@@ -496,7 +512,9 @@
               "Semiconductor packaging",
               "Test services",
               "Advanced packages"
-            ]
+            ],
+            "nameZh": "安靠科技",
+            "nameEn": "Amkor"
           },
           {
             "name": "Ibiden",
@@ -529,7 +547,9 @@
               "ABF substrates",
               "Package substrates",
               "Organic substrates"
-            ]
+            ],
+            "nameZh": "揖斐电",
+            "nameEn": "Ibiden"
           },
           {
             "name": "Unimicron",
@@ -562,7 +582,9 @@
               "IC substrates",
               "PCBs",
               "HDI boards"
-            ]
+            ],
+            "nameZh": "欣兴电子",
+            "nameEn": "Unimicron"
           },
           {
             "name": "Shinko Electric Industries",
@@ -596,7 +618,9 @@
               "Package substrates",
               "Semiconductor packages",
               "Lead frames"
-            ]
+            ],
+            "nameZh": "新光电气工业",
+            "nameEn": "Shinko Electric Industries"
           }
         ],
         "geography": [
@@ -676,7 +700,9 @@
               "Silicon wafers",
               "Photoresists",
               "Semiconductor materials"
-            ]
+            ],
+            "nameZh": "信越化学",
+            "nameEn": "Shin-Etsu"
           },
           {
             "name": "SUMCO",
@@ -709,7 +735,9 @@
               "300mm silicon wafers",
               "Prime wafers",
               "Epitaxial wafers"
-            ]
+            ],
+            "nameZh": "胜高",
+            "nameEn": "SUMCO"
           },
           {
             "name": "JSR",
@@ -743,7 +771,9 @@
               "Photoresists",
               "Lithography materials",
               "Semiconductor chemicals"
-            ]
+            ],
+            "nameZh": "JSR",
+            "nameEn": "JSR"
           },
           {
             "name": "Entegris",
@@ -776,7 +806,9 @@
               "Materials handling",
               "Filtration",
               "CMP consumables"
-            ]
+            ],
+            "nameZh": "英特格",
+            "nameEn": "Entegris"
           },
           {
             "name": "Linde",
@@ -809,7 +841,9 @@
               "Electronic gases",
               "Industrial gases",
               "On-site gas supply"
-            ]
+            ],
+            "nameZh": "林德",
+            "nameEn": "Linde"
           },
           {
             "name": "Air Liquide",
@@ -842,7 +876,9 @@
               "Electronic gases",
               "Specialty materials",
               "On-site gas systems"
-            ]
+            ],
+            "nameZh": "液化空气",
+            "nameEn": "Air Liquide"
           }
         ],
         "geography": [
@@ -1015,7 +1051,9 @@
               "sourceIds": [
                 "intc-vpro-oem-2024"
               ],
-              "companyUrl": "https://www.dell.com/"
+              "companyUrl": "https://www.dell.com/",
+              "nameZh": "戴尔科技",
+              "nameEn": "Dell Technologies"
             },
             {
               "name": "HP Inc.",
@@ -1048,7 +1086,9 @@
               "sourceIds": [
                 "intc-vpro-oem-2024"
               ],
-              "companyUrl": "https://www.hp.com/"
+              "companyUrl": "https://www.hp.com/",
+              "nameZh": "惠普",
+              "nameEn": "HP Inc."
             },
             {
               "name": "Lenovo",
@@ -1081,7 +1121,9 @@
               "sourceIds": [
                 "intc-vpro-oem-2024"
               ],
-              "companyUrl": "https://www.lenovo.com/"
+              "companyUrl": "https://www.lenovo.com/",
+              "nameZh": "联想",
+              "nameEn": "Lenovo"
             },
             {
               "name": "Microsoft Surface",
@@ -1114,7 +1156,9 @@
               "sourceIds": [
                 "intc-vpro-oem-2024"
               ],
-              "companyUrl": "https://www.microsoft.com/surface"
+              "companyUrl": "https://www.microsoft.com/surface",
+              "nameZh": "微软 Surface",
+              "nameEn": "Microsoft Surface"
             }
           ],
           "notes": "Intel discloses OEM design momentum for AI PCs and vPro; these partners convert Intel CPUs into commercial notebooks, desktops and workstations.",
@@ -1162,7 +1206,9 @@
               "sourceIds": [
                 "intc-xeon6-partner-2025"
               ],
-              "companyUrl": "https://www.dell.com/"
+              "companyUrl": "https://www.dell.com/",
+              "nameZh": "戴尔科技",
+              "nameEn": "Dell Technologies"
             },
             {
               "name": "Hewlett Packard Enterprise",
@@ -1195,7 +1241,9 @@
               "sourceIds": [
                 "intc-xeon6-partner-2025"
               ],
-              "companyUrl": "https://www.hpe.com/"
+              "companyUrl": "https://www.hpe.com/",
+              "nameZh": "慧与科技",
+              "nameEn": "Hewlett Packard Enterprise"
             },
             {
               "name": "Super Micro Computer",
@@ -1228,7 +1276,9 @@
               "sourceIds": [
                 "intc-xeon6-partner-2025"
               ],
-              "companyUrl": "https://www.supermicro.com/"
+              "companyUrl": "https://www.supermicro.com/",
+              "nameZh": "超微电脑",
+              "nameEn": "Super Micro Computer"
             }
           ],
           "notes": "Server OEMs turn Intel Xeon platforms into enterprise, cloud and telecom infrastructure systems.",
@@ -1276,7 +1326,9 @@
               "sourceIds": [
                 "intc-foundry-microsoft-2024"
               ],
-              "companyUrl": "https://www.microsoft.com/"
+              "companyUrl": "https://www.microsoft.com/",
+              "nameZh": "微软",
+              "nameEn": "Microsoft"
             }
           ],
           "notes": "Intel Foundry is the clearest example of Intel moving from an internal-product company into a supplier for other chip designers.",

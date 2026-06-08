@@ -203,6 +203,7 @@ def validate_report(path: Path) -> list[str]:
 
         for entity in entities:
             name = entity.get("name", "unnamed supplier")
+            require_localized(errors, path, entity, "name", f"supplier {name}")
             if not entity.get("relationship"):
                 errors.append(f"{path.name}: supplier {name} needs relationship")
             require_localized(errors, path, entity, "relationship", f"supplier {name}")
@@ -231,6 +232,7 @@ def validate_report(path: Path) -> list[str]:
                     continue
                 for entity in entities:
                     name = entity.get("name", "unnamed downstream entity")
+                    require_localized(errors, path, entity, "name", f"downstream customer {name}")
                     require_localized(errors, path, entity, "customerRole", f"downstream customer {name}")
                     require_localized(errors, path, entity, "relationship", f"downstream customer {name}")
                     if not entity.get("productsServices"):

@@ -77,6 +77,8 @@ export interface SupplierListing {
 
 export interface SupplyChainEntity {
   name: string;
+  nameZh?: string;
+  nameEn?: string;
   relationship: string;
   relationshipZh?: string;
   relationshipEn?: string;
@@ -125,6 +127,8 @@ export interface RawMaterial {
 
 export interface DownstreamEntity {
   name: string;
+  nameZh?: string;
+  nameEn?: string;
   customerRole: string;
   customerRoleZh?: string;
   customerRoleEn?: string;

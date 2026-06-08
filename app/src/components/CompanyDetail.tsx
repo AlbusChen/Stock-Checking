@@ -134,7 +134,9 @@ function DownstreamPanel({
                 return (
                   <div className="supplier-row" key={`${tier.title}-${entity.name}`}>
                     <div className="supplier-main">
-                      <strong>{entity.name}</strong>
+                      <div className="supplier-name">
+                        <TextPair text={localizedField(entity, "name")} />
+                      </div>
                       <span className="customer-role">
                         <TextPair text={localizedField(entity, "customerRole")} />
                       </span>
@@ -294,7 +296,9 @@ export function CompanyDetail({ report }: CompanyDetailProps) {
                     return (
                       <div className="supplier-row" key={entity.name}>
                         <div className="supplier-main">
-                          <strong>{entity.name}</strong>
+                          <div className="supplier-name">
+                            <TextPair text={localizedField(entity, "name")} />
+                          </div>
                           {href ? (
                             <a className="listing-link" href={href} target="_blank" rel="noreferrer">
                               {listingText(entity.listing)}
