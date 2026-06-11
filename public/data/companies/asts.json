@@ -1,0 +1,753 @@
+{
+  "schemaVersion": 1,
+  "id": "asts",
+  "ticker": "ASTS",
+  "exchange": "NASDAQ",
+  "market": "US",
+  "name": "AST SpaceMobile / AST 太空移动",
+  "legalName": "AST SpaceMobile, Inc.",
+  "cik": "0001780312",
+  "currency": "USD",
+  "sector": "Satellite Communications / 卫星通信",
+  "industry": [
+    "Direct-to-device satellite broadband",
+    "Satellite communications",
+    "卫星直连手机",
+    "卫星通信"
+  ],
+  "homepage": "https://ast-science.com/",
+  "lastUpdated": "2026-06-11T18:45:00+08:00",
+  "summary": "AST SpaceMobile 正在建设面向普通手机的空间蜂窝宽带网络，是 Starlink 直连手机与卫星宽带主题下的重要上市可比公司；其仍处于高投入与商业化推进阶段。",
+  "summaryZh": "AST SpaceMobile 正在建设面向普通手机的空间蜂窝宽带网络，是 Starlink 直连手机与卫星宽带主题下的重要上市可比公司；其仍处于高投入与商业化推进阶段。",
+  "summaryEn": "AST SpaceMobile is building a space-based cellular broadband network for standard mobile phones, making it a public comparable for Starlink direct-to-device and satellite-broadband themes; it remains in a heavy-investment commercialization phase.",
+  "aliases": [
+    "AST SpaceMobile",
+    "AST 太空移动",
+    "ASTS"
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "overview": "公司聚焦通过卫星与移动网络运营商合作，为普通手机提供空间蜂窝宽带覆盖。",
+    "overviewZh": "公司聚焦通过卫星与移动网络运营商合作，为普通手机提供空间蜂窝宽带覆盖。",
+    "overviewEn": "The company focuses on space-based cellular broadband coverage for standard phones through satellites and mobile-network-operator partnerships.",
+    "segments": [
+      {
+        "name": "SpaceMobile 星座网络",
+        "nameZh": "SpaceMobile 星座网络",
+        "nameEn": "SpaceMobile network",
+        "description": "建设卫星星座、地面网关与网络能力，目标是让普通手机直接连接卫星。",
+        "descriptionZh": "建设卫星星座、地面网关与网络能力，目标是让普通手机直接连接卫星。",
+        "descriptionEn": "Builds satellites, gateways, and network capability intended to connect standard mobile phones directly to satellites.",
+        "sourceIds": [
+          "asts-10k-2025"
+        ]
+      },
+      {
+        "name": "移动运营商合作",
+        "nameZh": "移动运营商合作",
+        "nameEn": "MNO partnerships",
+        "description": "与移动网络运营商合作推进覆盖、频谱和商业化。",
+        "descriptionZh": "与移动网络运营商合作推进覆盖、频谱和商业化。",
+        "descriptionEn": "Works with mobile network operators on coverage, spectrum, and commercialization.",
+        "sourceIds": [
+          "asts-10k-2025"
+        ]
+      }
+    ],
+    "description": "公司聚焦通过卫星与移动网络运营商合作，为普通手机提供空间蜂窝宽带覆盖。",
+    "descriptionZh": "公司聚焦通过卫星与移动网络运营商合作，为普通手机提供空间蜂窝宽带覆盖。",
+    "descriptionEn": "The company focuses on space-based cellular broadband coverage for standard phones through satellites and mobile-network-operator partnerships.",
+    "revenueModel": [
+      "SpaceMobile 星座网络 / SpaceMobile network",
+      "移动运营商合作 / MNO partnerships"
+    ],
+    "thesis": "AST SpaceMobile 正在建设面向普通手机的空间蜂窝宽带网络，是 Starlink 直连手机与卫星宽带主题下的重要上市可比公司；其仍处于高投入与商业化推进阶段。",
+    "thesisZh": "AST SpaceMobile 正在建设面向普通手机的空间蜂窝宽带网络，是 Starlink 直连手机与卫星宽带主题下的重要上市可比公司；其仍处于高投入与商业化推进阶段。",
+    "thesisEn": "AST SpaceMobile is building a space-based cellular broadband network for standard mobile phones, making it a public comparable for Starlink direct-to-device and satellite-broadband themes; it remains in a heavy-investment commercialization phase.",
+    "riskNotes": [
+      "商业化仍在推进，收入序列未作为趋势图使用。",
+      "星座建设和融资节奏会影响执行风险。"
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-11T18:45:00+08:00",
+    "thesis": "AST SpaceMobile 的关键上游来自卫星制造、相控阵/射频载荷、半导体、地面网关与发射服务；原材料层主要包括太阳能电池/电子材料、铝钛结构材料和复合材料。",
+    "thesisZh": "AST SpaceMobile 的关键上游来自卫星制造、相控阵/射频载荷、半导体、地面网关与发射服务；原材料层主要包括太阳能电池/电子材料、铝钛结构材料和复合材料。",
+    "thesisEn": "AST SpaceMobile's key upstream inputs include satellite manufacturing, phased-array/RF payloads, semiconductors, ground gateways, and launch services; raw-material layers include solar-cell/electronic materials, aluminum/titanium structures, and composites.",
+    "tiers": [
+      {
+        "id": "tier-0",
+        "title": "Target company",
+        "titleZh": "目标公司",
+        "titleEn": "Target company",
+        "entities": [
+          {
+            "name": "AST SpaceMobile / AST 太空移动",
+            "nameZh": "AST SpaceMobile / AST 太空移动",
+            "nameEn": "AST SpaceMobile, Inc.",
+            "relationship": "目标公司；公司聚焦通过卫星与移动网络运营商合作，为普通手机提供空间蜂窝宽带覆盖。",
+            "relationshipZh": "目标公司；公司聚焦通过卫星与移动网络运营商合作，为普通手机提供空间蜂窝宽带覆盖。",
+            "relationshipEn": "Target company; The company focuses on space-based cellular broadband coverage for standard phones through satellites and mobile-network-operator partnerships.",
+            "productsServices": [
+              "SpaceMobile 星座网络",
+              "移动运营商合作"
+            ],
+            "productsServicesZh": [
+              "SpaceMobile 星座网络",
+              "移动运营商合作"
+            ],
+            "productsServicesEn": [
+              "SpaceMobile network",
+              "MNO partnerships"
+            ],
+            "sourceIds": [
+              "asts-10k-2025"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "ASTS",
+              "exchange": "NASDAQ",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/asts"
+            },
+            "confidence": "high"
+          }
+        ],
+        "level": 0,
+        "companies": [
+          "AST SpaceMobile / AST 太空移动"
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "砷化镓等射频材料",
+          "太阳能电池材料",
+          "铝钛结构材料"
+        ],
+        "materialsZh": [
+          "砷化镓等射频材料",
+          "太阳能电池材料",
+          "铝钛结构材料"
+        ],
+        "materialsEn": [
+          "Gallium arsenide and RF materials",
+          "Solar-cell materials",
+          "Aluminum and titanium structures"
+        ],
+        "notes": "目标公司本身。",
+        "notesZh": "目标公司本身。",
+        "notesEn": "Target company itself.",
+        "confidence": "high",
+        "sourceIds": [
+          "asts-10k-2025"
+        ]
+      },
+      {
+        "id": "tier-1",
+        "title": "Critical upstream inputs",
+        "titleZh": "关键上游投入",
+        "titleEn": "Critical upstream inputs",
+        "entities": [
+          {
+            "name": "卫星、发射与地面网络供应链",
+            "nameZh": "卫星、发射与地面网络供应链",
+            "nameEn": "Satellite, launch, and ground-network supply chain",
+            "relationship": "支撑卫星平台、入轨服务、地面站/网关、网络运营和服务可用性；具体企业需合同披露后逐项确认。",
+            "relationshipZh": "支撑卫星平台、入轨服务、地面站/网关、网络运营和服务可用性；具体企业需合同披露后逐项确认。",
+            "relationshipEn": "Supports satellite platforms, access to orbit, ground stations/gateways, network operations, and service availability; specific companies should be confirmed contract by contract when disclosed.",
+            "productsServices": [
+              "卫星平台",
+              "发射服务",
+              "地面站与网关"
+            ],
+            "productsServicesZh": [
+              "卫星平台",
+              "发射服务",
+              "地面站与网关"
+            ],
+            "productsServicesEn": [
+              "satellite platforms",
+              "launch services",
+              "ground stations and gateways"
+            ],
+            "sourceIds": [
+              "asts-10k-2025"
+            ],
+            "listing": {
+              "status": "unknown"
+            },
+            "confidence": "medium"
+          },
+          {
+            "name": "终端、天线、射频与通信模组供应链",
+            "nameZh": "终端、天线、射频与通信模组供应链",
+            "nameEn": "Terminal, antenna, RF, and communications-module supply chain",
+            "relationship": "终端设备、天线、调制解调器、射频部件和通信芯片模组是连接服务落地的关键投入。",
+            "relationshipZh": "终端设备、天线、调制解调器、射频部件和通信芯片模组是连接服务落地的关键投入。",
+            "relationshipEn": "Terminals, antennas, modems, RF components, and communications chip modules are key inputs for connectivity services.",
+            "productsServices": [
+              "用户终端",
+              "天线/RF 部件",
+              "通信模组"
+            ],
+            "productsServicesZh": [
+              "用户终端",
+              "天线/RF 部件",
+              "通信模组"
+            ],
+            "productsServicesEn": [
+              "user terminals",
+              "antenna/RF components",
+              "communications modules"
+            ],
+            "sourceIds": [
+              "asts-10k-2025"
+            ],
+            "listing": {
+              "status": "unknown"
+            },
+            "confidence": "medium"
+          }
+        ],
+        "level": 1,
+        "companies": [
+          "卫星、发射与地面网络供应链",
+          "终端、天线、射频与通信模组供应链"
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "砷化镓等射频材料",
+          "太阳能电池材料",
+          "铝钛结构材料"
+        ],
+        "materialsZh": [
+          "砷化镓等射频材料",
+          "太阳能电池材料",
+          "铝钛结构材料"
+        ],
+        "materialsEn": [
+          "Gallium arsenide and RF materials",
+          "Solar-cell materials",
+          "Aluminum and titanium structures"
+        ],
+        "notes": "供应商以类别呈现；具名上市公司需在合同或年报明确披露后再升级。",
+        "notesZh": "供应商以类别呈现；具名上市公司需在合同或年报明确披露后再升级。",
+        "notesEn": "Suppliers are shown by category; named listed companies should be upgraded only after contract or annual-report disclosure.",
+        "confidence": "medium",
+        "sourceIds": [
+          "asts-10k-2025"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "砷化镓等射频材料",
+        "nameZh": "砷化镓等射频材料",
+        "nameEn": "Gallium arsenide and RF materials",
+        "usedIn": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInZh": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInEn": "Used in satellite platforms, antennas, RF links, terminals, or power systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity materials and specialty-chemical processing"
+        ],
+        "risk": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskZh": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskEn": "Availability can be affected by price, qualification cycles, geopolitical supply, and space-grade reliability requirements.",
+        "confidence": "medium"
+      },
+      {
+        "name": "太阳能电池材料",
+        "nameZh": "太阳能电池材料",
+        "nameEn": "Solar-cell materials",
+        "usedIn": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInZh": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInEn": "Used in satellite platforms, antennas, RF links, terminals, or power systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity materials and specialty-chemical processing"
+        ],
+        "risk": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskZh": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskEn": "Availability can be affected by price, qualification cycles, geopolitical supply, and space-grade reliability requirements.",
+        "confidence": "medium"
+      },
+      {
+        "name": "铝钛结构材料",
+        "nameZh": "铝钛结构材料",
+        "nameEn": "Aluminum and titanium structures",
+        "usedIn": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInZh": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInEn": "Used in satellite platforms, antennas, RF links, terminals, or power systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity materials and specialty-chemical processing"
+        ],
+        "risk": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskZh": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskEn": "Availability can be affected by price, qualification cycles, geopolitical supply, and space-grade reliability requirements.",
+        "confidence": "medium"
+      },
+      {
+        "name": "碳纤维复合材料",
+        "nameZh": "碳纤维复合材料",
+        "nameEn": "Carbon fiber composites",
+        "usedIn": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInZh": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInEn": "Used in satellite platforms, antennas, RF links, terminals, or power systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity materials and specialty-chemical processing"
+        ],
+        "risk": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskZh": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskEn": "Availability can be affected by price, qualification cycles, geopolitical supply, and space-grade reliability requirements.",
+        "confidence": "medium"
+      }
+    ],
+    "downstream": {
+      "thesis": "ASTS 处于卫星通信中游，面向移动网络运营商和最终手机用户提供覆盖能力；与 Starlink 的交集在卫星直连手机与全球覆盖主题。",
+      "thesisZh": "ASTS 处于卫星通信中游，面向移动网络运营商和最终手机用户提供覆盖能力；与 Starlink 的交集在卫星直连手机与全球覆盖主题。",
+      "thesisEn": "ASTS sits in the midstream satellite-communications layer, offering coverage capability to mobile network operators and end phone users; its overlap with Starlink is in direct-to-device and global-coverage themes.",
+      "tiers": [
+        {
+          "id": "downstream-1",
+          "title": "Customers and end markets",
+          "titleZh": "客户与终端市场",
+          "titleEn": "Customers and end markets",
+          "notes": "按公司披露的业务场景归类，非完整客户名单。",
+          "notesZh": "按公司披露的业务场景归类，非完整客户名单。",
+          "notesEn": "Grouped by disclosed business use cases, not a full customer list.",
+          "entities": [
+            {
+              "name": "移动网络运营商",
+              "nameZh": "移动网络运营商",
+              "nameEn": "Mobile network operators",
+              "customerRole": "合作客户/渠道",
+              "customerRoleZh": "合作客户/渠道",
+              "customerRoleEn": "Partner customers/channels",
+              "relationship": "运营商可将 ASTS 覆盖能力嵌入其移动服务；具体收入贡献需以后续披露为准。",
+              "relationshipZh": "运营商可将 ASTS 覆盖能力嵌入其移动服务；具体收入贡献需以后续披露为准。",
+              "relationshipEn": "Operators may embed ASTS coverage capability into mobile services; specific revenue contribution depends on future disclosures.",
+              "productsServices": [
+                "卫星蜂窝覆盖",
+                "漫游/偏远地区连接"
+              ],
+              "productsServicesZh": [
+                "卫星蜂窝覆盖",
+                "漫游/偏远地区连接"
+              ],
+              "productsServicesEn": [
+                "satellite cellular coverage",
+                "roaming/remote connectivity"
+              ],
+              "sourceIds": [
+                "asts-10k-2025"
+              ],
+              "listing": {
+                "status": "unknown"
+              },
+              "confidence": "medium"
+            },
+            {
+              "name": "普通手机用户",
+              "nameZh": "普通手机用户",
+              "nameEn": "Standard mobile-phone users",
+              "customerRole": "最终需求",
+              "customerRoleZh": "最终需求",
+              "customerRoleEn": "End demand",
+              "relationship": "目标是让现有手机在无地面覆盖区域获得连接。",
+              "relationshipZh": "目标是让现有手机在无地面覆盖区域获得连接。",
+              "relationshipEn": "The goal is to provide connectivity to existing phones outside terrestrial coverage.",
+              "productsServices": [
+                "直连手机通信",
+                "应急和偏远区域连接"
+              ],
+              "productsServicesZh": [
+                "直连手机通信",
+                "应急和偏远区域连接"
+              ],
+              "productsServicesEn": [
+                "direct-to-device connectivity",
+                "emergency and remote-area connectivity"
+              ],
+              "sourceIds": [
+                "asts-10k-2025"
+              ],
+              "listing": {
+                "status": "unknown"
+              },
+              "confidence": "medium"
+            }
+          ],
+          "level": 1,
+          "confidence": "medium",
+          "sourceIds": [
+            "asts-10k-2025"
+          ]
+        },
+        {
+          "id": "downstream-2",
+          "title": "SpaceX / Starlink theme link",
+          "titleZh": "SpaceX / Starlink 主题关联",
+          "titleEn": "SpaceX / Starlink theme link",
+          "notes": "用于 IPO 主题归类，不代表披露的直接商业关系。",
+          "notesZh": "用于 IPO 主题归类，不代表披露的直接商业关系。",
+          "notesEn": "Used for IPO-theme classification, not as a disclosed direct commercial relationship.",
+          "entities": [
+            {
+              "name": "SpaceX / Starlink",
+              "nameZh": "SpaceX / Starlink",
+              "nameEn": "SpaceX / Starlink",
+              "customerRole": "未上市主题标的",
+              "customerRoleZh": "未上市主题标的",
+              "customerRoleEn": "Private theme anchor",
+              "relationship": "两者均暴露于卫星直连手机和全球连接市场，适合用于 IPO 主题可比分析。",
+              "relationshipZh": "两者均暴露于卫星直连手机和全球连接市场，适合用于 IPO 主题可比分析。",
+              "relationshipEn": "Both are exposed to direct-to-device satellite connectivity and global coverage markets, making ASTS relevant for IPO-theme comparison.",
+              "productsServices": [
+                "卫星直连手机可比",
+                "全球覆盖可比"
+              ],
+              "productsServicesZh": [
+                "卫星直连手机可比",
+                "全球覆盖可比"
+              ],
+              "productsServicesEn": [
+                "direct-to-device comparable",
+                "global-coverage comparable"
+              ],
+              "sourceIds": [
+                "asts-10k-2025"
+              ],
+              "listing": {
+                "status": "private"
+              },
+              "confidence": "medium"
+            }
+          ],
+          "level": 2,
+          "confidence": "medium",
+          "sourceIds": [
+            "asts-10k-2025"
+          ]
+        }
+      ],
+      "updatedAt": "2026-06-11T18:30:00+08:00"
+    }
+  },
+  "financials": {
+    "latestPeriod": "Q1 2026; annual baseline FY2025",
+    "latestPeriodZh": "2026 年一季度；年度基准为 FY2025",
+    "latestPeriodEn": "Q1 2026; annual baseline FY2025",
+    "highlights": [
+      {
+        "label": "Q1 2026 净亏损",
+        "labelZh": "Q1 2026 净亏损",
+        "labelEn": "Q1 2026 net loss",
+        "value": -191.012,
+        "unit": "USD millions",
+        "period": "截至 2026-03-31 的季度",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "asts-10q-2026q1",
+          "asts-companyfacts"
+        ],
+        "change": "亏损同比扩大 317.90%",
+        "changeZh": "亏损同比扩大 317.90%",
+        "changeEn": "Loss widened 317.90% year over year"
+      },
+      {
+        "label": "Q1 2026 总资产",
+        "labelZh": "Q1 2026 总资产",
+        "labelEn": "Q1 2026 total assets",
+        "value": 6.051141,
+        "unit": "USD billions",
+        "period": "截至 2026-03-31",
+        "periodZh": "截至 2026-03-31",
+        "periodEn": "As of 2026-03-31",
+        "sourceIds": [
+          "asts-10q-2026q1",
+          "asts-companyfacts"
+        ],
+        "change": "较 FY2025 年末增长 20.68%",
+        "changeZh": "较 FY2025 年末增长 20.68%",
+        "changeEn": "Up 20.68% from FY2025 year-end"
+      },
+      {
+        "label": "Q1 2026 经营现金流",
+        "labelZh": "Q1 2026 经营现金流",
+        "labelEn": "Q1 2026 operating cash flow",
+        "value": -48.058,
+        "unit": "USD millions",
+        "period": "截至 2026-03-31 的季度",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "asts-10q-2026q1",
+          "asts-companyfacts"
+        ],
+        "change": "同比现金流出增加 68.35%",
+        "changeZh": "同比现金流出增加 68.35%",
+        "changeEn": "Operating cash outflow increased 68.35% year over year"
+      },
+      {
+        "label": "FY2025 净亏损",
+        "labelZh": "FY2025 净亏损",
+        "labelEn": "FY2025 net loss",
+        "value": -341.94,
+        "unit": "USD millions",
+        "period": "截至 2025-12-31 的年度",
+        "periodZh": "截至 2025-12-31 的年度",
+        "periodEn": "Year ended 2025-12-31",
+        "sourceIds": [
+          "asts-10k-2025",
+          "asts-companyfacts"
+        ],
+        "change": "亏损同比扩大 13.95%",
+        "changeZh": "亏损同比扩大 13.95%",
+        "changeEn": "Loss widened 13.95% year over year"
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "SpaceMobile 网络",
+        "nameZh": "SpaceMobile 网络",
+        "nameEn": "SpaceMobile network",
+        "note": "公司仍处于网络建设与商业化推进阶段；本次流程未采用 SEC facts 中不完整/过时的收入序列。",
+        "noteZh": "公司仍处于网络建设与商业化推进阶段；本次流程未采用 SEC facts 中不完整/过时的收入序列。",
+        "noteEn": "The company remains in network buildout and commercialization; this batch intentionally excludes incomplete/outdated revenue sequences from SEC facts.",
+        "sourceIds": [
+          "asts-10k-2025"
+        ]
+      },
+      {
+        "name": "运营商合作",
+        "nameZh": "运营商合作",
+        "nameEn": "MNO partnerships",
+        "note": "未来收入质量将取决于运营商合作落地、覆盖能力和终端用户需求。",
+        "noteZh": "未来收入质量将取决于运营商合作落地、覆盖能力和终端用户需求。",
+        "noteEn": "Future revenue quality will depend on MNO partnership execution, coverage capability, and end-user demand.",
+        "sourceIds": [
+          "asts-10k-2025"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "label": "年度净亏损",
+        "labelZh": "年度净亏损",
+        "labelEn": "Annual net loss",
+        "unit": "USD millions",
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "FY2023",
+            "periodEn": "FY2023",
+            "value": -87.561
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "FY2024",
+            "periodEn": "FY2024",
+            "value": -300.083
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "FY2025",
+            "periodEn": "FY2025",
+            "value": -341.94
+          }
+        ],
+        "note": "使用 SEC companyfacts 中可核对的净亏损序列；收入序列因自动抓取质量不足未入图。",
+        "noteZh": "使用 SEC companyfacts 中可核对的净亏损序列；收入序列因自动抓取质量不足未入图。",
+        "noteEn": "Uses the verifiable net-loss series from SEC companyfacts; the revenue series is omitted because automated extraction quality was insufficient.",
+        "sourceIds": [
+          "asts-companyfacts"
+        ],
+        "id": "asts-trend-1",
+        "cadence": "annual"
+      },
+      {
+        "label": "年末总资产",
+        "labelZh": "年末总资产",
+        "labelEn": "Year-end total assets",
+        "unit": "USD billions",
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "FY2023",
+            "periodEn": "FY2023",
+            "value": 0.360892
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "FY2024",
+            "periodEn": "FY2024",
+            "value": 0.954561
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "FY2025",
+            "periodEn": "FY2025",
+            "value": 5.014387
+          }
+        ],
+        "note": "资产增长反映融资与星座建设投入。",
+        "noteZh": "资产增长反映融资与星座建设投入。",
+        "noteEn": "Asset growth reflects financing and constellation buildout.",
+        "sourceIds": [
+          "asts-companyfacts"
+        ],
+        "id": "asts-trend-2",
+        "cadence": "annual"
+      }
+    ],
+    "revenueMixHistory": []
+  },
+  "news": [
+    {
+      "title": "ASTS 披露 2026 年一季度 10-Q",
+      "titleZh": "ASTS 披露 2026 年一季度 10-Q",
+      "titleEn": "ASTS filed Q1 2026 Form 10-Q",
+      "date": "2026-05-11",
+      "category": "财务披露",
+      "categoryZh": "财务披露",
+      "categoryEn": "Financial filing",
+      "summary": "Q1 2026 净亏损为 1.91012 亿美元，总资产为 60.51141 亿美元。",
+      "summaryZh": "Q1 2026 净亏损为 1.91012 亿美元，总资产为 60.51141 亿美元。",
+      "summaryEn": "Q1 2026 net loss was $191.012 million and total assets were $6.051141 billion.",
+      "impact": "为 Starlink 直连手机主题提供上市公司商业化投入强度参照。",
+      "impactZh": "为 Starlink 直连手机主题提供上市公司商业化投入强度参照。",
+      "impactEn": "Provides a public-company benchmark for investment intensity in the Starlink direct-to-device theme.",
+      "sourceIds": [
+        "asts-10q-2026q1",
+        "asts-companyfacts"
+      ]
+    },
+    {
+      "title": "FY2025 净亏损扩大",
+      "titleZh": "FY2025 净亏损扩大",
+      "titleEn": "FY2025 net loss widened",
+      "date": "2026-03-02",
+      "category": "年度业绩",
+      "categoryZh": "年度业绩",
+      "categoryEn": "Annual results",
+      "summary": "FY2025 净亏损为 3.4194 亿美元，FY2025 年末总资产为 50.14387 亿美元。",
+      "summaryZh": "FY2025 净亏损为 3.4194 亿美元，FY2025 年末总资产为 50.14387 亿美元。",
+      "summaryEn": "FY2025 net loss was $341.94 million and year-end total assets were $5.014387 billion.",
+      "impact": "显示项目仍处于资本密集型建设阶段，估值分析应强调融资与执行风险。",
+      "impactZh": "显示项目仍处于资本密集型建设阶段，估值分析应强调融资与执行风险。",
+      "impactEn": "Shows the project remains in a capital-intensive buildout phase; valuation analysis should emphasize funding and execution risk.",
+      "sourceIds": [
+        "asts-10k-2025",
+        "asts-companyfacts"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "10-Q",
+      "filedAt": "2026-05-11",
+      "reportDate": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000119312526216950/asts-20260331.htm",
+      "title": "AST SpaceMobile, Inc. 10-Q 2026-03-31"
+    },
+    {
+      "form": "10-K",
+      "filedAt": "2026-03-02",
+      "reportDate": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000178031226000006/asts-20251231.htm",
+      "title": "AST SpaceMobile, Inc. 10-K 2025-12-31"
+    }
+  ],
+  "sources": [
+    {
+      "id": "asts-10q-2026q1",
+      "title": "AST SpaceMobile, Inc. Form 10-Q for period ended 2026-03-31",
+      "titleZh": "AST SpaceMobile, Inc. Form 10-Q for period ended 2026-03-31",
+      "titleEn": "AST SpaceMobile, Inc. Form 10-Q for period ended 2026-03-31",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000119312526216950/asts-20260331.htm",
+      "publishedAt": "2026-05-11",
+      "accessedAt": "2026-06-11",
+      "type": "sec"
+    },
+    {
+      "id": "asts-10k-2025",
+      "title": "AST SpaceMobile, Inc. Form 10-K for period ended 2025-12-31",
+      "titleZh": "AST SpaceMobile, Inc. Form 10-K for period ended 2025-12-31",
+      "titleEn": "AST SpaceMobile, Inc. Form 10-K for period ended 2025-12-31",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000178031226000006/asts-20251231.htm",
+      "publishedAt": "2026-03-02",
+      "accessedAt": "2026-06-11",
+      "type": "sec"
+    },
+    {
+      "id": "asts-companyfacts",
+      "title": "SEC EDGAR companyfacts API for AST SpaceMobile, Inc.",
+      "titleZh": "SEC EDGAR companyfacts API for AST SpaceMobile, Inc.",
+      "titleEn": "SEC EDGAR companyfacts API for AST SpaceMobile, Inc.",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001780312.json",
+      "publishedAt": "2026-06-11",
+      "accessedAt": "2026-06-11",
+      "type": "sec"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0001780312",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K"
+      ]
+    },
+    "scheduled": false
+  }
+}

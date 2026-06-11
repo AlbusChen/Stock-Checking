@@ -35,6 +35,7 @@ SEC_USER_AGENT = os.getenv("SEC_USER_AGENT", "Stock-Checking research bot contac
 REQUEST_TIMEOUT = 30
 
 SEC_RELEVANT_FORMS = {"10-K", "10-Q", "8-K", "20-F", "40-F", "6-K"}
+SEC_SINGLE_QUARTER_FRAME = re.compile(r"^CY\d{4}Q[1-4]I?$")
 
 FINANCIAL_CONCEPTS = {
     "revenue": [
@@ -248,8 +249,26 @@ def normalized_fact(item: dict[str, Any], unit: str) -> dict[str, Any]:
     }
 
 
-def latest_facts(facts: list[dict[str, Any]], unit: str, *, forms: set[str], limit: int) -> list[dict[str, Any]]:
-    candidates = [fact for fact in facts if fact.get("form") in forms and isinstance(fact.get("val"), (int, float))]
+def is_single_quarter_fact(fact: dict[str, Any]) -> bool:
+    frame = fact.get("frame")
+    return isinstance(frame, str) and bool(SEC_SINGLE_QUARTER_FRAME.match(frame))
+
+
+def latest_facts(
+    facts: list[dict[str, Any]],
+    unit: str,
+    *,
+    forms: set[str],
+    limit: int,
+    fact_filter: Any | None = None,
+) -> list[dict[str, Any]]:
+    candidates = [
+        fact
+        for fact in facts
+        if fact.get("form") in forms
+        and isinstance(fact.get("val"), (int, float))
+        and (fact_filter is None or fact_filter(fact))
+    ]
     candidates.sort(key=lambda item: (str(item.get("filed", "")), str(item.get("end", ""))), reverse=True)
 
     seen: set[tuple[Any, Any, Any]] = set()
@@ -280,7 +299,7 @@ def extract_sec_financials(companyfacts: dict[str, Any]) -> dict[str, Any]:
             "label": series["label"],
             "unit": unit,
             "annual": latest_facts(facts, unit, forms={"10-K", "20-F", "40-F"}, limit=5),
-            "quarterly": latest_facts(facts, unit, forms={"10-Q"}, limit=8),
+            "quarterly": latest_facts(facts, unit, forms={"10-Q"}, limit=8, fact_filter=is_single_quarter_fact),
         }
     return metrics
 

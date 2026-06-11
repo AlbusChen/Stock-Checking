@@ -36,6 +36,7 @@ REQUIRED_TOP_LEVEL = {
 }
 
 LISTING_STATUSES = {"listed", "listed-parent", "private", "delisted", "unknown"}
+CONFIDENCE_LEVELS = {"high", "medium", "low"}
 
 
 def has_cjk(value: str) -> bool:
@@ -142,6 +143,16 @@ def validate_report(path: Path) -> list[str]:
     if isinstance(report.get("financials"), dict):
         require_localized(errors, path, report["financials"], "latestPeriod", "financial latestPeriod")
 
+    business = report.get("business", {})
+    if not isinstance(business.get("description"), str) or not business.get("description", "").strip():
+        errors.append(f"{path.name}: business needs description")
+    if not isinstance(business.get("thesis"), str) or not business.get("thesis", "").strip():
+        errors.append(f"{path.name}: business needs thesis")
+    if not isinstance(business.get("revenueModel"), list) or not business.get("revenueModel"):
+        errors.append(f"{path.name}: business needs revenueModel list")
+    if not isinstance(business.get("riskNotes"), list) or not business.get("riskNotes"):
+        errors.append(f"{path.name}: business needs riskNotes list")
+
     if not report.get("supplyChain", {}).get("tiers"):
         errors.append(f"{path.name}: needs supply-chain tiers")
 
@@ -154,6 +165,12 @@ def validate_report(path: Path) -> list[str]:
 
     for trend in report.get("financials", {}).get("trends", []):
         label = trend.get("label", "unnamed trend")
+        if not trend.get("id"):
+            errors.append(f"{path.name}: trend {label} needs id")
+        if trend.get("cadence") not in {"annual", "quarterly"}:
+            errors.append(f"{path.name}: trend {label} needs cadence annual or quarterly")
+        if not trend.get("sourceIds"):
+            errors.append(f"{path.name}: trend {label} needs sourceIds")
         require_localized(errors, path, trend, "label", f"trend {label}")
         if trend.get("note"):
             require_localized(errors, path, trend, "note", f"trend {label}")
@@ -196,6 +213,14 @@ def validate_report(path: Path) -> list[str]:
 
     for tier in report.get("supplyChain", {}).get("tiers", []):
         tier_name = tier.get("title", "untitled tier")
+        if not isinstance(tier.get("level"), int):
+            errors.append(f"{path.name}: supply-chain tier {tier_name} needs numeric level")
+        if tier.get("confidence") not in CONFIDENCE_LEVELS:
+            errors.append(f"{path.name}: supply-chain tier {tier_name} needs confidence")
+        require_localized(errors, path, tier, "notes", f"supply-chain tier {tier_name}")
+        require_localized_list(errors, path, tier, "materials", f"supply-chain tier {tier_name}")
+        if not tier.get("sourceIds"):
+            errors.append(f"{path.name}: supply-chain tier {tier_name} needs sourceIds")
         entities = tier.get("entities")
         if not isinstance(entities, list) or not entities:
             errors.append(f"{path.name}: supply-chain tier {tier_name} needs entities")
@@ -215,6 +240,22 @@ def validate_report(path: Path) -> list[str]:
 
             validate_listing(errors, path, entity.get("listing"), f"supplier {name}")
 
+    raw_materials = report.get("supplyChain", {}).get("rawMaterials")
+    if not isinstance(raw_materials, list) or not raw_materials:
+        errors.append(f"{path.name}: needs rawMaterials list")
+    else:
+        for material in raw_materials:
+            if not isinstance(material, dict):
+                errors.append(f"{path.name}: rawMaterial must be an object")
+                continue
+            label = material.get("name", "unnamed raw material")
+            require_localized(errors, path, material, "name", f"raw material {label}")
+            require_localized(errors, path, material, "usedIn", f"raw material {label}")
+            require_localized(errors, path, material, "risk", f"raw material {label}")
+            require_localized_list(errors, path, material, "upstream", f"raw material {label}")
+            if material.get("confidence") not in CONFIDENCE_LEVELS:
+                errors.append(f"{path.name}: raw material {label} needs confidence")
+
     downstream = report.get("supplyChain", {}).get("downstream")
     if isinstance(downstream, dict):
         require_localized(errors, path, downstream, "thesis", "downstream thesis")
@@ -224,6 +265,12 @@ def validate_report(path: Path) -> list[str]:
         else:
             for tier in tiers:
                 tier_name = tier.get("title", "untitled downstream tier")
+                if not isinstance(tier.get("level"), int):
+                    errors.append(f"{path.name}: downstream tier {tier_name} needs numeric level")
+                if tier.get("confidence") not in CONFIDENCE_LEVELS:
+                    errors.append(f"{path.name}: downstream tier {tier_name} needs confidence")
+                if not tier.get("sourceIds"):
+                    errors.append(f"{path.name}: downstream tier {tier_name} needs sourceIds")
                 require_localized(errors, path, tier, "title", f"downstream tier {tier_name}")
                 require_localized(errors, path, tier, "notes", f"downstream tier {tier_name}")
                 entities = tier.get("entities")
@@ -241,6 +288,15 @@ def validate_report(path: Path) -> list[str]:
                     if not entity.get("sourceIds"):
                         errors.append(f"{path.name}: downstream customer {name} needs sourceIds")
                     validate_listing(errors, path, entity.get("listing"), f"downstream customer {name}")
+
+    for filing in report.get("filings", []):
+        form = filing.get("form", "unnamed filing")
+        if not filing.get("title"):
+            errors.append(f"{path.name}: filing {form} needs title")
+        if not filing.get("filedAt"):
+            errors.append(f"{path.name}: filing {form} needs filedAt")
+        if not filing.get("url"):
+            errors.append(f"{path.name}: filing {form} needs url")
 
     return errors
 

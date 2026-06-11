@@ -1,0 +1,754 @@
+{
+  "schemaVersion": 1,
+  "id": "irdm",
+  "ticker": "IRDM",
+  "exchange": "NASDAQ",
+  "market": "US",
+  "name": "Iridium Communications / 铱星通信",
+  "legalName": "Iridium Communications Inc.",
+  "cik": "0001418819",
+  "currency": "USD",
+  "sector": "Satellite Communications / 卫星通信",
+  "industry": [
+    "LEO satellite communications",
+    "Mobile satellite services",
+    "IoT connectivity",
+    "低轨卫星通信",
+    "移动卫星服务"
+  ],
+  "homepage": "https://www.iridium.com/",
+  "lastUpdated": "2026-06-11T18:45:00+08:00",
+  "summary": "Iridium 运营 L-band 低轨卫星通信网络，面向商业、政府、物联网和移动连接市场。相较 SpaceX/Starlink，它是成熟卫星通信运营商的上市样本。",
+  "summaryZh": "Iridium 运营 L-band 低轨卫星通信网络，面向商业、政府、物联网和移动连接市场。相较 SpaceX/Starlink，它是成熟卫星通信运营商的上市样本。",
+  "summaryEn": "Iridium operates an L-band LEO satellite communications network serving commercial, government, IoT, and mobile-connectivity markets. Relative to SpaceX/Starlink, it is a mature public satellite-operator benchmark.",
+  "aliases": [
+    "Iridium",
+    "铱星通信",
+    "IRDM"
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "overview": "公司提供移动语音/数据、宽带、物联网、政府通信和相关工程服务。",
+    "overviewZh": "公司提供移动语音/数据、宽带、物联网、政府通信和相关工程服务。",
+    "overviewEn": "The company provides mobile voice/data, broadband, IoT, government communications, and related engineering services.",
+    "segments": [
+      {
+        "name": "商业服务",
+        "nameZh": "商业服务",
+        "nameEn": "Commercial services",
+        "description": "面向企业、海事、航空、物联网和个人连接需求。",
+        "descriptionZh": "面向企业、海事、航空、物联网和个人连接需求。",
+        "descriptionEn": "Serves enterprise, maritime, aviation, IoT, and personal connectivity demand.",
+        "sourceIds": [
+          "irdm-10k-2025"
+        ]
+      },
+      {
+        "name": "政府服务",
+        "nameZh": "政府服务",
+        "nameEn": "Government services",
+        "description": "向政府客户提供安全移动卫星通信与相关服务。",
+        "descriptionZh": "向政府客户提供安全移动卫星通信与相关服务。",
+        "descriptionEn": "Provides secure mobile satellite communications and related services to government customers.",
+        "sourceIds": [
+          "irdm-10k-2025"
+        ]
+      }
+    ],
+    "description": "公司提供移动语音/数据、宽带、物联网、政府通信和相关工程服务。",
+    "descriptionZh": "公司提供移动语音/数据、宽带、物联网、政府通信和相关工程服务。",
+    "descriptionEn": "The company provides mobile voice/data, broadband, IoT, government communications, and related engineering services.",
+    "revenueModel": [
+      "商业服务 / Commercial services",
+      "政府服务 / Government services"
+    ],
+    "thesis": "Iridium 运营 L-band 低轨卫星通信网络，面向商业、政府、物联网和移动连接市场。相较 SpaceX/Starlink，它是成熟卫星通信运营商的上市样本。",
+    "thesisZh": "Iridium 运营 L-band 低轨卫星通信网络，面向商业、政府、物联网和移动连接市场。相较 SpaceX/Starlink，它是成熟卫星通信运营商的上市样本。",
+    "thesisEn": "Iridium operates an L-band LEO satellite communications network serving commercial, government, IoT, and mobile-connectivity markets. Relative to SpaceX/Starlink, it is a mature public satellite-operator benchmark.",
+    "riskNotes": [
+      "卫星网络维护、终端生态和客户续约会影响收入质量。",
+      "SpaceX/Starlink 关系按主题可比处理，不代表直接商业关系。"
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-11T18:45:00+08:00",
+    "thesis": "Iridium 是卫星运营商，核心上游包括卫星制造/在轨维护、地面网关、用户终端、芯片模组和发射/保险等航天服务。",
+    "thesisZh": "Iridium 是卫星运营商，核心上游包括卫星制造/在轨维护、地面网关、用户终端、芯片模组和发射/保险等航天服务。",
+    "thesisEn": "Iridium is a satellite operator; key upstream layers include satellite manufacturing/in-orbit support, ground gateways, user terminals, chip modules, and launch/insurance space services.",
+    "tiers": [
+      {
+        "id": "tier-0",
+        "title": "Target company",
+        "titleZh": "目标公司",
+        "titleEn": "Target company",
+        "entities": [
+          {
+            "name": "Iridium Communications / 铱星通信",
+            "nameZh": "Iridium Communications / 铱星通信",
+            "nameEn": "Iridium Communications Inc.",
+            "relationship": "目标公司；公司提供移动语音/数据、宽带、物联网、政府通信和相关工程服务。",
+            "relationshipZh": "目标公司；公司提供移动语音/数据、宽带、物联网、政府通信和相关工程服务。",
+            "relationshipEn": "Target company; The company provides mobile voice/data, broadband, IoT, government communications, and related engineering services.",
+            "productsServices": [
+              "商业服务",
+              "政府服务"
+            ],
+            "productsServicesZh": [
+              "商业服务",
+              "政府服务"
+            ],
+            "productsServicesEn": [
+              "Commercial services",
+              "Government services"
+            ],
+            "sourceIds": [
+              "irdm-10k-2025"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "IRDM",
+              "exchange": "NASDAQ",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/irdm"
+            },
+            "confidence": "high"
+          }
+        ],
+        "level": 0,
+        "companies": [
+          "Iridium Communications / 铱星通信"
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "射频半导体材料",
+          "天线金属与陶瓷",
+          "电池材料"
+        ],
+        "materialsZh": [
+          "射频半导体材料",
+          "天线金属与陶瓷",
+          "电池材料"
+        ],
+        "materialsEn": [
+          "RF semiconductor materials",
+          "Antenna metals and ceramics",
+          "Battery materials"
+        ],
+        "notes": "目标公司本身。",
+        "notesZh": "目标公司本身。",
+        "notesEn": "Target company itself.",
+        "confidence": "high",
+        "sourceIds": [
+          "irdm-10k-2025"
+        ]
+      },
+      {
+        "id": "tier-1",
+        "title": "Critical upstream inputs",
+        "titleZh": "关键上游投入",
+        "titleEn": "Critical upstream inputs",
+        "entities": [
+          {
+            "name": "卫星、发射与地面网络供应链",
+            "nameZh": "卫星、发射与地面网络供应链",
+            "nameEn": "Satellite, launch, and ground-network supply chain",
+            "relationship": "支撑卫星平台、入轨服务、地面站/网关、网络运营和服务可用性；具体企业需合同披露后逐项确认。",
+            "relationshipZh": "支撑卫星平台、入轨服务、地面站/网关、网络运营和服务可用性；具体企业需合同披露后逐项确认。",
+            "relationshipEn": "Supports satellite platforms, access to orbit, ground stations/gateways, network operations, and service availability; specific companies should be confirmed contract by contract when disclosed.",
+            "productsServices": [
+              "卫星平台",
+              "发射服务",
+              "地面站与网关"
+            ],
+            "productsServicesZh": [
+              "卫星平台",
+              "发射服务",
+              "地面站与网关"
+            ],
+            "productsServicesEn": [
+              "satellite platforms",
+              "launch services",
+              "ground stations and gateways"
+            ],
+            "sourceIds": [
+              "irdm-10k-2025"
+            ],
+            "listing": {
+              "status": "unknown"
+            },
+            "confidence": "medium"
+          },
+          {
+            "name": "终端、天线、射频与通信模组供应链",
+            "nameZh": "终端、天线、射频与通信模组供应链",
+            "nameEn": "Terminal, antenna, RF, and communications-module supply chain",
+            "relationship": "终端设备、天线、调制解调器、射频部件和通信芯片模组是连接服务落地的关键投入。",
+            "relationshipZh": "终端设备、天线、调制解调器、射频部件和通信芯片模组是连接服务落地的关键投入。",
+            "relationshipEn": "Terminals, antennas, modems, RF components, and communications chip modules are key inputs for connectivity services.",
+            "productsServices": [
+              "用户终端",
+              "天线/RF 部件",
+              "通信模组"
+            ],
+            "productsServicesZh": [
+              "用户终端",
+              "天线/RF 部件",
+              "通信模组"
+            ],
+            "productsServicesEn": [
+              "user terminals",
+              "antenna/RF components",
+              "communications modules"
+            ],
+            "sourceIds": [
+              "irdm-10k-2025"
+            ],
+            "listing": {
+              "status": "unknown"
+            },
+            "confidence": "medium"
+          }
+        ],
+        "level": 1,
+        "companies": [
+          "卫星、发射与地面网络供应链",
+          "终端、天线、射频与通信模组供应链"
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "射频半导体材料",
+          "天线金属与陶瓷",
+          "电池材料"
+        ],
+        "materialsZh": [
+          "射频半导体材料",
+          "天线金属与陶瓷",
+          "电池材料"
+        ],
+        "materialsEn": [
+          "RF semiconductor materials",
+          "Antenna metals and ceramics",
+          "Battery materials"
+        ],
+        "notes": "供应商以类别呈现；具名上市公司需在合同或年报明确披露后再升级。",
+        "notesZh": "供应商以类别呈现；具名上市公司需在合同或年报明确披露后再升级。",
+        "notesEn": "Suppliers are shown by category; named listed companies should be upgraded only after contract or annual-report disclosure.",
+        "confidence": "medium",
+        "sourceIds": [
+          "irdm-10k-2025"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "射频半导体材料",
+        "nameZh": "射频半导体材料",
+        "nameEn": "RF semiconductor materials",
+        "usedIn": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInZh": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInEn": "Used in satellite platforms, antennas, RF links, terminals, or power systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity materials and specialty-chemical processing"
+        ],
+        "risk": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskZh": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskEn": "Availability can be affected by price, qualification cycles, geopolitical supply, and space-grade reliability requirements.",
+        "confidence": "medium"
+      },
+      {
+        "name": "天线金属与陶瓷",
+        "nameZh": "天线金属与陶瓷",
+        "nameEn": "Antenna metals and ceramics",
+        "usedIn": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInZh": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInEn": "Used in satellite platforms, antennas, RF links, terminals, or power systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity materials and specialty-chemical processing"
+        ],
+        "risk": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskZh": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskEn": "Availability can be affected by price, qualification cycles, geopolitical supply, and space-grade reliability requirements.",
+        "confidence": "medium"
+      },
+      {
+        "name": "电池材料",
+        "nameZh": "电池材料",
+        "nameEn": "Battery materials",
+        "usedIn": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInZh": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInEn": "Used in satellite platforms, antennas, RF links, terminals, or power systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity materials and specialty-chemical processing"
+        ],
+        "risk": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskZh": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskEn": "Availability can be affected by price, qualification cycles, geopolitical supply, and space-grade reliability requirements.",
+        "confidence": "medium"
+      },
+      {
+        "name": "航天器结构材料",
+        "nameZh": "航天器结构材料",
+        "nameEn": "Spacecraft structural materials",
+        "usedIn": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInZh": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInEn": "Used in satellite platforms, antennas, RF links, terminals, or power systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity materials and specialty-chemical processing"
+        ],
+        "risk": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskZh": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskEn": "Availability can be affected by price, qualification cycles, geopolitical supply, and space-grade reliability requirements.",
+        "confidence": "medium"
+      }
+    ],
+    "downstream": {
+      "thesis": "Iridium 位于卫星通信服务层，向行业客户、政府客户和终端/模组生态输出连接能力；与 Starlink 相比，它代表窄带/移动/韧性连接的成熟运营商样本。",
+      "thesisZh": "Iridium 位于卫星通信服务层，向行业客户、政府客户和终端/模组生态输出连接能力；与 Starlink 相比，它代表窄带/移动/韧性连接的成熟运营商样本。",
+      "thesisEn": "Iridium sits in the satellite-communications service layer, selling connectivity to industry customers, government customers, and terminal/module ecosystems; versus Starlink, it represents a mature narrowband/mobile/resilient-connectivity operator benchmark.",
+      "tiers": [
+        {
+          "id": "downstream-1",
+          "title": "Customers and end markets",
+          "titleZh": "客户与终端市场",
+          "titleEn": "Customers and end markets",
+          "notes": "按公司披露的业务场景归类，非完整客户名单。",
+          "notesZh": "按公司披露的业务场景归类，非完整客户名单。",
+          "notesEn": "Grouped by disclosed business use cases, not a full customer list.",
+          "entities": [
+            {
+              "name": "海事、航空与工业客户",
+              "nameZh": "海事、航空与工业客户",
+              "nameEn": "Maritime, aviation, and industrial customers",
+              "customerRole": "服务客户",
+              "customerRoleZh": "服务客户",
+              "customerRoleEn": "Service customers",
+              "relationship": "在偏远和移动环境购买语音、数据和 IoT 连接。",
+              "relationshipZh": "在偏远和移动环境购买语音、数据和 IoT 连接。",
+              "relationshipEn": "Buy voice, data, and IoT connectivity in remote and mobile environments.",
+              "productsServices": [
+                "移动卫星数据",
+                "IoT 与资产跟踪"
+              ],
+              "productsServicesZh": [
+                "移动卫星数据",
+                "IoT 与资产跟踪"
+              ],
+              "productsServicesEn": [
+                "mobile satellite data",
+                "IoT and asset tracking"
+              ],
+              "sourceIds": [
+                "irdm-10k-2025"
+              ],
+              "listing": {
+                "status": "unknown"
+              },
+              "confidence": "medium"
+            },
+            {
+              "name": "政府与应急通信用户",
+              "nameZh": "政府与应急通信用户",
+              "nameEn": "Government and emergency-communications users",
+              "customerRole": "服务客户",
+              "customerRoleZh": "服务客户",
+              "customerRoleEn": "Service customers",
+              "relationship": "使用韧性卫星通信支持安全、应急和任务关键场景。",
+              "relationshipZh": "使用韧性卫星通信支持安全、应急和任务关键场景。",
+              "relationshipEn": "Use resilient satellite communications for secure, emergency, and mission-critical situations.",
+              "productsServices": [
+                "安全通信",
+                "应急与任务关键连接"
+              ],
+              "productsServicesZh": [
+                "安全通信",
+                "应急与任务关键连接"
+              ],
+              "productsServicesEn": [
+                "secure communications",
+                "emergency and mission-critical connectivity"
+              ],
+              "sourceIds": [
+                "irdm-10k-2025"
+              ],
+              "listing": {
+                "status": "unknown"
+              },
+              "confidence": "medium"
+            }
+          ],
+          "level": 1,
+          "confidence": "medium",
+          "sourceIds": [
+            "irdm-10k-2025"
+          ]
+        },
+        {
+          "id": "downstream-2",
+          "title": "SpaceX / Starlink theme link",
+          "titleZh": "SpaceX / Starlink 主题关联",
+          "titleEn": "SpaceX / Starlink theme link",
+          "notes": "用于 IPO 主题归类，不代表披露的直接商业关系。",
+          "notesZh": "用于 IPO 主题归类，不代表披露的直接商业关系。",
+          "notesEn": "Used for IPO-theme classification, not as a disclosed direct commercial relationship.",
+          "entities": [
+            {
+              "name": "SpaceX / Starlink",
+              "nameZh": "SpaceX / Starlink",
+              "nameEn": "SpaceX / Starlink",
+              "customerRole": "未上市主题标的",
+              "customerRoleZh": "未上市主题标的",
+              "customerRoleEn": "Private theme anchor",
+              "relationship": "Iridium 与 Starlink 同属卫星连接大赛道，但频段、带宽、终端和客户场景不同。",
+              "relationshipZh": "Iridium 与 Starlink 同属卫星连接大赛道，但频段、带宽、终端和客户场景不同。",
+              "relationshipEn": "Iridium and Starlink both belong to satellite connectivity, but differ in spectrum, bandwidth, terminals, and customer use cases.",
+              "productsServices": [
+                "卫星运营商可比",
+                "全球连接主题"
+              ],
+              "productsServicesZh": [
+                "卫星运营商可比",
+                "全球连接主题"
+              ],
+              "productsServicesEn": [
+                "satellite-operator comparable",
+                "global-connectivity theme"
+              ],
+              "sourceIds": [
+                "irdm-10k-2025"
+              ],
+              "listing": {
+                "status": "private"
+              },
+              "confidence": "medium"
+            }
+          ],
+          "level": 2,
+          "confidence": "medium",
+          "sourceIds": [
+            "irdm-10k-2025"
+          ]
+        }
+      ],
+      "updatedAt": "2026-06-11T18:30:00+08:00"
+    }
+  },
+  "financials": {
+    "latestPeriod": "Q1 2026; annual baseline FY2025",
+    "latestPeriodZh": "2026 年一季度；年度基准为 FY2025",
+    "latestPeriodEn": "Q1 2026; annual baseline FY2025",
+    "highlights": [
+      {
+        "label": "Q1 2026 收入",
+        "labelZh": "Q1 2026 收入",
+        "labelEn": "Q1 2026 revenue",
+        "value": 0.219057,
+        "unit": "USD billions",
+        "period": "截至 2026-03-31 的季度",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "irdm-10q-2026q1",
+          "irdm-companyfacts"
+        ],
+        "change": "同比增长 1.94%",
+        "changeZh": "同比增长 1.94%",
+        "changeEn": "Up 1.94% year over year"
+      },
+      {
+        "label": "Q1 2026 净利润",
+        "labelZh": "Q1 2026 净利润",
+        "labelEn": "Q1 2026 net income",
+        "value": 21.594,
+        "unit": "USD millions",
+        "period": "截至 2026-03-31 的季度",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "irdm-10q-2026q1",
+          "irdm-companyfacts"
+        ],
+        "change": "同比下降 29.00%",
+        "changeZh": "同比下降 29.00%",
+        "changeEn": "Down 29.00% year over year"
+      },
+      {
+        "label": "FY2025 收入",
+        "labelZh": "FY2025 收入",
+        "labelEn": "FY2025 revenue",
+        "value": 0.871659,
+        "unit": "USD billions",
+        "period": "截至 2025-12-31 的年度",
+        "periodZh": "截至 2025-12-31 的年度",
+        "periodEn": "Year ended 2025-12-31",
+        "sourceIds": [
+          "irdm-10k-2025",
+          "irdm-companyfacts"
+        ],
+        "change": "同比增长 4.93%",
+        "changeZh": "同比增长 4.93%",
+        "changeEn": "Up 4.93% year over year"
+      },
+      {
+        "label": "FY2025 经营现金流",
+        "labelZh": "FY2025 经营现金流",
+        "labelEn": "FY2025 operating cash flow",
+        "value": 400.073,
+        "unit": "USD millions",
+        "period": "截至 2025-12-31 的年度",
+        "periodZh": "截至 2025-12-31 的年度",
+        "periodEn": "Year ended 2025-12-31",
+        "sourceIds": [
+          "irdm-10k-2025",
+          "irdm-companyfacts"
+        ],
+        "change": "同比增长 6.42%",
+        "changeZh": "同比增长 6.42%",
+        "changeEn": "Up 6.42% year over year"
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "商业服务",
+        "nameZh": "商业服务",
+        "nameEn": "Commercial services",
+        "note": "连接服务覆盖海事、航空、物联网和企业用户；分部收入需进一步逐表复核后再入历史图。",
+        "noteZh": "连接服务覆盖海事、航空、物联网和企业用户；分部收入需进一步逐表复核后再入历史图。",
+        "noteEn": "Connectivity services cover maritime, aviation, IoT, and enterprise users; segment revenue should be table-checked before adding historical mix charts.",
+        "sourceIds": [
+          "irdm-10k-2025"
+        ]
+      },
+      {
+        "name": "政府服务",
+        "nameZh": "政府服务",
+        "nameEn": "Government services",
+        "note": "政府通信是成熟卫星运营商的重要下游需求。",
+        "noteZh": "政府通信是成熟卫星运营商的重要下游需求。",
+        "noteEn": "Government communications are an important downstream demand source for a mature satellite operator.",
+        "sourceIds": [
+          "irdm-10k-2025"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "label": "年度收入",
+        "labelZh": "年度收入",
+        "labelEn": "Annual revenue",
+        "unit": "USD billions",
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "FY2023",
+            "periodEn": "FY2023",
+            "value": 0.790723
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "FY2024",
+            "periodEn": "FY2024",
+            "value": 0.830682
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "FY2025",
+            "periodEn": "FY2025",
+            "value": 0.871659
+          }
+        ],
+        "note": "年度收入连续增长。",
+        "noteZh": "年度收入连续增长。",
+        "noteEn": "Annual revenue increased each year.",
+        "sourceIds": [
+          "irdm-companyfacts"
+        ],
+        "id": "irdm-trend-1",
+        "cadence": "annual"
+      },
+      {
+        "label": "年度净利润",
+        "labelZh": "年度净利润",
+        "labelEn": "Annual net income",
+        "unit": "USD millions",
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "FY2023",
+            "periodEn": "FY2023",
+            "value": 15.415
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "FY2024",
+            "periodEn": "FY2024",
+            "value": 112.776
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "FY2025",
+            "periodEn": "FY2025",
+            "value": 114.372
+          }
+        ],
+        "note": "成熟卫星运营商样本，盈利能力明显优于仍在建设期的公司。",
+        "noteZh": "成熟卫星运营商样本，盈利能力明显优于仍在建设期的公司。",
+        "noteEn": "A mature satellite-operator sample with profitability well above buildout-stage peers.",
+        "sourceIds": [
+          "irdm-companyfacts"
+        ],
+        "id": "irdm-trend-2",
+        "cadence": "annual"
+      }
+    ],
+    "revenueMixHistory": []
+  },
+  "news": [
+    {
+      "title": "Iridium 披露 2026 年一季度 10-Q",
+      "titleZh": "Iridium 披露 2026 年一季度 10-Q",
+      "titleEn": "Iridium filed Q1 2026 Form 10-Q",
+      "date": "2026-04-23",
+      "category": "财务披露",
+      "categoryZh": "财务披露",
+      "categoryEn": "Financial filing",
+      "summary": "Q1 2026 收入为 2.19057 亿美元，净利润为 2,159.4 万美元。",
+      "summaryZh": "Q1 2026 收入为 2.19057 亿美元，净利润为 2,159.4 万美元。",
+      "summaryEn": "Q1 2026 revenue was $219.057 million and net income was $21.594 million.",
+      "impact": "为 Starlink 可比分析提供成熟卫星通信运营商参照。",
+      "impactZh": "为 Starlink 可比分析提供成熟卫星通信运营商参照。",
+      "impactEn": "Provides a mature satellite-communications operator benchmark for Starlink comparison.",
+      "sourceIds": [
+        "irdm-10q-2026q1",
+        "irdm-companyfacts"
+      ]
+    },
+    {
+      "title": "FY2025 收入与现金流增长",
+      "titleZh": "FY2025 收入与现金流增长",
+      "titleEn": "FY2025 revenue and cash flow increased",
+      "date": "2026-02-12",
+      "category": "年度业绩",
+      "categoryZh": "年度业绩",
+      "categoryEn": "Annual results",
+      "summary": "FY2025 收入为 8.71659 亿美元，经营现金流为 4.00073 亿美元。",
+      "summaryZh": "FY2025 收入为 8.71659 亿美元，经营现金流为 4.00073 亿美元。",
+      "summaryEn": "FY2025 revenue was $871.659 million and operating cash flow was $400.073 million.",
+      "impact": "显示成熟卫星服务业务的现金生成能力。",
+      "impactZh": "显示成熟卫星服务业务的现金生成能力。",
+      "impactEn": "Shows cash-generation capability in a mature satellite-services business.",
+      "sourceIds": [
+        "irdm-10k-2025",
+        "irdm-companyfacts"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "10-Q",
+      "filedAt": "2026-04-23",
+      "reportDate": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000026/irdm-20260331.htm",
+      "title": "Iridium Communications Inc. 10-Q 2026-03-31"
+    },
+    {
+      "form": "10-K",
+      "filedAt": "2026-02-12",
+      "reportDate": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000009/irdm-20251231.htm",
+      "title": "Iridium Communications Inc. 10-K 2025-12-31"
+    }
+  ],
+  "sources": [
+    {
+      "id": "irdm-10q-2026q1",
+      "title": "Iridium Communications Inc. Form 10-Q for period ended 2026-03-31",
+      "titleZh": "Iridium Communications Inc. Form 10-Q for period ended 2026-03-31",
+      "titleEn": "Iridium Communications Inc. Form 10-Q for period ended 2026-03-31",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000026/irdm-20260331.htm",
+      "publishedAt": "2026-04-23",
+      "accessedAt": "2026-06-11",
+      "type": "sec"
+    },
+    {
+      "id": "irdm-10k-2025",
+      "title": "Iridium Communications Inc. Form 10-K for period ended 2025-12-31",
+      "titleZh": "Iridium Communications Inc. Form 10-K for period ended 2025-12-31",
+      "titleEn": "Iridium Communications Inc. Form 10-K for period ended 2025-12-31",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000009/irdm-20251231.htm",
+      "publishedAt": "2026-02-12",
+      "accessedAt": "2026-06-11",
+      "type": "sec"
+    },
+    {
+      "id": "irdm-companyfacts",
+      "title": "SEC EDGAR companyfacts API for Iridium Communications Inc.",
+      "titleZh": "SEC EDGAR companyfacts API for Iridium Communications Inc.",
+      "titleEn": "SEC EDGAR companyfacts API for Iridium Communications Inc.",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001418819.json",
+      "publishedAt": "2026-06-11",
+      "accessedAt": "2026-06-11",
+      "type": "sec"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0001418819",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K"
+      ]
+    },
+    "scheduled": false
+  }
+}

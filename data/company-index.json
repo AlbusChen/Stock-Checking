@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T07:13:29.051490Z",
+  "generatedAt": "2026-06-11T14:52:38.261354Z",
   "companies": [
     {
       "id": "cssc-special-gas",
@@ -38,6 +38,40 @@
       "summary": "硬件生态和服务收入共同驱动，核心变量是 iPhone 周期、服务增长、供应链韧性与 AI 平台节奏。"
     },
     {
+      "id": "asts",
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile / AST 太空移动",
+      "legalName": "AST SpaceMobile, Inc.",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/asts.json",
+      "aliases": [
+        "AST SpaceMobile",
+        "AST 太空移动",
+        "ASTS"
+      ],
+      "sector": "Satellite Communications / 卫星通信",
+      "lastUpdated": "2026-06-11T18:45:00+08:00",
+      "summary": "AST SpaceMobile 正在建设面向普通手机的空间蜂窝宽带网络，是 Starlink 直连手机与卫星宽带主题下的重要上市可比公司；其仍处于高投入与商业化推进阶段。"
+    },
+    {
+      "id": "gsat",
+      "ticker": "GSAT",
+      "name": "Globalstar / 全球星",
+      "legalName": "Globalstar, Inc.",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/gsat.json",
+      "aliases": [
+        "Globalstar",
+        "全球星",
+        "GSAT"
+      ],
+      "sector": "Satellite Communications / 卫星通信",
+      "lastUpdated": "2026-06-11T18:45:00+08:00",
+      "summary": "Globalstar 提供移动卫星服务、IoT 连接和卫星/频谱资产相关服务，是 Starlink 直连设备与移动卫星服务主题下的上市可比公司。"
+    },
+    {
       "id": "intc",
       "ticker": "INTC",
       "name": "Intel Corporation",
@@ -49,6 +83,23 @@
       "sector": "Semiconductors and foundry",
       "lastUpdated": "2026-06-07T13:17:57.194160Z",
       "summary": "CPU 业务提供现金流，Intel Foundry 与先进制程/封装决定中长期弹性，当前重点是供给、良率和外部客户。"
+    },
+    {
+      "id": "irdm",
+      "ticker": "IRDM",
+      "name": "Iridium Communications / 铱星通信",
+      "legalName": "Iridium Communications Inc.",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/irdm.json",
+      "aliases": [
+        "Iridium",
+        "铱星通信",
+        "IRDM"
+      ],
+      "sector": "Satellite Communications / 卫星通信",
+      "lastUpdated": "2026-06-11T18:45:00+08:00",
+      "summary": "Iridium 运营 L-band 低轨卫星通信网络，面向商业、政府、物联网和移动连接市场。相较 SpaceX/Starlink，它是成熟卫星通信运营商的上市样本。"
     },
     {
       "id": "mu",
@@ -81,6 +132,41 @@
       "sector": "Accelerated computing and AI infrastructure",
       "lastUpdated": "2026-06-07T16:45:00+08:00",
       "summary": "AI 数据中心平台是收入主轴，关注 Blackwell/Rubin 放量、HBM 与先进封装供给、出口限制和客户集中度。"
+    },
+    {
+      "id": "rklb",
+      "ticker": "RKLB",
+      "name": "Rocket Lab / 火箭实验室",
+      "legalName": "Rocket Lab Corp",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/rklb.json",
+      "aliases": [
+        "Rocket Lab",
+        "火箭实验室",
+        "RKLB",
+        "Rocket Lab USA"
+      ],
+      "sector": "Aerospace & Defense / 航空航天与国防",
+      "lastUpdated": "2026-06-11T18:45:00+08:00",
+      "summary": "Rocket Lab 是一家上市航天公司，业务覆盖 Electron 发射服务、Neutron 研发以及卫星/航天器系统。它不是 SpaceX 的直接上市替代品，但在 SpaceX IPO 主题中可作为发射与空间系统环节的公开可比公司。"
+    },
+    {
+      "id": "vsat",
+      "ticker": "VSAT",
+      "name": "Viasat / 维亚萨特",
+      "legalName": "Viasat, Inc.",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/vsat.json",
+      "aliases": [
+        "Viasat",
+        "维亚萨特",
+        "VSAT"
+      ],
+      "sector": "Satellite Communications / 卫星通信",
+      "lastUpdated": "2026-06-11T18:45:00+08:00",
+      "summary": "Viasat 是卫星宽带、移动连接和政府通信公司，是 Starlink 宽带/移动连接业务的重要上市可比与竞争样本。公司财年截至 3 月 31 日。"
     }
   ]
 }

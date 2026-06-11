@@ -1,0 +1,755 @@
+{
+  "schemaVersion": 1,
+  "id": "vsat",
+  "ticker": "VSAT",
+  "exchange": "NASDAQ",
+  "market": "US",
+  "name": "Viasat / 维亚萨特",
+  "legalName": "Viasat, Inc.",
+  "cik": "0000797721",
+  "currency": "USD",
+  "sector": "Satellite Communications / 卫星通信",
+  "industry": [
+    "Satellite broadband",
+    "Mobility connectivity",
+    "Government communications",
+    "卫星宽带",
+    "移动连接",
+    "政府通信"
+  ],
+  "homepage": "https://www.viasat.com/",
+  "lastUpdated": "2026-06-11T18:45:00+08:00",
+  "summary": "Viasat 是卫星宽带、移动连接和政府通信公司，是 Starlink 宽带/移动连接业务的重要上市可比与竞争样本。公司财年截至 3 月 31 日。",
+  "summaryZh": "Viasat 是卫星宽带、移动连接和政府通信公司，是 Starlink 宽带/移动连接业务的重要上市可比与竞争样本。公司财年截至 3 月 31 日。",
+  "summaryEn": "Viasat is a satellite broadband, mobility-connectivity, and government-communications company, making it an important public comparable/competitor for Starlink broadband and mobility connectivity. Its fiscal year ends March 31.",
+  "aliases": [
+    "Viasat",
+    "维亚萨特",
+    "VSAT"
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "overview": "公司提供卫星服务、移动连接、政府与国防通信以及相关地面/终端设备。",
+    "overviewZh": "公司提供卫星服务、移动连接、政府与国防通信以及相关地面/终端设备。",
+    "overviewEn": "The company provides satellite services, mobility connectivity, government and defense communications, and related ground/terminal equipment.",
+    "segments": [
+      {
+        "name": "卫星服务",
+        "nameZh": "卫星服务",
+        "nameEn": "Satellite services",
+        "description": "面向消费者、企业、航空、海事和移动平台的宽带/连接服务。",
+        "descriptionZh": "面向消费者、企业、航空、海事和移动平台的宽带/连接服务。",
+        "descriptionEn": "Broadband/connectivity services for consumer, enterprise, aviation, maritime, and mobility platforms.",
+        "sourceIds": [
+          "vsat-10k-2026"
+        ]
+      },
+      {
+        "name": "政府与国防",
+        "nameZh": "政府与国防",
+        "nameEn": "Government and defense",
+        "description": "向政府和国防客户提供安全通信、设备和网络能力。",
+        "descriptionZh": "向政府和国防客户提供安全通信、设备和网络能力。",
+        "descriptionEn": "Secure communications, equipment, and network capabilities for government and defense customers.",
+        "sourceIds": [
+          "vsat-10k-2026"
+        ]
+      }
+    ],
+    "description": "公司提供卫星服务、移动连接、政府与国防通信以及相关地面/终端设备。",
+    "descriptionZh": "公司提供卫星服务、移动连接、政府与国防通信以及相关地面/终端设备。",
+    "descriptionEn": "The company provides satellite services, mobility connectivity, government and defense communications, and related ground/terminal equipment.",
+    "revenueModel": [
+      "卫星服务 / Satellite services",
+      "政府与国防 / Government and defense"
+    ],
+    "thesis": "Viasat 是卫星宽带、移动连接和政府通信公司，是 Starlink 宽带/移动连接业务的重要上市可比与竞争样本。公司财年截至 3 月 31 日。",
+    "thesisZh": "Viasat 是卫星宽带、移动连接和政府通信公司，是 Starlink 宽带/移动连接业务的重要上市可比与竞争样本。公司财年截至 3 月 31 日。",
+    "thesisEn": "Viasat is a satellite broadband, mobility-connectivity, and government-communications company, making it an important public comparable/competitor for Starlink broadband and mobility connectivity. Its fiscal year ends March 31.",
+    "riskNotes": [
+      "公司财年截至 3 月 31 日，年度指标需按财年解读。",
+      "卫星容量、终端部署和竞争价格会影响利润率。"
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-11T18:45:00+08:00",
+    "thesis": "Viasat 的上游包括卫星制造/容量、地面网络、用户终端、航空海事设备和半导体/射频链路；原材料层延伸到射频材料、天线材料、复合材料与航天级电子。",
+    "thesisZh": "Viasat 的上游包括卫星制造/容量、地面网络、用户终端、航空海事设备和半导体/射频链路；原材料层延伸到射频材料、天线材料、复合材料与航天级电子。",
+    "thesisEn": "Viasat's upstream layers include satellite manufacturing/capacity, ground networks, user terminals, aviation/maritime equipment, and semiconductor/RF links; raw materials extend to RF materials, antenna materials, composites, and space-grade electronics.",
+    "tiers": [
+      {
+        "id": "tier-0",
+        "title": "Target company",
+        "titleZh": "目标公司",
+        "titleEn": "Target company",
+        "entities": [
+          {
+            "name": "Viasat / 维亚萨特",
+            "nameZh": "Viasat / 维亚萨特",
+            "nameEn": "Viasat, Inc.",
+            "relationship": "目标公司；公司提供卫星服务、移动连接、政府与国防通信以及相关地面/终端设备。",
+            "relationshipZh": "目标公司；公司提供卫星服务、移动连接、政府与国防通信以及相关地面/终端设备。",
+            "relationshipEn": "Target company; The company provides satellite services, mobility connectivity, government and defense communications, and related ground/terminal equipment.",
+            "productsServices": [
+              "卫星服务",
+              "政府与国防"
+            ],
+            "productsServicesZh": [
+              "卫星服务",
+              "政府与国防"
+            ],
+            "productsServicesEn": [
+              "Satellite services",
+              "Government and defense"
+            ],
+            "sourceIds": [
+              "vsat-10k-2026"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "VSAT",
+              "exchange": "NASDAQ",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/vsat"
+            },
+            "confidence": "high"
+          }
+        ],
+        "level": 0,
+        "companies": [
+          "Viasat / 维亚萨特"
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "射频半导体材料",
+          "天线金属与介质材料",
+          "复合材料结构"
+        ],
+        "materialsZh": [
+          "射频半导体材料",
+          "天线金属与介质材料",
+          "复合材料结构"
+        ],
+        "materialsEn": [
+          "RF semiconductor materials",
+          "Antenna metals and dielectric materials",
+          "Composite structures"
+        ],
+        "notes": "目标公司本身。",
+        "notesZh": "目标公司本身。",
+        "notesEn": "Target company itself.",
+        "confidence": "high",
+        "sourceIds": [
+          "vsat-10k-2026"
+        ]
+      },
+      {
+        "id": "tier-1",
+        "title": "Critical upstream inputs",
+        "titleZh": "关键上游投入",
+        "titleEn": "Critical upstream inputs",
+        "entities": [
+          {
+            "name": "卫星、发射与地面网络供应链",
+            "nameZh": "卫星、发射与地面网络供应链",
+            "nameEn": "Satellite, launch, and ground-network supply chain",
+            "relationship": "支撑卫星平台、入轨服务、地面站/网关、网络运营和服务可用性；具体企业需合同披露后逐项确认。",
+            "relationshipZh": "支撑卫星平台、入轨服务、地面站/网关、网络运营和服务可用性；具体企业需合同披露后逐项确认。",
+            "relationshipEn": "Supports satellite platforms, access to orbit, ground stations/gateways, network operations, and service availability; specific companies should be confirmed contract by contract when disclosed.",
+            "productsServices": [
+              "卫星平台",
+              "发射服务",
+              "地面站与网关"
+            ],
+            "productsServicesZh": [
+              "卫星平台",
+              "发射服务",
+              "地面站与网关"
+            ],
+            "productsServicesEn": [
+              "satellite platforms",
+              "launch services",
+              "ground stations and gateways"
+            ],
+            "sourceIds": [
+              "vsat-10k-2026"
+            ],
+            "listing": {
+              "status": "unknown"
+            },
+            "confidence": "medium"
+          },
+          {
+            "name": "终端、天线、射频与通信模组供应链",
+            "nameZh": "终端、天线、射频与通信模组供应链",
+            "nameEn": "Terminal, antenna, RF, and communications-module supply chain",
+            "relationship": "终端设备、天线、调制解调器、射频部件和通信芯片模组是连接服务落地的关键投入。",
+            "relationshipZh": "终端设备、天线、调制解调器、射频部件和通信芯片模组是连接服务落地的关键投入。",
+            "relationshipEn": "Terminals, antennas, modems, RF components, and communications chip modules are key inputs for connectivity services.",
+            "productsServices": [
+              "用户终端",
+              "天线/RF 部件",
+              "通信模组"
+            ],
+            "productsServicesZh": [
+              "用户终端",
+              "天线/RF 部件",
+              "通信模组"
+            ],
+            "productsServicesEn": [
+              "user terminals",
+              "antenna/RF components",
+              "communications modules"
+            ],
+            "sourceIds": [
+              "vsat-10k-2026"
+            ],
+            "listing": {
+              "status": "unknown"
+            },
+            "confidence": "medium"
+          }
+        ],
+        "level": 1,
+        "companies": [
+          "卫星、发射与地面网络供应链",
+          "终端、天线、射频与通信模组供应链"
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "射频半导体材料",
+          "天线金属与介质材料",
+          "复合材料结构"
+        ],
+        "materialsZh": [
+          "射频半导体材料",
+          "天线金属与介质材料",
+          "复合材料结构"
+        ],
+        "materialsEn": [
+          "RF semiconductor materials",
+          "Antenna metals and dielectric materials",
+          "Composite structures"
+        ],
+        "notes": "供应商以类别呈现；具名上市公司需在合同或年报明确披露后再升级。",
+        "notesZh": "供应商以类别呈现；具名上市公司需在合同或年报明确披露后再升级。",
+        "notesEn": "Suppliers are shown by category; named listed companies should be upgraded only after contract or annual-report disclosure.",
+        "confidence": "medium",
+        "sourceIds": [
+          "vsat-10k-2026"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "射频半导体材料",
+        "nameZh": "射频半导体材料",
+        "nameEn": "RF semiconductor materials",
+        "usedIn": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInZh": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInEn": "Used in satellite platforms, antennas, RF links, terminals, or power systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity materials and specialty-chemical processing"
+        ],
+        "risk": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskZh": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskEn": "Availability can be affected by price, qualification cycles, geopolitical supply, and space-grade reliability requirements.",
+        "confidence": "medium"
+      },
+      {
+        "name": "天线金属与介质材料",
+        "nameZh": "天线金属与介质材料",
+        "nameEn": "Antenna metals and dielectric materials",
+        "usedIn": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInZh": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInEn": "Used in satellite platforms, antennas, RF links, terminals, or power systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity materials and specialty-chemical processing"
+        ],
+        "risk": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskZh": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskEn": "Availability can be affected by price, qualification cycles, geopolitical supply, and space-grade reliability requirements.",
+        "confidence": "medium"
+      },
+      {
+        "name": "复合材料结构",
+        "nameZh": "复合材料结构",
+        "nameEn": "Composite structures",
+        "usedIn": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInZh": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInEn": "Used in satellite platforms, antennas, RF links, terminals, or power systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity materials and specialty-chemical processing"
+        ],
+        "risk": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskZh": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskEn": "Availability can be affected by price, qualification cycles, geopolitical supply, and space-grade reliability requirements.",
+        "confidence": "medium"
+      },
+      {
+        "name": "航天级电子元件",
+        "nameZh": "航天级电子元件",
+        "nameEn": "Space-grade electronics",
+        "usedIn": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInZh": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInEn": "Used in satellite platforms, antennas, RF links, terminals, or power systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity materials and specialty-chemical processing"
+        ],
+        "risk": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskZh": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskEn": "Availability can be affected by price, qualification cycles, geopolitical supply, and space-grade reliability requirements.",
+        "confidence": "medium"
+      }
+    ],
+    "downstream": {
+      "thesis": "Viasat 位于卫星通信服务与设备层，下游包括航空、海事、消费者、企业和政府客户；与 Starlink 在卫星宽带与移动连接市场存在可比/竞争关系。",
+      "thesisZh": "Viasat 位于卫星通信服务与设备层，下游包括航空、海事、消费者、企业和政府客户；与 Starlink 在卫星宽带与移动连接市场存在可比/竞争关系。",
+      "thesisEn": "Viasat sits in satellite communications services and equipment; downstream includes aviation, maritime, consumer, enterprise, and government customers; it is comparable/competitive with Starlink in satellite broadband and mobility connectivity.",
+      "tiers": [
+        {
+          "id": "downstream-1",
+          "title": "Customers and end markets",
+          "titleZh": "客户与终端市场",
+          "titleEn": "Customers and end markets",
+          "notes": "按公司披露的业务场景归类，非完整客户名单。",
+          "notesZh": "按公司披露的业务场景归类，非完整客户名单。",
+          "notesEn": "Grouped by disclosed business use cases, not a full customer list.",
+          "entities": [
+            {
+              "name": "航空、海事与移动平台",
+              "nameZh": "航空、海事与移动平台",
+              "nameEn": "Aviation, maritime, and mobility platforms",
+              "customerRole": "服务客户",
+              "customerRoleZh": "服务客户",
+              "customerRoleEn": "Service customers",
+              "relationship": "采购机上、船舶和移动平台连接。",
+              "relationshipZh": "采购机上、船舶和移动平台连接。",
+              "relationshipEn": "Buy in-flight, vessel, and mobility-platform connectivity.",
+              "productsServices": [
+                "移动卫星宽带",
+                "托管连接服务"
+              ],
+              "productsServicesZh": [
+                "移动卫星宽带",
+                "托管连接服务"
+              ],
+              "productsServicesEn": [
+                "mobile satellite broadband",
+                "managed connectivity services"
+              ],
+              "sourceIds": [
+                "vsat-10k-2026"
+              ],
+              "listing": {
+                "status": "unknown"
+              },
+              "confidence": "medium"
+            },
+            {
+              "name": "消费者、企业与政府客户",
+              "nameZh": "消费者、企业与政府客户",
+              "nameEn": "Consumer, enterprise, and government customers",
+              "customerRole": "服务客户",
+              "customerRoleZh": "服务客户",
+              "customerRoleEn": "Service customers",
+              "relationship": "使用宽带接入、安全通信和托管网络能力。",
+              "relationshipZh": "使用宽带接入、安全通信和托管网络能力。",
+              "relationshipEn": "Use broadband access, secure communications, and managed network capabilities.",
+              "productsServices": [
+                "卫星宽带",
+                "安全/政府通信"
+              ],
+              "productsServicesZh": [
+                "卫星宽带",
+                "安全/政府通信"
+              ],
+              "productsServicesEn": [
+                "satellite broadband",
+                "secure/government communications"
+              ],
+              "sourceIds": [
+                "vsat-10k-2026"
+              ],
+              "listing": {
+                "status": "unknown"
+              },
+              "confidence": "medium"
+            }
+          ],
+          "level": 1,
+          "confidence": "medium",
+          "sourceIds": [
+            "vsat-10k-2026"
+          ]
+        },
+        {
+          "id": "downstream-2",
+          "title": "SpaceX / Starlink theme link",
+          "titleZh": "SpaceX / Starlink 主题关联",
+          "titleEn": "SpaceX / Starlink theme link",
+          "notes": "用于 IPO 主题归类，不代表披露的直接商业关系。",
+          "notesZh": "用于 IPO 主题归类，不代表披露的直接商业关系。",
+          "notesEn": "Used for IPO-theme classification, not as a disclosed direct commercial relationship.",
+          "entities": [
+            {
+              "name": "SpaceX / Starlink",
+              "nameZh": "SpaceX / Starlink",
+              "nameEn": "SpaceX / Starlink",
+              "customerRole": "未上市主题标的",
+              "customerRoleZh": "未上市主题标的",
+              "customerRoleEn": "Private theme anchor",
+              "relationship": "Viasat 与 Starlink 在卫星宽带和移动连接市场具有可比/竞争关系。",
+              "relationshipZh": "Viasat 与 Starlink 在卫星宽带和移动连接市场具有可比/竞争关系。",
+              "relationshipEn": "Viasat and Starlink are comparable/competitive in satellite broadband and mobility connectivity.",
+              "productsServices": [
+                "卫星宽带可比",
+                "航空/海事连接可比"
+              ],
+              "productsServicesZh": [
+                "卫星宽带可比",
+                "航空/海事连接可比"
+              ],
+              "productsServicesEn": [
+                "satellite-broadband comparable",
+                "aviation/maritime connectivity comparable"
+              ],
+              "sourceIds": [
+                "vsat-10k-2026"
+              ],
+              "listing": {
+                "status": "private"
+              },
+              "confidence": "medium"
+            }
+          ],
+          "level": 2,
+          "confidence": "medium",
+          "sourceIds": [
+            "vsat-10k-2026"
+          ]
+        }
+      ],
+      "updatedAt": "2026-06-11T18:30:00+08:00"
+    }
+  },
+  "financials": {
+    "latestPeriod": "FY2026, fiscal year ended 2026-03-31",
+    "latestPeriodZh": "FY2026，财年截至 2026-03-31",
+    "latestPeriodEn": "FY2026, fiscal year ended 2026-03-31",
+    "highlights": [
+      {
+        "label": "FY2026 收入",
+        "labelZh": "FY2026 收入",
+        "labelEn": "FY2026 revenue",
+        "value": 4.64028,
+        "unit": "USD billions",
+        "period": "截至 2026-03-31 的财年",
+        "periodZh": "截至 2026-03-31 的财年",
+        "periodEn": "Fiscal year ended 2026-03-31",
+        "sourceIds": [
+          "vsat-10k-2026",
+          "vsat-companyfacts"
+        ],
+        "change": "同比增长 2.67%",
+        "changeZh": "同比增长 2.67%",
+        "changeEn": "Up 2.67% year over year"
+      },
+      {
+        "label": "FY2026 净亏损",
+        "labelZh": "FY2026 净亏损",
+        "labelEn": "FY2026 net loss",
+        "value": -34.086,
+        "unit": "USD millions",
+        "period": "截至 2026-03-31 的财年",
+        "periodZh": "截至 2026-03-31 的财年",
+        "periodEn": "Fiscal year ended 2026-03-31",
+        "sourceIds": [
+          "vsat-10k-2026",
+          "vsat-companyfacts"
+        ],
+        "change": "亏损同比收窄 94.07%",
+        "changeZh": "亏损同比收窄 94.07%",
+        "changeEn": "Loss narrowed 94.07% year over year"
+      },
+      {
+        "label": "FY2026 经营利润",
+        "labelZh": "FY2026 经营利润",
+        "labelEn": "FY2026 operating income",
+        "value": 108.125,
+        "unit": "USD millions",
+        "period": "截至 2026-03-31 的财年",
+        "periodZh": "截至 2026-03-31 的财年",
+        "periodEn": "Fiscal year ended 2026-03-31",
+        "sourceIds": [
+          "vsat-10k-2026",
+          "vsat-companyfacts"
+        ],
+        "change": "上一财年为经营亏损 9,748 万美元",
+        "changeZh": "上一财年为经营亏损 9,748 万美元",
+        "changeEn": "Prior fiscal year was an operating loss of $97.48 million"
+      },
+      {
+        "label": "FY2026 经营现金流",
+        "labelZh": "FY2026 经营现金流",
+        "labelEn": "FY2026 operating cash flow",
+        "value": 1589.885,
+        "unit": "USD millions",
+        "period": "截至 2026-03-31 的财年",
+        "periodZh": "截至 2026-03-31 的财年",
+        "periodEn": "Fiscal year ended 2026-03-31",
+        "sourceIds": [
+          "vsat-10k-2026",
+          "vsat-companyfacts"
+        ],
+        "change": "同比增长 75.06%",
+        "changeZh": "同比增长 75.06%",
+        "changeEn": "Up 75.06% year over year"
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "卫星服务与移动连接",
+        "nameZh": "卫星服务与移动连接",
+        "nameEn": "Satellite services and mobility connectivity",
+        "note": "覆盖宽带、航空、海事和企业连接；本次未录入未经人工逐表复核的分部历史收入。",
+        "noteZh": "覆盖宽带、航空、海事和企业连接；本次未录入未经人工逐表复核的分部历史收入。",
+        "noteEn": "Covers broadband, aviation, maritime, and enterprise connectivity; this batch does not record segment historical revenue that was not table-reviewed manually.",
+        "sourceIds": [
+          "vsat-10k-2026"
+        ]
+      },
+      {
+        "name": "政府与国防通信",
+        "nameZh": "政府与国防通信",
+        "nameEn": "Government and defense communications",
+        "note": "安全通信和政府网络能力是与 SpaceX 政府/国防主题对比的重要板块。",
+        "noteZh": "安全通信和政府网络能力是与 SpaceX 政府/国防主题对比的重要板块。",
+        "noteEn": "Secure communications and government network capability are important for comparison with SpaceX government/defense themes.",
+        "sourceIds": [
+          "vsat-10k-2026"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "label": "年度收入",
+        "labelZh": "年度收入",
+        "labelEn": "Annual revenue",
+        "unit": "USD billions",
+        "points": [
+          {
+            "period": "FY2024",
+            "periodZh": "FY2024",
+            "periodEn": "FY2024",
+            "value": 4.283758
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "FY2025",
+            "periodEn": "FY2025",
+            "value": 4.519571
+          },
+          {
+            "period": "FY2026",
+            "periodZh": "FY2026",
+            "periodEn": "FY2026",
+            "value": 4.64028
+          }
+        ],
+        "note": "Viasat 财年截至 3 月 31 日；图中年度按公司财年列示。",
+        "noteZh": "Viasat 财年截至 3 月 31 日；图中年度按公司财年列示。",
+        "noteEn": "Viasat fiscal year ends March 31; annual periods are shown on the company fiscal-year basis.",
+        "sourceIds": [
+          "vsat-companyfacts"
+        ],
+        "id": "vsat-trend-1",
+        "cadence": "annual"
+      },
+      {
+        "label": "年度经营现金流",
+        "labelZh": "年度经营现金流",
+        "labelEn": "Annual operating cash flow",
+        "unit": "USD billions",
+        "points": [
+          {
+            "period": "FY2024",
+            "periodZh": "FY2024",
+            "periodEn": "FY2024",
+            "value": 0.688196
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "FY2025",
+            "periodEn": "FY2025",
+            "value": 0.908187
+          },
+          {
+            "period": "FY2026",
+            "periodZh": "FY2026",
+            "periodEn": "FY2026",
+            "value": 1.589885
+          }
+        ],
+        "note": "经营现金流改善是成熟卫星通信公司对比的重要指标。",
+        "noteZh": "经营现金流改善是成熟卫星通信公司对比的重要指标。",
+        "noteEn": "Operating-cash-flow improvement is an important benchmark for mature satellite-communications companies.",
+        "sourceIds": [
+          "vsat-companyfacts"
+        ],
+        "id": "vsat-trend-2",
+        "cadence": "annual"
+      }
+    ],
+    "revenueMixHistory": []
+  },
+  "news": [
+    {
+      "title": "Viasat 披露 FY2026 10-K",
+      "titleZh": "Viasat 披露 FY2026 10-K",
+      "titleEn": "Viasat filed FY2026 Form 10-K",
+      "date": "2026-05-29",
+      "category": "年度业绩",
+      "categoryZh": "年度业绩",
+      "categoryEn": "Annual results",
+      "summary": "FY2026 收入为 46.4028 亿美元，净亏损为 3,408.6 万美元，经营现金流为 15.89885 亿美元。",
+      "summaryZh": "FY2026 收入为 46.4028 亿美元，净亏损为 3,408.6 万美元，经营现金流为 15.89885 亿美元。",
+      "summaryEn": "FY2026 revenue was $4.64028 billion, net loss was $34.086 million, and operating cash flow was $1.589885 billion.",
+      "impact": "为 Starlink 宽带与移动连接业务提供大型上市可比样本。",
+      "impactZh": "为 Starlink 宽带与移动连接业务提供大型上市可比样本。",
+      "impactEn": "Provides a large public comparable for Starlink broadband and mobility connectivity.",
+      "sourceIds": [
+        "vsat-10k-2026",
+        "vsat-companyfacts"
+      ]
+    },
+    {
+      "title": "FY2026 经营利润转正",
+      "titleZh": "FY2026 经营利润转正",
+      "titleEn": "FY2026 operating income turned positive",
+      "date": "2026-05-29",
+      "category": "盈利能力",
+      "categoryZh": "盈利能力",
+      "categoryEn": "Profitability",
+      "summary": "FY2026 经营利润为 1.08125 亿美元，上年为经营亏损 9,748 万美元。",
+      "summaryZh": "FY2026 经营利润为 1.08125 亿美元，上年为经营亏损 9,748 万美元。",
+      "summaryEn": "FY2026 operating income was $108.125 million versus a $97.48 million operating loss in the prior year.",
+      "impact": "成熟卫星通信公司经营杠杆改善，可作为 Starlink 盈利路径对照。",
+      "impactZh": "成熟卫星通信公司经营杠杆改善，可作为 Starlink 盈利路径对照。",
+      "impactEn": "Operating leverage improved at a mature satellite-communications company, offering a reference point for Starlink profitability-path analysis.",
+      "sourceIds": [
+        "vsat-10k-2026",
+        "vsat-companyfacts"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "10-K",
+      "filedAt": "2026-05-29",
+      "reportDate": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312526248290/vsat-20260331.htm",
+      "title": "Viasat, Inc. 10-K 2026-03-31"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-02-06",
+      "reportDate": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312526041421/vsat-20251231.htm",
+      "title": "Viasat, Inc. 10-Q 2025-12-31"
+    }
+  ],
+  "sources": [
+    {
+      "id": "vsat-10k-2026",
+      "title": "Viasat, Inc. Form 10-K for period ended 2026-03-31",
+      "titleZh": "Viasat, Inc. Form 10-K for period ended 2026-03-31",
+      "titleEn": "Viasat, Inc. Form 10-K for period ended 2026-03-31",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312526248290/vsat-20260331.htm",
+      "publishedAt": "2026-05-29",
+      "accessedAt": "2026-06-11",
+      "type": "sec"
+    },
+    {
+      "id": "vsat-10q-2026q3",
+      "title": "Viasat, Inc. Form 10-Q for period ended 2025-12-31",
+      "titleZh": "Viasat, Inc. Form 10-Q for period ended 2025-12-31",
+      "titleEn": "Viasat, Inc. Form 10-Q for period ended 2025-12-31",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312526041421/vsat-20251231.htm",
+      "publishedAt": "2026-02-06",
+      "accessedAt": "2026-06-11",
+      "type": "sec"
+    },
+    {
+      "id": "vsat-companyfacts",
+      "title": "SEC EDGAR companyfacts API for Viasat, Inc.",
+      "titleZh": "SEC EDGAR companyfacts API for Viasat, Inc.",
+      "titleEn": "SEC EDGAR companyfacts API for Viasat, Inc.",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000797721.json",
+      "publishedAt": "2026-06-11",
+      "accessedAt": "2026-06-11",
+      "type": "sec"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0000797721",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K"
+      ]
+    },
+    "scheduled": false
+  }
+}

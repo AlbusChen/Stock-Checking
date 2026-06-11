@@ -1,0 +1,758 @@
+{
+  "schemaVersion": 1,
+  "id": "gsat",
+  "ticker": "GSAT",
+  "exchange": "NASDAQ",
+  "market": "US",
+  "name": "Globalstar / 全球星",
+  "legalName": "Globalstar, Inc.",
+  "cik": "0001366868",
+  "currency": "USD",
+  "sector": "Satellite Communications / 卫星通信",
+  "industry": [
+    "Mobile satellite services",
+    "Satellite IoT",
+    "Direct-to-device connectivity",
+    "移动卫星服务",
+    "卫星物联网",
+    "卫星直连设备"
+  ],
+  "homepage": "https://www.globalstar.com/",
+  "lastUpdated": "2026-06-11T18:45:00+08:00",
+  "summary": "Globalstar 提供移动卫星服务、IoT 连接和卫星/频谱资产相关服务，是 Starlink 直连设备与移动卫星服务主题下的上市可比公司。",
+  "summaryZh": "Globalstar 提供移动卫星服务、IoT 连接和卫星/频谱资产相关服务，是 Starlink 直连设备与移动卫星服务主题下的上市可比公司。",
+  "summaryEn": "Globalstar provides mobile satellite services, IoT connectivity, and satellite/spectrum-asset related services, making it a public comparable for Starlink direct-to-device and mobile-satellite-service themes.",
+  "aliases": [
+    "Globalstar",
+    "全球星",
+    "GSAT"
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "overview": "公司通过卫星网络和频谱资产提供移动卫星通信、IoT 和批发容量等服务。",
+    "overviewZh": "公司通过卫星网络和频谱资产提供移动卫星通信、IoT 和批发容量等服务。",
+    "overviewEn": "The company uses its satellite network and spectrum assets to provide mobile satellite communications, IoT, and wholesale-capacity services.",
+    "segments": [
+      {
+        "name": "批发容量与服务",
+        "nameZh": "批发容量与服务",
+        "nameEn": "Wholesale capacity and services",
+        "description": "向大型合作方或服务商提供卫星容量/连接能力。",
+        "descriptionZh": "向大型合作方或服务商提供卫星容量/连接能力。",
+        "descriptionEn": "Provides satellite capacity/connectivity capabilities to large partners or service providers.",
+        "sourceIds": [
+          "gsat-10k-2025"
+        ]
+      },
+      {
+        "name": "IoT 与传统移动卫星服务",
+        "nameZh": "IoT 与传统移动卫星服务",
+        "nameEn": "IoT and legacy mobile satellite services",
+        "description": "面向资产跟踪、应急和移动连接场景。",
+        "descriptionZh": "面向资产跟踪、应急和移动连接场景。",
+        "descriptionEn": "Targets asset tracking, emergency, and mobile-connectivity use cases.",
+        "sourceIds": [
+          "gsat-10k-2025"
+        ]
+      }
+    ],
+    "description": "公司通过卫星网络和频谱资产提供移动卫星通信、IoT 和批发容量等服务。",
+    "descriptionZh": "公司通过卫星网络和频谱资产提供移动卫星通信、IoT 和批发容量等服务。",
+    "descriptionEn": "The company uses its satellite network and spectrum assets to provide mobile satellite communications, IoT, and wholesale-capacity services.",
+    "revenueModel": [
+      "批发容量与服务 / Wholesale capacity and services",
+      "IoT 与传统移动卫星服务 / IoT and legacy mobile satellite services"
+    ],
+    "thesis": "Globalstar 提供移动卫星服务、IoT 连接和卫星/频谱资产相关服务，是 Starlink 直连设备与移动卫星服务主题下的上市可比公司。",
+    "thesisZh": "Globalstar 提供移动卫星服务、IoT 连接和卫星/频谱资产相关服务，是 Starlink 直连设备与移动卫星服务主题下的上市可比公司。",
+    "thesisEn": "Globalstar provides mobile satellite services, IoT connectivity, and satellite/spectrum-asset related services, making it a public comparable for Starlink direct-to-device and mobile-satellite-service themes.",
+    "riskNotes": [
+      "卫星网络维护、终端生态和客户续约会影响收入质量。",
+      "SpaceX/Starlink 关系按主题可比处理，不代表直接商业关系。"
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-11T18:45:00+08:00",
+    "thesis": "Globalstar 上游包括卫星制造/发射、地面网络、用户终端、通信芯片模组和频谱/监管资源；原材料层包括射频半导体、天线材料、电池和航天结构材料。",
+    "thesisZh": "Globalstar 上游包括卫星制造/发射、地面网络、用户终端、通信芯片模组和频谱/监管资源；原材料层包括射频半导体、天线材料、电池和航天结构材料。",
+    "thesisEn": "Globalstar's upstream layers include satellite manufacturing/launch, ground networks, user terminals, communications chip modules, and spectrum/regulatory resources; raw materials include RF semiconductors, antenna materials, batteries, and spacecraft structural materials.",
+    "tiers": [
+      {
+        "id": "tier-0",
+        "title": "Target company",
+        "titleZh": "目标公司",
+        "titleEn": "Target company",
+        "entities": [
+          {
+            "name": "Globalstar / 全球星",
+            "nameZh": "Globalstar / 全球星",
+            "nameEn": "Globalstar, Inc.",
+            "relationship": "目标公司；公司通过卫星网络和频谱资产提供移动卫星通信、IoT 和批发容量等服务。",
+            "relationshipZh": "目标公司；公司通过卫星网络和频谱资产提供移动卫星通信、IoT 和批发容量等服务。",
+            "relationshipEn": "Target company; The company uses its satellite network and spectrum assets to provide mobile satellite communications, IoT, and wholesale-capacity services.",
+            "productsServices": [
+              "批发容量与服务",
+              "IoT 与传统移动卫星服务"
+            ],
+            "productsServicesZh": [
+              "批发容量与服务",
+              "IoT 与传统移动卫星服务"
+            ],
+            "productsServicesEn": [
+              "Wholesale capacity and services",
+              "IoT and legacy mobile satellite services"
+            ],
+            "sourceIds": [
+              "gsat-10k-2025"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "GSAT",
+              "exchange": "NASDAQ",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/gsat"
+            },
+            "confidence": "high"
+          }
+        ],
+        "level": 0,
+        "companies": [
+          "Globalstar / 全球星"
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "射频半导体材料",
+          "天线金属与陶瓷",
+          "电池材料"
+        ],
+        "materialsZh": [
+          "射频半导体材料",
+          "天线金属与陶瓷",
+          "电池材料"
+        ],
+        "materialsEn": [
+          "RF semiconductor materials",
+          "Antenna metals and ceramics",
+          "Battery materials"
+        ],
+        "notes": "目标公司本身。",
+        "notesZh": "目标公司本身。",
+        "notesEn": "Target company itself.",
+        "confidence": "high",
+        "sourceIds": [
+          "gsat-10k-2025"
+        ]
+      },
+      {
+        "id": "tier-1",
+        "title": "Critical upstream inputs",
+        "titleZh": "关键上游投入",
+        "titleEn": "Critical upstream inputs",
+        "entities": [
+          {
+            "name": "卫星、发射与地面网络供应链",
+            "nameZh": "卫星、发射与地面网络供应链",
+            "nameEn": "Satellite, launch, and ground-network supply chain",
+            "relationship": "支撑卫星平台、入轨服务、地面站/网关、网络运营和服务可用性；具体企业需合同披露后逐项确认。",
+            "relationshipZh": "支撑卫星平台、入轨服务、地面站/网关、网络运营和服务可用性；具体企业需合同披露后逐项确认。",
+            "relationshipEn": "Supports satellite platforms, access to orbit, ground stations/gateways, network operations, and service availability; specific companies should be confirmed contract by contract when disclosed.",
+            "productsServices": [
+              "卫星平台",
+              "发射服务",
+              "地面站与网关"
+            ],
+            "productsServicesZh": [
+              "卫星平台",
+              "发射服务",
+              "地面站与网关"
+            ],
+            "productsServicesEn": [
+              "satellite platforms",
+              "launch services",
+              "ground stations and gateways"
+            ],
+            "sourceIds": [
+              "gsat-10k-2025"
+            ],
+            "listing": {
+              "status": "unknown"
+            },
+            "confidence": "medium"
+          },
+          {
+            "name": "终端、天线、射频与通信模组供应链",
+            "nameZh": "终端、天线、射频与通信模组供应链",
+            "nameEn": "Terminal, antenna, RF, and communications-module supply chain",
+            "relationship": "终端设备、天线、调制解调器、射频部件和通信芯片模组是连接服务落地的关键投入。",
+            "relationshipZh": "终端设备、天线、调制解调器、射频部件和通信芯片模组是连接服务落地的关键投入。",
+            "relationshipEn": "Terminals, antennas, modems, RF components, and communications chip modules are key inputs for connectivity services.",
+            "productsServices": [
+              "用户终端",
+              "天线/RF 部件",
+              "通信模组"
+            ],
+            "productsServicesZh": [
+              "用户终端",
+              "天线/RF 部件",
+              "通信模组"
+            ],
+            "productsServicesEn": [
+              "user terminals",
+              "antenna/RF components",
+              "communications modules"
+            ],
+            "sourceIds": [
+              "gsat-10k-2025"
+            ],
+            "listing": {
+              "status": "unknown"
+            },
+            "confidence": "medium"
+          }
+        ],
+        "level": 1,
+        "companies": [
+          "卫星、发射与地面网络供应链",
+          "终端、天线、射频与通信模组供应链"
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "射频半导体材料",
+          "天线金属与陶瓷",
+          "电池材料"
+        ],
+        "materialsZh": [
+          "射频半导体材料",
+          "天线金属与陶瓷",
+          "电池材料"
+        ],
+        "materialsEn": [
+          "RF semiconductor materials",
+          "Antenna metals and ceramics",
+          "Battery materials"
+        ],
+        "notes": "供应商以类别呈现；具名上市公司需在合同或年报明确披露后再升级。",
+        "notesZh": "供应商以类别呈现；具名上市公司需在合同或年报明确披露后再升级。",
+        "notesEn": "Suppliers are shown by category; named listed companies should be upgraded only after contract or annual-report disclosure.",
+        "confidence": "medium",
+        "sourceIds": [
+          "gsat-10k-2025"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "射频半导体材料",
+        "nameZh": "射频半导体材料",
+        "nameEn": "RF semiconductor materials",
+        "usedIn": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInZh": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInEn": "Used in satellite platforms, antennas, RF links, terminals, or power systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity materials and specialty-chemical processing"
+        ],
+        "risk": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskZh": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskEn": "Availability can be affected by price, qualification cycles, geopolitical supply, and space-grade reliability requirements.",
+        "confidence": "medium"
+      },
+      {
+        "name": "天线金属与陶瓷",
+        "nameZh": "天线金属与陶瓷",
+        "nameEn": "Antenna metals and ceramics",
+        "usedIn": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInZh": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInEn": "Used in satellite platforms, antennas, RF links, terminals, or power systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity materials and specialty-chemical processing"
+        ],
+        "risk": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskZh": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskEn": "Availability can be affected by price, qualification cycles, geopolitical supply, and space-grade reliability requirements.",
+        "confidence": "medium"
+      },
+      {
+        "name": "电池材料",
+        "nameZh": "电池材料",
+        "nameEn": "Battery materials",
+        "usedIn": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInZh": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInEn": "Used in satellite platforms, antennas, RF links, terminals, or power systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity materials and specialty-chemical processing"
+        ],
+        "risk": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskZh": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskEn": "Availability can be affected by price, qualification cycles, geopolitical supply, and space-grade reliability requirements.",
+        "confidence": "medium"
+      },
+      {
+        "name": "航天器结构材料",
+        "nameZh": "航天器结构材料",
+        "nameEn": "Spacecraft structural materials",
+        "usedIn": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInZh": "用于卫星平台、天线、射频链路、终端或电源系统。",
+        "usedInEn": "Used in satellite platforms, antennas, RF links, terminals, or power systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity materials and specialty-chemical processing"
+        ],
+        "risk": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskZh": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskEn": "Availability can be affected by price, qualification cycles, geopolitical supply, and space-grade reliability requirements.",
+        "confidence": "medium"
+      }
+    ],
+    "downstream": {
+      "thesis": "Globalstar 的下游包括批发容量客户、设备生态、IoT 和应急/移动连接用户；与 Starlink 的关联主要在直连设备和移动卫星服务主题。",
+      "thesisZh": "Globalstar 的下游包括批发容量客户、设备生态、IoT 和应急/移动连接用户；与 Starlink 的关联主要在直连设备和移动卫星服务主题。",
+      "thesisEn": "Globalstar's downstream includes wholesale-capacity customers, device ecosystems, IoT, and emergency/mobile-connectivity users; its Starlink link is mainly in direct-to-device and mobile satellite service themes.",
+      "tiers": [
+        {
+          "id": "downstream-1",
+          "title": "Customers and end markets",
+          "titleZh": "客户与终端市场",
+          "titleEn": "Customers and end markets",
+          "notes": "按公司披露的业务场景归类，非完整客户名单。",
+          "notesZh": "按公司披露的业务场景归类，非完整客户名单。",
+          "notesEn": "Grouped by disclosed business use cases, not a full customer list.",
+          "entities": [
+            {
+              "name": "大型设备/平台合作方",
+              "nameZh": "大型设备/平台合作方",
+              "nameEn": "Large device/platform partners",
+              "customerRole": "合作客户/渠道",
+              "customerRoleZh": "合作客户/渠道",
+              "customerRoleEn": "Partner customers/channels",
+              "relationship": "通过卫星容量或连接能力服务终端设备用户；具体商业条款以披露文件为准。",
+              "relationshipZh": "通过卫星容量或连接能力服务终端设备用户；具体商业条款以披露文件为准。",
+              "relationshipEn": "Serve end-device users through satellite capacity or connectivity capability; specific commercial terms depend on disclosed filings.",
+              "productsServices": [
+                "卫星容量",
+                "设备生态连接"
+              ],
+              "productsServicesZh": [
+                "卫星容量",
+                "设备生态连接"
+              ],
+              "productsServicesEn": [
+                "satellite capacity",
+                "device-ecosystem connectivity"
+              ],
+              "sourceIds": [
+                "gsat-10k-2025"
+              ],
+              "listing": {
+                "status": "unknown"
+              },
+              "confidence": "medium"
+            },
+            {
+              "name": "IoT、应急与移动连接用户",
+              "nameZh": "IoT、应急与移动连接用户",
+              "nameEn": "IoT, emergency, and mobile-connectivity users",
+              "customerRole": "最终需求",
+              "customerRoleZh": "最终需求",
+              "customerRoleEn": "End demand",
+              "relationship": "使用低带宽、覆盖广、韧性连接服务。",
+              "relationshipZh": "使用低带宽、覆盖广、韧性连接服务。",
+              "relationshipEn": "Use low-bandwidth, broad-coverage, resilient connectivity services.",
+              "productsServices": [
+                "资产跟踪",
+                "应急连接",
+                "移动卫星服务"
+              ],
+              "productsServicesZh": [
+                "资产跟踪",
+                "应急连接",
+                "移动卫星服务"
+              ],
+              "productsServicesEn": [
+                "asset tracking",
+                "emergency connectivity",
+                "mobile satellite services"
+              ],
+              "sourceIds": [
+                "gsat-10k-2025"
+              ],
+              "listing": {
+                "status": "unknown"
+              },
+              "confidence": "medium"
+            }
+          ],
+          "level": 1,
+          "confidence": "medium",
+          "sourceIds": [
+            "gsat-10k-2025"
+          ]
+        },
+        {
+          "id": "downstream-2",
+          "title": "SpaceX / Starlink theme link",
+          "titleZh": "SpaceX / Starlink 主题关联",
+          "titleEn": "SpaceX / Starlink theme link",
+          "notes": "用于 IPO 主题归类，不代表披露的直接商业关系。",
+          "notesZh": "用于 IPO 主题归类，不代表披露的直接商业关系。",
+          "notesEn": "Used for IPO-theme classification, not as a disclosed direct commercial relationship.",
+          "entities": [
+            {
+              "name": "SpaceX / Starlink",
+              "nameZh": "SpaceX / Starlink",
+              "nameEn": "SpaceX / Starlink",
+              "customerRole": "未上市主题标的",
+              "customerRoleZh": "未上市主题标的",
+              "customerRoleEn": "Private theme anchor",
+              "relationship": "Globalstar 与 Starlink 均涉及设备生态与移动卫星连接，但网络架构和商业模式不同。",
+              "relationshipZh": "Globalstar 与 Starlink 均涉及设备生态与移动卫星连接，但网络架构和商业模式不同。",
+              "relationshipEn": "Globalstar and Starlink both touch device ecosystems and mobile satellite connectivity, but their network architectures and business models differ.",
+              "productsServices": [
+                "直连设备可比",
+                "移动卫星服务可比"
+              ],
+              "productsServicesZh": [
+                "直连设备可比",
+                "移动卫星服务可比"
+              ],
+              "productsServicesEn": [
+                "direct-to-device comparable",
+                "mobile satellite service comparable"
+              ],
+              "sourceIds": [
+                "gsat-10k-2025"
+              ],
+              "listing": {
+                "status": "private"
+              },
+              "confidence": "medium"
+            }
+          ],
+          "level": 2,
+          "confidence": "medium",
+          "sourceIds": [
+            "gsat-10k-2025"
+          ]
+        }
+      ],
+      "updatedAt": "2026-06-11T18:30:00+08:00"
+    }
+  },
+  "financials": {
+    "latestPeriod": "Q1 2026; annual baseline FY2025",
+    "latestPeriodZh": "2026 年一季度；年度基准为 FY2025",
+    "latestPeriodEn": "Q1 2026; annual baseline FY2025",
+    "highlights": [
+      {
+        "label": "Q1 2026 收入",
+        "labelZh": "Q1 2026 收入",
+        "labelEn": "Q1 2026 revenue",
+        "value": 0.070064,
+        "unit": "USD billions",
+        "period": "截至 2026-03-31 的季度",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "gsat-10q-2026q1",
+          "gsat-companyfacts"
+        ],
+        "change": "同比增长 16.71%",
+        "changeZh": "同比增长 16.71%",
+        "changeEn": "Up 16.71% year over year"
+      },
+      {
+        "label": "Q1 2026 净亏损",
+        "labelZh": "Q1 2026 净亏损",
+        "labelEn": "Q1 2026 net loss",
+        "value": -17.42,
+        "unit": "USD millions",
+        "period": "截至 2026-03-31 的季度",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "gsat-10q-2026q1",
+          "gsat-companyfacts"
+        ],
+        "change": "亏损同比扩大 0.51%",
+        "changeZh": "亏损同比扩大 0.51%",
+        "changeEn": "Loss widened 0.51% year over year"
+      },
+      {
+        "label": "FY2025 收入",
+        "labelZh": "FY2025 收入",
+        "labelEn": "FY2025 revenue",
+        "value": 0.272986,
+        "unit": "USD billions",
+        "period": "截至 2025-12-31 的年度",
+        "periodZh": "截至 2025-12-31 的年度",
+        "periodEn": "Year ended 2025-12-31",
+        "sourceIds": [
+          "gsat-10k-2025",
+          "gsat-companyfacts"
+        ],
+        "change": "同比增长 9.04%",
+        "changeZh": "同比增长 9.04%",
+        "changeEn": "Up 9.04% year over year"
+      },
+      {
+        "label": "FY2025 经营现金流",
+        "labelZh": "FY2025 经营现金流",
+        "labelEn": "FY2025 operating cash flow",
+        "value": 621.65,
+        "unit": "USD millions",
+        "period": "截至 2025-12-31 的年度",
+        "periodZh": "截至 2025-12-31 的年度",
+        "periodEn": "Year ended 2025-12-31",
+        "sourceIds": [
+          "gsat-10k-2025",
+          "gsat-companyfacts"
+        ],
+        "change": "同比增长 41.54%",
+        "changeZh": "同比增长 41.54%",
+        "changeEn": "Up 41.54% year over year"
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "批发容量与服务",
+        "nameZh": "批发容量与服务",
+        "nameEn": "Wholesale capacity and services",
+        "note": "面向大型合作方和服务商的卫星容量/服务；历史分部收入需进一步复核后再加入百分比图。",
+        "noteZh": "面向大型合作方和服务商的卫星容量/服务；历史分部收入需进一步复核后再加入百分比图。",
+        "noteEn": "Satellite capacity/services for large partners and service providers; historical segment revenue needs further review before adding percentage charts.",
+        "sourceIds": [
+          "gsat-10k-2025"
+        ]
+      },
+      {
+        "name": "IoT 与移动卫星服务",
+        "nameZh": "IoT 与移动卫星服务",
+        "nameEn": "IoT and mobile satellite services",
+        "note": "覆盖资产跟踪、应急和移动连接场景。",
+        "noteZh": "覆盖资产跟踪、应急和移动连接场景。",
+        "noteEn": "Covers asset tracking, emergency, and mobile-connectivity use cases.",
+        "sourceIds": [
+          "gsat-10k-2025"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "label": "年度收入",
+        "labelZh": "年度收入",
+        "labelEn": "Annual revenue",
+        "unit": "USD billions",
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "FY2023",
+            "periodEn": "FY2023",
+            "value": 0.223808
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "FY2024",
+            "periodEn": "FY2024",
+            "value": 0.250349
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "FY2025",
+            "periodEn": "FY2025",
+            "value": 0.272986
+          }
+        ],
+        "note": "收入连续增长。",
+        "noteZh": "收入连续增长。",
+        "noteEn": "Revenue increased each year.",
+        "sourceIds": [
+          "gsat-companyfacts"
+        ],
+        "id": "gsat-trend-1",
+        "cadence": "annual"
+      },
+      {
+        "label": "年度经营现金流",
+        "labelZh": "年度经营现金流",
+        "labelEn": "Annual operating cash flow",
+        "unit": "USD millions",
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "FY2023",
+            "periodEn": "FY2023",
+            "value": 74.341
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "FY2024",
+            "periodEn": "FY2024",
+            "value": 439.192
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "FY2025",
+            "periodEn": "FY2025",
+            "value": 621.65
+          }
+        ],
+        "note": "经营现金流增长明显，需结合批发容量和资本支出周期解读。",
+        "noteZh": "经营现金流增长明显，需结合批发容量和资本支出周期解读。",
+        "noteEn": "Operating cash flow grew materially and should be read alongside wholesale capacity and capital-expenditure cycles.",
+        "sourceIds": [
+          "gsat-companyfacts"
+        ],
+        "id": "gsat-trend-2",
+        "cadence": "annual"
+      }
+    ],
+    "revenueMixHistory": []
+  },
+  "news": [
+    {
+      "title": "Globalstar 披露 2026 年一季度 10-Q",
+      "titleZh": "Globalstar 披露 2026 年一季度 10-Q",
+      "titleEn": "Globalstar filed Q1 2026 Form 10-Q",
+      "date": "2026-05-07",
+      "category": "财务披露",
+      "categoryZh": "财务披露",
+      "categoryEn": "Financial filing",
+      "summary": "Q1 2026 收入为 7,006.4 万美元，净亏损为 1,742.0 万美元。",
+      "summaryZh": "Q1 2026 收入为 7,006.4 万美元，净亏损为 1,742.0 万美元。",
+      "summaryEn": "Q1 2026 revenue was $70.064 million and net loss was $17.42 million.",
+      "impact": "为直连设备和移动卫星服务主题提供最新上市公司样本。",
+      "impactZh": "为直连设备和移动卫星服务主题提供最新上市公司样本。",
+      "impactEn": "Provides a recent public-company sample for direct-to-device and mobile-satellite-service themes.",
+      "sourceIds": [
+        "gsat-10q-2026q1",
+        "gsat-companyfacts"
+      ]
+    },
+    {
+      "title": "FY2025 收入和经营现金流增长",
+      "titleZh": "FY2025 收入和经营现金流增长",
+      "titleEn": "FY2025 revenue and operating cash flow increased",
+      "date": "2026-02-27",
+      "category": "年度业绩",
+      "categoryZh": "年度业绩",
+      "categoryEn": "Annual results",
+      "summary": "FY2025 收入为 2.72986 亿美元，经营现金流为 6.21650 亿美元。",
+      "summaryZh": "FY2025 收入为 2.72986 亿美元，经营现金流为 6.21650 亿美元。",
+      "summaryEn": "FY2025 revenue was $272.986 million and operating cash flow was $621.650 million.",
+      "impact": "现金流增长使其成为卫星容量/直连设备主题的重要对照。",
+      "impactZh": "现金流增长使其成为卫星容量/直连设备主题的重要对照。",
+      "impactEn": "Cash-flow growth makes it a relevant benchmark for satellite-capacity/direct-to-device themes.",
+      "sourceIds": [
+        "gsat-10k-2025",
+        "gsat-companyfacts"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "10-Q",
+      "filedAt": "2026-05-07",
+      "reportDate": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1366868/000136686826000029/gsat-20260331.htm",
+      "title": "Globalstar, Inc. 10-Q 2026-03-31"
+    },
+    {
+      "form": "10-K",
+      "filedAt": "2026-02-27",
+      "reportDate": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1366868/000136686826000012/gsat-20251231.htm",
+      "title": "Globalstar, Inc. 10-K 2025-12-31"
+    }
+  ],
+  "sources": [
+    {
+      "id": "gsat-10q-2026q1",
+      "title": "Globalstar, Inc. Form 10-Q for period ended 2026-03-31",
+      "titleZh": "Globalstar, Inc. Form 10-Q for period ended 2026-03-31",
+      "titleEn": "Globalstar, Inc. Form 10-Q for period ended 2026-03-31",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1366868/000136686826000029/gsat-20260331.htm",
+      "publishedAt": "2026-05-07",
+      "accessedAt": "2026-06-11",
+      "type": "sec"
+    },
+    {
+      "id": "gsat-10k-2025",
+      "title": "Globalstar, Inc. Form 10-K for period ended 2025-12-31",
+      "titleZh": "Globalstar, Inc. Form 10-K for period ended 2025-12-31",
+      "titleEn": "Globalstar, Inc. Form 10-K for period ended 2025-12-31",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1366868/000136686826000012/gsat-20251231.htm",
+      "publishedAt": "2026-02-27",
+      "accessedAt": "2026-06-11",
+      "type": "sec"
+    },
+    {
+      "id": "gsat-companyfacts",
+      "title": "SEC EDGAR companyfacts API for Globalstar, Inc.",
+      "titleZh": "SEC EDGAR companyfacts API for Globalstar, Inc.",
+      "titleEn": "SEC EDGAR companyfacts API for Globalstar, Inc.",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001366868.json",
+      "publishedAt": "2026-06-11",
+      "accessedAt": "2026-06-11",
+      "type": "sec"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0001366868",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K"
+      ]
+    },
+    "scheduled": false
+  }
+}

@@ -1,0 +1,755 @@
+{
+  "schemaVersion": 1,
+  "id": "rklb",
+  "ticker": "RKLB",
+  "exchange": "NASDAQ",
+  "market": "US",
+  "name": "Rocket Lab / 火箭实验室",
+  "legalName": "Rocket Lab Corp",
+  "cik": "0001819994",
+  "currency": "USD",
+  "sector": "Aerospace & Defense / 航空航天与国防",
+  "industry": [
+    "Launch services",
+    "Space systems",
+    "Small launch vehicles",
+    "卫星发射服务",
+    "空间系统"
+  ],
+  "homepage": "https://www.rocketlabusa.com/",
+  "lastUpdated": "2026-06-11T18:45:00+08:00",
+  "summary": "Rocket Lab 是一家上市航天公司，业务覆盖 Electron 发射服务、Neutron 研发以及卫星/航天器系统。它不是 SpaceX 的直接上市替代品，但在 SpaceX IPO 主题中可作为发射与空间系统环节的公开可比公司。",
+  "summaryZh": "Rocket Lab 是一家上市航天公司，业务覆盖 Electron 发射服务、Neutron 研发以及卫星/航天器系统。它不是 SpaceX 的直接上市替代品，但在 SpaceX IPO 主题中可作为发射与空间系统环节的公开可比公司。",
+  "summaryEn": "Rocket Lab is a public space company with Electron launch services, Neutron development, and spacecraft/space-systems businesses. It is not a direct public substitute for SpaceX, but it is a public comparable for the launch and space-systems layer of a SpaceX IPO theme.",
+  "aliases": [
+    "Rocket Lab",
+    "火箭实验室",
+    "RKLB",
+    "Rocket Lab USA"
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "overview": "公司通过发射服务与空间系统两条主线服务商业、政府和国防航天客户。",
+    "overviewZh": "公司通过发射服务与空间系统两条主线服务商业、政府和国防航天客户。",
+    "overviewEn": "The company serves commercial, government, and defense space customers through launch services and space systems.",
+    "segments": [
+      {
+        "name": "发射服务",
+        "nameZh": "发射服务",
+        "nameEn": "Launch Services",
+        "description": "Electron 小型运载火箭商业发射，并推进 Neutron 中型运载火箭研发。",
+        "descriptionZh": "Electron 小型运载火箭商业发射，并推进 Neutron 中型运载火箭研发。",
+        "descriptionEn": "Commercial Electron small-launch missions and Neutron medium-launch development.",
+        "sourceIds": [
+          "rklb-10k-2025"
+        ]
+      },
+      {
+        "name": "空间系统",
+        "nameZh": "空间系统",
+        "nameEn": "Space Systems",
+        "description": "航天器、卫星组件、任务运营与相关空间系统产品。",
+        "descriptionZh": "航天器、卫星组件、任务运营与相关空间系统产品。",
+        "descriptionEn": "Spacecraft, satellite components, mission operations, and related space-system products.",
+        "sourceIds": [
+          "rklb-10k-2025"
+        ]
+      }
+    ],
+    "description": "公司通过发射服务与空间系统两条主线服务商业、政府和国防航天客户。",
+    "descriptionZh": "公司通过发射服务与空间系统两条主线服务商业、政府和国防航天客户。",
+    "descriptionEn": "The company serves commercial, government, and defense space customers through launch services and space systems.",
+    "revenueModel": [
+      "发射服务 / Launch Services",
+      "空间系统 / Space Systems"
+    ],
+    "thesis": "Rocket Lab 是一家上市航天公司，业务覆盖 Electron 发射服务、Neutron 研发以及卫星/航天器系统。它不是 SpaceX 的直接上市替代品，但在 SpaceX IPO 主题中可作为发射与空间系统环节的公开可比公司。",
+    "thesisZh": "Rocket Lab 是一家上市航天公司，业务覆盖 Electron 发射服务、Neutron 研发以及卫星/航天器系统。它不是 SpaceX 的直接上市替代品，但在 SpaceX IPO 主题中可作为发射与空间系统环节的公开可比公司。",
+    "thesisEn": "Rocket Lab is a public space company with Electron launch services, Neutron development, and spacecraft/space-systems businesses. It is not a direct public substitute for SpaceX, but it is a public comparable for the launch and space-systems layer of a SpaceX IPO theme.",
+    "riskNotes": [
+      "增长与亏损并存，Neutron 和空间系统投入会影响现金流。",
+      "发射排期、任务成功率和政府/商业订单节奏是关键变量。"
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-11T18:45:00+08:00",
+    "thesis": "SpaceX IPO 主题下，Rocket Lab 主要代表发射能力与空间系统制造环节；上游关键约束来自发动机/结构件、电子元器件、复合材料和地面/发射场资源。",
+    "thesisZh": "SpaceX IPO 主题下，Rocket Lab 主要代表发射能力与空间系统制造环节；上游关键约束来自发动机/结构件、电子元器件、复合材料和地面/发射场资源。",
+    "thesisEn": "For a SpaceX IPO theme, Rocket Lab mainly represents launch capability and space-system manufacturing; key upstream constraints include propulsion/structures, electronics, composites, and launch-site/ground resources.",
+    "tiers": [
+      {
+        "id": "tier-0",
+        "title": "Target company",
+        "titleZh": "目标公司",
+        "titleEn": "Target company",
+        "entities": [
+          {
+            "name": "Rocket Lab / 火箭实验室",
+            "nameZh": "Rocket Lab / 火箭实验室",
+            "nameEn": "Rocket Lab Corp",
+            "relationship": "目标公司；公司通过发射服务与空间系统两条主线服务商业、政府和国防航天客户。",
+            "relationshipZh": "目标公司；公司通过发射服务与空间系统两条主线服务商业、政府和国防航天客户。",
+            "relationshipEn": "Target company; The company serves commercial, government, and defense space customers through launch services and space systems.",
+            "productsServices": [
+              "发射服务",
+              "空间系统"
+            ],
+            "productsServicesZh": [
+              "发射服务",
+              "空间系统"
+            ],
+            "productsServicesEn": [
+              "Launch Services",
+              "Space Systems"
+            ],
+            "sourceIds": [
+              "rklb-10k-2025"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "RKLB",
+              "exchange": "NASDAQ",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/rklb"
+            },
+            "confidence": "high"
+          }
+        ],
+        "level": 0,
+        "companies": [
+          "Rocket Lab / 火箭实验室"
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "铝合金",
+          "钛与镍基合金",
+          "碳纤维复合材料"
+        ],
+        "materialsZh": [
+          "铝合金",
+          "钛与镍基合金",
+          "碳纤维复合材料"
+        ],
+        "materialsEn": [
+          "Aluminum alloys",
+          "Titanium and nickel alloys",
+          "Carbon fiber composites"
+        ],
+        "notes": "目标公司本身。",
+        "notesZh": "目标公司本身。",
+        "notesEn": "Target company itself.",
+        "confidence": "high",
+        "sourceIds": [
+          "rklb-10k-2025"
+        ]
+      },
+      {
+        "id": "tier-1",
+        "title": "Critical upstream inputs",
+        "titleZh": "关键上游投入",
+        "titleEn": "Critical upstream inputs",
+        "entities": [
+          {
+            "name": "航天级电子与半导体供应商",
+            "nameZh": "航天级电子与半导体供应商",
+            "nameEn": "Space-grade electronics and semiconductor suppliers",
+            "relationship": "为火箭、航天器与地面系统提供航电、传感器、射频、计算与电源相关部件；具体供应商需逐项披露后确认。",
+            "relationshipZh": "为火箭、航天器与地面系统提供航电、传感器、射频、计算与电源相关部件；具体供应商需逐项披露后确认。",
+            "relationshipEn": "Provide avionics, sensors, RF, compute, and power-related components for rockets, spacecraft, and ground systems; specific suppliers should be confirmed when individually disclosed.",
+            "productsServices": [
+              "航电与控制电子",
+              "射频/通信部件",
+              "电源管理与传感器"
+            ],
+            "productsServicesZh": [
+              "航电与控制电子",
+              "射频/通信部件",
+              "电源管理与传感器"
+            ],
+            "productsServicesEn": [
+              "avionics and control electronics",
+              "RF/communications components",
+              "power management and sensors"
+            ],
+            "sourceIds": [
+              "rklb-10k-2025"
+            ],
+            "listing": {
+              "status": "unknown"
+            },
+            "confidence": "medium"
+          },
+          {
+            "name": "推进剂、金属与复合材料供应链",
+            "nameZh": "推进剂、金属与复合材料供应链",
+            "nameEn": "Propellant, metals, and composite-material supply chain",
+            "relationship": "火箭发动机、箭体结构和航天器平台需要推进剂、铝/钛/镍基材料、碳纤维与复合材料；这是上游原材料层。",
+            "relationshipZh": "火箭发动机、箭体结构和航天器平台需要推进剂、铝/钛/镍基材料、碳纤维与复合材料；这是上游原材料层。",
+            "relationshipEn": "Rocket engines, vehicle structures, and spacecraft platforms require propellants, aluminum/titanium/nickel alloys, carbon fiber, and composites; this is the upstream raw-material layer.",
+            "productsServices": [
+              "推进剂",
+              "铝/钛/镍合金",
+              "碳纤维与复合材料"
+            ],
+            "productsServicesZh": [
+              "推进剂",
+              "铝/钛/镍合金",
+              "碳纤维与复合材料"
+            ],
+            "productsServicesEn": [
+              "propellants",
+              "aluminum/titanium/nickel alloys",
+              "carbon fiber and composites"
+            ],
+            "sourceIds": [
+              "rklb-10k-2025"
+            ],
+            "listing": {
+              "status": "unknown"
+            },
+            "confidence": "medium"
+          }
+        ],
+        "level": 1,
+        "companies": [
+          "航天级电子与半导体供应商",
+          "推进剂、金属与复合材料供应链"
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "铝合金",
+          "钛与镍基合金",
+          "碳纤维复合材料"
+        ],
+        "materialsZh": [
+          "铝合金",
+          "钛与镍基合金",
+          "碳纤维复合材料"
+        ],
+        "materialsEn": [
+          "Aluminum alloys",
+          "Titanium and nickel alloys",
+          "Carbon fiber composites"
+        ],
+        "notes": "供应商以类别呈现；具名上市公司需在合同或年报明确披露后再升级。",
+        "notesZh": "供应商以类别呈现；具名上市公司需在合同或年报明确披露后再升级。",
+        "notesEn": "Suppliers are shown by category; named listed companies should be upgraded only after contract or annual-report disclosure.",
+        "confidence": "medium",
+        "sourceIds": [
+          "rklb-10k-2025"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "铝合金",
+        "nameZh": "铝合金",
+        "nameEn": "Aluminum alloys",
+        "usedIn": "用于火箭结构、发动机、航天器平台或推进系统。",
+        "usedInZh": "用于火箭结构、发动机、航天器平台或推进系统。",
+        "usedInEn": "Used in rocket structures, engines, spacecraft platforms, or propulsion systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity materials and specialty-chemical processing"
+        ],
+        "risk": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskZh": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskEn": "Availability can be affected by price, qualification cycles, geopolitical supply, and space-grade reliability requirements.",
+        "confidence": "medium"
+      },
+      {
+        "name": "钛与镍基合金",
+        "nameZh": "钛与镍基合金",
+        "nameEn": "Titanium and nickel alloys",
+        "usedIn": "用于火箭结构、发动机、航天器平台或推进系统。",
+        "usedInZh": "用于火箭结构、发动机、航天器平台或推进系统。",
+        "usedInEn": "Used in rocket structures, engines, spacecraft platforms, or propulsion systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity materials and specialty-chemical processing"
+        ],
+        "risk": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskZh": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskEn": "Availability can be affected by price, qualification cycles, geopolitical supply, and space-grade reliability requirements.",
+        "confidence": "medium"
+      },
+      {
+        "name": "碳纤维复合材料",
+        "nameZh": "碳纤维复合材料",
+        "nameEn": "Carbon fiber composites",
+        "usedIn": "用于火箭结构、发动机、航天器平台或推进系统。",
+        "usedInZh": "用于火箭结构、发动机、航天器平台或推进系统。",
+        "usedInEn": "Used in rocket structures, engines, spacecraft platforms, or propulsion systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity materials and specialty-chemical processing"
+        ],
+        "risk": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskZh": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskEn": "Availability can be affected by price, qualification cycles, geopolitical supply, and space-grade reliability requirements.",
+        "confidence": "medium"
+      },
+      {
+        "name": "火箭推进剂",
+        "nameZh": "火箭推进剂",
+        "nameEn": "Rocket propellants",
+        "usedIn": "用于火箭结构、发动机、航天器平台或推进系统。",
+        "usedInZh": "用于火箭结构、发动机、航天器平台或推进系统。",
+        "usedInEn": "Used in rocket structures, engines, spacecraft platforms, or propulsion systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯材料/特种化学品加工"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity materials and specialty-chemical processing"
+        ],
+        "risk": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskZh": "价格、认证周期、地缘供应和航天级可靠性要求会影响可得性。",
+        "riskEn": "Availability can be affected by price, qualification cycles, geopolitical supply, and space-grade reliability requirements.",
+        "confidence": "medium"
+      }
+    ],
+    "downstream": {
+      "thesis": "Rocket Lab 位于航天供应链中上游，向卫星运营商、政府/国防客户和空间任务方提供进入轨道与空间系统能力；与 SpaceX/Starlink 的关系应视为公开可比与部分竞争主题，而非已披露直接供应关系。",
+      "thesisZh": "Rocket Lab 位于航天供应链中上游，向卫星运营商、政府/国防客户和空间任务方提供进入轨道与空间系统能力；与 SpaceX/Starlink 的关系应视为公开可比与部分竞争主题，而非已披露直接供应关系。",
+      "thesisEn": "Rocket Lab sits upstream/midstream in the space value chain, providing orbit access and space-system capabilities to satellite operators, government/defense customers, and mission owners; SpaceX/Starlink should be treated as a public comparable and partial competitive theme, not a disclosed direct supply relationship.",
+      "tiers": [
+        {
+          "id": "downstream-1",
+          "title": "Customers and end markets",
+          "titleZh": "客户与终端市场",
+          "titleEn": "Customers and end markets",
+          "notes": "按公司披露的业务场景归类，非完整客户名单。",
+          "notesZh": "按公司披露的业务场景归类，非完整客户名单。",
+          "notesEn": "Grouped by disclosed business use cases, not a full customer list.",
+          "entities": [
+            {
+              "name": "商业卫星运营商与任务方",
+              "nameZh": "商业卫星运营商与任务方",
+              "nameEn": "Commercial satellite operators and mission owners",
+              "customerRole": "客户类别",
+              "customerRoleZh": "客户类别",
+              "customerRoleEn": "Customer category",
+              "relationship": "购买发射服务、航天器平台或任务支持；不是单一披露客户名单。",
+              "relationshipZh": "购买发射服务、航天器平台或任务支持；不是单一披露客户名单。",
+              "relationshipEn": "Buy launch services, spacecraft platforms, or mission support; this is not a single disclosed customer list.",
+              "productsServices": [
+                "轨道发射",
+                "卫星平台与任务服务"
+              ],
+              "productsServicesZh": [
+                "轨道发射",
+                "卫星平台与任务服务"
+              ],
+              "productsServicesEn": [
+                "orbital launch",
+                "satellite platforms and mission services"
+              ],
+              "sourceIds": [
+                "rklb-10k-2025"
+              ],
+              "listing": {
+                "status": "unknown"
+              },
+              "confidence": "medium"
+            },
+            {
+              "name": "美国及盟友政府/国防客户",
+              "nameZh": "美国及盟友政府/国防客户",
+              "nameEn": "U.S. and allied government/defense customers",
+              "customerRole": "客户类别",
+              "customerRoleZh": "客户类别",
+              "customerRoleEn": "Customer category",
+              "relationship": "政府和国防需求是发射与空间系统需求的重要来源。",
+              "relationshipZh": "政府和国防需求是发射与空间系统需求的重要来源。",
+              "relationshipEn": "Government and defense demand is an important source of launch and space-system demand.",
+              "productsServices": [
+                "国防/政府发射",
+                "空间系统项目"
+              ],
+              "productsServicesZh": [
+                "国防/政府发射",
+                "空间系统项目"
+              ],
+              "productsServicesEn": [
+                "defense/government launch",
+                "space-system programs"
+              ],
+              "sourceIds": [
+                "rklb-10k-2025"
+              ],
+              "listing": {
+                "status": "unknown"
+              },
+              "confidence": "medium"
+            }
+          ],
+          "level": 1,
+          "confidence": "medium",
+          "sourceIds": [
+            "rklb-10k-2025"
+          ]
+        },
+        {
+          "id": "downstream-2",
+          "title": "SpaceX / Starlink theme link",
+          "titleZh": "SpaceX / Starlink 主题关联",
+          "titleEn": "SpaceX / Starlink theme link",
+          "notes": "用于 IPO 主题归类，不代表披露的直接商业关系。",
+          "notesZh": "用于 IPO 主题归类，不代表披露的直接商业关系。",
+          "notesEn": "Used for IPO-theme classification, not as a disclosed direct commercial relationship.",
+          "entities": [
+            {
+              "name": "SpaceX / Starlink",
+              "nameZh": "SpaceX / Starlink",
+              "nameEn": "SpaceX / Starlink",
+              "customerRole": "未上市主题标的",
+              "customerRoleZh": "未上市主题标的",
+              "customerRoleEn": "Private theme anchor",
+              "relationship": "SpaceX 与 Rocket Lab 同处发射和航天系统生态，但本数据未发现需落库的直接客户/供应关系。",
+              "relationshipZh": "SpaceX 与 Rocket Lab 同处发射和航天系统生态，但本数据未发现需落库的直接客户/供应关系。",
+              "relationshipEn": "SpaceX and Rocket Lab participate in the same launch and space-systems ecosystem, but this dataset does not assert a disclosed direct customer/supplier relationship.",
+              "productsServices": [
+                "发射服务可比",
+                "空间系统生态可比"
+              ],
+              "productsServicesZh": [
+                "发射服务可比",
+                "空间系统生态可比"
+              ],
+              "productsServicesEn": [
+                "launch-services comparable",
+                "space-systems ecosystem comparable"
+              ],
+              "sourceIds": [
+                "rklb-10k-2025"
+              ],
+              "listing": {
+                "status": "private"
+              },
+              "confidence": "medium"
+            }
+          ],
+          "level": 2,
+          "confidence": "medium",
+          "sourceIds": [
+            "rklb-10k-2025"
+          ]
+        }
+      ],
+      "updatedAt": "2026-06-11T18:30:00+08:00"
+    }
+  },
+  "financials": {
+    "latestPeriod": "Q1 2026; annual baseline FY2025",
+    "latestPeriodZh": "2026 年一季度；年度基准为 FY2025",
+    "latestPeriodEn": "Q1 2026; annual baseline FY2025",
+    "highlights": [
+      {
+        "label": "Q1 2026 收入",
+        "labelZh": "Q1 2026 收入",
+        "labelEn": "Q1 2026 revenue",
+        "value": 0.200348,
+        "unit": "USD billions",
+        "period": "截至 2026-03-31 的季度",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "rklb-10q-2026q1",
+          "rklb-companyfacts"
+        ],
+        "change": "同比增长 63.45%",
+        "changeZh": "同比增长 63.45%",
+        "changeEn": "Up 63.45% year over year"
+      },
+      {
+        "label": "Q1 2026 净亏损",
+        "labelZh": "Q1 2026 净亏损",
+        "labelEn": "Q1 2026 net loss",
+        "value": -45.022,
+        "unit": "USD millions",
+        "period": "截至 2026-03-31 的季度",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "rklb-10q-2026q1",
+          "rklb-companyfacts"
+        ],
+        "change": "亏损同比收窄 25.72%",
+        "changeZh": "亏损同比收窄 25.72%",
+        "changeEn": "Loss narrowed 25.72% year over year"
+      },
+      {
+        "label": "FY2025 收入",
+        "labelZh": "FY2025 收入",
+        "labelEn": "FY2025 revenue",
+        "value": 0.601799,
+        "unit": "USD billions",
+        "period": "截至 2025-12-31 的年度",
+        "periodZh": "截至 2025-12-31 的年度",
+        "periodEn": "Year ended 2025-12-31",
+        "sourceIds": [
+          "rklb-10k-2025",
+          "rklb-companyfacts"
+        ],
+        "change": "同比增长 37.96%",
+        "changeZh": "同比增长 37.96%",
+        "changeEn": "Up 37.96% year over year"
+      },
+      {
+        "label": "FY2025 毛利",
+        "labelZh": "FY2025 毛利",
+        "labelEn": "FY2025 gross profit",
+        "value": 207.181,
+        "unit": "USD millions",
+        "period": "截至 2025-12-31 的年度",
+        "periodZh": "截至 2025-12-31 的年度",
+        "periodEn": "Year ended 2025-12-31",
+        "sourceIds": [
+          "rklb-10k-2025",
+          "rklb-companyfacts"
+        ],
+        "change": "同比增长 78.37%",
+        "changeZh": "同比增长 78.37%",
+        "changeEn": "Up 78.37% year over year"
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "发射服务",
+        "nameZh": "发射服务",
+        "nameEn": "Launch Services",
+        "note": "发射客户购买进入轨道能力；本次批量流程未录入未经复核的分部收入数值。",
+        "noteZh": "发射客户购买进入轨道能力；本次批量流程未录入未经复核的分部收入数值。",
+        "noteEn": "Launch customers buy access to orbit; this batch does not record unreviewed segment revenue figures.",
+        "sourceIds": [
+          "rklb-10k-2025"
+        ]
+      },
+      {
+        "name": "空间系统",
+        "nameZh": "空间系统",
+        "nameEn": "Space Systems",
+        "note": "包括航天器、卫星组件和任务支持，是 SpaceX 主题下的空间系统可比环节。",
+        "noteZh": "包括航天器、卫星组件和任务支持，是 SpaceX 主题下的空间系统可比环节。",
+        "noteEn": "Includes spacecraft, satellite components, and mission support; this is the space-systems comparable layer for the SpaceX theme.",
+        "sourceIds": [
+          "rklb-10k-2025"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "label": "年度收入",
+        "labelZh": "年度收入",
+        "labelEn": "Annual revenue",
+        "unit": "USD billions",
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "FY2023",
+            "periodEn": "FY2023",
+            "value": 0.244592
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "FY2024",
+            "periodEn": "FY2024",
+            "value": 0.436214
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "FY2025",
+            "periodEn": "FY2025",
+            "value": 0.601799
+          }
+        ],
+        "note": "来自 SEC companyfacts；使用年度数据，避免把 Q2/Q3 年初至今数误作单季度。",
+        "noteZh": "来自 SEC companyfacts；使用年度数据，避免把 Q2/Q3 年初至今数误作单季度。",
+        "noteEn": "From SEC companyfacts; annual data is used to avoid treating Q2/Q3 year-to-date values as discrete quarters.",
+        "sourceIds": [
+          "rklb-companyfacts"
+        ],
+        "id": "rklb-trend-1",
+        "cadence": "annual"
+      },
+      {
+        "label": "年度净亏损",
+        "labelZh": "年度净亏损",
+        "labelEn": "Annual net loss",
+        "unit": "USD millions",
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "FY2023",
+            "periodEn": "FY2023",
+            "value": -182.571
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "FY2024",
+            "periodEn": "FY2024",
+            "value": -190.175
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "FY2025",
+            "periodEn": "FY2025",
+            "value": -198.209
+          }
+        ],
+        "note": "净亏损仍在扩大，需结合 Neutron 和空间系统投入周期解读。",
+        "noteZh": "净亏损仍在扩大，需结合 Neutron 和空间系统投入周期解读。",
+        "noteEn": "Net loss continued to widen and should be read alongside Neutron and space-systems investment cycles.",
+        "sourceIds": [
+          "rklb-companyfacts"
+        ],
+        "id": "rklb-trend-2",
+        "cadence": "annual"
+      }
+    ],
+    "revenueMixHistory": []
+  },
+  "news": [
+    {
+      "title": "Rocket Lab 披露 2026 年一季度 10-Q",
+      "titleZh": "Rocket Lab 披露 2026 年一季度 10-Q",
+      "titleEn": "Rocket Lab filed Q1 2026 Form 10-Q",
+      "date": "2026-05-07",
+      "category": "财务披露",
+      "categoryZh": "财务披露",
+      "categoryEn": "Financial filing",
+      "summary": "Q1 2026 收入为 2.00348 亿美元，净亏损为 4,502.2 万美元。",
+      "summaryZh": "Q1 2026 收入为 2.00348 亿美元，净亏损为 4,502.2 万美元。",
+      "summaryEn": "Q1 2026 revenue was $200.348 million and net loss was $45.022 million.",
+      "impact": "为 SpaceX IPO 主题中的发射/空间系统公开可比对象提供最新财务基准。",
+      "impactZh": "为 SpaceX IPO 主题中的发射/空间系统公开可比对象提供最新财务基准。",
+      "impactEn": "Provides a fresh financial benchmark for a public launch/space-systems comparable in the SpaceX IPO theme.",
+      "sourceIds": [
+        "rklb-10q-2026q1",
+        "rklb-companyfacts"
+      ]
+    },
+    {
+      "title": "FY2025 收入继续增长但仍亏损",
+      "titleZh": "FY2025 收入继续增长但仍亏损",
+      "titleEn": "FY2025 revenue grew while losses remained",
+      "date": "2026-02-26",
+      "category": "年度业绩",
+      "categoryZh": "年度业绩",
+      "categoryEn": "Annual results",
+      "summary": "FY2025 收入为 6.01799 亿美元，净亏损为 1.98209 亿美元。",
+      "summaryZh": "FY2025 收入为 6.01799 亿美元，净亏损为 1.98209 亿美元。",
+      "summaryEn": "FY2025 revenue was $601.799 million and net loss was $198.209 million.",
+      "impact": "增长与亏损并存，适合作为商业航天公司扩张期样本。",
+      "impactZh": "增长与亏损并存，适合作为商业航天公司扩张期样本。",
+      "impactEn": "Growth and losses coexist, making it a useful expansion-stage public-space-company sample.",
+      "sourceIds": [
+        "rklb-10k-2025",
+        "rklb-companyfacts"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "10-Q",
+      "filedAt": "2026-05-07",
+      "reportDate": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000028/rklb-20260331.htm",
+      "title": "Rocket Lab Corp 10-Q 2026-03-31"
+    },
+    {
+      "form": "10-K",
+      "filedAt": "2026-02-26",
+      "reportDate": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/rklb-20251231.htm",
+      "title": "Rocket Lab Corp 10-K 2025-12-31"
+    }
+  ],
+  "sources": [
+    {
+      "id": "rklb-10q-2026q1",
+      "title": "Rocket Lab Corp Form 10-Q for period ended 2026-03-31",
+      "titleZh": "Rocket Lab Corp Form 10-Q for period ended 2026-03-31",
+      "titleEn": "Rocket Lab Corp Form 10-Q for period ended 2026-03-31",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000028/rklb-20260331.htm",
+      "publishedAt": "2026-05-07",
+      "accessedAt": "2026-06-11",
+      "type": "sec"
+    },
+    {
+      "id": "rklb-10k-2025",
+      "title": "Rocket Lab Corp Form 10-K for period ended 2025-12-31",
+      "titleZh": "Rocket Lab Corp Form 10-K for period ended 2025-12-31",
+      "titleEn": "Rocket Lab Corp Form 10-K for period ended 2025-12-31",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/rklb-20251231.htm",
+      "publishedAt": "2026-02-26",
+      "accessedAt": "2026-06-11",
+      "type": "sec"
+    },
+    {
+      "id": "rklb-companyfacts",
+      "title": "SEC EDGAR companyfacts API for Rocket Lab Corp",
+      "titleZh": "SEC EDGAR companyfacts API for Rocket Lab Corp",
+      "titleEn": "SEC EDGAR companyfacts API for Rocket Lab Corp",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001819994.json",
+      "publishedAt": "2026-06-11",
+      "accessedAt": "2026-06-11",
+      "type": "sec"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0001819994",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K"
+      ]
+    },
+    "scheduled": false
+  }
+}

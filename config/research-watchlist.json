@@ -27,6 +27,36 @@
       "notes": "Tracked company; SEC EDGAR companyfacts and submissions are the primary automated sources."
     },
     {
+      "query": "RKLB",
+      "market": "US",
+      "enabled": true,
+      "notes": "SpaceX IPO theme batch: public launch and space-systems comparable. SEC EDGAR companyfacts and submissions are the primary automated sources."
+    },
+    {
+      "query": "ASTS",
+      "market": "US",
+      "enabled": true,
+      "notes": "SpaceX IPO theme batch: public direct-to-device satellite connectivity comparable. SEC EDGAR companyfacts and submissions are the primary automated sources."
+    },
+    {
+      "query": "IRDM",
+      "market": "US",
+      "enabled": true,
+      "notes": "SpaceX IPO theme batch: mature public LEO satellite communications operator comparable. SEC EDGAR companyfacts and submissions are the primary automated sources."
+    },
+    {
+      "query": "VSAT",
+      "market": "US",
+      "enabled": true,
+      "notes": "SpaceX IPO theme batch: public satellite broadband and mobility connectivity comparable. SEC EDGAR companyfacts and submissions are the primary automated sources."
+    },
+    {
+      "query": "GSAT",
+      "market": "US",
+      "enabled": true,
+      "notes": "SpaceX IPO theme batch: public mobile satellite service and direct-to-device theme comparable. SEC EDGAR companyfacts and submissions are the primary automated sources."
+    },
+    {
       "query": "688146",
       "market": "CN",
       "exchange": "SSE",
