@@ -119,6 +119,8 @@ a {
 
 .company-button strong {
   font-size: 15px;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
 }
 
 .company-button small,
@@ -238,6 +240,7 @@ a {
 .text-pair > span,
 .text-pair > small {
   min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .text-pair > small {
@@ -260,6 +263,7 @@ a {
   color: #111817;
   font-size: 27px;
   letter-spacing: 0;
+  overflow-wrap: anywhere;
 }
 
 .tabs {
@@ -472,7 +476,7 @@ a {
   grid-template-columns: minmax(70px, max-content) minmax(0, 1fr) auto;
 }
 
-.tier-top span {
+.tier-top > span {
   color: #2b7a78;
   font-size: 13px;
   font-weight: 800;
@@ -482,6 +486,7 @@ a {
 .tier-top strong {
   font-size: 17px;
   min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .tier-top em {
@@ -680,8 +685,9 @@ a {
   border-bottom: 1px solid #edf0ea;
   display: grid;
   gap: 12px;
-  grid-template-columns: minmax(150px, 1.2fr) minmax(100px, 0.5fr) minmax(110px, 0.8fr) minmax(140px, 1fr);
+  grid-template-columns: minmax(150px, 1.1fr) minmax(112px, max-content) minmax(150px, 1fr) minmax(116px, max-content);
   min-height: 52px;
+  min-width: 0;
   padding: 8px 0;
 }
 
@@ -691,6 +697,12 @@ a {
 
 .metric-row strong {
   font-size: 18px;
+  white-space: nowrap;
+}
+
+.metric-row .evidence {
+  justify-content: flex-end;
+  margin-top: 0;
 }
 
 .trend-section,
@@ -746,7 +758,7 @@ a {
 .stack-chart {
   display: block;
   height: auto;
-  overflow: visible;
+  overflow: hidden;
   width: 100%;
 }
 
@@ -1038,6 +1050,22 @@ a {
   }
 }
 
+@media (max-width: 860px) {
+  .metric-row {
+    align-items: start;
+    grid-template-columns: minmax(0, 1fr) max-content;
+  }
+
+  .metric-row .metric-context,
+  .metric-row .evidence {
+    grid-column: 1 / -1;
+  }
+
+  .metric-row .evidence {
+    justify-content: flex-start;
+  }
+}
+
 @media (max-width: 680px) {
   .workspace,
   .sidebar {
@@ -1061,10 +1089,33 @@ a {
     font-size: 28px;
   }
 
+  .tabs {
+    flex-wrap: wrap;
+    overflow-x: visible;
+  }
+
+  .tab {
+    flex: 1 1 calc(33.333% - 4px);
+    justify-content: center;
+    padding: 0 8px;
+  }
+
   .news-item,
-  .metric-row,
   .tier-top,
   .supplier-row {
     grid-template-columns: 1fr;
+  }
+
+  .metric-row {
+    grid-template-columns: 1fr;
+  }
+
+  .metric-row .metric-context,
+  .metric-row .evidence {
+    grid-column: auto;
+  }
+
+  .metric strong {
+    font-size: 24px;
   }
 }

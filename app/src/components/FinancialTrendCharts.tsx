@@ -17,6 +17,24 @@ interface FinancialTrendChartsProps {
 
 const chartColors = ["#2b7a78", "#8a6f28", "#4a627a", "#7d5b68", "#5f6d68", "#a06d3b"];
 
+function chartDomain(values: number[], unit: string) {
+  const rawMin = Math.min(...values);
+  const rawMax = Math.max(...values);
+  const span = rawMax - rawMin || Math.max(Math.abs(rawMax), 1);
+  const padding = span * 0.18;
+
+  if (isMoneyScale(unit)) {
+    if (rawMin >= 0) return { min: 0, max: rawMax + padding };
+    if (rawMax <= 0) return { min: rawMin - padding, max: 0 };
+    return { min: rawMin - padding, max: rawMax + padding };
+  }
+
+  return {
+    min: rawMin >= 0 ? Math.max(0, rawMin - padding) : rawMin - padding,
+    max: rawMax + padding,
+  };
+}
+
 function formatShare(value: number) {
   return `${value.toLocaleString("en-US", { maximumFractionDigits: 1 })}%`;
 }
@@ -50,18 +68,15 @@ function LineTrendCard({ trend, sources }: { trend: FinancialTrendSeries; source
   const height = 210;
   const padding = { top: 18, right: 16, bottom: 44, left: 58 };
   const values = trend.points.map((point) => point.value);
-  const rawMin = Math.min(...values);
-  const rawMax = Math.max(...values);
-  const span = rawMax - rawMin || Math.max(Math.abs(rawMax), 1);
-  const min = isMoneyScale(trend.unit) ? 0 : Math.max(0, rawMin - span * 0.2);
-  const max = rawMax + span * 0.18;
+  const { min, max } = chartDomain(values, trend.unit);
   const innerWidth = width - padding.left - padding.right;
   const innerHeight = height - padding.top - padding.bottom;
   const xStep = trend.points.length > 1 ? innerWidth / (trend.points.length - 1) : innerWidth;
+  const range = max - min || 1;
 
   const points = trend.points.map((point, index) => {
     const x = padding.left + index * xStep;
-    const y = padding.top + innerHeight - ((point.value - min) / (max - min || 1)) * innerHeight;
+    const y = padding.top + innerHeight - ((point.value - min) / range) * innerHeight;
     return { ...point, x, y };
   });
 

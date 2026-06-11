@@ -1,24 +1,27 @@
 export function formatFinancialValue(value: number, unit: string) {
+  const sign = value < 0 ? "-" : "";
+  const absoluteValue = Math.abs(value);
+
   if (unit === "USD billions") {
-    return `$${value.toLocaleString("en-US", { maximumFractionDigits: value >= 100 ? 0 : 3 })}B`;
+    return `${sign}$${absoluteValue.toLocaleString("en-US", { maximumFractionDigits: absoluteValue >= 100 ? 0 : 3 })}B`;
   }
   if (unit === "CNY billions") {
-    return `¥${value.toLocaleString("en-US", { maximumFractionDigits: value >= 100 ? 0 : 3 })}B`;
+    return `${sign}¥${absoluteValue.toLocaleString("en-US", { maximumFractionDigits: absoluteValue >= 100 ? 0 : 3 })}B`;
   }
   if (unit === "USD millions") {
-    return `$${value.toLocaleString("en-US", { maximumFractionDigits: value >= 100 ? 0 : 2 })}M`;
+    return `${sign}$${absoluteValue.toLocaleString("en-US", { maximumFractionDigits: absoluteValue >= 100 ? 0 : 2 })}M`;
   }
   if (unit === "CNY millions") {
-    return `¥${value.toLocaleString("en-US", { maximumFractionDigits: value >= 100 ? 0 : 2 })}M`;
+    return `${sign}¥${absoluteValue.toLocaleString("en-US", { maximumFractionDigits: absoluteValue >= 100 ? 0 : 2 })}M`;
   }
   if (unit === "percent") {
     return `${value.toLocaleString("en-US", { maximumFractionDigits: 1 })}%`;
   }
   if (unit === "USD") {
-    return `$${value.toLocaleString("en-US", { maximumFractionDigits: 2 })}`;
+    return `${sign}$${absoluteValue.toLocaleString("en-US", { maximumFractionDigits: 2 })}`;
   }
   if (unit === "CNY") {
-    return `¥${value.toLocaleString("en-US", { maximumFractionDigits: 2 })}`;
+    return `${sign}¥${absoluteValue.toLocaleString("en-US", { maximumFractionDigits: 2 })}`;
   }
   return value.toLocaleString("en-US", { maximumFractionDigits: 2 });
 }
