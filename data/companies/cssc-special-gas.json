@@ -1,0 +1,1600 @@
+{
+  "schemaVersion": 1,
+  "id": "cssc-special-gas",
+  "ticker": "688146",
+  "exchange": "SSE STAR Market",
+  "market": "CN",
+  "name": "中船特气",
+  "legalName": "中船（邯郸）派瑞特种气体股份有限公司",
+  "currency": "CNY",
+  "sector": "电子特种气体与含氟新材料",
+  "industry": [
+    "电子特种气体",
+    "三氟化氮",
+    "六氟化钨",
+    "三氟甲磺酸系列",
+    "高纯金属",
+    "电子大宗气体"
+  ],
+  "homepage": "http://www.pericsg.com/",
+  "lastUpdated": "2026-06-11T22:30:00+08:00",
+  "summary": "中船特气是中国船舶集团体系内的电子特种气体和含氟新材料平台，核心产品包括超纯三氟化氮、超纯六氟化钨和三氟甲磺酸系列，下游连接晶圆厂、显示面板和医药/新能源材料客户。",
+  "aliases": [
+    "中船特气",
+    "中船派瑞特气",
+    "派瑞特气",
+    "中船（邯郸）派瑞特种气体股份有限公司",
+    "Peric Special Gases",
+    "Peric Special Gases Co Ltd",
+    "CSSC Special Gas",
+    "688146",
+    "688146.SH"
+  ],
+  "updateCadence": {
+    "最新动态": "12 小时",
+    "财务与公告": "每日",
+    "主营业务": "每周",
+    "供应链溯源": "每周"
+  },
+  "business": {
+    "description": "中船特气主营电子特种气体和三氟甲磺酸系列产品，并在高纯金属、前驱体和电子大宗气体现场制气等方向延伸。电子特种气体用于集成电路和显示面板制造中的清洗、刻蚀、成膜、掺杂、沉积等环节，核心产品包括超纯三氟化氮、超纯六氟化钨、高纯氯化氢、高纯氟化氢、四氟化硅、溴化氢、三氯化硼、六氟丁二烯、八氟环丁烷等。",
+    "revenueModel": [
+      "电子特种气体销售",
+      "三氟甲磺酸系列产品销售",
+      "高纯金属和电子大宗气体新业务",
+      "半导体和显示客户认证后的长期供货"
+    ],
+    "segments": [
+      {
+        "name": "Electronic specialty gases",
+        "nameZh": "电子特种气体",
+        "nameEn": "Electronic specialty gases",
+        "revenue": 1.927,
+        "unit": "CNY billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 86.56,
+        "note": "公司第一大产品线，2025 年主营业务收入约 19.27 亿元，覆盖 NF3、WF6、HCl、HF、SiF4、HBr、BCl3、C4F6 等半导体和显示制程气体。",
+        "noteZh": "公司第一大产品线，2025 年主营业务收入约 19.27 亿元，覆盖 NF3、WF6、HCl、HF、SiF4、HBr、BCl3、C4F6 等半导体和显示制程气体。",
+        "noteEn": "The largest product line, with about RMB 1.927 billion of main-business revenue in 2025, covering NF3, WF6, HCl, HF, SiF4, HBr, BCl3, C4F6 and other semiconductor/display process gases.",
+        "sourceIds": [
+          "csscsg-annual-2025"
+        ]
+      },
+      {
+        "name": "Triflic acid series",
+        "nameZh": "三氟甲磺酸系列",
+        "nameEn": "Triflic acid series",
+        "revenue": 0.299,
+        "unit": "CNY billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 13.44,
+        "note": "三氟甲磺酸、双三氟甲基磺酰亚胺锂、三氟甲磺酸锂等含氟精细化学品，面向医药、新能源和电子材料等领域。",
+        "noteZh": "三氟甲磺酸、双三氟甲基磺酰亚胺锂、三氟甲磺酸锂等含氟精细化学品，面向医药、新能源和电子材料等领域。",
+        "noteEn": "Fluorinated fine chemicals such as triflic acid, LiTFSI and lithium triflate, serving pharmaceutical, new-energy and electronic-materials applications.",
+        "sourceIds": [
+          "csscsg-annual-2025"
+        ]
+      }
+    ],
+    "thesis": "中船特气的产业链价值来自两条线：一是 NF3、WF6 等电子特气的国产替代、先进制程客户认证和全球供应弹性；二是三氟甲磺酸系列及高纯金属、前驱体、现场制气等新材料延伸。需要重点跟踪 WF6 价格与供需、晶圆厂/显示厂扩产、客户认证进展、钨钼和氟化工原料、电力成本以及中国船舶集团体系协同。",
+    "riskNotes": [
+      "电子特气客户认证周期长，新增产能需要通过客户验证才能转化为收入。",
+      "WF6、NF3 和含氟精细化学品受原材料、电力、环保安全、出口管制和下游半导体资本开支周期影响。",
+      "2026 年 6 月公司股价短期涨幅较大，公告提示市盈率显著高于行业均值，且关于海外 WF6 供给扰动的订单落地仍有不确定性。"
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-11T22:30:00+08:00",
+    "thesis": "中船特气位于半导体材料供应链中游：上游采购电力、钨钼材料、氟化工基础原料、稀有/高纯气体和专用装备耗材，经过纯化、合成和充装后向晶圆厂、显示面板厂和含氟材料客户供货。公司年报披露了前五大供应商；向更上游追溯时，原材料瓶颈主要落在钨钼资源、氟化工、稀有气体和高纯容器/阀件生态。",
+    "tiers": [
+      {
+        "level": 0,
+        "title": "目标企业：电子特气与含氟材料平台",
+        "titleZh": "目标企业：电子特气与含氟材料平台",
+        "titleEn": "Target company: electronic gases and fluorinated-materials platform",
+        "companies": [
+          "中船特气"
+        ],
+        "entities": [
+          {
+            "name": "Peric Special Gases Co.,Ltd.",
+            "nameZh": "中船特气",
+            "nameEn": "Peric Special Gases Co.,Ltd.",
+            "relationship": "目标企业本体；控股股东为派瑞科技有限公司，间接控股股东为中国船舶集团有限公司第七一八研究所，实际控制人为中国船舶集团有限公司。",
+            "relationshipZh": "目标企业本体；控股股东为派瑞科技有限公司，间接控股股东为中国船舶集团有限公司第七一八研究所，实际控制人为中国船舶集团有限公司。",
+            "relationshipEn": "Target company; its controlling shareholder is Peric Technology Co., Ltd., indirect controlling shareholder is CSSC 718 Research Institute, and actual controller is China State Shipbuilding Corporation Limited.",
+            "productsServices": [
+              "Electronic specialty gases",
+              "Triflic acid series",
+              "High-purity metals and bulk on-site gases"
+            ],
+            "productsServicesZh": [
+              "电子特种气体",
+              "三氟甲磺酸系列",
+              "高纯金属与电子大宗气体现场供应"
+            ],
+            "productsServicesEn": [
+              "Electronic specialty gases",
+              "Triflic acid series",
+              "High-purity metals and bulk on-site gases"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "688146",
+              "exchange": "SSE STAR Market",
+              "market": "China",
+              "stockUrl": "https://quote.eastmoney.com/sh688146.html"
+            },
+            "companyUrl": "http://www.pericsg.com/",
+            "confidence": "high",
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          }
+        ],
+        "geography": [
+          "China",
+          "Hebei",
+          "Inner Mongolia",
+          "Global semiconductor customers"
+        ],
+        "materials": [
+          "NF3",
+          "WF6",
+          "Triflic acid products",
+          "High-purity tungsten and molybdenum",
+          "Bulk electronic gases"
+        ],
+        "materialsZh": [
+          "三氟化氮",
+          "六氟化钨",
+          "三氟甲磺酸系列产品",
+          "高纯钨和高纯钼",
+          "电子大宗气体"
+        ],
+        "materialsEn": [
+          "NF3",
+          "WF6",
+          "Triflic acid products",
+          "High-purity tungsten and molybdenum",
+          "Bulk electronic gases"
+        ],
+        "notes": "公司披露 2025 年末 NF3 产能 18,500 吨、WF6 产能 2,000 吨，电子特气产品进入多家集成电路和显示客户。",
+        "notesZh": "公司披露 2025 年末 NF3 产能 18,500 吨、WF6 产能 2,000 吨，电子特气产品进入多家集成电路和显示客户。",
+        "notesEn": "The company disclosed year-end 2025 capacity of 18,500 tons for NF3 and 2,000 tons for WF6, with electronic gas products qualified by multiple IC and display customers.",
+        "confidence": "high",
+        "sourceIds": [
+          "csscsg-annual-2025",
+          "csscsg-ir-20260507"
+        ]
+      },
+      {
+        "level": 1,
+        "title": "披露的直接供应商与生产要素",
+        "titleZh": "披露的直接供应商与生产要素",
+        "titleEn": "Disclosed direct suppliers and production inputs",
+        "companies": [
+          "国网河北省电力有限公司",
+          "赣州虹飞钨钼材料有限公司",
+          "中色（天津）新材料科技有限公司",
+          "南昌硬质合金有限责任公司",
+          "内蒙古电力（集团）有限责任公司呼和浩特供电分公司"
+        ],
+        "entities": [
+          {
+            "name": "State Grid Hebei Electric Power Co., Ltd.",
+            "nameZh": "国网河北省电力有限公司",
+            "nameEn": "State Grid Hebei Electric Power Co., Ltd.",
+            "relationship": "2025 年前五大供应商第一名，采购额约 2.0245 亿元、占年度采购总额 12.63%；主要关系是向河北生产基地供电和电网服务。",
+            "relationshipZh": "2025 年前五大供应商第一名，采购额约 2.0245 亿元、占年度采购总额 12.63%；主要关系是向河北生产基地供电和电网服务。",
+            "relationshipEn": "Ranked No. 1 among 2025 top suppliers with about RMB 202.45 million of purchases, or 12.63% of annual procurement; it supplies electricity and grid services to Hebei production operations.",
+            "productsServices": [
+              "Electricity supply",
+              "Grid services"
+            ],
+            "productsServicesZh": [
+              "电力供应",
+              "电网服务"
+            ],
+            "productsServicesEn": [
+              "Electricity supply",
+              "Grid services"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "Operating subsidiary of State Grid; not treated as a separately listed company here.",
+              "noteZh": "国家电网体系运营主体；此处不按单独上市公司处理。",
+              "noteEn": "Operating entity within State Grid; not treated here as a separately listed company."
+            },
+            "companyUrl": "http://www.he.sgcc.com.cn/",
+            "confidence": "high",
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          },
+          {
+            "name": "Ganzhou Hongfei Tungsten & Molybdenum Materials Co., Ltd.",
+            "nameZh": "赣州虹飞钨钼材料有限公司",
+            "nameEn": "Ganzhou Hongfei Tungsten & Molybdenum Materials Co., Ltd.",
+            "relationship": "2025 年前五大供应商第二名，采购额约 1.1236 亿元、占年度采购总额 7.01%；公司名称显示其与钨钼材料相关，和中船特气 WF6、高纯钨/钼产品上游材料链条匹配。",
+            "relationshipZh": "2025 年前五大供应商第二名，采购额约 1.1236 亿元、占年度采购总额 7.01%；公司名称显示其与钨钼材料相关，和中船特气 WF6、高纯钨/钼产品上游材料链条匹配。",
+            "relationshipEn": "Ranked No. 2 among 2025 top suppliers with about RMB 112.36 million of purchases, or 7.01% of annual procurement; its name indicates tungsten/molybdenum materials, matching the upstream chain for WF6 and high-purity W/Mo products.",
+            "productsServices": [
+              "Tungsten and molybdenum materials",
+              "Upstream feedstock for WF6 and high-purity metals"
+            ],
+            "productsServicesZh": [
+              "钨钼材料",
+              "WF6 和高纯金属的上游材料"
+            ],
+            "productsServicesEn": [
+              "Tungsten and molybdenum materials",
+              "Upstream feedstock for WF6 and high-purity metals"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "No separately listed ticker was identified from the disclosed supplier name.",
+              "noteZh": "基于披露供应商名称，暂未识别单独上市股票代码。",
+              "noteEn": "No separately listed ticker was identified from the disclosed supplier name."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          },
+          {
+            "name": "CNMC (Tianjin) New Materials Technology Co., Ltd.",
+            "nameZh": "中色（天津）新材料科技有限公司",
+            "nameEn": "CNMC (Tianjin) New Materials Technology Co., Ltd.",
+            "relationship": "2025 年前五大供应商第三名，采购额约 1.0712 亿元、占年度采购总额 6.68%；属于新材料/金属材料供应链节点，和公司高纯金属及 WF6 原料链条相关。",
+            "relationshipZh": "2025 年前五大供应商第三名，采购额约 1.0712 亿元、占年度采购总额 6.68%；属于新材料/金属材料供应链节点，和公司高纯金属及 WF6 原料链条相关。",
+            "relationshipEn": "Ranked No. 3 among 2025 top suppliers with about RMB 107.12 million of purchases, or 6.68% of annual procurement; it is a new-materials/metal-materials supplier linked to high-purity metals and WF6 feedstock.",
+            "productsServices": [
+              "New materials",
+              "Metal-material feedstock"
+            ],
+            "productsServicesZh": [
+              "新材料",
+              "金属材料原料"
+            ],
+            "productsServicesEn": [
+              "New materials",
+              "Metal-material feedstock"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "No separately listed ticker was identified from the disclosed supplier name.",
+              "noteZh": "基于披露供应商名称，暂未识别单独上市股票代码。",
+              "noteEn": "No separately listed ticker was identified from the disclosed supplier name."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          },
+          {
+            "name": "Nanchang Cemented Carbide Co., Ltd.",
+            "nameZh": "南昌硬质合金有限责任公司",
+            "nameEn": "Nanchang Cemented Carbide Co., Ltd.",
+            "relationship": "2025 年前五大供应商第四名，采购额约 8,894.70 万元、占年度采购总额 5.55%；硬质合金企业通常处于钨钼材料链条，中船特气披露的关系为直接供应商。",
+            "relationshipZh": "2025 年前五大供应商第四名，采购额约 8,894.70 万元、占年度采购总额 5.55%；硬质合金企业通常处于钨钼材料链条，中船特气披露的关系为直接供应商。",
+            "relationshipEn": "Ranked No. 4 among 2025 top suppliers with about RMB 88.95 million of purchases, or 5.55% of annual procurement; cemented-carbide companies are typically in the tungsten/molybdenum materials chain, while the disclosed relationship is direct supplier.",
+            "productsServices": [
+              "Cemented carbide and tungsten-related materials",
+              "Metal-material feedstock"
+            ],
+            "productsServicesZh": [
+              "硬质合金和钨相关材料",
+              "金属材料原料"
+            ],
+            "productsServicesEn": [
+              "Cemented carbide and tungsten-related materials",
+              "Metal-material feedstock"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "No separately listed ticker was identified from the disclosed supplier name.",
+              "noteZh": "基于披露供应商名称，暂未识别单独上市股票代码。",
+              "noteEn": "No separately listed ticker was identified from the disclosed supplier name."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          },
+          {
+            "name": "Inner Mongolia Power (Group) Co., Ltd. Hohhot Power Supply Branch",
+            "nameZh": "内蒙古电力（集团）有限责任公司呼和浩特供电分公司",
+            "nameEn": "Inner Mongolia Power (Group) Co., Ltd. Hohhot Power Supply Branch",
+            "relationship": "2025 年前五大供应商第五名，采购额约 7,815.20 万元、占年度采购总额 4.88%；主要为呼和浩特子公司及当地生产设施提供电力和电网服务。",
+            "relationshipZh": "2025 年前五大供应商第五名，采购额约 7,815.20 万元、占年度采购总额 4.88%；主要为呼和浩特子公司及当地生产设施提供电力和电网服务。",
+            "relationshipEn": "Ranked No. 5 among 2025 top suppliers with about RMB 78.15 million of purchases, or 4.88% of annual procurement; it supplies electricity and grid services for the Hohhot subsidiary and local production facilities.",
+            "productsServices": [
+              "Electricity supply",
+              "Grid services"
+            ],
+            "productsServicesZh": [
+              "电力供应",
+              "电网服务"
+            ],
+            "productsServicesEn": [
+              "Electricity supply",
+              "Grid services"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "Regional power utility branch; no separate listed ticker is assigned here.",
+              "noteZh": "区域电力企业分公司；此处不赋予单独上市代码。",
+              "noteEn": "Regional power-utility branch; no separate listed ticker is assigned here."
+            },
+            "confidence": "high",
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          }
+        ],
+        "geography": [
+          "China",
+          "Hebei",
+          "Jiangxi",
+          "Tianjin",
+          "Inner Mongolia"
+        ],
+        "materials": [
+          "Electricity",
+          "Tungsten and molybdenum materials",
+          "Metal-material feedstock"
+        ],
+        "materialsZh": [
+          "电力",
+          "钨钼材料",
+          "金属材料原料"
+        ],
+        "materialsEn": [
+          "Electricity",
+          "Tungsten and molybdenum materials",
+          "Metal-material feedstock"
+        ],
+        "notes": "年报披露前五大供应商采购额合计约 5.8904 亿元、占年度采购总额 36.75%，且不存在关联采购。",
+        "notesZh": "年报披露前五大供应商采购额合计约 5.8904 亿元、占年度采购总额 36.75%，且不存在关联采购。",
+        "notesEn": "The annual report disclosed combined purchases of about RMB 589.04 million from the top five suppliers, representing 36.75% of annual procurement, with no related-party purchases.",
+        "confidence": "high",
+        "sourceIds": [
+          "csscsg-annual-2025"
+        ]
+      },
+      {
+        "level": 2,
+        "title": "向原材料追溯的上游类别",
+        "titleZh": "向原材料追溯的上游类别",
+        "titleEn": "Raw-material upstream categories",
+        "companies": [
+          "氟化工基础原料供应商",
+          "钨钼矿及金属粉末上游",
+          "稀有气体与电子大宗气体上游",
+          "特种气体容器、阀件和纯化设备生态"
+        ],
+        "entities": [
+          {
+            "name": "Fluorochemical feedstock suppliers",
+            "nameZh": "氟化工基础原料供应商",
+            "nameEn": "Fluorochemical feedstock suppliers",
+            "relationship": "上游类别而非年报披露的具体直接供应商；为 NF3、HF、含氟精细化学品和部分刻蚀/清洗气体提供氟化工基础原料链条。",
+            "relationshipZh": "上游类别而非年报披露的具体直接供应商；为 NF3、HF、含氟精细化学品和部分刻蚀/清洗气体提供氟化工基础原料链条。",
+            "relationshipEn": "Upstream category rather than a specific disclosed direct supplier; supports the fluorochemical feedstock chain for NF3, HF, fluorinated fine chemicals and some etch/clean gases.",
+            "productsServices": [
+              "Fluorite and anhydrous HF chain",
+              "Fluorinated chemical intermediates"
+            ],
+            "productsServicesZh": [
+              "萤石与无水氟化氢链条",
+              "含氟化学中间体"
+            ],
+            "productsServicesEn": [
+              "Fluorite and anhydrous HF chain",
+              "Fluorinated chemical intermediates"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "Category-level upstream mapping; individual supplier list needs separate follow-up research.",
+              "noteZh": "类别级上游映射；具体供应商名单需后续逐项研究。",
+              "noteEn": "Category-level upstream mapping; individual supplier list needs separate follow-up research."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          },
+          {
+            "name": "Tungsten and molybdenum upstream producers",
+            "nameZh": "钨钼矿及金属粉末上游",
+            "nameEn": "Tungsten and molybdenum upstream producers",
+            "relationship": "上游类别；连接钨矿、APT、钨粉/钼粉到 WF6、高纯钨/钼产品。2026 年投资者关系记录显示公司认为中国钨资源和供应链能支持其 WF6 供给安全。",
+            "relationshipZh": "上游类别；连接钨矿、APT、钨粉/钼粉到 WF6、高纯钨/钼产品。2026 年投资者关系记录显示公司认为中国钨资源和供应链能支持其 WF6 供给安全。",
+            "relationshipEn": "Upstream category linking tungsten ore, APT and tungsten/molybdenum powders to WF6 and high-purity W/Mo products. The 2026 IR record says the company views China's tungsten resources and supply chain as supportive for WF6 supply security.",
+            "productsServices": [
+              "Tungsten concentrate and APT",
+              "Tungsten powder and molybdenum powder"
+            ],
+            "productsServicesZh": [
+              "钨精矿与仲钨酸铵",
+              "钨粉与钼粉"
+            ],
+            "productsServicesEn": [
+              "Tungsten concentrate and APT",
+              "Tungsten powder and molybdenum powder"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "Category-level upstream mapping; direct public-company attribution requires supplier-by-supplier confirmation.",
+              "noteZh": "类别级上游映射；具体上市公司归因需逐个供应商确认。",
+              "noteEn": "Category-level upstream mapping; direct public-company attribution requires supplier-by-supplier confirmation."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "csscsg-annual-2025",
+              "csscsg-ir-20260507"
+            ]
+          },
+          {
+            "name": "Rare-gas and bulk-gas upstream suppliers",
+            "nameZh": "稀有气体与电子大宗气体上游",
+            "nameEn": "Rare-gas and bulk-gas upstream suppliers",
+            "relationship": "上游类别；公司电子气体产品组合和现场制气业务涉及氮、氢、氧、氩、氦、二氧化碳以及氖/氪/氙等光刻混合气原料。",
+            "relationshipZh": "上游类别；公司电子气体产品组合和现场制气业务涉及氮、氢、氧、氩、氦、二氧化碳以及氖/氪/氙等光刻混合气原料。",
+            "relationshipEn": "Upstream category; the company's electronic gas portfolio and on-site bulk-gas business involve nitrogen, hydrogen, oxygen, argon, helium, carbon dioxide and neon/krypton/xenon lithography-gas feedstocks.",
+            "productsServices": [
+              "High-purity bulk gases",
+              "Rare gases for lithography mixtures"
+            ],
+            "productsServicesZh": [
+              "高纯电子大宗气体",
+              "光刻混合气用稀有气体"
+            ],
+            "productsServicesEn": [
+              "High-purity bulk gases",
+              "Rare gases for lithography mixtures"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "Category-level upstream mapping.",
+              "noteZh": "类别级上游映射。",
+              "noteEn": "Category-level upstream mapping."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          },
+          {
+            "name": "Specialty cylinders, valves, purification and analysis equipment ecosystem",
+            "nameZh": "特种气瓶、阀件、纯化与分析设备生态",
+            "nameEn": "Specialty cylinders, valves, purification and analysis equipment ecosystem",
+            "relationship": "上游类别；电子特气交付依赖高纯包装容器、阀件、纯化系统、检测分析和安全环保装备，但公司年报未在前五大供应商表中逐项披露这些供应商名称。",
+            "relationshipZh": "上游类别；电子特气交付依赖高纯包装容器、阀件、纯化系统、检测分析和安全环保装备，但公司年报未在前五大供应商表中逐项披露这些供应商名称。",
+            "relationshipEn": "Upstream category; delivery of electronic specialty gases depends on high-purity packaging cylinders, valves, purification systems, analytical testing, and safety/environmental equipment, but the annual report does not list these supplier names in the top-five table.",
+            "productsServices": [
+              "High-purity gas cylinders and valves",
+              "Purification and analytical equipment"
+            ],
+            "productsServicesZh": [
+              "高纯气瓶和阀件",
+              "纯化与分析设备"
+            ],
+            "productsServicesEn": [
+              "High-purity gas cylinders and valves",
+              "Purification and analytical equipment"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "Category-level upstream mapping.",
+              "noteZh": "类别级上游映射。",
+              "noteEn": "Category-level upstream mapping."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          }
+        ],
+        "geography": [
+          "China",
+          "Global rare-gas market",
+          "Semiconductor materials ecosystem"
+        ],
+        "materials": [
+          "Fluorite/AHF",
+          "Tungsten and molybdenum",
+          "Helium, neon, krypton, xenon and argon",
+          "High-purity packaging and purification systems"
+        ],
+        "materialsZh": [
+          "萤石/无水氟化氢",
+          "钨和钼",
+          "氦、氖、氪、氙和氩",
+          "高纯包装与纯化系统"
+        ],
+        "materialsEn": [
+          "Fluorite/AHF",
+          "Tungsten and molybdenum",
+          "Helium, neon, krypton, xenon and argon",
+          "High-purity packaging and purification systems"
+        ],
+        "notes": "这一层是基于产品工艺和公开披露做出的原材料追溯，不等同于公司已披露的直接供应商名单。",
+        "notesZh": "这一层是基于产品工艺和公开披露做出的原材料追溯，不等同于公司已披露的直接供应商名单。",
+        "notesEn": "This layer is a raw-material trace based on product processes and public disclosure; it is not the same as the company's disclosed direct supplier list.",
+        "confidence": "medium",
+        "sourceIds": [
+          "csscsg-annual-2025",
+          "csscsg-ir-20260507"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "Fluorite / anhydrous hydrogen fluoride chain",
+        "nameZh": "萤石 / 无水氟化氢链条",
+        "nameEn": "Fluorite / anhydrous hydrogen fluoride chain",
+        "usedIn": "NF3, HF, fluorinated fine chemicals and etch/clean gas intermediates",
+        "usedInZh": "NF3、HF、含氟精细化学品和刻蚀/清洗气体中间体",
+        "usedInEn": "NF3, HF, fluorinated fine chemicals and etch/clean gas intermediates",
+        "upstream": [
+          "Fluorite mining",
+          "AHF production",
+          "Fluorochemical intermediates"
+        ],
+        "upstreamZh": [
+          "萤石开采",
+          "无水氟化氢生产",
+          "氟化工中间体"
+        ],
+        "upstreamEn": [
+          "Fluorite mining",
+          "AHF production",
+          "Fluorochemical intermediates"
+        ],
+        "risk": "Resource policy, environmental compliance and fluorochemical price volatility can affect raw-material costs.",
+        "riskZh": "资源政策、环保合规和氟化工价格波动会影响原料成本。",
+        "riskEn": "Resource policy, environmental compliance and fluorochemical price volatility can affect raw-material costs.",
+        "confidence": "medium"
+      },
+      {
+        "name": "Tungsten and molybdenum feedstock",
+        "nameZh": "钨钼原料",
+        "nameEn": "Tungsten and molybdenum feedstock",
+        "usedIn": "WF6, high-purity tungsten and high-purity molybdenum products",
+        "usedInZh": "WF6、高纯钨和高纯钼产品",
+        "usedInEn": "WF6, high-purity tungsten and high-purity molybdenum products",
+        "upstream": [
+          "Tungsten concentrate",
+          "APT",
+          "Tungsten/molybdenum powder and metal materials"
+        ],
+        "upstreamZh": [
+          "钨精矿",
+          "仲钨酸铵",
+          "钨/钼粉末和金属材料"
+        ],
+        "upstreamEn": [
+          "Tungsten concentrate",
+          "APT",
+          "Tungsten/molybdenum powder and metal materials"
+        ],
+        "risk": "WF6 supply security depends on reliable tungsten and molybdenum material availability, pricing and export-control conditions.",
+        "riskZh": "WF6 供应安全依赖钨钼材料供给、价格和出口管制环境。",
+        "riskEn": "WF6 supply security depends on reliable tungsten and molybdenum material availability, pricing and export-control conditions.",
+        "confidence": "high"
+      },
+      {
+        "name": "Electricity",
+        "nameZh": "电力",
+        "nameEn": "Electricity",
+        "usedIn": "Energy-intensive gas synthesis, purification, compression and utility systems",
+        "usedInZh": "气体合成、纯化、压缩和公用工程系统",
+        "usedInEn": "Energy-intensive gas synthesis, purification, compression and utility systems",
+        "upstream": [
+          "Regional grids",
+          "Industrial power supply"
+        ],
+        "upstreamZh": [
+          "区域电网",
+          "工业电力供应"
+        ],
+        "upstreamEn": [
+          "Regional grids",
+          "Industrial power supply"
+        ],
+        "risk": "Power cost and reliability affect margins and utilization for energy-intensive gas production.",
+        "riskZh": "电价和供电稳定性会影响高能耗电子气体生产的利润率和开工率。",
+        "riskEn": "Power cost and reliability affect margins and utilization for energy-intensive gas production.",
+        "confidence": "high"
+      },
+      {
+        "name": "Rare gases",
+        "nameZh": "稀有气体",
+        "nameEn": "Rare gases",
+        "usedIn": "Lithography mixed gases and high-purity electronic gas portfolio",
+        "usedInZh": "光刻混合气和高纯电子气体产品组合",
+        "usedInEn": "Lithography mixed gases and high-purity electronic gas portfolio",
+        "upstream": [
+          "Air separation",
+          "Rare-gas purification",
+          "Global gas logistics"
+        ],
+        "upstreamZh": [
+          "空分",
+          "稀有气体纯化",
+          "全球气体物流"
+        ],
+        "upstreamEn": [
+          "Air separation",
+          "Rare-gas purification",
+          "Global gas logistics"
+        ],
+        "risk": "Neon, krypton and xenon can be sensitive to geopolitical supply shocks and semiconductor-cycle demand.",
+        "riskZh": "氖、氪、氙等稀有气体容易受地缘供给冲击和半导体周期需求影响。",
+        "riskEn": "Neon, krypton and xenon can be sensitive to geopolitical supply shocks and semiconductor-cycle demand.",
+        "confidence": "medium"
+      }
+    ],
+    "downstream": {
+      "updatedAt": "2026-06-11T22:30:00+08:00",
+      "thesis": "中船特气不仅要看上游供应商，也要看它作为半导体材料供应商服务哪些客户。公司位于晶圆厂和显示面板厂上游，核心下游包括先进逻辑、存储、功率/特色工艺、显示面板、医药和新能源含氟材料客户；公开披露中已经出现中芯国际、天马微电子、京东方、TCL 华星、台积电、SK 海力士、美光等客户或客户关系。",
+      "thesisZh": "中船特气不仅要看上游供应商，也要看它作为半导体材料供应商服务哪些客户。公司位于晶圆厂和显示面板厂上游，核心下游包括先进逻辑、存储、功率/特色工艺、显示面板、医药和新能源含氟材料客户；公开披露中已经出现中芯国际、天马微电子、京东方、TCL 华星、台积电、SK 海力士、美光等客户或客户关系。",
+      "thesisEn": "CSSC Special Gas should be viewed from both upstream suppliers and downstream customers. It sits upstream of wafer fabs and display-panel makers; disclosed customer relationships include SMIC, Tianma Microelectronics, BOE, TCL CSOT, TSMC, SK hynix and Micron, alongside pharmaceutical and new-energy fluorinated-material applications.",
+      "tiers": [
+        {
+          "level": 1,
+          "title": "半导体和显示直接客户",
+          "titleZh": "半导体和显示直接客户",
+          "titleEn": "Direct semiconductor and display customers",
+          "entities": [
+            {
+              "name": "Semiconductor Manufacturing International Corporation",
+              "nameZh": "中芯国际",
+              "nameEn": "Semiconductor Manufacturing International Corporation",
+              "customerRole": "Wafer foundry customer",
+              "customerRoleZh": "晶圆代工客户",
+              "customerRoleEn": "Wafer foundry customer",
+              "relationship": "2025 年报披露中芯国际为前五大客户第三名，销售额约 2.1289 亿元、占年度销售总额 9.42%；年报还把中芯系多家公司按同一控制合并列示。",
+              "relationshipZh": "2025 年报披露中芯国际为前五大客户第三名，销售额约 2.1289 亿元、占年度销售总额 9.42%；年报还把中芯系多家公司按同一控制合并列示。",
+              "relationshipEn": "The 2025 annual report lists SMIC as the No. 3 top customer, with about RMB 212.89 million of sales, or 9.42% of annual sales; several SMIC-controlled entities are grouped under common control.",
+              "productsServices": [
+                "Electronic specialty gases",
+                "WF6 and process gases for wafer manufacturing"
+              ],
+              "productsServicesZh": [
+                "电子特种气体",
+                "晶圆制造用 WF6 和制程气体"
+              ],
+              "productsServicesEn": [
+                "Electronic specialty gases",
+                "WF6 and process gases for wafer manufacturing"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "688981",
+                "exchange": "SSE STAR Market",
+                "market": "China",
+                "stockUrl": "https://quote.eastmoney.com/sh688981.html"
+              },
+              "companyUrl": "https://www.smics.com/",
+              "confidence": "high",
+              "sourceIds": [
+                "csscsg-annual-2025"
+              ]
+            },
+            {
+              "name": "Tianma Microelectronics Co., Ltd.",
+              "nameZh": "天马微电子",
+              "nameEn": "Tianma Microelectronics Co., Ltd.",
+              "customerRole": "Display-panel customer",
+              "customerRoleZh": "显示面板客户",
+              "customerRoleEn": "Display-panel customer",
+              "relationship": "2025 年报披露天马微电子为前五大客户第五名，销售额约 7,602.03 万元、占年度销售总额 3.36%。",
+              "relationshipZh": "2025 年报披露天马微电子为前五大客户第五名，销售额约 7,602.03 万元、占年度销售总额 3.36%。",
+              "relationshipEn": "The 2025 annual report lists Tianma Microelectronics as the No. 5 top customer, with about RMB 76.02 million of sales, or 3.36% of annual sales.",
+              "productsServices": [
+                "Electronic specialty gases for display manufacturing",
+                "Cleaning and process gases"
+              ],
+              "productsServicesZh": [
+                "显示制造用电子特种气体",
+                "清洗和制程气体"
+              ],
+              "productsServicesEn": [
+                "Electronic specialty gases for display manufacturing",
+                "Cleaning and process gases"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "000050",
+                "exchange": "SZSE",
+                "market": "China",
+                "stockUrl": "https://quote.eastmoney.com/sz000050.html"
+              },
+              "companyUrl": "https://www.tianma.com/",
+              "confidence": "high",
+              "sourceIds": [
+                "csscsg-annual-2025"
+              ]
+            },
+            {
+              "name": "Wah Lee Industrial Corp.",
+              "nameZh": "华立企业股份有限公司",
+              "nameEn": "Wah Lee Industrial Corp.",
+              "customerRole": "Electronics materials customer/distributor",
+              "customerRoleZh": "电子材料客户/渠道商",
+              "customerRoleEn": "Electronics materials customer/distributor",
+              "relationship": "2025 年报披露华立企业股份有限公司为前五大客户第二名，销售额约 2.5433 亿元、占年度销售总额 11.25%；其具体终端客户流向需要后续继续溯源。",
+              "relationshipZh": "2025 年报披露华立企业股份有限公司为前五大客户第二名，销售额约 2.5433 亿元、占年度销售总额 11.25%；其具体终端客户流向需要后续继续溯源。",
+              "relationshipEn": "The 2025 annual report lists Wah Lee Industrial as the No. 2 top customer, with about RMB 254.33 million of sales, or 11.25% of annual sales; its ultimate end-customer flow needs follow-up tracing.",
+              "productsServices": [
+                "Electronic specialty gases and semiconductor materials",
+                "Materials distribution/customer channel"
+              ],
+              "productsServicesZh": [
+                "电子特种气体和半导体材料",
+                "材料分销/客户渠道"
+              ],
+              "productsServicesEn": [
+                "Electronic specialty gases and semiconductor materials",
+                "Materials distribution/customer channel"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "3010",
+                "exchange": "TWSE",
+                "market": "Taiwan",
+                "stockUrl": "https://finance.yahoo.com/quote/3010.TW"
+              },
+              "companyUrl": "https://www.wahlee.com/",
+              "confidence": "medium",
+              "sourceIds": [
+                "csscsg-annual-2025"
+              ]
+            },
+            {
+              "name": "Resonac Holdings Corporation",
+              "nameZh": "力森诺科",
+              "nameEn": "Resonac Holdings Corporation",
+              "customerRole": "Electronic materials customer group",
+              "customerRoleZh": "电子材料客户集团",
+              "customerRoleEn": "Electronic materials customer group",
+              "relationship": "2025 年报披露力森诺科集团为前五大客户第四名，销售额约 1.5918 亿元、占年度销售总额 7.04%；年报按日本、上海、欧洲、德国、新加坡、台湾等同一控制实体合并列示。",
+              "relationshipZh": "2025 年报披露力森诺科集团为前五大客户第四名，销售额约 1.5918 亿元、占年度销售总额 7.04%；年报按日本、上海、欧洲、德国、新加坡、台湾等同一控制实体合并列示。",
+              "relationshipEn": "The 2025 annual report lists the Resonac group as the No. 4 top customer, with about RMB 159.18 million of sales, or 7.04% of annual sales; Japan, Shanghai, Europe, Germany, Singapore and Taiwan entities are grouped under common control.",
+              "productsServices": [
+                "Electronic specialty gases",
+                "Semiconductor and electronic-materials supply chain"
+              ],
+              "productsServicesZh": [
+                "电子特种气体",
+                "半导体和电子材料供应链"
+              ],
+              "productsServicesEn": [
+                "Electronic specialty gases",
+                "Semiconductor and electronic-materials supply chain"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "4004",
+                "exchange": "Tokyo Stock Exchange",
+                "market": "Japan",
+                "stockUrl": "https://finance.yahoo.com/quote/4004.T"
+              },
+              "companyUrl": "https://www.resonac.com/",
+              "confidence": "medium",
+              "sourceIds": [
+                "csscsg-annual-2025"
+              ]
+            },
+            {
+              "name": "BOE Technology Group Co., Ltd.",
+              "nameZh": "京东方",
+              "nameEn": "BOE Technology Group Co., Ltd.",
+              "customerRole": "Display-panel customer",
+              "customerRoleZh": "显示面板客户",
+              "customerRoleEn": "Display-panel customer",
+              "relationship": "公司年报在 NF3 客户示例中列名京东方；NF3 主要用于集成电路和显示面板制程清洗。",
+              "relationshipZh": "公司年报在 NF3 客户示例中列名京东方；NF3 主要用于集成电路和显示面板制程清洗。",
+              "relationshipEn": "The annual report names BOE among NF3 customer examples; NF3 is mainly used for cleaning in IC and display-panel processes.",
+              "productsServices": [
+                "NF3",
+                "Electronic specialty gases for display manufacturing"
+              ],
+              "productsServicesZh": [
+                "三氟化氮",
+                "显示制造用电子特种气体"
+              ],
+              "productsServicesEn": [
+                "NF3",
+                "Electronic specialty gases for display manufacturing"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "000725",
+                "exchange": "SZSE",
+                "market": "China",
+                "stockUrl": "https://quote.eastmoney.com/sz000725.html"
+              },
+              "companyUrl": "https://www.boe.com/",
+              "confidence": "high",
+              "sourceIds": [
+                "csscsg-annual-2025"
+              ]
+            },
+            {
+              "name": "TCL China Star Optoelectronics Technology Co., Ltd.",
+              "nameZh": "TCL 华星光电",
+              "nameEn": "TCL China Star Optoelectronics Technology Co., Ltd.",
+              "customerRole": "Display-panel customer",
+              "customerRoleZh": "显示面板客户",
+              "customerRoleEn": "Display-panel customer",
+              "relationship": "公司年报在 NF3 客户示例中列名 TCL 华星；其上市母公司为 TCL 科技，电子特气主要进入显示面板制造环节。",
+              "relationshipZh": "公司年报在 NF3 客户示例中列名 TCL 华星；其上市母公司为 TCL 科技，电子特气主要进入显示面板制造环节。",
+              "relationshipEn": "The annual report names TCL CSOT among NF3 customer examples; its listed parent is TCL Technology, and the gases are used in display-panel manufacturing.",
+              "productsServices": [
+                "NF3",
+                "Electronic specialty gases for display manufacturing"
+              ],
+              "productsServicesZh": [
+                "三氟化氮",
+                "显示制造用电子特种气体"
+              ],
+              "productsServicesEn": [
+                "NF3",
+                "Electronic specialty gases for display manufacturing"
+              ],
+              "listing": {
+                "status": "listed-parent",
+                "parentCompany": "TCL Technology Group Corporation",
+                "parentTicker": "000100",
+                "parentExchange": "SZSE",
+                "parentStockUrl": "https://quote.eastmoney.com/sz000100.html",
+                "note": "TCL CSOT is a display subsidiary of TCL Technology.",
+                "noteZh": "TCL 华星为 TCL 科技旗下显示业务主体。",
+                "noteEn": "TCL CSOT is a display subsidiary of TCL Technology."
+              },
+              "companyUrl": "https://www.tclcsot.com/",
+              "confidence": "high",
+              "sourceIds": [
+                "csscsg-annual-2025"
+              ]
+            },
+            {
+              "name": "Micron Technology, Inc.",
+              "nameZh": "美光科技",
+              "nameEn": "Micron Technology, Inc.",
+              "customerRole": "Memory semiconductor customer",
+              "customerRoleZh": "存储半导体客户",
+              "customerRoleEn": "Memory semiconductor customer",
+              "relationship": "公司年报披露已与美光等海外客户建立业务关系；具体产品组合未逐项公开，但电子特气通常用于存储器晶圆制造中的清洗、沉积和刻蚀等环节。",
+              "relationshipZh": "公司年报披露已与美光等海外客户建立业务关系；具体产品组合未逐项公开，但电子特气通常用于存储器晶圆制造中的清洗、沉积和刻蚀等环节。",
+              "relationshipEn": "The annual report says the company has established business relationships with overseas customers including Micron; the exact product mix is not itemized, but electronic specialty gases are typically used in cleaning, deposition and etching during memory wafer fabrication.",
+              "productsServices": [
+                "Electronic specialty gases",
+                "Process gases for memory wafer manufacturing"
+              ],
+              "productsServicesZh": [
+                "电子特种气体",
+                "存储器晶圆制造用制程气体"
+              ],
+              "productsServicesEn": [
+                "Electronic specialty gases",
+                "Process gases for memory wafer manufacturing"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "MU",
+                "exchange": "NASDAQ",
+                "market": "United States",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/mu"
+              },
+              "companyUrl": "https://www.micron.com/",
+              "confidence": "medium",
+              "sourceIds": [
+                "csscsg-annual-2025"
+              ]
+            }
+          ],
+          "notes": "销售金额仅对前五大客户披露；其他命名客户来自产品客户示例或业务关系描述，因此关系强度不同。",
+          "notesZh": "销售金额仅对前五大客户披露；其他命名客户来自产品客户示例或业务关系描述，因此关系强度不同。",
+          "notesEn": "Sales amounts are disclosed only for top-five customers; other named customers come from product-customer examples or business-relationship descriptions, so relationship strength differs.",
+          "confidence": "high",
+          "sourceIds": [
+            "csscsg-annual-2025"
+          ]
+        },
+        {
+          "level": 2,
+          "title": "终端应用行业",
+          "titleZh": "终端应用行业",
+          "titleEn": "End-application industries",
+          "entities": [
+            {
+              "name": "Integrated-circuit wafer fabs",
+              "nameZh": "集成电路晶圆厂",
+              "nameEn": "Integrated-circuit wafer fabs",
+              "customerRole": "End users of process gases",
+              "customerRoleZh": "制程气体终端使用方",
+              "customerRoleEn": "End users of process gases",
+              "relationship": "电子特气用于晶圆制造的清洗、刻蚀、成膜、掺杂、沉积等环节，需求受先进逻辑、存储和特色工艺扩产节奏影响。",
+              "relationshipZh": "电子特气用于晶圆制造的清洗、刻蚀、成膜、掺杂、沉积等环节，需求受先进逻辑、存储和特色工艺扩产节奏影响。",
+              "relationshipEn": "Electronic specialty gases are used in wafer-fabrication cleaning, etching, film formation, doping and deposition, with demand tied to advanced logic, memory and specialty-process capacity expansion.",
+              "productsServices": [
+                "NF3",
+                "WF6",
+                "Etch, clean and deposition gases"
+              ],
+              "productsServicesZh": [
+                "三氟化氮",
+                "六氟化钨",
+                "刻蚀、清洗和沉积气体"
+              ],
+              "productsServicesEn": [
+                "NF3",
+                "WF6",
+                "Etch, clean and deposition gases"
+              ],
+              "listing": {
+                "status": "unknown",
+                "note": "Customer category; public-company customers are tracked separately when named.",
+                "noteZh": "客户类别；被公开点名的上市客户单独列示。",
+                "noteEn": "Customer category; public-company customers are tracked separately when named."
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "csscsg-annual-2025"
+              ]
+            },
+            {
+              "name": "Display-panel manufacturers",
+              "nameZh": "显示面板制造商",
+              "nameEn": "Display-panel manufacturers",
+              "customerRole": "End users of cleaning and process gases",
+              "customerRoleZh": "清洗和制程气体终端使用方",
+              "customerRoleEn": "End users of cleaning and process gases",
+              "relationship": "NF3 等气体用于显示面板生产线清洗和制程环节，京东方、TCL 华星、LGD、天马等均在公开披露中出现。",
+              "relationshipZh": "NF3 等气体用于显示面板生产线清洗和制程环节，京东方、TCL 华星、LGD、天马等均在公开披露中出现。",
+              "relationshipEn": "NF3 and related gases are used in display-panel line cleaning and processes; BOE, TCL CSOT, LGD and Tianma appear in public disclosures.",
+              "productsServices": [
+                "NF3 and process gases",
+                "Bulk and specialty electronic gases"
+              ],
+              "productsServicesZh": [
+                "三氟化氮和制程气体",
+                "电子大宗气体与特种气体"
+              ],
+              "productsServicesEn": [
+                "NF3 and process gases",
+                "Bulk and specialty electronic gases"
+              ],
+              "listing": {
+                "status": "unknown",
+                "note": "Customer category with several listed-company examples.",
+                "noteZh": "客户类别，已有多个上市公司示例。",
+                "noteEn": "Customer category with several listed-company examples."
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "csscsg-annual-2025"
+              ]
+            },
+            {
+              "name": "Pharmaceutical and new-energy fluorinated-material customers",
+              "nameZh": "医药与新能源含氟材料客户",
+              "nameEn": "Pharmaceutical and new-energy fluorinated-material customers",
+              "customerRole": "Users of triflic-acid-series fine chemicals",
+              "customerRoleZh": "三氟甲磺酸系列精细化学品使用方",
+              "customerRoleEn": "Users of triflic-acid-series fine chemicals",
+              "relationship": "三氟甲磺酸系列产品进入医药、新能源和电子材料领域，是公司第二大披露产品线，2025 年收入增速高于电子特气。",
+              "relationshipZh": "三氟甲磺酸系列产品进入医药、新能源和电子材料领域，是公司第二大披露产品线，2025 年收入增速高于电子特气。",
+              "relationshipEn": "Triflic-acid-series products serve pharmaceutical, new-energy and electronic-materials fields; this was the second disclosed product line and grew faster than electronic specialty gases in 2025.",
+              "productsServices": [
+                "Triflic acid",
+                "LiTFSI and lithium triflate",
+                "Fluorinated fine chemicals"
+              ],
+              "productsServicesZh": [
+                "三氟甲磺酸",
+                "双三氟甲基磺酰亚胺锂和三氟甲磺酸锂",
+                "含氟精细化学品"
+              ],
+              "productsServicesEn": [
+                "Triflic acid",
+                "LiTFSI and lithium triflate",
+                "Fluorinated fine chemicals"
+              ],
+              "listing": {
+                "status": "unknown",
+                "note": "Customer category; individual customer names are not comprehensively disclosed.",
+                "noteZh": "客户类别；具体客户名单未完整逐项披露。",
+                "noteEn": "Customer category; individual customer names are not comprehensively disclosed."
+              },
+              "confidence": "high",
+              "sourceIds": [
+                "csscsg-annual-2025"
+              ]
+            }
+          ],
+          "notes": "这一层把公司产品映射到终端应用，不代表单一客户名单。",
+          "notesZh": "这一层把公司产品映射到终端应用，不代表单一客户名单。",
+          "notesEn": "This layer maps the company's products to end applications; it is not a single-customer list.",
+          "confidence": "high",
+          "sourceIds": [
+            "csscsg-annual-2025"
+          ]
+        }
+      ]
+    }
+  },
+  "financials": {
+    "latestPeriod": "Q1 2026 / FY2025 baseline",
+    "latestPeriodZh": "2026 年一季度 / 2025 财年基准",
+    "latestPeriodEn": "Q1 2026 / FY2025 baseline",
+    "highlights": [
+      {
+        "label": "Q1 2026 revenue",
+        "labelZh": "2026 年一季度营业收入",
+        "labelEn": "Q1 2026 revenue",
+        "value": 0.701,
+        "unit": "CNY billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "change": "+36.00% year over year",
+        "changeZh": "同比增长 36.00%",
+        "changeEn": "+36.00% year over year",
+        "sourceIds": [
+          "csscsg-q1-2026"
+        ]
+      },
+      {
+        "label": "Q1 2026 net profit attributable to shareholders",
+        "labelZh": "2026 年一季度归母净利润",
+        "labelEn": "Q1 2026 net profit attributable to shareholders",
+        "value": 101.287,
+        "unit": "CNY millions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "change": "+16.86% year over year",
+        "changeZh": "同比增长 16.86%",
+        "changeEn": "+16.86% year over year",
+        "sourceIds": [
+          "csscsg-q1-2026"
+        ]
+      },
+      {
+        "label": "FY2025 revenue",
+        "labelZh": "2025 财年营业收入",
+        "labelEn": "FY2025 revenue",
+        "value": 2.26,
+        "unit": "CNY billions",
+        "period": "Fiscal year ended 2025-12-31",
+        "periodZh": "截至 2025-12-31 的财年",
+        "periodEn": "Fiscal year ended 2025-12-31",
+        "change": "+15.88% year over year",
+        "changeZh": "同比增长 15.88%",
+        "changeEn": "+15.88% year over year",
+        "sourceIds": [
+          "csscsg-annual-2025"
+        ]
+      },
+      {
+        "label": "FY2025 net profit attributable to shareholders",
+        "labelZh": "2025 财年归母净利润",
+        "labelEn": "FY2025 net profit attributable to shareholders",
+        "value": 345.52,
+        "unit": "CNY millions",
+        "period": "Fiscal year ended 2025-12-31",
+        "periodZh": "截至 2025-12-31 的财年",
+        "periodEn": "Fiscal year ended 2025-12-31",
+        "change": "+12.43% year over year",
+        "changeZh": "同比增长 12.43%",
+        "changeEn": "+12.43% year over year",
+        "sourceIds": [
+          "csscsg-annual-2025"
+        ]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "Electronic specialty gases",
+        "nameZh": "电子特种气体",
+        "nameEn": "Electronic specialty gases",
+        "revenue": 1.927,
+        "unit": "CNY billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 86.56,
+        "note": "FY2025 main-business revenue; share is calculated against disclosed main-business product revenue, not total company revenue.",
+        "noteZh": "2025 年主营业务收入；占比以披露的主营业务产品收入为分母，不是公司总收入。",
+        "noteEn": "FY2025 main-business revenue; share is calculated against disclosed main-business product revenue, not total company revenue.",
+        "sourceIds": [
+          "csscsg-annual-2025"
+        ]
+      },
+      {
+        "name": "Triflic acid series",
+        "nameZh": "三氟甲磺酸系列",
+        "nameEn": "Triflic acid series",
+        "revenue": 0.299,
+        "unit": "CNY billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 13.44,
+        "note": "FY2025 main-business revenue; this segment grew 44.85% year over year.",
+        "noteZh": "2025 年主营业务收入；该分部同比增长 44.85%。",
+        "noteEn": "FY2025 main-business revenue; this segment grew 44.85% year over year.",
+        "sourceIds": [
+          "csscsg-annual-2025"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "id": "quarterly-revenue",
+        "label": "Quarterly revenue",
+        "labelZh": "财季营业收入",
+        "labelEn": "Quarterly revenue",
+        "unit": "CNY billions",
+        "cadence": "quarterly",
+        "note": "Quarterly revenue from the 2025 annual report and 2026 first-quarter report.",
+        "noteZh": "季度收入来自 2025 年报和 2026 年一季报。",
+        "noteEn": "Quarterly revenue from the 2025 annual report and 2026 first-quarter report.",
+        "sourceIds": [
+          "csscsg-annual-2025",
+          "csscsg-q1-2026"
+        ],
+        "points": [
+          {
+            "period": "Q1 2025",
+            "periodZh": "25年Q1",
+            "periodEn": "Q1 2025",
+            "value": 0.516,
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          },
+          {
+            "period": "Q2 2025",
+            "periodZh": "25年Q2",
+            "periodEn": "Q2 2025",
+            "value": 0.524,
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          },
+          {
+            "period": "Q3 2025",
+            "periodZh": "25年Q3",
+            "periodEn": "Q3 2025",
+            "value": 0.567,
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          },
+          {
+            "period": "Q4 2025",
+            "periodZh": "25年Q4",
+            "periodEn": "Q4 2025",
+            "value": 0.653,
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          },
+          {
+            "period": "Q1 2026",
+            "periodZh": "26年Q1",
+            "periodEn": "Q1 2026",
+            "value": 0.701,
+            "sourceIds": [
+              "csscsg-q1-2026"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "quarterly-net-profit",
+        "label": "Quarterly net profit attributable to shareholders",
+        "labelZh": "财季归母净利润",
+        "labelEn": "Quarterly net profit attributable to shareholders",
+        "unit": "CNY millions",
+        "cadence": "quarterly",
+        "note": "Quarterly net profit attributable to shareholders.",
+        "noteZh": "季度归属于上市公司股东的净利润。",
+        "noteEn": "Quarterly net profit attributable to shareholders.",
+        "sourceIds": [
+          "csscsg-annual-2025",
+          "csscsg-q1-2026"
+        ],
+        "points": [
+          {
+            "period": "Q1 2025",
+            "periodZh": "25年Q1",
+            "periodEn": "Q1 2025",
+            "value": 86.673,
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          },
+          {
+            "period": "Q2 2025",
+            "periodZh": "25年Q2",
+            "periodEn": "Q2 2025",
+            "value": 91.163,
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          },
+          {
+            "period": "Q3 2025",
+            "periodZh": "25年Q3",
+            "periodEn": "Q3 2025",
+            "value": 67.66,
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          },
+          {
+            "period": "Q4 2025",
+            "periodZh": "25年Q4",
+            "periodEn": "Q4 2025",
+            "value": 100.024,
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          },
+          {
+            "period": "Q1 2026",
+            "periodZh": "26年Q1",
+            "periodEn": "Q1 2026",
+            "value": 101.287,
+            "sourceIds": [
+              "csscsg-q1-2026"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-revenue",
+        "label": "Annual revenue",
+        "labelZh": "财年营业收入",
+        "labelEn": "Annual revenue",
+        "unit": "CNY billions",
+        "cadence": "annual",
+        "note": "Annual operating revenue, using adjusted prior-year figures from the 2025 annual report.",
+        "noteZh": "年度营业收入，2023/2024 使用 2025 年报披露的追溯调整口径。",
+        "noteEn": "Annual operating revenue, using adjusted prior-year figures from the 2025 annual report.",
+        "sourceIds": [
+          "csscsg-annual-2025"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "23财年",
+            "periodEn": "FY2023",
+            "value": 1.646,
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "24财年",
+            "periodEn": "FY2024",
+            "value": 1.95,
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "25财年",
+            "periodEn": "FY2025",
+            "value": 2.26,
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-net-profit",
+        "label": "Annual net profit attributable to shareholders",
+        "labelZh": "财年归母净利润",
+        "labelEn": "Annual net profit attributable to shareholders",
+        "unit": "CNY millions",
+        "cadence": "annual",
+        "note": "Annual net profit attributable to shareholders, using adjusted prior-year figures from the 2025 annual report.",
+        "noteZh": "年度归母净利润，2023/2024 使用 2025 年报披露的追溯调整口径。",
+        "noteEn": "Annual net profit attributable to shareholders, using adjusted prior-year figures from the 2025 annual report.",
+        "sourceIds": [
+          "csscsg-annual-2025"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "23财年",
+            "periodEn": "FY2023",
+            "value": 336.14,
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "24财年",
+            "periodEn": "FY2024",
+            "value": 307.326,
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "25财年",
+            "periodEn": "FY2025",
+            "value": 345.52,
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenueMixHistory": [
+      {
+        "period": "FY2024",
+        "periodZh": "24财年",
+        "periodEn": "FY2024",
+        "totalRevenue": 1.902,
+        "sourceIds": [
+          "csscsg-annual-2024"
+        ],
+        "segments": [
+          {
+            "name": "Electronic specialty gases",
+            "nameZh": "电子特种气体",
+            "nameEn": "Electronic specialty gases",
+            "revenue": 1.695,
+            "unit": "CNY billions",
+            "share": 89.14,
+            "sourceIds": [
+              "csscsg-annual-2024"
+            ]
+          },
+          {
+            "name": "Triflic acid series",
+            "nameZh": "三氟甲磺酸系列",
+            "nameEn": "Triflic acid series",
+            "revenue": 0.206,
+            "unit": "CNY billions",
+            "share": 10.86,
+            "sourceIds": [
+              "csscsg-annual-2024"
+            ]
+          }
+        ],
+        "note": "Product mix uses disclosed main-business product revenue as denominator; it excludes other operating revenue.",
+        "noteZh": "产品构成以披露的主营业务产品收入为分母，不包含其他业务收入。",
+        "noteEn": "Product mix uses disclosed main-business product revenue as denominator; it excludes other operating revenue."
+      },
+      {
+        "period": "FY2025",
+        "periodZh": "25财年",
+        "periodEn": "FY2025",
+        "totalRevenue": 2.226,
+        "sourceIds": [
+          "csscsg-annual-2025"
+        ],
+        "segments": [
+          {
+            "name": "Electronic specialty gases",
+            "nameZh": "电子特种气体",
+            "nameEn": "Electronic specialty gases",
+            "revenue": 1.927,
+            "unit": "CNY billions",
+            "share": 86.56,
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          },
+          {
+            "name": "Triflic acid series",
+            "nameZh": "三氟甲磺酸系列",
+            "nameEn": "Triflic acid series",
+            "revenue": 0.299,
+            "unit": "CNY billions",
+            "share": 13.44,
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          }
+        ],
+        "note": "Product mix uses disclosed main-business product revenue as denominator; shares are rounded and may not sum perfectly.",
+        "noteZh": "产品构成以披露的主营业务产品收入为分母；百分比四舍五入后可能存在微小差异。",
+        "noteEn": "Product mix uses disclosed main-business product revenue as denominator; shares are rounded and may not sum perfectly."
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-06-11",
+      "title": "FY2025 cash dividend implementation announced",
+      "titleZh": "披露 2025 年年度权益分派实施公告",
+      "titleEn": "FY2025 cash dividend implementation announced",
+      "category": "Shareholder return",
+      "categoryZh": "股东回报",
+      "categoryEn": "Shareholder return",
+      "summary": "公司公告每股派发现金红利 0.196 元，股权登记日为 2026-06-16，除权除息日和现金红利发放日为 2026-06-17。",
+      "summaryZh": "公司公告每股派发现金红利 0.196 元，股权登记日为 2026-06-16，除权除息日和现金红利发放日为 2026-06-17。",
+      "summaryEn": "The company announced a cash dividend of RMB 0.196 per share, with record date on 2026-06-16 and ex-dividend/payment date on 2026-06-17.",
+      "impact": "Confirms FY2025 profit distribution timetable; it does not change operating fundamentals but matters for total-return and ex-dividend tracking.",
+      "impactZh": "确认 2025 年利润分配时间表；不改变经营基本面，但影响总回报和除权除息跟踪。",
+      "impactEn": "Confirms the FY2025 profit-distribution timetable; it does not change operating fundamentals but matters for total-return and ex-dividend tracking.",
+      "sourceIds": [
+        "csscsg-dividend-20260611"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "title": "Abnormal trading announcement flags valuation risk and WF6 rumor uncertainty",
+      "titleZh": "异常波动公告提示估值风险和 WF6 传闻不确定性",
+      "titleEn": "Abnormal trading announcement flags valuation risk and WF6 rumor uncertainty",
+      "category": "Market risk",
+      "categoryZh": "市场风险",
+      "categoryEn": "Market risk",
+      "summary": "公司公告股票在短期内涨幅较大，经自查不存在应披露而未披露重大事项；公告同时说明市场传闻涉及日本 WF6 供应商因原材料问题减产/停产，公司部分下游客户对 WF6 增加问询，但暂未形成新签长期或大额实质订单协议。",
+      "summaryZh": "公司公告股票在短期内涨幅较大，经自查不存在应披露而未披露重大事项；公告同时说明市场传闻涉及日本 WF6 供应商因原材料问题减产/停产，公司部分下游客户对 WF6 增加问询，但暂未形成新签长期或大额实质订单协议。",
+      "summaryEn": "The company said the stock had risen sharply and no undisclosed major matter existed after self-check. It also noted market rumors about a Japanese WF6 supplier reducing/stopping production due to raw materials; some downstream customers increased WF6 inquiries, but no new long-term or large substantive order agreement had been signed.",
+      "impact": "Raises the need to separate real WF6 demand/orders from sentiment-driven re-rating; valuation and order-conversion risk should be tracked closely.",
+      "impactZh": "需要区分真实 WF6 需求/订单和情绪驱动的估值重估；后续应重点跟踪估值和订单转化风险。",
+      "impactEn": "Investors need to separate real WF6 demand/orders from sentiment-driven re-rating; valuation and order-conversion risk should be tracked closely.",
+      "sourceIds": [
+        "csscsg-abnormal-20260609"
+      ]
+    },
+    {
+      "date": "2026-05-07",
+      "title": "IR record discusses WF6 supply chain, HBM demand and new capacity",
+      "titleZh": "投资者关系记录讨论 WF6 供应链、HBM 需求和新增产能",
+      "titleEn": "IR record discusses WF6 supply chain, HBM demand and new capacity",
+      "category": "Operations",
+      "categoryZh": "经营动态",
+      "categoryEn": "Operations",
+      "summary": "投资者关系记录显示，公司认为中国钨资源和供应链能支撑 WF6 供应安全；公司 2,000 吨/年 WF6 产能利用率较高，新增 1,000 吨/年 WF6 产能预计 2027 年投产；HBM 和存储资本开支对需求形成支撑。",
+      "summaryZh": "投资者关系记录显示，公司认为中国钨资源和供应链能支撑 WF6 供应安全；公司 2,000 吨/年 WF6 产能利用率较高，新增 1,000 吨/年 WF6 产能预计 2027 年投产；HBM 和存储资本开支对需求形成支撑。",
+      "summaryEn": "The IR record says China's tungsten resources and supply chain support WF6 supply security. The company's 2,000 t/y WF6 capacity is highly utilized, with an additional 1,000 t/y expected to come online in 2027; HBM and memory capex support demand.",
+      "impact": "WF6 is becoming the most sensitive product to track because capacity, tungsten feedstock, export controls and memory/HBM demand can amplify each other.",
+      "impactZh": "WF6 是当前最敏感的跟踪产品，因为产能、钨原料、出口管制和存储/HBM 需求可能相互放大。",
+      "impactEn": "WF6 is the most sensitive product to track because capacity, tungsten feedstock, export controls and memory/HBM demand can reinforce each other.",
+      "sourceIds": [
+        "csscsg-ir-20260507"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "title": "FY2025 and Q1 2026 results released",
+      "titleZh": "披露 2025 年报和 2026 年一季报",
+      "titleEn": "FY2025 and Q1 2026 results released",
+      "category": "Earnings",
+      "categoryZh": "业绩",
+      "categoryEn": "Earnings",
+      "summary": "2025 年营业收入 22.60 亿元，同比增长 15.88%，归母净利润 3.46 亿元，同比增长 12.43%；2026 年一季度营业收入 7.01 亿元，同比增长 36.00%，归母净利润 1.01 亿元，同比增长 16.86%。",
+      "summaryZh": "2025 年营业收入 22.60 亿元，同比增长 15.88%，归母净利润 3.46 亿元，同比增长 12.43%；2026 年一季度营业收入 7.01 亿元，同比增长 36.00%，归母净利润 1.01 亿元，同比增长 16.86%。",
+      "summaryEn": "FY2025 revenue was RMB 2.260 billion, up 15.88% year over year, and net profit attributable to shareholders was RMB 345.52 million, up 12.43%. Q1 2026 revenue was RMB 701.42 million, up 36.00%, and attributable net profit was RMB 101.29 million, up 16.86%.",
+      "impact": "Shows demand and pricing support into Q1 2026, while operating cash flow weakened year over year due to raw-material stock-up payments.",
+      "impactZh": "显示需求和部分产品价格对 2026 年一季度形成支撑，但经营现金流因原材料备货付款同比下降。",
+      "impactEn": "Shows demand and pricing support into Q1 2026, while operating cash flow weakened year over year due to raw-material stock-up payments.",
+      "sourceIds": [
+        "csscsg-annual-2025",
+        "csscsg-q1-2026"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "Annual Report",
+      "filedAt": "2026-04-21",
+      "reportDate": "2025-12-31",
+      "title": "中船特气2025年年度报告",
+      "url": "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-21/688146_20260421_JKJI.pdf"
+    },
+    {
+      "form": "Quarterly Report",
+      "filedAt": "2026-04-21",
+      "reportDate": "2026-03-31",
+      "title": "中船特气2026年第一季度报告",
+      "url": "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-21/688146_20260421_A21R.pdf"
+    },
+    {
+      "form": "Trading Risk Announcement",
+      "filedAt": "2026-06-09",
+      "title": "中船特气股票交易异常波动暨严重异常波动公告",
+      "url": "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-06-09/688146_20260609_ES1F.pdf"
+    },
+    {
+      "form": "Dividend Implementation",
+      "filedAt": "2026-06-11",
+      "title": "中船特气2025年年度权益分派实施公告",
+      "url": "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-06-11/688146_20260611_TEDA.pdf"
+    }
+  ],
+  "sources": [
+    {
+      "id": "csscsg-annual-2025",
+      "title": "中船特气2025年年度报告",
+      "titleZh": "中船特气2025年年度报告",
+      "titleEn": "CSSC Special Gas 2025 Annual Report",
+      "publisher": "Shanghai Stock Exchange",
+      "url": "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-21/688146_20260421_JKJI.pdf",
+      "publishedAt": "2026-04-21",
+      "accessedAt": "2026-06-11",
+      "type": "exchange"
+    },
+    {
+      "id": "csscsg-q1-2026",
+      "title": "中船特气2026年第一季度报告",
+      "titleZh": "中船特气2026年第一季度报告",
+      "titleEn": "CSSC Special Gas 2026 First Quarter Report",
+      "publisher": "Shanghai Stock Exchange",
+      "url": "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-21/688146_20260421_A21R.pdf",
+      "publishedAt": "2026-04-21",
+      "accessedAt": "2026-06-11",
+      "type": "exchange"
+    },
+    {
+      "id": "csscsg-annual-2024",
+      "title": "中船特气2024年年度报告",
+      "titleZh": "中船特气2024年年度报告",
+      "titleEn": "CSSC Special Gas 2024 Annual Report",
+      "publisher": "Shanghai Stock Exchange / Eastmoney",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202504251662290495_1.pdf?1745608527000.pdf",
+      "publishedAt": "2025-04-26",
+      "accessedAt": "2026-06-11",
+      "type": "exchange"
+    },
+    {
+      "id": "csscsg-abnormal-20260609",
+      "title": "中船特气股票交易异常波动暨严重异常波动公告",
+      "titleZh": "中船特气股票交易异常波动暨严重异常波动公告",
+      "titleEn": "CSSC Special Gas abnormal and severe abnormal trading announcement",
+      "publisher": "Shanghai Stock Exchange",
+      "url": "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-06-09/688146_20260609_ES1F.pdf",
+      "publishedAt": "2026-06-09",
+      "accessedAt": "2026-06-11",
+      "type": "exchange"
+    },
+    {
+      "id": "csscsg-dividend-20260611",
+      "title": "中船特气2025年年度权益分派实施公告",
+      "titleZh": "中船特气2025年年度权益分派实施公告",
+      "titleEn": "CSSC Special Gas FY2025 dividend implementation announcement",
+      "publisher": "Shanghai Stock Exchange",
+      "url": "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-06-11/688146_20260611_TEDA.pdf",
+      "publishedAt": "2026-06-11",
+      "accessedAt": "2026-06-11",
+      "type": "exchange"
+    },
+    {
+      "id": "csscsg-ir-20260507",
+      "title": "中船特气投资者关系活动记录表",
+      "titleZh": "中船特气投资者关系活动记录表",
+      "titleEn": "CSSC Special Gas investor relations activity record",
+      "publisher": "Shanghai Stock Exchange / Eastmoney",
+      "url": "https://pdf.dfcfw.com/pdf/H22_AN202605081822072236_1.pdf?1778258876000.pdf",
+      "publishedAt": "2026-05-08",
+      "accessedAt": "2026-06-11",
+      "type": "company"
+    }
+  ]
+}

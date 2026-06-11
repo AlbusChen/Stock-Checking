@@ -1,4 +1,5 @@
 import type { FinancialHighlight } from "../types/company";
+import { formatFinancialValue } from "../lib/format";
 import { combineLocalized, localizedField } from "../lib/localization";
 import { TextPair } from "./TextPair";
 
@@ -12,11 +13,7 @@ export function MetricStrip({ metrics }: MetricStripProps) {
       {metrics.slice(0, 4).map((metric) => (
         <div className="metric" key={`${metric.label}-${metric.period}`}>
           <TextPair text={localizedField(metric, "label")} />
-          <strong>
-            {metric.unit === "USD billions" ? "$" : ""}
-            {metric.value.toLocaleString("en-US")}
-            {metric.unit === "USD billions" ? "B" : metric.unit === "percent" ? "%" : ""}
-          </strong>
+          <strong>{formatFinancialValue(metric.value, metric.unit)}</strong>
           <TextPair
             className="metric-context"
             text={combineLocalized(

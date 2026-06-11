@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-06-08T13:39:19.228772Z",
+  "generatedAt": "2026-06-11T07:13:29.051490Z",
   "companies": [
+    {
+      "id": "cssc-special-gas",
+      "ticker": "688146",
+      "name": "中船特气",
+      "legalName": "中船（邯郸）派瑞特种气体股份有限公司",
+      "exchange": "SSE STAR Market",
+      "market": "CN",
+      "dataPath": "data/companies/cssc-special-gas.json",
+      "aliases": [
+        "中船特气",
+        "中船派瑞特气",
+        "派瑞特气",
+        "中船（邯郸）派瑞特种气体股份有限公司",
+        "Peric Special Gases",
+        "Peric Special Gases Co Ltd",
+        "CSSC Special Gas",
+        "688146",
+        "688146.SH"
+      ],
+      "sector": "电子特种气体与含氟新材料",
+      "lastUpdated": "2026-06-11T22:30:00+08:00",
+      "summary": "中船特气是中国船舶集团体系内的电子特种气体和含氟新材料平台，核心产品包括超纯三氟化氮、超纯六氟化钨和三氟甲磺酸系列，下游连接晶圆厂、显示面板和医药/新能源材料客户。"
+    },
     {
       "id": "aapl",
       "ticker": "AAPL",

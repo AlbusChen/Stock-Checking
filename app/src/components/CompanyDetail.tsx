@@ -10,6 +10,7 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import { useMemo, useState } from "react";
+import { formatFinancialValue } from "../lib/format";
 import { combineLocalized, localizedField, localizedList } from "../lib/localization";
 import type { BusinessSegment, CompanyReport, DownstreamChain, Source, SupplierListing } from "../types/company";
 import { FinancialTrendCharts } from "./FinancialTrendCharts";
@@ -64,7 +65,7 @@ function SegmentBars({ segments, sources }: { segments: BusinessSegment[]; sourc
           <div className="bar-label">
             <TextPair text={localizedField(segment, "name")} />
             <strong>
-              {segment.revenue ? `$${segment.revenue.toLocaleString("en-US")}B` : "n/a"}
+              {segment.revenue && segment.unit ? formatFinancialValue(segment.revenue, segment.unit) : "n/a"}
             </strong>
           </div>
           <div className="bar-track">
@@ -400,11 +401,7 @@ export function CompanyDetail({ report }: CompanyDetailProps) {
               {report.financials.highlights.map((metric) => (
                 <div className="metric-row" key={`${metric.label}-${metric.period}`}>
                   <TextPair text={localizedField(metric, "label")} />
-                  <strong>
-                    {metric.unit === "USD billions" ? "$" : ""}
-                    {metric.value.toLocaleString("en-US")}
-                    {metric.unit === "USD billions" ? "B" : metric.unit === "percent" ? "%" : ""}
-                  </strong>
+                  <strong>{formatFinancialValue(metric.value, metric.unit)}</strong>
                   <TextPair
                     className="metric-context"
                     text={combineLocalized(

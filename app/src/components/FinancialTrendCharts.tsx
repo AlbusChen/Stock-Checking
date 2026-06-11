@@ -6,6 +6,7 @@ import type {
   RevenueMixHistorySegment,
   Source,
 } from "../types/company";
+import { formatFinancialValue, isMoneyScale } from "../lib/format";
 import { TextPair } from "./TextPair";
 
 interface FinancialTrendChartsProps {
@@ -15,19 +16,6 @@ interface FinancialTrendChartsProps {
 }
 
 const chartColors = ["#2b7a78", "#8a6f28", "#4a627a", "#7d5b68", "#5f6d68", "#a06d3b"];
-
-function formatValue(value: number, unit: string) {
-  if (unit === "USD billions") {
-    return `$${value.toLocaleString("en-US", { maximumFractionDigits: value >= 100 ? 0 : 1 })}B`;
-  }
-  if (unit === "percent") {
-    return `${value.toLocaleString("en-US", { maximumFractionDigits: 1 })}%`;
-  }
-  if (unit === "USD") {
-    return `$${value.toLocaleString("en-US", { maximumFractionDigits: 2 })}`;
-  }
-  return value.toLocaleString("en-US", { maximumFractionDigits: 2 });
-}
 
 function formatShare(value: number) {
   return `${value.toLocaleString("en-US", { maximumFractionDigits: 1 })}%`;
@@ -65,7 +53,7 @@ function LineTrendCard({ trend, sources }: { trend: FinancialTrendSeries; source
   const rawMin = Math.min(...values);
   const rawMax = Math.max(...values);
   const span = rawMax - rawMin || Math.max(Math.abs(rawMax), 1);
-  const min = trend.unit === "USD billions" ? 0 : Math.max(0, rawMin - span * 0.2);
+  const min = isMoneyScale(trend.unit) ? 0 : Math.max(0, rawMin - span * 0.2);
   const max = rawMax + span * 0.18;
   const innerWidth = width - padding.left - padding.right;
   const innerHeight = height - padding.top - padding.bottom;
@@ -101,10 +89,10 @@ function LineTrendCard({ trend, sources }: { trend: FinancialTrendSeries; source
         />
         <line className="chart-grid-line" x1={padding.left} x2={width - padding.right} y1={padding.top} y2={padding.top} />
         <text className="axis-label" x={8} y={padding.top + 4}>
-          {formatValue(max, trend.unit)}
+          {formatFinancialValue(max, trend.unit)}
         </text>
         <text className="axis-label" x={8} y={padding.top + innerHeight + 4}>
-          {formatValue(min, trend.unit)}
+          {formatFinancialValue(min, trend.unit)}
         </text>
         <path className="line-area" d={area} />
         <path className="trend-line" d={path} />
@@ -112,7 +100,7 @@ function LineTrendCard({ trend, sources }: { trend: FinancialTrendSeries; source
           <g key={`${trend.id}-${point.period}`}>
             <circle className="trend-dot" cx={point.x} cy={point.y} r="4" />
             <text className="point-value" x={point.x} y={point.y - 10}>
-              {formatValue(point.value, trend.unit)}
+              {formatFinancialValue(point.value, trend.unit)}
             </text>
             <text className="axis-label x-label" x={point.x} y={height - 16}>
               {point.periodZh ?? point.period}
@@ -158,6 +146,7 @@ function RevenueMixHistoryChart({
   const padding = { top: 22, right: 18, bottom: 42, left: 58 };
   const segmentNames = collectSegments(periods);
   const maxTotal = Math.max(...periods.map((period) => period.segments.reduce((sum, segment) => sum + segment.revenue, 0)), 1);
+  const valueUnit = periods.find((period) => period.segments.length > 0)?.segments[0]?.unit ?? "USD billions";
   const innerHeight = height - padding.top - padding.bottom;
   const innerWidth = width - padding.left - padding.right;
   const slotWidth = innerWidth / periods.length;
@@ -186,7 +175,7 @@ function RevenueMixHistoryChart({
           y2={padding.top + innerHeight}
         />
         <text className="axis-label" x={8} y={padding.top + 4}>
-          {formatValue(maxTotal, "USD billions")}
+          {formatFinancialValue(maxTotal, valueUnit)}
         </text>
         {periods.map((period, periodIndex) => {
           let offset = 0;
@@ -226,7 +215,7 @@ function RevenueMixHistoryChart({
                 {period.periodZh ?? period.period}
               </text>
               <text className="point-value" x={x + barWidth / 2} y={padding.top + innerHeight - offset - 8}>
-                {formatValue(stackTotal, "USD billions")}
+                {formatFinancialValue(stackTotal, valueUnit)}
               </text>
             </g>
           );
@@ -259,7 +248,7 @@ function RevenueMixHistoryChart({
                   {segment ? (
                     <>
                       <strong>{formatShare(segmentShare(segment, period))}</strong>
-                      <small>{formatValue(segment.revenue, "USD billions")}</small>
+                      <small>{formatFinancialValue(segment.revenue, segment.unit)}</small>
                     </>
                   ) : (
                     "n/a"
