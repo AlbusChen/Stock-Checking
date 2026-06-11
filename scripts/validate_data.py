@@ -24,6 +24,7 @@ REQUIRED_TOP_LEVEL = {
     "sector",
     "industry",
     "homepage",
+    "labels",
     "lastUpdated",
     "summary",
     "updateCadence",
@@ -129,6 +130,14 @@ def validate_report(path: Path) -> list[str]:
 
     if report.get("market") not in {"US", "CN"}:
         errors.append(f"{path.name}: market must be US or CN")
+
+    labels = report.get("labels")
+    if (
+        not isinstance(labels, list)
+        or not labels
+        or not all(isinstance(label, str) and label.strip() for label in labels)
+    ):
+        errors.append(f"{path.name}: labels must be a non-empty string list")
 
     source_ids = {source.get("id") for source in report.get("sources", [])}
     if None in source_ids:

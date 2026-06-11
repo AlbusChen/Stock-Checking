@@ -19,6 +19,7 @@ export interface CompanyIndexItem {
   market: Market;
   dataPath: string;
   aliases: string[];
+  labels: string[];
   sector: string;
   lastUpdated: string;
   summary: string;
@@ -261,6 +262,7 @@ export interface CompanyReport {
   currency: string;
   sector: string;
   industry: string[];
+  labels: string[];
   homepage: string;
   lastUpdated: string;
   summary: string;

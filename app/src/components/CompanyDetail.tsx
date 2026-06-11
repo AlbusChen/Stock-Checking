@@ -199,6 +199,11 @@ export function CompanyDetail({ report }: CompanyDetailProps) {
             <span>{report.market}</span>
           </div>
           <h1>{report.name}</h1>
+          <div className="detail-labels" aria-label="company labels">
+            {report.labels.map((label) => (
+              <span key={`${report.id}-${label}`}>{label}</span>
+            ))}
+          </div>
           <p>{report.summary}</p>
         </div>
         <div className="freshness">

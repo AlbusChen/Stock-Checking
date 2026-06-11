@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T14:52:38.261354Z",
+  "generatedAt": "2026-06-11T15:30:33.173821Z",
   "companies": [
     {
       "id": "cssc-special-gas",
@@ -20,6 +20,13 @@
         "688146",
         "688146.SH"
       ],
+      "labels": [
+        "半导体",
+        "电子材料",
+        "特种气体",
+        "化工材料",
+        "A股"
+      ],
       "sector": "电子特种气体与含氟新材料",
       "lastUpdated": "2026-06-11T22:30:00+08:00",
       "summary": "中船特气是中国船舶集团体系内的电子特种气体和含氟新材料平台，核心产品包括超纯三氟化氮、超纯六氟化钨和三氟甲磺酸系列，下游连接晶圆厂、显示面板和医药/新能源材料客户。"
@@ -33,6 +40,14 @@
       "market": "US",
       "dataPath": "data/companies/aapl.json",
       "aliases": [],
+      "labels": [
+        "科技",
+        "消费电子",
+        "终端硬件",
+        "软件服务",
+        "AI生态",
+        "美股"
+      ],
       "sector": "Consumer electronics and services",
       "lastUpdated": "2026-06-07T13:17:57.056288Z",
       "summary": "硬件生态和服务收入共同驱动，核心变量是 iPhone 周期、服务增长、供应链韧性与 AI 平台节奏。"
@@ -49,6 +64,13 @@
         "AST SpaceMobile",
         "AST 太空移动",
         "ASTS"
+      ],
+      "labels": [
+        "太空",
+        "卫星通信",
+        "直连手机",
+        "电信",
+        "美股"
       ],
       "sector": "Satellite Communications / 卫星通信",
       "lastUpdated": "2026-06-11T18:45:00+08:00",
@@ -67,6 +89,13 @@
         "全球星",
         "GSAT"
       ],
+      "labels": [
+        "太空",
+        "卫星通信",
+        "物联网",
+        "直连设备",
+        "美股"
+      ],
       "sector": "Satellite Communications / 卫星通信",
       "lastUpdated": "2026-06-11T18:45:00+08:00",
       "summary": "Globalstar 提供移动卫星服务、IoT 连接和卫星/频谱资产相关服务，是 Starlink 直连设备与移动卫星服务主题下的上市可比公司。"
@@ -80,6 +109,14 @@
       "market": "US",
       "dataPath": "data/companies/intc.json",
       "aliases": [],
+      "labels": [
+        "半导体",
+        "科技",
+        "CPU",
+        "晶圆代工",
+        "数据中心",
+        "美股"
+      ],
       "sector": "Semiconductors and foundry",
       "lastUpdated": "2026-06-07T13:17:57.194160Z",
       "summary": "CPU 业务提供现金流，Intel Foundry 与先进制程/封装决定中长期弹性，当前重点是供给、良率和外部客户。"
@@ -96,6 +133,13 @@
         "Iridium",
         "铱星通信",
         "IRDM"
+      ],
+      "labels": [
+        "太空",
+        "卫星通信",
+        "物联网",
+        "电信",
+        "美股"
       ],
       "sector": "Satellite Communications / 卫星通信",
       "lastUpdated": "2026-06-11T18:45:00+08:00",
@@ -116,6 +160,13 @@
         "美光科技",
         "MU"
       ],
+      "labels": [
+        "半导体",
+        "存储",
+        "AI基础设施",
+        "数据中心",
+        "美股"
+      ],
       "sector": "Memory and storage semiconductors",
       "lastUpdated": "2026-06-08T20:30:00+08:00",
       "summary": "美光是美国存储器与存储解决方案龙头，核心变量是 AI 数据中心带来的 HBM、DDR5/LPDDR 与 SSD 需求、存储价格周期、产能/资本开支和先进封装能力。"
@@ -129,6 +180,14 @@
       "market": "US",
       "dataPath": "data/companies/nvda.json",
       "aliases": [],
+      "labels": [
+        "半导体",
+        "科技",
+        "AI",
+        "数据中心",
+        "GPU",
+        "美股"
+      ],
       "sector": "Accelerated computing and AI infrastructure",
       "lastUpdated": "2026-06-07T16:45:00+08:00",
       "summary": "AI 数据中心平台是收入主轴，关注 Blackwell/Rubin 放量、HBM 与先进封装供给、出口限制和客户集中度。"
@@ -147,6 +206,13 @@
         "RKLB",
         "Rocket Lab USA"
       ],
+      "labels": [
+        "太空",
+        "航空航天",
+        "发射服务",
+        "国防",
+        "美股"
+      ],
       "sector": "Aerospace & Defense / 航空航天与国防",
       "lastUpdated": "2026-06-11T18:45:00+08:00",
       "summary": "Rocket Lab 是一家上市航天公司，业务覆盖 Electron 发射服务、Neutron 研发以及卫星/航天器系统。它不是 SpaceX 的直接上市替代品，但在 SpaceX IPO 主题中可作为发射与空间系统环节的公开可比公司。"
@@ -163,6 +229,13 @@
         "Viasat",
         "维亚萨特",
         "VSAT"
+      ],
+      "labels": [
+        "太空",
+        "卫星通信",
+        "宽带连接",
+        "国防",
+        "美股"
       ],
       "sector": "Satellite Communications / 卫星通信",
       "lastUpdated": "2026-06-11T18:45:00+08:00",

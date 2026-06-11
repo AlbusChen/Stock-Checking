@@ -85,6 +85,53 @@ a {
   width: 100%;
 }
 
+.label-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  max-height: 142px;
+  overflow: auto;
+  padding-right: 2px;
+}
+
+.label-chip {
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #d9dfd7;
+  border-radius: 999px;
+  color: #4a5757;
+  cursor: pointer;
+  display: inline-flex;
+  gap: 5px;
+  min-height: 30px;
+  padding: 4px 9px;
+  white-space: nowrap;
+}
+
+.label-chip span {
+  background: #eef1ec;
+  border-radius: 999px;
+  color: #5f6d68;
+  font-size: 11px;
+  font-weight: 800;
+  min-width: 19px;
+  padding: 1px 5px;
+  text-align: center;
+}
+
+.label-chip:hover,
+.label-chip.active {
+  background: #233634;
+  border-color: #233634;
+  color: #ffffff;
+}
+
+.label-chip:hover span,
+.label-chip.active span {
+  background: rgba(255, 255, 255, 0.18);
+  color: #ffffff;
+}
+
 .result-list {
   display: flex;
   flex-direction: column;
@@ -130,6 +177,31 @@ a {
   font-size: 13px;
 }
 
+.company-labels,
+.detail-labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.company-labels em,
+.detail-labels span {
+  background: #eef1ec;
+  border-radius: 999px;
+  color: #596660;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.2;
+  padding: 3px 7px;
+}
+
+.company-button.active .company-labels em,
+.company-button:hover .company-labels em {
+  background: #dcebea;
+  color: #22625f;
+}
+
 .sidebar-footer {
   align-items: center;
   display: flex;
@@ -162,6 +234,15 @@ a {
   line-height: 1.08;
   letter-spacing: 0;
   margin: 8px 0 10px;
+}
+
+.detail-labels {
+  margin-bottom: 10px;
+}
+
+.detail-labels span {
+  background: #e8f3f1;
+  color: #22625f;
 }
 
 .company-header p {

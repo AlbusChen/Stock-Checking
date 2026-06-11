@@ -27,6 +27,7 @@ def main() -> None:
               "market": report["market"],
               "dataPath": f"data/companies/{path.name}",
               "aliases": report.get("aliases", []),
+              "labels": report.get("labels", []),
               "sector": report["sector"],
               "lastUpdated": report["lastUpdated"],
               "summary": report["summary"],
