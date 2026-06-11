@@ -334,7 +334,8 @@ a {
   font-size: 13px;
 }
 
-.ticker-line span {
+.ticker-line > span,
+.quote-link {
   background: #eef1ec;
   border: 1px solid #d9dfd7;
   border-radius: 6px;
@@ -346,6 +347,30 @@ a {
   border-color: #2b7a78;
   color: #ffffff;
   font-weight: 800;
+}
+
+.quote-link {
+  align-items: center;
+  background: #e8f3f1;
+  color: #22625f;
+  display: inline-flex;
+  gap: 5px;
+  min-height: 28px;
+  text-decoration: none;
+}
+
+.quote-link:hover {
+  background: #dcebea;
+  border-color: #2b7a78;
+}
+
+.quote-link .text-pair {
+  gap: 0;
+}
+
+.quote-link .text-pair > small {
+  color: #42726f;
+  font-size: 11px;
 }
 
 .freshness {

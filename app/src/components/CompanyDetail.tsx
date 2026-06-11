@@ -101,6 +101,31 @@ function listingHref(listing: SupplierListing) {
   return undefined;
 }
 
+function cnQuoteSymbol(ticker: string, exchange: string) {
+  const code = ticker.replace(/\D/g, "");
+  const normalizedExchange = exchange.toUpperCase();
+
+  if (normalizedExchange.includes("SSE") || code.startsWith("6")) return `sh${code}`;
+  if (normalizedExchange.includes("SZSE") || code.startsWith("0") || code.startsWith("3")) return `sz${code}`;
+  if (
+    normalizedExchange.includes("BSE") ||
+    code.startsWith("4") ||
+    code.startsWith("8") ||
+    code.startsWith("9")
+  ) {
+    return `bj${code}`;
+  }
+  return code ? `sh${code}` : ticker.toLowerCase();
+}
+
+function quoteHref(report: CompanyReport) {
+  if (report.market === "US") {
+    return `https://www.nasdaq.com/market-activity/stocks/${encodeURIComponent(report.ticker.toLowerCase())}`;
+  }
+
+  return `https://quote.eastmoney.com/${cnQuoteSymbol(report.ticker, report.exchange)}.html`;
+}
+
 function DownstreamPanel({
   downstream,
   sources,
@@ -197,6 +222,17 @@ export function CompanyDetail({ report }: CompanyDetailProps) {
             <span className="ticker">{report.ticker}</span>
             <span>{report.exchange}</span>
             <span>{report.market}</span>
+            <a
+              aria-label={`${report.ticker} 实时行情 / Live quote`}
+              className="quote-link"
+              href={quoteHref(report)}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LineChart size={13} aria-hidden="true" />
+              <TextPair text={{ zh: "实时行情", en: "Live quote" }} />
+              <ExternalLink size={13} aria-hidden="true" />
+            </a>
           </div>
           <h1>{report.name}</h1>
           <div className="detail-labels" aria-label="company labels">
