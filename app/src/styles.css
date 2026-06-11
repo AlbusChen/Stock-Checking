@@ -140,33 +140,82 @@ a {
 }
 
 .company-button {
+  align-content: start;
   background: #ffffff;
   border: 1px solid #d9dfd7;
   border-radius: 8px;
   color: #293331;
   cursor: pointer;
   display: grid;
-  gap: 4px;
-  min-height: 82px;
-  padding: 12px;
+  flex: 0 0 auto;
+  gap: 6px;
+  min-height: 118px;
+  overflow: hidden;
+  padding: 14px 14px 16px 18px;
+  position: relative;
   text-align: left;
 }
 
-.company-button:hover,
-.company-button.active {
-  border-color: #2b7a78;
-  background: #f0f7f5;
+.company-button::before {
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 5px;
 }
 
-.company-button span {
+.company-button.market-us {
+  background: #fbfdff;
+  border-color: #d8e1e8;
+}
+
+.company-button.market-us::before {
+  background: #4a627a;
+}
+
+.company-button.market-cn {
+  background: #fffdf7;
+  border-color: #e6dcc8;
+}
+
+.company-button.market-cn::before {
+  background: #a06d3b;
+}
+
+.company-button.market-us:hover,
+.company-button.market-us.active {
+  background: #eef6fb;
+  border-color: #4a627a;
+}
+
+.company-button.market-cn:hover,
+.company-button.market-cn.active {
+  background: #fff7e8;
+  border-color: #a06d3b;
+}
+
+.company-button > span {
   color: #2b7a78;
   font-size: 12px;
   font-weight: 700;
 }
 
+.company-button.market-us > span {
+  color: #335f7d;
+}
+
+.company-button.market-cn > span {
+  color: #8a5b28;
+}
+
 .company-button strong {
   font-size: 15px;
   line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.company-button small {
   overflow-wrap: anywhere;
 }
 
@@ -182,24 +231,48 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
+  min-width: 0;
 }
 
 .company-labels em,
 .detail-labels span {
+  align-items: center;
   background: #eef1ec;
   border-radius: 999px;
   color: #596660;
+  display: inline-flex;
   font-size: 11px;
   font-style: normal;
   font-weight: 800;
   line-height: 1.2;
+  min-height: 22px;
   padding: 3px 7px;
 }
 
-.company-button.active .company-labels em,
-.company-button:hover .company-labels em {
+.company-labels {
+  margin-top: 4px;
+}
+
+.company-button.market-us .company-labels em {
+  background: #e7eef5;
+  color: #3f5f75;
+}
+
+.company-button.market-cn .company-labels em {
+  background: #f4ebd9;
+  color: #7a5a2d;
+}
+
+.company-button.market-us.active .company-labels em,
+.company-button.market-us:hover .company-labels em {
   background: #dcebea;
   color: #22625f;
+}
+
+.company-button.market-cn.active .company-labels em,
+.company-button.market-cn:hover .company-labels em {
+  background: #ead8b8;
+  color: #704b21;
 }
 
 .sidebar-footer {

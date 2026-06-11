@@ -190,7 +190,13 @@ function App() {
           {!loading &&
             matches.map((company) => (
               <button
-                className={selected?.id === company.id ? "company-button active" : "company-button"}
+                className={[
+                  "company-button",
+                  `market-${company.market.toLowerCase()}`,
+                  selected?.id === company.id ? "active" : "",
+                ]
+                  .filter(Boolean)
+                  .join(" ")}
                 key={company.id}
                 onClick={() => setSelected(company)}
                 type="button"
