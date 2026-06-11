@@ -1,0 +1,43 @@
+name: Generate Research Drafts
+
+on:
+  workflow_dispatch:
+    inputs:
+      include_disabled:
+        description: "Include disabled targets from config/research-watchlist.json"
+        required: false
+        default: "false"
+
+  # Scheduled runs are intentionally disabled while the data review flow matures.
+  # To enable later:
+  # schedule:
+  #   - cron: "17 */12 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate research drafts
+        run: |
+          ARGS="--watchlist config/research-watchlist.json --output research/drafts"
+          if [[ "${{ inputs.include_disabled }}" == "true" ]]; then
+            ARGS="$ARGS --include-disabled"
+          fi
+          python3 scripts/research_pipeline.py $ARGS
+        env:
+          SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT || 'Stock-Checking GitHub Action contact@example.com' }}
+      - name: Upload research drafts
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-drafts
+          path: |
+            research/drafts/*.draft.json
+            research/drafts/research-failures.json
+          if-no-files-found: warn

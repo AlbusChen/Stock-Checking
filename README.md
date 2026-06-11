@@ -1,6 +1,6 @@
 # Stock Checking
 
-一个面向 GitHub Pages 的上市公司公开信息查询站。当前首批覆盖 `AAPL`、`NVDA`、`INTC`，数据保存在 `public/data`，页面在浏览器端读取静态 JSON。
+一个面向 GitHub Pages 的上市公司公开信息查询站。当前覆盖 `AAPL`、`NVDA`、`INTC`、`MU`、`688146 中船特气`，数据保存在 `public/data`，页面在浏览器端读取静态 JSON。
 
 ## 本地运行
 
@@ -18,6 +18,7 @@ npm run build
 
 ## 数据更新
 
+- `scripts/research_pipeline.py`：从 SEC EDGAR、巨潮公告等来源生成公司研究候选稿，不直接覆盖正式页面数据。
 - `scripts/update_news.py`：每 12 小时抓取配置的 RSS 动态。
 - `scripts/apply_bilingual_fields.py`：为指标、新闻、供应链展示字段补齐中英文字段。
 - `scripts/update_sec_filings.py`：刷新 SEC 10-K、10-Q、8-K 链接。
@@ -27,6 +28,7 @@ npm run build
 GitHub Actions 已包含：
 
 - `Deploy GitHub Pages`：main 分支构建并发布 Pages。
+- `Generate Research Drafts`：手动生成批量公司研究候选稿；定时触发暂未启用。
 - `Refresh News`：手动刷新新闻与 SEC 元数据；定时触发暂未启用。
 - `Weekly Research Refresh`：手动刷新较低频研究元数据；定时触发暂未启用。
 
@@ -44,3 +46,12 @@ npm run sync:pages
 ```
 
 A 股数据模型已预留 `market: "CN"`，后续可接入巨潮资讯、上交所、深交所公告和公司年报。
+
+批量新增或更新公司时，先生成候选稿：
+
+```bash
+npm run research:plan
+npm run research:draft
+```
+
+详细流程记录见 [docs/research-pipeline.md](docs/research-pipeline.md)。

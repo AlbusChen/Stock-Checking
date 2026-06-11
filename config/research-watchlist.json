@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "description": "Manual watchlist for the semi-automated company research pipeline. Scheduled runs are intentionally disabled for now.",
+  "targets": [
+    {
+      "query": "AAPL",
+      "market": "US",
+      "enabled": true,
+      "notes": "Tracked company; SEC EDGAR companyfacts and submissions are the primary automated sources."
+    },
+    {
+      "query": "NVDA",
+      "market": "US",
+      "enabled": true,
+      "notes": "Tracked company; SEC EDGAR companyfacts and submissions are the primary automated sources."
+    },
+    {
+      "query": "INTC",
+      "market": "US",
+      "enabled": true,
+      "notes": "Tracked company; SEC EDGAR companyfacts and submissions are the primary automated sources."
+    },
+    {
+      "query": "MU",
+      "market": "US",
+      "enabled": true,
+      "notes": "Tracked company; SEC EDGAR companyfacts and submissions are the primary automated sources."
+    },
+    {
+      "query": "688146",
+      "market": "CN",
+      "exchange": "SSE",
+      "name": "中船特气",
+      "enabled": true,
+      "notes": "Tracked A-share company; CNINFO and exchange announcements are the primary automated sources."
+    }
+  ]
+}

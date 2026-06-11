@@ -3,6 +3,11 @@ name: Weekly Research Refresh
 on:
   workflow_dispatch:
 
+  # Scheduled runs are intentionally disabled until generated research drafts have a review gate.
+  # To enable later:
+  # schedule:
+  #   - cron: "31 2 * * 1"
+
 permissions:
   contents: write
 

@@ -3,6 +3,11 @@ name: Refresh News
 on:
   workflow_dispatch:
 
+  # Scheduled runs are intentionally disabled until the page/data review flow is mature.
+  # To enable later:
+  # schedule:
+  #   - cron: "11 */12 * * *"
+
 permissions:
   contents: write
 

@@ -8,3 +8,5 @@ __pycache__
 .env.*
 .vite
 *.tsbuildinfo
+research/drafts/*.draft.json
+research/drafts/research-failures.json
