@@ -10,6 +10,7 @@ const preferredLabelOrder = [
   "太空",
   "卫星通信",
   "AI",
+  "英伟达相关",
   "数据中心",
   "电子材料",
   "国防",

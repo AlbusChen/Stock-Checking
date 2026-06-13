@@ -40,16 +40,21 @@ SEC_SINGLE_QUARTER_FRAME = re.compile(r"^CY\d{4}Q[1-4]I?$")
 FINANCIAL_CONCEPTS = {
     "revenue": [
         "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "RevenueFromContractsWithCustomers",
+        "Revenue",
         "Revenues",
         "SalesRevenueNet",
     ],
-    "net_income": ["NetIncomeLoss", "ProfitLoss"],
-    "operating_income": ["OperatingIncomeLoss"],
+    "net_income": ["NetIncomeLoss", "ProfitLossAttributableToOwnersOfParent", "ProfitLoss"],
+    "operating_income": ["OperatingIncomeLoss", "ProfitLossFromOperatingActivities"],
     "gross_profit": ["GrossProfit"],
     "assets": ["Assets"],
-    "cash_from_operations": ["NetCashProvidedByUsedInOperatingActivities"],
+    "cash_from_operations": ["NetCashProvidedByUsedInOperatingActivities", "CashFlowsFromUsedInOperatingActivities"],
     "diluted_eps": ["EarningsPerShareDiluted"],
 }
+
+FINANCIAL_TAXONOMIES = ("us-gaap", "ifrs-full")
+FINANCIAL_UNITS = {"USD", "EUR", "TWD", "CNY", "USD/shares", "EUR/shares", "TWD/shares", "CNY/shares"}
 
 CNINFO_EXCHANGE = {
     "SSE": {"column": "sse", "plate": "sh"},
@@ -221,17 +226,64 @@ def extract_sec_filings(submissions: dict[str, Any], cik: str, *, limit: int = 1
     return filings
 
 
+def pick_financial_unit(units: dict[str, Any]) -> str | None:
+    for unit in units:
+        if unit in FINANCIAL_UNITS:
+            return unit
+    return None
+
+
+def fact_sort_key(item: dict[str, Any]) -> tuple[str, str]:
+    return (str(item.get("filed", "")), str(item.get("end", "")))
+
+
+def latest_series_fact_key(facts: list[dict[str, Any]]) -> tuple[str, str]:
+    candidates = [
+        fact
+        for fact in facts
+        if fact.get("form") in SEC_RELEVANT_FORMS and isinstance(fact.get("val"), (int, float))
+    ]
+    if not candidates:
+        return ("", "")
+    return max(fact_sort_key(fact) for fact in candidates)
+
+
 def pick_fact_series(companyfacts: dict[str, Any], concept_names: list[str]) -> dict[str, Any] | None:
-    us_gaap = companyfacts.get("facts", {}).get("us-gaap", {})
-    for concept in concept_names:
-        concept_data = us_gaap.get(concept)
-        if not concept_data:
-            continue
-        units = concept_data.get("units", {})
-        unit = "USD" if "USD" in units else "USD/shares" if "USD/shares" in units else None
-        if not unit:
-            continue
-        return {"concept": concept, "label": concept_data.get("label", concept), "unit": unit, "facts": units[unit]}
+    facts_by_taxonomy = companyfacts.get("facts", {})
+    candidates: list[dict[str, Any]] = []
+    for taxonomy_index, taxonomy in enumerate(FINANCIAL_TAXONOMIES):
+        concepts = facts_by_taxonomy.get(taxonomy, {})
+        for concept_index, concept in enumerate(concept_names):
+            concept_data = concepts.get(concept)
+            if not concept_data:
+                continue
+            units = concept_data.get("units", {})
+            unit = pick_financial_unit(units)
+            if not unit:
+                continue
+            facts = units[unit]
+            latest_key = latest_series_fact_key(facts)
+            if latest_key == ("", ""):
+                continue
+            candidates.append(
+                {
+                    "sortKey": (*latest_key, -taxonomy_index, -concept_index),
+                    "taxonomy": taxonomy,
+                    "concept": concept,
+                    "label": concept_data.get("label") or concept,
+                    "unit": unit,
+                    "facts": facts,
+                }
+            )
+    if candidates:
+        best = max(candidates, key=lambda item: item["sortKey"])
+        return {
+            "taxonomy": best["taxonomy"],
+            "concept": best["concept"],
+            "label": best["label"],
+            "unit": best["unit"],
+            "facts": best["facts"],
+        }
     return None
 
 
@@ -295,6 +347,7 @@ def extract_sec_financials(companyfacts: dict[str, Any]) -> dict[str, Any]:
         unit = series["unit"]
         metrics[metric] = {
             "status": "ok",
+            "taxonomy": series["taxonomy"],
             "concept": series["concept"],
             "label": series["label"],
             "unit": unit,

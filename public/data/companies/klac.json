@@ -1,0 +1,847 @@
+{
+  "schemaVersion": 1,
+  "id": "klac",
+  "ticker": "KLAC",
+  "exchange": "NASDAQ",
+  "market": "US",
+  "name": "KLA / 科磊",
+  "legalName": "KLA CORP",
+  "cik": "0000319201",
+  "currency": "USD",
+  "sector": "Semiconductor equipment / 半导体设备",
+  "industry": [
+    "Process control",
+    "Inspection",
+    "Metrology",
+    "制程控制",
+    "检测",
+    "量测"
+  ],
+  "homepage": "https://www.kla.com/",
+  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "summary": "KLA 提供检测、量测和制程控制设备，帮助先进晶圆厂提升良率；NVIDIA AI 芯片需求通过先进制程良率和扩产需求间接传导。 / KLA provides inspection, metrology, and process-control tools that help advanced fabs improve yield, giving it indirect exposure to NVIDIA AI chip manufacturing demand.",
+  "summaryZh": "KLA 提供检测、量测和制程控制设备，帮助先进晶圆厂提升良率；NVIDIA AI 芯片需求通过先进制程良率和扩产需求间接传导。",
+  "summaryEn": "KLA provides inspection, metrology, and process-control tools that help advanced fabs improve yield, giving it indirect exposure to NVIDIA AI chip manufacturing demand.",
+  "aliases": [
+    "KLAC",
+    "KLA / 科磊",
+    "KLA CORP",
+    "KLA CORP"
+  ],
+  "labels": [
+    "半导体",
+    "半导体设备",
+    "检测量测",
+    "先进制程",
+    "英伟达相关",
+    "美股"
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "description": "公司向晶圆制造、封装、PCB 和相关电子制造客户提供检测、量测、数据分析和服务。 / The company provides inspection, metrology, data analytics, and services for wafer manufacturing, packaging, PCB, and adjacent electronics manufacturing customers.",
+    "descriptionZh": "公司向晶圆制造、封装、PCB 和相关电子制造客户提供检测、量测、数据分析和服务。",
+    "descriptionEn": "The company provides inspection, metrology, data analytics, and services for wafer manufacturing, packaging, PCB, and adjacent electronics manufacturing customers.",
+    "revenueModel": [
+      "制程控制设备 / process-control systems",
+      "服务 / services",
+      "特种半导体制程 / specialty semiconductor processes"
+    ],
+    "segments": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 12.156,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "klac-sec-companyfacts"
+        ]
+      }
+    ],
+    "thesis": "NVIDIA 相关性来自先进芯片良率和缺陷控制需求，特别是高价值 AI 加速器对制程控制的要求更高。 / The NVIDIA linkage comes from yield and defect-control requirements for advanced chips, especially high-value AI accelerators.",
+    "thesisZh": "NVIDIA 相关性来自先进芯片良率和缺陷控制需求，特别是高价值 AI 加速器对制程控制的要求更高。",
+    "thesisEn": "The NVIDIA linkage comes from yield and defect-control requirements for advanced chips, especially high-value AI accelerators.",
+    "riskNotes": [
+      "客户资本开支周期和先进制程推进节奏会影响需求。 / Customer capex and leading-node timing affect demand.",
+      "部分 SEC XBRL 经营利润和毛利旧概念已过时，本批次未采用这些陈旧字段。 / Some SEC XBRL operating-income and gross-profit concepts are stale, so this batch does not use those stale fields."
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-14T12:00:00+08:00",
+    "thesis": "NVIDIA 相关性来自先进芯片良率和缺陷控制需求，特别是高价值 AI 加速器对制程控制的要求更高。 / The NVIDIA linkage comes from yield and defect-control requirements for advanced chips, especially high-value AI accelerators.",
+    "thesisZh": "NVIDIA 相关性来自先进芯片良率和缺陷控制需求，特别是高价值 AI 加速器对制程控制的要求更高。",
+    "thesisEn": "The NVIDIA linkage comes from yield and defect-control requirements for advanced chips, especially high-value AI accelerators.",
+    "tiers": [
+      {
+        "level": 0,
+        "title": "Target company",
+        "titleZh": "目标公司",
+        "titleEn": "Target company",
+        "companies": [
+          "KLA / 科磊"
+        ],
+        "entities": [
+          {
+            "name": "KLA / 科磊",
+            "nameZh": "KLA / 科磊",
+            "nameEn": "KLA CORP",
+            "relationship": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipZh": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipEn": "Target company; this page maps its NVIDIA-related supply-chain position.",
+            "productsServices": [
+              "制程控制设备 / process-control systems",
+              "服务 / services",
+              "特种半导体制程 / specialty semiconductor processes"
+            ],
+            "productsServicesZh": [
+              "制程控制设备 / process-control systems",
+              "服务 / services",
+              "特种半导体制程 / specialty semiconductor processes"
+            ],
+            "productsServicesEn": [
+              "制程控制设备 / process-control systems",
+              "服务 / services",
+              "特种半导体制程 / specialty semiconductor processes"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "KLAC",
+              "exchange": "NASDAQ",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/klac"
+            },
+            "confidence": "high",
+            "sourceIds": [
+              "klac-homepage",
+              "klac-nasdaq-quote"
+            ],
+            "companyUrl": "https://www.kla.com/"
+          }
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "硅晶圆",
+          "高纯特种气体与化学品",
+          "铜、铝、钨、钴等金属材料"
+        ],
+        "materialsZh": [
+          "硅晶圆",
+          "高纯特种气体与化学品",
+          "铜、铝、钨、钴等金属材料"
+        ],
+        "materialsEn": [
+          "Silicon wafers",
+          "High-purity specialty gases and chemicals",
+          "Copper, aluminum, tungsten, cobalt and other metals"
+        ],
+        "notes": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesZh": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesEn": "Target company itself; listed ticker and quote link reviewed.",
+        "confidence": "high",
+        "sourceIds": [
+          "klac-homepage",
+          "klac-nasdaq-quote"
+        ]
+      },
+      {
+        "level": 1,
+        "title": "Key upstream inputs",
+        "titleZh": "关键上游投入",
+        "titleEn": "Key upstream inputs",
+        "companies": [
+          "Precision components and specialty materials / 精密部件与特种材料"
+        ],
+        "entities": [
+          {
+            "name": "Precision components and specialty materials / 精密部件与特种材料",
+            "nameZh": "精密部件与特种材料供应商",
+            "nameEn": "Precision component and specialty material suppliers",
+            "relationship": "向半导体设备公司供应光学、真空、机电、气体和高纯材料。",
+            "relationshipZh": "向半导体设备公司供应光学、真空、机电、气体和高纯材料。",
+            "relationshipEn": "Supply optics, vacuum, mechatronics, gases, and high-purity materials to semiconductor equipment makers.",
+            "productsServices": [
+              "精密部件",
+              "真空系统",
+              "特种材料"
+            ],
+            "productsServicesZh": [
+              "精密部件",
+              "真空系统",
+              "特种材料"
+            ],
+            "productsServicesEn": [
+              "precision components",
+              "vacuum systems",
+              "specialty materials"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "多为私营或多层供应商，需进一步逐项追踪。",
+              "noteZh": "多为私营或多层供应商，需进一步逐项追踪。",
+              "noteEn": "Often private or multi-tier suppliers; further supplier-by-supplier tracing is required."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "klac-homepage"
+            ]
+          }
+        ],
+        "geography": [
+          "US",
+          "Europe",
+          "Asia"
+        ],
+        "materials": [
+          "硅晶圆",
+          "高纯特种气体与化学品",
+          "铜、铝、钨、钴等金属材料"
+        ],
+        "materialsZh": [
+          "硅晶圆",
+          "高纯特种气体与化学品",
+          "铜、铝、钨、钴等金属材料"
+        ],
+        "materialsEn": [
+          "Silicon wafers",
+          "High-purity specialty gases and chemicals",
+          "Copper, aluminum, tungsten, cobalt and other metals"
+        ],
+        "notes": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesZh": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesEn": "Lists the most important upstream inputs for NVIDIA-related business; exact purchase shares require further manual work.",
+        "confidence": "medium",
+        "sourceIds": [
+          "klac-homepage",
+          "nvidia-10k-2026"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "硅晶圆",
+        "nameZh": "硅晶圆",
+        "nameEn": "Silicon wafers",
+        "usedIn": "用于晶圆制造、设备验证或封装测试。",
+        "usedInZh": "用于晶圆制造、设备验证或封装测试。",
+        "usedInEn": "Used in wafer manufacturing, tool qualification, or packaging and test.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "高纯特种气体与化学品",
+        "nameZh": "高纯特种气体与化学品",
+        "nameEn": "High-purity specialty gases and chemicals",
+        "usedIn": "用于光刻、沉积、刻蚀、清洗和封装流程。",
+        "usedInZh": "用于光刻、沉积、刻蚀、清洗和封装流程。",
+        "usedInEn": "Used in lithography, deposition, etch, clean, and packaging processes.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "铜、铝、钨、钴等金属材料",
+        "nameZh": "铜、铝、钨、钴等金属材料",
+        "nameEn": "Copper, aluminum, tungsten, cobalt and other metals",
+        "usedIn": "用于互连、沉积、封装和设备部件。",
+        "usedInZh": "用于互连、沉积、封装和设备部件。",
+        "usedInEn": "Used in interconnects, deposition, packaging, and tool components.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      }
+    ],
+    "downstream": {
+      "updatedAt": "2026-06-14T12:00:00+08:00",
+      "thesis": "NVIDIA 相关性来自先进芯片良率和缺陷控制需求，特别是高价值 AI 加速器对制程控制的要求更高。 / The NVIDIA linkage comes from yield and defect-control requirements for advanced chips, especially high-value AI accelerators.",
+      "thesisZh": "NVIDIA 相关性来自先进芯片良率和缺陷控制需求，特别是高价值 AI 加速器对制程控制的要求更高。",
+      "thesisEn": "The NVIDIA linkage comes from yield and defect-control requirements for advanced chips, especially high-value AI accelerators.",
+      "tiers": [
+        {
+          "level": 1,
+          "title": "NVIDIA-related demand path",
+          "titleZh": "英伟达相关需求路径",
+          "titleEn": "NVIDIA-related demand path",
+          "entities": [
+            {
+              "name": "TSMC / 台积电",
+              "nameZh": "TSMC / 台积电",
+              "nameEn": "Taiwan Semiconductor Manufacturing Company Limited",
+              "relationship": "先进晶圆厂客户；其先进制程扩产是设备需求的重要来源。",
+              "relationshipZh": "先进晶圆厂客户；其先进制程扩产是设备需求的重要来源。",
+              "relationshipEn": "Advanced foundry customer; its leading-node expansion is an important source of equipment demand.",
+              "productsServices": [
+                "晶圆制造设备需求",
+                "先进制程扩产"
+              ],
+              "productsServicesZh": [
+                "晶圆制造设备需求",
+                "先进制程扩产"
+              ],
+              "productsServicesEn": [
+                "wafer-fab equipment demand",
+                "leading-node expansion"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "TSM",
+                "exchange": "NYSE",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/tsm"
+              },
+              "confidence": "medium",
+              "sourceIds": [
+                "klac-homepage",
+                "nvidia-10k-2026"
+              ],
+              "companyUrl": "https://www.tsmc.com/english",
+              "customerRole": "晶圆厂客户 / 设备需求方",
+              "customerRoleZh": "晶圆厂客户 / 设备需求方",
+              "customerRoleEn": "Foundry customer / equipment-demand source"
+            },
+            {
+              "name": "NVIDIA Corporation / 英伟达",
+              "nameZh": "NVIDIA Corporation / 英伟达",
+              "nameEn": "NVIDIA Corporation",
+              "relationship": "不是典型直接客户；NVIDIA AI 芯片需求通过台积电、存储厂和先进封装投资间接拉动设备需求。",
+              "relationshipZh": "不是典型直接客户；NVIDIA AI 芯片需求通过台积电、存储厂和先进封装投资间接拉动设备需求。",
+              "relationshipEn": "Not typically a direct customer; NVIDIA AI-chip demand indirectly drives equipment demand through foundries, memory makers, and advanced-packaging investment.",
+              "productsServices": [
+                "间接 AI 需求",
+                "先进制程与 HBM 扩产"
+              ],
+              "productsServicesZh": [
+                "间接 AI 需求",
+                "先进制程与 HBM 扩产"
+              ],
+              "productsServicesEn": [
+                "indirect AI demand",
+                "advanced-node and HBM expansion"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "NVDA",
+                "exchange": "NASDAQ",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/nvda"
+              },
+              "confidence": "medium",
+              "sourceIds": [
+                "nvidia-10k-2026"
+              ],
+              "companyUrl": "https://www.nvidia.com/",
+              "customerRole": "间接需求驱动方",
+              "customerRoleZh": "间接需求驱动方",
+              "customerRoleEn": "Indirect demand driver"
+            }
+          ],
+          "notes": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesZh": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesEn": "This layer explains how the target company functions as NVIDIA's upstream supplier, partner, customer, or indirect demand beneficiary.",
+          "confidence": "medium",
+          "sourceIds": [
+            "klac-homepage",
+            "nvidia-10k-2026"
+          ]
+        }
+      ]
+    }
+  },
+  "financials": {
+    "latestPeriod": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "latestPeriodZh": "使用 SEC companyfacts 中的最新可核对候选；年度基准来自最近审计年报。",
+    "latestPeriodEn": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "highlights": [
+      {
+        "label": "Q3 FY2026 revenue",
+        "labelZh": "2026 财年第 3 财季 收入",
+        "labelEn": "Q3 FY2026 revenue",
+        "value": 3.415,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "klac-sec-companyfacts"
+        ],
+        "change": "+11.5% vs prior comparable period",
+        "changeZh": "较上一可比期间 +11.5%",
+        "changeEn": "+11.5% vs prior comparable period"
+      },
+      {
+        "label": "Q3 FY2026 net income / loss",
+        "labelZh": "2026 财年第 3 财季 净利润 / 净亏损",
+        "labelEn": "Q3 FY2026 net income / loss",
+        "value": 1.201,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "klac-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q3 FY2026 total assets",
+        "labelZh": "2026 财年第 3 财季 总资产",
+        "labelEn": "Q3 FY2026 total assets",
+        "value": 16.874,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "klac-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q1 FY2026 operating cash flow",
+        "labelZh": "2026 财年第 1 财季 经营现金流",
+        "labelEn": "Q1 FY2026 operating cash flow",
+        "value": 1.162,
+        "unit": "USD billions",
+        "period": "Quarter ended 2025-09-30",
+        "periodZh": "截至 2025-09-30 的季度",
+        "periodEn": "Quarter ended 2025-09-30",
+        "sourceIds": [
+          "klac-sec-companyfacts"
+        ]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 12.156,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "klac-sec-companyfacts"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "id": "annual-revenue",
+        "label": "Annual revenue",
+        "labelZh": "年度收入",
+        "labelEn": "Annual revenue",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "klac-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 10.496,
+            "sourceIds": [
+              "klac-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 9.812,
+            "sourceIds": [
+              "klac-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 12.156,
+            "sourceIds": [
+              "klac-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-net-income",
+        "label": "Annual net income / loss",
+        "labelZh": "年度净利润 / 净亏损",
+        "labelEn": "Annual net income / loss",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "klac-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 3.387,
+            "sourceIds": [
+              "klac-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 2.762,
+            "sourceIds": [
+              "klac-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 4.062,
+            "sourceIds": [
+              "klac-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-assets",
+        "label": "Annual total assets",
+        "labelZh": "年度总资产",
+        "labelEn": "Annual total assets",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "klac-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 14.072,
+            "sourceIds": [
+              "klac-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 15.434,
+            "sourceIds": [
+              "klac-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 16.068,
+            "sourceIds": [
+              "klac-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenueMixHistory": [
+      {
+        "period": "FY2023",
+        "periodZh": "2023 财年",
+        "periodEn": "FY2023",
+        "totalRevenue": 10.496,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "klac-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 10.496,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "klac-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2024",
+        "periodZh": "2024 财年",
+        "periodEn": "FY2024",
+        "totalRevenue": 9.812,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "klac-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 9.812,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "klac-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "totalRevenue": 12.156,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "klac-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 12.156,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "klac-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-06-12",
+      "title": "Recent SEC filing: 8-K",
+      "titleZh": "最新 SEC 文件：8-K",
+      "titleEn": "Recent SEC filing: 8-K",
+      "category": "SEC filing",
+      "categoryZh": "SEC 文件",
+      "categoryEn": "SEC filing",
+      "summary": "SEC submissions show a 8-K filed on 2026-06-12; report date 2026-06-11.",
+      "summaryZh": "SEC submissions 显示公司于 2026-06-12 提交 8-K；报告期为 2026-06-11。",
+      "summaryEn": "SEC submissions show a 8-K filed on 2026-06-12; report date 2026-06-11.",
+      "impact": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "impactZh": "作为本批次最新公开文件检查点；每日定时刷新仍未启用。",
+      "impactEn": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "sourceIds": [
+        "klac-sec-submissions"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "8-K",
+      "filedAt": "2026-06-12",
+      "reportDate": "2026-06-11",
+      "title": "8-K filed 2026-06-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312526269375/d144278d8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-07",
+      "reportDate": "2026-05-07",
+      "title": "8-K filed 2026-05-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312526212093/d116682d8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-04-30",
+      "reportDate": "2026-03-31",
+      "title": "10-Q filed 2026-04-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000016/klac-20260331.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-29",
+      "reportDate": "2026-04-29",
+      "title": "8-K filed 2026-04-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000014/klac-20260429.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-12",
+      "reportDate": "2026-03-11",
+      "title": "8-K filed 2026-03-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312526102999/d105235d8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-05",
+      "reportDate": "2026-02-05",
+      "title": "8-K filed 2026-02-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312526039637/d80148d8k.htm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "klac-homepage",
+      "title": "KLA / 科磊 company website",
+      "titleZh": "KLA / 科磊 公司官网",
+      "titleEn": "KLA / 科磊 company website",
+      "publisher": "KLA / 科磊",
+      "url": "https://www.kla.com/",
+      "accessedAt": "2026-06-14",
+      "type": "company"
+    },
+    {
+      "id": "klac-sec-submissions",
+      "title": "KLAC SEC submissions",
+      "titleZh": "KLAC SEC submissions 数据",
+      "titleEn": "KLAC SEC submissions",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/submissions/CIK0000319201.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec"
+    },
+    {
+      "id": "klac-sec-companyfacts",
+      "title": "KLAC SEC companyfacts XBRL data",
+      "titleZh": "KLAC SEC companyfacts XBRL 数据",
+      "titleEn": "KLAC SEC companyfacts XBRL data",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000319201.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec"
+    },
+    {
+      "id": "klac-nasdaq-quote",
+      "title": "KLAC Nasdaq quote page",
+      "titleZh": "KLAC Nasdaq 行情页面",
+      "titleEn": "KLAC Nasdaq quote page",
+      "publisher": "Nasdaq",
+      "url": "https://www.nasdaq.com/market-activity/stocks/klac",
+      "accessedAt": "2026-06-14",
+      "type": "exchange"
+    },
+    {
+      "id": "nvidia-10k-2026",
+      "title": "NVIDIA FY2026 Form 10-K",
+      "titleZh": "NVIDIA 2026 财年 10-K 年报",
+      "titleEn": "NVIDIA FY2026 Form 10-K",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "accessedAt": "2026-06-14",
+      "type": "sec"
+    },
+    {
+      "id": "nvidia-rtx-pro-systems-2025",
+      "title": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "titleZh": "NVIDIA RTX PRO Blackwell 服务器进入企业系统生态",
+      "titleEn": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "publisher": "NVIDIA Investor Relations",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-RTX-PRO-Servers-With-Blackwell-Coming-to-Worlds-Most-Popular-Enterprise-Systems/",
+      "accessedAt": "2026-06-14",
+      "type": "company"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0000319201",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K",
+        "20-F",
+        "6-K"
+      ]
+    },
+    "newsFeeds": [
+      {
+        "url": "https://www.kla.com/",
+        "publisher": "KLA / 科磊",
+        "sourceType": "company"
+      }
+    ]
+  }
+}

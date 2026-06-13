@@ -1,0 +1,797 @@
+{
+  "schemaVersion": 1,
+  "id": "tsm",
+  "ticker": "TSM",
+  "exchange": "NYSE",
+  "market": "US",
+  "name": "TSMC / 台积电",
+  "legalName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+  "cik": "0001046179",
+  "currency": "TWD",
+  "sector": "Semiconductors / 半导体",
+  "industry": [
+    "Foundry",
+    "Advanced process nodes",
+    "Advanced packaging",
+    "晶圆代工",
+    "先进制程",
+    "先进封装"
+  ],
+  "homepage": "https://www.tsmc.com/english",
+  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "summary": "台积电是全球领先的纯晶圆代工厂，处于 NVIDIA AI GPU/加速器制造链的核心上游，关键变量包括先进制程、CoWoS/先进封装产能和高端客户资本开支。 / TSMC is a leading pure-play foundry and a core upstream manufacturing node for NVIDIA AI GPUs and accelerators, with advanced nodes, CoWoS packaging capacity, and high-end customer capex as key variables.",
+  "summaryZh": "台积电是全球领先的纯晶圆代工厂，处于 NVIDIA AI GPU/加速器制造链的核心上游，关键变量包括先进制程、CoWoS/先进封装产能和高端客户资本开支。",
+  "summaryEn": "TSMC is a leading pure-play foundry and a core upstream manufacturing node for NVIDIA AI GPUs and accelerators, with advanced nodes, CoWoS packaging capacity, and high-end customer capex as key variables.",
+  "aliases": [
+    "TSM",
+    "TSMC / 台积电",
+    "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+    "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD"
+  ],
+  "labels": [
+    "半导体",
+    "晶圆代工",
+    "先进制程",
+    "先进封装",
+    "AI基础设施",
+    "英伟达相关",
+    "美股"
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "description": "台积电为全球半导体客户提供晶圆制造、先进制程和先进封装相关服务，主要面向高性能计算、智能手机、汽车和物联网等终端需求。 / TSMC provides wafer manufacturing, advanced process technology, and advanced packaging services for global semiconductor customers across HPC, smartphones, automotive, and IoT demand.",
+    "descriptionZh": "台积电为全球半导体客户提供晶圆制造、先进制程和先进封装相关服务，主要面向高性能计算、智能手机、汽车和物联网等终端需求。",
+    "descriptionEn": "TSMC provides wafer manufacturing, advanced process technology, and advanced packaging services for global semiconductor customers across HPC, smartphones, automotive, and IoT demand.",
+    "revenueModel": [
+      "晶圆代工 / wafer foundry",
+      "先进封装 / advanced packaging",
+      "工程与光罩服务 / engineering and mask services"
+    ],
+    "segments": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 2894.308,
+        "unit": "TWD billions",
+        "period": "FY2024",
+        "periodZh": "2024 财年",
+        "periodEn": "FY2024",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "tsm-sec-companyfacts"
+        ]
+      }
+    ],
+    "thesis": "与 NVIDIA 的关系主要在制造端：NVIDIA 的 AI 加速器需要先进制程和封装产能，台积电的产能、良率和资本开支直接影响 AI 芯片供给弹性。 / The NVIDIA linkage sits mainly on manufacturing: NVIDIA AI accelerators require leading-edge process and packaging capacity, so TSMC capacity, yield, and capex shape AI chip supply elasticity.",
+    "thesisZh": "与 NVIDIA 的关系主要在制造端：NVIDIA 的 AI 加速器需要先进制程和封装产能，台积电的产能、良率和资本开支直接影响 AI 芯片供给弹性。",
+    "thesisEn": "The NVIDIA linkage sits mainly on manufacturing: NVIDIA AI accelerators require leading-edge process and packaging capacity, so TSMC capacity, yield, and capex shape AI chip supply elasticity.",
+    "riskNotes": [
+      "客户集中与 AI 资本开支周期会影响高端制程利用率。 / Customer concentration and AI capex cycles affect leading-node utilization.",
+      "先进封装、EUV 设备和关键材料供应可能成为扩产瓶颈。 / Advanced packaging, EUV tools, and critical materials can constrain expansion."
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-14T12:00:00+08:00",
+    "thesis": "与 NVIDIA 的关系主要在制造端：NVIDIA 的 AI 加速器需要先进制程和封装产能，台积电的产能、良率和资本开支直接影响 AI 芯片供给弹性。 / The NVIDIA linkage sits mainly on manufacturing: NVIDIA AI accelerators require leading-edge process and packaging capacity, so TSMC capacity, yield, and capex shape AI chip supply elasticity.",
+    "thesisZh": "与 NVIDIA 的关系主要在制造端：NVIDIA 的 AI 加速器需要先进制程和封装产能，台积电的产能、良率和资本开支直接影响 AI 芯片供给弹性。",
+    "thesisEn": "The NVIDIA linkage sits mainly on manufacturing: NVIDIA AI accelerators require leading-edge process and packaging capacity, so TSMC capacity, yield, and capex shape AI chip supply elasticity.",
+    "tiers": [
+      {
+        "level": 0,
+        "title": "Target company",
+        "titleZh": "目标公司",
+        "titleEn": "Target company",
+        "companies": [
+          "TSMC / 台积电"
+        ],
+        "entities": [
+          {
+            "name": "TSMC / 台积电",
+            "nameZh": "TSMC / 台积电",
+            "nameEn": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+            "relationship": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipZh": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipEn": "Target company; this page maps its NVIDIA-related supply-chain position.",
+            "productsServices": [
+              "晶圆代工 / wafer foundry",
+              "先进封装 / advanced packaging",
+              "工程与光罩服务 / engineering and mask services"
+            ],
+            "productsServicesZh": [
+              "晶圆代工 / wafer foundry",
+              "先进封装 / advanced packaging",
+              "工程与光罩服务 / engineering and mask services"
+            ],
+            "productsServicesEn": [
+              "晶圆代工 / wafer foundry",
+              "先进封装 / advanced packaging",
+              "工程与光罩服务 / engineering and mask services"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "TSM",
+              "exchange": "NYSE",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/tsm"
+            },
+            "confidence": "high",
+            "sourceIds": [
+              "tsm-homepage",
+              "tsm-nasdaq-quote"
+            ],
+            "companyUrl": "https://www.tsmc.com/english"
+          }
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "硅晶圆",
+          "高纯特种气体与化学品",
+          "铜、铝、钨、钴等金属材料"
+        ],
+        "materialsZh": [
+          "硅晶圆",
+          "高纯特种气体与化学品",
+          "铜、铝、钨、钴等金属材料"
+        ],
+        "materialsEn": [
+          "Silicon wafers",
+          "High-purity specialty gases and chemicals",
+          "Copper, aluminum, tungsten, cobalt and other metals"
+        ],
+        "notes": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesZh": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesEn": "Target company itself; listed ticker and quote link reviewed.",
+        "confidence": "high",
+        "sourceIds": [
+          "tsm-homepage",
+          "tsm-nasdaq-quote"
+        ]
+      },
+      {
+        "level": 1,
+        "title": "Key upstream inputs",
+        "titleZh": "关键上游投入",
+        "titleEn": "Key upstream inputs",
+        "companies": [
+          "ASML Holding / 阿斯麦",
+          "Applied Materials / 应用材料"
+        ],
+        "entities": [
+          {
+            "name": "ASML Holding / 阿斯麦",
+            "nameZh": "ASML Holding / 阿斯麦",
+            "nameEn": "ASML Holding N.V.",
+            "relationship": "向先进晶圆厂供应 EUV/DUV 光刻设备，是先进制程产能的关键上游。",
+            "relationshipZh": "向先进晶圆厂供应 EUV/DUV 光刻设备，是先进制程产能的关键上游。",
+            "relationshipEn": "Supplies EUV/DUV lithography tools to advanced fabs and is a critical upstream node for leading-node capacity.",
+            "productsServices": [
+              "EUV 光刻机",
+              "DUV 光刻机",
+              "光刻服务"
+            ],
+            "productsServicesZh": [
+              "EUV 光刻机",
+              "DUV 光刻机",
+              "光刻服务"
+            ],
+            "productsServicesEn": [
+              "EUV lithography systems",
+              "DUV lithography systems",
+              "lithography services"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "ASML",
+              "exchange": "NASDAQ",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/asml"
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "tsm-homepage",
+              "nvidia-10k-2026"
+            ]
+          },
+          {
+            "name": "Applied Materials / 应用材料",
+            "nameZh": "Applied Materials / 应用材料",
+            "nameEn": "Applied Materials, Inc.",
+            "relationship": "向晶圆厂供应沉积、刻蚀和材料工程设备。",
+            "relationshipZh": "向晶圆厂供应沉积、刻蚀和材料工程设备。",
+            "relationshipEn": "Supplies deposition, etch, and materials-engineering tools to fabs.",
+            "productsServices": [
+              "沉积设备",
+              "刻蚀设备",
+              "服务"
+            ],
+            "productsServicesZh": [
+              "沉积设备",
+              "刻蚀设备",
+              "服务"
+            ],
+            "productsServicesEn": [
+              "deposition tools",
+              "etch tools",
+              "services"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "AMAT",
+              "exchange": "NASDAQ",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/amat"
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "tsm-homepage"
+            ]
+          }
+        ],
+        "geography": [
+          "US",
+          "Europe",
+          "Asia"
+        ],
+        "materials": [
+          "硅晶圆",
+          "高纯特种气体与化学品",
+          "铜、铝、钨、钴等金属材料"
+        ],
+        "materialsZh": [
+          "硅晶圆",
+          "高纯特种气体与化学品",
+          "铜、铝、钨、钴等金属材料"
+        ],
+        "materialsEn": [
+          "Silicon wafers",
+          "High-purity specialty gases and chemicals",
+          "Copper, aluminum, tungsten, cobalt and other metals"
+        ],
+        "notes": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesZh": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesEn": "Lists the most important upstream inputs for NVIDIA-related business; exact purchase shares require further manual work.",
+        "confidence": "medium",
+        "sourceIds": [
+          "tsm-homepage",
+          "nvidia-10k-2026"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "硅晶圆",
+        "nameZh": "硅晶圆",
+        "nameEn": "Silicon wafers",
+        "usedIn": "用于晶圆制造、设备验证或封装测试。",
+        "usedInZh": "用于晶圆制造、设备验证或封装测试。",
+        "usedInEn": "Used in wafer manufacturing, tool qualification, or packaging and test.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "高纯特种气体与化学品",
+        "nameZh": "高纯特种气体与化学品",
+        "nameEn": "High-purity specialty gases and chemicals",
+        "usedIn": "用于光刻、沉积、刻蚀、清洗和封装流程。",
+        "usedInZh": "用于光刻、沉积、刻蚀、清洗和封装流程。",
+        "usedInEn": "Used in lithography, deposition, etch, clean, and packaging processes.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "铜、铝、钨、钴等金属材料",
+        "nameZh": "铜、铝、钨、钴等金属材料",
+        "nameEn": "Copper, aluminum, tungsten, cobalt and other metals",
+        "usedIn": "用于互连、沉积、封装和设备部件。",
+        "usedInZh": "用于互连、沉积、封装和设备部件。",
+        "usedInEn": "Used in interconnects, deposition, packaging, and tool components.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      }
+    ],
+    "downstream": {
+      "updatedAt": "2026-06-14T12:00:00+08:00",
+      "thesis": "与 NVIDIA 的关系主要在制造端：NVIDIA 的 AI 加速器需要先进制程和封装产能，台积电的产能、良率和资本开支直接影响 AI 芯片供给弹性。 / The NVIDIA linkage sits mainly on manufacturing: NVIDIA AI accelerators require leading-edge process and packaging capacity, so TSMC capacity, yield, and capex shape AI chip supply elasticity.",
+      "thesisZh": "与 NVIDIA 的关系主要在制造端：NVIDIA 的 AI 加速器需要先进制程和封装产能，台积电的产能、良率和资本开支直接影响 AI 芯片供给弹性。",
+      "thesisEn": "The NVIDIA linkage sits mainly on manufacturing: NVIDIA AI accelerators require leading-edge process and packaging capacity, so TSMC capacity, yield, and capex shape AI chip supply elasticity.",
+      "tiers": [
+        {
+          "level": 1,
+          "title": "NVIDIA-related demand path",
+          "titleZh": "英伟达相关需求路径",
+          "titleEn": "NVIDIA-related demand path",
+          "entities": [
+            {
+              "name": "NVIDIA Corporation / 英伟达",
+              "nameZh": "NVIDIA Corporation / 英伟达",
+              "nameEn": "NVIDIA Corporation",
+              "relationship": "作为 AI 加速器设计公司，其先进芯片制造需求通过晶圆代工和先进封装传导至台积电。",
+              "relationshipZh": "作为 AI 加速器设计公司，其先进芯片制造需求通过晶圆代工和先进封装传导至台积电。",
+              "relationshipEn": "As an AI accelerator designer, its advanced-chip manufacturing demand flows to TSMC through foundry and advanced packaging capacity.",
+              "productsServices": [
+                "AI GPU 晶圆制造",
+                "先进封装产能"
+              ],
+              "productsServicesZh": [
+                "AI GPU 晶圆制造",
+                "先进封装产能"
+              ],
+              "productsServicesEn": [
+                "AI GPU wafer manufacturing",
+                "advanced packaging capacity"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "NVDA",
+                "exchange": "NASDAQ",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/nvda"
+              },
+              "confidence": "medium",
+              "sourceIds": [
+                "nvidia-10k-2026"
+              ],
+              "companyUrl": "https://www.nvidia.com/",
+              "customerRole": "AI 芯片设计客户 / 需求来源",
+              "customerRoleZh": "AI 芯片设计客户 / 需求来源",
+              "customerRoleEn": "AI chip design customer / demand source"
+            }
+          ],
+          "notes": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesZh": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesEn": "This layer explains how the target company functions as NVIDIA's upstream supplier, partner, customer, or indirect demand beneficiary.",
+          "confidence": "medium",
+          "sourceIds": [
+            "tsm-homepage",
+            "nvidia-10k-2026"
+          ]
+        }
+      ]
+    }
+  },
+  "financials": {
+    "latestPeriod": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "latestPeriodZh": "使用 SEC companyfacts 中的最新可核对候选；年度基准来自最近审计年报。",
+    "latestPeriodEn": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "highlights": [
+      {
+        "label": "FY2024 revenue",
+        "labelZh": "2024 财年 收入",
+        "labelEn": "FY2024 revenue",
+        "value": 2894.308,
+        "unit": "TWD billions",
+        "period": "Year ended 2024-12-31",
+        "periodZh": "截至 2024-12-31 的年度",
+        "periodEn": "Year ended 2024-12-31",
+        "sourceIds": [
+          "tsm-sec-companyfacts"
+        ],
+        "change": "+33.9% vs prior comparable period",
+        "changeZh": "较上一可比期间 +33.9%",
+        "changeEn": "+33.9% vs prior comparable period"
+      },
+      {
+        "label": "FY2024 net income / loss",
+        "labelZh": "2024 财年 净利润 / 净亏损",
+        "labelEn": "FY2024 net income / loss",
+        "value": 1158.38,
+        "unit": "TWD billions",
+        "period": "Year ended 2024-12-31",
+        "periodZh": "截至 2024-12-31 的年度",
+        "periodEn": "Year ended 2024-12-31",
+        "sourceIds": [
+          "tsm-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "FY2024 total assets",
+        "labelZh": "2024 财年 总资产",
+        "labelEn": "FY2024 total assets",
+        "value": 6691.765,
+        "unit": "TWD billions",
+        "period": "Year ended 2024-12-31",
+        "periodZh": "截至 2024-12-31 的年度",
+        "periodEn": "Year ended 2024-12-31",
+        "sourceIds": [
+          "tsm-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "FY2024 operating cash flow",
+        "labelZh": "2024 财年 经营现金流",
+        "labelEn": "FY2024 operating cash flow",
+        "value": 1826.177,
+        "unit": "TWD billions",
+        "period": "Year ended 2024-12-31",
+        "periodZh": "截至 2024-12-31 的年度",
+        "periodEn": "Year ended 2024-12-31",
+        "sourceIds": [
+          "tsm-sec-companyfacts"
+        ]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 2894.308,
+        "unit": "TWD billions",
+        "period": "FY2024",
+        "periodZh": "2024 财年",
+        "periodEn": "FY2024",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "tsm-sec-companyfacts"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "id": "annual-revenue",
+        "label": "Annual revenue",
+        "labelZh": "年度收入",
+        "labelEn": "Annual revenue",
+        "unit": "TWD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "tsm-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 2161.736,
+            "sourceIds": [
+              "tsm-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 2894.308,
+            "sourceIds": [
+              "tsm-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-net-income",
+        "label": "Annual net income / loss",
+        "labelZh": "年度净利润 / 净亏损",
+        "labelEn": "Annual net income / loss",
+        "unit": "TWD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "tsm-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 851.74,
+            "sourceIds": [
+              "tsm-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 1158.38,
+            "sourceIds": [
+              "tsm-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-assets",
+        "label": "Annual total assets",
+        "labelZh": "年度总资产",
+        "labelEn": "Annual total assets",
+        "unit": "TWD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "tsm-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 5532.197,
+            "sourceIds": [
+              "tsm-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 6691.765,
+            "sourceIds": [
+              "tsm-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenueMixHistory": [
+      {
+        "period": "FY2023",
+        "periodZh": "2023 财年",
+        "periodEn": "FY2023",
+        "totalRevenue": 2161.736,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "tsm-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 2161.736,
+            "unit": "TWD billions",
+            "share": 100,
+            "sourceIds": [
+              "tsm-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2024",
+        "periodZh": "2024 财年",
+        "periodEn": "FY2024",
+        "totalRevenue": 2894.308,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "tsm-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 2894.308,
+            "unit": "TWD billions",
+            "share": 100,
+            "sourceIds": [
+              "tsm-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-06-10",
+      "title": "Recent SEC filing: 6-K",
+      "titleZh": "最新 SEC 文件：6-K",
+      "titleEn": "Recent SEC filing: 6-K",
+      "category": "SEC filing",
+      "categoryZh": "SEC 文件",
+      "categoryEn": "SEC filing",
+      "summary": "SEC submissions show a 6-K filed on 2026-06-10; report date 2026-05-31.",
+      "summaryZh": "SEC submissions 显示公司于 2026-06-10 提交 6-K；报告期为 2026-05-31。",
+      "summaryEn": "SEC submissions show a 6-K filed on 2026-06-10; report date 2026-05-31.",
+      "impact": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "impactZh": "作为本批次最新公开文件检查点；每日定时刷新仍未启用。",
+      "impactEn": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "sourceIds": [
+        "tsm-sec-submissions"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "6-K",
+      "filedAt": "2026-06-10",
+      "reportDate": "2026-05-31",
+      "title": "6-K filed 2026-06-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000367/tsm-revenue20260610.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-06-04",
+      "reportDate": "2026-06-04",
+      "title": "6-K filed 2026-06-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000302/tsm-agmx20260604x6k.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-05-27",
+      "reportDate": "2026-05-27",
+      "title": "6-K filed 2026-05-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000294/tsm-dividendadjustmentx202.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-05-26",
+      "reportDate": "2026-04-30",
+      "title": "6-K filed 2026-05-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000292/tsm-monthend6kx20260526.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-05-15",
+      "reportDate": "2026-05-15",
+      "title": "6-K filed 2026-05-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000280/tsmctosell81ofvanguardinte.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-05-15",
+      "reportDate": "2026-03-31",
+      "title": "6-K filed 2026-05-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000278/tsm-fsx20260515x6k.htm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "tsm-homepage",
+      "title": "TSMC / 台积电 company website",
+      "titleZh": "TSMC / 台积电 公司官网",
+      "titleEn": "TSMC / 台积电 company website",
+      "publisher": "TSMC / 台积电",
+      "url": "https://www.tsmc.com/english",
+      "accessedAt": "2026-06-14",
+      "type": "company"
+    },
+    {
+      "id": "tsm-sec-submissions",
+      "title": "TSM SEC submissions",
+      "titleZh": "TSM SEC submissions 数据",
+      "titleEn": "TSM SEC submissions",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/submissions/CIK0001046179.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec"
+    },
+    {
+      "id": "tsm-sec-companyfacts",
+      "title": "TSM SEC companyfacts XBRL data",
+      "titleZh": "TSM SEC companyfacts XBRL 数据",
+      "titleEn": "TSM SEC companyfacts XBRL data",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001046179.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec"
+    },
+    {
+      "id": "tsm-nasdaq-quote",
+      "title": "TSM Nasdaq quote page",
+      "titleZh": "TSM Nasdaq 行情页面",
+      "titleEn": "TSM Nasdaq quote page",
+      "publisher": "Nasdaq",
+      "url": "https://www.nasdaq.com/market-activity/stocks/tsm",
+      "accessedAt": "2026-06-14",
+      "type": "exchange"
+    },
+    {
+      "id": "nvidia-10k-2026",
+      "title": "NVIDIA FY2026 Form 10-K",
+      "titleZh": "NVIDIA 2026 财年 10-K 年报",
+      "titleEn": "NVIDIA FY2026 Form 10-K",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "accessedAt": "2026-06-14",
+      "type": "sec"
+    },
+    {
+      "id": "nvidia-rtx-pro-systems-2025",
+      "title": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "titleZh": "NVIDIA RTX PRO Blackwell 服务器进入企业系统生态",
+      "titleEn": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "publisher": "NVIDIA Investor Relations",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-RTX-PRO-Servers-With-Blackwell-Coming-to-Worlds-Most-Popular-Enterprise-Systems/",
+      "accessedAt": "2026-06-14",
+      "type": "company"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0001046179",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K",
+        "20-F",
+        "6-K"
+      ]
+    },
+    "newsFeeds": [
+      {
+        "url": "https://www.tsmc.com/english",
+        "publisher": "TSMC / 台积电",
+        "sourceType": "company"
+      }
+    ]
+  }
+}

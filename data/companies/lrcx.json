@@ -1,0 +1,844 @@
+{
+  "schemaVersion": 1,
+  "id": "lrcx",
+  "ticker": "LRCX",
+  "exchange": "NASDAQ",
+  "market": "US",
+  "name": "Lam Research / 泛林集团",
+  "legalName": "LAM RESEARCH CORP",
+  "cik": "0000707549",
+  "currency": "USD",
+  "sector": "Semiconductor equipment / 半导体设备",
+  "industry": [
+    "Etch",
+    "Deposition",
+    "Wafer clean",
+    "刻蚀",
+    "沉积",
+    "晶圆清洗"
+  ],
+  "homepage": "https://www.lamresearch.com/",
+  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "summary": "泛林集团专注刻蚀、沉积和清洗设备，是先进逻辑、HBM/DRAM 和 NAND 制造链的关键设备公司，NVIDIA AI 需求通过晶圆厂和存储厂扩产传导。 / Lam Research focuses on etch, deposition, and clean tools for advanced logic, HBM/DRAM, and NAND manufacturing, with NVIDIA AI demand transmitted through foundry and memory capex.",
+  "summaryZh": "泛林集团专注刻蚀、沉积和清洗设备，是先进逻辑、HBM/DRAM 和 NAND 制造链的关键设备公司，NVIDIA AI 需求通过晶圆厂和存储厂扩产传导。",
+  "summaryEn": "Lam Research focuses on etch, deposition, and clean tools for advanced logic, HBM/DRAM, and NAND manufacturing, with NVIDIA AI demand transmitted through foundry and memory capex.",
+  "aliases": [
+    "LRCX",
+    "Lam Research / 泛林集团",
+    "LAM RESEARCH CORP",
+    "LAM RESEARCH CORP"
+  ],
+  "labels": [
+    "半导体",
+    "半导体设备",
+    "刻蚀",
+    "存储",
+    "AI基础设施",
+    "英伟达相关",
+    "美股"
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "description": "公司向半导体制造商销售晶圆制造设备、升级和服务，尤其在刻蚀和沉积环节具备强地位。 / The company sells wafer-fabrication equipment, upgrades, and services to semiconductor manufacturers, with strong positions in etch and deposition.",
+    "descriptionZh": "公司向半导体制造商销售晶圆制造设备、升级和服务，尤其在刻蚀和沉积环节具备强地位。",
+    "descriptionEn": "The company sells wafer-fabrication equipment, upgrades, and services to semiconductor manufacturers, with strong positions in etch and deposition.",
+    "revenueModel": [
+      "晶圆制造设备 / wafer fabrication equipment",
+      "客户支持业务 / customer support business"
+    ],
+    "segments": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 18.436,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "lrcx-sec-companyfacts"
+        ]
+      }
+    ],
+    "thesis": "与 NVIDIA 的联系主要通过 HBM、先进逻辑和封装产能投资传导，属于间接上游设备敞口。 / The NVIDIA linkage runs through HBM, advanced logic, and packaging capacity investment, making Lam an indirect upstream equipment exposure.",
+    "thesisZh": "与 NVIDIA 的联系主要通过 HBM、先进逻辑和封装产能投资传导，属于间接上游设备敞口。",
+    "thesisEn": "The NVIDIA linkage runs through HBM, advanced logic, and packaging capacity investment, making Lam an indirect upstream equipment exposure.",
+    "riskNotes": [
+      "存储和逻辑资本开支周期会影响订单。 / Memory and logic capex cycles affect orders.",
+      "设备交付依赖高精度部件、真空系统和特种材料。 / Tool delivery depends on high-precision parts, vacuum systems, and specialty materials."
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-14T12:00:00+08:00",
+    "thesis": "与 NVIDIA 的联系主要通过 HBM、先进逻辑和封装产能投资传导，属于间接上游设备敞口。 / The NVIDIA linkage runs through HBM, advanced logic, and packaging capacity investment, making Lam an indirect upstream equipment exposure.",
+    "thesisZh": "与 NVIDIA 的联系主要通过 HBM、先进逻辑和封装产能投资传导，属于间接上游设备敞口。",
+    "thesisEn": "The NVIDIA linkage runs through HBM, advanced logic, and packaging capacity investment, making Lam an indirect upstream equipment exposure.",
+    "tiers": [
+      {
+        "level": 0,
+        "title": "Target company",
+        "titleZh": "目标公司",
+        "titleEn": "Target company",
+        "companies": [
+          "Lam Research / 泛林集团"
+        ],
+        "entities": [
+          {
+            "name": "Lam Research / 泛林集团",
+            "nameZh": "Lam Research / 泛林集团",
+            "nameEn": "LAM RESEARCH CORP",
+            "relationship": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipZh": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipEn": "Target company; this page maps its NVIDIA-related supply-chain position.",
+            "productsServices": [
+              "晶圆制造设备 / wafer fabrication equipment",
+              "客户支持业务 / customer support business"
+            ],
+            "productsServicesZh": [
+              "晶圆制造设备 / wafer fabrication equipment",
+              "客户支持业务 / customer support business"
+            ],
+            "productsServicesEn": [
+              "晶圆制造设备 / wafer fabrication equipment",
+              "客户支持业务 / customer support business"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "LRCX",
+              "exchange": "NASDAQ",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/lrcx"
+            },
+            "confidence": "high",
+            "sourceIds": [
+              "lrcx-homepage",
+              "lrcx-nasdaq-quote"
+            ],
+            "companyUrl": "https://www.lamresearch.com/"
+          }
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "硅晶圆",
+          "高纯特种气体与化学品",
+          "铜、铝、钨、钴等金属材料"
+        ],
+        "materialsZh": [
+          "硅晶圆",
+          "高纯特种气体与化学品",
+          "铜、铝、钨、钴等金属材料"
+        ],
+        "materialsEn": [
+          "Silicon wafers",
+          "High-purity specialty gases and chemicals",
+          "Copper, aluminum, tungsten, cobalt and other metals"
+        ],
+        "notes": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesZh": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesEn": "Target company itself; listed ticker and quote link reviewed.",
+        "confidence": "high",
+        "sourceIds": [
+          "lrcx-homepage",
+          "lrcx-nasdaq-quote"
+        ]
+      },
+      {
+        "level": 1,
+        "title": "Key upstream inputs",
+        "titleZh": "关键上游投入",
+        "titleEn": "Key upstream inputs",
+        "companies": [
+          "Precision components and specialty materials / 精密部件与特种材料"
+        ],
+        "entities": [
+          {
+            "name": "Precision components and specialty materials / 精密部件与特种材料",
+            "nameZh": "精密部件与特种材料供应商",
+            "nameEn": "Precision component and specialty material suppliers",
+            "relationship": "向半导体设备公司供应光学、真空、机电、气体和高纯材料。",
+            "relationshipZh": "向半导体设备公司供应光学、真空、机电、气体和高纯材料。",
+            "relationshipEn": "Supply optics, vacuum, mechatronics, gases, and high-purity materials to semiconductor equipment makers.",
+            "productsServices": [
+              "精密部件",
+              "真空系统",
+              "特种材料"
+            ],
+            "productsServicesZh": [
+              "精密部件",
+              "真空系统",
+              "特种材料"
+            ],
+            "productsServicesEn": [
+              "precision components",
+              "vacuum systems",
+              "specialty materials"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "多为私营或多层供应商，需进一步逐项追踪。",
+              "noteZh": "多为私营或多层供应商，需进一步逐项追踪。",
+              "noteEn": "Often private or multi-tier suppliers; further supplier-by-supplier tracing is required."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "lrcx-homepage"
+            ]
+          }
+        ],
+        "geography": [
+          "US",
+          "Europe",
+          "Asia"
+        ],
+        "materials": [
+          "硅晶圆",
+          "高纯特种气体与化学品",
+          "铜、铝、钨、钴等金属材料"
+        ],
+        "materialsZh": [
+          "硅晶圆",
+          "高纯特种气体与化学品",
+          "铜、铝、钨、钴等金属材料"
+        ],
+        "materialsEn": [
+          "Silicon wafers",
+          "High-purity specialty gases and chemicals",
+          "Copper, aluminum, tungsten, cobalt and other metals"
+        ],
+        "notes": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesZh": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesEn": "Lists the most important upstream inputs for NVIDIA-related business; exact purchase shares require further manual work.",
+        "confidence": "medium",
+        "sourceIds": [
+          "lrcx-homepage",
+          "nvidia-10k-2026"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "硅晶圆",
+        "nameZh": "硅晶圆",
+        "nameEn": "Silicon wafers",
+        "usedIn": "用于晶圆制造、设备验证或封装测试。",
+        "usedInZh": "用于晶圆制造、设备验证或封装测试。",
+        "usedInEn": "Used in wafer manufacturing, tool qualification, or packaging and test.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "高纯特种气体与化学品",
+        "nameZh": "高纯特种气体与化学品",
+        "nameEn": "High-purity specialty gases and chemicals",
+        "usedIn": "用于光刻、沉积、刻蚀、清洗和封装流程。",
+        "usedInZh": "用于光刻、沉积、刻蚀、清洗和封装流程。",
+        "usedInEn": "Used in lithography, deposition, etch, clean, and packaging processes.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "铜、铝、钨、钴等金属材料",
+        "nameZh": "铜、铝、钨、钴等金属材料",
+        "nameEn": "Copper, aluminum, tungsten, cobalt and other metals",
+        "usedIn": "用于互连、沉积、封装和设备部件。",
+        "usedInZh": "用于互连、沉积、封装和设备部件。",
+        "usedInEn": "Used in interconnects, deposition, packaging, and tool components.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      }
+    ],
+    "downstream": {
+      "updatedAt": "2026-06-14T12:00:00+08:00",
+      "thesis": "与 NVIDIA 的联系主要通过 HBM、先进逻辑和封装产能投资传导，属于间接上游设备敞口。 / The NVIDIA linkage runs through HBM, advanced logic, and packaging capacity investment, making Lam an indirect upstream equipment exposure.",
+      "thesisZh": "与 NVIDIA 的联系主要通过 HBM、先进逻辑和封装产能投资传导，属于间接上游设备敞口。",
+      "thesisEn": "The NVIDIA linkage runs through HBM, advanced logic, and packaging capacity investment, making Lam an indirect upstream equipment exposure.",
+      "tiers": [
+        {
+          "level": 1,
+          "title": "NVIDIA-related demand path",
+          "titleZh": "英伟达相关需求路径",
+          "titleEn": "NVIDIA-related demand path",
+          "entities": [
+            {
+              "name": "TSMC / 台积电",
+              "nameZh": "TSMC / 台积电",
+              "nameEn": "Taiwan Semiconductor Manufacturing Company Limited",
+              "relationship": "先进晶圆厂客户；其先进制程扩产是设备需求的重要来源。",
+              "relationshipZh": "先进晶圆厂客户；其先进制程扩产是设备需求的重要来源。",
+              "relationshipEn": "Advanced foundry customer; its leading-node expansion is an important source of equipment demand.",
+              "productsServices": [
+                "晶圆制造设备需求",
+                "先进制程扩产"
+              ],
+              "productsServicesZh": [
+                "晶圆制造设备需求",
+                "先进制程扩产"
+              ],
+              "productsServicesEn": [
+                "wafer-fab equipment demand",
+                "leading-node expansion"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "TSM",
+                "exchange": "NYSE",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/tsm"
+              },
+              "confidence": "medium",
+              "sourceIds": [
+                "lrcx-homepage",
+                "nvidia-10k-2026"
+              ],
+              "companyUrl": "https://www.tsmc.com/english",
+              "customerRole": "晶圆厂客户 / 设备需求方",
+              "customerRoleZh": "晶圆厂客户 / 设备需求方",
+              "customerRoleEn": "Foundry customer / equipment-demand source"
+            },
+            {
+              "name": "NVIDIA Corporation / 英伟达",
+              "nameZh": "NVIDIA Corporation / 英伟达",
+              "nameEn": "NVIDIA Corporation",
+              "relationship": "不是典型直接客户；NVIDIA AI 芯片需求通过台积电、存储厂和先进封装投资间接拉动设备需求。",
+              "relationshipZh": "不是典型直接客户；NVIDIA AI 芯片需求通过台积电、存储厂和先进封装投资间接拉动设备需求。",
+              "relationshipEn": "Not typically a direct customer; NVIDIA AI-chip demand indirectly drives equipment demand through foundries, memory makers, and advanced-packaging investment.",
+              "productsServices": [
+                "间接 AI 需求",
+                "先进制程与 HBM 扩产"
+              ],
+              "productsServicesZh": [
+                "间接 AI 需求",
+                "先进制程与 HBM 扩产"
+              ],
+              "productsServicesEn": [
+                "indirect AI demand",
+                "advanced-node and HBM expansion"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "NVDA",
+                "exchange": "NASDAQ",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/nvda"
+              },
+              "confidence": "medium",
+              "sourceIds": [
+                "nvidia-10k-2026"
+              ],
+              "companyUrl": "https://www.nvidia.com/",
+              "customerRole": "间接需求驱动方",
+              "customerRoleZh": "间接需求驱动方",
+              "customerRoleEn": "Indirect demand driver"
+            }
+          ],
+          "notes": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesZh": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesEn": "This layer explains how the target company functions as NVIDIA's upstream supplier, partner, customer, or indirect demand beneficiary.",
+          "confidence": "medium",
+          "sourceIds": [
+            "lrcx-homepage",
+            "nvidia-10k-2026"
+          ]
+        }
+      ]
+    }
+  },
+  "financials": {
+    "latestPeriod": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "latestPeriodZh": "使用 SEC companyfacts 中的最新可核对候选；年度基准来自最近审计年报。",
+    "latestPeriodEn": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "highlights": [
+      {
+        "label": "Q3 FY2026 revenue",
+        "labelZh": "2026 财年第 3 财季 收入",
+        "labelEn": "Q3 FY2026 revenue",
+        "value": 5.841,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-29",
+        "periodZh": "截至 2026-03-29 的季度",
+        "periodEn": "Quarter ended 2026-03-29",
+        "sourceIds": [
+          "lrcx-sec-companyfacts"
+        ],
+        "change": "+23.8% vs prior comparable period",
+        "changeZh": "较上一可比期间 +23.8%",
+        "changeEn": "+23.8% vs prior comparable period"
+      },
+      {
+        "label": "Q3 FY2026 net income / loss",
+        "labelZh": "2026 财年第 3 财季 净利润 / 净亏损",
+        "labelEn": "Q3 FY2026 net income / loss",
+        "value": 1.825,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-29",
+        "periodZh": "截至 2026-03-29 的季度",
+        "periodEn": "Quarter ended 2026-03-29",
+        "sourceIds": [
+          "lrcx-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q3 FY2026 total assets",
+        "labelZh": "2026 财年第 3 财季 总资产",
+        "labelEn": "Q3 FY2026 total assets",
+        "value": 20.792,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-29",
+        "periodZh": "截至 2026-03-29 的季度",
+        "periodEn": "Quarter ended 2026-03-29",
+        "sourceIds": [
+          "lrcx-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q1 FY2026 operating cash flow",
+        "labelZh": "2026 财年第 1 财季 经营现金流",
+        "labelEn": "Q1 FY2026 operating cash flow",
+        "value": 1.779,
+        "unit": "USD billions",
+        "period": "Quarter ended 2025-09-28",
+        "periodZh": "截至 2025-09-28 的季度",
+        "periodEn": "Quarter ended 2025-09-28",
+        "sourceIds": [
+          "lrcx-sec-companyfacts"
+        ]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 18.436,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "lrcx-sec-companyfacts"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "id": "annual-revenue",
+        "label": "Annual revenue",
+        "labelZh": "年度收入",
+        "labelEn": "Annual revenue",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "lrcx-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 17.429,
+            "sourceIds": [
+              "lrcx-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 14.905,
+            "sourceIds": [
+              "lrcx-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 18.436,
+            "sourceIds": [
+              "lrcx-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-net-income",
+        "label": "Annual net income / loss",
+        "labelZh": "年度净利润 / 净亏损",
+        "labelEn": "Annual net income / loss",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "lrcx-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 4.511,
+            "sourceIds": [
+              "lrcx-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 3.828,
+            "sourceIds": [
+              "lrcx-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 5.358,
+            "sourceIds": [
+              "lrcx-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-assets",
+        "label": "Annual total assets",
+        "labelZh": "年度总资产",
+        "labelEn": "Annual total assets",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "lrcx-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 18.782,
+            "sourceIds": [
+              "lrcx-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 18.745,
+            "sourceIds": [
+              "lrcx-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 21.345,
+            "sourceIds": [
+              "lrcx-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenueMixHistory": [
+      {
+        "period": "FY2023",
+        "periodZh": "2023 财年",
+        "periodEn": "FY2023",
+        "totalRevenue": 17.429,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "lrcx-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 17.429,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "lrcx-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2024",
+        "periodZh": "2024 财年",
+        "periodEn": "FY2024",
+        "totalRevenue": 14.905,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "lrcx-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 14.905,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "lrcx-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "totalRevenue": 18.436,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "lrcx-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 18.436,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "lrcx-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-04-23",
+      "title": "Recent SEC filing: 10-Q",
+      "titleZh": "最新 SEC 文件：10-Q",
+      "titleEn": "Recent SEC filing: 10-Q",
+      "category": "SEC filing",
+      "categoryZh": "SEC 文件",
+      "categoryEn": "SEC filing",
+      "summary": "SEC submissions show a 10-Q filed on 2026-04-23; report date 2026-03-29.",
+      "summaryZh": "SEC submissions 显示公司于 2026-04-23 提交 10-Q；报告期为 2026-03-29。",
+      "summaryEn": "SEC submissions show a 10-Q filed on 2026-04-23; report date 2026-03-29.",
+      "impact": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "impactZh": "作为本批次最新公开文件检查点；每日定时刷新仍未启用。",
+      "impactEn": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "sourceIds": [
+        "lrcx-sec-submissions"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "10-Q",
+      "filedAt": "2026-04-23",
+      "reportDate": "2026-03-29",
+      "title": "10-Q filed 2026-04-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000022/lrcx-20260329.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-22",
+      "reportDate": "2026-04-22",
+      "title": "8-K filed 2026-04-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000020/lrcx-20260422.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-03",
+      "reportDate": "2026-01-30",
+      "title": "8-K filed 2026-02-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000012/lrcx-20260130.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-01-29",
+      "reportDate": "2025-12-28",
+      "title": "10-Q filed 2026-01-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000009/lrcx-20251228.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-01-28",
+      "reportDate": "2026-01-28",
+      "title": "8-K filed 2026-01-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000006/lrcx-20260128.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-11-06",
+      "reportDate": "2025-11-04",
+      "title": "8-K filed 2025-11-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000094/lrcx-20251104.htm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "lrcx-homepage",
+      "title": "Lam Research / 泛林集团 company website",
+      "titleZh": "Lam Research / 泛林集团 公司官网",
+      "titleEn": "Lam Research / 泛林集团 company website",
+      "publisher": "Lam Research / 泛林集团",
+      "url": "https://www.lamresearch.com/",
+      "accessedAt": "2026-06-14",
+      "type": "company"
+    },
+    {
+      "id": "lrcx-sec-submissions",
+      "title": "LRCX SEC submissions",
+      "titleZh": "LRCX SEC submissions 数据",
+      "titleEn": "LRCX SEC submissions",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/submissions/CIK0000707549.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec"
+    },
+    {
+      "id": "lrcx-sec-companyfacts",
+      "title": "LRCX SEC companyfacts XBRL data",
+      "titleZh": "LRCX SEC companyfacts XBRL 数据",
+      "titleEn": "LRCX SEC companyfacts XBRL data",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000707549.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec"
+    },
+    {
+      "id": "lrcx-nasdaq-quote",
+      "title": "LRCX Nasdaq quote page",
+      "titleZh": "LRCX Nasdaq 行情页面",
+      "titleEn": "LRCX Nasdaq quote page",
+      "publisher": "Nasdaq",
+      "url": "https://www.nasdaq.com/market-activity/stocks/lrcx",
+      "accessedAt": "2026-06-14",
+      "type": "exchange"
+    },
+    {
+      "id": "nvidia-10k-2026",
+      "title": "NVIDIA FY2026 Form 10-K",
+      "titleZh": "NVIDIA 2026 财年 10-K 年报",
+      "titleEn": "NVIDIA FY2026 Form 10-K",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "accessedAt": "2026-06-14",
+      "type": "sec"
+    },
+    {
+      "id": "nvidia-rtx-pro-systems-2025",
+      "title": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "titleZh": "NVIDIA RTX PRO Blackwell 服务器进入企业系统生态",
+      "titleEn": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "publisher": "NVIDIA Investor Relations",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-RTX-PRO-Servers-With-Blackwell-Coming-to-Worlds-Most-Popular-Enterprise-Systems/",
+      "accessedAt": "2026-06-14",
+      "type": "company"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0000707549",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K",
+        "20-F",
+        "6-K"
+      ]
+    },
+    "newsFeeds": [
+      {
+        "url": "https://www.lamresearch.com/",
+        "publisher": "Lam Research / 泛林集团",
+        "sourceType": "company"
+      }
+    ]
+  }
+}

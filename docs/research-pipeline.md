@@ -29,7 +29,7 @@ python3 scripts/research_pipeline.py --target 600519 --market CN --exchange SSE 
 
 脚本会：
 
-- 对美股：解析 SEC ticker map，拉取 submissions 和 companyfacts，生成最近 filings 与标准财务概念候选。
+- 对美股：解析 SEC ticker map，拉取 submissions 和 companyfacts，生成最近 filings 与标准财务概念候选；ADR/外国发行人会同时检查 `us-gaap` 与 `ifrs-full`，并保留 SEC XBRL 中披露的报告币种（例如 EUR、TWD），不在流水线内做汇率换算。
 - 对美股季度指标：只保留带 `CYxxxxQx` 或 `CYxxxxQxI` frame 的单季度/期末候选，避免把无 frame 的年初至今值误作单季度。
 - 对 A 股：查询巨潮公告，初步分类年报、季报、分红、异常波动、投资者关系记录等公告。
 - 当巨潮查询无结果时，对 A 股使用东方财富公告索引做候选发现；正式数据落库前应优先回链交易所或公告 PDF。
@@ -58,6 +58,7 @@ npm run sync:pages
 批量新增的专项质量记录：
 
 - [SpaceX IPO 主题批量新增质量记录](./spacex-ipo-batch-quality.md)
+- [NVIDIA 相关上市公司批量新增质量记录](./nvidia-related-batch-quality.md)
 
 ## 定时任务状态
 

@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 1,
+  "id": "amkr",
+  "ticker": "AMKR",
+  "exchange": "NASDAQ",
+  "market": "US",
+  "name": "Amkor Technology / 安靠科技",
+  "legalName": "AMKOR TECHNOLOGY, INC.",
+  "cik": "0001047127",
+  "currency": "USD",
+  "sector": "Semiconductor packaging and test / 半导体封测",
+  "industry": [
+    "OSAT",
+    "Advanced packaging",
+    "Test",
+    "外包封测",
+    "先进封装",
+    "测试"
+  ],
+  "homepage": "https://amkor.com/",
+  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "summary": "Amkor 是外包半导体封装与测试厂商，AI 芯片供应链扩张会提升先进封装和测试产能的重要性。 / Amkor is an outsourced semiconductor assembly and test provider. AI chip supply-chain expansion increases the importance of advanced packaging and test capacity.",
+  "summaryZh": "Amkor 是外包半导体封装与测试厂商，AI 芯片供应链扩张会提升先进封装和测试产能的重要性。",
+  "summaryEn": "Amkor is an outsourced semiconductor assembly and test provider. AI chip supply-chain expansion increases the importance of advanced packaging and test capacity.",
+  "aliases": [
+    "AMKR",
+    "Amkor Technology / 安靠科技",
+    "AMKOR TECHNOLOGY, INC.",
+    "AMKOR TECHNOLOGY, INC."
+  ],
+  "labels": [
+    "半导体",
+    "封装测试",
+    "先进封装",
+    "AI基础设施",
+    "英伟达相关",
+    "美股"
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "description": "公司为半导体客户提供封装设计、组装、先进封装和测试服务，覆盖通信、汽车、计算和消费电子。 / The company provides package design, assembly, advanced packaging, and test services for semiconductor customers across communications, automotive, computing, and consumer electronics.",
+    "descriptionZh": "公司为半导体客户提供封装设计、组装、先进封装和测试服务，覆盖通信、汽车、计算和消费电子。",
+    "descriptionEn": "The company provides package design, assembly, advanced packaging, and test services for semiconductor customers across communications, automotive, computing, and consumer electronics.",
+    "revenueModel": [
+      "封装服务 / assembly services",
+      "测试服务 / test services",
+      "先进封装 / advanced packaging"
+    ],
+    "segments": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 6.708,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "amkr-sec-companyfacts"
+        ]
+      }
+    ],
+    "thesis": "与 NVIDIA 的联系是先进封装和测试产能的间接敞口；AI 加速器越复杂，封装、基板和测试环节越关键。 / The NVIDIA linkage is indirect exposure to advanced packaging and test capacity; more complex AI accelerators make packaging, substrates, and test more critical.",
+    "thesisZh": "与 NVIDIA 的联系是先进封装和测试产能的间接敞口；AI 加速器越复杂，封装、基板和测试环节越关键。",
+    "thesisEn": "The NVIDIA linkage is indirect exposure to advanced packaging and test capacity; more complex AI accelerators make packaging, substrates, and test more critical.",
+    "riskNotes": [
+      "先进封装投资需要较长认证和爬坡周期。 / Advanced packaging investments require long qualification and ramp cycles.",
+      "基板、载板和测试设备供应会影响交付。 / Substrate, carrier, and test-equipment supply can affect delivery."
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-14T12:00:00+08:00",
+    "thesis": "与 NVIDIA 的联系是先进封装和测试产能的间接敞口；AI 加速器越复杂，封装、基板和测试环节越关键。 / The NVIDIA linkage is indirect exposure to advanced packaging and test capacity; more complex AI accelerators make packaging, substrates, and test more critical.",
+    "thesisZh": "与 NVIDIA 的联系是先进封装和测试产能的间接敞口；AI 加速器越复杂，封装、基板和测试环节越关键。",
+    "thesisEn": "The NVIDIA linkage is indirect exposure to advanced packaging and test capacity; more complex AI accelerators make packaging, substrates, and test more critical.",
+    "tiers": [
+      {
+        "level": 0,
+        "title": "Target company",
+        "titleZh": "目标公司",
+        "titleEn": "Target company",
+        "companies": [
+          "Amkor Technology / 安靠科技"
+        ],
+        "entities": [
+          {
+            "name": "Amkor Technology / 安靠科技",
+            "nameZh": "Amkor Technology / 安靠科技",
+            "nameEn": "AMKOR TECHNOLOGY, INC.",
+            "relationship": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipZh": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipEn": "Target company; this page maps its NVIDIA-related supply-chain position.",
+            "productsServices": [
+              "封装服务 / assembly services",
+              "测试服务 / test services",
+              "先进封装 / advanced packaging"
+            ],
+            "productsServicesZh": [
+              "封装服务 / assembly services",
+              "测试服务 / test services",
+              "先进封装 / advanced packaging"
+            ],
+            "productsServicesEn": [
+              "封装服务 / assembly services",
+              "测试服务 / test services",
+              "先进封装 / advanced packaging"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "AMKR",
+              "exchange": "NASDAQ",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/amkr"
+            },
+            "confidence": "high",
+            "sourceIds": [
+              "amkr-homepage",
+              "amkr-nasdaq-quote"
+            ],
+            "companyUrl": "https://amkor.com/"
+          }
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "硅晶圆",
+          "高纯特种气体与化学品",
+          "铜、铝、钨、钴等金属材料"
+        ],
+        "materialsZh": [
+          "硅晶圆",
+          "高纯特种气体与化学品",
+          "铜、铝、钨、钴等金属材料"
+        ],
+        "materialsEn": [
+          "Silicon wafers",
+          "High-purity specialty gases and chemicals",
+          "Copper, aluminum, tungsten, cobalt and other metals"
+        ],
+        "notes": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesZh": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesEn": "Target company itself; listed ticker and quote link reviewed.",
+        "confidence": "high",
+        "sourceIds": [
+          "amkr-homepage",
+          "amkr-nasdaq-quote"
+        ]
+      },
+      {
+        "level": 1,
+        "title": "Key upstream inputs",
+        "titleZh": "关键上游投入",
+        "titleEn": "Key upstream inputs",
+        "companies": [
+          "Substrate and test-equipment suppliers / 基板与测试设备供应商"
+        ],
+        "entities": [
+          {
+            "name": "Substrate and test-equipment suppliers / 基板与测试设备供应商",
+            "nameZh": "基板与测试设备供应商",
+            "nameEn": "Substrate and test-equipment suppliers",
+            "relationship": "为先进封装与测试提供封装基板、探针卡、测试机和材料。",
+            "relationshipZh": "为先进封装与测试提供封装基板、探针卡、测试机和材料。",
+            "relationshipEn": "Provide package substrates, probe cards, testers, and materials for advanced packaging and test.",
+            "productsServices": [
+              "封装基板",
+              "测试设备",
+              "探针卡"
+            ],
+            "productsServicesZh": [
+              "封装基板",
+              "测试设备",
+              "探针卡"
+            ],
+            "productsServicesEn": [
+              "package substrates",
+              "test equipment",
+              "probe cards"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "需按具体供应商进一步映射。",
+              "noteZh": "需按具体供应商进一步映射。",
+              "noteEn": "Requires further mapping by specific supplier."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "amkr-homepage"
+            ]
+          }
+        ],
+        "geography": [
+          "US",
+          "Europe",
+          "Asia"
+        ],
+        "materials": [
+          "硅晶圆",
+          "高纯特种气体与化学品",
+          "铜、铝、钨、钴等金属材料"
+        ],
+        "materialsZh": [
+          "硅晶圆",
+          "高纯特种气体与化学品",
+          "铜、铝、钨、钴等金属材料"
+        ],
+        "materialsEn": [
+          "Silicon wafers",
+          "High-purity specialty gases and chemicals",
+          "Copper, aluminum, tungsten, cobalt and other metals"
+        ],
+        "notes": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesZh": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesEn": "Lists the most important upstream inputs for NVIDIA-related business; exact purchase shares require further manual work.",
+        "confidence": "medium",
+        "sourceIds": [
+          "amkr-homepage",
+          "nvidia-10k-2026"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "硅晶圆",
+        "nameZh": "硅晶圆",
+        "nameEn": "Silicon wafers",
+        "usedIn": "用于晶圆制造、设备验证或封装测试。",
+        "usedInZh": "用于晶圆制造、设备验证或封装测试。",
+        "usedInEn": "Used in wafer manufacturing, tool qualification, or packaging and test.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "高纯特种气体与化学品",
+        "nameZh": "高纯特种气体与化学品",
+        "nameEn": "High-purity specialty gases and chemicals",
+        "usedIn": "用于光刻、沉积、刻蚀、清洗和封装流程。",
+        "usedInZh": "用于光刻、沉积、刻蚀、清洗和封装流程。",
+        "usedInEn": "Used in lithography, deposition, etch, clean, and packaging processes.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "铜、铝、钨、钴等金属材料",
+        "nameZh": "铜、铝、钨、钴等金属材料",
+        "nameEn": "Copper, aluminum, tungsten, cobalt and other metals",
+        "usedIn": "用于互连、沉积、封装和设备部件。",
+        "usedInZh": "用于互连、沉积、封装和设备部件。",
+        "usedInEn": "Used in interconnects, deposition, packaging, and tool components.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      }
+    ],
+    "downstream": {
+      "updatedAt": "2026-06-14T12:00:00+08:00",
+      "thesis": "与 NVIDIA 的联系是先进封装和测试产能的间接敞口；AI 加速器越复杂，封装、基板和测试环节越关键。 / The NVIDIA linkage is indirect exposure to advanced packaging and test capacity; more complex AI accelerators make packaging, substrates, and test more critical.",
+      "thesisZh": "与 NVIDIA 的联系是先进封装和测试产能的间接敞口；AI 加速器越复杂，封装、基板和测试环节越关键。",
+      "thesisEn": "The NVIDIA linkage is indirect exposure to advanced packaging and test capacity; more complex AI accelerators make packaging, substrates, and test more critical.",
+      "tiers": [
+        {
+          "level": 1,
+          "title": "NVIDIA-related demand path",
+          "titleZh": "英伟达相关需求路径",
+          "titleEn": "NVIDIA-related demand path",
+          "entities": [
+            {
+              "name": "NVIDIA AI accelerator ecosystem / NVIDIA AI 加速器生态",
+              "nameZh": "NVIDIA AI 加速器生态",
+              "nameEn": "NVIDIA AI accelerator ecosystem",
+              "relationship": "AI 加速器复杂度提升会增加先进封装、基板和测试需求；是否为直接客户需按具体项目确认。",
+              "relationshipZh": "AI 加速器复杂度提升会增加先进封装、基板和测试需求；是否为直接客户需按具体项目确认。",
+              "relationshipEn": "Higher AI-accelerator complexity increases advanced packaging, substrate, and test demand; direct-customer status requires project-level confirmation.",
+              "productsServices": [
+                "先进封装",
+                "封装测试",
+                "基板与可靠性测试"
+              ],
+              "productsServicesZh": [
+                "先进封装",
+                "封装测试",
+                "基板与可靠性测试"
+              ],
+              "productsServicesEn": [
+                "advanced packaging",
+                "assembly and test",
+                "substrates and reliability test"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "NVDA",
+                "exchange": "NASDAQ",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/nvda"
+              },
+              "confidence": "medium",
+              "sourceIds": [
+                "nvidia-10k-2026"
+              ],
+              "customerRole": "AI 封装测试需求来源",
+              "customerRoleZh": "AI 封装测试需求来源",
+              "customerRoleEn": "AI packaging and test demand source"
+            }
+          ],
+          "notes": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesZh": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesEn": "This layer explains how the target company functions as NVIDIA's upstream supplier, partner, customer, or indirect demand beneficiary.",
+          "confidence": "medium",
+          "sourceIds": [
+            "amkr-homepage",
+            "nvidia-10k-2026"
+          ]
+        }
+      ]
+    }
+  },
+  "financials": {
+    "latestPeriod": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "latestPeriodZh": "使用 SEC companyfacts 中的最新可核对候选；年度基准来自最近审计年报。",
+    "latestPeriodEn": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "highlights": [
+      {
+        "label": "Q1 FY2026 revenue",
+        "labelZh": "2026 财年第 1 财季 收入",
+        "labelEn": "Q1 FY2026 revenue",
+        "value": 1.685,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "amkr-sec-companyfacts"
+        ],
+        "change": "+27.5% vs prior comparable period",
+        "changeZh": "较上一可比期间 +27.5%",
+        "changeEn": "+27.5% vs prior comparable period"
+      },
+      {
+        "label": "Q1 FY2026 net income / loss",
+        "labelZh": "2026 财年第 1 财季 净利润 / 净亏损",
+        "labelEn": "Q1 FY2026 net income / loss",
+        "value": 0.083,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "amkr-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q1 FY2026 total assets",
+        "labelZh": "2026 财年第 1 财季 总资产",
+        "labelEn": "Q1 FY2026 total assets",
+        "value": 8.299,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "amkr-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q1 FY2026 operating cash flow",
+        "labelZh": "2026 财年第 1 财季 经营现金流",
+        "labelEn": "Q1 FY2026 operating cash flow",
+        "value": 0.145,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "amkr-sec-companyfacts"
+        ]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 6.708,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "amkr-sec-companyfacts"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "id": "annual-revenue",
+        "label": "Annual revenue",
+        "labelZh": "年度收入",
+        "labelEn": "Annual revenue",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "amkr-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 6.503,
+            "sourceIds": [
+              "amkr-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 6.318,
+            "sourceIds": [
+              "amkr-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 6.708,
+            "sourceIds": [
+              "amkr-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-net-income",
+        "label": "Annual net income / loss",
+        "labelZh": "年度净利润 / 净亏损",
+        "labelEn": "Annual net income / loss",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "amkr-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 0.36,
+            "sourceIds": [
+              "amkr-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 0.354,
+            "sourceIds": [
+              "amkr-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 0.374,
+            "sourceIds": [
+              "amkr-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-assets",
+        "label": "Annual total assets",
+        "labelZh": "年度总资产",
+        "labelEn": "Annual total assets",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "amkr-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 6.771,
+            "sourceIds": [
+              "amkr-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 6.944,
+            "sourceIds": [
+              "amkr-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 8.136,
+            "sourceIds": [
+              "amkr-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenueMixHistory": [
+      {
+        "period": "FY2023",
+        "periodZh": "2023 财年",
+        "periodEn": "FY2023",
+        "totalRevenue": 6.503,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "amkr-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 6.503,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "amkr-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2024",
+        "periodZh": "2024 财年",
+        "periodEn": "FY2024",
+        "totalRevenue": 6.318,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "amkr-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 6.318,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "amkr-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "totalRevenue": 6.708,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "amkr-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 6.708,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "amkr-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-05-21",
+      "title": "Recent SEC filing: 8-K",
+      "titleZh": "最新 SEC 文件：8-K",
+      "titleEn": "Recent SEC filing: 8-K",
+      "category": "SEC filing",
+      "categoryZh": "SEC 文件",
+      "categoryEn": "SEC filing",
+      "summary": "SEC submissions show a 8-K filed on 2026-05-21; report date 2026-05-21.",
+      "summaryZh": "SEC submissions 显示公司于 2026-05-21 提交 8-K；报告期为 2026-05-21。",
+      "summaryEn": "SEC submissions show a 8-K filed on 2026-05-21; report date 2026-05-21.",
+      "impact": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "impactZh": "作为本批次最新公开文件检查点；每日定时刷新仍未启用。",
+      "impactEn": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "sourceIds": [
+        "amkr-sec-submissions"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-21",
+      "reportDate": "2026-05-21",
+      "title": "8-K filed 2026-05-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000036/amkr-20260521.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-19",
+      "reportDate": "2026-05-13",
+      "title": "8-K filed 2026-05-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000033/amkr-20260513.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-05",
+      "reportDate": "2026-04-30",
+      "title": "8-K filed 2026-05-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000029/amkr-20260430.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-01",
+      "reportDate": "2026-04-30",
+      "title": "8-K filed 2026-05-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000026/amkr-20260430.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-30",
+      "reportDate": "2026-04-30",
+      "title": "8-K filed 2026-04-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000023/amkr-20260430.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-04-28",
+      "reportDate": "2026-03-31",
+      "title": "10-Q filed 2026-04-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000020/amkr-20260331.htm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "amkr-homepage",
+      "title": "Amkor Technology / 安靠科技 company website",
+      "titleZh": "Amkor Technology / 安靠科技 公司官网",
+      "titleEn": "Amkor Technology / 安靠科技 company website",
+      "publisher": "Amkor Technology / 安靠科技",
+      "url": "https://amkor.com/",
+      "accessedAt": "2026-06-14",
+      "type": "company"
+    },
+    {
+      "id": "amkr-sec-submissions",
+      "title": "AMKR SEC submissions",
+      "titleZh": "AMKR SEC submissions 数据",
+      "titleEn": "AMKR SEC submissions",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/submissions/CIK0001047127.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec"
+    },
+    {
+      "id": "amkr-sec-companyfacts",
+      "title": "AMKR SEC companyfacts XBRL data",
+      "titleZh": "AMKR SEC companyfacts XBRL 数据",
+      "titleEn": "AMKR SEC companyfacts XBRL data",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001047127.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec"
+    },
+    {
+      "id": "amkr-nasdaq-quote",
+      "title": "AMKR Nasdaq quote page",
+      "titleZh": "AMKR Nasdaq 行情页面",
+      "titleEn": "AMKR Nasdaq quote page",
+      "publisher": "Nasdaq",
+      "url": "https://www.nasdaq.com/market-activity/stocks/amkr",
+      "accessedAt": "2026-06-14",
+      "type": "exchange"
+    },
+    {
+      "id": "nvidia-10k-2026",
+      "title": "NVIDIA FY2026 Form 10-K",
+      "titleZh": "NVIDIA 2026 财年 10-K 年报",
+      "titleEn": "NVIDIA FY2026 Form 10-K",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "accessedAt": "2026-06-14",
+      "type": "sec"
+    },
+    {
+      "id": "nvidia-rtx-pro-systems-2025",
+      "title": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "titleZh": "NVIDIA RTX PRO Blackwell 服务器进入企业系统生态",
+      "titleEn": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "publisher": "NVIDIA Investor Relations",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-RTX-PRO-Servers-With-Blackwell-Coming-to-Worlds-Most-Popular-Enterprise-Systems/",
+      "accessedAt": "2026-06-14",
+      "type": "company"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0001047127",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K",
+        "20-F",
+        "6-K"
+      ]
+    },
+    "newsFeeds": [
+      {
+        "url": "https://amkor.com/",
+        "publisher": "Amkor Technology / 安靠科技",
+        "sourceType": "company"
+      }
+    ]
+  }
+}

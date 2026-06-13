@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T19:52:29.963740Z",
+  "generatedAt": "2026-06-13T20:19:16.118384Z",
   "companies": [
     {
       "id": "cssc-special-gas",
@@ -53,6 +53,111 @@
       "summary": "硬件生态和服务收入共同驱动，核心变量是 iPhone 周期、服务增长、供应链韧性与 AI 平台节奏。"
     },
     {
+      "id": "amat",
+      "ticker": "AMAT",
+      "name": "Applied Materials / 应用材料",
+      "legalName": "APPLIED MATERIALS INC /DE",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/amat.json",
+      "aliases": [
+        "AMAT",
+        "Applied Materials / 应用材料",
+        "APPLIED MATERIALS INC /DE",
+        "APPLIED MATERIALS INC /DE"
+      ],
+      "labels": [
+        "半导体",
+        "半导体设备",
+        "晶圆制造",
+        "AI基础设施",
+        "英伟达相关",
+        "美股"
+      ],
+      "sector": "Semiconductor equipment / 半导体设备",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "应用材料提供晶圆制造设备和服务，是先进逻辑、存储和封装产线的重要设备供应商，间接受益于 NVIDIA AI 芯片供应链扩产。 / Applied Materials provides wafer-fabrication equipment and services for advanced logic, memory, and packaging lines, giving it indirect exposure to NVIDIA AI chip supply-chain expansion."
+    },
+    {
+      "id": "amkr",
+      "ticker": "AMKR",
+      "name": "Amkor Technology / 安靠科技",
+      "legalName": "AMKOR TECHNOLOGY, INC.",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/amkr.json",
+      "aliases": [
+        "AMKR",
+        "Amkor Technology / 安靠科技",
+        "AMKOR TECHNOLOGY, INC.",
+        "AMKOR TECHNOLOGY, INC."
+      ],
+      "labels": [
+        "半导体",
+        "封装测试",
+        "先进封装",
+        "AI基础设施",
+        "英伟达相关",
+        "美股"
+      ],
+      "sector": "Semiconductor packaging and test / 半导体封测",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "Amkor 是外包半导体封装与测试厂商，AI 芯片供应链扩张会提升先进封装和测试产能的重要性。 / Amkor is an outsourced semiconductor assembly and test provider. AI chip supply-chain expansion increases the importance of advanced packaging and test capacity."
+    },
+    {
+      "id": "amzn",
+      "ticker": "AMZN",
+      "name": "Amazon / 亚马逊",
+      "legalName": "AMAZON COM INC",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/amzn.json",
+      "aliases": [
+        "AMZN",
+        "Amazon / 亚马逊",
+        "AMAZON COM INC",
+        "AMAZON COM INC"
+      ],
+      "labels": [
+        "科技",
+        "云计算",
+        "AI",
+        "电商",
+        "英伟达相关",
+        "美股"
+      ],
+      "sector": "E-commerce, cloud and AI / 电商、云与 AI",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "亚马逊通过 AWS 为客户提供云计算、AI 和 GPU 实例，是 NVIDIA 数据中心 GPU 的重要下游需求方之一，同时也有自研加速器作为补充。 / Amazon provides cloud, AI, and GPU instances through AWS, making it an important downstream source of NVIDIA data-center GPU demand while also using in-house accelerators."
+    },
+    {
+      "id": "asml",
+      "ticker": "ASML",
+      "name": "ASML Holding / 阿斯麦",
+      "legalName": "ASML HOLDING NV",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/asml.json",
+      "aliases": [
+        "ASML",
+        "ASML Holding / 阿斯麦",
+        "ASML HOLDING NV",
+        "ASML HOLDING NV"
+      ],
+      "labels": [
+        "半导体",
+        "半导体设备",
+        "光刻机",
+        "EUV",
+        "AI基础设施",
+        "英伟达相关",
+        "美股"
+      ],
+      "sector": "Semiconductor equipment / 半导体设备",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "ASML 是先进光刻设备的关键供应商，虽通常不直接向 NVIDIA 销售芯片，但其 EUV/DUV 设备是台积电、三星等制造 NVIDIA AI 芯片所需先进制程的基础。 / ASML is a critical lithography supplier. It usually does not sell chips to NVIDIA directly, but its EUV/DUV systems enable the advanced nodes used by foundries that manufacture NVIDIA AI chips."
+    },
+    {
       "id": "asts",
       "ticker": "ASTS",
       "name": "AST SpaceMobile / AST 太空移动",
@@ -77,6 +182,84 @@
       "summary": "AST SpaceMobile 正在建设面向普通手机的空间蜂窝宽带网络，是 Starlink 直连手机与卫星宽带主题下的重要上市可比公司；其仍处于高投入与商业化推进阶段。"
     },
     {
+      "id": "crwv",
+      "ticker": "CRWV",
+      "name": "CoreWeave / CoreWeave AI 云",
+      "legalName": "CoreWeave, Inc.",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/crwv.json",
+      "aliases": [
+        "CRWV",
+        "CoreWeave / CoreWeave AI 云",
+        "CoreWeave, Inc.",
+        "CoreWeave, Inc."
+      ],
+      "labels": [
+        "云计算",
+        "AI",
+        "GPU云",
+        "数据中心",
+        "英伟达相关",
+        "美股"
+      ],
+      "sector": "AI cloud infrastructure / AI 云基础设施",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "CoreWeave 是专注 GPU 云的上市公司，业务与 NVIDIA GPU 供给、数据中心融资和 AI 客户需求高度相关；公司仍处于高增长与高资本开支阶段。 / CoreWeave is a public GPU-cloud company with high exposure to NVIDIA GPU supply, data-center financing, and AI customer demand, while still in a high-growth, high-capex phase."
+    },
+    {
+      "id": "dell",
+      "ticker": "DELL",
+      "name": "Dell Technologies / 戴尔科技",
+      "legalName": "Dell Technologies Inc.",
+      "exchange": "NYSE",
+      "market": "US",
+      "dataPath": "data/companies/dell.json",
+      "aliases": [
+        "DELL",
+        "Dell Technologies / 戴尔科技",
+        "Dell Technologies Inc.",
+        "Dell Technologies Inc."
+      ],
+      "labels": [
+        "科技",
+        "服务器",
+        "AI基础设施",
+        "企业硬件",
+        "英伟达相关",
+        "美股"
+      ],
+      "sector": "Enterprise hardware and AI infrastructure / 企业硬件与 AI 基础设施",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "戴尔科技销售服务器、存储、PC 和服务，其 AI 服务器产品组合与 NVIDIA GPU/网络平台绑定度较高，是 NVIDIA 企业 AI 落地的重要 OEM 之一。 / Dell sells servers, storage, PCs, and services. Its AI server portfolio is closely tied to NVIDIA GPU and networking platforms, making Dell an important enterprise AI OEM."
+    },
+    {
+      "id": "googl",
+      "ticker": "GOOGL",
+      "name": "Alphabet / Google / 字母表",
+      "legalName": "Alphabet Inc.",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/googl.json",
+      "aliases": [
+        "GOOGL",
+        "Alphabet / Google / 字母表",
+        "Alphabet Inc.",
+        "Alphabet Inc."
+      ],
+      "labels": [
+        "科技",
+        "云计算",
+        "AI",
+        "广告",
+        "英伟达相关",
+        "美股"
+      ],
+      "sector": "Internet, cloud and AI / 互联网、云与 AI",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "Alphabet 通过 Google Cloud 和内部 AI 工作负载使用 GPU 与自研 TPU，既是 NVIDIA 数据中心生态客户，也是不完全依赖 NVIDIA 的 AI 平台公司。 / Alphabet uses GPUs and in-house TPUs through Google Cloud and internal AI workloads, making it both an NVIDIA data-center ecosystem customer and an AI platform company with partial in-house alternatives."
+    },
+    {
       "id": "gsat",
       "ticker": "GSAT",
       "name": "Globalstar / 全球星",
@@ -99,6 +282,32 @@
       "sector": "Satellite Communications / 卫星通信",
       "lastUpdated": "2026-06-11T18:45:00+08:00",
       "summary": "Globalstar 提供移动卫星服务、IoT 连接和卫星/频谱资产相关服务，是 Starlink 直连设备与移动卫星服务主题下的上市可比公司。"
+    },
+    {
+      "id": "hpe",
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise / 慧与",
+      "legalName": "Hewlett Packard Enterprise Co",
+      "exchange": "NYSE",
+      "market": "US",
+      "dataPath": "data/companies/hpe.json",
+      "aliases": [
+        "HPE",
+        "Hewlett Packard Enterprise / 慧与",
+        "Hewlett Packard Enterprise Co",
+        "Hewlett Packard Enterprise Co"
+      ],
+      "labels": [
+        "科技",
+        "服务器",
+        "AI基础设施",
+        "企业网络",
+        "英伟达相关",
+        "美股"
+      ],
+      "sector": "Enterprise infrastructure / 企业基础设施",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "HPE 提供服务器、网络、存储和混合云基础设施，并与 NVIDIA 平台共同服务企业 AI/HPC 场景。 / HPE provides servers, networking, storage, and hybrid-cloud infrastructure, and works with NVIDIA platforms in enterprise AI and HPC scenarios."
     },
     {
       "id": "intc",
@@ -146,6 +355,85 @@
       "summary": "Iridium 运营 L-band 低轨卫星通信网络，面向商业、政府、物联网和移动连接市场。相较 SpaceX/Starlink，它是成熟卫星通信运营商的上市样本。"
     },
     {
+      "id": "klac",
+      "ticker": "KLAC",
+      "name": "KLA / 科磊",
+      "legalName": "KLA CORP",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/klac.json",
+      "aliases": [
+        "KLAC",
+        "KLA / 科磊",
+        "KLA CORP",
+        "KLA CORP"
+      ],
+      "labels": [
+        "半导体",
+        "半导体设备",
+        "检测量测",
+        "先进制程",
+        "英伟达相关",
+        "美股"
+      ],
+      "sector": "Semiconductor equipment / 半导体设备",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "KLA 提供检测、量测和制程控制设备，帮助先进晶圆厂提升良率；NVIDIA AI 芯片需求通过先进制程良率和扩产需求间接传导。 / KLA provides inspection, metrology, and process-control tools that help advanced fabs improve yield, giving it indirect exposure to NVIDIA AI chip manufacturing demand."
+    },
+    {
+      "id": "lrcx",
+      "ticker": "LRCX",
+      "name": "Lam Research / 泛林集团",
+      "legalName": "LAM RESEARCH CORP",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/lrcx.json",
+      "aliases": [
+        "LRCX",
+        "Lam Research / 泛林集团",
+        "LAM RESEARCH CORP",
+        "LAM RESEARCH CORP"
+      ],
+      "labels": [
+        "半导体",
+        "半导体设备",
+        "刻蚀",
+        "存储",
+        "AI基础设施",
+        "英伟达相关",
+        "美股"
+      ],
+      "sector": "Semiconductor equipment / 半导体设备",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "泛林集团专注刻蚀、沉积和清洗设备，是先进逻辑、HBM/DRAM 和 NAND 制造链的关键设备公司，NVIDIA AI 需求通过晶圆厂和存储厂扩产传导。 / Lam Research focuses on etch, deposition, and clean tools for advanced logic, HBM/DRAM, and NAND manufacturing, with NVIDIA AI demand transmitted through foundry and memory capex."
+    },
+    {
+      "id": "msft",
+      "ticker": "MSFT",
+      "name": "Microsoft / 微软",
+      "legalName": "MICROSOFT CORP",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/msft.json",
+      "aliases": [
+        "MSFT",
+        "Microsoft / 微软",
+        "MICROSOFT CORP",
+        "MICROSOFT CORP"
+      ],
+      "labels": [
+        "科技",
+        "云计算",
+        "AI",
+        "软件服务",
+        "英伟达相关",
+        "美股"
+      ],
+      "sector": "Cloud, software and AI / 云、软件与 AI",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "微软通过 Azure 和 AI 服务消耗大规模 GPU 基础设施，是 NVIDIA 数据中心 GPU 需求的重要下游客户之一，同时也向企业客户转售 AI 算力和软件服务。 / Microsoft consumes large-scale GPU infrastructure through Azure and AI services, making it an important downstream customer for NVIDIA data-center GPUs while reselling AI compute and software services."
+    },
+    {
       "id": "mu",
       "ticker": "MU",
       "name": "Micron Technology, Inc.",
@@ -165,6 +453,7 @@
         "存储",
         "AI基础设施",
         "数据中心",
+        "英伟达相关",
         "美股"
       ],
       "sector": "Memory and storage semiconductors",
@@ -186,11 +475,38 @@
         "AI",
         "数据中心",
         "GPU",
+        "英伟达相关",
         "美股"
       ],
       "sector": "Accelerated computing and AI infrastructure",
       "lastUpdated": "2026-06-07T16:45:00+08:00",
       "summary": "AI 数据中心平台是收入主轴，关注 Blackwell/Rubin 放量、HBM 与先进封装供给、出口限制和客户集中度。"
+    },
+    {
+      "id": "orcl",
+      "ticker": "ORCL",
+      "name": "Oracle / 甲骨文",
+      "legalName": "ORACLE CORP",
+      "exchange": "NYSE",
+      "market": "US",
+      "dataPath": "data/companies/orcl.json",
+      "aliases": [
+        "ORCL",
+        "Oracle / 甲骨文",
+        "ORACLE CORP",
+        "ORACLE CORP"
+      ],
+      "labels": [
+        "科技",
+        "云计算",
+        "数据库",
+        "AI基础设施",
+        "英伟达相关",
+        "美股"
+      ],
+      "sector": "Enterprise software and cloud / 企业软件与云",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "Oracle 通过 OCI 提供云基础设施、数据库和 AI 训练集群，GPU 云需求使其成为 NVIDIA 数据中心生态的重要下游客户之一。 / Oracle provides cloud infrastructure, databases, and AI training clusters through OCI, making GPU cloud demand an important NVIDIA ecosystem linkage."
     },
     {
       "id": "rklb",
@@ -216,6 +532,32 @@
       "sector": "Aerospace & Defense / 航空航天与国防",
       "lastUpdated": "2026-06-11T18:45:00+08:00",
       "summary": "Rocket Lab 是一家上市航天公司，业务覆盖 Electron 发射服务、Neutron 研发以及卫星/航天器系统。SpaceX 上市后，Rocket Lab 更适合作为发射与空间系统环节的公开可比/竞争样本。"
+    },
+    {
+      "id": "smci",
+      "ticker": "SMCI",
+      "name": "Supermicro / 超微电脑",
+      "legalName": "Super Micro Computer, Inc.",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/smci.json",
+      "aliases": [
+        "SMCI",
+        "Supermicro / 超微电脑",
+        "Super Micro Computer, Inc.",
+        "Super Micro Computer, Inc."
+      ],
+      "labels": [
+        "服务器",
+        "AI基础设施",
+        "数据中心",
+        "液冷",
+        "英伟达相关",
+        "美股"
+      ],
+      "sector": "AI servers / AI 服务器",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "Supermicro 提供 AI/GPU 服务器和机柜级系统，是 NVIDIA GPU 进入数据中心的关键整机与系统集成环节之一。 / Supermicro provides AI/GPU servers and rack-scale systems, making it a key system-integration layer for NVIDIA GPUs entering data centers."
     },
     {
       "id": "spcx",
@@ -246,6 +588,33 @@
       "sector": "Aerospace, satellite communications and AI infrastructure / 航天、卫星通信与 AI 基础设施",
       "lastUpdated": "2026-06-14T12:00:00+08:00",
       "summary": "SpaceX 已在 Nasdaq 以 SPCX 交易。公司业务横跨 Falcon/Starship 发射、Dragon 载人/货运飞船、Starlink 卫星互联网、Starshield/政府航天和新增 AI 基础设施主题；上市后它从 SpaceX IPO 主题锚点变成可直接查询的上市公司。"
+    },
+    {
+      "id": "tsm",
+      "ticker": "TSM",
+      "name": "TSMC / 台积电",
+      "legalName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+      "exchange": "NYSE",
+      "market": "US",
+      "dataPath": "data/companies/tsm.json",
+      "aliases": [
+        "TSM",
+        "TSMC / 台积电",
+        "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+        "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD"
+      ],
+      "labels": [
+        "半导体",
+        "晶圆代工",
+        "先进制程",
+        "先进封装",
+        "AI基础设施",
+        "英伟达相关",
+        "美股"
+      ],
+      "sector": "Semiconductors / 半导体",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "台积电是全球领先的纯晶圆代工厂，处于 NVIDIA AI GPU/加速器制造链的核心上游，关键变量包括先进制程、CoWoS/先进封装产能和高端客户资本开支。 / TSMC is a leading pure-play foundry and a core upstream manufacturing node for NVIDIA AI GPUs and accelerators, with advanced nodes, CoWoS packaging capacity, and high-end customer capex as key variables."
     },
     {
       "id": "vsat",

@@ -1,0 +1,856 @@
+{
+  "schemaVersion": 1,
+  "id": "amzn",
+  "ticker": "AMZN",
+  "exchange": "NASDAQ",
+  "market": "US",
+  "name": "Amazon / 亚马逊",
+  "legalName": "AMAZON COM INC",
+  "cik": "0001018724",
+  "currency": "USD",
+  "sector": "E-commerce, cloud and AI / 电商、云与 AI",
+  "industry": [
+    "E-commerce",
+    "AWS",
+    "AI infrastructure",
+    "Advertising",
+    "电商",
+    "AWS",
+    "AI 基础设施",
+    "广告"
+  ],
+  "homepage": "https://www.amazon.com/",
+  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "summary": "亚马逊通过 AWS 为客户提供云计算、AI 和 GPU 实例，是 NVIDIA 数据中心 GPU 的重要下游需求方之一，同时也有自研加速器作为补充。 / Amazon provides cloud, AI, and GPU instances through AWS, making it an important downstream source of NVIDIA data-center GPU demand while also using in-house accelerators.",
+  "summaryZh": "亚马逊通过 AWS 为客户提供云计算、AI 和 GPU 实例，是 NVIDIA 数据中心 GPU 的重要下游需求方之一，同时也有自研加速器作为补充。",
+  "summaryEn": "Amazon provides cloud, AI, and GPU instances through AWS, making it an important downstream source of NVIDIA data-center GPU demand while also using in-house accelerators.",
+  "aliases": [
+    "AMZN",
+    "Amazon / 亚马逊",
+    "AMAZON COM INC",
+    "AMAZON COM INC"
+  ],
+  "labels": [
+    "科技",
+    "云计算",
+    "AI",
+    "电商",
+    "英伟达相关",
+    "美股"
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "description": "公司经营线上零售、第三方商家服务、订阅、广告、物流和 AWS 云服务。 / The company operates online retail, third-party seller services, subscriptions, advertising, logistics, and AWS cloud services.",
+    "descriptionZh": "公司经营线上零售、第三方商家服务、订阅、广告、物流和 AWS 云服务。",
+    "descriptionEn": "The company operates online retail, third-party seller services, subscriptions, advertising, logistics, and AWS cloud services.",
+    "revenueModel": [
+      "线上商店 / online stores",
+      "第三方卖家服务 / third-party seller services",
+      "AWS / AWS",
+      "广告 / advertising"
+    ],
+    "segments": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 716.924,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "amzn-sec-companyfacts"
+        ]
+      }
+    ],
+    "thesis": "NVIDIA 相关性主要来自 AWS AI/GPU 云服务，客户对训练和推理算力的需求会影响 GPU 采购和数据中心投资。 / The NVIDIA linkage mainly comes from AWS AI/GPU cloud services, where customer demand for training and inference compute affects GPU purchases and data-center investment.",
+    "thesisZh": "NVIDIA 相关性主要来自 AWS AI/GPU 云服务，客户对训练和推理算力的需求会影响 GPU 采购和数据中心投资。",
+    "thesisEn": "The NVIDIA linkage mainly comes from AWS AI/GPU cloud services, where customer demand for training and inference compute affects GPU purchases and data-center investment.",
+    "riskNotes": [
+      "AWS 增速、资本开支和自研芯片替代路径会影响 NVIDIA 暴露。 / AWS growth, capex, and in-house chip substitution affect NVIDIA exposure.",
+      "零售利润率、物流成本和监管仍会影响整体业绩。 / Retail margins, logistics costs, and regulation still affect overall results."
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-14T12:00:00+08:00",
+    "thesis": "NVIDIA 相关性主要来自 AWS AI/GPU 云服务，客户对训练和推理算力的需求会影响 GPU 采购和数据中心投资。 / The NVIDIA linkage mainly comes from AWS AI/GPU cloud services, where customer demand for training and inference compute affects GPU purchases and data-center investment.",
+    "thesisZh": "NVIDIA 相关性主要来自 AWS AI/GPU 云服务，客户对训练和推理算力的需求会影响 GPU 采购和数据中心投资。",
+    "thesisEn": "The NVIDIA linkage mainly comes from AWS AI/GPU cloud services, where customer demand for training and inference compute affects GPU purchases and data-center investment.",
+    "tiers": [
+      {
+        "level": 0,
+        "title": "Target company",
+        "titleZh": "目标公司",
+        "titleEn": "Target company",
+        "companies": [
+          "Amazon / 亚马逊"
+        ],
+        "entities": [
+          {
+            "name": "Amazon / 亚马逊",
+            "nameZh": "Amazon / 亚马逊",
+            "nameEn": "AMAZON COM INC",
+            "relationship": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipZh": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipEn": "Target company; this page maps its NVIDIA-related supply-chain position.",
+            "productsServices": [
+              "线上商店 / online stores",
+              "第三方卖家服务 / third-party seller services",
+              "AWS / AWS",
+              "广告 / advertising"
+            ],
+            "productsServicesZh": [
+              "线上商店 / online stores",
+              "第三方卖家服务 / third-party seller services",
+              "AWS / AWS",
+              "广告 / advertising"
+            ],
+            "productsServicesEn": [
+              "线上商店 / online stores",
+              "第三方卖家服务 / third-party seller services",
+              "AWS / AWS",
+              "广告 / advertising"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "AMZN",
+              "exchange": "NASDAQ",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/amzn"
+            },
+            "confidence": "high",
+            "sourceIds": [
+              "amzn-homepage",
+              "amzn-nasdaq-quote"
+            ],
+            "companyUrl": "https://www.amazon.com/"
+          }
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "GPU、HBM 与高端 PCB/基板",
+          "电力、铜和散热材料",
+          "光模块和网络设备材料"
+        ],
+        "materialsZh": [
+          "GPU、HBM 与高端 PCB/基板",
+          "电力、铜和散热材料",
+          "光模块和网络设备材料"
+        ],
+        "materialsEn": [
+          "GPUs, HBM, and high-end PCBs/substrates",
+          "Power, copper, and thermal materials",
+          "Optical-module and networking materials"
+        ],
+        "notes": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesZh": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesEn": "Target company itself; listed ticker and quote link reviewed.",
+        "confidence": "high",
+        "sourceIds": [
+          "amzn-homepage",
+          "amzn-nasdaq-quote"
+        ]
+      },
+      {
+        "level": 1,
+        "title": "Key upstream inputs",
+        "titleZh": "关键上游投入",
+        "titleEn": "Key upstream inputs",
+        "companies": [
+          "NVIDIA Corporation / 英伟达",
+          "Data-center power and cooling suppliers / 数据中心电力与散热供应商"
+        ],
+        "entities": [
+          {
+            "name": "NVIDIA Corporation / 英伟达",
+            "nameZh": "NVIDIA Corporation / 英伟达",
+            "nameEn": "NVIDIA Corporation",
+            "relationship": "供应 GPU、网络和软件平台，是该公司 AI 服务器或 GPU 云服务的重要上游。",
+            "relationshipZh": "供应 GPU、网络和软件平台，是该公司 AI 服务器或 GPU 云服务的重要上游。",
+            "relationshipEn": "Supplies GPUs, networking, and software platforms that are important upstream inputs for the company's AI servers or GPU cloud services.",
+            "productsServices": [
+              "GPU 加速器",
+              "网络与系统平台",
+              "AI 软件栈"
+            ],
+            "productsServicesZh": [
+              "GPU 加速器",
+              "网络与系统平台",
+              "AI 软件栈"
+            ],
+            "productsServicesEn": [
+              "GPU accelerators",
+              "networking and system platforms",
+              "AI software stack"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "NVDA",
+              "exchange": "NASDAQ",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/nvda"
+            },
+            "confidence": "high",
+            "sourceIds": [
+              "nvidia-10k-2026",
+              "nvidia-rtx-pro-systems-2025"
+            ],
+            "companyUrl": "https://www.nvidia.com/"
+          },
+          {
+            "name": "Data-center power and cooling suppliers / 数据中心电力与散热供应商",
+            "nameZh": "数据中心电力与散热供应商",
+            "nameEn": "Data-center power and cooling suppliers",
+            "relationship": "为 AI 集群提供电力设备、液冷、机柜和热管理系统。",
+            "relationshipZh": "为 AI 集群提供电力设备、液冷、机柜和热管理系统。",
+            "relationshipEn": "Provide power equipment, liquid cooling, racks, and thermal-management systems for AI clusters.",
+            "productsServices": [
+              "电力设备",
+              "液冷系统",
+              "机柜与配电"
+            ],
+            "productsServicesZh": [
+              "电力设备",
+              "液冷系统",
+              "机柜与配电"
+            ],
+            "productsServicesEn": [
+              "power equipment",
+              "liquid cooling",
+              "racks and power distribution"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "多为项目供应商，上市状态需逐项确认。",
+              "noteZh": "多为项目供应商，上市状态需逐项确认。",
+              "noteEn": "Project suppliers vary and listing status requires case-by-case review."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "amzn-homepage"
+            ]
+          }
+        ],
+        "geography": [
+          "US",
+          "Europe",
+          "Asia"
+        ],
+        "materials": [
+          "GPU、HBM 与高端 PCB/基板",
+          "电力、铜和散热材料",
+          "光模块和网络设备材料"
+        ],
+        "materialsZh": [
+          "GPU、HBM 与高端 PCB/基板",
+          "电力、铜和散热材料",
+          "光模块和网络设备材料"
+        ],
+        "materialsEn": [
+          "GPUs, HBM, and high-end PCBs/substrates",
+          "Power, copper, and thermal materials",
+          "Optical-module and networking materials"
+        ],
+        "notes": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesZh": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesEn": "Lists the most important upstream inputs for NVIDIA-related business; exact purchase shares require further manual work.",
+        "confidence": "medium",
+        "sourceIds": [
+          "amzn-homepage",
+          "nvidia-10k-2026"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "GPU、HBM 与高端 PCB/基板",
+        "nameZh": "GPU、HBM 与高端 PCB/基板",
+        "nameEn": "GPUs, HBM, and high-end PCBs/substrates",
+        "usedIn": "用于 AI 服务器、GPU 云实例和高速互连。",
+        "usedInZh": "用于 AI 服务器、GPU 云实例和高速互连。",
+        "usedInEn": "Used in AI servers, GPU cloud instances, and high-speed interconnects.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "电力、铜和散热材料",
+        "nameZh": "电力、铜和散热材料",
+        "nameEn": "Power, copper, and thermal materials",
+        "usedIn": "用于数据中心供电、配电、线缆、液冷和热管理。",
+        "usedInZh": "用于数据中心供电、配电、线缆、液冷和热管理。",
+        "usedInEn": "Used in data-center power, distribution, cabling, liquid cooling, and thermal management.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "光模块和网络设备材料",
+        "nameZh": "光模块和网络设备材料",
+        "nameEn": "Optical-module and networking materials",
+        "usedIn": "用于 GPU 集群互连、数据中心交换和跨机柜通信。",
+        "usedInZh": "用于 GPU 集群互连、数据中心交换和跨机柜通信。",
+        "usedInEn": "Used in GPU-cluster interconnects, data-center switching, and rack-to-rack communication.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      }
+    ],
+    "downstream": {
+      "updatedAt": "2026-06-14T12:00:00+08:00",
+      "thesis": "NVIDIA 相关性主要来自 AWS AI/GPU 云服务，客户对训练和推理算力的需求会影响 GPU 采购和数据中心投资。 / The NVIDIA linkage mainly comes from AWS AI/GPU cloud services, where customer demand for training and inference compute affects GPU purchases and data-center investment.",
+      "thesisZh": "NVIDIA 相关性主要来自 AWS AI/GPU 云服务，客户对训练和推理算力的需求会影响 GPU 采购和数据中心投资。",
+      "thesisEn": "The NVIDIA linkage mainly comes from AWS AI/GPU cloud services, where customer demand for training and inference compute affects GPU purchases and data-center investment.",
+      "tiers": [
+        {
+          "level": 1,
+          "title": "NVIDIA-related demand path",
+          "titleZh": "英伟达相关需求路径",
+          "titleEn": "NVIDIA-related demand path",
+          "entities": [
+            {
+              "name": "Enterprise and AI customers / 企业与 AI 客户",
+              "nameZh": "企业与 AI 客户",
+              "nameEn": "Enterprise and AI customers",
+              "relationship": "购买 AI 服务器、GPU 云或加速计算服务，将 NVIDIA GPU 能力转化为训练、推理和企业应用。",
+              "relationshipZh": "购买 AI 服务器、GPU 云或加速计算服务，将 NVIDIA GPU 能力转化为训练、推理和企业应用。",
+              "relationshipEn": "Buy AI servers, GPU cloud, or accelerated-computing services, converting NVIDIA GPU capacity into training, inference, and enterprise applications.",
+              "productsServices": [
+                "AI 训练",
+                "AI 推理",
+                "企业应用"
+              ],
+              "productsServicesZh": [
+                "AI 训练",
+                "AI 推理",
+                "企业应用"
+              ],
+              "productsServicesEn": [
+                "AI training",
+                "AI inference",
+                "enterprise applications"
+              ],
+              "listing": {
+                "status": "unknown",
+                "note": "客户群体分散，上市状态需按客户名单继续拆解。",
+                "noteZh": "客户群体分散，上市状态需按客户名单继续拆解。",
+                "noteEn": "Customer base is broad; listing status requires customer-by-customer mapping."
+              },
+              "confidence": "medium",
+              "sourceIds": [
+                "amzn-homepage",
+                "nvidia-rtx-pro-systems-2025"
+              ],
+              "customerRole": "终端客户 / 算力使用方",
+              "customerRoleZh": "终端客户 / 算力使用方",
+              "customerRoleEn": "End customer / compute user"
+            }
+          ],
+          "notes": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesZh": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesEn": "This layer explains how the target company functions as NVIDIA's upstream supplier, partner, customer, or indirect demand beneficiary.",
+          "confidence": "medium",
+          "sourceIds": [
+            "amzn-homepage",
+            "nvidia-10k-2026"
+          ]
+        }
+      ]
+    }
+  },
+  "financials": {
+    "latestPeriod": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "latestPeriodZh": "使用 SEC companyfacts 中的最新可核对候选；年度基准来自最近审计年报。",
+    "latestPeriodEn": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "highlights": [
+      {
+        "label": "Q1 FY2026 revenue",
+        "labelZh": "2026 财年第 1 财季 收入",
+        "labelEn": "Q1 FY2026 revenue",
+        "value": 181.519,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "amzn-sec-companyfacts"
+        ],
+        "change": "+16.6% vs prior comparable period",
+        "changeZh": "较上一可比期间 +16.6%",
+        "changeEn": "+16.6% vs prior comparable period"
+      },
+      {
+        "label": "Q1 FY2026 net income / loss",
+        "labelZh": "2026 财年第 1 财季 净利润 / 净亏损",
+        "labelEn": "Q1 FY2026 net income / loss",
+        "value": 30.255,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "amzn-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q1 FY2026 total assets",
+        "labelZh": "2026 财年第 1 财季 总资产",
+        "labelEn": "Q1 FY2026 total assets",
+        "value": 916.63,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "amzn-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q1 FY2026 operating cash flow",
+        "labelZh": "2026 财年第 1 财季 经营现金流",
+        "labelEn": "Q1 FY2026 operating cash flow",
+        "value": 26.032,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "amzn-sec-companyfacts"
+        ]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 716.924,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "amzn-sec-companyfacts"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "id": "annual-revenue",
+        "label": "Annual revenue",
+        "labelZh": "年度收入",
+        "labelEn": "Annual revenue",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "amzn-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 574.785,
+            "sourceIds": [
+              "amzn-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 637.959,
+            "sourceIds": [
+              "amzn-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 716.924,
+            "sourceIds": [
+              "amzn-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-net-income",
+        "label": "Annual net income / loss",
+        "labelZh": "年度净利润 / 净亏损",
+        "labelEn": "Annual net income / loss",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "amzn-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 30.425,
+            "sourceIds": [
+              "amzn-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 59.248,
+            "sourceIds": [
+              "amzn-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 77.67,
+            "sourceIds": [
+              "amzn-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-assets",
+        "label": "Annual total assets",
+        "labelZh": "年度总资产",
+        "labelEn": "Annual total assets",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "amzn-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 527.854,
+            "sourceIds": [
+              "amzn-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 624.894,
+            "sourceIds": [
+              "amzn-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 818.042,
+            "sourceIds": [
+              "amzn-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenueMixHistory": [
+      {
+        "period": "FY2023",
+        "periodZh": "2023 财年",
+        "periodEn": "FY2023",
+        "totalRevenue": 574.785,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "amzn-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 574.785,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "amzn-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2024",
+        "periodZh": "2024 财年",
+        "periodEn": "FY2024",
+        "totalRevenue": 637.959,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "amzn-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 637.959,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "amzn-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "totalRevenue": 716.924,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "amzn-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 716.924,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "amzn-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-06-12",
+      "title": "Recent SEC filing: 8-K",
+      "titleZh": "最新 SEC 文件：8-K",
+      "titleEn": "Recent SEC filing: 8-K",
+      "category": "SEC filing",
+      "categoryZh": "SEC 文件",
+      "categoryEn": "SEC filing",
+      "summary": "SEC submissions show a 8-K filed on 2026-06-12; report date 2026-06-12.",
+      "summaryZh": "SEC submissions 显示公司于 2026-06-12 提交 8-K；报告期为 2026-06-12。",
+      "summaryEn": "SEC submissions show a 8-K filed on 2026-06-12; report date 2026-06-12.",
+      "impact": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "impactZh": "作为本批次最新公开文件检查点；每日定时刷新仍未启用。",
+      "impactEn": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "sourceIds": [
+        "amzn-sec-submissions"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "8-K",
+      "filedAt": "2026-06-12",
+      "reportDate": "2026-06-12",
+      "title": "8-K filed 2026-06-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926073562/tm2613616d5_8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-06-10",
+      "reportDate": "2026-06-08",
+      "title": "8-K filed 2026-06-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926072140/tm2613616d4_8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-22",
+      "reportDate": "2026-05-20",
+      "title": "8-K filed 2026-05-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926065717/tm2614288d1_8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-04-30",
+      "reportDate": "2026-03-31",
+      "title": "10-Q filed 2026-04-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/amzn-20260331.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-29",
+      "reportDate": "2026-04-29",
+      "title": "8-K filed 2026-04-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000012/amzn-20260429.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-14",
+      "reportDate": "2026-04-14",
+      "title": "8-K filed 2026-04-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926042880/tm2611746d1_8k.htm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "amzn-homepage",
+      "title": "Amazon / 亚马逊 company website",
+      "titleZh": "Amazon / 亚马逊 公司官网",
+      "titleEn": "Amazon / 亚马逊 company website",
+      "publisher": "Amazon / 亚马逊",
+      "url": "https://www.amazon.com/",
+      "accessedAt": "2026-06-14",
+      "type": "company"
+    },
+    {
+      "id": "amzn-sec-submissions",
+      "title": "AMZN SEC submissions",
+      "titleZh": "AMZN SEC submissions 数据",
+      "titleEn": "AMZN SEC submissions",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/submissions/CIK0001018724.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec"
+    },
+    {
+      "id": "amzn-sec-companyfacts",
+      "title": "AMZN SEC companyfacts XBRL data",
+      "titleZh": "AMZN SEC companyfacts XBRL 数据",
+      "titleEn": "AMZN SEC companyfacts XBRL data",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec"
+    },
+    {
+      "id": "amzn-nasdaq-quote",
+      "title": "AMZN Nasdaq quote page",
+      "titleZh": "AMZN Nasdaq 行情页面",
+      "titleEn": "AMZN Nasdaq quote page",
+      "publisher": "Nasdaq",
+      "url": "https://www.nasdaq.com/market-activity/stocks/amzn",
+      "accessedAt": "2026-06-14",
+      "type": "exchange"
+    },
+    {
+      "id": "nvidia-10k-2026",
+      "title": "NVIDIA FY2026 Form 10-K",
+      "titleZh": "NVIDIA 2026 财年 10-K 年报",
+      "titleEn": "NVIDIA FY2026 Form 10-K",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "accessedAt": "2026-06-14",
+      "type": "sec"
+    },
+    {
+      "id": "nvidia-rtx-pro-systems-2025",
+      "title": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "titleZh": "NVIDIA RTX PRO Blackwell 服务器进入企业系统生态",
+      "titleEn": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "publisher": "NVIDIA Investor Relations",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-RTX-PRO-Servers-With-Blackwell-Coming-to-Worlds-Most-Popular-Enterprise-Systems/",
+      "accessedAt": "2026-06-14",
+      "type": "company"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0001018724",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K",
+        "20-F",
+        "6-K"
+      ]
+    },
+    "newsFeeds": [
+      {
+        "url": "https://www.amazon.com/",
+        "publisher": "Amazon / 亚马逊",
+        "sourceType": "company"
+      }
+    ]
+  }
+}

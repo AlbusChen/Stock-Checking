@@ -1,0 +1,848 @@
+{
+  "schemaVersion": 1,
+  "id": "asml",
+  "ticker": "ASML",
+  "exchange": "NASDAQ",
+  "market": "US",
+  "name": "ASML Holding / 阿斯麦",
+  "legalName": "ASML HOLDING NV",
+  "cik": "0000937966",
+  "currency": "EUR",
+  "sector": "Semiconductor equipment / 半导体设备",
+  "industry": [
+    "Lithography systems",
+    "EUV",
+    "DUV",
+    "光刻机",
+    "EUV",
+    "DUV"
+  ],
+  "homepage": "https://www.asml.com/en",
+  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "summary": "ASML 是先进光刻设备的关键供应商，虽通常不直接向 NVIDIA 销售芯片，但其 EUV/DUV 设备是台积电、三星等制造 NVIDIA AI 芯片所需先进制程的基础。 / ASML is a critical lithography supplier. It usually does not sell chips to NVIDIA directly, but its EUV/DUV systems enable the advanced nodes used by foundries that manufacture NVIDIA AI chips.",
+  "summaryZh": "ASML 是先进光刻设备的关键供应商，虽通常不直接向 NVIDIA 销售芯片，但其 EUV/DUV 设备是台积电、三星等制造 NVIDIA AI 芯片所需先进制程的基础。",
+  "summaryEn": "ASML is a critical lithography supplier. It usually does not sell chips to NVIDIA directly, but its EUV/DUV systems enable the advanced nodes used by foundries that manufacture NVIDIA AI chips.",
+  "aliases": [
+    "ASML",
+    "ASML Holding / 阿斯麦",
+    "ASML HOLDING NV",
+    "ASML HOLDING NV"
+  ],
+  "labels": [
+    "半导体",
+    "半导体设备",
+    "光刻机",
+    "EUV",
+    "AI基础设施",
+    "英伟达相关",
+    "美股"
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "description": "ASML 设计和销售光刻系统、计量与计算光刻解决方案，是先进逻辑和存储芯片制造的关键设备公司。 / ASML designs and sells lithography systems, metrology, and computational lithography solutions that are critical to advanced logic and memory manufacturing.",
+    "descriptionZh": "ASML 设计和销售光刻系统、计量与计算光刻解决方案，是先进逻辑和存储芯片制造的关键设备公司。",
+    "descriptionEn": "ASML designs and sells lithography systems, metrology, and computational lithography solutions that are critical to advanced logic and memory manufacturing.",
+    "revenueModel": [
+      "EUV 系统 / EUV systems",
+      "DUV 系统 / DUV systems",
+      "服务和升级 / service and upgrades"
+    ],
+    "segments": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 32.667,
+        "unit": "EUR billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "asml-sec-companyfacts"
+        ]
+      }
+    ],
+    "thesis": "ASML 与 NVIDIA 的联系是间接上游：AI 加速器需求推动先进制程扩产，而先进制程高度依赖 EUV/DUV 光刻设备。 / ASML's NVIDIA linkage is indirect upstream exposure: AI accelerator demand drives leading-node expansion, and leading nodes depend heavily on EUV/DUV lithography tools.",
+    "thesisZh": "ASML 与 NVIDIA 的联系是间接上游：AI 加速器需求推动先进制程扩产，而先进制程高度依赖 EUV/DUV 光刻设备。",
+    "thesisEn": "ASML's NVIDIA linkage is indirect upstream exposure: AI accelerator demand drives leading-node expansion, and leading nodes depend heavily on EUV/DUV lithography tools.",
+    "riskNotes": [
+      "出口管制和客户资本开支波动会影响设备订单节奏。 / Export controls and customer capex cycles can affect tool orders.",
+      "供应链依赖精密光学、激光、机电和特种材料。 / Supply depends on precision optics, lasers, mechatronics, and specialty materials."
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-14T12:00:00+08:00",
+    "thesis": "ASML 与 NVIDIA 的联系是间接上游：AI 加速器需求推动先进制程扩产，而先进制程高度依赖 EUV/DUV 光刻设备。 / ASML's NVIDIA linkage is indirect upstream exposure: AI accelerator demand drives leading-node expansion, and leading nodes depend heavily on EUV/DUV lithography tools.",
+    "thesisZh": "ASML 与 NVIDIA 的联系是间接上游：AI 加速器需求推动先进制程扩产，而先进制程高度依赖 EUV/DUV 光刻设备。",
+    "thesisEn": "ASML's NVIDIA linkage is indirect upstream exposure: AI accelerator demand drives leading-node expansion, and leading nodes depend heavily on EUV/DUV lithography tools.",
+    "tiers": [
+      {
+        "level": 0,
+        "title": "Target company",
+        "titleZh": "目标公司",
+        "titleEn": "Target company",
+        "companies": [
+          "ASML Holding / 阿斯麦"
+        ],
+        "entities": [
+          {
+            "name": "ASML Holding / 阿斯麦",
+            "nameZh": "ASML Holding / 阿斯麦",
+            "nameEn": "ASML HOLDING NV",
+            "relationship": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipZh": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipEn": "Target company; this page maps its NVIDIA-related supply-chain position.",
+            "productsServices": [
+              "EUV 系统 / EUV systems",
+              "DUV 系统 / DUV systems",
+              "服务和升级 / service and upgrades"
+            ],
+            "productsServicesZh": [
+              "EUV 系统 / EUV systems",
+              "DUV 系统 / DUV systems",
+              "服务和升级 / service and upgrades"
+            ],
+            "productsServicesEn": [
+              "EUV 系统 / EUV systems",
+              "DUV 系统 / DUV systems",
+              "服务和升级 / service and upgrades"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "ASML",
+              "exchange": "NASDAQ",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/asml"
+            },
+            "confidence": "high",
+            "sourceIds": [
+              "asml-homepage",
+              "asml-nasdaq-quote"
+            ],
+            "companyUrl": "https://www.asml.com/en"
+          }
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "硅晶圆",
+          "高纯特种气体与化学品",
+          "铜、铝、钨、钴等金属材料"
+        ],
+        "materialsZh": [
+          "硅晶圆",
+          "高纯特种气体与化学品",
+          "铜、铝、钨、钴等金属材料"
+        ],
+        "materialsEn": [
+          "Silicon wafers",
+          "High-purity specialty gases and chemicals",
+          "Copper, aluminum, tungsten, cobalt and other metals"
+        ],
+        "notes": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesZh": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesEn": "Target company itself; listed ticker and quote link reviewed.",
+        "confidence": "high",
+        "sourceIds": [
+          "asml-homepage",
+          "asml-nasdaq-quote"
+        ]
+      },
+      {
+        "level": 1,
+        "title": "Key upstream inputs",
+        "titleZh": "关键上游投入",
+        "titleEn": "Key upstream inputs",
+        "companies": [
+          "Precision components and specialty materials / 精密部件与特种材料"
+        ],
+        "entities": [
+          {
+            "name": "Precision components and specialty materials / 精密部件与特种材料",
+            "nameZh": "精密部件与特种材料供应商",
+            "nameEn": "Precision component and specialty material suppliers",
+            "relationship": "向半导体设备公司供应光学、真空、机电、气体和高纯材料。",
+            "relationshipZh": "向半导体设备公司供应光学、真空、机电、气体和高纯材料。",
+            "relationshipEn": "Supply optics, vacuum, mechatronics, gases, and high-purity materials to semiconductor equipment makers.",
+            "productsServices": [
+              "精密部件",
+              "真空系统",
+              "特种材料"
+            ],
+            "productsServicesZh": [
+              "精密部件",
+              "真空系统",
+              "特种材料"
+            ],
+            "productsServicesEn": [
+              "precision components",
+              "vacuum systems",
+              "specialty materials"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "多为私营或多层供应商，需进一步逐项追踪。",
+              "noteZh": "多为私营或多层供应商，需进一步逐项追踪。",
+              "noteEn": "Often private or multi-tier suppliers; further supplier-by-supplier tracing is required."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "asml-homepage"
+            ]
+          }
+        ],
+        "geography": [
+          "US",
+          "Europe",
+          "Asia"
+        ],
+        "materials": [
+          "硅晶圆",
+          "高纯特种气体与化学品",
+          "铜、铝、钨、钴等金属材料"
+        ],
+        "materialsZh": [
+          "硅晶圆",
+          "高纯特种气体与化学品",
+          "铜、铝、钨、钴等金属材料"
+        ],
+        "materialsEn": [
+          "Silicon wafers",
+          "High-purity specialty gases and chemicals",
+          "Copper, aluminum, tungsten, cobalt and other metals"
+        ],
+        "notes": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesZh": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesEn": "Lists the most important upstream inputs for NVIDIA-related business; exact purchase shares require further manual work.",
+        "confidence": "medium",
+        "sourceIds": [
+          "asml-homepage",
+          "nvidia-10k-2026"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "硅晶圆",
+        "nameZh": "硅晶圆",
+        "nameEn": "Silicon wafers",
+        "usedIn": "用于晶圆制造、设备验证或封装测试。",
+        "usedInZh": "用于晶圆制造、设备验证或封装测试。",
+        "usedInEn": "Used in wafer manufacturing, tool qualification, or packaging and test.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "高纯特种气体与化学品",
+        "nameZh": "高纯特种气体与化学品",
+        "nameEn": "High-purity specialty gases and chemicals",
+        "usedIn": "用于光刻、沉积、刻蚀、清洗和封装流程。",
+        "usedInZh": "用于光刻、沉积、刻蚀、清洗和封装流程。",
+        "usedInEn": "Used in lithography, deposition, etch, clean, and packaging processes.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "铜、铝、钨、钴等金属材料",
+        "nameZh": "铜、铝、钨、钴等金属材料",
+        "nameEn": "Copper, aluminum, tungsten, cobalt and other metals",
+        "usedIn": "用于互连、沉积、封装和设备部件。",
+        "usedInZh": "用于互连、沉积、封装和设备部件。",
+        "usedInEn": "Used in interconnects, deposition, packaging, and tool components.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      }
+    ],
+    "downstream": {
+      "updatedAt": "2026-06-14T12:00:00+08:00",
+      "thesis": "ASML 与 NVIDIA 的联系是间接上游：AI 加速器需求推动先进制程扩产，而先进制程高度依赖 EUV/DUV 光刻设备。 / ASML's NVIDIA linkage is indirect upstream exposure: AI accelerator demand drives leading-node expansion, and leading nodes depend heavily on EUV/DUV lithography tools.",
+      "thesisZh": "ASML 与 NVIDIA 的联系是间接上游：AI 加速器需求推动先进制程扩产，而先进制程高度依赖 EUV/DUV 光刻设备。",
+      "thesisEn": "ASML's NVIDIA linkage is indirect upstream exposure: AI accelerator demand drives leading-node expansion, and leading nodes depend heavily on EUV/DUV lithography tools.",
+      "tiers": [
+        {
+          "level": 1,
+          "title": "NVIDIA-related demand path",
+          "titleZh": "英伟达相关需求路径",
+          "titleEn": "NVIDIA-related demand path",
+          "entities": [
+            {
+              "name": "TSMC / 台积电",
+              "nameZh": "TSMC / 台积电",
+              "nameEn": "Taiwan Semiconductor Manufacturing Company Limited",
+              "relationship": "先进晶圆厂客户；其先进制程扩产是设备需求的重要来源。",
+              "relationshipZh": "先进晶圆厂客户；其先进制程扩产是设备需求的重要来源。",
+              "relationshipEn": "Advanced foundry customer; its leading-node expansion is an important source of equipment demand.",
+              "productsServices": [
+                "晶圆制造设备需求",
+                "先进制程扩产"
+              ],
+              "productsServicesZh": [
+                "晶圆制造设备需求",
+                "先进制程扩产"
+              ],
+              "productsServicesEn": [
+                "wafer-fab equipment demand",
+                "leading-node expansion"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "TSM",
+                "exchange": "NYSE",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/tsm"
+              },
+              "confidence": "medium",
+              "sourceIds": [
+                "asml-homepage",
+                "nvidia-10k-2026"
+              ],
+              "companyUrl": "https://www.tsmc.com/english",
+              "customerRole": "晶圆厂客户 / 设备需求方",
+              "customerRoleZh": "晶圆厂客户 / 设备需求方",
+              "customerRoleEn": "Foundry customer / equipment-demand source"
+            },
+            {
+              "name": "NVIDIA Corporation / 英伟达",
+              "nameZh": "NVIDIA Corporation / 英伟达",
+              "nameEn": "NVIDIA Corporation",
+              "relationship": "不是典型直接客户；NVIDIA AI 芯片需求通过台积电、存储厂和先进封装投资间接拉动设备需求。",
+              "relationshipZh": "不是典型直接客户；NVIDIA AI 芯片需求通过台积电、存储厂和先进封装投资间接拉动设备需求。",
+              "relationshipEn": "Not typically a direct customer; NVIDIA AI-chip demand indirectly drives equipment demand through foundries, memory makers, and advanced-packaging investment.",
+              "productsServices": [
+                "间接 AI 需求",
+                "先进制程与 HBM 扩产"
+              ],
+              "productsServicesZh": [
+                "间接 AI 需求",
+                "先进制程与 HBM 扩产"
+              ],
+              "productsServicesEn": [
+                "indirect AI demand",
+                "advanced-node and HBM expansion"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "NVDA",
+                "exchange": "NASDAQ",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/nvda"
+              },
+              "confidence": "medium",
+              "sourceIds": [
+                "nvidia-10k-2026"
+              ],
+              "companyUrl": "https://www.nvidia.com/",
+              "customerRole": "间接需求驱动方",
+              "customerRoleZh": "间接需求驱动方",
+              "customerRoleEn": "Indirect demand driver"
+            }
+          ],
+          "notes": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesZh": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesEn": "This layer explains how the target company functions as NVIDIA's upstream supplier, partner, customer, or indirect demand beneficiary.",
+          "confidence": "medium",
+          "sourceIds": [
+            "asml-homepage",
+            "nvidia-10k-2026"
+          ]
+        }
+      ]
+    }
+  },
+  "financials": {
+    "latestPeriod": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "latestPeriodZh": "使用 SEC companyfacts 中的最新可核对候选；年度基准来自最近审计年报。",
+    "latestPeriodEn": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "highlights": [
+      {
+        "label": "FY2025 revenue",
+        "labelZh": "2025 财年 收入",
+        "labelEn": "FY2025 revenue",
+        "value": 32.667,
+        "unit": "EUR billions",
+        "period": "Year ended 2025-12-31",
+        "periodZh": "截至 2025-12-31 的年度",
+        "periodEn": "Year ended 2025-12-31",
+        "sourceIds": [
+          "asml-sec-companyfacts"
+        ],
+        "change": "+15.6% vs prior comparable period",
+        "changeZh": "较上一可比期间 +15.6%",
+        "changeEn": "+15.6% vs prior comparable period"
+      },
+      {
+        "label": "FY2025 net income / loss",
+        "labelZh": "2025 财年 净利润 / 净亏损",
+        "labelEn": "FY2025 net income / loss",
+        "value": 9.609,
+        "unit": "EUR billions",
+        "period": "Year ended 2025-12-31",
+        "periodZh": "截至 2025-12-31 的年度",
+        "periodEn": "Year ended 2025-12-31",
+        "sourceIds": [
+          "asml-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "FY2025 total assets",
+        "labelZh": "2025 财年 总资产",
+        "labelEn": "FY2025 total assets",
+        "value": 50.567,
+        "unit": "EUR billions",
+        "period": "Year ended 2025-12-31",
+        "periodZh": "截至 2025-12-31 的年度",
+        "periodEn": "Year ended 2025-12-31",
+        "sourceIds": [
+          "asml-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "FY2025 operating cash flow",
+        "labelZh": "2025 财年 经营现金流",
+        "labelEn": "FY2025 operating cash flow",
+        "value": 12.659,
+        "unit": "EUR billions",
+        "period": "Year ended 2025-12-31",
+        "periodZh": "截至 2025-12-31 的年度",
+        "periodEn": "Year ended 2025-12-31",
+        "sourceIds": [
+          "asml-sec-companyfacts"
+        ]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 32.667,
+        "unit": "EUR billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "asml-sec-companyfacts"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "id": "annual-revenue",
+        "label": "Annual revenue",
+        "labelZh": "年度收入",
+        "labelEn": "Annual revenue",
+        "unit": "EUR billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "asml-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 27.558,
+            "sourceIds": [
+              "asml-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 28.263,
+            "sourceIds": [
+              "asml-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 32.667,
+            "sourceIds": [
+              "asml-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-net-income",
+        "label": "Annual net income / loss",
+        "labelZh": "年度净利润 / 净亏损",
+        "labelEn": "Annual net income / loss",
+        "unit": "EUR billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "asml-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 7.839,
+            "sourceIds": [
+              "asml-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 7.572,
+            "sourceIds": [
+              "asml-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 9.609,
+            "sourceIds": [
+              "asml-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-assets",
+        "label": "Annual total assets",
+        "labelZh": "年度总资产",
+        "labelEn": "Annual total assets",
+        "unit": "EUR billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "asml-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 39.958,
+            "sourceIds": [
+              "asml-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 48.59,
+            "sourceIds": [
+              "asml-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 50.567,
+            "sourceIds": [
+              "asml-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenueMixHistory": [
+      {
+        "period": "FY2023",
+        "periodZh": "2023 财年",
+        "periodEn": "FY2023",
+        "totalRevenue": 27.558,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "asml-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 27.558,
+            "unit": "EUR billions",
+            "share": 100,
+            "sourceIds": [
+              "asml-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2024",
+        "periodZh": "2024 财年",
+        "periodEn": "FY2024",
+        "totalRevenue": 28.263,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "asml-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 28.263,
+            "unit": "EUR billions",
+            "share": 100,
+            "sourceIds": [
+              "asml-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "totalRevenue": 32.667,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "asml-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 32.667,
+            "unit": "EUR billions",
+            "share": 100,
+            "sourceIds": [
+              "asml-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-04-23",
+      "title": "Recent SEC filing: 6-K",
+      "titleZh": "最新 SEC 文件：6-K",
+      "titleEn": "Recent SEC filing: 6-K",
+      "category": "SEC filing",
+      "categoryZh": "SEC 文件",
+      "categoryEn": "SEC filing",
+      "summary": "SEC submissions show a 6-K filed on 2026-04-23; report date 2026-04-23.",
+      "summaryZh": "SEC submissions 显示公司于 2026-04-23 提交 6-K；报告期为 2026-04-23。",
+      "summaryEn": "SEC submissions show a 6-K filed on 2026-04-23; report date 2026-04-23.",
+      "impact": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "impactZh": "作为本批次最新公开文件检查点；每日定时刷新仍未启用。",
+      "impactEn": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "sourceIds": [
+        "asml-sec-submissions"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "6-K",
+      "filedAt": "2026-04-23",
+      "reportDate": "2026-04-23",
+      "title": "6-K filed 2026-04-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026026703/form6-kagmdisclosureofagmr.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-04-15",
+      "reportDate": "2026-03-29",
+      "title": "6-K filed 2026-04-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026025147/form6-kquarterlyfilings.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-03-11",
+      "reportDate": "2026-03-09",
+      "title": "6-K filed 2026-03-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026016671/form6-kagm.htm"
+    },
+    {
+      "form": "20-F",
+      "filedAt": "2026-02-25",
+      "reportDate": "2025-12-31",
+      "title": "20-F filed 2026-02-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/asml-20251231.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-02-25",
+      "reportDate": "2025-12-31",
+      "title": "6-K filed 2026-02-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011377/form6-kannualreportbasedon.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-01-28",
+      "reportDate": "2025-12-31",
+      "title": "6-K filed 2026-01-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026003701/form6-kquarterlyfilings.htm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "asml-homepage",
+      "title": "ASML Holding / 阿斯麦 company website",
+      "titleZh": "ASML Holding / 阿斯麦 公司官网",
+      "titleEn": "ASML Holding / 阿斯麦 company website",
+      "publisher": "ASML Holding / 阿斯麦",
+      "url": "https://www.asml.com/en",
+      "accessedAt": "2026-06-14",
+      "type": "company"
+    },
+    {
+      "id": "asml-sec-submissions",
+      "title": "ASML SEC submissions",
+      "titleZh": "ASML SEC submissions 数据",
+      "titleEn": "ASML SEC submissions",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/submissions/CIK0000937966.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec"
+    },
+    {
+      "id": "asml-sec-companyfacts",
+      "title": "ASML SEC companyfacts XBRL data",
+      "titleZh": "ASML SEC companyfacts XBRL 数据",
+      "titleEn": "ASML SEC companyfacts XBRL data",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000937966.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec"
+    },
+    {
+      "id": "asml-nasdaq-quote",
+      "title": "ASML Nasdaq quote page",
+      "titleZh": "ASML Nasdaq 行情页面",
+      "titleEn": "ASML Nasdaq quote page",
+      "publisher": "Nasdaq",
+      "url": "https://www.nasdaq.com/market-activity/stocks/asml",
+      "accessedAt": "2026-06-14",
+      "type": "exchange"
+    },
+    {
+      "id": "nvidia-10k-2026",
+      "title": "NVIDIA FY2026 Form 10-K",
+      "titleZh": "NVIDIA 2026 财年 10-K 年报",
+      "titleEn": "NVIDIA FY2026 Form 10-K",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "accessedAt": "2026-06-14",
+      "type": "sec"
+    },
+    {
+      "id": "nvidia-rtx-pro-systems-2025",
+      "title": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "titleZh": "NVIDIA RTX PRO Blackwell 服务器进入企业系统生态",
+      "titleEn": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "publisher": "NVIDIA Investor Relations",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-RTX-PRO-Servers-With-Blackwell-Coming-to-Worlds-Most-Popular-Enterprise-Systems/",
+      "accessedAt": "2026-06-14",
+      "type": "company"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0000937966",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K",
+        "20-F",
+        "6-K"
+      ]
+    },
+    "newsFeeds": [
+      {
+        "url": "https://www.asml.com/en",
+        "publisher": "ASML Holding / 阿斯麦",
+        "sourceType": "company"
+      }
+    ]
+  }
+}
