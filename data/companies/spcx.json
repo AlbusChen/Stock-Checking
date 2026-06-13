@@ -1,0 +1,1168 @@
+{
+  "schemaVersion": 1,
+  "id": "spcx",
+  "ticker": "SPCX",
+  "exchange": "NASDAQ",
+  "market": "US",
+  "name": "SpaceX / 太空探索技术公司",
+  "legalName": "Space Exploration Technologies Corp.",
+  "currency": "USD",
+  "sector": "Aerospace, satellite communications and AI infrastructure / 航天、卫星通信与 AI 基础设施",
+  "industry": [
+    "Launch services",
+    "Satellite broadband",
+    "Human spaceflight",
+    "Defense space systems",
+    "AI infrastructure",
+    "航天发射",
+    "卫星宽带",
+    "载人航天",
+    "国防航天",
+    "AI 基础设施"
+  ],
+  "homepage": "https://www.spacex.com/",
+  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "summary": "SpaceX 已在 Nasdaq 以 SPCX 交易。公司业务横跨 Falcon/Starship 发射、Dragon 载人/货运飞船、Starlink 卫星互联网、Starshield/政府航天和新增 AI 基础设施主题；上市后它从 SpaceX IPO 主题锚点变成可直接查询的上市公司。",
+  "summaryZh": "SpaceX 已在 Nasdaq 以 SPCX 交易。公司业务横跨 Falcon/Starship 发射、Dragon 载人/货运飞船、Starlink 卫星互联网、Starshield/政府航天和新增 AI 基础设施主题；上市后它从 SpaceX IPO 主题锚点变成可直接查询的上市公司。",
+  "summaryEn": "SpaceX now trades on Nasdaq under SPCX. Its businesses span Falcon/Starship launch, Dragon human/cargo spacecraft, Starlink satellite internet, Starshield/government space systems, and an emerging AI-infrastructure theme; after the listing it moves from a SpaceX IPO theme anchor to a directly searchable public company.",
+  "aliases": [
+    "SpaceX",
+    "Space Exploration Technologies",
+    "Space Exploration Technologies Corp",
+    "SPCX",
+    "Starlink",
+    "Starship",
+    "太空探索技术公司",
+    "星链"
+  ],
+  "labels": [
+    "太空",
+    "卫星通信",
+    "发射服务",
+    "国防",
+    "AI",
+    "美股"
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "overview": "SpaceX 由发射与航天器、卫星通信服务、政府/国防航天和 AI/数据中心基础设施几条主线构成。",
+    "overviewZh": "SpaceX 由发射与航天器、卫星通信服务、政府/国防航天和 AI/数据中心基础设施几条主线构成。",
+    "overviewEn": "SpaceX is built around launch and spacecraft, satellite communications services, government/defense space systems, and AI/data-center infrastructure.",
+    "segments": [
+      {
+        "name": "Starlink 卫星互联网",
+        "nameZh": "Starlink 卫星互联网",
+        "nameEn": "Starlink satellite internet",
+        "description": "面向消费者、企业、航空、海事和移动运营商伙伴提供低轨卫星宽带与直连手机能力。",
+        "descriptionZh": "面向消费者、企业、航空、海事和移动运营商伙伴提供低轨卫星宽带与直连手机能力。",
+        "descriptionEn": "Provides low-Earth-orbit satellite broadband and direct-to-cell capability to consumers, enterprises, aviation, maritime, and mobile-operator partners.",
+        "sourceIds": [
+          "nypost-spacex-business",
+          "starlink-business"
+        ]
+      },
+      {
+        "name": "发射与航天器",
+        "nameZh": "发射与航天器",
+        "nameEn": "Launch and spacecraft",
+        "description": "Falcon 9/Falcon Heavy 发射、Dragon 载人/货运飞船，以及 Starship/Super Heavy 可复用超重型系统。",
+        "descriptionZh": "Falcon 9/Falcon Heavy 发射、Dragon 载人/货运飞船，以及 Starship/Super Heavy 可复用超重型系统。",
+        "descriptionEn": "Falcon 9/Falcon Heavy launch, Dragon human/cargo spacecraft, and the reusable Starship/Super Heavy system.",
+        "sourceIds": [
+          "spacex-falcon9",
+          "spacex-starship",
+          "nasa-commercial-crew"
+        ]
+      },
+      {
+        "name": "政府与国防航天",
+        "nameZh": "政府与国防航天",
+        "nameEn": "Government and defense space",
+        "description": "包括 NASA 商业载人、货运、Artemis HLS 和政府/国防任务；Starshield 等业务服务政府安全通信与地球观测等需求。",
+        "descriptionZh": "包括 NASA 商业载人、货运、Artemis HLS 和政府/国防任务；Starshield 等业务服务政府安全通信与地球观测等需求。",
+        "descriptionEn": "Includes NASA commercial crew, cargo, Artemis HLS, and government/defense missions; Starshield-like businesses serve secure communications, Earth observation, and related government needs.",
+        "sourceIds": [
+          "nasa-hls",
+          "nasa-commercial-crew"
+        ]
+      },
+      {
+        "name": "AI 与计算基础设施",
+        "nameZh": "AI 与计算基础设施",
+        "nameEn": "AI and compute infrastructure",
+        "description": "IPO 报道显示，SpaceX 的新叙事已包括 AI/数据中心基础设施；这一部分仍需后续 SEC 披露进一步拆分。",
+        "descriptionZh": "IPO 报道显示，SpaceX 的新叙事已包括 AI/数据中心基础设施；这一部分仍需后续 SEC 披露进一步拆分。",
+        "descriptionEn": "IPO coverage indicates that SpaceX's new narrative includes AI/data-center infrastructure; this segment still needs fuller SEC disclosure before detailed separation.",
+        "sourceIds": [
+          "nypost-spacex-business",
+          "businessinsider-spacex-ipo"
+        ]
+      }
+    ],
+    "description": "SpaceX 由发射与航天器、卫星通信服务、政府/国防航天和 AI/数据中心基础设施几条主线构成。",
+    "descriptionZh": "SpaceX 由发射与航天器、卫星通信服务、政府/国防航天和 AI/数据中心基础设施几条主线构成。",
+    "descriptionEn": "SpaceX is built around launch and spacecraft, satellite communications services, government/defense space systems, and AI/data-center infrastructure.",
+    "revenueModel": [
+      "Starlink 订阅与终端 / Starlink subscriptions and terminals",
+      "商业和政府发射 / Commercial and government launch",
+      "NASA/政府合同 / NASA and government contracts",
+      "AI/数据中心基础设施 / AI and data-center infrastructure"
+    ],
+    "thesis": "SpaceX 已成为公开上市的太空、卫星互联网和 AI 基础设施综合体；核心看点是 Starlink 现金生成、发射复用能力、政府合同黏性与 AI 基础设施资本开支之间的平衡。",
+    "thesisZh": "SpaceX 已成为公开上市的太空、卫星互联网和 AI 基础设施综合体；核心看点是 Starlink 现金生成、发射复用能力、政府合同黏性与 AI 基础设施资本开支之间的平衡。",
+    "thesisEn": "SpaceX is now a public space, satellite-internet, and AI-infrastructure conglomerate; the core question is the balance between Starlink cash generation, reusable-launch advantage, government-contract durability, and AI-infrastructure capital intensity.",
+    "riskNotes": [
+      "IPO 后估值极高，短期股价会受到指数纳入、锁定期、流动性和新闻情绪影响。 / Post-IPO valuation is very high, so near-term trading can be driven by index inclusion, lockups, liquidity, and news sentiment.",
+      "Starship、直接手机连接和 AI 基础设施仍有技术、监管与资本开支风险。 / Starship, direct-to-cell, and AI infrastructure carry technology, regulatory, and capital-spending risks.",
+      "供应链高度依赖航天级材料、半导体/RF 元件、发射场许可和政府客户节奏。 / The supply chain depends on space-grade materials, semiconductor/RF components, launch-site approvals, and government-customer timing."
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-14T12:00:00+08:00",
+    "thesis": "SpaceX 的上游可分为火箭/航天器制造、Starlink 卫星与终端、地面网络/发射场、AI/数据中心基础设施四层；公司大量垂直整合，未具名披露的供应商应先按类别跟踪，避免误判直接供应关系。",
+    "thesisZh": "SpaceX 的上游可分为火箭/航天器制造、Starlink 卫星与终端、地面网络/发射场、AI/数据中心基础设施四层；公司大量垂直整合，未具名披露的供应商应先按类别跟踪，避免误判直接供应关系。",
+    "thesisEn": "SpaceX's upstream can be split into rocket/spacecraft manufacturing, Starlink satellites and terminals, ground-network/launch-site infrastructure, and AI/data-center infrastructure; because the company is highly vertically integrated, undisclosed suppliers should be tracked by category first to avoid overstating direct supplier relationships.",
+    "tiers": [
+      {
+        "id": "tier-0",
+        "title": "Target company",
+        "titleZh": "目标公司",
+        "titleEn": "Target company",
+        "entities": [
+          {
+            "name": "SpaceX / 太空探索技术公司",
+            "nameZh": "SpaceX / 太空探索技术公司",
+            "nameEn": "Space Exploration Technologies Corp.",
+            "relationship": "目标公司；Nasdaq 已显示 SPCX 为 Space Exploration Technologies Corp. Class A Common Stock。",
+            "relationshipZh": "目标公司；Nasdaq 已显示 SPCX 为 Space Exploration Technologies Corp. Class A Common Stock。",
+            "relationshipEn": "Target company; Nasdaq now shows SPCX as Space Exploration Technologies Corp. Class A Common Stock.",
+            "productsServices": [
+              "发射服务",
+              "Starlink 卫星互联网",
+              "载人/货运飞船",
+              "AI 基础设施"
+            ],
+            "productsServicesZh": [
+              "发射服务",
+              "Starlink 卫星互联网",
+              "载人/货运飞船",
+              "AI 基础设施"
+            ],
+            "productsServicesEn": [
+              "launch services",
+              "Starlink satellite internet",
+              "human/cargo spacecraft",
+              "AI infrastructure"
+            ],
+            "sourceIds": [
+              "nasdaq-spcx",
+              "spacex-falcon9",
+              "starlink-business"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "SPCX",
+              "exchange": "NASDAQ",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/spcx"
+            },
+            "confidence": "high"
+          }
+        ],
+        "level": 0,
+        "companies": [
+          "SpaceX / 太空探索技术公司"
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "液氧/甲烷推进剂",
+          "不锈钢与镍基高温合金",
+          "航天级半导体/RF 元件",
+          "太阳能电池与电池材料"
+        ],
+        "materialsZh": [
+          "液氧/甲烷推进剂",
+          "不锈钢与镍基高温合金",
+          "航天级半导体/RF 元件",
+          "太阳能电池与电池材料"
+        ],
+        "materialsEn": [
+          "liquid oxygen/methane propellants",
+          "stainless steel and nickel superalloys",
+          "space-grade semiconductor/RF components",
+          "solar-cell and battery materials"
+        ],
+        "notes": "目标公司本身；上市状态已更新为 NASDAQ SPCX。",
+        "notesZh": "目标公司本身；上市状态已更新为 NASDAQ SPCX。",
+        "notesEn": "Target company itself; listing status is now updated to NASDAQ SPCX.",
+        "confidence": "high",
+        "sourceIds": [
+          "nasdaq-spcx"
+        ]
+      },
+      {
+        "id": "tier-1",
+        "title": "Rocket, spacecraft, and launch operations",
+        "titleZh": "火箭、航天器与发射运营",
+        "titleEn": "Rocket, spacecraft, and launch operations",
+        "entities": [
+          {
+            "name": "航天级结构材料与推进剂供应链",
+            "nameZh": "航天级结构材料与推进剂供应链",
+            "nameEn": "Space-grade structural-material and propellant supply chain",
+            "relationship": "支撑 Falcon、Dragon、Starship/Super Heavy 的箭体、发动机、热防护、压力容器和发射消耗品；当前按类别跟踪，未断言具体供应商。",
+            "relationshipZh": "支撑 Falcon、Dragon、Starship/Super Heavy 的箭体、发动机、热防护、压力容器和发射消耗品；当前按类别跟踪，未断言具体供应商。",
+            "relationshipEn": "Supports Falcon, Dragon, and Starship/Super Heavy vehicle structures, engines, thermal protection, pressure vessels, and launch consumables; tracked by category without asserting named suppliers.",
+            "productsServices": [
+              "不锈钢/铝/钛/镍基合金",
+              "液氧与甲烷",
+              "热防护与复合材料"
+            ],
+            "productsServicesZh": [
+              "不锈钢/铝/钛/镍基合金",
+              "液氧与甲烷",
+              "热防护与复合材料"
+            ],
+            "productsServicesEn": [
+              "stainless steel/aluminum/titanium/nickel alloys",
+              "liquid oxygen and methane",
+              "thermal-protection and composite materials"
+            ],
+            "sourceIds": [
+              "spacex-falcon9",
+              "spacex-starship"
+            ],
+            "listing": {
+              "status": "unknown"
+            },
+            "confidence": "medium"
+          },
+          {
+            "name": "发射场、地面设备与测试基础设施",
+            "nameZh": "发射场、地面设备与测试基础设施",
+            "nameEn": "Launch-site, ground-equipment, and test infrastructure",
+            "relationship": "发射节奏依赖发射台、燃料/氧化剂装载、测试台、海上回收和监管许可；这是 SpaceX 复用优势的运营底座。",
+            "relationshipZh": "发射节奏依赖发射台、燃料/氧化剂装载、测试台、海上回收和监管许可；这是 SpaceX 复用优势的运营底座。",
+            "relationshipEn": "Launch cadence depends on pads, propellant/oxidizer loading, test stands, droneship recovery, and regulatory approvals; this is the operating base for SpaceX's reusability advantage.",
+            "productsServices": [
+              "发射台与地面系统",
+              "测试与回收设施",
+              "监管许可与范围安全"
+            ],
+            "productsServicesZh": [
+              "发射台与地面系统",
+              "测试与回收设施",
+              "监管许可与范围安全"
+            ],
+            "productsServicesEn": [
+              "launch pads and ground systems",
+              "test and recovery facilities",
+              "regulatory approval and range safety"
+            ],
+            "sourceIds": [
+              "spacex-falcon9",
+              "spacex-starship"
+            ],
+            "listing": {
+              "status": "unknown"
+            },
+            "confidence": "medium"
+          }
+        ],
+        "level": 1,
+        "companies": [
+          "航天级结构材料与推进剂供应链",
+          "发射场、地面设备与测试基础设施"
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "液氧/甲烷推进剂",
+          "不锈钢与镍基高温合金",
+          "碳纤维/陶瓷热防护"
+        ],
+        "materialsZh": [
+          "液氧/甲烷推进剂",
+          "不锈钢与镍基高温合金",
+          "碳纤维/陶瓷热防护"
+        ],
+        "materialsEn": [
+          "liquid oxygen/methane propellants",
+          "stainless steel and nickel superalloys",
+          "carbon-fiber/ceramic thermal protection"
+        ],
+        "notes": "SpaceX 垂直整合度高，具名供应商需等合同、招股书或年报进一步披露。",
+        "notesZh": "SpaceX 垂直整合度高，具名供应商需等合同、招股书或年报进一步披露。",
+        "notesEn": "SpaceX is highly vertically integrated; named suppliers should wait for contracts, prospectus detail, or annual-report disclosure.",
+        "confidence": "medium",
+        "sourceIds": [
+          "spacex-falcon9",
+          "spacex-starship"
+        ]
+      },
+      {
+        "id": "tier-2",
+        "title": "Starlink satellites, terminals, and network",
+        "titleZh": "Starlink 卫星、终端与网络",
+        "titleEn": "Starlink satellites, terminals, and network",
+        "entities": [
+          {
+            "name": "卫星与用户终端电子供应链",
+            "nameZh": "卫星与用户终端电子供应链",
+            "nameEn": "Satellite and user-terminal electronics supply chain",
+            "relationship": "Starlink 卫星、用户终端和直连手机载荷需要射频前端、相控阵、计算/电源管理、激光链路、太阳能和电池系统。",
+            "relationshipZh": "Starlink 卫星、用户终端和直连手机载荷需要射频前端、相控阵、计算/电源管理、激光链路、太阳能和电池系统。",
+            "relationshipEn": "Starlink satellites, user terminals, and direct-to-cell payloads require RF front ends, phased arrays, compute/power management, laser links, solar, and battery systems.",
+            "productsServices": [
+              "RF/相控阵组件",
+              "计算与电源管理",
+              "太阳能电池、锂电与光通信"
+            ],
+            "productsServicesZh": [
+              "RF/相控阵组件",
+              "计算与电源管理",
+              "太阳能电池、锂电与光通信"
+            ],
+            "productsServicesEn": [
+              "RF/phased-array components",
+              "compute and power management",
+              "solar cells, batteries, and optical communications"
+            ],
+            "sourceIds": [
+              "starlink-business",
+              "nypost-spacex-business"
+            ],
+            "listing": {
+              "status": "unknown"
+            },
+            "confidence": "medium"
+          },
+          {
+            "name": "地面站、骨干网络与云/边缘节点",
+            "nameZh": "地面站、骨干网络与云/边缘节点",
+            "nameEn": "Ground stations, backbone network, and cloud/edge nodes",
+            "relationship": "Starlink 的服务质量依赖全球地面站、网络互联、客户安装和企业/移动业务支持。",
+            "relationshipZh": "Starlink 的服务质量依赖全球地面站、网络互联、客户安装和企业/移动业务支持。",
+            "relationshipEn": "Starlink service quality depends on global ground stations, network interconnect, customer installation, and enterprise/mobile support.",
+            "productsServices": [
+              "地面站",
+              "网络互联",
+              "安装与运维"
+            ],
+            "productsServicesZh": [
+              "地面站",
+              "网络互联",
+              "安装与运维"
+            ],
+            "productsServicesEn": [
+              "ground stations",
+              "network interconnect",
+              "installation and operations"
+            ],
+            "sourceIds": [
+              "starlink-business"
+            ],
+            "listing": {
+              "status": "unknown"
+            },
+            "confidence": "medium"
+          }
+        ],
+        "level": 2,
+        "companies": [
+          "卫星与用户终端电子供应链",
+          "地面站、骨干网络与云/边缘节点"
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "砷化镓/氮化镓 RF 材料",
+          "硅基计算芯片",
+          "太阳能电池材料",
+          "锂电材料"
+        ],
+        "materialsZh": [
+          "砷化镓/氮化镓 RF 材料",
+          "硅基计算芯片",
+          "太阳能电池材料",
+          "锂电材料"
+        ],
+        "materialsEn": [
+          "GaAs/GaN RF materials",
+          "silicon compute chips",
+          "solar-cell materials",
+          "lithium-battery materials"
+        ],
+        "notes": "Starlink 电子与网络供应商目前以类别处理；可在后续 filings 或合同披露后升级为具名公司。",
+        "notesZh": "Starlink 电子与网络供应商目前以类别处理；可在后续 filings 或合同披露后升级为具名公司。",
+        "notesEn": "Starlink electronics and network suppliers are tracked by category for now; they can be upgraded to named companies after filings or contract disclosure.",
+        "confidence": "medium",
+        "sourceIds": [
+          "starlink-business",
+          "nypost-spacex-business"
+        ]
+      },
+      {
+        "id": "tier-3",
+        "title": "AI and data-center infrastructure",
+        "titleZh": "AI 与数据中心基础设施",
+        "titleEn": "AI and data-center infrastructure",
+        "entities": [
+          {
+            "name": "AI 加速器、服务器和电力/冷却供应链",
+            "nameZh": "AI 加速器、服务器和电力/冷却供应链",
+            "nameEn": "AI accelerator, server, power, and cooling supply chain",
+            "relationship": "IPO 报道将 SpaceX 的估值叙事与 AI 基础设施联系起来；具体芯片、服务器和电力/冷却供应商需要等待更直接披露。",
+            "relationshipZh": "IPO 报道将 SpaceX 的估值叙事与 AI 基础设施联系起来；具体芯片、服务器和电力/冷却供应商需要等待更直接披露。",
+            "relationshipEn": "IPO coverage links SpaceX's valuation narrative to AI infrastructure; specific chip, server, power, and cooling suppliers need more direct disclosure.",
+            "productsServices": [
+              "AI 加速器与服务器",
+              "电力与冷却",
+              "数据中心网络"
+            ],
+            "productsServicesZh": [
+              "AI 加速器与服务器",
+              "电力与冷却",
+              "数据中心网络"
+            ],
+            "productsServicesEn": [
+              "AI accelerators and servers",
+              "power and cooling",
+              "data-center networking"
+            ],
+            "sourceIds": [
+              "nypost-spacex-business",
+              "businessinsider-spacex-ipo"
+            ],
+            "listing": {
+              "status": "unknown"
+            },
+            "confidence": "low"
+          }
+        ],
+        "level": 3,
+        "companies": [
+          "AI 加速器、服务器和电力/冷却供应链"
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "先进制程芯片",
+          "HBM/DRAM",
+          "铜与光模块",
+          "电力设备"
+        ],
+        "materialsZh": [
+          "先进制程芯片",
+          "HBM/DRAM",
+          "铜与光模块",
+          "电力设备"
+        ],
+        "materialsEn": [
+          "advanced-node chips",
+          "HBM/DRAM",
+          "copper and optical modules",
+          "power equipment"
+        ],
+        "notes": "这是 IPO 后新增的观察层，当前置信度低于传统发射和 Starlink 业务。",
+        "notesZh": "这是 IPO 后新增的观察层，当前置信度低于传统发射和 Starlink 业务。",
+        "notesEn": "This is a post-IPO watch layer and currently has lower confidence than the legacy launch and Starlink businesses.",
+        "confidence": "low",
+        "sourceIds": [
+          "nypost-spacex-business",
+          "businessinsider-spacex-ipo"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "液氧与液态甲烷",
+        "nameZh": "液氧与液态甲烷",
+        "nameEn": "Liquid oxygen and liquid methane",
+        "usedIn": "用于 Raptor/Starship 等推进系统与发射运营。",
+        "usedInZh": "用于 Raptor/Starship 等推进系统与发射运营。",
+        "usedInEn": "Used in Raptor/Starship propulsion systems and launch operations.",
+        "upstream": [
+          "天然气处理与空气分离",
+          "低温储运",
+          "发射场燃料装载系统"
+        ],
+        "upstreamZh": [
+          "天然气处理与空气分离",
+          "低温储运",
+          "发射场燃料装载系统"
+        ],
+        "upstreamEn": [
+          "natural-gas processing and air separation",
+          "cryogenic storage and transport",
+          "launch-site fueling systems"
+        ],
+        "risk": "发射频率越高，对低温供应、场站储存和许可节奏越敏感。",
+        "riskZh": "发射频率越高，对低温供应、场站储存和许可节奏越敏感。",
+        "riskEn": "Higher launch cadence increases sensitivity to cryogenic supply, on-site storage, and permitting cadence.",
+        "confidence": "medium"
+      },
+      {
+        "name": "不锈钢、铝、钛与镍基合金",
+        "nameZh": "不锈钢、铝、钛与镍基合金",
+        "nameEn": "Stainless steel, aluminum, titanium, and nickel alloys",
+        "usedIn": "用于火箭结构、发动机、压力容器、航天器结构和热端零件。",
+        "usedInZh": "用于火箭结构、发动机、压力容器、航天器结构和热端零件。",
+        "usedInEn": "Used in rocket structures, engines, pressure vessels, spacecraft structures, and hot-section components.",
+        "upstream": [
+          "铁矿/铝土矿/钛矿/镍矿",
+          "冶炼与特种合金",
+          "航天级认证加工"
+        ],
+        "upstreamZh": [
+          "铁矿/铝土矿/钛矿/镍矿",
+          "冶炼与特种合金",
+          "航天级认证加工"
+        ],
+        "upstreamEn": [
+          "iron ore/bauxite/titanium ore/nickel ore",
+          "smelting and specialty alloys",
+          "space-grade qualified processing"
+        ],
+        "risk": "关键瓶颈在认证周期、合金一致性、热端可靠性和价格波动。",
+        "riskZh": "关键瓶颈在认证周期、合金一致性、热端可靠性和价格波动。",
+        "riskEn": "Key bottlenecks include qualification cycles, alloy consistency, hot-section reliability, and price volatility.",
+        "confidence": "medium"
+      },
+      {
+        "name": "RF 半导体、计算芯片与电源元件",
+        "nameZh": "RF 半导体、计算芯片与电源元件",
+        "nameEn": "RF semiconductors, compute chips, and power components",
+        "usedIn": "用于 Starlink 卫星、用户终端、直连手机载荷、航电和地面网络。",
+        "usedInZh": "用于 Starlink 卫星、用户终端、直连手机载荷、航电和地面网络。",
+        "usedInEn": "Used in Starlink satellites, user terminals, direct-to-cell payloads, avionics, and ground networks.",
+        "upstream": [
+          "硅晶圆与化合物半导体材料",
+          "晶圆制造/封装测试",
+          "航天级筛选与可靠性测试"
+        ],
+        "upstreamZh": [
+          "硅晶圆与化合物半导体材料",
+          "晶圆制造/封装测试",
+          "航天级筛选与可靠性测试"
+        ],
+        "upstreamEn": [
+          "silicon wafers and compound semiconductor materials",
+          "wafer fabrication/packaging/testing",
+          "space-grade screening and reliability testing"
+        ],
+        "risk": "受先进制程产能、RF 材料供应、出口管制和航天可靠性验证影响。",
+        "riskZh": "受先进制程产能、RF 材料供应、出口管制和航天可靠性验证影响。",
+        "riskEn": "Affected by advanced-node capacity, RF material supply, export controls, and space-reliability validation.",
+        "confidence": "medium"
+      },
+      {
+        "name": "太阳能、电池与热管理材料",
+        "nameZh": "太阳能、电池与热管理材料",
+        "nameEn": "Solar, battery, and thermal-management materials",
+        "usedIn": "用于卫星电源、终端电源、数据中心和航天器热管理。",
+        "usedInZh": "用于卫星电源、终端电源、数据中心和航天器热管理。",
+        "usedInEn": "Used in satellite power, terminal power, data centers, and spacecraft thermal management.",
+        "upstream": [
+          "光伏材料",
+          "锂/镍/石墨等电池材料",
+          "热界面材料与冷却设备"
+        ],
+        "upstreamZh": [
+          "光伏材料",
+          "锂/镍/石墨等电池材料",
+          "热界面材料与冷却设备"
+        ],
+        "upstreamEn": [
+          "photovoltaic materials",
+          "lithium/nickel/graphite battery materials",
+          "thermal-interface materials and cooling equipment"
+        ],
+        "risk": "卫星规模和 AI 基础设施资本开支可能放大对能源与热管理供应链的需求。",
+        "riskZh": "卫星规模和 AI 基础设施资本开支可能放大对能源与热管理供应链的需求。",
+        "riskEn": "Satellite scale and AI-infrastructure capex can amplify demand for energy and thermal-management supply chains.",
+        "confidence": "medium"
+      }
+    ],
+    "downstream": {
+      "updatedAt": "2026-06-14T12:00:00+08:00",
+      "thesis": "SpaceX 处在航天供应链中游到下游的交叉位置：它向政府、商业卫星客户、消费者/企业宽带用户、移动运营商伙伴和 AI 基础设施客户输出发射、通信和计算能力。",
+      "thesisZh": "SpaceX 处在航天供应链中游到下游的交叉位置：它向政府、商业卫星客户、消费者/企业宽带用户、移动运营商伙伴和 AI 基础设施客户输出发射、通信和计算能力。",
+      "thesisEn": "SpaceX sits across the midstream and downstream of the space value chain: it sells launch, communications, and compute capabilities to governments, commercial satellite customers, consumer/enterprise broadband users, mobile-operator partners, and AI-infrastructure customers.",
+      "tiers": [
+        {
+          "id": "downstream-1",
+          "title": "Government and institutional customers",
+          "titleZh": "政府与机构客户",
+          "titleEn": "Government and institutional customers",
+          "notes": "政府合同提供需求韧性，但项目节点、预算和监管审查会影响收入节奏。",
+          "notesZh": "政府合同提供需求韧性，但项目节点、预算和监管审查会影响收入节奏。",
+          "notesEn": "Government contracts provide demand resilience, but program milestones, budgets, and regulatory reviews affect revenue timing.",
+          "entities": [
+            {
+              "name": "NASA",
+              "nameZh": "NASA",
+              "nameEn": "NASA",
+              "customerRole": "政府客户",
+              "customerRoleZh": "政府客户",
+              "customerRoleEn": "Government customer",
+              "relationship": "NASA 商业载人与 Artemis HLS 是 SpaceX Dragon/Starship 的核心公开政府项目；HLS 合同总额为 28.9 亿美元。",
+              "relationshipZh": "NASA 商业载人与 Artemis HLS 是 SpaceX Dragon/Starship 的核心公开政府项目；HLS 合同总额为 28.9 亿美元。",
+              "relationshipEn": "NASA commercial crew and Artemis HLS are core public government programs for SpaceX Dragon/Starship; the HLS contract award value is $2.89 billion.",
+              "productsServices": [
+                "载人航天",
+                "月面着陆系统",
+                "货运/空间站服务"
+              ],
+              "productsServicesZh": [
+                "载人航天",
+                "月面着陆系统",
+                "货运/空间站服务"
+              ],
+              "productsServicesEn": [
+                "human spaceflight",
+                "human landing system",
+                "cargo/space-station services"
+              ],
+              "sourceIds": [
+                "nasa-hls",
+                "nasa-commercial-crew"
+              ],
+              "listing": {
+                "status": "unknown"
+              },
+              "companyUrl": "https://www.nasa.gov/",
+              "confidence": "high"
+            }
+          ],
+          "level": 1,
+          "confidence": "high",
+          "sourceIds": [
+            "nasa-hls",
+            "nasa-commercial-crew"
+          ]
+        },
+        {
+          "id": "downstream-2",
+          "title": "Starlink consumers, enterprises, and telecom partners",
+          "titleZh": "Starlink 消费者、企业与电信伙伴",
+          "titleEn": "Starlink consumers, enterprises, and telecom partners",
+          "notes": "Starlink 是 SpaceX 最大的业务抓手之一；移动运营商伙伴使直连手机成为下游扩张方向。",
+          "notesZh": "Starlink 是 SpaceX 最大的业务抓手之一；移动运营商伙伴使直连手机成为下游扩张方向。",
+          "notesEn": "Starlink is one of SpaceX's largest business levers; mobile-operator partners make direct-to-cell a downstream expansion path.",
+          "entities": [
+            {
+              "name": "T-Mobile US",
+              "nameZh": "T-Mobile US",
+              "nameEn": "T-Mobile US, Inc.",
+              "customerRole": "直连手机合作伙伴",
+              "customerRoleZh": "直连手机合作伙伴",
+              "customerRoleEn": "Direct-to-cell partner",
+              "relationship": "T-Mobile 与 SpaceX/Starlink 的直连手机合作将 Starlink 卫星能力接入地面移动用户；这是下游分发与网络覆盖合作，而不是传统零部件供应关系。",
+              "relationshipZh": "T-Mobile 与 SpaceX/Starlink 的直连手机合作将 Starlink 卫星能力接入地面移动用户；这是下游分发与网络覆盖合作，而不是传统零部件供应关系。",
+              "relationshipEn": "The T-Mobile and SpaceX/Starlink direct-to-cell partnership connects Starlink satellite capability to terrestrial mobile users; it is downstream distribution/network-coverage cooperation, not a conventional component-supply relationship.",
+              "productsServices": [
+                "直连手机",
+                "移动覆盖补充",
+                "电信渠道"
+              ],
+              "productsServicesZh": [
+                "直连手机",
+                "移动覆盖补充",
+                "电信渠道"
+              ],
+              "productsServicesEn": [
+                "direct-to-cell",
+                "supplemental mobile coverage",
+                "telecom channel"
+              ],
+              "sourceIds": [
+                "verge-fcc-direct-cell",
+                "starlink-business"
+              ],
+              "listing": {
+                "status": "listed",
+                "ticker": "TMUS",
+                "exchange": "NASDAQ",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/tmus"
+              },
+              "companyUrl": "https://www.t-mobile.com/",
+              "confidence": "medium"
+            },
+            {
+              "name": "Starlink broadband users",
+              "nameZh": "Starlink 宽带用户",
+              "nameEn": "Starlink broadband users",
+              "customerRole": "消费者与企业客户群",
+              "customerRoleZh": "消费者与企业客户群",
+              "customerRoleEn": "Consumer and enterprise customer group",
+              "relationship": "包括家庭、企业、航空、海事和偏远地区用户；这是 Starlink 订阅和终端销售的核心下游。",
+              "relationshipZh": "包括家庭、企业、航空、海事和偏远地区用户；这是 Starlink 订阅和终端销售的核心下游。",
+              "relationshipEn": "Includes residential, enterprise, aviation, maritime, and remote-area users; this is the core downstream for Starlink subscriptions and terminal sales.",
+              "productsServices": [
+                "卫星宽带",
+                "用户终端",
+                "企业连接"
+              ],
+              "productsServicesZh": [
+                "卫星宽带",
+                "用户终端",
+                "企业连接"
+              ],
+              "productsServicesEn": [
+                "satellite broadband",
+                "user terminals",
+                "enterprise connectivity"
+              ],
+              "sourceIds": [
+                "starlink-business",
+                "nypost-spacex-business"
+              ],
+              "listing": {
+                "status": "unknown"
+              },
+              "companyUrl": "https://www.starlink.com/",
+              "confidence": "medium"
+            }
+          ],
+          "level": 2,
+          "confidence": "medium",
+          "sourceIds": [
+            "starlink-business",
+            "verge-fcc-direct-cell"
+          ]
+        },
+        {
+          "id": "downstream-3",
+          "title": "AI infrastructure customers and hyperscale partners",
+          "titleZh": "AI 基础设施客户与云/超大规模伙伴",
+          "titleEn": "AI infrastructure customers and hyperscale partners",
+          "notes": "该层是 IPO 后新叙事，需等待后续披露验证客户名单、合同规模和收入确认方式。",
+          "notesZh": "该层是 IPO 后新叙事，需等待后续披露验证客户名单、合同规模和收入确认方式。",
+          "notesEn": "This is a post-IPO narrative layer and needs later disclosures to verify customer names, contract scale, and revenue-recognition treatment.",
+          "entities": [
+            {
+              "name": "AI model and cloud customers",
+              "nameZh": "AI 模型与云客户",
+              "nameEn": "AI model and cloud customers",
+              "customerRole": "潜在/报道客户群",
+              "customerRoleZh": "潜在/报道客户群",
+              "customerRoleEn": "Potential/reported customer group",
+              "relationship": "IPO 报道称 AI 与数据中心基础设施是 SpaceX 新增长叙事之一；当前仅按客户群跟踪，暂不落具体客户名单。",
+              "relationshipZh": "IPO 报道称 AI 与数据中心基础设施是 SpaceX 新增长叙事之一；当前仅按客户群跟踪，暂不落具体客户名单。",
+              "relationshipEn": "IPO coverage describes AI and data-center infrastructure as one of SpaceX's new growth narratives; this dataset tracks the customer group only and does not yet name specific customers.",
+              "productsServices": [
+                "AI 计算租赁",
+                "数据中心容量",
+                "网络与能源基础设施"
+              ],
+              "productsServicesZh": [
+                "AI 计算租赁",
+                "数据中心容量",
+                "网络与能源基础设施"
+              ],
+              "productsServicesEn": [
+                "AI compute leasing",
+                "data-center capacity",
+                "network and energy infrastructure"
+              ],
+              "sourceIds": [
+                "nypost-spacex-business",
+                "businessinsider-spacex-ipo"
+              ],
+              "listing": {
+                "status": "unknown"
+              },
+              "confidence": "low"
+            }
+          ],
+          "level": 3,
+          "confidence": "low",
+          "sourceIds": [
+            "nypost-spacex-business",
+            "businessinsider-spacex-ipo"
+          ]
+        }
+      ]
+    }
+  },
+  "financials": {
+    "latestPeriod": "IPO debut and FY2025 reported baseline",
+    "latestPeriodZh": "IPO 首日与 FY2025 报道口径基准",
+    "latestPeriodEn": "IPO debut and FY2025 reported baseline",
+    "highlights": [
+      {
+        "label": "IPO 融资规模",
+        "labelZh": "IPO 融资规模",
+        "labelEn": "IPO proceeds",
+        "value": 75,
+        "unit": "USD billions",
+        "period": "2026-06-12 首日交易",
+        "periodZh": "2026-06-12 首日交易",
+        "periodEn": "First trading day on 2026-06-12",
+        "sourceIds": [
+          "businessinsider-spacex-ipo",
+          "investors-spacex-ipo"
+        ],
+        "change": "报道口径为史上最大 IPO",
+        "changeZh": "报道口径为史上最大 IPO",
+        "changeEn": "Reported as the largest IPO on record"
+      },
+      {
+        "label": "首日收盘价",
+        "labelZh": "首日收盘价",
+        "labelEn": "First-day close",
+        "value": 160.95,
+        "unit": "USD",
+        "period": "2026-06-12 收盘",
+        "periodZh": "2026-06-12 收盘",
+        "periodEn": "Close on 2026-06-12",
+        "sourceIds": [
+          "businessinsider-spacex-ipo",
+          "marketwatch-spacex-ipo"
+        ],
+        "change": "较 IPO 定价上涨约 19%",
+        "changeZh": "较 IPO 定价上涨约 19%",
+        "changeEn": "Up about 19% versus IPO pricing"
+      },
+      {
+        "label": "FY2025 收入",
+        "labelZh": "FY2025 收入",
+        "labelEn": "FY2025 revenue",
+        "value": 18.7,
+        "unit": "USD billions",
+        "period": "FY2025；IPO 报道口径",
+        "periodZh": "FY2025；IPO 报道口径",
+        "periodEn": "FY2025; IPO-reporting basis",
+        "sourceIds": [
+          "guardian-spacex-ipo",
+          "nypost-spacex-business"
+        ],
+        "change": "Starlink 被报道为主要收入来源",
+        "changeZh": "Starlink 被报道为主要收入来源",
+        "changeEn": "Starlink was reported as the main revenue source"
+      },
+      {
+        "label": "首日收盘市值",
+        "labelZh": "首日收盘市值",
+        "labelEn": "First-day closing market value",
+        "value": 2.1,
+        "unit": "USD trillions",
+        "period": "2026-06-12 收盘",
+        "periodZh": "2026-06-12 收盘",
+        "periodEn": "Close on 2026-06-12",
+        "sourceIds": [
+          "guardian-spacex-ipo",
+          "marketwatch-spacex-ipo"
+        ],
+        "change": "约 $2.1T",
+        "changeZh": "约 $2.1T",
+        "changeEn": "About $2.1T"
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "Starlink 卫星互联网",
+        "nameZh": "Starlink 卫星互联网",
+        "nameEn": "Starlink satellite internet",
+        "revenue": 11.22,
+        "unit": "USD billions",
+        "period": "FY2025 报道口径",
+        "periodZh": "FY2025 报道口径",
+        "periodEn": "FY2025 reported basis",
+        "share": 60,
+        "note": "报道称 Starlink 约占 SpaceX FY2025 收入的 60%，对应约 112.2 亿美元。",
+        "noteZh": "报道称 Starlink 约占 SpaceX FY2025 收入的 60%，对应约 112.2 亿美元。",
+        "noteEn": "Reports said Starlink represented about 60% of SpaceX FY2025 revenue, or roughly $11.22 billion.",
+        "sourceIds": [
+          "nypost-spacex-business"
+        ]
+      },
+      {
+        "name": "发射服务",
+        "nameZh": "发射服务",
+        "nameEn": "Launch services",
+        "revenue": 4.09,
+        "unit": "USD billions",
+        "period": "FY2025 报道口径",
+        "periodZh": "FY2025 报道口径",
+        "periodEn": "FY2025 reported basis",
+        "share": 21.9,
+        "note": "报道称 2025 年发射业务收入约 40.9 亿美元。",
+        "noteZh": "报道称 2025 年发射业务收入约 40.9 亿美元。",
+        "noteEn": "Reports said launch revenue was about $4.09 billion in 2025.",
+        "sourceIds": [
+          "nypost-spacex-business"
+        ]
+      },
+      {
+        "name": "AI/X 与其他业务",
+        "nameZh": "AI/X 与其他业务",
+        "nameEn": "AI/X and other businesses",
+        "revenue": 3.39,
+        "unit": "USD billions",
+        "period": "FY2025 报道口径",
+        "periodZh": "FY2025 报道口径",
+        "periodEn": "FY2025 reported basis",
+        "share": 18.1,
+        "note": "报道提到 AI/社交媒体相关收入约 32 亿美元，其余归入其他业务；该拆分需后续 filings 验证。",
+        "noteZh": "报道提到 AI/社交媒体相关收入约 32 亿美元，其余归入其他业务；该拆分需后续 filings 验证。",
+        "noteEn": "Reports cited about $3.2 billion of AI/social-media related revenue, with the residual grouped here as other; this split needs later filing validation.",
+        "sourceIds": [
+          "nypost-spacex-business"
+        ]
+      }
+    ],
+    "revenueMixHistory": [
+      {
+        "period": "FY2025",
+        "periodZh": "FY2025",
+        "periodEn": "FY2025",
+        "totalRevenue": 18.7,
+        "note": "仅有 IPO 报道口径的单期收入构成；暂不做多年趋势判断。",
+        "noteZh": "仅有 IPO 报道口径的单期收入构成；暂不做多年趋势判断。",
+        "noteEn": "Only one IPO-reported revenue-mix period is available; no multi-year trend is inferred yet.",
+        "sourceIds": [
+          "nypost-spacex-business",
+          "guardian-spacex-ipo"
+        ],
+        "segments": [
+          {
+            "name": "Starlink 卫星互联网",
+            "nameZh": "Starlink 卫星互联网",
+            "nameEn": "Starlink satellite internet",
+            "revenue": 11.22,
+            "unit": "USD billions",
+            "share": 60,
+            "sourceIds": [
+              "nypost-spacex-business"
+            ]
+          },
+          {
+            "name": "发射服务",
+            "nameZh": "发射服务",
+            "nameEn": "Launch services",
+            "revenue": 4.09,
+            "unit": "USD billions",
+            "share": 21.9,
+            "sourceIds": [
+              "nypost-spacex-business"
+            ]
+          },
+          {
+            "name": "AI/X 与其他业务",
+            "nameZh": "AI/X 与其他业务",
+            "nameEn": "AI/X and other businesses",
+            "revenue": 3.39,
+            "unit": "USD billions",
+            "share": 18.1,
+            "sourceIds": [
+              "nypost-spacex-business"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-06-12",
+      "title": "SpaceX 在 Nasdaq 以 SPCX 上市",
+      "titleZh": "SpaceX 在 Nasdaq 以 SPCX 上市",
+      "titleEn": "SpaceX lists on Nasdaq under SPCX",
+      "category": "上市",
+      "categoryZh": "上市",
+      "categoryEn": "Listing",
+      "summary": "Nasdaq 已显示 Space Exploration Technologies Corp. Class A Common Stock，代码 SPCX；多家媒体报道称 SpaceX IPO 融资约 750 亿美元，首日收盘约 160.95 美元。",
+      "summaryZh": "Nasdaq 已显示 Space Exploration Technologies Corp. Class A Common Stock，代码 SPCX；多家媒体报道称 SpaceX IPO 融资约 750 亿美元，首日收盘约 160.95 美元。",
+      "summaryEn": "Nasdaq now shows Space Exploration Technologies Corp. Class A Common Stock under SPCX; multiple outlets reported about $75 billion in IPO proceeds and a first-day close around $160.95.",
+      "impact": "SpaceX 已从不可直接交易的主题锚点变成可查询的美股标的；原有 SpaceX/Starlink 可比公司关系需要重标为上市主题关联。",
+      "impactZh": "SpaceX 已从不可直接交易的主题锚点变成可查询的美股标的；原有 SpaceX/Starlink 可比公司关系需要重标为上市主题关联。",
+      "impactEn": "SpaceX has moved from a non-tradable theme anchor to a searchable U.S.-listed stock; existing SpaceX/Starlink comparable-company links should be relabeled as public theme links.",
+      "sourceIds": [
+        "nasdaq-spcx",
+        "businessinsider-spacex-ipo",
+        "marketwatch-spacex-ipo"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "title": "IPO 后估值和收入结构成为核心分歧",
+      "titleZh": "IPO 后估值和收入结构成为核心分歧",
+      "titleEn": "Post-IPO valuation and revenue mix become key debate",
+      "category": "财务",
+      "categoryZh": "财务",
+      "categoryEn": "Financials",
+      "summary": "IPO 报道称 SpaceX FY2025 收入约 187 亿美元，Starlink 是主要收入来源；同时市场对高估值、AI 基础设施资本开支和治理结构保持关注。",
+      "summaryZh": "IPO 报道称 SpaceX FY2025 收入约 187 亿美元，Starlink 是主要收入来源；同时市场对高估值、AI 基础设施资本开支和治理结构保持关注。",
+      "summaryEn": "IPO coverage cited FY2025 revenue of about $18.7 billion and Starlink as the main revenue source, while investors continue to focus on high valuation, AI-infrastructure capex, and governance structure.",
+      "impact": "后续应优先跟踪正式 10-Q/10-K、分部披露和现金流，而不是单日股价叙事。",
+      "impactZh": "后续应优先跟踪正式 10-Q/10-K、分部披露和现金流，而不是单日股价叙事。",
+      "impactEn": "Future updates should prioritize formal 10-Q/10-K filings, segment disclosure, and cash flow rather than one-day trading narratives.",
+      "sourceIds": [
+        "guardian-spacex-ipo",
+        "nypost-spacex-business"
+      ]
+    }
+  ],
+  "filings": [],
+  "sources": [
+    {
+      "id": "nasdaq-spcx",
+      "title": "Space Exploration Technologies Corp. Class A Common Stock (SPCX)",
+      "titleZh": "Space Exploration Technologies Corp. Class A Common Stock (SPCX)",
+      "titleEn": "Space Exploration Technologies Corp. Class A Common Stock (SPCX)",
+      "publisher": "Nasdaq",
+      "url": "https://www.nasdaq.com/market-activity/stocks/spcx",
+      "publishedAt": "2026-06-14",
+      "accessedAt": "2026-06-14",
+      "type": "exchange"
+    },
+    {
+      "id": "businessinsider-spacex-ipo",
+      "title": "SpaceX IPO: SPCX stock rises 19% in its first day of trading",
+      "titleZh": "SpaceX IPO：SPCX 首日上涨约 19%",
+      "titleEn": "SpaceX IPO: SPCX stock rises 19% in its first day of trading",
+      "publisher": "Business Insider",
+      "url": "https://www.businessinsider.com/spacex-ipo-live-updates-pricing-spcx-stock-2026-6",
+      "publishedAt": "2026-06-12",
+      "accessedAt": "2026-06-14",
+      "type": "news"
+    },
+    {
+      "id": "marketwatch-spacex-ipo",
+      "title": "SpaceX's stock closes off its high, but still with a 19% gain",
+      "titleZh": "SpaceX 首日收盘仍上涨约 19%",
+      "titleEn": "SpaceX's stock closes off its high, but still with a 19% gain",
+      "publisher": "MarketWatch",
+      "url": "https://www.marketwatch.com/livecoverage/spacex-ipo-stock-price-trading-elon-musk-spcx/card/spacex-s-stock-closes-off-its-high-but-still-with-an-healthy-19-gain-DVRCrVFNGhsXKNYy3B6l",
+      "publishedAt": "2026-06-12",
+      "accessedAt": "2026-06-14",
+      "type": "news"
+    },
+    {
+      "id": "guardian-spacex-ipo",
+      "title": "SpaceX makes largest ever stock market debut",
+      "titleZh": "SpaceX 完成史上最大规模 IPO 报道",
+      "titleEn": "SpaceX makes largest ever stock market debut",
+      "publisher": "The Guardian",
+      "url": "https://www.theguardian.com/science/2026/jun/12/spacex-stock-price-ipo-spcx",
+      "publishedAt": "2026-06-12",
+      "accessedAt": "2026-06-14",
+      "type": "news"
+    },
+    {
+      "id": "investors-spacex-ipo",
+      "title": "SpaceX Closes 19% Above IPO Pricing",
+      "titleZh": "SpaceX 收盘较 IPO 定价上涨约 19%",
+      "titleEn": "SpaceX Closes 19% Above IPO Pricing",
+      "publisher": "Investor's Business Daily",
+      "url": "https://www.investors.com/news/spacex-ipo-starts-trading/",
+      "publishedAt": "2026-06-12",
+      "accessedAt": "2026-06-14",
+      "type": "news"
+    },
+    {
+      "id": "nypost-spacex-business",
+      "title": "SpaceX's massive bets on Starlink and AI",
+      "titleZh": "SpaceX 在 Starlink 与 AI 上的大型投入报道",
+      "titleEn": "SpaceX's massive bets on Starlink and AI",
+      "publisher": "New York Post",
+      "url": "https://nypost.com/2026/06/12/business/spacexs-massive-bets-on-starlink-ai-fuel-excitement-and-anxiety-across-wall-street/",
+      "publishedAt": "2026-06-12",
+      "accessedAt": "2026-06-14",
+      "type": "news"
+    },
+    {
+      "id": "spacex-falcon9",
+      "title": "Falcon 9",
+      "titleZh": "Falcon 9 火箭",
+      "titleEn": "Falcon 9",
+      "publisher": "SpaceX",
+      "url": "https://www.spacex.com/vehicles/falcon-9/",
+      "accessedAt": "2026-06-14",
+      "type": "company"
+    },
+    {
+      "id": "spacex-starship",
+      "title": "Starship",
+      "titleZh": "Starship 星舰",
+      "titleEn": "Starship",
+      "publisher": "SpaceX",
+      "url": "https://www.spacex.com/vehicles/starship/",
+      "accessedAt": "2026-06-14",
+      "type": "company"
+    },
+    {
+      "id": "starlink-business",
+      "title": "Starlink Business",
+      "titleZh": "Starlink 企业服务",
+      "titleEn": "Starlink Business",
+      "publisher": "Starlink",
+      "url": "https://www.starlink.com/business",
+      "accessedAt": "2026-06-14",
+      "type": "company"
+    },
+    {
+      "id": "nasa-hls",
+      "title": "NASA Picks SpaceX to Land Next Americans on Moon",
+      "titleZh": "NASA 选择 SpaceX 载人登月着陆系统",
+      "titleEn": "NASA Picks SpaceX to Land Next Americans on Moon",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/news-release/as-artemis-moves-forward-nasa-picks-spacex-to-land-next-americans-on-moon/",
+      "publishedAt": "2021-04-16",
+      "accessedAt": "2026-06-14",
+      "type": "company"
+    },
+    {
+      "id": "nasa-commercial-crew",
+      "title": "Commercial Crew Program",
+      "titleZh": "NASA 商业载人航天计划",
+      "titleEn": "Commercial Crew Program",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/humans-in-space/commercial-space/commercial-crew-program/",
+      "accessedAt": "2026-06-14",
+      "type": "company"
+    },
+    {
+      "id": "verge-fcc-direct-cell",
+      "title": "Starlink's direct-to-cell satellite service receives FCC approval",
+      "titleZh": "Starlink 直连手机服务获得 FCC 批准报道",
+      "titleEn": "Starlink's direct-to-cell satellite service receives FCC approval",
+      "publisher": "The Verge",
+      "url": "https://www.theverge.com/2024/11/27/24307394/starlink-spacex-tmobile-direct-to-cell-satellite-fcc-approval",
+      "publishedAt": "2024-11-27",
+      "accessedAt": "2026-06-14",
+      "type": "news"
+    }
+  ],
+  "automation": {
+    "newsFeeds": [
+      {
+        "url": "https://www.nasdaq.com/market-activity/stocks/spcx",
+        "publisher": "Nasdaq",
+        "sourceType": "exchange"
+      },
+      {
+        "url": "https://www.spacex.com/updates/",
+        "publisher": "SpaceX",
+        "sourceType": "company"
+      }
+    ]
+  }
+}

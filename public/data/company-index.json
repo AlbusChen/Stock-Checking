@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T15:30:33.173821Z",
+  "generatedAt": "2026-06-13T19:52:29.963740Z",
   "companies": [
     {
       "id": "cssc-special-gas",
@@ -215,7 +215,37 @@
       ],
       "sector": "Aerospace & Defense / 航空航天与国防",
       "lastUpdated": "2026-06-11T18:45:00+08:00",
-      "summary": "Rocket Lab 是一家上市航天公司，业务覆盖 Electron 发射服务、Neutron 研发以及卫星/航天器系统。它不是 SpaceX 的直接上市替代品，但在 SpaceX IPO 主题中可作为发射与空间系统环节的公开可比公司。"
+      "summary": "Rocket Lab 是一家上市航天公司，业务覆盖 Electron 发射服务、Neutron 研发以及卫星/航天器系统。SpaceX 上市后，Rocket Lab 更适合作为发射与空间系统环节的公开可比/竞争样本。"
+    },
+    {
+      "id": "spcx",
+      "ticker": "SPCX",
+      "name": "SpaceX / 太空探索技术公司",
+      "legalName": "Space Exploration Technologies Corp.",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/spcx.json",
+      "aliases": [
+        "SpaceX",
+        "Space Exploration Technologies",
+        "Space Exploration Technologies Corp",
+        "SPCX",
+        "Starlink",
+        "Starship",
+        "太空探索技术公司",
+        "星链"
+      ],
+      "labels": [
+        "太空",
+        "卫星通信",
+        "发射服务",
+        "国防",
+        "AI",
+        "美股"
+      ],
+      "sector": "Aerospace, satellite communications and AI infrastructure / 航天、卫星通信与 AI 基础设施",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "SpaceX 已在 Nasdaq 以 SPCX 交易。公司业务横跨 Falcon/Starship 发射、Dragon 载人/货运飞船、Starlink 卫星互联网、Starshield/政府航天和新增 AI 基础设施主题；上市后它从 SpaceX IPO 主题锚点变成可直接查询的上市公司。"
     },
     {
       "id": "vsat",

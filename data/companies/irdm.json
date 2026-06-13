@@ -442,9 +442,9 @@
               "name": "SpaceX / Starlink",
               "nameZh": "SpaceX / Starlink",
               "nameEn": "SpaceX / Starlink",
-              "customerRole": "未上市主题标的",
-              "customerRoleZh": "未上市主题标的",
-              "customerRoleEn": "Private theme anchor",
+              "customerRole": "上市主题锚点",
+              "customerRoleZh": "上市主题锚点",
+              "customerRoleEn": "Public listed theme anchor",
               "relationship": "Iridium 与 Starlink 同属卫星连接大赛道，但频段、带宽、终端和客户场景不同。",
               "relationshipZh": "Iridium 与 Starlink 同属卫星连接大赛道，但频段、带宽、终端和客户场景不同。",
               "relationshipEn": "Iridium and Starlink both belong to satellite connectivity, but differ in spectrum, bandwidth, terminals, and customer use cases.",
@@ -464,7 +464,11 @@
                 "irdm-10k-2025"
               ],
               "listing": {
-                "status": "private"
+                "status": "listed",
+                "ticker": "SPCX",
+                "exchange": "NASDAQ",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/spcx"
               },
               "confidence": "medium"
             }

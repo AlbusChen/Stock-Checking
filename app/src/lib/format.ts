@@ -5,6 +5,9 @@ export function formatFinancialValue(value: number, unit: string) {
   if (unit === "USD billions") {
     return `${sign}$${absoluteValue.toLocaleString("en-US", { maximumFractionDigits: absoluteValue >= 100 ? 0 : 3 })}B`;
   }
+  if (unit === "USD trillions") {
+    return `${sign}$${absoluteValue.toLocaleString("en-US", { maximumFractionDigits: absoluteValue >= 100 ? 0 : 3 })}T`;
+  }
   if (unit === "CNY billions") {
     return `${sign}¥${absoluteValue.toLocaleString("en-US", { maximumFractionDigits: absoluteValue >= 100 ? 0 : 3 })}B`;
   }
@@ -27,5 +30,11 @@ export function formatFinancialValue(value: number, unit: string) {
 }
 
 export function isMoneyScale(unit: string) {
-  return unit === "USD billions" || unit === "CNY billions" || unit === "USD millions" || unit === "CNY millions";
+  return (
+    unit === "USD trillions" ||
+    unit === "USD billions" ||
+    unit === "CNY billions" ||
+    unit === "USD millions" ||
+    unit === "CNY millions"
+  );
 }

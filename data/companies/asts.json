@@ -441,9 +441,9 @@
               "name": "SpaceX / Starlink",
               "nameZh": "SpaceX / Starlink",
               "nameEn": "SpaceX / Starlink",
-              "customerRole": "未上市主题标的",
-              "customerRoleZh": "未上市主题标的",
-              "customerRoleEn": "Private theme anchor",
+              "customerRole": "上市主题锚点",
+              "customerRoleZh": "上市主题锚点",
+              "customerRoleEn": "Public listed theme anchor",
               "relationship": "两者均暴露于卫星直连手机和全球连接市场，适合用于 IPO 主题可比分析。",
               "relationshipZh": "两者均暴露于卫星直连手机和全球连接市场，适合用于 IPO 主题可比分析。",
               "relationshipEn": "Both are exposed to direct-to-device satellite connectivity and global coverage markets, making ASTS relevant for IPO-theme comparison.",
@@ -463,7 +463,11 @@
                 "asts-10k-2025"
               ],
               "listing": {
-                "status": "private"
+                "status": "listed",
+                "ticker": "SPCX",
+                "exchange": "NASDAQ",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/spcx"
               },
               "confidence": "medium"
             }

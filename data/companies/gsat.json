@@ -446,9 +446,9 @@
               "name": "SpaceX / Starlink",
               "nameZh": "SpaceX / Starlink",
               "nameEn": "SpaceX / Starlink",
-              "customerRole": "未上市主题标的",
-              "customerRoleZh": "未上市主题标的",
-              "customerRoleEn": "Private theme anchor",
+              "customerRole": "上市主题锚点",
+              "customerRoleZh": "上市主题锚点",
+              "customerRoleEn": "Public listed theme anchor",
               "relationship": "Globalstar 与 Starlink 均涉及设备生态与移动卫星连接，但网络架构和商业模式不同。",
               "relationshipZh": "Globalstar 与 Starlink 均涉及设备生态与移动卫星连接，但网络架构和商业模式不同。",
               "relationshipEn": "Globalstar and Starlink both touch device ecosystems and mobile satellite connectivity, but their network architectures and business models differ.",
@@ -468,7 +468,11 @@
                 "gsat-10k-2025"
               ],
               "listing": {
-                "status": "private"
+                "status": "listed",
+                "ticker": "SPCX",
+                "exchange": "NASDAQ",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/spcx"
               },
               "confidence": "medium"
             }

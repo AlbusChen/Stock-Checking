@@ -443,9 +443,9 @@
               "name": "SpaceX / Starlink",
               "nameZh": "SpaceX / Starlink",
               "nameEn": "SpaceX / Starlink",
-              "customerRole": "未上市主题标的",
-              "customerRoleZh": "未上市主题标的",
-              "customerRoleEn": "Private theme anchor",
+              "customerRole": "上市主题锚点",
+              "customerRoleZh": "上市主题锚点",
+              "customerRoleEn": "Public listed theme anchor",
               "relationship": "Viasat 与 Starlink 在卫星宽带和移动连接市场具有可比/竞争关系。",
               "relationshipZh": "Viasat 与 Starlink 在卫星宽带和移动连接市场具有可比/竞争关系。",
               "relationshipEn": "Viasat and Starlink are comparable/competitive in satellite broadband and mobility connectivity.",
@@ -465,7 +465,11 @@
                 "vsat-10k-2026"
               ],
               "listing": {
-                "status": "private"
+                "status": "listed",
+                "ticker": "SPCX",
+                "exchange": "NASDAQ",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/spcx"
               },
               "confidence": "medium"
             }

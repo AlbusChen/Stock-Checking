@@ -18,9 +18,9 @@
   ],
   "homepage": "https://www.rocketlabusa.com/",
   "lastUpdated": "2026-06-11T18:45:00+08:00",
-  "summary": "Rocket Lab 是一家上市航天公司，业务覆盖 Electron 发射服务、Neutron 研发以及卫星/航天器系统。它不是 SpaceX 的直接上市替代品，但在 SpaceX IPO 主题中可作为发射与空间系统环节的公开可比公司。",
-  "summaryZh": "Rocket Lab 是一家上市航天公司，业务覆盖 Electron 发射服务、Neutron 研发以及卫星/航天器系统。它不是 SpaceX 的直接上市替代品，但在 SpaceX IPO 主题中可作为发射与空间系统环节的公开可比公司。",
-  "summaryEn": "Rocket Lab is a public space company with Electron launch services, Neutron development, and spacecraft/space-systems businesses. It is not a direct public substitute for SpaceX, but it is a public comparable for the launch and space-systems layer of a SpaceX IPO theme.",
+  "summary": "Rocket Lab 是一家上市航天公司，业务覆盖 Electron 发射服务、Neutron 研发以及卫星/航天器系统。SpaceX 上市后，Rocket Lab 更适合作为发射与空间系统环节的公开可比/竞争样本。",
+  "summaryZh": "Rocket Lab 是一家上市航天公司，业务覆盖 Electron 发射服务、Neutron 研发以及卫星/航天器系统。SpaceX 上市后，Rocket Lab 更适合作为发射与空间系统环节的公开可比/竞争样本。",
+  "summaryEn": "Rocket Lab is a public space company with Electron launch services, Neutron development, and spacecraft/space-systems businesses. After the SpaceX listing, Rocket Lab is better treated as a public comparable/competitor for the launch and space-systems layer.",
   "aliases": [
     "Rocket Lab",
     "火箭实验室",
@@ -68,9 +68,9 @@
       "发射服务 / Launch Services",
       "空间系统 / Space Systems"
     ],
-    "thesis": "Rocket Lab 是一家上市航天公司，业务覆盖 Electron 发射服务、Neutron 研发以及卫星/航天器系统。它不是 SpaceX 的直接上市替代品，但在 SpaceX IPO 主题中可作为发射与空间系统环节的公开可比公司。",
-    "thesisZh": "Rocket Lab 是一家上市航天公司，业务覆盖 Electron 发射服务、Neutron 研发以及卫星/航天器系统。它不是 SpaceX 的直接上市替代品，但在 SpaceX IPO 主题中可作为发射与空间系统环节的公开可比公司。",
-    "thesisEn": "Rocket Lab is a public space company with Electron launch services, Neutron development, and spacecraft/space-systems businesses. It is not a direct public substitute for SpaceX, but it is a public comparable for the launch and space-systems layer of a SpaceX IPO theme.",
+    "thesis": "Rocket Lab 是一家上市航天公司，业务覆盖 Electron 发射服务、Neutron 研发以及卫星/航天器系统。SpaceX 上市后，Rocket Lab 更适合作为发射与空间系统环节的公开可比/竞争样本。",
+    "thesisZh": "Rocket Lab 是一家上市航天公司，业务覆盖 Electron 发射服务、Neutron 研发以及卫星/航天器系统。SpaceX 上市后，Rocket Lab 更适合作为发射与空间系统环节的公开可比/竞争样本。",
+    "thesisEn": "Rocket Lab is a public space company with Electron launch services, Neutron development, and spacecraft/space-systems businesses. After the SpaceX listing, Rocket Lab is better treated as a public comparable/competitor for the launch and space-systems layer.",
     "riskNotes": [
       "增长与亏损并存，Neutron 和空间系统投入会影响现金流。",
       "发射排期、任务成功率和政府/商业订单节奏是关键变量。"
@@ -78,9 +78,9 @@
   },
   "supplyChain": {
     "updatedAt": "2026-06-11T18:45:00+08:00",
-    "thesis": "SpaceX IPO 主题下，Rocket Lab 主要代表发射能力与空间系统制造环节；上游关键约束来自发动机/结构件、电子元器件、复合材料和地面/发射场资源。",
-    "thesisZh": "SpaceX IPO 主题下，Rocket Lab 主要代表发射能力与空间系统制造环节；上游关键约束来自发动机/结构件、电子元器件、复合材料和地面/发射场资源。",
-    "thesisEn": "For a SpaceX IPO theme, Rocket Lab mainly represents launch capability and space-system manufacturing; key upstream constraints include propulsion/structures, electronics, composites, and launch-site/ground resources.",
+    "thesis": "SpaceX 上市后，Rocket Lab 主要代表发射能力与空间系统制造环节的公开可比/竞争样本；上游关键约束来自发动机/结构件、电子元器件、复合材料和地面/发射场资源。",
+    "thesisZh": "SpaceX 上市后，Rocket Lab 主要代表发射能力与空间系统制造环节的公开可比/竞争样本；上游关键约束来自发动机/结构件、电子元器件、复合材料和地面/发射场资源。",
+    "thesisEn": "After the SpaceX listing, Rocket Lab mainly represents a public comparable/competitor in launch capability and space-system manufacturing; key upstream constraints include propulsion/structures, electronics, composites, and launch-site/ground resources.",
     "tiers": [
       {
         "id": "tier-0",
@@ -443,9 +443,9 @@
               "name": "SpaceX / Starlink",
               "nameZh": "SpaceX / Starlink",
               "nameEn": "SpaceX / Starlink",
-              "customerRole": "未上市主题标的",
-              "customerRoleZh": "未上市主题标的",
-              "customerRoleEn": "Private theme anchor",
+              "customerRole": "上市主题锚点",
+              "customerRoleZh": "上市主题锚点",
+              "customerRoleEn": "Public listed theme anchor",
               "relationship": "SpaceX 与 Rocket Lab 同处发射和航天系统生态，但本数据未发现需落库的直接客户/供应关系。",
               "relationshipZh": "SpaceX 与 Rocket Lab 同处发射和航天系统生态，但本数据未发现需落库的直接客户/供应关系。",
               "relationshipEn": "SpaceX and Rocket Lab participate in the same launch and space-systems ecosystem, but this dataset does not assert a disclosed direct customer/supplier relationship.",
@@ -465,7 +465,11 @@
                 "rklb-10k-2025"
               ],
               "listing": {
-                "status": "private"
+                "status": "listed",
+                "ticker": "SPCX",
+                "exchange": "NASDAQ",
+                "market": "US",
+                "stockUrl": "https://www.nasdaq.com/market-activity/stocks/spcx"
               },
               "confidence": "medium"
             }
@@ -662,9 +666,9 @@
       "summary": "Q1 2026 收入为 2.00348 亿美元，净亏损为 4,502.2 万美元。",
       "summaryZh": "Q1 2026 收入为 2.00348 亿美元，净亏损为 4,502.2 万美元。",
       "summaryEn": "Q1 2026 revenue was $200.348 million and net loss was $45.022 million.",
-      "impact": "为 SpaceX IPO 主题中的发射/空间系统公开可比对象提供最新财务基准。",
-      "impactZh": "为 SpaceX IPO 主题中的发射/空间系统公开可比对象提供最新财务基准。",
-      "impactEn": "Provides a fresh financial benchmark for a public launch/space-systems comparable in the SpaceX IPO theme.",
+      "impact": "为 SpaceX 上市后发射/空间系统公开可比对象提供最新财务基准。",
+      "impactZh": "为 SpaceX 上市后发射/空间系统公开可比对象提供最新财务基准。",
+      "impactEn": "Provides a fresh financial benchmark for a public launch/space-systems comparable after the SpaceX listing.",
       "sourceIds": [
         "rklb-10q-2026q1",
         "rklb-companyfacts"
