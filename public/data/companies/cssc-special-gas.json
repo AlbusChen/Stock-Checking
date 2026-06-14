@@ -133,7 +133,18 @@
             "confidence": "high",
             "sourceIds": [
               "csscsg-annual-2025"
-            ]
+            ],
+            "relationshipStrength": {
+              "score": 5,
+              "label": "目标公司",
+              "labelZh": "目标公司",
+              "labelEn": "Target company",
+              "direction": "target",
+              "rationale": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleZh": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleEn": "The target company itself, used as the reference point for this supply-chain analysis.",
+              "confidence": "high"
+            }
           }
         ],
         "geography": [
@@ -214,7 +225,18 @@
             "confidence": "high",
             "sourceIds": [
               "csscsg-annual-2025"
-            ]
+            ],
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "Ganzhou Hongfei Tungsten & Molybdenum Materials Co., Ltd.",
@@ -244,7 +266,18 @@
             "confidence": "medium",
             "sourceIds": [
               "csscsg-annual-2025"
-            ]
+            ],
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "CNMC (Tianjin) New Materials Technology Co., Ltd.",
@@ -274,7 +307,18 @@
             "confidence": "medium",
             "sourceIds": [
               "csscsg-annual-2025"
-            ]
+            ],
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "Nanchang Cemented Carbide Co., Ltd.",
@@ -304,7 +348,18 @@
             "confidence": "medium",
             "sourceIds": [
               "csscsg-annual-2025"
-            ]
+            ],
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "Inner Mongolia Power (Group) Co., Ltd. Hohhot Power Supply Branch",
@@ -334,7 +389,18 @@
             "confidence": "high",
             "sourceIds": [
               "csscsg-annual-2025"
-            ]
+            ],
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           }
         ],
         "geography": [
@@ -407,7 +473,18 @@
             "confidence": "medium",
             "sourceIds": [
               "csscsg-annual-2025"
-            ]
+            ],
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "Tungsten and molybdenum upstream producers",
@@ -438,7 +515,18 @@
             "sourceIds": [
               "csscsg-annual-2025",
               "csscsg-ir-20260507"
-            ]
+            ],
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "Rare-gas and bulk-gas upstream suppliers",
@@ -468,7 +556,18 @@
             "confidence": "medium",
             "sourceIds": [
               "csscsg-annual-2025"
-            ]
+            ],
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "Specialty cylinders, valves, purification and analysis equipment ecosystem",
@@ -498,7 +597,18 @@
             "confidence": "medium",
             "sourceIds": [
               "csscsg-annual-2025"
-            ]
+            ],
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           }
         ],
         "geography": [
@@ -686,7 +796,18 @@
               "confidence": "high",
               "sourceIds": [
                 "csscsg-annual-2025"
-              ]
+              ],
+              "relationshipStrength": {
+                "score": 2,
+                "label": "弱相关",
+                "labelZh": "弱相关",
+                "labelEn": "Weak relevance",
+                "direction": "downstream-customer",
+                "rationale": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleZh": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleEn": "The downstream demand relationship helps identify application direction, but it is usually weaker than upstream critical supply and manufacturing bottlenecks.",
+                "confidence": "medium"
+              }
             },
             {
               "name": "Tianma Microelectronics Co., Ltd.",
@@ -721,7 +842,18 @@
               "confidence": "high",
               "sourceIds": [
                 "csscsg-annual-2025"
-              ]
+              ],
+              "relationshipStrength": {
+                "score": 2,
+                "label": "弱相关",
+                "labelZh": "弱相关",
+                "labelEn": "Weak relevance",
+                "direction": "downstream-customer",
+                "rationale": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleZh": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleEn": "The downstream demand relationship helps identify application direction, but it is usually weaker than upstream critical supply and manufacturing bottlenecks.",
+                "confidence": "medium"
+              }
             },
             {
               "name": "Wah Lee Industrial Corp.",
@@ -756,7 +888,18 @@
               "confidence": "medium",
               "sourceIds": [
                 "csscsg-annual-2025"
-              ]
+              ],
+              "relationshipStrength": {
+                "score": 2,
+                "label": "弱相关",
+                "labelZh": "弱相关",
+                "labelEn": "Weak relevance",
+                "direction": "downstream-customer",
+                "rationale": "终端客户代表需求去向，但通常不直接决定上游产能瓶颈。",
+                "rationaleZh": "终端客户代表需求去向，但通常不直接决定上游产能瓶颈。",
+                "rationaleEn": "End customers indicate demand direction but usually do not directly determine upstream capacity bottlenecks.",
+                "confidence": "medium"
+              }
             },
             {
               "name": "Resonac Holdings Corporation",
@@ -791,7 +934,18 @@
               "confidence": "medium",
               "sourceIds": [
                 "csscsg-annual-2025"
-              ]
+              ],
+              "relationshipStrength": {
+                "score": 2,
+                "label": "弱相关",
+                "labelZh": "弱相关",
+                "labelEn": "Weak relevance",
+                "direction": "downstream-customer",
+                "rationale": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleZh": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleEn": "The downstream demand relationship helps identify application direction, but it is usually weaker than upstream critical supply and manufacturing bottlenecks.",
+                "confidence": "medium"
+              }
             },
             {
               "name": "BOE Technology Group Co., Ltd.",
@@ -826,7 +980,18 @@
               "confidence": "high",
               "sourceIds": [
                 "csscsg-annual-2025"
-              ]
+              ],
+              "relationshipStrength": {
+                "score": 2,
+                "label": "弱相关",
+                "labelZh": "弱相关",
+                "labelEn": "Weak relevance",
+                "direction": "downstream-customer",
+                "rationale": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleZh": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleEn": "The downstream demand relationship helps identify application direction, but it is usually weaker than upstream critical supply and manufacturing bottlenecks.",
+                "confidence": "medium"
+              }
             },
             {
               "name": "TCL China Star Optoelectronics Technology Co., Ltd.",
@@ -864,7 +1029,18 @@
               "confidence": "high",
               "sourceIds": [
                 "csscsg-annual-2025"
-              ]
+              ],
+              "relationshipStrength": {
+                "score": 2,
+                "label": "弱相关",
+                "labelZh": "弱相关",
+                "labelEn": "Weak relevance",
+                "direction": "downstream-customer",
+                "rationale": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleZh": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleEn": "The downstream demand relationship helps identify application direction, but it is usually weaker than upstream critical supply and manufacturing bottlenecks.",
+                "confidence": "medium"
+              }
             },
             {
               "name": "Micron Technology, Inc.",
@@ -899,7 +1075,18 @@
               "confidence": "medium",
               "sourceIds": [
                 "csscsg-annual-2025"
-              ]
+              ],
+              "relationshipStrength": {
+                "score": 2,
+                "label": "弱相关",
+                "labelZh": "弱相关",
+                "labelEn": "Weak relevance",
+                "direction": "downstream-customer",
+                "rationale": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleZh": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleEn": "The downstream demand relationship helps identify application direction, but it is usually weaker than upstream critical supply and manufacturing bottlenecks.",
+                "confidence": "medium"
+              }
             }
           ],
           "notes": "销售金额仅对前五大客户披露；其他命名客户来自产品客户示例或业务关系描述，因此关系强度不同。",
@@ -950,7 +1137,18 @@
               "confidence": "high",
               "sourceIds": [
                 "csscsg-annual-2025"
-              ]
+              ],
+              "relationshipStrength": {
+                "score": 2,
+                "label": "弱相关",
+                "labelZh": "弱相关",
+                "labelEn": "Weak relevance",
+                "direction": "downstream-customer",
+                "rationale": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleZh": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleEn": "The downstream demand relationship helps identify application direction, but it is usually weaker than upstream critical supply and manufacturing bottlenecks.",
+                "confidence": "medium"
+              }
             },
             {
               "name": "Display-panel manufacturers",
@@ -983,7 +1181,18 @@
               "confidence": "high",
               "sourceIds": [
                 "csscsg-annual-2025"
-              ]
+              ],
+              "relationshipStrength": {
+                "score": 2,
+                "label": "弱相关",
+                "labelZh": "弱相关",
+                "labelEn": "Weak relevance",
+                "direction": "downstream-customer",
+                "rationale": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleZh": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleEn": "The downstream demand relationship helps identify application direction, but it is usually weaker than upstream critical supply and manufacturing bottlenecks.",
+                "confidence": "medium"
+              }
             },
             {
               "name": "Pharmaceutical and new-energy fluorinated-material customers",
@@ -1019,7 +1228,18 @@
               "confidence": "high",
               "sourceIds": [
                 "csscsg-annual-2025"
-              ]
+              ],
+              "relationshipStrength": {
+                "score": 2,
+                "label": "弱相关",
+                "labelZh": "弱相关",
+                "labelEn": "Weak relevance",
+                "direction": "downstream-customer",
+                "rationale": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleZh": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleEn": "The downstream demand relationship helps identify application direction, but it is usually weaker than upstream critical supply and manufacturing bottlenecks.",
+                "confidence": "medium"
+              }
             }
           ],
           "notes": "这一层把公司产品映射到终端应用，不代表单一客户名单。",
@@ -1603,5 +1823,20 @@
     "特种气体",
     "化工材料",
     "A股"
+  ],
+  "themeExposure": [
+    {
+      "theme": "半导体材料",
+      "themeZh": "半导体材料",
+      "themeEn": "Semiconductor materials",
+      "score": 4,
+      "role": "电子特气关键材料供应商",
+      "roleZh": "电子特气关键材料供应商",
+      "roleEn": "Critical electronic-specialty-gas supplier",
+      "rationale": "电子特气和含氟材料直接进入半导体制造流程，产业扩产时通常比普通下游应用更靠近供给约束。",
+      "rationaleZh": "电子特气和含氟材料直接进入半导体制造流程，产业扩产时通常比普通下游应用更靠近供给约束。",
+      "rationaleEn": "Electronic specialty gases and fluorine-containing materials enter semiconductor manufacturing directly, so they sit closer to supply constraints than ordinary downstream applications during expansion cycles.",
+      "confidence": "medium"
+    }
   ]
 }

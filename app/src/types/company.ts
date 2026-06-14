@@ -10,6 +10,46 @@ export type SourceType =
 
 export type Confidence = "high" | "medium" | "low";
 
+export type RelationshipDirection =
+  | "target"
+  | "upstream-raw-material"
+  | "upstream-component"
+  | "upstream-equipment"
+  | "upstream-manufacturing"
+  | "direct-supplier"
+  | "system-integration"
+  | "downstream-customer"
+  | "indirect-demand"
+  | "peer-theme"
+  | "partner"
+  | "unknown";
+
+export interface RelationshipStrength {
+  score: 1 | 2 | 3 | 4 | 5;
+  label: string;
+  labelZh?: string;
+  labelEn?: string;
+  direction: RelationshipDirection;
+  rationale: string;
+  rationaleZh?: string;
+  rationaleEn?: string;
+  confidence: Confidence;
+}
+
+export interface ThemeExposure {
+  theme: string;
+  themeZh?: string;
+  themeEn?: string;
+  score: 1 | 2 | 3 | 4 | 5;
+  role: string;
+  roleZh?: string;
+  roleEn?: string;
+  rationale: string;
+  rationaleZh?: string;
+  rationaleEn?: string;
+  confidence: Confidence;
+}
+
 export interface CompanyIndexItem {
   id: string;
   ticker: string;
@@ -89,6 +129,7 @@ export interface SupplyChainEntity {
   listing: SupplierListing;
   companyUrl?: string;
   confidence: Confidence;
+  relationshipStrength?: RelationshipStrength;
   sourceIds: string[];
 }
 
@@ -142,6 +183,7 @@ export interface DownstreamEntity {
   listing: SupplierListing;
   companyUrl?: string;
   confidence: Confidence;
+  relationshipStrength?: RelationshipStrength;
   sourceIds: string[];
 }
 
@@ -263,6 +305,7 @@ export interface CompanyReport {
   sector: string;
   industry: string[];
   labels: string[];
+  themeExposure?: ThemeExposure[];
   homepage: string;
   lastUpdated: string;
   summary: string;

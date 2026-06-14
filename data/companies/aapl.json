@@ -170,7 +170,18 @@
               "Apple silicon designs"
             ],
             "nameZh": "苹果",
-            "nameEn": "Apple"
+            "nameEn": "Apple",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "目标公司",
+              "labelZh": "目标公司",
+              "labelEn": "Target company",
+              "direction": "target",
+              "rationale": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleZh": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleEn": "The target company itself, used as the reference point for this supply-chain analysis.",
+              "confidence": "high"
+            }
           }
         ],
         "geography": [
@@ -247,7 +258,18 @@
               "Mechanical integration"
             ],
             "nameZh": "鸿海精密 / 富士康",
-            "nameEn": "Hon Hai Precision / Foxconn"
+            "nameEn": "Hon Hai Precision / Foxconn",
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "upstream-equipment",
+              "rationale": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
+              "rationaleZh": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
+              "rationaleEn": "Sits in process equipment or metrology/inspection, with demand transmitted through foundry, memory, and packaging line expansion.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "Luxshare Precision",
@@ -283,7 +305,18 @@
               "Device assembly"
             ],
             "nameZh": "立讯精密",
-            "nameEn": "Luxshare Precision"
+            "nameEn": "Luxshare Precision",
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "upstream-equipment",
+              "rationale": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
+              "rationaleZh": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
+              "rationaleEn": "Sits in process equipment or metrology/inspection, with demand transmitted through foundry, memory, and packaging line expansion.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "Pegatron",
@@ -319,7 +352,18 @@
               "Mainboard integration"
             ],
             "nameZh": "和硕",
-            "nameEn": "Pegatron"
+            "nameEn": "Pegatron",
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "upstream-equipment",
+              "rationale": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
+              "rationaleZh": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
+              "rationaleEn": "Sits in process equipment or metrology/inspection, with demand transmitted through foundry, memory, and packaging line expansion.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "Compal",
@@ -355,7 +399,18 @@
               "Wearable device manufacturing"
             ],
             "nameZh": "仁宝电脑",
-            "nameEn": "Compal"
+            "nameEn": "Compal",
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "upstream-equipment",
+              "rationale": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
+              "rationaleZh": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
+              "rationaleEn": "Sits in process equipment or metrology/inspection, with demand transmitted through foundry, memory, and packaging line expansion.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "Wistron",
@@ -391,7 +446,18 @@
               "Regional production capacity"
             ],
             "nameZh": "纬创",
-            "nameEn": "Wistron"
+            "nameEn": "Wistron",
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "upstream-equipment",
+              "rationale": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
+              "rationaleZh": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
+              "rationaleEn": "Sits in process equipment or metrology/inspection, with demand transmitted through foundry, memory, and packaging line expansion.",
+              "confidence": "medium"
+            }
           }
         ],
         "geography": [
@@ -476,7 +542,18 @@
               "Foundry services"
             ],
             "nameZh": "台积电",
-            "nameEn": "TSMC"
+            "nameEn": "TSMC",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-manufacturing",
+              "rationale": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleZh": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleEn": "Directly enters critical manufacturing, memory, or packaging layers, strongly affecting capacity, yield, and delivery cadence.",
+              "confidence": "high"
+            }
           },
           {
             "name": "Samsung Display",
@@ -516,7 +593,18 @@
               "Panel technology"
             ],
             "nameZh": "三星显示",
-            "nameEn": "Samsung Display"
+            "nameEn": "Samsung Display",
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "upstream-equipment",
+              "rationale": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
+              "rationaleZh": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
+              "rationaleEn": "Sits in process equipment or metrology/inspection, with demand transmitted through foundry, memory, and packaging line expansion.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "LG Display",
@@ -552,7 +640,18 @@
               "Display components"
             ],
             "nameZh": "乐金显示",
-            "nameEn": "LG Display"
+            "nameEn": "LG Display",
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "upstream-equipment",
+              "rationale": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
+              "rationaleZh": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
+              "rationaleEn": "Sits in process equipment or metrology/inspection, with demand transmitted through foundry, memory, and packaging line expansion.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "Sony Semiconductor Solutions",
@@ -592,7 +691,18 @@
               "Imaging components"
             ],
             "nameZh": "索尼半导体解决方案",
-            "nameEn": "Sony Semiconductor Solutions"
+            "nameEn": "Sony Semiconductor Solutions",
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "system-integration",
+              "rationale": "把关键芯片、网络、散热和整机方案转化为可交付系统，相关性强但通常低于制造瓶颈。",
+              "rationaleZh": "把关键芯片、网络、散热和整机方案转化为可交付系统，相关性强但通常低于制造瓶颈。",
+              "rationaleEn": "Converts chips, networking, cooling, and system design into deliverable systems; strong relevance but usually below manufacturing bottlenecks.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "Murata",
@@ -628,7 +738,18 @@
               "Passive components"
             ],
             "nameZh": "村田制作所",
-            "nameEn": "Murata"
+            "nameEn": "Murata",
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "system-integration",
+              "rationale": "把关键芯片、网络、散热和整机方案转化为可交付系统，相关性强但通常低于制造瓶颈。",
+              "rationaleZh": "把关键芯片、网络、散热和整机方案转化为可交付系统，相关性强但通常低于制造瓶颈。",
+              "rationaleEn": "Converts chips, networking, cooling, and system design into deliverable systems; strong relevance but usually below manufacturing bottlenecks.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "TDK",
@@ -664,7 +785,18 @@
               "Sensors"
             ],
             "nameZh": "TDK",
-            "nameEn": "TDK"
+            "nameEn": "TDK",
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "upstream-equipment",
+              "rationale": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
+              "rationaleZh": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
+              "rationaleEn": "Sits in process equipment or metrology/inspection, with demand transmitted through foundry, memory, and packaging line expansion.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "Sunwoda",
@@ -700,7 +832,18 @@
               "Power modules"
             ],
             "nameZh": "欣旺达",
-            "nameEn": "Sunwoda"
+            "nameEn": "Sunwoda",
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "system-integration",
+              "rationale": "把关键芯片、网络、散热和整机方案转化为可交付系统，相关性强但通常低于制造瓶颈。",
+              "rationaleZh": "把关键芯片、网络、散热和整机方案转化为可交付系统，相关性强但通常低于制造瓶颈。",
+              "rationaleEn": "Converts chips, networking, cooling, and system design into deliverable systems; strong relevance but usually below manufacturing bottlenecks.",
+              "confidence": "medium"
+            }
           }
         ],
         "geography": [
@@ -787,7 +930,18 @@
               "Lithography services"
             ],
             "nameZh": "阿斯麦",
-            "nameEn": "ASML"
+            "nameEn": "ASML",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "Applied Materials",
@@ -822,7 +976,18 @@
               "Process equipment"
             ],
             "nameZh": "应用材料",
-            "nameEn": "Applied Materials"
+            "nameEn": "Applied Materials",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "Lam Research",
@@ -857,7 +1022,18 @@
               "Wafer cleaning equipment"
             ],
             "nameZh": "泛林集团",
-            "nameEn": "Lam Research"
+            "nameEn": "Lam Research",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "Tokyo Electron",
@@ -892,7 +1068,18 @@
               "Etch systems"
             ],
             "nameZh": "东京电子",
-            "nameEn": "Tokyo Electron"
+            "nameEn": "Tokyo Electron",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "KLA",
@@ -927,7 +1114,18 @@
               "Process control"
             ],
             "nameZh": "KLA",
-            "nameEn": "KLA"
+            "nameEn": "KLA",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "Shin-Etsu",
@@ -962,7 +1160,18 @@
               "Semiconductor materials"
             ],
             "nameZh": "信越化学",
-            "nameEn": "Shin-Etsu"
+            "nameEn": "Shin-Etsu",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "SUMCO",
@@ -997,7 +1206,18 @@
               "Epitaxial wafers"
             ],
             "nameZh": "胜高",
-            "nameEn": "SUMCO"
+            "nameEn": "SUMCO",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           }
         ],
         "geography": [
@@ -1169,7 +1389,18 @@
               ],
               "companyUrl": "https://www.apple.com/store",
               "nameZh": "直营零售、在线商店与直销团队",
-              "nameEn": "Direct retail, online store and direct sales force"
+              "nameEn": "Direct retail, online store and direct sales force",
+              "relationshipStrength": {
+                "score": 2,
+                "label": "弱相关",
+                "labelZh": "弱相关",
+                "labelEn": "Weak relevance",
+                "direction": "downstream-customer",
+                "rationale": "终端客户代表需求去向，但通常不直接决定上游产能瓶颈。",
+                "rationaleZh": "终端客户代表需求去向，但通常不直接决定上游产能瓶颈。",
+                "rationaleEn": "End customers indicate demand direction but usually do not directly determine upstream capacity bottlenecks.",
+                "confidence": "medium"
+              }
             },
             {
               "name": "Cellular carriers and resellers",
@@ -1202,7 +1433,18 @@
                 "aapl-10k-2025"
               ],
               "nameZh": "蜂窝网络运营商和经销商",
-              "nameEn": "Cellular carriers and resellers"
+              "nameEn": "Cellular carriers and resellers",
+              "relationshipStrength": {
+                "score": 3,
+                "label": "中相关",
+                "labelZh": "中相关",
+                "labelEn": "Moderate relevance",
+                "direction": "downstream-customer",
+                "rationale": "应用或运营客户能影响订单和收入可见度，但与核心供给瓶颈相比传导更长。",
+                "rationaleZh": "应用或运营客户能影响订单和收入可见度，但与核心供给瓶颈相比传导更长。",
+                "rationaleEn": "Application or operator customers can affect orders and revenue visibility, but the transmission is longer than core supply bottlenecks.",
+                "confidence": "medium"
+              }
             }
           ],
           "notes": "Apple discloses direct and indirect distribution channels; indirect channels include cellular carriers and resellers.",
@@ -1252,7 +1494,18 @@
               ],
               "companyUrl": "https://www.ibm.com/",
               "nameZh": "IBM",
-              "nameEn": "IBM"
+              "nameEn": "IBM",
+              "relationshipStrength": {
+                "score": 2,
+                "label": "弱相关",
+                "labelZh": "弱相关",
+                "labelEn": "Weak relevance",
+                "direction": "downstream-customer",
+                "rationale": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleZh": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleEn": "The downstream demand relationship helps identify application direction, but it is usually weaker than upstream critical supply and manufacturing bottlenecks.",
+                "confidence": "medium"
+              }
             },
             {
               "name": "Accenture",
@@ -1287,7 +1540,18 @@
               ],
               "companyUrl": "https://www.accenture.com/",
               "nameZh": "埃森哲",
-              "nameEn": "Accenture"
+              "nameEn": "Accenture",
+              "relationshipStrength": {
+                "score": 2,
+                "label": "弱相关",
+                "labelZh": "弱相关",
+                "labelEn": "Weak relevance",
+                "direction": "downstream-customer",
+                "rationale": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleZh": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleEn": "The downstream demand relationship helps identify application direction, but it is usually weaker than upstream critical supply and manufacturing bottlenecks.",
+                "confidence": "medium"
+              }
             },
             {
               "name": "Salesforce",
@@ -1322,7 +1586,18 @@
               ],
               "companyUrl": "https://www.salesforce.com/",
               "nameZh": "赛富时",
-              "nameEn": "Salesforce"
+              "nameEn": "Salesforce",
+              "relationshipStrength": {
+                "score": 2,
+                "label": "弱相关",
+                "labelZh": "弱相关",
+                "labelEn": "Weak relevance",
+                "direction": "downstream-customer",
+                "rationale": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleZh": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleEn": "The downstream demand relationship helps identify application direction, but it is usually weaker than upstream critical supply and manufacturing bottlenecks.",
+                "confidence": "medium"
+              }
             }
           ],
           "notes": "These are ecosystem and route-to-market partners rather than simple purchase customers; they help take Apple devices, OS frameworks and services into enterprise workflows.",
@@ -2072,5 +2347,20 @@
     "软件服务",
     "AI生态",
     "美股"
+  ],
+  "themeExposure": [
+    {
+      "theme": "消费电子与 AI 终端",
+      "themeZh": "消费电子与 AI 终端",
+      "themeEn": "Consumer electronics and AI endpoints",
+      "score": 3,
+      "role": "终端生态锚点",
+      "roleZh": "终端生态锚点",
+      "roleEn": "Endpoint ecosystem anchor",
+      "rationale": "公司通过终端硬件、芯片设计和服务生态影响上游需求，但在半导体热潮中通常不如关键制造和材料环节紧密。",
+      "rationaleZh": "公司通过终端硬件、芯片设计和服务生态影响上游需求，但在半导体热潮中通常不如关键制造和材料环节紧密。",
+      "rationaleEn": "The company affects upstream demand through devices, chip design, and services, but in a semiconductor boom it is usually less tightly linked than critical manufacturing and materials layers.",
+      "confidence": "medium"
+    }
   ]
 }

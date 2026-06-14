@@ -12,7 +12,15 @@ import {
 import { useMemo, useState } from "react";
 import { formatFinancialValue } from "../lib/format";
 import { combineLocalized, localizedField, localizedList } from "../lib/localization";
-import type { BusinessSegment, CompanyReport, DownstreamChain, Source, SupplierListing } from "../types/company";
+import type {
+  BusinessSegment,
+  CompanyReport,
+  DownstreamChain,
+  RelationshipStrength,
+  Source,
+  SupplierListing,
+  ThemeExposure,
+} from "../types/company";
 import { FinancialTrendCharts } from "./FinancialTrendCharts";
 import { MetricStrip } from "./MetricStrip";
 import { TextPair } from "./TextPair";
@@ -126,6 +134,87 @@ function quoteHref(report: CompanyReport) {
   return `https://quote.eastmoney.com/${cnQuoteSymbol(report.ticker, report.exchange)}.html`;
 }
 
+function strengthClass(score: number) {
+  if (score >= 5) return "strength-5";
+  if (score >= 4) return "strength-4";
+  if (score >= 3) return "strength-3";
+  if (score >= 2) return "strength-2";
+  return "strength-1";
+}
+
+function RelationshipStrengthBadge({ strength }: { strength?: RelationshipStrength }) {
+  if (!strength) return null;
+
+  return (
+    <div className={`relationship-strength ${strengthClass(strength.score)}`}>
+      <strong>
+        <TextPair text={localizedField(strength, "label")} />
+      </strong>
+      <span>{strength.score}/5</span>
+    </div>
+  );
+}
+
+function RelationshipStrengthNote({ strength }: { strength?: RelationshipStrength }) {
+  if (!strength) return null;
+
+  return (
+    <div className="strength-note">
+      <p>
+        <TextPair text={localizedField(strength, "rationale")} />
+      </p>
+    </div>
+  );
+}
+
+function ThemeExposureStrip({ exposures = [] }: { exposures?: ThemeExposure[] }) {
+  if (exposures.length === 0) return null;
+
+  return (
+    <div className="theme-exposure-strip" aria-label="theme exposure">
+      {exposures.map((exposure) => (
+        <div className={`theme-exposure-chip ${strengthClass(exposure.score)}`} key={exposure.theme}>
+          <span>
+            <TextPair text={localizedField(exposure, "theme")} />
+          </span>
+          <strong>
+            <TextPair text={localizedField(exposure, "role")} />
+          </strong>
+          <em>{exposure.score}/5</em>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function ThemeExposurePanel({ exposures = [] }: { exposures?: ThemeExposure[] }) {
+  if (exposures.length === 0) return null;
+
+  return (
+    <article className="info-card wide exposure-panel">
+      <h2>相关性提示</h2>
+      <div className="exposure-list">
+        {exposures.map((exposure) => (
+          <section className={`exposure-item ${strengthClass(exposure.score)}`} key={exposure.theme}>
+            <div>
+              <span>
+                <TextPair text={localizedField(exposure, "theme")} />
+              </span>
+              <strong>
+                <TextPair text={localizedField(exposure, "role")} />
+              </strong>
+            </div>
+            <em>{exposure.score}/5</em>
+            <p>
+              <TextPair text={localizedField(exposure, "rationale")} />
+            </p>
+          </section>
+        ))}
+      </div>
+    </article>
+  );
+}
+
 function DownstreamPanel({
   downstream,
   sources,
@@ -174,11 +263,13 @@ function DownstreamPanel({
                       ) : (
                         <span className="listing-status">{listingText(entity.listing)}</span>
                       )}
+                      <RelationshipStrengthBadge strength={entity.relationshipStrength} />
                     </div>
                     <div className="supplier-detail">
                       <p>
                         <TextPair text={localizedField(entity, "relationship")} />
                       </p>
+                      <RelationshipStrengthNote strength={entity.relationshipStrength} />
                       <div className="supplier-tags">
                         {localizedList(entity, "productsServices").map((item) => (
                           <span className="pill" key={`${entity.name}-${item.zh}`}>
@@ -241,6 +332,7 @@ export function CompanyDetail({ report }: CompanyDetailProps) {
             ))}
           </div>
           <p>{report.summary}</p>
+          <ThemeExposureStrip exposures={report.themeExposure} />
         </div>
         <div className="freshness">
           <ShieldCheck size={18} aria-hidden="true" />
@@ -271,6 +363,7 @@ export function CompanyDetail({ report }: CompanyDetailProps) {
             <h2>判断摘要</h2>
             <p>{report.business.thesis}</p>
           </article>
+          <ThemeExposurePanel exposures={report.themeExposure} />
           <article className="info-card">
             <h2>更新频率</h2>
             <dl className="cadence">
@@ -352,11 +445,13 @@ export function CompanyDetail({ report }: CompanyDetailProps) {
                           {entity.listing.note ? (
                             <TextPair className="listing-note" text={localizedField(entity.listing, "note")} />
                           ) : null}
+                          <RelationshipStrengthBadge strength={entity.relationshipStrength} />
                         </div>
                         <div className="supplier-detail">
                           <p>
                             <TextPair text={localizedField(entity, "relationship")} />
                           </p>
+                          <RelationshipStrengthNote strength={entity.relationshipStrength} />
                           <div className="supplier-tags">
                             {localizedList(entity, "productsServices").map((item) => (
                               <span className="pill" key={`${entity.name}-${item.zh}`}>

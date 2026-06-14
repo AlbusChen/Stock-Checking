@@ -137,7 +137,18 @@
               "Advanced packaging"
             ],
             "nameZh": "英特尔",
-            "nameEn": "Intel"
+            "nameEn": "Intel",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "目标公司",
+              "labelZh": "目标公司",
+              "labelEn": "Target company",
+              "direction": "target",
+              "rationale": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleZh": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleEn": "The target company itself, used as the reference point for this supply-chain analysis.",
+              "confidence": "high"
+            }
           }
         ],
         "geography": [
@@ -220,7 +231,18 @@
               "Lithography services"
             ],
             "nameZh": "阿斯麦",
-            "nameEn": "ASML"
+            "nameEn": "ASML",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-manufacturing",
+              "rationale": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleZh": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleEn": "Directly enters critical manufacturing, memory, or packaging layers, strongly affecting capacity, yield, and delivery cadence.",
+              "confidence": "high"
+            }
           },
           {
             "name": "Applied Materials",
@@ -255,7 +277,18 @@
               "Process equipment"
             ],
             "nameZh": "应用材料",
-            "nameEn": "Applied Materials"
+            "nameEn": "Applied Materials",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-manufacturing",
+              "rationale": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleZh": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleEn": "Directly enters critical manufacturing, memory, or packaging layers, strongly affecting capacity, yield, and delivery cadence.",
+              "confidence": "high"
+            }
           },
           {
             "name": "Lam Research",
@@ -290,7 +323,18 @@
               "Wafer cleaning equipment"
             ],
             "nameZh": "泛林集团",
-            "nameEn": "Lam Research"
+            "nameEn": "Lam Research",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-manufacturing",
+              "rationale": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleZh": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleEn": "Directly enters critical manufacturing, memory, or packaging layers, strongly affecting capacity, yield, and delivery cadence.",
+              "confidence": "high"
+            }
           },
           {
             "name": "Tokyo Electron",
@@ -325,7 +369,18 @@
               "Etch systems"
             ],
             "nameZh": "东京电子",
-            "nameEn": "Tokyo Electron"
+            "nameEn": "Tokyo Electron",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-manufacturing",
+              "rationale": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleZh": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleEn": "Directly enters critical manufacturing, memory, or packaging layers, strongly affecting capacity, yield, and delivery cadence.",
+              "confidence": "high"
+            }
           },
           {
             "name": "KLA",
@@ -360,7 +415,18 @@
               "Process control"
             ],
             "nameZh": "KLA",
-            "nameEn": "KLA"
+            "nameEn": "KLA",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-manufacturing",
+              "rationale": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleZh": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleEn": "Directly enters critical manufacturing, memory, or packaging layers, strongly affecting capacity, yield, and delivery cadence.",
+              "confidence": "high"
+            }
           }
         ],
         "geography": [
@@ -444,7 +510,18 @@
               "Chiplet manufacturing"
             ],
             "nameZh": "台积电",
-            "nameEn": "TSMC"
+            "nameEn": "TSMC",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-manufacturing",
+              "rationale": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleZh": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleEn": "Directly enters critical manufacturing, memory, or packaging layers, strongly affecting capacity, yield, and delivery cadence.",
+              "confidence": "high"
+            }
           },
           {
             "name": "ASE Technology",
@@ -479,7 +556,18 @@
               "Semiconductor test"
             ],
             "nameZh": "日月光投控",
-            "nameEn": "ASE Technology"
+            "nameEn": "ASE Technology",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-manufacturing",
+              "rationale": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleZh": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleEn": "Directly enters critical manufacturing, memory, or packaging layers, strongly affecting capacity, yield, and delivery cadence.",
+              "confidence": "high"
+            }
           },
           {
             "name": "Amkor",
@@ -514,7 +602,18 @@
               "Advanced packages"
             ],
             "nameZh": "安靠科技",
-            "nameEn": "Amkor"
+            "nameEn": "Amkor",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-manufacturing",
+              "rationale": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleZh": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleEn": "Directly enters critical manufacturing, memory, or packaging layers, strongly affecting capacity, yield, and delivery cadence.",
+              "confidence": "high"
+            }
           },
           {
             "name": "Ibiden",
@@ -549,7 +648,18 @@
               "Organic substrates"
             ],
             "nameZh": "揖斐电",
-            "nameEn": "Ibiden"
+            "nameEn": "Ibiden",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-manufacturing",
+              "rationale": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleZh": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleEn": "Directly enters critical manufacturing, memory, or packaging layers, strongly affecting capacity, yield, and delivery cadence.",
+              "confidence": "high"
+            }
           },
           {
             "name": "Unimicron",
@@ -584,7 +694,18 @@
               "HDI boards"
             ],
             "nameZh": "欣兴电子",
-            "nameEn": "Unimicron"
+            "nameEn": "Unimicron",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-manufacturing",
+              "rationale": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleZh": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleEn": "Directly enters critical manufacturing, memory, or packaging layers, strongly affecting capacity, yield, and delivery cadence.",
+              "confidence": "high"
+            }
           },
           {
             "name": "Shinko Electric Industries",
@@ -620,7 +741,18 @@
               "Lead frames"
             ],
             "nameZh": "新光电气工业",
-            "nameEn": "Shinko Electric Industries"
+            "nameEn": "Shinko Electric Industries",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-manufacturing",
+              "rationale": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleZh": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
+              "rationaleEn": "Directly enters critical manufacturing, memory, or packaging layers, strongly affecting capacity, yield, and delivery cadence.",
+              "confidence": "high"
+            }
           }
         ],
         "geography": [
@@ -702,7 +834,18 @@
               "Semiconductor materials"
             ],
             "nameZh": "信越化学",
-            "nameEn": "Shin-Etsu"
+            "nameEn": "Shin-Etsu",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "SUMCO",
@@ -737,7 +880,18 @@
               "Epitaxial wafers"
             ],
             "nameZh": "胜高",
-            "nameEn": "SUMCO"
+            "nameEn": "SUMCO",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "JSR",
@@ -773,7 +927,18 @@
               "Semiconductor chemicals"
             ],
             "nameZh": "JSR",
-            "nameEn": "JSR"
+            "nameEn": "JSR",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "Entegris",
@@ -808,7 +973,18 @@
               "CMP consumables"
             ],
             "nameZh": "英特格",
-            "nameEn": "Entegris"
+            "nameEn": "Entegris",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "Linde",
@@ -843,7 +1019,18 @@
               "On-site gas supply"
             ],
             "nameZh": "林德",
-            "nameEn": "Linde"
+            "nameEn": "Linde",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "Air Liquide",
@@ -878,7 +1065,18 @@
               "On-site gas systems"
             ],
             "nameZh": "液化空气",
-            "nameEn": "Air Liquide"
+            "nameEn": "Air Liquide",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           }
         ],
         "geography": [
@@ -1053,7 +1251,18 @@
               ],
               "companyUrl": "https://www.dell.com/",
               "nameZh": "戴尔科技",
-              "nameEn": "Dell Technologies"
+              "nameEn": "Dell Technologies",
+              "relationshipStrength": {
+                "score": 2,
+                "label": "弱相关",
+                "labelZh": "弱相关",
+                "labelEn": "Weak relevance",
+                "direction": "downstream-customer",
+                "rationale": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleZh": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleEn": "The downstream demand relationship helps identify application direction, but it is usually weaker than upstream critical supply and manufacturing bottlenecks.",
+                "confidence": "medium"
+              }
             },
             {
               "name": "HP Inc.",
@@ -1088,7 +1297,18 @@
               ],
               "companyUrl": "https://www.hp.com/",
               "nameZh": "惠普",
-              "nameEn": "HP Inc."
+              "nameEn": "HP Inc.",
+              "relationshipStrength": {
+                "score": 2,
+                "label": "弱相关",
+                "labelZh": "弱相关",
+                "labelEn": "Weak relevance",
+                "direction": "downstream-customer",
+                "rationale": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleZh": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleEn": "The downstream demand relationship helps identify application direction, but it is usually weaker than upstream critical supply and manufacturing bottlenecks.",
+                "confidence": "medium"
+              }
             },
             {
               "name": "Lenovo",
@@ -1123,7 +1343,18 @@
               ],
               "companyUrl": "https://www.lenovo.com/",
               "nameZh": "联想",
-              "nameEn": "Lenovo"
+              "nameEn": "Lenovo",
+              "relationshipStrength": {
+                "score": 2,
+                "label": "弱相关",
+                "labelZh": "弱相关",
+                "labelEn": "Weak relevance",
+                "direction": "downstream-customer",
+                "rationale": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleZh": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleEn": "The downstream demand relationship helps identify application direction, but it is usually weaker than upstream critical supply and manufacturing bottlenecks.",
+                "confidence": "medium"
+              }
             },
             {
               "name": "Microsoft Surface",
@@ -1158,7 +1389,18 @@
               ],
               "companyUrl": "https://www.microsoft.com/surface",
               "nameZh": "微软 Surface",
-              "nameEn": "Microsoft Surface"
+              "nameEn": "Microsoft Surface",
+              "relationshipStrength": {
+                "score": 3,
+                "label": "中相关",
+                "labelZh": "中相关",
+                "labelEn": "Moderate relevance",
+                "direction": "downstream-customer",
+                "rationale": "大型云或平台客户会影响需求预期，但传导链条位于采购和应用端，弱于供给瓶颈。",
+                "rationaleZh": "大型云或平台客户会影响需求预期，但传导链条位于采购和应用端，弱于供给瓶颈。",
+                "rationaleEn": "Large cloud or platform customers affect demand expectations, but the transmission sits on the purchasing and application side and is weaker than supply bottlenecks.",
+                "confidence": "medium"
+              }
             }
           ],
           "notes": "Intel discloses OEM design momentum for AI PCs and vPro; these partners convert Intel CPUs into commercial notebooks, desktops and workstations.",
@@ -1208,7 +1450,18 @@
               ],
               "companyUrl": "https://www.dell.com/",
               "nameZh": "戴尔科技",
-              "nameEn": "Dell Technologies"
+              "nameEn": "Dell Technologies",
+              "relationshipStrength": {
+                "score": 3,
+                "label": "中相关",
+                "labelZh": "中相关",
+                "labelEn": "Moderate relevance",
+                "direction": "downstream-customer",
+                "rationale": "大型云或平台客户会影响需求预期，但传导链条位于采购和应用端，弱于供给瓶颈。",
+                "rationaleZh": "大型云或平台客户会影响需求预期，但传导链条位于采购和应用端，弱于供给瓶颈。",
+                "rationaleEn": "Large cloud or platform customers affect demand expectations, but the transmission sits on the purchasing and application side and is weaker than supply bottlenecks.",
+                "confidence": "medium"
+              }
             },
             {
               "name": "Hewlett Packard Enterprise",
@@ -1243,7 +1496,18 @@
               ],
               "companyUrl": "https://www.hpe.com/",
               "nameZh": "慧与科技",
-              "nameEn": "Hewlett Packard Enterprise"
+              "nameEn": "Hewlett Packard Enterprise",
+              "relationshipStrength": {
+                "score": 3,
+                "label": "中相关",
+                "labelZh": "中相关",
+                "labelEn": "Moderate relevance",
+                "direction": "downstream-customer",
+                "rationale": "大型云或平台客户会影响需求预期，但传导链条位于采购和应用端，弱于供给瓶颈。",
+                "rationaleZh": "大型云或平台客户会影响需求预期，但传导链条位于采购和应用端，弱于供给瓶颈。",
+                "rationaleEn": "Large cloud or platform customers affect demand expectations, but the transmission sits on the purchasing and application side and is weaker than supply bottlenecks.",
+                "confidence": "medium"
+              }
             },
             {
               "name": "Super Micro Computer",
@@ -1278,7 +1542,18 @@
               ],
               "companyUrl": "https://www.supermicro.com/",
               "nameZh": "超微电脑",
-              "nameEn": "Super Micro Computer"
+              "nameEn": "Super Micro Computer",
+              "relationshipStrength": {
+                "score": 3,
+                "label": "中相关",
+                "labelZh": "中相关",
+                "labelEn": "Moderate relevance",
+                "direction": "downstream-customer",
+                "rationale": "大型云或平台客户会影响需求预期，但传导链条位于采购和应用端，弱于供给瓶颈。",
+                "rationaleZh": "大型云或平台客户会影响需求预期，但传导链条位于采购和应用端，弱于供给瓶颈。",
+                "rationaleEn": "Large cloud or platform customers affect demand expectations, but the transmission sits on the purchasing and application side and is weaker than supply bottlenecks.",
+                "confidence": "medium"
+              }
             }
           ],
           "notes": "Server OEMs turn Intel Xeon platforms into enterprise, cloud and telecom infrastructure systems.",
@@ -1328,7 +1603,18 @@
               ],
               "companyUrl": "https://www.microsoft.com/",
               "nameZh": "微软",
-              "nameEn": "Microsoft"
+              "nameEn": "Microsoft",
+              "relationshipStrength": {
+                "score": 3,
+                "label": "中相关",
+                "labelZh": "中相关",
+                "labelEn": "Moderate relevance",
+                "direction": "downstream-customer",
+                "rationale": "大型云或平台客户会影响需求预期，但传导链条位于采购和应用端，弱于供给瓶颈。",
+                "rationaleZh": "大型云或平台客户会影响需求预期，但传导链条位于采购和应用端，弱于供给瓶颈。",
+                "rationaleEn": "Large cloud or platform customers affect demand expectations, but the transmission sits on the purchasing and application side and is weaker than supply bottlenecks.",
+                "confidence": "medium"
+              }
             }
           ],
           "notes": "Intel Foundry is the clearest example of Intel moving from an internal-product company into a supplier for other chip designers.",
@@ -2075,5 +2361,20 @@
     "晶圆代工",
     "数据中心",
     "美股"
+  ],
+  "themeExposure": [
+    {
+      "theme": "半导体制造与算力",
+      "themeZh": "半导体制造与算力",
+      "themeEn": "Semiconductor manufacturing and compute",
+      "score": 4,
+      "role": "CPU 与晶圆代工平台",
+      "roleZh": "CPU 与晶圆代工平台",
+      "roleEn": "CPU and foundry platform",
+      "rationale": "公司同时处于计算芯片和制造产能端，相关性强于单纯下游采购方，但其 AI GPU 生态不是当前最核心瓶颈。",
+      "rationaleZh": "公司同时处于计算芯片和制造产能端，相关性强于单纯下游采购方，但其 AI GPU 生态不是当前最核心瓶颈。",
+      "rationaleEn": "The company spans compute chips and manufacturing capacity, stronger than a pure downstream buyer, though its AI GPU ecosystem is not the current central bottleneck.",
+      "confidence": "medium"
+    }
   ]
 }

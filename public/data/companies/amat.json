@@ -127,7 +127,18 @@
               "amat-homepage",
               "amat-nasdaq-quote"
             ],
-            "companyUrl": "https://www.appliedmaterials.com/"
+            "companyUrl": "https://www.appliedmaterials.com/",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "目标公司",
+              "labelZh": "目标公司",
+              "labelEn": "Target company",
+              "direction": "target",
+              "rationale": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleZh": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleEn": "The target company itself, used as the reference point for this supply-chain analysis.",
+              "confidence": "high"
+            }
           }
         ],
         "geography": [
@@ -198,7 +209,18 @@
             "confidence": "medium",
             "sourceIds": [
               "amat-homepage"
-            ]
+            ],
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "upstream-raw-material",
+              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
+              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "confidence": "medium"
+            }
           }
         ],
         "geography": [
@@ -360,7 +382,18 @@
               "companyUrl": "https://www.tsmc.com/english",
               "customerRole": "晶圆厂客户 / 设备需求方",
               "customerRoleZh": "晶圆厂客户 / 设备需求方",
-              "customerRoleEn": "Foundry customer / equipment-demand source"
+              "customerRoleEn": "Foundry customer / equipment-demand source",
+              "relationshipStrength": {
+                "score": 3,
+                "label": "中相关",
+                "labelZh": "中相关",
+                "labelEn": "Moderate relevance",
+                "direction": "indirect-demand",
+                "rationale": "NVIDIA 需求通过晶圆厂、存储厂或封装投资间接传导，不等同于直接采购关系。",
+                "rationaleZh": "NVIDIA 需求通过晶圆厂、存储厂或封装投资间接传导，不等同于直接采购关系。",
+                "rationaleEn": "NVIDIA demand transmits indirectly through foundry, memory, or packaging investment and is not the same as a direct purchasing relationship.",
+                "confidence": "medium"
+              }
             },
             {
               "name": "NVIDIA Corporation / 英伟达",
@@ -395,7 +428,18 @@
               "companyUrl": "https://www.nvidia.com/",
               "customerRole": "间接需求驱动方",
               "customerRoleZh": "间接需求驱动方",
-              "customerRoleEn": "Indirect demand driver"
+              "customerRoleEn": "Indirect demand driver",
+              "relationshipStrength": {
+                "score": 3,
+                "label": "中相关",
+                "labelZh": "中相关",
+                "labelEn": "Moderate relevance",
+                "direction": "indirect-demand",
+                "rationale": "NVIDIA 需求通过晶圆厂、存储厂或封装投资间接传导，不等同于直接采购关系。",
+                "rationaleZh": "NVIDIA 需求通过晶圆厂、存储厂或封装投资间接传导，不等同于直接采购关系。",
+                "rationaleEn": "NVIDIA demand transmits indirectly through foundry, memory, or packaging investment and is not the same as a direct purchasing relationship.",
+                "confidence": "medium"
+              }
             }
           ],
           "notes": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
@@ -843,5 +887,20 @@
         "sourceType": "company"
       }
     ]
-  }
+  },
+  "themeExposure": [
+    {
+      "theme": "英伟达相关",
+      "themeZh": "英伟达相关",
+      "themeEn": "NVIDIA-related",
+      "score": 4,
+      "role": "上游制程设备",
+      "roleZh": "上游制程设备",
+      "roleEn": "Upstream process equipment",
+      "rationale": "沉积、刻蚀和材料工程设备通过先进逻辑、存储和封装扩产间接传导 AI 需求。",
+      "rationaleZh": "沉积、刻蚀和材料工程设备通过先进逻辑、存储和封装扩产间接传导 AI 需求。",
+      "rationaleEn": "Deposition, etch, and materials-engineering tools transmit AI demand indirectly through advanced logic, memory, and packaging expansion.",
+      "confidence": "medium"
+    }
+  ]
 }

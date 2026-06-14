@@ -45,11 +45,13 @@ python3 scripts/research_pipeline.py --target 600519 --market CN --exchange SSE 
    - 财务 highlights、trends、revenueMix、revenueMixHistory；
    - 供应商、供应商上游、原材料；
    - 下游客户和对应上市代码；
+   - 公司级主题暴露 `themeExposure` 与实体级关系强度 `relationshipStrength`；
    - 最新动态与影响判断。
 4. 写入或更新 `public/data/companies/<id>.json`。
 5. 运行校验和构建：
 
 ```bash
+python3 scripts/apply_relationship_strength.py
 python3 scripts/build_company_index.py
 python3 scripts/validate_data.py
 npm run sync:pages
@@ -59,6 +61,7 @@ npm run sync:pages
 
 - [SpaceX IPO 主题批量新增质量记录](./spacex-ipo-batch-quality.md)
 - [NVIDIA 相关上市公司批量新增质量记录](./nvidia-related-batch-quality.md)
+- [产业链关系强度评分](./relationship-strength-scoring.md)
 
 ## 定时任务状态
 

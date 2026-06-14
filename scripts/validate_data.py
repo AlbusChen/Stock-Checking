@@ -38,6 +38,20 @@ REQUIRED_TOP_LEVEL = {
 
 LISTING_STATUSES = {"listed", "listed-parent", "private", "delisted", "unknown"}
 CONFIDENCE_LEVELS = {"high", "medium", "low"}
+RELATIONSHIP_DIRECTIONS = {
+    "target",
+    "upstream-raw-material",
+    "upstream-component",
+    "upstream-equipment",
+    "upstream-manufacturing",
+    "direct-supplier",
+    "system-integration",
+    "downstream-customer",
+    "indirect-demand",
+    "peer-theme",
+    "partner",
+    "unknown",
+}
 
 
 def has_cjk(value: str) -> bool:
@@ -117,6 +131,38 @@ def validate_listing(errors: list[str], path: Path, listing: object, label: str)
             errors.append(f"{path.name}: listed-parent {label} needs parentStockUrl")
 
 
+def validate_score(errors: list[str], path: Path, score: object, label: str) -> None:
+    if not isinstance(score, int) or score < 1 or score > 5:
+        errors.append(f"{path.name}: {label} score must be an integer from 1 to 5")
+
+
+def validate_relationship_strength(errors: list[str], path: Path, item: object, label: str) -> None:
+    if not isinstance(item, dict):
+        errors.append(f"{path.name}: {label} needs relationshipStrength")
+        return
+
+    validate_score(errors, path, item.get("score"), label)
+    if item.get("direction") not in RELATIONSHIP_DIRECTIONS:
+        errors.append(f"{path.name}: {label} has invalid relationship direction {item.get('direction')}")
+    if item.get("confidence") not in CONFIDENCE_LEVELS:
+        errors.append(f"{path.name}: {label} relationshipStrength needs confidence")
+    require_localized(errors, path, item, "label", label)
+    require_localized(errors, path, item, "rationale", label)
+
+
+def validate_theme_exposure(errors: list[str], path: Path, exposure: object, label: str) -> None:
+    if not isinstance(exposure, dict):
+        errors.append(f"{path.name}: {label} must be an object")
+        return
+
+    validate_score(errors, path, exposure.get("score"), label)
+    if exposure.get("confidence") not in CONFIDENCE_LEVELS:
+        errors.append(f"{path.name}: {label} needs confidence")
+    require_localized(errors, path, exposure, "theme", label)
+    require_localized(errors, path, exposure, "role", label)
+    require_localized(errors, path, exposure, "rationale", label)
+
+
 def validate_report(path: Path) -> list[str]:
     errors: list[str] = []
     try:
@@ -138,6 +184,13 @@ def validate_report(path: Path) -> list[str]:
         or not all(isinstance(label, str) and label.strip() for label in labels)
     ):
         errors.append(f"{path.name}: labels must be a non-empty string list")
+
+    theme_exposure = report.get("themeExposure")
+    if not isinstance(theme_exposure, list) or not theme_exposure:
+        errors.append(f"{path.name}: needs themeExposure list")
+    else:
+        for index, exposure in enumerate(theme_exposure):
+            validate_theme_exposure(errors, path, exposure, f"themeExposure[{index}]")
 
     source_ids = {source.get("id") for source in report.get("sources", [])}
     if None in source_ids:
@@ -248,6 +301,12 @@ def validate_report(path: Path) -> list[str]:
                 errors.append(f"{path.name}: supplier {name} needs sourceIds")
 
             validate_listing(errors, path, entity.get("listing"), f"supplier {name}")
+            validate_relationship_strength(
+                errors,
+                path,
+                entity.get("relationshipStrength"),
+                f"supplier {name} relationshipStrength",
+            )
 
     raw_materials = report.get("supplyChain", {}).get("rawMaterials")
     if not isinstance(raw_materials, list) or not raw_materials:
@@ -297,6 +356,12 @@ def validate_report(path: Path) -> list[str]:
                     if not entity.get("sourceIds"):
                         errors.append(f"{path.name}: downstream customer {name} needs sourceIds")
                     validate_listing(errors, path, entity.get("listing"), f"downstream customer {name}")
+                    validate_relationship_strength(
+                        errors,
+                        path,
+                        entity.get("relationshipStrength"),
+                        f"downstream customer {name} relationshipStrength",
+                    )
 
     for filing in report.get("filings", []):
         form = filing.get("form", "unnamed filing")

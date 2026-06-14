@@ -117,7 +117,18 @@
               "market": "US",
               "stockUrl": "https://www.nasdaq.com/market-activity/stocks/vsat"
             },
-            "confidence": "high"
+            "confidence": "high",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "目标公司",
+              "labelZh": "目标公司",
+              "labelEn": "Target company",
+              "direction": "target",
+              "rationale": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleZh": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleEn": "The target company itself, used as the reference point for this supply-chain analysis.",
+              "confidence": "high"
+            }
           }
         ],
         "level": 0,
@@ -185,7 +196,18 @@
             "listing": {
               "status": "unknown"
             },
-            "confidence": "medium"
+            "confidence": "medium",
+            "relationshipStrength": {
+              "score": 3,
+              "label": "中相关",
+              "labelZh": "中相关",
+              "labelEn": "Moderate relevance",
+              "direction": "upstream-component",
+              "rationale": "处于供应链上游或配套服务层，对交付和成本有影响，但短期瓶颈属性需继续核实。",
+              "rationaleZh": "处于供应链上游或配套服务层，对交付和成本有影响，但短期瓶颈属性需继续核实。",
+              "rationaleEn": "Sits in an upstream or supporting-service layer and can affect delivery and cost, but near-term bottleneck attributes need further verification.",
+              "confidence": "medium"
+            }
           },
           {
             "name": "终端、天线、射频与通信模组供应链",
@@ -215,7 +237,18 @@
             "listing": {
               "status": "unknown"
             },
-            "confidence": "medium"
+            "confidence": "medium",
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "upstream-equipment",
+              "rationale": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
+              "rationaleZh": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
+              "rationaleEn": "Sits in process equipment or metrology/inspection, with demand transmitted through foundry, memory, and packaging line expansion.",
+              "confidence": "medium"
+            }
           }
         ],
         "level": 1,
@@ -391,7 +424,18 @@
               "listing": {
                 "status": "unknown"
               },
-              "confidence": "medium"
+              "confidence": "medium",
+              "relationshipStrength": {
+                "score": 2,
+                "label": "弱相关",
+                "labelZh": "弱相关",
+                "labelEn": "Weak relevance",
+                "direction": "downstream-customer",
+                "rationale": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleZh": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleEn": "The downstream demand relationship helps identify application direction, but it is usually weaker than upstream critical supply and manufacturing bottlenecks.",
+                "confidence": "medium"
+              }
             },
             {
               "name": "消费者、企业与政府客户",
@@ -421,7 +465,18 @@
               "listing": {
                 "status": "unknown"
               },
-              "confidence": "medium"
+              "confidence": "medium",
+              "relationshipStrength": {
+                "score": 3,
+                "label": "中相关",
+                "labelZh": "中相关",
+                "labelEn": "Moderate relevance",
+                "direction": "downstream-customer",
+                "rationale": "应用或运营客户能影响订单和收入可见度，但与核心供给瓶颈相比传导更长。",
+                "rationaleZh": "应用或运营客户能影响订单和收入可见度，但与核心供给瓶颈相比传导更长。",
+                "rationaleEn": "Application or operator customers can affect orders and revenue visibility, but the transmission is longer than core supply bottlenecks.",
+                "confidence": "medium"
+              }
             }
           ],
           "level": 1,
@@ -471,7 +526,18 @@
                 "market": "US",
                 "stockUrl": "https://www.nasdaq.com/market-activity/stocks/spcx"
               },
-              "confidence": "medium"
+              "confidence": "medium",
+              "relationshipStrength": {
+                "score": 2,
+                "label": "弱相关",
+                "labelZh": "弱相关",
+                "labelEn": "Weak relevance",
+                "direction": "downstream-customer",
+                "rationale": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleZh": "下游需求关系有助于判断应用去向，但相关性通常弱于上游关键供给和制造瓶颈。",
+                "rationaleEn": "The downstream demand relationship helps identify application direction, but it is usually weaker than upstream critical supply and manufacturing bottlenecks.",
+                "confidence": "medium"
+              }
             }
           ],
           "level": 2,
@@ -762,5 +828,20 @@
     "宽带连接",
     "国防",
     "美股"
+  ],
+  "themeExposure": [
+    {
+      "theme": "太空产业链",
+      "themeZh": "太空产业链",
+      "themeEn": "Space supply chain",
+      "score": 3,
+      "role": "卫星宽带与国防通信",
+      "roleZh": "卫星宽带与国防通信",
+      "roleEn": "Satellite broadband and defense communications",
+      "rationale": "业务与卫星宽带和国防通信相关，属于应用和网络运营端的中等相关性。",
+      "rationaleZh": "业务与卫星宽带和国防通信相关，属于应用和网络运营端的中等相关性。",
+      "rationaleEn": "The business is tied to satellite broadband and defense communications, giving it moderate application and network-operations relevance.",
+      "confidence": "medium"
+    }
   ]
 }
