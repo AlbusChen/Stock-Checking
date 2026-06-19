@@ -1489,7 +1489,7 @@ a {
 .breakout-window-tabs {
   display: grid;
   gap: 8px;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(158px, 1fr));
 }
 
 .breakout-window-tab {

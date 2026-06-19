@@ -2,13 +2,13 @@
 
 ## 目标 / Goal
 
-新增一个独立的“放量突破”板块，用于每天扫描 A 股中满足量价突破口径的股票，并在页面中提供 20 / 60 / 120 日窗口切换。
+新增一个独立的“放量突破”板块，用于每天扫描 A 股中满足量价突破口径的股票，并在页面中提供 1 / 2 / 3 / 20 / 60 / 120 日窗口切换。
 
-The standalone breakout board scans A-share names daily and lets the UI switch across 20 / 60 / 120 trading-day windows.
+The standalone breakout board scans A-share names daily and lets the UI switch across 1 / 2 / 3 / 20 / 60 / 120 trading-day windows.
 
 ## 数据来源 / Data Sources
 
-- 候选股票：默认 `hybrid` 模式会优先查询同花顺问财，例如 `今日20日放量突破`、`今日60日放量突破`、`今日120日放量突破`。
+- 候选股票：默认 `hybrid` 模式会优先查询同花顺问财，例如 `今日放量突破`、`今日2日放量突破`、`今日3日放量突破`、`今日20日放量突破`、`今日60日放量突破`、`今日120日放量突破`。
 - 全市场行情列表：东方财富 `push2delay` 延迟行情公开接口。
 - 历史日 K：优先使用 Yahoo Finance A 股 `.SS` / `.SZ` 历史行情；如果 Yahoo 不可用，脚本会回退到东方财富 `push2his`。
 - 同花顺/问财只用于候选名单与公开标签线索；本项目不复制同花顺解释文本，最终入选仍由脚本按统一量价口径复核。
@@ -20,6 +20,7 @@ The default `hybrid` mode uses Tonghuashun iWencai for candidate names and publi
 - 交易范围：东方财富沪深 A 股集合，包括沪深主板、创业板、科创板。
 - 候选集合：默认优先使用同花顺问财候选；若问财不可用或候选行情补全失败，回退到本项目全市场量价预筛。
 - 突破定义：当日收盘价高于所选窗口的前高。
+- 自选窗口：1 / 2 / 3 日用于超短线观察，20 / 60 / 120 日用于短线、中线和中长期观察。
 - 最低窗口放量：当日成交量不低于所选窗口均量的 `1.8x`。
 - 列表预过滤量比：东方财富列表量比不低于 `1.5x`，用于减少历史 K 请求量。
 - 最低成交额：`5000 万元`。
