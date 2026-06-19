@@ -10,7 +10,12 @@ import {
 } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { loadVolumeBreakouts } from "../lib/data";
-import type { VolumeBreakoutReport, VolumeBreakoutStock, VolumeBreakoutWindow } from "../types/volumeBreakout";
+import type {
+  VolumeBreakoutProviderStatus,
+  VolumeBreakoutReport,
+  VolumeBreakoutStock,
+  VolumeBreakoutWindow,
+} from "../types/volumeBreakout";
 
 function formatPercent(value: number) {
   return `${value.toLocaleString("zh-CN", {
@@ -144,6 +149,55 @@ function StockMetrics({ stock }: { stock: VolumeBreakoutStock }) {
   );
 }
 
+function ProviderStatusList({ providers = [] }: { providers?: VolumeBreakoutProviderStatus[] }) {
+  if (providers.length === 0) return null;
+
+  return (
+    <div className="breakout-provider-list">
+      {providers.map((provider) => (
+        <div className={`breakout-provider-item status-${provider.status}`} key={provider.id}>
+          <span>{provider.nameZh}</span>
+          <small>{provider.nameEn}</small>
+          <strong>{provider.count}</strong>
+          <em>{provider.status}</em>
+          <p>{provider.noteZh}</p>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function ExternalSignals({ stock }: { stock: VolumeBreakoutStock }) {
+  const signals = stock.externalSignals ?? [];
+  if (signals.length === 0 && !stock.candidateSources?.length) return null;
+
+  return (
+    <div className="breakout-source-signal">
+      {stock.candidateSources?.length ? (
+        <div className="breakout-source-chips">
+          {stock.candidateSources.map((source) => (
+            <span key={`${stock.code}-${source}`}>{source}</span>
+          ))}
+        </div>
+      ) : null}
+      {signals.map((signal) => (
+        <div className="breakout-signal-block" key={`${stock.code}-${signal.sourceEn}`}>
+          <strong>
+            {signal.sourceZh}
+            <small>{signal.sourceEn}</small>
+          </strong>
+          <p>{signal.noteZh}</p>
+          <div>
+            {signal.signals.slice(0, 8).map((item) => (
+              <span key={`${stock.code}-${signal.sourceEn}-${item}`}>{item}</span>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 function StockCard({ stock }: { stock: VolumeBreakoutStock }) {
   return (
     <article className="breakout-stock-card">
@@ -163,6 +217,8 @@ function StockCard({ stock }: { stock: VolumeBreakoutStock }) {
           <ExternalLink size={13} aria-hidden="true" />
         </a>
       </header>
+
+      <ExternalSignals stock={stock} />
 
       <StockMetrics stock={stock} />
 
@@ -314,6 +370,7 @@ export function VolumeBreakouts() {
           <span>{report.scopeZh}</span>
           <small>{report.scopeEn}</small>
         </div>
+        <ProviderStatusList providers={report.providerStatuses} />
       </article>
 
       <div className="breakout-list">

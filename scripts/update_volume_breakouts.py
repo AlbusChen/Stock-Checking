@@ -8,7 +8,10 @@ import concurrent.futures
 import datetime as dt
 import json
 import math
+import re
 import statistics
+import subprocess
+import sys
 import time
 import urllib.parse
 import urllib.request
@@ -27,6 +30,7 @@ EASTMONEY_QUOTE_API = "https://push2delay.eastmoney.com/api/qt/clist/get"
 EASTMONEY_KLINE_API = "https://push2his.eastmoney.com/api/qt/stock/kline/get"
 YAHOO_CHART_API = "https://query1.finance.yahoo.com/v8/finance/chart"
 EASTMONEY_QUOTE_BASE = "https://quote.eastmoney.com"
+THS_WENCAI_URL = "https://www.iwencai.com"
 A_SHARE_FS = "m:0+t:6,m:0+t:80,m:1+t:2,m:1+t:23"
 WINDOWS = (20, 60, 120)
 PAGE_SIZE = 100
@@ -37,10 +41,13 @@ MIN_SPOT_VOLUME_RATIO = 1.5
 MIN_PCT_CHANGE = 0.0
 MIN_BREAKOUT_PCT = 0.0
 REQUEST_TIMEOUT = 16
+THS_QUERY_TIMEOUT = 35
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Stock-Checking/1.0 Safari/537.36"
 )
+
+CandidateProvider = str
 
 
 def market_now() -> dt.datetime:
@@ -124,26 +131,138 @@ def yahoo_symbol_for_code(code: str) -> str:
     return code
 
 
-def fetch_spot_universe() -> list[dict[str, Any]]:
-    fields = ",".join(
-        [
-            "f2",  # latest price
-            "f3",  # pct change
-            "f5",  # volume, lots
-            "f6",  # amount, CNY
-            "f8",  # turnover rate
-            "f10",  # quote volume ratio
-            "f12",  # code
-            "f14",  # name
-            "f15",  # high
-            "f16",  # low
-            "f17",  # open
-            "f18",  # previous close
-            "f100",  # industry
-            "f102",  # region
-            "f124",  # quote timestamp
-        ]
+def normalize_stock_code(value: Any) -> str | None:
+    match = re.search(r"(\d{6})", str(value or ""))
+    return match.group(1) if match else None
+
+
+def split_signal_text(value: Any) -> list[str]:
+    if value in (None, "", "-"):
+        return []
+    parts = re.split(r"\|\||[，,、/；;]\s*", str(value))
+    return [part.strip() for part in parts if part and part.strip() and part.strip() != "-"]
+
+
+def query_ths_wencai_records(query: str) -> list[dict[str, Any]]:
+    code = """
+import json
+import sys
+import warnings
+
+warnings.filterwarnings("ignore")
+
+import pywencai
+
+frame = pywencai.get(query=sys.argv[1], query_type="stock", loop=False)
+records = [] if frame is None else frame.to_dict("records")
+print(json.dumps(records, ensure_ascii=False))
+"""
+    completed = subprocess.run(
+        [sys.executable, "-c", code, query],
+        capture_output=True,
+        check=False,
+        text=True,
+        timeout=THS_QUERY_TIMEOUT,
     )
+    if completed.returncode != 0:
+        raise RuntimeError((completed.stderr or completed.stdout or "unknown pywencai failure")[-800:])
+    stdout = completed.stdout.strip()
+    if not stdout:
+        return []
+    return json.loads(stdout)
+
+
+def fetch_ths_wencai_candidates(windows: tuple[int, ...]) -> tuple[dict[str, dict[str, Any]], dict[str, Any]]:
+    status = {
+        "id": "ths-wencai",
+        "nameZh": "同花顺问财候选",
+        "nameEn": "Tonghuashun iWencai candidates",
+        "status": "skipped",
+        "count": 0,
+        "noteZh": "未启用同花顺问财候选源。",
+        "noteEn": "Tonghuashun iWencai candidate source was not enabled.",
+        "queries": [],
+    }
+
+    candidates: dict[str, dict[str, Any]] = {}
+    errors: list[str] = []
+    queries = [f"今日{days}日放量突破" for days in windows]
+
+    for days, query in zip(windows, queries):
+        try:
+            records = query_ths_wencai_records(query)
+        except Exception as exc:  # noqa: BLE001 - optional provider.
+            errors.append(f"{query}: {exc}")
+            continue
+
+        for record in records:
+            code = normalize_stock_code(record.get("code") or record.get("股票代码"))
+            if not code:
+                continue
+            candidate = candidates.setdefault(
+                code,
+                {
+                    "code": code,
+                    "name": str(record.get("股票简称") or ""),
+                    "sourceZh": "同花顺问财",
+                    "sourceEn": "Tonghuashun iWencai",
+                    "queries": [],
+                    "windowDays": [],
+                    "signals": [],
+                    "rawLabels": [],
+                },
+            )
+            if query not in candidate["queries"]:
+                candidate["queries"].append(query)
+            if days not in candidate["windowDays"]:
+                candidate["windowDays"].append(days)
+
+            for key, value in record.items():
+                key_text = str(key)
+                if any(token in key_text for token in ("放量突破", "技术形态", "买入信号")):
+                    for signal in split_signal_text(value):
+                        if signal not in candidate["signals"]:
+                            candidate["signals"].append(signal)
+                    if value not in (None, "", "-"):
+                        raw_label = f"{key_text}: {value}"
+                        if raw_label not in candidate["rawLabels"]:
+                            candidate["rawLabels"].append(raw_label)
+
+    if candidates:
+        status.update(
+            {
+                "status": "ok" if not errors else "partial",
+                "count": len(candidates),
+                "noteZh": (
+                    f"问财返回 {len(candidates)} 只候选；本项目随后用公开行情重新校验窗口突破和放量。"
+                    if not errors
+                    else f"问财返回 {len(candidates)} 只候选，部分查询失败；本项目随后用公开行情重新校验。"
+                ),
+                "noteEn": (
+                    f"iWencai returned {len(candidates)} candidates; this project then re-validates breakout and volume with public market data."
+                    if not errors
+                    else f"iWencai returned {len(candidates)} candidates with partial query failures; this project then re-validates them."
+                ),
+                "queries": queries,
+            }
+        )
+    else:
+        status.update(
+            {
+                "status": "failed",
+                "noteZh": "问财未返回可用候选，已回退到本项目量价计算。",
+                "noteEn": "iWencai returned no usable candidates; fell back to in-project price-volume computation.",
+                "queries": queries,
+            }
+        )
+
+    if errors:
+        status["errors"] = errors[:5]
+    return candidates, status
+
+
+def fetch_spot_universe() -> list[dict[str, Any]]:
+    fields = spot_fields()
     params = {
         "pn": 1,
         "pz": PAGE_SIZE,
@@ -165,6 +284,55 @@ def fetch_spot_universe() -> list[dict[str, Any]]:
         page_payload = request_json(EASTMONEY_QUOTE_API, params)
         page_rows = (page_payload.get("data") or {}).get("diff") or []
         rows.extend(page_rows)
+
+    unique: dict[str, dict[str, Any]] = {}
+    for row in rows:
+        code = str(row.get("f12") or "").strip()
+        if code:
+            unique[code] = row
+    return list(unique.values())
+
+
+def spot_fields() -> str:
+    return ",".join(
+        [
+            "f2",  # latest price
+            "f3",  # pct change
+            "f5",  # volume, lots
+            "f6",  # amount, CNY
+            "f8",  # turnover rate
+            "f10",  # quote volume ratio
+            "f12",  # code
+            "f14",  # name
+            "f15",  # high
+            "f16",  # low
+            "f17",  # open
+            "f18",  # previous close
+            "f100",  # industry
+            "f102",  # region
+            "f124",  # quote timestamp
+        ]
+    )
+
+
+def fetch_spot_rows_for_codes(codes: list[str]) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    cleaned_codes = [code for code in dict.fromkeys(codes) if code]
+    batch_size = 80
+
+    for start in range(0, len(cleaned_codes), batch_size):
+        batch = cleaned_codes[start : start + batch_size]
+        secids = ",".join(secid_for_code(code) for code in batch)
+        payload = request_json(
+            "https://push2delay.eastmoney.com/api/qt/ulist.np/get",
+            {
+                "fltt": 2,
+                "invt": 2,
+                "fields": spot_fields(),
+                "secids": secids,
+            },
+        )
+        rows.extend((payload.get("data") or {}).get("diff") or [])
 
     unique: dict[str, dict[str, Any]] = {}
     for row in rows:
@@ -326,6 +494,7 @@ def build_reason(
     average_volume: float,
     volume_ratio: float,
     breakout_pct: float,
+    ths_candidate: dict[str, Any] | None,
 ) -> tuple[str, str, list[dict[str, str]], list[str]]:
     code = str(row.get("f12"))
     name = str(row.get("f14"))
@@ -356,14 +525,34 @@ def build_reason(
         tags.append("中线突破")
     else:
         tags.append("短线突破")
+    ths_signals = []
+    ths_queries = []
+    if ths_candidate:
+        ths_signals = list(dict.fromkeys(str(item) for item in ths_candidate.get("signals", []) if item))[:6]
+        ths_queries = list(dict.fromkeys(str(item) for item in ths_candidate.get("queries", []) if item))[:3]
+        tags.append("同花顺问财候选")
+        for signal in ths_signals[:3]:
+            if signal not in tags:
+                tags.append(signal)
 
     turnover_text_zh = "换手率缺失" if turnover is None else f"换手率 {turnover:.2f}%"
     turnover_text_en = "turnover rate unavailable" if turnover is None else f"{turnover:.2f}% turnover rate"
+    ths_reason_zh = (
+        f"该股同时命中同花顺问财候选（{ ' / '.join(ths_queries) }），问财公开标签包括：{ ' / '.join(ths_signals) }；"
+        if ths_signals and ths_queries
+        else ""
+    )
+    ths_reason_en = (
+        f"It also appeared in Tonghuashun iWencai candidate screens ({' / '.join(ths_queries)}), with public tags including {' / '.join(ths_signals)}. "
+        if ths_signals and ths_queries
+        else ""
+    )
 
     reason_zh = (
         f"{name}（{code}）收盘价 {close:.2f} 元，高于过去 {window_days} 个交易日最高价 "
         f"{previous_high:.2f} 元，突破幅度 {breakout_pct:.2f}%。当日成交量为窗口均量的 "
         f"{volume_ratio:.2f} 倍，成交额约 {amount / 100_000_000:.2f} 亿元，{turnover_text_zh}。"
+        f"{ths_reason_zh}"
         f"量价同步放大，行业字段为“{industry}”，更像资金围绕该板块或个股趋势做突破确认；"
         "该判断基于行情数据，不等同于已确认公告利好。"
     )
@@ -371,7 +560,7 @@ def build_reason(
         f"{name} ({code}) closed at CNY {close:.2f}, above the previous {window_days}-session high "
         f"of CNY {previous_high:.2f}, a {breakout_pct:.2f}% breakout. Volume was {volume_ratio:.2f}x "
         f"the window average, value traded was about CNY {amount / 1_000_000_000:.2f}bn, with "
-        f"{turnover_text_en}. The move looks like a price-volume confirmation around the stock or "
+        f"{turnover_text_en}. {ths_reason_en}The move looks like a price-volume confirmation around the stock or "
         f"its {industry} industry tag, not a verified announcement-driven catalyst."
     )
 
@@ -401,12 +590,26 @@ def build_reason(
             "valueEn": f"{industry}{f' / {region}' if region else ''}",
         },
     ]
+    if ths_signals or ths_queries:
+        factors.append(
+            {
+                "labelZh": "候选来源",
+                "labelEn": "Candidate source",
+                "valueZh": f"同花顺问财：{' / '.join(ths_signals[:4]) if ths_signals else '候选命中'}",
+                "valueEn": f"Tonghuashun iWencai: {' / '.join(ths_signals[:4]) if ths_signals else 'candidate match'}",
+            }
+        )
 
     return reason_zh, reason_en, factors, tags
 
 
-def analyze_stock(row: dict[str, Any], limit: int) -> tuple[str | None, list[dict[str, Any]]]:
+def analyze_stock(
+    row: dict[str, Any],
+    limit: int,
+    ths_candidates: dict[str, dict[str, Any]],
+) -> tuple[str | None, list[dict[str, Any]]]:
     code = str(row.get("f12") or "")
+    ths_candidate = ths_candidates.get(code)
     klines = fetch_klines(code, limit)
     if not klines:
         return None, []
@@ -455,6 +658,7 @@ def analyze_stock(row: dict[str, Any], limit: int) -> tuple[str | None, list[dic
             average_volume,
             volume_ratio,
             breakout_pct,
+            ths_candidate,
         )
         rank_score = (
             volume_ratio * 2.0
@@ -487,6 +691,25 @@ def analyze_stock(row: dict[str, Any], limit: int) -> tuple[str | None, list[dic
                 "turnoverRate": None if turnover is None else round(float(turnover), 4),
                 "rankScore": round(rank_score, 4),
                 "tags": tags,
+                "candidateSources": (
+                    ["同花顺问财候选 / Tonghuashun iWencai", "本项目量价校验 / In-project validation"]
+                    if ths_candidate
+                    else ["本项目量价筛选 / In-project screening"]
+                ),
+                "externalSignals": (
+                    [
+                        {
+                            "sourceZh": "同花顺问财",
+                            "sourceEn": "Tonghuashun iWencai",
+                            "queries": ths_candidate.get("queries", []),
+                            "signals": ths_candidate.get("signals", [])[:10],
+                            "noteZh": "仅使用问财候选与标签作辅助线索；突破、放量、成交额、换手由本项目重新计算校验。",
+                            "noteEn": "Only candidate membership and tags are used as auxiliary signals; breakout, volume, traded value, and turnover are re-computed by this project.",
+                        }
+                    ]
+                    if ths_candidate
+                    else []
+                ),
                 "reasonZh": reason_zh,
                 "reasonEn": reason_en,
                 "factors": factors,
@@ -496,8 +719,32 @@ def analyze_stock(row: dict[str, Any], limit: int) -> tuple[str | None, list[dic
     return latest_date, results
 
 
-def build_report(rows: list[dict[str, Any]], max_workers: int, max_candidates: int | None) -> dict[str, Any]:
-    candidates = [row for row in rows if is_candidate(row)]
+def build_report(
+    rows: list[dict[str, Any]],
+    max_workers: int,
+    max_candidates: int | None,
+    candidate_provider: CandidateProvider,
+    ths_candidates: dict[str, dict[str, Any]],
+    ths_status: dict[str, Any],
+    used_fallback_universe: bool,
+) -> dict[str, Any]:
+    computed_candidates = [row for row in rows if is_candidate(row)]
+
+    row_by_code = {str(row.get("f12") or ""): row for row in rows}
+    if candidate_provider == "ths":
+        candidates = [row_by_code[code] for code in ths_candidates if code in row_by_code]
+        if not candidates:
+            candidates = computed_candidates
+            ths_status["noteZh"] = f"{ths_status.get('noteZh', '')} 未找到可复核的问财候选，已回退到本项目量价预筛。"
+            ths_status["noteEn"] = f"{ths_status.get('noteEn', '')} No re-validatable iWencai candidates were found; fell back to in-project prefiltering."
+    elif candidate_provider == "hybrid":
+        if ths_candidates and not used_fallback_universe:
+            candidates = [row_by_code[code] for code in ths_candidates if code in row_by_code]
+        else:
+            candidates = computed_candidates
+    else:
+        candidates = computed_candidates
+
     if max_candidates is not None:
         candidates = candidates[:max_candidates]
 
@@ -507,7 +754,7 @@ def build_report(rows: list[dict[str, Any]], max_workers: int, max_candidates: i
     failures = 0
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = {executor.submit(analyze_stock, row, limit): row for row in candidates}
+        futures = {executor.submit(analyze_stock, row, limit, ths_candidates): row for row in candidates}
         for future in concurrent.futures.as_completed(futures):
             try:
                 trade_date, results = future.result()
@@ -547,13 +794,35 @@ def build_report(rows: list[dict[str, Any]], max_workers: int, max_candidates: i
         "generatedAt": generated_at,
         "tradeDate": trade_date,
         "source": {
-            "name": "东方财富延迟行情 + Yahoo Finance 历史行情 / Eastmoney delayed quotes + Yahoo Finance historical candles",
-            "url": EASTMONEY_QUOTE_BASE,
-            "noteZh": "行情列表来自东方财富 push2delay 延迟行情公开接口，日 K 优先来自 Yahoo Finance A 股历史行情；若 Yahoo 不可用则回退到东方财富 push2his。原因分析由本项目按公开量价字段自动生成。",
-            "noteEn": "The quote list comes from Eastmoney's delayed push2delay public endpoint. Daily candles prefer Yahoo Finance A-share history and fall back to Eastmoney push2his. Analysis text is generated by this project from public price-volume fields.",
+            "name": "同花顺问财候选 + 东方财富/Yahoo 量价校验 / iWencai candidates + Eastmoney/Yahoo validation",
+            "url": THS_WENCAI_URL if candidate_provider in ("hybrid", "ths") else EASTMONEY_QUOTE_BASE,
+            "noteZh": "候选源优先接入同花顺问财；行情列表来自东方财富 push2delay 延迟行情公开接口，日 K 优先来自 Yahoo Finance A 股历史行情，若 Yahoo 不可用则回退到东方财富 push2his。原因分析由本项目按公开量价字段自动生成。",
+            "noteEn": "Candidate sourcing prefers Tonghuashun iWencai. The quote list comes from Eastmoney delayed push2delay, daily candles prefer Yahoo Finance A-share history and fall back to Eastmoney push2his. Analysis text is generated by this project from public price-volume fields.",
         },
-        "scopeZh": "覆盖东方财富沪深 A 股行情集合，包括沪深主板、创业板、科创板；历史 K 线使用 Yahoo Finance 的 .SS/.SZ A 股代码。若接口未稳定返回北交所，日更会在后续单独补充。",
-        "scopeEn": "Covers the Eastmoney Shanghai/Shenzhen A-share universe, including main boards, ChiNext, and STAR Market. Historical candles use Yahoo Finance .SS/.SZ A-share symbols. Beijing Stock Exchange coverage can be added once the endpoint is stable.",
+        "scopeZh": "hybrid 模式优先使用同花顺问财候选，再按统一口径复核 20/60/120 日窗口；问财不可用时回退到本项目全市场量价预筛。当前覆盖东方财富沪深 A 股行情集合，包括沪深主板、创业板、科创板。",
+        "scopeEn": "Hybrid mode prioritizes Tonghuashun iWencai candidates, then re-validates 20/60/120-day windows with one consistent rule set; if iWencai is unavailable it falls back to the in-project full-universe price-volume prefilter. Current coverage is the Eastmoney Shanghai/Shenzhen A-share universe.",
+        "candidateProvider": candidate_provider,
+        "providerStatuses": [
+            ths_status,
+            {
+                "id": "computed-prefilter",
+                "nameZh": "本项目量价预筛",
+                "nameEn": "In-project price-volume prefilter",
+                "status": "ok",
+                "count": len(computed_candidates),
+                "noteZh": (
+                    f"本项目在问财候选范围内预筛命中 {len(computed_candidates)} 只；最终结果仍需通过窗口前高和窗口均量复核。"
+                    if ths_candidates and not used_fallback_universe
+                    else f"本项目全市场预筛返回 {len(computed_candidates)} 只候选；最终结果仍需通过窗口前高和窗口均量复核。"
+                ),
+                "noteEn": (
+                    f"The in-project prefilter matched {len(computed_candidates)} names within the iWencai candidate set; final results still require prior-high and average-volume validation."
+                    if ths_candidates and not used_fallback_universe
+                    else f"The in-project full-universe prefilter returned {len(computed_candidates)} candidates; final results still require prior-high and average-volume validation."
+                ),
+                "queries": [],
+            },
+        ],
         "criteria": [
             {
                 "key": "breakoutBasis",
@@ -586,8 +855,8 @@ def build_report(rows: list[dict[str, Any]], max_workers: int, max_candidates: i
                 "value": f"{MIN_TURNOVER_RATE:.1f}%",
             },
         ],
-        "disclaimerZh": f"本次扫描候选 {len(candidates)} 只，K 线失败 {failures} 只；结果用于量价观察，不构成投资建议。",
-        "disclaimerEn": f"Scanned {len(candidates)} candidates with {failures} candle failures; this is a price-volume watchlist, not investment advice.",
+        "disclaimerZh": f"本次以 {candidate_provider} 模式扫描候选 {len(candidates)} 只，K 线失败 {failures} 只；问财只作候选与标签线索，最终入选由本项目量价口径复核，不构成投资建议。",
+        "disclaimerEn": f"Scanned {len(candidates)} candidates in {candidate_provider} mode with {failures} candle failures. iWencai is used only for candidate and tag hints; final inclusion is re-validated by this project's price-volume rules and is not investment advice.",
         "windows": windows,
     }
 
@@ -597,13 +866,53 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--max-workers", type=int, default=18)
     parser.add_argument("--max-candidates", type=int, default=None)
+    parser.add_argument(
+        "--candidate-provider",
+        choices=("computed", "hybrid", "ths"),
+        default="hybrid",
+        help="Candidate source strategy. hybrid uses iWencai candidates plus in-project prefiltering.",
+    )
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
-    rows = fetch_spot_universe()
-    report = build_report(rows, max_workers=max(1, args.max_workers), max_candidates=args.max_candidates)
+    ths_candidates: dict[str, dict[str, Any]] = {}
+    ths_status = {
+        "id": "ths-wencai",
+        "nameZh": "同花顺问财候选",
+        "nameEn": "Tonghuashun iWencai candidates",
+        "status": "skipped",
+        "count": 0,
+        "noteZh": "当前模式未启用同花顺问财候选源。",
+        "noteEn": "Tonghuashun iWencai candidate source was not enabled in this mode.",
+        "queries": [],
+    }
+    used_fallback_universe = False
+
+    if args.candidate_provider in ("hybrid", "ths"):
+        ths_candidates, ths_status = fetch_ths_wencai_candidates(WINDOWS)
+
+    if args.candidate_provider in ("hybrid", "ths") and ths_candidates:
+        rows = fetch_spot_rows_for_codes(list(ths_candidates.keys()))
+        if not rows:
+            rows = fetch_spot_universe()
+            used_fallback_universe = True
+            ths_status["noteZh"] = f"{ths_status.get('noteZh', '')} 候选行情补全失败，已回退到全市场量价预筛。"
+            ths_status["noteEn"] = f"{ths_status.get('noteEn', '')} Candidate quote enrichment failed; fell back to the full-universe prefilter."
+    else:
+        rows = fetch_spot_universe()
+        used_fallback_universe = args.candidate_provider in ("hybrid", "ths")
+
+    report = build_report(
+        rows,
+        max_workers=max(1, args.max_workers),
+        max_candidates=args.max_candidates,
+        candidate_provider=args.candidate_provider,
+        ths_candidates=ths_candidates,
+        ths_status=ths_status,
+        used_fallback_universe=used_fallback_universe,
+    )
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     counts = ", ".join(f"{window['days']}d={len(window['stocks'])}" for window in report["windows"])

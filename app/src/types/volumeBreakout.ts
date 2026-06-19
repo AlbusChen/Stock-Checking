@@ -17,6 +17,27 @@ export interface VolumeBreakoutFactor {
   valueEn: string;
 }
 
+export interface VolumeBreakoutExternalSignal {
+  sourceZh: string;
+  sourceEn: string;
+  queries: string[];
+  signals: string[];
+  noteZh: string;
+  noteEn: string;
+}
+
+export interface VolumeBreakoutProviderStatus {
+  id: string;
+  nameZh: string;
+  nameEn: string;
+  status: "ok" | "partial" | "failed" | "skipped";
+  count: number;
+  noteZh: string;
+  noteEn: string;
+  queries: string[];
+  errors?: string[];
+}
+
 export interface VolumeBreakoutStock {
   code: string;
   name: string;
@@ -39,6 +60,8 @@ export interface VolumeBreakoutStock {
   turnoverRate?: number;
   rankScore: number;
   tags: string[];
+  candidateSources?: string[];
+  externalSignals?: VolumeBreakoutExternalSignal[];
   reasonZh: string;
   reasonEn: string;
   factors: VolumeBreakoutFactor[];
@@ -63,6 +86,8 @@ export interface VolumeBreakoutReport {
     noteZh: string;
     noteEn: string;
   };
+  candidateProvider?: "computed" | "hybrid" | "ths";
+  providerStatuses?: VolumeBreakoutProviderStatus[];
   scopeZh: string;
   scopeEn: string;
   criteria: VolumeBreakoutCriterion[];

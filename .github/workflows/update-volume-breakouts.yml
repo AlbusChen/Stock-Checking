@@ -17,7 +17,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python3 scripts/update_volume_breakouts.py --max-workers 6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install optional Tonghuashun provider
+        continue-on-error: true
+        run: python3 -m pip install pywencai==0.13.1
+      - run: python3 scripts/update_volume_breakouts.py --max-workers 6 --candidate-provider hybrid
       - run: mkdir -p data && cp public/data/volume-breakouts.json data/volume-breakouts.json
       - name: Commit refreshed breakout data
         run: |
