@@ -1,4 +1,5 @@
 import type { CompanyIndex, CompanyReport } from "../types/company";
+import type { VolumeBreakoutReport } from "../types/volumeBreakout";
 
 const withBase = (path: string) => {
   const base = import.meta.env.BASE_URL.endsWith("/")
@@ -18,3 +19,5 @@ async function getJson<T>(path: string): Promise<T> {
 export const loadCompanyIndex = () => getJson<CompanyIndex>("data/company-index.json");
 
 export const loadCompanyReport = (path: string) => getJson<CompanyReport>(path);
+
+export const loadVolumeBreakouts = () => getJson<VolumeBreakoutReport>("data/volume-breakouts.json");

@@ -1,6 +1,7 @@
-import { AlertCircle, Loader2, RefreshCcw, Search } from "lucide-react";
+import { AlertCircle, BarChart3, Building2, Loader2, RefreshCcw, Search } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { CompanyDetail } from "./components/CompanyDetail";
+import { VolumeBreakouts } from "./components/VolumeBreakouts";
 import { loadCompanyIndex, loadCompanyReport } from "./lib/data";
 import type { CompanyIndex, CompanyIndexItem, CompanyReport } from "./types/company";
 
@@ -55,13 +56,14 @@ function sortLabels(labels: string[]) {
 }
 
 function App() {
+  const [activeMode, setActiveMode] = useState<"companies" | "breakouts">("companies");
   const [index, setIndex] = useState<CompanyIndex | null>(null);
   const [query, setQuery] = useState("");
   const [activeLabel, setActiveLabel] = useState<string | null>(null);
   const [selected, setSelected] = useState<CompanyIndexItem | null>(null);
   const [report, setReport] = useState<CompanyReport | null>(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+  const [companyError, setCompanyError] = useState<string | null>(null);
 
   useEffect(() => {
     let active = true;
@@ -74,7 +76,7 @@ function App() {
       })
       .catch((err: unknown) => {
         if (!active) return;
-        setError(err instanceof Error ? err.message : "Data load failed");
+        setCompanyError(err instanceof Error ? err.message : "Data load failed");
       })
       .finally(() => {
         if (active) setLoading(false);
@@ -90,14 +92,14 @@ function App() {
 
     let active = true;
     setReport(null);
-    setError(null);
+    setCompanyError(null);
 
     loadCompanyReport(selected.dataPath)
       .then((payload) => {
         if (active) setReport(payload);
       })
       .catch((err: unknown) => {
-        if (active) setError(err instanceof Error ? err.message : "Report load failed");
+        if (active) setCompanyError(err instanceof Error ? err.message : "Report load failed");
       });
 
     return () => {
@@ -144,109 +146,152 @@ function App() {
           <strong>公开公司溯源</strong>
         </div>
 
-        <label className="search-box">
-          <Search size={18} aria-hidden="true" />
-          <input
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-            placeholder="AAPL / Apple / NVDA"
-            aria-label="search stock"
-          />
-        </label>
-
-        <div className="label-filter" aria-label="company label filters">
+        <nav className="mode-switch" aria-label="workspace mode">
           <button
-            aria-label={`全部公司 (${index?.companies.length ?? 0})`}
-            aria-pressed={!activeLabel}
-            className={!activeLabel ? "label-chip active" : "label-chip"}
-            onClick={() => setActiveLabel(null)}
+            aria-pressed={activeMode === "companies"}
+            className={activeMode === "companies" ? "mode-button active" : "mode-button"}
+            onClick={() => setActiveMode("companies")}
             type="button"
           >
-            全部
-            <span>{index?.companies.length ?? 0}</span>
+            <Building2 size={16} aria-hidden="true" />
+            <span>公司溯源</span>
           </button>
-          {labelFacets.map(({ label, count }) => (
-            <button
-              aria-label={`${label} (${count})`}
-              aria-pressed={activeLabel === label}
-              className={activeLabel === label ? "label-chip active" : "label-chip"}
-              key={label}
-              onClick={() => setActiveLabel(label)}
-              type="button"
-            >
-              {label}
-              <span>{count}</span>
-            </button>
-          ))}
-        </div>
+          <button
+            aria-pressed={activeMode === "breakouts"}
+            className={activeMode === "breakouts" ? "mode-button active" : "mode-button"}
+            onClick={() => setActiveMode("breakouts")}
+            type="button"
+          >
+            <BarChart3 size={16} aria-hidden="true" />
+            <span>放量突破</span>
+          </button>
+        </nav>
 
-        <div className="result-list">
-          {loading && (
-            <div className="state-line">
-              <Loader2 className="spin" size={16} aria-hidden="true" />
-              <span>读取数据</span>
-            </div>
-          )}
+        {activeMode === "companies" ? (
+          <>
+            <label className="search-box">
+              <Search size={18} aria-hidden="true" />
+              <input
+                value={query}
+                onChange={(event) => setQuery(event.target.value)}
+                placeholder="AAPL / Apple / NVDA"
+                aria-label="search stock"
+              />
+            </label>
 
-          {!loading &&
-            matches.map((company) => (
+            <div className="label-filter" aria-label="company label filters">
               <button
-                className={[
-                  "company-button",
-                  `market-${company.market.toLowerCase()}`,
-                  selected?.id === company.id ? "active" : "",
-                ]
-                  .filter(Boolean)
-                  .join(" ")}
-                key={company.id}
-                onClick={() => setSelected(company)}
+                aria-label={`全部公司 (${index?.companies.length ?? 0})`}
+                aria-pressed={!activeLabel}
+                className={!activeLabel ? "label-chip active" : "label-chip"}
+                onClick={() => setActiveLabel(null)}
                 type="button"
               >
-                <span>{company.ticker}</span>
-                <strong>{company.name}</strong>
-                <small>{company.sector}</small>
-                <div className="company-labels">
-                  {company.labels.slice(0, 4).map((label) => (
-                    <em key={`${company.id}-${label}`}>{label}</em>
-                  ))}
-                </div>
+                全部
+                <span>{index?.companies.length ?? 0}</span>
               </button>
-            ))}
-
-          {!loading && matches.length === 0 && (
-            <div className="state-line warn">
-              <AlertCircle size={16} aria-hidden="true" />
-              <span>未收录</span>
+              {labelFacets.map(({ label, count }) => (
+                <button
+                  aria-label={`${label} (${count})`}
+                  aria-pressed={activeLabel === label}
+                  className={activeLabel === label ? "label-chip active" : "label-chip"}
+                  key={label}
+                  onClick={() => setActiveLabel(label)}
+                  type="button"
+                >
+                  {label}
+                  <span>{count}</span>
+                </button>
+              ))}
             </div>
-          )}
-        </div>
+
+            <div className="result-list">
+              {loading && (
+                <div className="state-line">
+                  <Loader2 className="spin" size={16} aria-hidden="true" />
+                  <span>读取数据</span>
+                </div>
+              )}
+
+              {!loading &&
+                matches.map((company) => (
+                  <button
+                    className={[
+                      "company-button",
+                      `market-${company.market.toLowerCase()}`,
+                      selected?.id === company.id ? "active" : "",
+                    ]
+                      .filter(Boolean)
+                      .join(" ")}
+                    key={company.id}
+                    onClick={() => setSelected(company)}
+                    type="button"
+                  >
+                    <span>{company.ticker}</span>
+                    <strong>{company.name}</strong>
+                    <small>{company.sector}</small>
+                    <div className="company-labels">
+                      {company.labels.slice(0, 4).map((label) => (
+                        <em key={`${company.id}-${label}`}>{label}</em>
+                      ))}
+                    </div>
+                  </button>
+                ))}
+
+              {!loading && matches.length === 0 && (
+                <div className="state-line warn">
+                  <AlertCircle size={16} aria-hidden="true" />
+                  <span>未收录</span>
+                </div>
+              )}
+            </div>
+          </>
+        ) : (
+          <div className="sidebar-mode-card">
+            <strong>放量突破</strong>
+            <span>每日收盘后更新 A 股量价突破名单，支持 20 / 60 / 120 日窗口。</span>
+            <small>Daily A-share breakout scan</small>
+          </div>
+        )}
 
         <footer className="sidebar-footer">
           <RefreshCcw size={15} aria-hidden="true" />
-          <span>{index ? new Date(index.generatedAt).toLocaleString("zh-CN") : "未生成"}</span>
+          <span>
+            {activeMode === "companies"
+              ? index
+                ? new Date(index.generatedAt).toLocaleString("zh-CN")
+                : "未生成"
+              : "每日更新"}
+          </span>
         </footer>
       </aside>
 
       <section className="workspace">
-        {error && (
-          <div className="error-banner">
-            <AlertCircle size={18} aria-hidden="true" />
-            <span>{error}</span>
-          </div>
+        {activeMode === "breakouts" ? (
+          <VolumeBreakouts />
+        ) : (
+          <>
+            {companyError && (
+              <div className="error-banner">
+                <AlertCircle size={18} aria-hidden="true" />
+                <span>{companyError}</span>
+              </div>
+            )}
+            {!companyError && !loading && !selected && (
+              <div className="loading-panel">
+                <AlertCircle size={22} aria-hidden="true" />
+                <span>未找到符合条件的公司</span>
+              </div>
+            )}
+            {!companyError && !report && selected && (
+              <div className="loading-panel">
+                <Loader2 className="spin" size={22} aria-hidden="true" />
+                <span>加载公司档案</span>
+              </div>
+            )}
+            {report && <CompanyDetail report={report} />}
+          </>
         )}
-        {!error && !loading && !selected && (
-          <div className="loading-panel">
-            <AlertCircle size={22} aria-hidden="true" />
-            <span>未找到符合条件的公司</span>
-          </div>
-        )}
-        {!error && !report && selected && (
-          <div className="loading-panel">
-            <Loader2 className="spin" size={22} aria-hidden="true" />
-            <span>加载公司档案</span>
-          </div>
-        )}
-        {report && <CompanyDetail report={report} />}
       </section>
     </main>
   );

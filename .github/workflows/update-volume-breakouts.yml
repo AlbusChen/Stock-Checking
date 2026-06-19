@@ -1,0 +1,32 @@
+name: Refresh A-share Volume Breakouts
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs after the China A-share close. 09:30 UTC is 17:30 in China/Singapore.
+    - cron: "30 9 * * 1-5"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 scripts/update_volume_breakouts.py --max-workers 6
+      - run: mkdir -p data && cp public/data/volume-breakouts.json data/volume-breakouts.json
+      - name: Commit refreshed breakout data
+        run: |
+          if [[ -n "$(git status --porcelain public/data/volume-breakouts.json data/volume-breakouts.json)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add public/data/volume-breakouts.json data/volume-breakouts.json
+            git commit -m "chore: refresh volume breakout data"
+            git push
+          else
+            echo "No breakout data changes"
+          fi
