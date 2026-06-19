@@ -344,6 +344,10 @@ a {
   padding: 28px;
 }
 
+.mobile-list-return {
+  display: none;
+}
+
 .company-panel {
   display: flex;
   flex-direction: column;
@@ -2058,6 +2062,28 @@ a {
     border-right: 0;
     height: auto;
     position: static;
+  }
+
+  .mobile-list-return {
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #d9dfd7;
+    border-radius: 8px;
+    color: #2b6f6c;
+    cursor: pointer;
+    display: inline-flex;
+    font-weight: 800;
+    gap: 7px;
+    min-height: 40px;
+    padding: 0 12px;
+    position: sticky;
+    top: 0;
+    z-index: 8;
+  }
+
+  .mobile-list-return:hover {
+    background: #e8f3f1;
+    border-color: #2b7a78;
   }
 
   .result-list {

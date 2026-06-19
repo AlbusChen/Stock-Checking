@@ -1,5 +1,5 @@
-import { AlertCircle, BarChart3, Building2, Loader2, RefreshCcw, Search } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
+import { AlertCircle, BarChart3, Building2, List, Loader2, RefreshCcw, Search } from "lucide-react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { CompanyDetail } from "./components/CompanyDetail";
 import { VolumeBreakouts } from "./components/VolumeBreakouts";
 import { loadCompanyIndex, loadCompanyReport } from "./lib/data";
@@ -56,6 +56,8 @@ function sortLabels(labels: string[]) {
 }
 
 function App() {
+  const sidebarRef = useRef<HTMLElement | null>(null);
+  const workspaceRef = useRef<HTMLElement | null>(null);
   const [activeMode, setActiveMode] = useState<"companies" | "breakouts">("companies");
   const [index, setIndex] = useState<CompanyIndex | null>(null);
   const [query, setQuery] = useState("");
@@ -138,9 +140,28 @@ function App() {
     }
   }, [index, loading, matches, selected]);
 
+  const scrollIntoViewOnMobile = useCallback((element: HTMLElement | null) => {
+    if (!element || !window.matchMedia("(max-width: 980px)").matches) return;
+    window.requestAnimationFrame(() => {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }, []);
+
+  const selectCompany = useCallback(
+    (company: CompanyIndexItem) => {
+      setSelected(company);
+      scrollIntoViewOnMobile(workspaceRef.current);
+    },
+    [scrollIntoViewOnMobile],
+  );
+
+  const returnToCompanyList = useCallback(() => {
+    scrollIntoViewOnMobile(sidebarRef.current);
+  }, [scrollIntoViewOnMobile]);
+
   return (
     <main className="app-shell">
-      <aside className="sidebar">
+      <aside className="sidebar" ref={sidebarRef}>
         <div className="brand">
           <span>Stock Checking</span>
           <strong>公开公司溯源</strong>
@@ -224,7 +245,7 @@ function App() {
                       .filter(Boolean)
                       .join(" ")}
                     key={company.id}
-                    onClick={() => setSelected(company)}
+                    onClick={() => selectCompany(company)}
                     type="button"
                   >
                     <span>{company.ticker}</span>
@@ -266,11 +287,17 @@ function App() {
         </footer>
       </aside>
 
-      <section className="workspace">
+      <section className="workspace" ref={workspaceRef}>
         {activeMode === "breakouts" ? (
           <VolumeBreakouts />
         ) : (
           <>
+            {selected && (
+              <button className="mobile-list-return" onClick={returnToCompanyList} type="button">
+                <List size={16} aria-hidden="true" />
+                <span>返回股票列表</span>
+              </button>
+            )}
             {companyError && (
               <div className="error-banner">
                 <AlertCircle size={18} aria-hidden="true" />
