@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import concurrent.futures
 import datetime as dt
+import html
 import json
 import math
 import re
@@ -28,6 +29,8 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUTPUT = ROOT / "public" / "data" / "volume-breakouts.json"
 EASTMONEY_QUOTE_API = "https://push2delay.eastmoney.com/api/qt/clist/get"
 EASTMONEY_KLINE_API = "https://push2his.eastmoney.com/api/qt/stock/kline/get"
+EASTMONEY_ANN_API = "https://np-anotice-stock.eastmoney.com/api/security/ann"
+EASTMONEY_SEARCH_API = "https://search-api-web.eastmoney.com/search/jsonp"
 YAHOO_CHART_API = "https://query1.finance.yahoo.com/v8/finance/chart"
 EASTMONEY_QUOTE_BASE = "https://quote.eastmoney.com"
 THS_WENCAI_URL = "https://www.iwencai.com"
@@ -42,12 +45,71 @@ MIN_PCT_CHANGE = 0.0
 MIN_BREAKOUT_PCT = 0.0
 REQUEST_TIMEOUT = 16
 THS_QUERY_TIMEOUT = 35
+CATALYST_LOOKBACK_DAYS = 30
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Stock-Checking/1.0 Safari/537.36"
 )
 
 CandidateProvider = str
+
+
+CATALYST_RULES = [
+    {
+        "typeZh": "订单/中标/客户",
+        "typeEn": "Orders / tenders / customers",
+        "keywords": ("中标", "订单", "合同", "大客户", "客户", "供应", "采购", "框架协议", "项目合作"),
+        "score": 5,
+    },
+    {
+        "typeZh": "产品涨价/供需紧张",
+        "typeEn": "Price hikes / tight supply",
+        "keywords": ("涨价", "提价", "价格上调", "供需", "短缺", "稀缺", "缺货", "供应紧张", "产能紧张"),
+        "score": 5,
+    },
+    {
+        "typeZh": "业绩改善",
+        "typeEn": "Earnings improvement",
+        "keywords": ("业绩预告", "业绩快报", "净利润", "利润增长", "扭亏", "同比增长", "营收增长", "分红"),
+        "score": 4,
+    },
+    {
+        "typeZh": "并购/重组/融资",
+        "typeEn": "M&A / restructuring / financing",
+        "keywords": ("并购", "收购", "重组", "资产注入", "定增", "发行股份", "重大资产", "控制权"),
+        "score": 4,
+    },
+    {
+        "typeZh": "政策/产业主题",
+        "typeEn": "Policy / sector theme",
+        "keywords": ("政策", "国常会", "工信部", "发改委", "补贴", "国产替代", "创新药", "半导体", "人工智能", "机器人", "低空经济", "算力", "概念", "板块"),
+        "score": 3,
+    },
+    {
+        "typeZh": "产能/产品进展",
+        "typeEn": "Capacity / product progress",
+        "keywords": ("产能", "投产", "扩产", "试生产", "量产", "认证", "新产品", "研发", "临床", "获批"),
+        "score": 3,
+    },
+    {
+        "typeZh": "资本动作",
+        "typeEn": "Capital action",
+        "keywords": ("回购", "增持", "员工持股", "股权激励", "战略投资"),
+        "score": 3,
+    },
+    {
+        "typeZh": "监管/风险事件",
+        "typeEn": "Regulatory / risk event",
+        "keywords": ("问询函", "监管", "立案", "处罚", "风险提示", "异动公告", "澄清"),
+        "score": 2,
+    },
+    {
+        "typeZh": "交易性报道",
+        "typeEn": "Trading-flow report",
+        "keywords": ("龙虎榜", "成交额", "换手率", "涨停", "主力资金", "融资融券", "大宗交易", "异动"),
+        "score": 1,
+    },
+]
 
 
 def market_now() -> dt.datetime:
@@ -79,6 +141,76 @@ def request_json(url: str, params: dict[str, Any], attempts: int = 3) -> dict[st
                 time.sleep(0.7 * attempt)
 
     raise RuntimeError(f"Failed to fetch {url}: {last_error}")
+
+
+def request_jsonp(url: str, params: dict[str, Any], attempts: int = 3) -> dict[str, Any]:
+    encoded = urllib.parse.urlencode(params)
+    full_url = f"{url}?{encoded}"
+    last_error: Exception | None = None
+
+    for attempt in range(1, attempts + 1):
+        try:
+            request = urllib.request.Request(
+                full_url,
+                headers={
+                    "User-Agent": USER_AGENT,
+                    "Accept": "application/json,text/plain,*/*",
+                    "Referer": "https://so.eastmoney.com/",
+                },
+            )
+            with urllib.request.urlopen(request, timeout=REQUEST_TIMEOUT) as response:
+                text = response.read().decode("utf-8").strip()
+            if text.startswith("(") and text.endswith(")"):
+                text = text[1:-1]
+            if text.endswith(";"):
+                text = text[:-1]
+            if text.startswith("(") and text.endswith(")"):
+                text = text[1:-1]
+            return json.loads(text)
+        except Exception as exc:  # noqa: BLE001 - retry any transient network/API error.
+            last_error = exc
+            if attempt < attempts:
+                time.sleep(0.7 * attempt)
+
+    raise RuntimeError(f"Failed to fetch {url}: {last_error}")
+
+
+def clean_text(value: Any) -> str:
+    text = html.unescape(str(value or ""))
+    text = re.sub(r"<[^>]+>", "", text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
+def parse_date(value: Any) -> dt.datetime | None:
+    if value in (None, "", "-"):
+        return None
+    text = str(value)
+    cleaned = re.sub(r"(\d{2}:\d{2}:\d{2}):(\d+)", r"\1.\2", text)
+    for fmt in ("%Y-%m-%d %H:%M:%S.%f", "%Y-%m-%d %H:%M:%S", "%Y-%m-%d"):
+        try:
+            parsed = dt.datetime.strptime(cleaned[:26], fmt)
+            return parsed.replace(tzinfo=market_now().tzinfo)
+        except ValueError:
+            continue
+    match = re.search(r"(\d{4}-\d{2}-\d{2})", text)
+    if match:
+        try:
+            parsed = dt.datetime.strptime(match.group(1), "%Y-%m-%d")
+            return parsed.replace(tzinfo=market_now().tzinfo)
+        except ValueError:
+            return None
+    return None
+
+
+def in_catalyst_window(record_date: str, trade_date: str) -> bool:
+    record_dt = parse_date(record_date)
+    trade_dt = parse_date(trade_date)
+    if not record_dt or not trade_dt:
+        return True
+    start = trade_dt - dt.timedelta(days=CATALYST_LOOKBACK_DAYS)
+    end = trade_dt + dt.timedelta(days=2)
+    return start <= record_dt <= end
 
 
 def as_float(value: Any) -> float | None:
@@ -122,6 +254,10 @@ def quote_url_for_code(code: str) -> str:
     return f"{EASTMONEY_QUOTE_BASE}/{code}.html"
 
 
+def announcement_url_for_code(code: str, art_code: str) -> str:
+    return f"https://data.eastmoney.com/notices/detail/{code}/{art_code}.html"
+
+
 def yahoo_symbol_for_code(code: str) -> str:
     exchange = exchange_for_code(code)
     if exchange == "SSE":
@@ -134,6 +270,284 @@ def yahoo_symbol_for_code(code: str) -> str:
 def normalize_stock_code(value: Any) -> str | None:
     match = re.search(r"(\d{6})", str(value or ""))
     return match.group(1) if match else None
+
+
+def classify_catalyst(text: str) -> dict[str, Any]:
+    trading_keywords = tuple(rule["keywords"] for rule in CATALYST_RULES if rule["typeZh"] == "交易性报道")[0]
+    sector_keywords = tuple(rule["keywords"] for rule in CATALYST_RULES if rule["typeZh"] == "政策/产业主题")[0]
+    strong_keywords = tuple(
+        keyword
+        for rule in CATALYST_RULES
+        if rule["typeZh"] not in ("交易性报道", "政策/产业主题")
+        for keyword in rule["keywords"]
+    )
+    if any(keyword in text for keyword in trading_keywords) and not any(keyword in text for keyword in strong_keywords + sector_keywords):
+        return {
+            "typeZh": "交易性报道",
+            "typeEn": "Trading-flow report",
+            "score": 1,
+            "keywords": [keyword for keyword in trading_keywords if keyword in text][:5],
+        }
+
+    matched: list[dict[str, Any]] = []
+    for rule in CATALYST_RULES:
+        hits = [keyword for keyword in rule["keywords"] if keyword in text]
+        if hits:
+            score = int(rule["score"])
+            if rule["typeZh"] != "交易性报道":
+                score += min(len(hits), 3)
+            matched.append(
+                {
+                    "typeZh": rule["typeZh"],
+                    "typeEn": rule["typeEn"],
+                    "score": score,
+                    "keywords": hits[:5],
+                }
+            )
+
+    if not matched:
+        return {
+            "typeZh": "未识别催化",
+            "typeEn": "Unclassified catalyst",
+            "score": 0,
+            "keywords": [],
+        }
+
+    matched.sort(key=lambda item: item["score"], reverse=True)
+    return matched[0]
+
+
+def confidence_for_catalyst(source_type: str, score: int) -> tuple[str, str, str]:
+    if score <= 1:
+        return "context", "背景", "Context"
+    if source_type == "announcement" and score >= 4:
+        return "high", "高", "High"
+    if score >= 4:
+        return "medium", "中", "Medium"
+    if score >= 2:
+        return "low", "低", "Low"
+    return "context", "背景", "Context"
+
+
+def fetch_announcements(code: str, limit: int = 8) -> list[dict[str, Any]]:
+    payload = request_json(
+        EASTMONEY_ANN_API,
+        {
+            "sr": "-1",
+            "page_size": str(limit),
+            "page_index": "1",
+            "ann_type": "A",
+            "client_source": "web",
+            "stock_list": code,
+        },
+    )
+    items = ((payload.get("data") or {}).get("list") or [])[:limit]
+    records = []
+    for item in items:
+        art_code = str(item.get("art_code") or "")
+        title = clean_text(item.get("title"))
+        date = clean_text(item.get("notice_date") or item.get("display_time") or item.get("sort_date"))
+        columns = " / ".join(clean_text(column.get("column_name")) for column in item.get("columns") or [])
+        records.append(
+            {
+                "sourceType": "announcement",
+                "sourceNameZh": "东方财富公告",
+                "sourceNameEn": "Eastmoney announcement",
+                "title": title,
+                "content": columns,
+                "date": date[:10] if date else "",
+                "url": announcement_url_for_code(code, art_code) if art_code else quote_url_for_code(code),
+            }
+        )
+    return records
+
+
+def fetch_news(name: str, limit: int = 8) -> list[dict[str, Any]]:
+    search_param = {
+        "uid": "",
+        "keyword": name,
+        "type": ["cmsArticleWebOld"],
+        "client": "web",
+        "clientType": "web",
+        "clientVersion": "curr",
+        "param": {
+            "cmsArticleWebOld": {
+                "searchScope": "default",
+                "sort": "default",
+                "pageIndex": 1,
+                "pageSize": limit,
+                "preTag": "<em>",
+                "postTag": "</em>",
+            }
+        },
+    }
+    payload = request_jsonp(
+        EASTMONEY_SEARCH_API,
+        {
+            "cb": "",
+            "param": json.dumps(search_param, ensure_ascii=False),
+        },
+    )
+    items = (((payload.get("result") or {}).get("cmsArticleWebOld")) or [])[:limit]
+    records = []
+    for item in items:
+        records.append(
+            {
+                "sourceType": "news",
+                "sourceNameZh": clean_text(item.get("mediaName") or "东方财富资讯"),
+                "sourceNameEn": "Eastmoney news",
+                "title": clean_text(item.get("title")),
+                "content": clean_text(item.get("content")),
+                "date": clean_text(item.get("date")),
+                "url": clean_text(item.get("url")),
+            }
+        )
+    return records
+
+
+def industry_watch(industry: str) -> tuple[str, str]:
+    if any(token in industry for token in ("电池", "工业金属", "铜", "锂", "化学原料", "化学制品")):
+        return (
+            "产业核验方向：该行业对原材料价格、库存周期、下游订单和供给扰动敏感，需重点核验是否存在涨价、短缺或大客户采购消息。",
+            "Industry check: this sector is sensitive to raw-material prices, inventory cycles, downstream orders and supply disruptions; verify price hikes, shortages or large-customer procurement.",
+        )
+    if any(token in industry for token in ("半导体", "电子化学", "计算机设备")):
+        return (
+            "产业核验方向：该行业更适合核验国产替代、客户认证、设备/材料订单、AI 算力或先进制程扩产等基本面线索。",
+            "Industry check: verify import substitution, customer qualification, equipment/material orders, AI-compute demand or advanced-node capacity expansion.",
+        )
+    if any(token in industry for token in ("医疗", "制药", "生物", "CRO")):
+        return (
+            "产业核验方向：该行业应重点核验临床/注册进展、创新药政策、订单恢复、海外授权或投融资事件。",
+            "Industry check: verify clinical or registration progress, innovative-drug policy, order recovery, out-licensing or financing events.",
+        )
+    if any(token in industry for token in ("通用设备", "专用设备", "航空", "机器人")):
+        return (
+            "产业核验方向：该行业应重点核验设备订单、政策补贴、产能利用率和下游资本开支改善。",
+            "Industry check: verify equipment orders, policy support, utilization rates and downstream capex recovery.",
+        )
+    return (
+        "产业核验方向：需要继续核验是否存在公告、订单、涨价、政策或板块景气变化，当前行业字段本身不足以证明基本面利好。",
+        "Industry check: continue verifying announcements, orders, price hikes, policy support or sector-cycle changes; the industry tag alone is not proof of a catalyst.",
+    )
+
+
+def build_catalyst_bundle(
+    row: dict[str, Any],
+    latest_date: str,
+    ths_candidate: dict[str, Any] | None,
+) -> dict[str, Any]:
+    code = str(row.get("f12") or "")
+    name = str(row.get("f14") or "")
+    industry = str(row.get("f100") or "未分类")
+    records: list[dict[str, Any]] = []
+    errors: list[str] = []
+
+    try:
+        records.extend(fetch_announcements(code))
+    except Exception as exc:  # noqa: BLE001 - optional evidence source.
+        errors.append(f"announcements: {exc}")
+    try:
+        records.extend(fetch_news(name))
+    except Exception as exc:  # noqa: BLE001 - optional evidence source.
+        errors.append(f"news: {exc}")
+
+    enriched: list[dict[str, Any]] = []
+    seen: set[tuple[str, str]] = set()
+    for record in records:
+        title = clean_text(record.get("title"))
+        content = clean_text(record.get("content"))
+        date = clean_text(record.get("date"))
+        if not title or not in_catalyst_window(date, latest_date):
+            continue
+        key = (date[:10], title)
+        if key in seen:
+            continue
+        seen.add(key)
+        classification = classify_catalyst(f"{title} {content}")
+        confidence, confidence_zh, confidence_en = confidence_for_catalyst(
+            str(record.get("sourceType") or ""),
+            int(classification["score"]),
+        )
+        enriched.append(
+            {
+                "sourceType": record.get("sourceType"),
+                "sourceNameZh": record.get("sourceNameZh"),
+                "sourceNameEn": record.get("sourceNameEn"),
+                "title": title,
+                "date": date[:16],
+                "url": record.get("url"),
+                "catalystTypeZh": classification["typeZh"],
+                "catalystTypeEn": classification["typeEn"],
+                "confidence": confidence,
+                "confidenceZh": confidence_zh,
+                "confidenceEn": confidence_en,
+                "keywords": classification["keywords"],
+                "summaryZh": content[:120] if content else title,
+                "summaryEn": (
+                    "Public source title/content indicates this catalyst category; read the linked source for full context."
+                ),
+                "score": int(classification["score"]),
+            }
+        )
+
+    enriched.sort(key=lambda item: (int(item["score"]), str(item.get("date") or "")), reverse=True)
+    fundamental = [
+        item
+        for item in enriched
+        if int(item["score"]) >= 2 and item.get("catalystTypeZh") != "交易性报道"
+    ]
+    market_flow = [
+        item
+        for item in enriched
+        if int(item["score"]) == 1 or item.get("catalystTypeZh") == "交易性报道"
+    ]
+    selected = (fundamental[:4] if fundamental else market_flow[:2])
+    watch_zh, watch_en = industry_watch(industry)
+
+    if fundamental:
+        primary = fundamental[0]
+        summary_zh = (
+            f"已找到公开基本面/消息线索：{primary['date']} {primary['sourceNameZh']}《{primary['title']}》，"
+            f"归类为“{primary['catalystTypeZh']}”。这只能说明存在可核验催化线索，不能单独证明上涨原因。"
+        )
+        summary_en = (
+            f"Verified public catalyst lead found: {primary['date']} {primary['sourceNameEn']} \"{primary['title']}\", "
+            f"classified as {primary['catalystTypeEn']}. It is evidence to verify, not proof of causality."
+        )
+        status = "found"
+    elif market_flow:
+        summary_zh = (
+            "未找到强基本面公告或消息催化；公开资讯主要是涨停、龙虎榜、成交额等交易性报道。"
+            f"{watch_zh}"
+        )
+        summary_en = (
+            "No strong company-fundamental announcement/news catalyst was found; public items are mostly trading-flow reports. "
+            f"{watch_en}"
+        )
+        status = "market-only"
+    else:
+        summary_zh = f"未在近 {CATALYST_LOOKBACK_DAYS} 天公开公告/新闻标题中找到可核验的基本面催化。{watch_zh}"
+        summary_en = (
+            f"No verifiable fundamental catalyst was found in public announcement/news titles within {CATALYST_LOOKBACK_DAYS} days. "
+            f"{watch_en}"
+        )
+        status = "not-found"
+
+    ths_signals = list(dict.fromkeys(str(item) for item in (ths_candidate or {}).get("signals", []) if item))[:6]
+    if ths_signals:
+        summary_zh += f" 问财公开标签可作辅助线索：{' / '.join(ths_signals[:3])}。"
+        summary_en += f" iWencai public tags can be used as auxiliary clues: {' / '.join(ths_signals[:3])}."
+
+    return {
+        "status": status,
+        "summaryZh": summary_zh,
+        "summaryEn": summary_en,
+        "industryWatchZh": watch_zh,
+        "industryWatchEn": watch_en,
+        "catalysts": selected,
+        "errors": errors[:3],
+    }
 
 
 def split_signal_text(value: Any) -> list[str]:
@@ -505,6 +919,7 @@ def build_reason(
     volume_ratio: float,
     breakout_pct: float,
     ths_candidate: dict[str, Any] | None,
+    catalyst_bundle: dict[str, Any],
 ) -> tuple[str, str, list[dict[str, str]], list[str]]:
     code = str(row.get("f12"))
     name = str(row.get("f14"))
@@ -546,6 +961,10 @@ def build_reason(
         for signal in ths_signals[:3]:
             if signal not in tags:
                 tags.append(signal)
+    for catalyst in catalyst_bundle.get("catalysts", [])[:3]:
+        catalyst_type = str(catalyst.get("catalystTypeZh") or "")
+        if catalyst_type and catalyst_type not in tags:
+            tags.append(catalyst_type)
 
     turnover_text_zh = "换手率缺失" if turnover is None else f"换手率 {turnover:.2f}%"
     turnover_text_en = "turnover rate unavailable" if turnover is None else f"{turnover:.2f}% turnover rate"
@@ -561,19 +980,18 @@ def build_reason(
     )
 
     reason_zh = (
-        f"{name}（{code}）收盘价 {close:.2f} 元，高于过去 {window_days} 个交易日最高价 "
+        f"量价确认：{name}（{code}）收盘价 {close:.2f} 元，高于过去 {window_days} 个交易日最高价 "
         f"{previous_high:.2f} 元，突破幅度 {breakout_pct:.2f}%。当日成交量为窗口均量的 "
         f"{volume_ratio:.2f} 倍，成交额约 {amount / 100_000_000:.2f} 亿元，{turnover_text_zh}。"
         f"{ths_reason_zh}"
-        f"量价同步放大，行业字段为“{industry}”，更像资金围绕该板块或个股趋势做突破确认；"
-        "该判断基于行情数据，不等同于已确认公告利好。"
+        "该部分只说明入选的交易条件，真正的消息/基本面催化需以上方公开来源为准。"
     )
     reason_en = (
-        f"{name} ({code}) closed at CNY {close:.2f}, above the previous {window_days}-session high "
+        f"Price-volume confirmation: {name} ({code}) closed at CNY {close:.2f}, above the previous {window_days}-session high "
         f"of CNY {previous_high:.2f}, a {breakout_pct:.2f}% breakout. Volume was {volume_ratio:.2f}x "
         f"the window average, value traded was about CNY {amount / 1_000_000_000:.2f}bn, with "
-        f"{turnover_text_en}. {ths_reason_en}The move looks like a price-volume confirmation around the stock or "
-        f"its {industry} industry tag, not a verified announcement-driven catalyst."
+        f"{turnover_text_en}. {ths_reason_en}This confirms the screening condition only; the public-source "
+        "catalyst section above should be used for fundamental/news verification."
     )
 
     factors = [
@@ -611,6 +1029,14 @@ def build_reason(
                 "valueEn": f"Tonghuashun iWencai: {' / '.join(ths_signals[:4]) if ths_signals else 'candidate match'}",
             }
         )
+    factors.append(
+        {
+            "labelZh": "消息催化",
+            "labelEn": "News catalyst",
+            "valueZh": catalyst_bundle.get("summaryZh", "未找到可核验催化")[:96],
+            "valueEn": catalyst_bundle.get("summaryEn", "No verified catalyst found")[:120],
+        }
+    )
 
     return reason_zh, reason_en, factors, tags
 
@@ -628,6 +1054,7 @@ def analyze_stock(
 
     latest = klines[-1]
     latest_date = str(latest["date"])
+    catalyst_bundle = build_catalyst_bundle(row, latest_date, ths_candidate)
     results = []
 
     for window_days in WINDOWS:
@@ -671,6 +1098,7 @@ def analyze_stock(
             volume_ratio,
             breakout_pct,
             ths_candidate,
+            catalyst_bundle,
         )
         rank_score = (
             volume_ratio * 2.0
@@ -722,6 +1150,12 @@ def analyze_stock(
                     if ths_candidate
                     else []
                 ),
+                "fundamentalCatalystStatus": catalyst_bundle["status"],
+                "fundamentalSummaryZh": catalyst_bundle["summaryZh"],
+                "fundamentalSummaryEn": catalyst_bundle["summaryEn"],
+                "industryWatchZh": catalyst_bundle["industryWatchZh"],
+                "industryWatchEn": catalyst_bundle["industryWatchEn"],
+                "fundamentalCatalysts": catalyst_bundle["catalysts"],
                 "reasonZh": reason_zh,
                 "reasonEn": reason_en,
                 "factors": factors,
@@ -801,15 +1235,21 @@ def build_report(
         )
 
     generated_at = market_now().isoformat(timespec="seconds")
+    catalyst_codes = {
+        stock["code"]
+        for window in windows
+        for stock in window["stocks"]
+        if stock.get("fundamentalCatalysts")
+    }
     return {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
         "generatedAt": generated_at,
         "tradeDate": trade_date,
         "source": {
-            "name": "同花顺问财候选 + 东方财富/Yahoo 量价校验 / iWencai candidates + Eastmoney/Yahoo validation",
+            "name": "同花顺问财候选 + 东方财富公告/资讯 + 东方财富/Yahoo 量价校验 / iWencai + Eastmoney catalysts + market validation",
             "url": THS_WENCAI_URL if candidate_provider in ("hybrid", "ths") else EASTMONEY_QUOTE_BASE,
-            "noteZh": "候选源优先接入同花顺问财；行情列表来自东方财富 push2delay 延迟行情公开接口，日 K 优先来自 Yahoo Finance A 股历史行情，若 Yahoo 不可用则回退到东方财富 push2his。原因分析由本项目按公开量价字段自动生成。",
-            "noteEn": "Candidate sourcing prefers Tonghuashun iWencai. The quote list comes from Eastmoney delayed push2delay, daily candles prefer Yahoo Finance A-share history and fall back to Eastmoney push2his. Analysis text is generated by this project from public price-volume fields.",
+            "noteZh": "候选源优先接入同花顺问财；公告和新闻标题来自东方财富公开接口；行情列表来自东方财富 push2delay，日 K 优先来自 Yahoo Finance，若 Yahoo 不可用则回退到东方财富 push2his。基本面催化只作为可核验线索，不单独证明上涨因果。",
+            "noteEn": "Candidate sourcing prefers Tonghuashun iWencai. Announcement/news titles come from public Eastmoney endpoints. Quote lists come from Eastmoney push2delay, daily candles prefer Yahoo Finance and fall back to Eastmoney push2his. Fundamental catalysts are verification leads, not proof of causality.",
         },
         "scopeZh": "hybrid 模式优先使用同花顺问财候选，再按统一口径复核 1/2/3/20/60/120 日窗口；问财不可用时回退到本项目全市场量价预筛。当前覆盖东方财富沪深 A 股行情集合，包括沪深主板、创业板、科创板。",
         "scopeEn": "Hybrid mode prioritizes Tonghuashun iWencai candidates, then re-validates 1/2/3/20/60/120-day windows with one consistent rule set; if iWencai is unavailable it falls back to the in-project full-universe price-volume prefilter. Current coverage is the Eastmoney Shanghai/Shenzhen A-share universe.",
@@ -832,6 +1272,16 @@ def build_report(
                     if ths_candidates and not used_fallback_universe
                     else f"The in-project full-universe prefilter returned {len(computed_candidates)} candidates; final results still require prior-high and average-volume validation."
                 ),
+                "queries": [],
+            },
+            {
+                "id": "eastmoney-catalysts",
+                "nameZh": "东方财富公告/资讯催化",
+                "nameEn": "Eastmoney announcement/news catalysts",
+                "status": "ok",
+                "count": len(catalyst_codes),
+                "noteZh": f"近 {CATALYST_LOOKBACK_DAYS} 天公告/新闻标题中，为 {len(catalyst_codes)} 只入选股票找到可展示的基本面或市场催化线索；未找到时会明确提示继续核验。",
+                "noteEn": f"Announcement/news titles within {CATALYST_LOOKBACK_DAYS} days produced displayable fundamental or market catalyst leads for {len(catalyst_codes)} qualified stocks; missing evidence is shown explicitly.",
                 "queries": [],
             },
         ],
@@ -867,8 +1317,8 @@ def build_report(
                 "value": f"{MIN_TURNOVER_RATE:.1f}%",
             },
         ],
-        "disclaimerZh": f"本次以 {candidate_provider} 模式扫描候选 {len(candidates)} 只，K 线失败 {failures} 只；问财只作候选与标签线索，最终入选由本项目量价口径复核，不构成投资建议。",
-        "disclaimerEn": f"Scanned {len(candidates)} candidates in {candidate_provider} mode with {failures} candle failures. iWencai is used only for candidate and tag hints; final inclusion is re-validated by this project's price-volume rules and is not investment advice.",
+        "disclaimerZh": f"本次以 {candidate_provider} 模式扫描候选 {len(candidates)} 只，K 线失败 {failures} 只；问财只作候选与标签线索，最终入选由本项目量价口径复核；公告/新闻催化只表示可核验线索，不构成因果证明或投资建议。",
+        "disclaimerEn": f"Scanned {len(candidates)} candidates in {candidate_provider} mode with {failures} candle failures. iWencai is used only for candidate and tag hints; final inclusion is re-validated by this project's price-volume rules. Announcement/news catalysts are verification leads, not causality proof or investment advice.",
         "windows": windows,
     }
 

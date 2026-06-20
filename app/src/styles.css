@@ -1937,6 +1937,121 @@ a {
   color: #a3452f;
 }
 
+.breakout-catalysts {
+  border: 1px solid #dde5dc;
+  border-radius: 8px;
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+}
+
+.breakout-catalysts.status-found {
+  background: #f6fbf8;
+  border-color: #c9dfcf;
+}
+
+.breakout-catalysts.status-market-only,
+.breakout-catalysts.status-not-found {
+  background: #fbfcfa;
+}
+
+.breakout-catalyst-heading {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+.breakout-catalyst-heading svg {
+  color: #2b7a78;
+  flex-shrink: 0;
+}
+
+.breakout-catalyst-heading div {
+  display: grid;
+  gap: 2px;
+}
+
+.breakout-catalyst-heading strong {
+  color: #111817;
+}
+
+.breakout-catalyst-heading small,
+.breakout-catalyst-en {
+  color: #6b756f;
+}
+
+.breakout-catalysts p {
+  color: #35413e;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.breakout-catalyst-list {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.breakout-catalyst-card {
+  background: #ffffff;
+  border: 1px solid #dfe7dc;
+  border-radius: 8px;
+  color: inherit;
+  display: grid;
+  gap: 5px;
+  min-width: 0;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+}
+
+.breakout-catalyst-card:hover {
+  border-color: #2b7a78;
+}
+
+.breakout-catalyst-card span {
+  align-items: center;
+  color: #2b7a78;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1.35;
+}
+
+.breakout-catalyst-card span small {
+  color: #6b756f;
+  font-weight: 700;
+}
+
+.breakout-catalyst-card strong {
+  color: #111817;
+  font-size: 14px;
+  line-height: 1.38;
+  overflow-wrap: anywhere;
+}
+
+.breakout-catalyst-card em,
+.breakout-catalyst-card > small {
+  color: #5f6d68;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 1.35;
+}
+
+.breakout-catalyst-card em {
+  color: #7a5d13;
+  font-weight: 900;
+}
+
+.breakout-catalyst-card > svg {
+  color: #6b756f;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
 .breakout-reason {
   border-left: 3px solid #a9cfc8;
   display: grid;
@@ -2139,6 +2254,7 @@ a {
   .breakout-summary-grid,
   .breakout-metrics,
   .breakout-provider-list,
+  .breakout-catalyst-list,
   .breakout-factor-grid {
     grid-template-columns: 1fr;
   }

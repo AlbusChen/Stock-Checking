@@ -3,10 +3,12 @@ import {
   BarChart3,
   CalendarDays,
   ExternalLink,
+  FileText,
   Gauge,
   Info,
   LineChart,
   Loader2,
+  Newspaper,
 } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { loadVolumeBreakouts } from "../lib/data";
@@ -198,6 +200,49 @@ function ExternalSignals({ stock }: { stock: VolumeBreakoutStock }) {
   );
 }
 
+function FundamentalCatalysts({ stock }: { stock: VolumeBreakoutStock }) {
+  const catalysts = stock.fundamentalCatalysts ?? [];
+
+  return (
+    <section className={`breakout-catalysts status-${stock.fundamentalCatalystStatus ?? "not-found"}`}>
+      <div className="breakout-catalyst-heading">
+        <Newspaper size={16} aria-hidden="true" />
+        <div>
+          <strong>基本面/消息催化</strong>
+          <small>Fundamental and news catalysts</small>
+        </div>
+      </div>
+      <p>{stock.fundamentalSummaryZh ?? "未找到可核验的基本面催化。"}</p>
+      {stock.fundamentalSummaryEn ? <p className="breakout-catalyst-en">{stock.fundamentalSummaryEn}</p> : null}
+      {catalysts.length > 0 ? (
+        <div className="breakout-catalyst-list">
+          {catalysts.map((catalyst) => (
+            <a
+              className={`breakout-catalyst-card confidence-${catalyst.confidence}`}
+              href={catalyst.url}
+              key={`${stock.code}-${catalyst.date}-${catalyst.title}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>
+                {catalyst.sourceType === "announcement" ? <FileText size={14} aria-hidden="true" /> : <Newspaper size={14} aria-hidden="true" />}
+                {catalyst.sourceNameZh}
+                <small>{catalyst.date}</small>
+              </span>
+              <strong>{catalyst.title}</strong>
+              <em>
+                {catalyst.catalystTypeZh} · {catalyst.confidenceZh}
+              </em>
+              <small>{catalyst.catalystTypeEn} · {catalyst.confidenceEn}</small>
+              <ExternalLink size={13} aria-hidden="true" />
+            </a>
+          ))}
+        </div>
+      ) : null}
+    </section>
+  );
+}
+
 function StockCard({ stock }: { stock: VolumeBreakoutStock }) {
   return (
     <article className="breakout-stock-card">
@@ -222,10 +267,12 @@ function StockCard({ stock }: { stock: VolumeBreakoutStock }) {
 
       <StockMetrics stock={stock} />
 
+      <FundamentalCatalysts stock={stock} />
+
       <div className="breakout-reason">
         <div>
-          <strong>原因分析</strong>
-          <small>Analysis</small>
+          <strong>量价确认</strong>
+          <small>Price-volume confirmation</small>
         </div>
         <p>{stock.reasonZh}</p>
         <p className="breakout-reason-en">{stock.reasonEn}</p>
@@ -312,7 +359,7 @@ export function VolumeBreakouts() {
           </div>
           <h1>放量突破</h1>
           <p>
-            当日收盘价突破所选窗口前高，同时成交量相对窗口均量显著放大；原因分析基于量价结构、成交活跃度和行业字段生成。
+            先用量价条件筛出放量突破股票，再用公开公告、新闻标题和行业线索提示可能的基本面催化；没有可靠消息时会明确标注继续核验。
           </p>
         </div>
         <div className="breakout-freshness">

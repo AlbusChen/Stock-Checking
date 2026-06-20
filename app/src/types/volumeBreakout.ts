@@ -26,6 +26,23 @@ export interface VolumeBreakoutExternalSignal {
   noteEn: string;
 }
 
+export interface VolumeBreakoutCatalyst {
+  sourceType: "announcement" | "news";
+  sourceNameZh: string;
+  sourceNameEn: string;
+  title: string;
+  date: string;
+  url: string;
+  catalystTypeZh: string;
+  catalystTypeEn: string;
+  confidence: "high" | "medium" | "low" | "context";
+  confidenceZh: string;
+  confidenceEn: string;
+  keywords: string[];
+  summaryZh: string;
+  summaryEn: string;
+}
+
 export interface VolumeBreakoutProviderStatus {
   id: string;
   nameZh: string;
@@ -62,6 +79,12 @@ export interface VolumeBreakoutStock {
   tags: string[];
   candidateSources?: string[];
   externalSignals?: VolumeBreakoutExternalSignal[];
+  fundamentalCatalystStatus?: "found" | "market-only" | "not-found";
+  fundamentalSummaryZh?: string;
+  fundamentalSummaryEn?: string;
+  industryWatchZh?: string;
+  industryWatchEn?: string;
+  fundamentalCatalysts?: VolumeBreakoutCatalyst[];
   reasonZh: string;
   reasonEn: string;
   factors: VolumeBreakoutFactor[];
