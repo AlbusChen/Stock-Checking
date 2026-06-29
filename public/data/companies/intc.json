@@ -91,6 +91,44 @@
       "Intel Foundry 收入包含内部交易，观察时需要区分总净收入与分部口径。",
       "先进制程和 EUV 工具资本开支高，良率爬坡和折旧会影响毛利。",
       "PC 与数据中心 CPU 面临 AMD、Arm、自研 ASIC 和 GPU 加速架构竞争。"
+    ],
+    "failureConditions": [
+      {
+        "condition": "Intel Foundry 收入包含内部交易，观察时需要区分总净收入与分部口径。",
+        "conditionZh": "Intel Foundry 收入包含内部交易，观察时需要区分总净收入与分部口径。",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "intc-q1-2026",
+          "intc-fy2025-results"
+        ]
+      },
+      {
+        "condition": "先进制程和 EUV 工具资本开支高，良率爬坡和折旧会影响毛利。",
+        "conditionZh": "先进制程和 EUV 工具资本开支高，良率爬坡和折旧会影响毛利。",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "intc-q1-2026",
+          "intc-fy2025-results"
+        ]
+      },
+      {
+        "condition": "PC 与数据中心 CPU 面临 AMD、Arm、自研 ASIC 和 GPU 加速架构竞争。",
+        "conditionZh": "PC 与数据中心 CPU 面临 AMD、Arm、自研 ASIC 和 GPU 加速架构竞争。",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "intc-q1-2026",
+          "intc-fy2025-results"
+        ]
+      }
     ]
   },
   "supplyChain": {
@@ -1626,7 +1664,117 @@
           ]
         }
       ]
-    }
+    },
+    "scarceLayers": [
+      {
+        "name": "晶圆厂设备与工艺工具",
+        "nameZh": "晶圆厂设备与工艺工具",
+        "nameEn": "Fab equipment and process tools",
+        "rank": 1,
+        "constraintType": "capacity",
+        "constraintTypeZh": "产能",
+        "constraintTypeEn": "Capacity",
+        "whyScarce": "Intel 年报明确提到先进制程所需的 ASML EUV 工具；其他设备商为半导体制造通用关键环节，具体采购比例未逐项披露。",
+        "whyScarceZh": "Intel 年报明确提到先进制程所需的 ASML EUV 工具；其他设备商为半导体制造通用关键环节，具体采购比例未逐项披露。",
+        "whyScarceEn": "Intel 年报明确提到先进制程所需的 ASML EUV 工具；其他设备商为半导体制造通用关键环节，具体采购比例未逐项披露。",
+        "relatedCompanies": [
+          "ASML",
+          "Applied Materials",
+          "Lam Research",
+          "Tokyo Electron"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "medium",
+        "sourceIds": [
+          "intc-10k-2025"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionZh": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionEn": "The scarcity call should be reduced if capacity additions, substitute supply, or customer qualification progress faster than expected.",
+            "monitor": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorZh": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorEn": "Monitor supplier filings, capacity guidance, customer qualification, pricing, and delivery lead times.",
+            "sourceIds": [
+              "intc-10k-2025"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "外部 foundry、封装与基板",
+        "nameZh": "外部 foundry、封装与基板",
+        "nameEn": "External foundry, packaging, and substrates",
+        "rank": 2,
+        "constraintType": "capacity",
+        "constraintTypeZh": "产能",
+        "constraintTypeEn": "Capacity",
+        "whyScarce": "Intel 部分产品会依赖外部 foundry 或封装生态；该层用于追踪供应弹性和先进封装瓶颈。",
+        "whyScarceZh": "Intel 部分产品会依赖外部 foundry 或封装生态；该层用于追踪供应弹性和先进封装瓶颈。",
+        "whyScarceEn": "Intel 部分产品会依赖外部 foundry 或封装生态；该层用于追踪供应弹性和先进封装瓶颈。",
+        "relatedCompanies": [
+          "TSMC",
+          "ASE Technology",
+          "Amkor",
+          "Ibiden"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "low",
+        "sourceIds": [
+          "intc-10k-2025"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionZh": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionEn": "The scarcity call should be reduced if capacity additions, substitute supply, or customer qualification progress faster than expected.",
+            "monitor": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorZh": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorEn": "Monitor supplier filings, capacity guidance, customer qualification, pricing, and delivery lead times.",
+            "sourceIds": [
+              "intc-10k-2025"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "晶圆、化学品、气体和消耗材料",
+        "nameZh": "晶圆、化学品、气体和消耗材料",
+        "nameEn": "Wafers, chemicals, gases, and consumables",
+        "rank": 3,
+        "constraintType": "purity",
+        "constraintTypeZh": "纯度",
+        "constraintTypeEn": "Purity",
+        "whyScarce": "这些是半导体制造的原材料和消耗材料层，Intel 年报提示原材料短缺、交期和价格波动风险。",
+        "whyScarceZh": "这些是半导体制造的原材料和消耗材料层，Intel 年报提示原材料短缺、交期和价格波动风险。",
+        "whyScarceEn": "这些是半导体制造的原材料和消耗材料层，Intel 年报提示原材料短缺、交期和价格波动风险。",
+        "relatedCompanies": [
+          "Shin-Etsu",
+          "SUMCO",
+          "JSR",
+          "Entegris"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "low",
+        "sourceIds": [
+          "intc-10k-2025"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionZh": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionEn": "The scarcity call should be reduced if capacity additions, substitute supply, or customer qualification progress faster than expected.",
+            "monitor": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorZh": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorEn": "Monitor supplier filings, capacity guidance, customer qualification, pricing, and delivery lead times.",
+            "sourceIds": [
+              "intc-10k-2025"
+            ]
+          }
+        ]
+      }
+    ]
   },
   "financials": {
     "latestPeriod": "Q1 2026 / FY2025 baseline",
@@ -2203,7 +2351,10 @@
       "accessedAt": "2026-06-07",
       "type": "company",
       "titleZh": "Intel Reports First-Quarter 2026 Financial Results",
-      "titleEn": "Intel Reports First-Quarter 2026 Financial Results"
+      "titleEn": "Intel Reports First-Quarter 2026 Financial Results",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "intc-fy2025-results",
@@ -2214,7 +2365,10 @@
       "accessedAt": "2026-06-07",
       "type": "company",
       "titleZh": "Intel Reports Fourth-Quarter and Full-Year 2025 Financial Results",
-      "titleEn": "Intel Reports Fourth-Quarter and Full-Year 2025 Financial Results"
+      "titleEn": "Intel Reports Fourth-Quarter and Full-Year 2025 Financial Results",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "intc-10k-2025",
@@ -2225,7 +2379,10 @@
       "accessedAt": "2026-06-07",
       "type": "sec",
       "titleZh": "Intel FY2025 Form 10-K",
-      "titleEn": "Intel FY2025 Form 10-K"
+      "titleEn": "Intel FY2025 Form 10-K",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "intc-computex-2026",
@@ -2236,7 +2393,10 @@
       "accessedAt": "2026-06-07",
       "type": "company",
       "titleZh": "Intel Announces New AI Innovations at Computex",
-      "titleEn": "Intel Announces New AI Innovations at Computex"
+      "titleEn": "Intel Announces New AI Innovations at Computex",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "rss-intc-postcard-from-computex-2026-new-intel-core-series-",
@@ -2247,7 +2407,10 @@
       "accessedAt": "2026-06-07",
       "type": "company",
       "titleZh": "Computex 2026 现场：Intel Core Series 3 笔记本面向日常创作与全天生产力",
-      "titleEn": "Postcard from Computex 2026: Intel Core Series 3 laptops for everyday creation and all-day productivity"
+      "titleEn": "Postcard from Computex 2026: Intel Core Series 3 laptops for everyday creation and all-day productivity",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "rss-intc-intel-introduces-ethernet-e835-controllers-and-net",
@@ -2258,7 +2421,10 @@
       "accessedAt": "2026-06-07",
       "type": "company",
       "titleZh": "Intel 推出面向云、边缘和企业数据中心的 Ethernet E835 控制器与网卡",
-      "titleEn": "Intel introduces Ethernet E835 controllers and network adapters for cloud, edge, and enterprise data centers"
+      "titleEn": "Intel introduces Ethernet E835 controllers and network adapters for cloud, edge, and enterprise data centers",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "rss-intc-computex-2026-an-intelligent-world-built-on-silico",
@@ -2269,7 +2435,10 @@
       "accessedAt": "2026-06-07",
       "type": "company",
       "titleZh": "Computex 2026：建立在硅之上的智能世界",
-      "titleEn": "Computex 2026: An intelligent world built on silicon"
+      "titleEn": "Computex 2026: An intelligent world built on silicon",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "jsr-delisting-2024",
@@ -2280,7 +2449,10 @@
       "accessedAt": "2026-06-07",
       "type": "exchange",
       "titleZh": "TSE Decision on Delisting, etc.: JSR CORPORATION",
-      "titleEn": "TSE Decision on Delisting, etc.: JSR CORPORATION"
+      "titleEn": "TSE Decision on Delisting, etc.: JSR CORPORATION",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "shinko-tender-2025",
@@ -2291,7 +2463,10 @@
       "accessedAt": "2026-06-07",
       "type": "company",
       "titleZh": "Announcement Regarding Commencement of the Tender Offer for Shinko Electric Industries",
-      "titleEn": "Announcement Regarding Commencement of the Tender Offer for Shinko Electric Industries"
+      "titleEn": "Announcement Regarding Commencement of the Tender Offer for Shinko Electric Industries",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "intc-sec-companyfacts",
@@ -2301,7 +2476,10 @@
       "publisher": "SEC EDGAR",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000050863.json",
       "accessedAt": "2026-06-08",
-      "type": "sec"
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "intc-vpro-oem-2024",
@@ -2312,7 +2490,10 @@
       "url": "https://newsroom.intel.com/client-computing/mwc-2024-core-ultra-ai-pc-enterprise-vpro",
       "accessedAt": "2026-06-08",
       "type": "company",
-      "publishedAt": "2024-02-27"
+      "publishedAt": "2024-02-27",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "intc-xeon6-partner-2025",
@@ -2323,7 +2504,10 @@
       "url": "https://download.intel.com/newsroom/2025/3jdc8gkA5/xeon-6-customer-partner-quote-sheet.pdf",
       "accessedAt": "2026-06-08",
       "type": "company",
-      "publishedAt": "2025-04-08"
+      "publishedAt": "2025-04-08",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "intc-foundry-microsoft-2024",
@@ -2334,7 +2518,10 @@
       "url": "https://newsroom.intel.com/intel-foundry/foundry-news-roadmaps-updates",
       "accessedAt": "2026-06-08",
       "type": "company",
-      "publishedAt": "2024-02-21"
+      "publishedAt": "2024-02-21",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     }
   ],
   "automation": {

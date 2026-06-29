@@ -85,6 +85,44 @@
       "电子特气客户认证周期长，新增产能需要通过客户验证才能转化为收入。",
       "WF6、NF3 和含氟精细化学品受原材料、电力、环保安全、出口管制和下游半导体资本开支周期影响。",
       "2026 年 6 月公司股价短期涨幅较大，公告提示市盈率显著高于行业均值，且关于海外 WF6 供给扰动的订单落地仍有不确定性。"
+    ],
+    "failureConditions": [
+      {
+        "condition": "电子特气客户认证周期长，新增产能需要通过客户验证才能转化为收入。",
+        "conditionZh": "电子特气客户认证周期长，新增产能需要通过客户验证才能转化为收入。",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "csscsg-annual-2025",
+          "csscsg-q1-2026"
+        ]
+      },
+      {
+        "condition": "WF6、NF3 和含氟精细化学品受原材料、电力、环保安全、出口管制和下游半导体资本开支周期影响。",
+        "conditionZh": "WF6、NF3 和含氟精细化学品受原材料、电力、环保安全、出口管制和下游半导体资本开支周期影响。",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "csscsg-annual-2025",
+          "csscsg-q1-2026"
+        ]
+      },
+      {
+        "condition": "2026 年 6 月公司股价短期涨幅较大，公告提示市盈率显著高于行业均值，且关于海外 WF6 供给扰动的订单落地仍有不确定性。",
+        "conditionZh": "2026 年 6 月公司股价短期涨幅较大，公告提示市盈率显著高于行业均值，且关于海外 WF6 供给扰动的订单落地仍有不确定性。",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "csscsg-annual-2025",
+          "csscsg-q1-2026"
+        ]
+      }
     ]
   },
   "supplyChain": {
@@ -1251,7 +1289,83 @@
           ]
         }
       ]
-    }
+    },
+    "scarceLayers": [
+      {
+        "name": "披露的直接供应商与生产要素",
+        "nameZh": "披露的直接供应商与生产要素",
+        "nameEn": "Disclosed direct suppliers and production inputs",
+        "rank": 1,
+        "constraintType": "purity",
+        "constraintTypeZh": "纯度",
+        "constraintTypeEn": "Purity",
+        "whyScarce": "年报披露前五大供应商采购额合计约 5.8904 亿元、占年度采购总额 36.75%，且不存在关联采购。",
+        "whyScarceZh": "年报披露前五大供应商采购额合计约 5.8904 亿元、占年度采购总额 36.75%，且不存在关联采购。",
+        "whyScarceEn": "The annual report disclosed combined purchases of about RMB 589.04 million from the top five suppliers, representing 36.75% of annual procurement, with no related-party purchases.",
+        "relatedCompanies": [
+          "State Grid Hebei Electric Power Co., Ltd.",
+          "Ganzhou Hongfei Tungsten & Molybdenum Materials Co., Ltd.",
+          "CNMC (Tianjin) New Materials Technology Co., Ltd.",
+          "Nanchang Cemented Carbide Co., Ltd."
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "high",
+        "sourceIds": [
+          "csscsg-annual-2025"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionZh": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionEn": "The scarcity call should be reduced if capacity additions, substitute supply, or customer qualification progress faster than expected.",
+            "monitor": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorZh": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorEn": "Monitor supplier filings, capacity guidance, customer qualification, pricing, and delivery lead times.",
+            "sourceIds": [
+              "csscsg-annual-2025"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "向原材料追溯的上游类别",
+        "nameZh": "向原材料追溯的上游类别",
+        "nameEn": "Raw-material upstream categories",
+        "rank": 2,
+        "constraintType": "purity",
+        "constraintTypeZh": "纯度",
+        "constraintTypeEn": "Purity",
+        "whyScarce": "这一层是基于产品工艺和公开披露做出的原材料追溯，不等同于公司已披露的直接供应商名单。",
+        "whyScarceZh": "这一层是基于产品工艺和公开披露做出的原材料追溯，不等同于公司已披露的直接供应商名单。",
+        "whyScarceEn": "This layer is a raw-material trace based on product processes and public disclosure; it is not the same as the company's disclosed direct supplier list.",
+        "relatedCompanies": [
+          "Fluorochemical feedstock suppliers",
+          "Tungsten and molybdenum upstream producers",
+          "Rare-gas and bulk-gas upstream suppliers",
+          "Specialty cylinders, valves, purification and analysis equipment ecosystem"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "medium",
+        "sourceIds": [
+          "csscsg-annual-2025",
+          "csscsg-ir-20260507"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionZh": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionEn": "The scarcity call should be reduced if capacity additions, substitute supply, or customer qualification progress faster than expected.",
+            "monitor": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorZh": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorEn": "Monitor supplier filings, capacity guidance, customer qualification, pricing, and delivery lead times.",
+            "sourceIds": [
+              "csscsg-annual-2025",
+              "csscsg-ir-20260507"
+            ]
+          }
+        ]
+      }
+    ]
   },
   "financials": {
     "latestPeriod": "Q1 2026 / FY2025 baseline",
@@ -1759,7 +1873,10 @@
       "url": "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-21/688146_20260421_JKJI.pdf",
       "publishedAt": "2026-04-21",
       "accessedAt": "2026-06-11",
-      "type": "exchange"
+      "type": "exchange",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "csscsg-q1-2026",
@@ -1770,7 +1887,10 @@
       "url": "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-21/688146_20260421_A21R.pdf",
       "publishedAt": "2026-04-21",
       "accessedAt": "2026-06-11",
-      "type": "exchange"
+      "type": "exchange",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "csscsg-annual-2024",
@@ -1781,7 +1901,10 @@
       "url": "https://pdf.dfcfw.com/pdf/H2_AN202504251662290495_1.pdf?1745608527000.pdf",
       "publishedAt": "2025-04-26",
       "accessedAt": "2026-06-11",
-      "type": "exchange"
+      "type": "exchange",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "csscsg-abnormal-20260609",
@@ -1792,7 +1915,10 @@
       "url": "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-06-09/688146_20260609_ES1F.pdf",
       "publishedAt": "2026-06-09",
       "accessedAt": "2026-06-11",
-      "type": "exchange"
+      "type": "exchange",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "csscsg-dividend-20260611",
@@ -1803,7 +1929,10 @@
       "url": "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-06-11/688146_20260611_TEDA.pdf",
       "publishedAt": "2026-06-11",
       "accessedAt": "2026-06-11",
-      "type": "exchange"
+      "type": "exchange",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "csscsg-ir-20260507",
@@ -1814,7 +1943,10 @@
       "url": "https://pdf.dfcfw.com/pdf/H22_AN202605081822072236_1.pdf?1778258876000.pdf",
       "publishedAt": "2026-05-08",
       "accessedAt": "2026-06-11",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     }
   ],
   "labels": [

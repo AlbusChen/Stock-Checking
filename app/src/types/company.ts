@@ -10,6 +10,19 @@ export type SourceType =
 
 export type Confidence = "high" | "medium" | "low";
 
+export type EvidenceLevel = "strong" | "medium" | "weak" | "needs-checking";
+
+export type ScarcityConstraintType =
+  | "capacity"
+  | "yield"
+  | "purity"
+  | "qualification"
+  | "technology"
+  | "regulatory"
+  | "customer-demand"
+  | "capital-intensity"
+  | "unknown";
+
 export type RelationshipDirection =
   | "target"
   | "upstream-raw-material"
@@ -36,6 +49,16 @@ export interface RelationshipStrength {
   confidence: Confidence;
 }
 
+export interface FailureCondition {
+  condition: string;
+  conditionZh?: string;
+  conditionEn?: string;
+  monitor: string;
+  monitorZh?: string;
+  monitorEn?: string;
+  sourceIds?: string[];
+}
+
 export interface ThemeExposure {
   theme: string;
   themeZh?: string;
@@ -48,6 +71,7 @@ export interface ThemeExposure {
   rationaleZh?: string;
   rationaleEn?: string;
   confidence: Confidence;
+  failureConditions?: FailureCondition[];
 }
 
 export interface CompanyIndexItem {
@@ -80,6 +104,27 @@ export interface Source {
   publishedAt?: string;
   accessedAt?: string;
   type: SourceType;
+  evidenceLevel?: EvidenceLevel;
+  evidenceLevelZh?: string;
+  evidenceLevelEn?: string;
+}
+
+export interface ScarceLayer {
+  name: string;
+  nameZh?: string;
+  nameEn?: string;
+  rank: number;
+  constraintType: ScarcityConstraintType;
+  constraintTypeZh?: string;
+  constraintTypeEn?: string;
+  whyScarce: string;
+  whyScarceZh?: string;
+  whyScarceEn?: string;
+  relatedCompanies: string[];
+  evidenceLevel: EvidenceLevel;
+  confidence: Confidence;
+  sourceIds: string[];
+  failureConditions: FailureCondition[];
 }
 
 export interface BusinessSegment {
@@ -316,10 +361,12 @@ export interface CompanyReport {
     segments: BusinessSegment[];
     thesis: string;
     riskNotes: string[];
+    failureConditions?: FailureCondition[];
   };
   supplyChain: {
     updatedAt: string;
     thesis: string;
+    scarceLayers?: ScarceLayer[];
     tiers: SupplierTier[];
     rawMaterials: RawMaterial[];
     downstream?: DownstreamChain;

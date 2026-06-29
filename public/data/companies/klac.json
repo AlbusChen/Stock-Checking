@@ -76,6 +76,32 @@
     "riskNotes": [
       "客户资本开支周期和先进制程推进节奏会影响需求。 / Customer capex and leading-node timing affect demand.",
       "部分 SEC XBRL 经营利润和毛利旧概念已过时，本批次未采用这些陈旧字段。 / Some SEC XBRL operating-income and gross-profit concepts are stale, so this batch does not use those stale fields."
+    ],
+    "failureConditions": [
+      {
+        "condition": "客户资本开支周期和先进制程推进节奏会影响需求。 / Customer capex and leading-node timing affect demand.",
+        "conditionZh": "客户资本开支周期和先进制程推进节奏会影响需求。 / Customer capex and leading-node timing affect demand.",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "klac-homepage",
+          "klac-sec-submissions"
+        ]
+      },
+      {
+        "condition": "部分 SEC XBRL 经营利润和毛利旧概念已过时，本批次未采用这些陈旧字段。 / Some SEC XBRL operating-income and gross-profit concepts are stale, so this batch does not use those stale fields.",
+        "conditionZh": "部分 SEC XBRL 经营利润和毛利旧概念已过时，本批次未采用这些陈旧字段。 / Some SEC XBRL operating-income and gross-profit concepts are stale, so this batch does not use those stale fields.",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "klac-homepage",
+          "klac-sec-submissions"
+        ]
+      }
     ]
   },
   "supplyChain": {
@@ -452,7 +478,44 @@
           ]
         }
       ]
-    }
+    },
+    "scarceLayers": [
+      {
+        "name": "关键上游投入",
+        "nameZh": "关键上游投入",
+        "nameEn": "Key upstream inputs",
+        "rank": 1,
+        "constraintType": "purity",
+        "constraintTypeZh": "纯度",
+        "constraintTypeEn": "Purity",
+        "whyScarce": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "whyScarceZh": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "whyScarceEn": "Lists the most important upstream inputs for NVIDIA-related business; exact purchase shares require further manual work.",
+        "relatedCompanies": [
+          "Precision components and specialty materials / 精密部件与特种材料"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "medium",
+        "sourceIds": [
+          "klac-homepage",
+          "nvidia-10k-2026"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionZh": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionEn": "The scarcity call should be reduced if capacity additions, substitute supply, or customer qualification progress faster than expected.",
+            "monitor": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorZh": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorEn": "Monitor supplier filings, capacity guidance, customer qualification, pricing, and delivery lead times.",
+            "sourceIds": [
+              "klac-homepage",
+              "nvidia-10k-2026"
+            ]
+          }
+        ]
+      }
+    ]
   },
   "financials": {
     "latestPeriod": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
@@ -816,7 +879,10 @@
       "publisher": "KLA / 科磊",
       "url": "https://www.kla.com/",
       "accessedAt": "2026-06-14",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "klac-sec-submissions",
@@ -826,7 +892,10 @@
       "publisher": "SEC EDGAR",
       "url": "https://data.sec.gov/submissions/CIK0000319201.json",
       "accessedAt": "2026-06-14",
-      "type": "sec"
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "klac-sec-companyfacts",
@@ -836,7 +905,10 @@
       "publisher": "SEC EDGAR",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000319201.json",
       "accessedAt": "2026-06-14",
-      "type": "sec"
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "klac-nasdaq-quote",
@@ -846,7 +918,10 @@
       "publisher": "Nasdaq",
       "url": "https://www.nasdaq.com/market-activity/stocks/klac",
       "accessedAt": "2026-06-14",
-      "type": "exchange"
+      "type": "exchange",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "nvidia-10k-2026",
@@ -856,7 +931,10 @@
       "publisher": "SEC EDGAR",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
       "accessedAt": "2026-06-14",
-      "type": "sec"
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "nvidia-rtx-pro-systems-2025",
@@ -866,7 +944,10 @@
       "publisher": "NVIDIA Investor Relations",
       "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-RTX-PRO-Servers-With-Blackwell-Coming-to-Worlds-Most-Popular-Enterprise-Systems/",
       "accessedAt": "2026-06-14",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     }
   ],
   "automation": {

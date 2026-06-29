@@ -119,6 +119,44 @@
       "存储器仍有明显周期性，价格、库存和客户采购节奏会显著影响收入与毛利率。",
       "HBM、先进 DRAM、NAND 和封装扩产依赖昂贵设备、材料和长期资本开支，供给约束可能同时带来增长和执行风险。",
       "客户集中度、出口管制、地缘政策和中国市场变化会影响需求结构、产能规划与产品组合。"
+    ],
+    "failureConditions": [
+      {
+        "condition": "存储器仍有明显周期性，价格、库存和客户采购节奏会显著影响收入与毛利率。",
+        "conditionZh": "存储器仍有明显周期性，价格、库存和客户采购节奏会显著影响收入与毛利率。",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "mu-q2-fy2026-results",
+          "mu-fy2025-results"
+        ]
+      },
+      {
+        "condition": "HBM、先进 DRAM、NAND 和封装扩产依赖昂贵设备、材料和长期资本开支，供给约束可能同时带来增长和执行风险。",
+        "conditionZh": "HBM、先进 DRAM、NAND 和封装扩产依赖昂贵设备、材料和长期资本开支，供给约束可能同时带来增长和执行风险。",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "mu-q2-fy2026-results",
+          "mu-fy2025-results"
+        ]
+      },
+      {
+        "condition": "客户集中度、出口管制、地缘政策和中国市场变化会影响需求结构、产能规划与产品组合。",
+        "conditionZh": "客户集中度、出口管制、地缘政策和中国市场变化会影响需求结构、产能规划与产品组合。",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "mu-q2-fy2026-results",
+          "mu-fy2025-results"
+        ]
+      }
     ]
   },
   "supplyChain": {
@@ -1280,7 +1318,123 @@
           ]
         }
       ]
-    }
+    },
+    "scarceLayers": [
+      {
+        "name": "晶圆厂设备与制程工具",
+        "nameZh": "晶圆厂设备与制程工具",
+        "nameEn": "Fab equipment and process tools",
+        "rank": 1,
+        "constraintType": "purity",
+        "constraintTypeZh": "纯度",
+        "constraintTypeEn": "Purity",
+        "whyScarce": "Micron 10-K 披露其部分原材料和生产设备只有有限供应商甚至单一供应商；设备层用于跟踪产能和良率瓶颈。",
+        "whyScarceZh": "Micron 10-K 披露其部分原材料和生产设备只有有限供应商甚至单一供应商；设备层用于跟踪产能和良率瓶颈。",
+        "whyScarceEn": "Micron's 10-K notes that some raw materials and production equipment have limited or single-source suppliers; this layer tracks capacity and yield bottlenecks.",
+        "relatedCompanies": [
+          "ASML",
+          "Applied Materials",
+          "Lam Research",
+          "Tokyo Electron"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "medium",
+        "sourceIds": [
+          "mu-10k-2025",
+          "applied-micron-ai-memory-2026"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionZh": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionEn": "The scarcity call should be reduced if capacity additions, substitute supply, or customer qualification progress faster than expected.",
+            "monitor": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorZh": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorEn": "Monitor supplier filings, capacity guidance, customer qualification, pricing, and delivery lead times.",
+            "sourceIds": [
+              "mu-10k-2025",
+              "applied-micron-ai-memory-2026"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "硅片、化学品、气体与耗材",
+        "nameZh": "硅片、化学品、气体与耗材",
+        "nameEn": "Wafers, chemicals, gases, and consumables",
+        "rank": 2,
+        "constraintType": "purity",
+        "constraintTypeZh": "纯度",
+        "constraintTypeEn": "Purity",
+        "whyScarce": "这一层多数是 Micron 供应商的供应商或关键类别供应商；公开披露通常不会逐项列出采购金额。",
+        "whyScarceZh": "这一层多数是 Micron 供应商的供应商或关键类别供应商；公开披露通常不会逐项列出采购金额。",
+        "whyScarceEn": "Many entities in this layer are suppliers to Micron's suppliers or critical category suppliers; public disclosures usually do not provide supplier-by-supplier purchase amounts.",
+        "relatedCompanies": [
+          "Shin-Etsu",
+          "SUMCO",
+          "Entegris",
+          "Linde"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "medium",
+        "sourceIds": [
+          "mu-10k-2025",
+          "shinetsu-silicon-wafers",
+          "sumco-wafer-lineup",
+          "linde-electronics-gases"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionZh": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionEn": "The scarcity call should be reduced if capacity additions, substitute supply, or customer qualification progress faster than expected.",
+            "monitor": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorZh": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorEn": "Monitor supplier filings, capacity guidance, customer qualification, pricing, and delivery lead times.",
+            "sourceIds": [
+              "mu-10k-2025",
+              "shinetsu-silicon-wafers"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "封装、测试与系统集成生态",
+        "nameZh": "封装、测试与系统集成生态",
+        "nameEn": "Assembly, test, and system-integration ecosystem",
+        "rank": 3,
+        "constraintType": "capacity",
+        "constraintTypeZh": "产能",
+        "constraintTypeEn": "Capacity",
+        "whyScarce": "Micron 的先进存储产品既依赖内部制造/封测，也依赖外部先进封装、基板、测试和系统生态。",
+        "whyScarceZh": "Micron 的先进存储产品既依赖内部制造/封测，也依赖外部先进封装、基板、测试和系统生态。",
+        "whyScarceEn": "Micron's advanced memory products depend on both internal manufacturing/test and the external advanced packaging, substrate, test, and system ecosystem.",
+        "relatedCompanies": [
+          "ASE Technology",
+          "Amkor"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "medium",
+        "sourceIds": [
+          "mu-10k-2025",
+          "mu-hbm4-vera-rubin-2026"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionZh": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionEn": "The scarcity call should be reduced if capacity additions, substitute supply, or customer qualification progress faster than expected.",
+            "monitor": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorZh": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorEn": "Monitor supplier filings, capacity guidance, customer qualification, pricing, and delivery lead times.",
+            "sourceIds": [
+              "mu-10k-2025",
+              "mu-hbm4-vera-rubin-2026"
+            ]
+          }
+        ]
+      }
+    ]
   },
   "financials": {
     "latestPeriod": "Q2 FY2026 / FY2025 baseline",
@@ -1954,7 +2108,10 @@
       "url": "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-results-second-quarter-fiscal-2026",
       "publishedAt": "2026-03-18",
       "accessedAt": "2026-06-08",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "mu-fy2025-results",
@@ -1965,7 +2122,10 @@
       "url": "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-results-fourth-quarter-and-full-8",
       "publishedAt": "2025-09-23",
       "accessedAt": "2026-06-08",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "mu-10k-2025",
@@ -1976,7 +2136,10 @@
       "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm",
       "publishedAt": "2025-10-03",
       "accessedAt": "2026-06-08",
-      "type": "sec"
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "mu-sec-companyfacts",
@@ -1986,7 +2149,10 @@
       "publisher": "SEC EDGAR",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000723125.json",
       "accessedAt": "2026-06-08",
-      "type": "sec"
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "mu-hbm3e-nvidia-h200",
@@ -1997,7 +2163,10 @@
       "url": "https://investors.micron.com/news-releases/news-release-details/micron-commences-volume-production-industry-leading-hbm3e",
       "publishedAt": "2024-02-26",
       "accessedAt": "2026-06-08",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "mu-hbm4-vera-rubin-2026",
@@ -2008,7 +2177,10 @@
       "url": "https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin",
       "publishedAt": "2026-03-16",
       "accessedAt": "2026-06-08",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "mu-crucial-exit-2025",
@@ -2019,7 +2191,10 @@
       "url": "https://investors.micron.com/news-releases/news-release-details/micron-announces-exit-crucial-consumer-business",
       "publishedAt": "2025-12-03",
       "accessedAt": "2026-06-08",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "applied-micron-ai-memory-2026",
@@ -2030,7 +2205,10 @@
       "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-and-micron-partner-advance-us-innovation-next/",
       "publishedAt": "2026-03-10",
       "accessedAt": "2026-06-08",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "asml-about",
@@ -2040,7 +2218,10 @@
       "publisher": "ASML",
       "url": "https://www.asml.com/en/company/about-asml",
       "accessedAt": "2026-06-08",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "lam-dram-solutions",
@@ -2050,7 +2231,10 @@
       "publisher": "Lam Research",
       "url": "https://www.lamresearch.com/products/our-solutions/dram/",
       "accessedAt": "2026-06-08",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "kla-process-control",
@@ -2060,7 +2244,10 @@
       "publisher": "KLA",
       "url": "https://www.kla.com/",
       "accessedAt": "2026-06-08",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "shinetsu-silicon-wafers",
@@ -2070,7 +2257,10 @@
       "publisher": "Shin-Etsu Chemical",
       "url": "https://www.shinetsu.co.jp/en/products/semiconductor-silicon-business/silicon-wafers/",
       "accessedAt": "2026-06-08",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "sumco-wafer-lineup",
@@ -2080,7 +2270,10 @@
       "publisher": "SUMCO",
       "url": "https://www.sumcosi.com/english/products/lineup.html",
       "accessedAt": "2026-06-08",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "entegris-cmp",
@@ -2090,7 +2283,10 @@
       "publisher": "Entegris",
       "url": "https://www.entegris.com/en/home/our-science/by-industry/microelectronics/semiconductor/cmp.html",
       "accessedAt": "2026-06-08",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "linde-electronics-gases",
@@ -2100,7 +2296,10 @@
       "publisher": "Linde",
       "url": "https://www.linde-gas.com/industries/electronics/semiconductor",
       "accessedAt": "2026-06-08",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     }
   ],
   "automation": {

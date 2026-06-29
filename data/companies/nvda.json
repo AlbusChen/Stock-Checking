@@ -74,6 +74,44 @@
       "数据中心收入占比极高，客户资本开支周期和大型云客户采购节奏影响明显。",
       "先进封装、HBM 和代工产能是放量瓶颈，供应链集中在亚洲。",
       "出口管制和中国数据中心计算收入限制会影响产品组合和库存风险。"
+    ],
+    "failureConditions": [
+      {
+        "condition": "数据中心收入占比极高，客户资本开支周期和大型云客户采购节奏影响明显。",
+        "conditionZh": "数据中心收入占比极高，客户资本开支周期和大型云客户采购节奏影响明显。",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "nvda-q1-fy2027",
+          "nvda-fy2026-results"
+        ]
+      },
+      {
+        "condition": "先进封装、HBM 和代工产能是放量瓶颈，供应链集中在亚洲。",
+        "conditionZh": "先进封装、HBM 和代工产能是放量瓶颈，供应链集中在亚洲。",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "nvda-q1-fy2027",
+          "nvda-fy2026-results"
+        ]
+      },
+      {
+        "condition": "出口管制和中国数据中心计算收入限制会影响产品组合和库存风险。",
+        "conditionZh": "出口管制和中国数据中心计算收入限制会影响产品组合和库存风险。",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "nvda-q1-fy2027",
+          "nvda-fy2026-results"
+        ]
+      }
     ]
   },
   "supplyChain": {
@@ -1836,7 +1874,119 @@
           ]
         }
       ]
-    }
+    },
+    "scarceLayers": [
+      {
+        "name": "晶圆代工、HBM 与封装",
+        "nameZh": "晶圆代工、HBM 与封装",
+        "nameEn": "Foundry, HBM, and packaging",
+        "rank": 1,
+        "constraintType": "capacity",
+        "constraintTypeZh": "产能",
+        "constraintTypeEn": "Capacity",
+        "whyScarce": "NVIDIA 年报披露使用 TSMC、Samsung 等 foundry，并采购 SK Hynix、Micron、Samsung 的 memory。HBM 与先进封装是 AI 加速器出货弹性的核心。",
+        "whyScarceZh": "NVIDIA 年报披露使用 TSMC、Samsung 等 foundry，并采购 SK Hynix、Micron、Samsung 的 memory。HBM 与先进封装是 AI 加速器出货弹性的核心。",
+        "whyScarceEn": "NVIDIA 年报披露使用 TSMC、Samsung 等 foundry，并采购 SK Hynix、Micron、Samsung 的 memory。HBM 与先进封装是 AI 加速器出货弹性的核心。",
+        "relatedCompanies": [
+          "TSMC",
+          "Samsung Electronics",
+          "SK Hynix",
+          "Micron"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "high",
+        "sourceIds": [
+          "nvda-10k-2026"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionZh": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionEn": "The scarcity call should be reduced if capacity additions, substitute supply, or customer qualification progress faster than expected.",
+            "monitor": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorZh": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorEn": "Monitor supplier filings, capacity guidance, customer qualification, pricing, and delivery lead times.",
+            "sourceIds": [
+              "nvda-10k-2026"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "设备、基板、材料和化学品",
+        "nameZh": "设备、基板、材料和化学品",
+        "nameEn": "Equipment, substrates, materials, and chemicals",
+        "rank": 2,
+        "constraintType": "purity",
+        "constraintTypeZh": "纯度",
+        "constraintTypeEn": "Purity",
+        "whyScarce": "这一级大多是 NVIDIA 供应商的供应商；用于追踪产能瓶颈，而非直接采购关系。",
+        "whyScarceZh": "这一级大多是 NVIDIA 供应商的供应商；用于追踪产能瓶颈，而非直接采购关系。",
+        "whyScarceEn": "这一级大多是 NVIDIA 供应商的供应商；用于追踪产能瓶颈，而非直接采购关系。",
+        "relatedCompanies": [
+          "ASML",
+          "Applied Materials",
+          "Lam Research",
+          "Tokyo Electron"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "low",
+        "sourceIds": [
+          "nvda-10k-2026"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionZh": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionEn": "The scarcity call should be reduced if capacity additions, substitute supply, or customer qualification progress faster than expected.",
+            "monitor": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorZh": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorEn": "Monitor supplier filings, capacity guidance, customer qualification, pricing, and delivery lead times.",
+            "sourceIds": [
+              "nvda-10k-2026"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "板卡、服务器和整机集成",
+        "nameZh": "板卡、服务器和整机集成",
+        "nameEn": "Boards, servers, and system integration",
+        "rank": 3,
+        "constraintType": "customer-demand",
+        "constraintTypeZh": "客户需求",
+        "constraintTypeEn": "Customer demand",
+        "whyScarce": "该层将芯片、网络、板卡、电源、散热和机柜整合为数据中心可部署系统；具体客户项目的供应商组合会变化。",
+        "whyScarceZh": "该层将芯片、网络、板卡、电源、散热和机柜整合为数据中心可部署系统；具体客户项目的供应商组合会变化。",
+        "whyScarceEn": "该层将芯片、网络、板卡、电源、散热和机柜整合为数据中心可部署系统；具体客户项目的供应商组合会变化。",
+        "relatedCompanies": [
+          "Foxconn",
+          "Quanta",
+          "Wistron",
+          "Supermicro"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "medium",
+        "sourceIds": [
+          "nvda-10k-2026",
+          "nvda-q1-fy2027"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionZh": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionEn": "The scarcity call should be reduced if capacity additions, substitute supply, or customer qualification progress faster than expected.",
+            "monitor": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorZh": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorEn": "Monitor supplier filings, capacity guidance, customer qualification, pricing, and delivery lead times.",
+            "sourceIds": [
+              "nvda-10k-2026",
+              "nvda-q1-fy2027"
+            ]
+          }
+        ]
+      }
+    ]
   },
   "financials": {
     "latestPeriod": "Q1 FY2027 / FY2026 baseline",
@@ -2366,7 +2516,10 @@
       "accessedAt": "2026-06-07",
       "type": "company",
       "titleZh": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027",
-      "titleEn": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027"
+      "titleEn": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "nvda-fy2026-results",
@@ -2377,7 +2530,10 @@
       "accessedAt": "2026-06-07",
       "type": "company",
       "titleZh": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
-      "titleEn": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026"
+      "titleEn": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "nvda-10k-2026",
@@ -2388,7 +2544,10 @@
       "accessedAt": "2026-06-07",
       "type": "sec",
       "titleZh": "NVIDIA FY2026 Form 10-K",
-      "titleEn": "NVIDIA FY2026 Form 10-K"
+      "titleEn": "NVIDIA FY2026 Form 10-K",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "nvda-rtx-spark",
@@ -2399,7 +2558,10 @@
       "accessedAt": "2026-06-07",
       "type": "company",
       "titleZh": "NVIDIA and Microsoft Reinvent Windows PCs for the Age of Personal AI",
-      "titleEn": "NVIDIA and Microsoft Reinvent Windows PCs for the Age of Personal AI"
+      "titleEn": "NVIDIA and Microsoft Reinvent Windows PCs for the Age of Personal AI",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "shinko-tender-2025",
@@ -2410,7 +2572,10 @@
       "accessedAt": "2026-06-07",
       "type": "company",
       "titleZh": "Announcement Regarding Commencement of the Tender Offer for Shinko Electric Industries",
-      "titleEn": "Announcement Regarding Commencement of the Tender Offer for Shinko Electric Industries"
+      "titleEn": "Announcement Regarding Commencement of the Tender Offer for Shinko Electric Industries",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "nvda-sec-companyfacts",
@@ -2420,7 +2585,10 @@
       "publisher": "SEC EDGAR",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
       "accessedAt": "2026-06-08",
-      "type": "sec"
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "nvda-blackwell-ultra-2025",
@@ -2431,7 +2599,10 @@
       "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Blackwell-Ultra-AI-Factory-Platform-Paves-Way-for-Age-of-AI-Reasoning/default.aspx",
       "accessedAt": "2026-06-08",
       "type": "company",
-      "publishedAt": "2025-03-18"
+      "publishedAt": "2025-03-18",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "nvda-rtx-pro-systems-2025",
@@ -2442,7 +2613,10 @@
       "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-RTX-PRO-Servers-With-Blackwell-Coming-to-Worlds-Most-Popular-Enterprise-Systems/",
       "accessedAt": "2026-06-08",
       "type": "company",
-      "publishedAt": "2025-08-11"
+      "publishedAt": "2025-08-11",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     }
   ],
   "automation": {

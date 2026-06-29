@@ -78,6 +78,32 @@
     "riskNotes": [
       "AI 服务器收入可能伴随较低毛利率和营运资本压力。 / AI server revenue can carry lower margins and working-capital pressure.",
       "PC 周期、企业 IT 支出和 GPU 供应都会影响组合。 / PC cycles, enterprise IT spending, and GPU supply affect the mix."
+    ],
+    "failureConditions": [
+      {
+        "condition": "AI 服务器收入可能伴随较低毛利率和营运资本压力。 / AI server revenue can carry lower margins and working-capital pressure.",
+        "conditionZh": "AI 服务器收入可能伴随较低毛利率和营运资本压力。 / AI server revenue can carry lower margins and working-capital pressure.",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "dell-homepage",
+          "dell-sec-submissions"
+        ]
+      },
+      {
+        "condition": "PC 周期、企业 IT 支出和 GPU 供应都会影响组合。 / PC cycles, enterprise IT spending, and GPU supply affect the mix.",
+        "conditionZh": "PC 周期、企业 IT 支出和 GPU 供应都会影响组合。 / PC cycles, enterprise IT spending, and GPU supply affect the mix.",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "dell-homepage",
+          "dell-sec-submissions"
+        ]
+      }
     ]
   },
   "supplyChain": {
@@ -457,7 +483,45 @@
           ]
         }
       ]
-    }
+    },
+    "scarceLayers": [
+      {
+        "name": "关键上游投入",
+        "nameZh": "关键上游投入",
+        "nameEn": "Key upstream inputs",
+        "rank": 1,
+        "constraintType": "purity",
+        "constraintTypeZh": "纯度",
+        "constraintTypeEn": "Purity",
+        "whyScarce": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "whyScarceZh": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "whyScarceEn": "Lists the most important upstream inputs for NVIDIA-related business; exact purchase shares require further manual work.",
+        "relatedCompanies": [
+          "NVIDIA Corporation / 英伟达",
+          "Data-center power and cooling suppliers / 数据中心电力与散热供应商"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "medium",
+        "sourceIds": [
+          "dell-homepage",
+          "nvidia-10k-2026"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionZh": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionEn": "The scarcity call should be reduced if capacity additions, substitute supply, or customer qualification progress faster than expected.",
+            "monitor": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorZh": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorEn": "Monitor supplier filings, capacity guidance, customer qualification, pricing, and delivery lead times.",
+            "sourceIds": [
+              "dell-homepage",
+              "nvidia-10k-2026"
+            ]
+          }
+        ]
+      }
+    ]
   },
   "financials": {
     "latestPeriod": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
@@ -873,7 +937,10 @@
       "publisher": "Dell Technologies / 戴尔科技",
       "url": "https://www.dell.com/",
       "accessedAt": "2026-06-14",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "dell-sec-submissions",
@@ -883,7 +950,10 @@
       "publisher": "SEC EDGAR",
       "url": "https://data.sec.gov/submissions/CIK0001571996.json",
       "accessedAt": "2026-06-14",
-      "type": "sec"
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "dell-sec-companyfacts",
@@ -893,7 +963,10 @@
       "publisher": "SEC EDGAR",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001571996.json",
       "accessedAt": "2026-06-14",
-      "type": "sec"
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "dell-nasdaq-quote",
@@ -903,7 +976,10 @@
       "publisher": "Nasdaq",
       "url": "https://www.nasdaq.com/market-activity/stocks/dell",
       "accessedAt": "2026-06-14",
-      "type": "exchange"
+      "type": "exchange",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "nvidia-10k-2026",
@@ -913,7 +989,10 @@
       "publisher": "SEC EDGAR",
       "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
       "accessedAt": "2026-06-14",
-      "type": "sec"
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "nvidia-rtx-pro-systems-2025",
@@ -923,7 +1002,10 @@
       "publisher": "NVIDIA Investor Relations",
       "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-RTX-PRO-Servers-With-Blackwell-Coming-to-Worlds-Most-Popular-Enterprise-Systems/",
       "accessedAt": "2026-06-14",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     }
   ],
   "automation": {

@@ -72,6 +72,32 @@
     "riskNotes": [
       "商业化仍在推进，收入序列未作为趋势图使用。",
       "星座建设和融资节奏会影响执行风险。"
+    ],
+    "failureConditions": [
+      {
+        "condition": "商业化仍在推进，收入序列未作为趋势图使用。",
+        "conditionZh": "商业化仍在推进，收入序列未作为趋势图使用。",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "asts-10q-2026q1",
+          "asts-10k-2025"
+        ]
+      },
+      {
+        "condition": "星座建设和融资节奏会影响执行风险。",
+        "conditionZh": "星座建设和融资节奏会影响执行风险。",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "asts-10q-2026q1",
+          "asts-10k-2025"
+        ]
+      }
     ]
   },
   "supplyChain": {
@@ -546,7 +572,43 @@
         }
       ],
       "updatedAt": "2026-06-11T18:30:00+08:00"
-    }
+    },
+    "scarceLayers": [
+      {
+        "name": "关键上游投入",
+        "nameZh": "关键上游投入",
+        "nameEn": "Critical upstream inputs",
+        "rank": 1,
+        "constraintType": "purity",
+        "constraintTypeZh": "纯度",
+        "constraintTypeEn": "Purity",
+        "whyScarce": "供应商以类别呈现；具名上市公司需在合同或年报明确披露后再升级。",
+        "whyScarceZh": "供应商以类别呈现；具名上市公司需在合同或年报明确披露后再升级。",
+        "whyScarceEn": "Suppliers are shown by category; named listed companies should be upgraded only after contract or annual-report disclosure.",
+        "relatedCompanies": [
+          "终端、天线、射频与通信模组供应链",
+          "卫星、发射与地面网络供应链"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "medium",
+        "sourceIds": [
+          "asts-10k-2025"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionZh": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionEn": "The scarcity call should be reduced if capacity additions, substitute supply, or customer qualification progress faster than expected.",
+            "monitor": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorZh": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorEn": "Monitor supplier filings, capacity guidance, customer qualification, pricing, and delivery lead times.",
+            "sourceIds": [
+              "asts-10k-2025"
+            ]
+          }
+        ]
+      }
+    ]
   },
   "financials": {
     "latestPeriod": "Q1 2026; annual baseline FY2025",
@@ -784,7 +846,10 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1780312/000119312526216950/asts-20260331.htm",
       "publishedAt": "2026-05-11",
       "accessedAt": "2026-06-11",
-      "type": "sec"
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "asts-10k-2025",
@@ -795,7 +860,10 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1780312/000178031226000006/asts-20251231.htm",
       "publishedAt": "2026-03-02",
       "accessedAt": "2026-06-11",
-      "type": "sec"
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "asts-companyfacts",
@@ -806,7 +874,10 @@
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001780312.json",
       "publishedAt": "2026-06-11",
       "accessedAt": "2026-06-11",
-      "type": "sec"
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     }
   ],
   "automation": {

@@ -38,6 +38,19 @@ REQUIRED_TOP_LEVEL = {
 
 LISTING_STATUSES = {"listed", "listed-parent", "private", "delisted", "unknown"}
 CONFIDENCE_LEVELS = {"high", "medium", "low"}
+EVIDENCE_LEVELS = {"strong", "medium", "weak", "needs-checking"}
+STRONG_SOURCE_TYPES = {"company", "sec", "exchange"}
+SCARCITY_CONSTRAINT_TYPES = {
+    "capacity",
+    "yield",
+    "purity",
+    "qualification",
+    "technology",
+    "regulatory",
+    "customer-demand",
+    "capital-intensity",
+    "unknown",
+}
 RELATIONSHIP_DIRECTIONS = {
     "target",
     "upstream-raw-material",
@@ -150,6 +163,39 @@ def validate_relationship_strength(errors: list[str], path: Path, item: object, 
     require_localized(errors, path, item, "rationale", label)
 
 
+def validate_failure_conditions(
+    errors: list[str],
+    path: Path,
+    conditions: object,
+    label: str,
+    source_ids: set[str],
+) -> None:
+    if not isinstance(conditions, list) or not conditions:
+        errors.append(f"{path.name}: {label} needs failureConditions")
+        return
+
+    for index, condition in enumerate(conditions):
+        if not isinstance(condition, dict):
+            errors.append(f"{path.name}: {label} failureConditions[{index}] must be an object")
+            continue
+        item_label = f"{label} failureConditions[{index}]"
+        require_localized(errors, path, condition, "condition", item_label)
+        require_localized(errors, path, condition, "monitor", item_label)
+        for ref in condition.get("sourceIds", []):
+            if ref not in source_ids:
+                errors.append(f"{path.name}: {item_label} references missing source {ref}")
+
+
+def has_strong_evidence(source_ids_for_item: object, sources_by_id: dict[str, dict]) -> bool:
+    if not isinstance(source_ids_for_item, list):
+        return False
+    for source_id in source_ids_for_item:
+        source = sources_by_id.get(str(source_id))
+        if source and source.get("evidenceLevel") == "strong":
+            return True
+    return False
+
+
 def validate_theme_exposure(errors: list[str], path: Path, exposure: object, label: str) -> None:
     if not isinstance(exposure, dict):
         errors.append(f"{path.name}: {label} must be an object")
@@ -192,9 +238,17 @@ def validate_report(path: Path) -> list[str]:
         for index, exposure in enumerate(theme_exposure):
             validate_theme_exposure(errors, path, exposure, f"themeExposure[{index}]")
 
-    source_ids = {source.get("id") for source in report.get("sources", [])}
+    source_list = report.get("sources", [])
+    source_ids = {source.get("id") for source in source_list}
+    sources_by_id = {source.get("id"): source for source in source_list if isinstance(source, dict) and source.get("id")}
     if None in source_ids:
         errors.append(f"{path.name}: every source needs an id")
+    for source in source_list:
+        source_id = source.get("id", "unknown")
+        if source.get("evidenceLevel") not in EVIDENCE_LEVELS:
+            errors.append(f"{path.name}: source {source_id} needs evidenceLevel")
+        if source.get("type") in STRONG_SOURCE_TYPES and source.get("evidenceLevel") not in {"strong", "medium"}:
+            errors.append(f"{path.name}: primary source {source_id} should not be weak without review")
 
     for ref in collect_source_refs(report):
         if ref not in source_ids:
@@ -214,9 +268,54 @@ def validate_report(path: Path) -> list[str]:
         errors.append(f"{path.name}: business needs revenueModel list")
     if not isinstance(business.get("riskNotes"), list) or not business.get("riskNotes"):
         errors.append(f"{path.name}: business needs riskNotes list")
+    validate_failure_conditions(
+        errors,
+        path,
+        business.get("failureConditions"),
+        "business",
+        source_ids,
+    )
 
     if not report.get("supplyChain", {}).get("tiers"):
         errors.append(f"{path.name}: needs supply-chain tiers")
+
+    scarce_layers = report.get("supplyChain", {}).get("scarceLayers")
+    if not isinstance(scarce_layers, list) or not scarce_layers:
+        errors.append(f"{path.name}: supplyChain needs scarceLayers")
+    else:
+        ranks: set[int] = set()
+        for index, layer in enumerate(scarce_layers):
+            if not isinstance(layer, dict):
+                errors.append(f"{path.name}: scarceLayers[{index}] must be an object")
+                continue
+            layer_name = layer.get("name", f"scarce layer {index}")
+            rank = layer.get("rank")
+            if not isinstance(rank, int) or rank < 1:
+                errors.append(f"{path.name}: scarce layer {layer_name} needs positive integer rank")
+            elif rank in ranks:
+                errors.append(f"{path.name}: scarce layer {layer_name} duplicates rank {rank}")
+            else:
+                ranks.add(rank)
+            if layer.get("constraintType") not in SCARCITY_CONSTRAINT_TYPES:
+                errors.append(f"{path.name}: scarce layer {layer_name} has invalid constraintType")
+            if layer.get("evidenceLevel") not in EVIDENCE_LEVELS:
+                errors.append(f"{path.name}: scarce layer {layer_name} needs evidenceLevel")
+            if layer.get("confidence") not in CONFIDENCE_LEVELS:
+                errors.append(f"{path.name}: scarce layer {layer_name} needs confidence")
+            if not isinstance(layer.get("relatedCompanies"), list) or not layer.get("relatedCompanies"):
+                errors.append(f"{path.name}: scarce layer {layer_name} needs relatedCompanies")
+            if not layer.get("sourceIds"):
+                errors.append(f"{path.name}: scarce layer {layer_name} needs sourceIds")
+            require_localized(errors, path, layer, "name", f"scarce layer {layer_name}")
+            require_localized(errors, path, layer, "constraintType", f"scarce layer {layer_name}")
+            require_localized(errors, path, layer, "whyScarce", f"scarce layer {layer_name}")
+            validate_failure_conditions(
+                errors,
+                path,
+                layer.get("failureConditions"),
+                f"scarce layer {layer_name}",
+                source_ids,
+            )
 
     for metric in report.get("financials", {}).get("highlights", []):
         label = metric.get("label", "unnamed metric")
@@ -307,6 +406,11 @@ def validate_report(path: Path) -> list[str]:
                 entity.get("relationshipStrength"),
                 f"supplier {name} relationshipStrength",
             )
+            if entity.get("relationshipStrength", {}).get("score") == 5 and not has_strong_evidence(
+                entity.get("sourceIds"),
+                sources_by_id,
+            ):
+                errors.append(f"{path.name}: score-5 supplier {name} needs at least one strong evidence source")
 
     raw_materials = report.get("supplyChain", {}).get("rawMaterials")
     if not isinstance(raw_materials, list) or not raw_materials:
@@ -362,6 +466,13 @@ def validate_report(path: Path) -> list[str]:
                         entity.get("relationshipStrength"),
                         f"downstream customer {name} relationshipStrength",
                     )
+                    if entity.get("relationshipStrength", {}).get("score") == 5 and not has_strong_evidence(
+                        entity.get("sourceIds"),
+                        sources_by_id,
+                    ):
+                        errors.append(
+                            f"{path.name}: score-5 downstream customer {name} needs at least one strong evidence source"
+                        )
 
     for filing in report.get("filings", []):
         form = filing.get("form", "unnamed filing")

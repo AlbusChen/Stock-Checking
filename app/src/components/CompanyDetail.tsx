@@ -16,7 +16,9 @@ import type {
   BusinessSegment,
   CompanyReport,
   DownstreamChain,
+  FailureCondition,
   RelationshipStrength,
+  ScarceLayer,
   Source,
   SupplierListing,
   ThemeExposure,
@@ -47,6 +49,31 @@ function sourceLookup(sources: Source[]) {
   }, {});
 }
 
+function evidenceLevelLabel(source: Source) {
+  const level = source.evidenceLevel;
+  if (source.evidenceLevelZh && source.evidenceLevelEn) {
+    return { zh: source.evidenceLevelZh, en: source.evidenceLevelEn };
+  }
+  if (level === "strong") return { zh: "强证据", en: "Strong" };
+  if (level === "medium") return { zh: "中证据", en: "Medium" };
+  if (level === "weak") return { zh: "弱证据", en: "Weak" };
+  return { zh: "待核验", en: "Needs check" };
+}
+
+function evidenceClass(level?: Source["evidenceLevel"]) {
+  if (level === "strong") return "evidence-strong";
+  if (level === "medium") return "evidence-medium";
+  if (level === "weak") return "evidence-weak";
+  return "evidence-needs-checking";
+}
+
+function evidenceLevelText(level?: Source["evidenceLevel"]) {
+  if (level === "strong") return { zh: "强证据", en: "strong" };
+  if (level === "medium") return { zh: "中证据", en: "medium" };
+  if (level === "weak") return { zh: "弱证据", en: "weak" };
+  return { zh: "待核验", en: "needs checking" };
+}
+
 function Evidence({ ids, sources }: { ids: string[]; sources: Record<string, Source> }) {
   const linked = ids.map((id) => sources[id]).filter(Boolean);
   if (linked.length === 0) return null;
@@ -54,12 +81,106 @@ function Evidence({ ids, sources }: { ids: string[]; sources: Record<string, Sou
   return (
     <div className="evidence">
       {linked.map((source) => (
-        <a href={source.url} target="_blank" rel="noreferrer" key={source.id}>
+        <a
+          className={evidenceClass(source.evidenceLevel)}
+          href={source.url}
+          target="_blank"
+          rel="noreferrer"
+          key={source.id}
+          title={`${source.type} · ${evidenceLevelLabel(source).zh}`}
+        >
           {source.publisher}
+          <TextPair text={evidenceLevelLabel(source)} />
           <ExternalLink size={13} aria-hidden="true" />
         </a>
       ))}
     </div>
+  );
+}
+
+function FailureConditionsPanel({
+  conditions = [],
+  sources,
+}: {
+  conditions?: FailureCondition[];
+  sources: Record<string, Source>;
+}) {
+  if (conditions.length === 0) return null;
+
+  return (
+    <article className="info-card wide failure-panel">
+      <h2>什么情况说明判断错了</h2>
+      <div className="failure-list">
+        {conditions.map((condition, index) => (
+          <section className="failure-item" key={`${condition.condition}-${index}`}>
+            <strong>
+              <TextPair text={localizedField(condition, "condition")} />
+            </strong>
+            <p>
+              <TextPair text={localizedField(condition, "monitor")} />
+            </p>
+            <Evidence ids={condition.sourceIds ?? []} sources={sources} />
+          </section>
+        ))}
+      </div>
+    </article>
+  );
+}
+
+function ScarceLayersPanel({
+  layers = [],
+  sources,
+}: {
+  layers?: ScarceLayer[];
+  sources: Record<string, Source>;
+}) {
+  if (layers.length === 0) return null;
+
+  const sortedLayers = [...layers].sort((a, b) => a.rank - b.rank);
+
+  return (
+    <article className="info-card wide scarce-layer-panel">
+      <h2>产业链卡点排序</h2>
+      <div className="scarce-layer-list">
+        {sortedLayers.map((layer) => (
+          <section className="scarce-layer-item" key={`${layer.rank}-${layer.name}`}>
+            <div className="scarce-layer-top">
+              <span>#{layer.rank}</span>
+              <strong>
+                <TextPair text={localizedField(layer, "name")} />
+              </strong>
+              <em className={`evidence-pill ${evidenceClass(layer.evidenceLevel)}`}>
+                <TextPair text={evidenceLevelText(layer.evidenceLevel)} />
+              </em>
+            </div>
+            <p>
+              <TextPair text={localizedField(layer, "whyScarce")} />
+            </p>
+            <div className="pill-row compact">
+              <span className="pill">
+                <TextPair text={localizedField(layer, "constraintType")} />
+              </span>
+              {layer.relatedCompanies.map((company) => (
+                <span className="pill" key={`${layer.name}-${company}`}>
+                  {company}
+                </span>
+              ))}
+            </div>
+            {layer.failureConditions.length > 0 ? (
+              <div className="layer-failure">
+                <strong>证伪观察</strong>
+                {layer.failureConditions.map((condition, index) => (
+                  <p key={`${layer.name}-failure-${index}`}>
+                    <TextPair text={localizedField(condition, "condition")} />
+                  </p>
+                ))}
+              </div>
+            ) : null}
+            <Evidence ids={layer.sourceIds} sources={sources} />
+          </section>
+        ))}
+      </div>
+    </article>
   );
 }
 
@@ -383,6 +504,7 @@ export function CompanyDetail({ report }: CompanyDetailProps) {
               ))}
             </ul>
           </article>
+          <FailureConditionsPanel conditions={report.business.failureConditions} sources={sources} />
         </div>
       )}
 
@@ -412,6 +534,7 @@ export function CompanyDetail({ report }: CompanyDetailProps) {
             <h2>溯源结论</h2>
             <p>{report.supplyChain.thesis}</p>
           </article>
+          <ScarceLayersPanel layers={report.supplyChain.scarceLayers} sources={sources} />
           <div className="tier-list">
             {report.supplyChain.tiers.map((tier) => (
               <article className="tier-card" key={`${tier.level}-${tier.title}`}>
@@ -591,8 +714,17 @@ export function CompanyDetail({ report }: CompanyDetailProps) {
       {activeTab === "sources" && (
         <div className="source-list">
           {report.sources.map((source) => (
-            <a className="source-card" href={source.url} target="_blank" rel="noreferrer" key={source.id}>
-              <span>{source.type}</span>
+            <a
+              className={`source-card ${evidenceClass(source.evidenceLevel)}`}
+              href={source.url}
+              target="_blank"
+              rel="noreferrer"
+              key={source.id}
+            >
+              <span>
+                {source.type}
+                <TextPair text={evidenceLevelLabel(source)} />
+              </span>
               <strong>
                 <TextPair text={localizedField(source, "title")} />
               </strong>

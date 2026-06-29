@@ -120,6 +120,44 @@
       "IPO 后估值极高，短期股价会受到指数纳入、锁定期、流动性和新闻情绪影响。 / Post-IPO valuation is very high, so near-term trading can be driven by index inclusion, lockups, liquidity, and news sentiment.",
       "Starship、直接手机连接和 AI 基础设施仍有技术、监管与资本开支风险。 / Starship, direct-to-cell, and AI infrastructure carry technology, regulatory, and capital-spending risks.",
       "供应链高度依赖航天级材料、半导体/RF 元件、发射场许可和政府客户节奏。 / The supply chain depends on space-grade materials, semiconductor/RF components, launch-site approvals, and government-customer timing."
+    ],
+    "failureConditions": [
+      {
+        "condition": "IPO 后估值极高，短期股价会受到指数纳入、锁定期、流动性和新闻情绪影响。 / Post-IPO valuation is very high, so near-term trading can be driven by index inclusion, lockups, liquidity, and news sentiment.",
+        "conditionZh": "IPO 后估值极高，短期股价会受到指数纳入、锁定期、流动性和新闻情绪影响。 / Post-IPO valuation is very high, so near-term trading can be driven by index inclusion, lockups, liquidity, and news sentiment.",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "nasdaq-spcx",
+          "businessinsider-spacex-ipo"
+        ]
+      },
+      {
+        "condition": "Starship、直接手机连接和 AI 基础设施仍有技术、监管与资本开支风险。 / Starship, direct-to-cell, and AI infrastructure carry technology, regulatory, and capital-spending risks.",
+        "conditionZh": "Starship、直接手机连接和 AI 基础设施仍有技术、监管与资本开支风险。 / Starship, direct-to-cell, and AI infrastructure carry technology, regulatory, and capital-spending risks.",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "nasdaq-spcx",
+          "businessinsider-spacex-ipo"
+        ]
+      },
+      {
+        "condition": "供应链高度依赖航天级材料、半导体/RF 元件、发射场许可和政府客户节奏。 / The supply chain depends on space-grade materials, semiconductor/RF components, launch-site approvals, and government-customer timing.",
+        "conditionZh": "供应链高度依赖航天级材料、半导体/RF 元件、发射场许可和政府客户节奏。 / The supply chain depends on space-grade materials, semiconductor/RF components, launch-site approvals, and government-customer timing.",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "nasdaq-spcx",
+          "businessinsider-spacex-ipo"
+        ]
+      }
     ]
   },
   "supplyChain": {
@@ -506,15 +544,15 @@
             },
             "confidence": "low",
             "relationshipStrength": {
-              "score": 5,
-              "label": "核心瓶颈",
-              "labelZh": "核心瓶颈",
-              "labelEn": "Core bottleneck",
-              "direction": "upstream-manufacturing",
-              "rationale": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
-              "rationaleZh": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
-              "rationaleEn": "Directly enters critical manufacturing, memory, or packaging layers, strongly affecting capacity, yield, and delivery cadence.",
-              "confidence": "high"
+              "score": 2,
+              "label": "主题线索",
+              "labelZh": "主题线索",
+              "labelEn": "Thematic lead",
+              "direction": "indirect-demand",
+              "rationale": "目前主要由 IPO 新闻和估值叙事连接到 AI 基础设施，缺少直接供应商或合同披露，不能按核心瓶颈处理。",
+              "rationaleZh": "目前主要由 IPO 新闻和估值叙事连接到 AI 基础设施，缺少直接供应商或合同披露，不能按核心瓶颈处理。",
+              "rationaleEn": "The link currently comes from IPO news and valuation narrative around AI infrastructure, without direct supplier or contract disclosure, so it should not be treated as a core bottleneck.",
+              "confidence": "low"
             }
           }
         ],
@@ -909,7 +947,116 @@
           ]
         }
       ]
-    }
+    },
+    "scarceLayers": [
+      {
+        "name": "AI 与数据中心基础设施",
+        "nameZh": "AI 与数据中心基础设施",
+        "nameEn": "AI and data-center infrastructure",
+        "rank": 1,
+        "constraintType": "technology",
+        "constraintTypeZh": "技术",
+        "constraintTypeEn": "Technology",
+        "whyScarce": "这是 IPO 后新增的观察层，当前置信度低于传统发射和 Starlink 业务。",
+        "whyScarceZh": "这是 IPO 后新增的观察层，当前置信度低于传统发射和 Starlink 业务。",
+        "whyScarceEn": "This is a post-IPO watch layer and currently has lower confidence than the legacy launch and Starlink businesses.",
+        "relatedCompanies": [
+          "AI 加速器、服务器和电力/冷却供应链"
+        ],
+        "evidenceLevel": "weak",
+        "confidence": "low",
+        "sourceIds": [
+          "nypost-spacex-business",
+          "businessinsider-spacex-ipo"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionZh": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionEn": "The scarcity call should be reduced if capacity additions, substitute supply, or customer qualification progress faster than expected.",
+            "monitor": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorZh": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorEn": "Monitor supplier filings, capacity guidance, customer qualification, pricing, and delivery lead times.",
+            "sourceIds": [
+              "nypost-spacex-business",
+              "businessinsider-spacex-ipo"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "火箭、航天器与发射运营",
+        "nameZh": "火箭、航天器与发射运营",
+        "nameEn": "Rocket, spacecraft, and launch operations",
+        "rank": 2,
+        "constraintType": "unknown",
+        "constraintTypeZh": "待确认",
+        "constraintTypeEn": "Unknown",
+        "whyScarce": "SpaceX 垂直整合度高，具名供应商需等合同、招股书或年报进一步披露。",
+        "whyScarceZh": "SpaceX 垂直整合度高，具名供应商需等合同、招股书或年报进一步披露。",
+        "whyScarceEn": "SpaceX is highly vertically integrated; named suppliers should wait for contracts, prospectus detail, or annual-report disclosure.",
+        "relatedCompanies": [
+          "航天级结构材料与推进剂供应链",
+          "发射场、地面设备与测试基础设施"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "medium",
+        "sourceIds": [
+          "spacex-falcon9",
+          "spacex-starship"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionZh": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionEn": "The scarcity call should be reduced if capacity additions, substitute supply, or customer qualification progress faster than expected.",
+            "monitor": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorZh": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorEn": "Monitor supplier filings, capacity guidance, customer qualification, pricing, and delivery lead times.",
+            "sourceIds": [
+              "spacex-falcon9",
+              "spacex-starship"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Starlink 卫星、终端与网络",
+        "nameZh": "Starlink 卫星、终端与网络",
+        "nameEn": "Starlink satellites, terminals, and network",
+        "rank": 3,
+        "constraintType": "purity",
+        "constraintTypeZh": "纯度",
+        "constraintTypeEn": "Purity",
+        "whyScarce": "Starlink 电子与网络供应商目前以类别处理；可在后续 filings 或合同披露后升级为具名公司。",
+        "whyScarceZh": "Starlink 电子与网络供应商目前以类别处理；可在后续 filings 或合同披露后升级为具名公司。",
+        "whyScarceEn": "Starlink electronics and network suppliers are tracked by category for now; they can be upgraded to named companies after filings or contract disclosure.",
+        "relatedCompanies": [
+          "卫星与用户终端电子供应链",
+          "地面站、骨干网络与云/边缘节点"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "medium",
+        "sourceIds": [
+          "starlink-business",
+          "nypost-spacex-business"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionZh": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionEn": "The scarcity call should be reduced if capacity additions, substitute supply, or customer qualification progress faster than expected.",
+            "monitor": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorZh": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorEn": "Monitor supplier filings, capacity guidance, customer qualification, pricing, and delivery lead times.",
+            "sourceIds": [
+              "starlink-business",
+              "nypost-spacex-business"
+            ]
+          }
+        ]
+      }
+    ]
   },
   "financials": {
     "latestPeriod": "IPO debut and FY2025 reported baseline",
@@ -1141,7 +1288,10 @@
       "url": "https://www.nasdaq.com/market-activity/stocks/spcx",
       "publishedAt": "2026-06-14",
       "accessedAt": "2026-06-14",
-      "type": "exchange"
+      "type": "exchange",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "businessinsider-spacex-ipo",
@@ -1152,7 +1302,10 @@
       "url": "https://www.businessinsider.com/spacex-ipo-live-updates-pricing-spcx-stock-2026-6",
       "publishedAt": "2026-06-12",
       "accessedAt": "2026-06-14",
-      "type": "news"
+      "type": "news",
+      "evidenceLevel": "weak",
+      "evidenceLevelZh": "弱证据",
+      "evidenceLevelEn": "Weak"
     },
     {
       "id": "marketwatch-spacex-ipo",
@@ -1163,7 +1316,10 @@
       "url": "https://www.marketwatch.com/livecoverage/spacex-ipo-stock-price-trading-elon-musk-spcx/card/spacex-s-stock-closes-off-its-high-but-still-with-an-healthy-19-gain-DVRCrVFNGhsXKNYy3B6l",
       "publishedAt": "2026-06-12",
       "accessedAt": "2026-06-14",
-      "type": "news"
+      "type": "news",
+      "evidenceLevel": "weak",
+      "evidenceLevelZh": "弱证据",
+      "evidenceLevelEn": "Weak"
     },
     {
       "id": "guardian-spacex-ipo",
@@ -1174,7 +1330,10 @@
       "url": "https://www.theguardian.com/science/2026/jun/12/spacex-stock-price-ipo-spcx",
       "publishedAt": "2026-06-12",
       "accessedAt": "2026-06-14",
-      "type": "news"
+      "type": "news",
+      "evidenceLevel": "weak",
+      "evidenceLevelZh": "弱证据",
+      "evidenceLevelEn": "Weak"
     },
     {
       "id": "investors-spacex-ipo",
@@ -1185,7 +1344,10 @@
       "url": "https://www.investors.com/news/spacex-ipo-starts-trading/",
       "publishedAt": "2026-06-12",
       "accessedAt": "2026-06-14",
-      "type": "news"
+      "type": "news",
+      "evidenceLevel": "weak",
+      "evidenceLevelZh": "弱证据",
+      "evidenceLevelEn": "Weak"
     },
     {
       "id": "nypost-spacex-business",
@@ -1196,7 +1358,10 @@
       "url": "https://nypost.com/2026/06/12/business/spacexs-massive-bets-on-starlink-ai-fuel-excitement-and-anxiety-across-wall-street/",
       "publishedAt": "2026-06-12",
       "accessedAt": "2026-06-14",
-      "type": "news"
+      "type": "news",
+      "evidenceLevel": "weak",
+      "evidenceLevelZh": "弱证据",
+      "evidenceLevelEn": "Weak"
     },
     {
       "id": "spacex-falcon9",
@@ -1206,7 +1371,10 @@
       "publisher": "SpaceX",
       "url": "https://www.spacex.com/vehicles/falcon-9/",
       "accessedAt": "2026-06-14",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "spacex-starship",
@@ -1216,7 +1384,10 @@
       "publisher": "SpaceX",
       "url": "https://www.spacex.com/vehicles/starship/",
       "accessedAt": "2026-06-14",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "starlink-business",
@@ -1226,7 +1397,10 @@
       "publisher": "Starlink",
       "url": "https://www.starlink.com/business",
       "accessedAt": "2026-06-14",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "nasa-hls",
@@ -1237,7 +1411,10 @@
       "url": "https://www.nasa.gov/news-release/as-artemis-moves-forward-nasa-picks-spacex-to-land-next-americans-on-moon/",
       "publishedAt": "2021-04-16",
       "accessedAt": "2026-06-14",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "nasa-commercial-crew",
@@ -1247,7 +1424,10 @@
       "publisher": "NASA",
       "url": "https://www.nasa.gov/humans-in-space/commercial-space/commercial-crew-program/",
       "accessedAt": "2026-06-14",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "verge-fcc-direct-cell",
@@ -1258,7 +1438,10 @@
       "url": "https://www.theverge.com/2024/11/27/24307394/starlink-spacex-tmobile-direct-to-cell-satellite-fcc-approval",
       "publishedAt": "2024-11-27",
       "accessedAt": "2026-06-14",
-      "type": "news"
+      "type": "news",
+      "evidenceLevel": "weak",
+      "evidenceLevelZh": "弱证据",
+      "evidenceLevelEn": "Weak"
     }
   ],
   "automation": {

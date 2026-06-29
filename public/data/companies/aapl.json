@@ -124,6 +124,44 @@
       "iPhone 仍贡献约半数年度收入，单一产品周期风险较高。",
       "供应链高度依赖亚洲制造和关键零部件伙伴，地缘、关税和产能扰动会放大库存波动。",
       "App Store、默认搜索、支付和隐私政策面临监管不确定性。"
+    ],
+    "failureConditions": [
+      {
+        "condition": "iPhone 仍贡献约半数年度收入，单一产品周期风险较高。",
+        "conditionZh": "iPhone 仍贡献约半数年度收入，单一产品周期风险较高。",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "aapl-q2-2026",
+          "aapl-10k-2025"
+        ]
+      },
+      {
+        "condition": "供应链高度依赖亚洲制造和关键零部件伙伴，地缘、关税和产能扰动会放大库存波动。",
+        "conditionZh": "供应链高度依赖亚洲制造和关键零部件伙伴，地缘、关税和产能扰动会放大库存波动。",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "aapl-q2-2026",
+          "aapl-10k-2025"
+        ]
+      },
+      {
+        "condition": "App Store、默认搜索、支付和隐私政策面临监管不确定性。",
+        "conditionZh": "App Store、默认搜索、支付和隐私政策面临监管不确定性。",
+        "conditionEn": "The thesis weakens if filings, announcements, or operating data show this risk is not affecting orders, margins, capacity, or customer adoption.",
+        "monitor": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorZh": "持续跟踪公告、财报、订单/客户披露、毛利率、现金流和产能扩张节奏。",
+        "monitorEn": "Monitor filings, announcements, customer disclosures, margin trend, cash-flow conversion, and capacity expansion timing.",
+        "sourceIds": [
+          "aapl-q2-2026",
+          "aapl-10k-2025"
+        ]
+      }
     ]
   },
   "supplyChain": {
@@ -1609,7 +1647,121 @@
           ]
         }
       ]
-    }
+    },
+    "scarceLayers": [
+      {
+        "name": "半导体、显示与电池",
+        "nameZh": "半导体、显示与电池",
+        "nameEn": "Semiconductors, displays, and batteries",
+        "rank": 1,
+        "constraintType": "unknown",
+        "constraintTypeZh": "待确认",
+        "constraintTypeEn": "Unknown",
+        "whyScarce": "该层决定高端产品可得性和成本结构。Apple 年报没有逐项确认所有型号供应比例，因此供应商名单与行业公开资料需结合使用。",
+        "whyScarceZh": "该层决定高端产品可得性和成本结构。Apple 年报没有逐项确认所有型号供应比例，因此供应商名单与行业公开资料需结合使用。",
+        "whyScarceEn": "该层决定高端产品可得性和成本结构。Apple 年报没有逐项确认所有型号供应比例，因此供应商名单与行业公开资料需结合使用。",
+        "relatedCompanies": [
+          "TSMC",
+          "Samsung Display",
+          "LG Display",
+          "Sony Semiconductor Solutions"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "medium",
+        "sourceIds": [
+          "apple-supplier-list",
+          "aapl-10k-2025"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionZh": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionEn": "The scarcity call should be reduced if capacity additions, substitute supply, or customer qualification progress faster than expected.",
+            "monitor": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorZh": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorEn": "Monitor supplier filings, capacity guidance, customer qualification, pricing, and delivery lead times.",
+            "sourceIds": [
+              "apple-supplier-list",
+              "aapl-10k-2025"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "晶圆、设备、化学品与封装",
+        "nameZh": "晶圆、设备、化学品与封装",
+        "nameEn": "Wafers, equipment, chemicals, and packaging",
+        "rank": 2,
+        "constraintType": "purity",
+        "constraintTypeZh": "纯度",
+        "constraintTypeEn": "Purity",
+        "whyScarce": "这一级多数不是 Apple 直接披露供应商，而是上游半导体制造的必要投入；用于识别原材料和设备瓶颈。",
+        "whyScarceZh": "这一级多数不是 Apple 直接披露供应商，而是上游半导体制造的必要投入；用于识别原材料和设备瓶颈。",
+        "whyScarceEn": "这一级多数不是 Apple 直接披露供应商，而是上游半导体制造的必要投入；用于识别原材料和设备瓶颈。",
+        "relatedCompanies": [
+          "ASML",
+          "Applied Materials",
+          "Lam Research",
+          "Tokyo Electron"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "low",
+        "sourceIds": [
+          "aapl-10k-2025"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionZh": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionEn": "The scarcity call should be reduced if capacity additions, substitute supply, or customer qualification progress faster than expected.",
+            "monitor": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorZh": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorEn": "Monitor supplier filings, capacity guidance, customer qualification, pricing, and delivery lead times.",
+            "sourceIds": [
+              "aapl-10k-2025"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "最终组装与关键模组",
+        "nameZh": "最终组装与关键模组",
+        "nameEn": "Final assembly and key modules",
+        "rank": 3,
+        "constraintType": "unknown",
+        "constraintTypeZh": "待确认",
+        "constraintTypeEn": "Unknown",
+        "whyScarce": "Apple 官方供应商名单覆盖组装、机械件、连接器、声学、摄像头和其他模组供应商；不同产品线的直接供应关系会随年份和机型变化。",
+        "whyScarceZh": "Apple 官方供应商名单覆盖组装、机械件、连接器、声学、摄像头和其他模组供应商；不同产品线的直接供应关系会随年份和机型变化。",
+        "whyScarceEn": "Apple 官方供应商名单覆盖组装、机械件、连接器、声学、摄像头和其他模组供应商；不同产品线的直接供应关系会随年份和机型变化。",
+        "relatedCompanies": [
+          "Hon Hai Precision / Foxconn",
+          "Luxshare Precision",
+          "Pegatron",
+          "Compal"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "medium",
+        "sourceIds": [
+          "apple-supplier-list",
+          "aapl-10k-2025"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionZh": "如果该层级的扩产、替代供应或客户认证进展快于预期，稀缺性判断需要下调。",
+            "conditionEn": "The scarcity call should be reduced if capacity additions, substitute supply, or customer qualification progress faster than expected.",
+            "monitor": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorZh": "跟踪供应商公告、财报产能指引、客户认证、价格和交付周期变化。",
+            "monitorEn": "Monitor supplier filings, capacity guidance, customer qualification, pricing, and delivery lead times.",
+            "sourceIds": [
+              "apple-supplier-list",
+              "aapl-10k-2025"
+            ]
+          }
+        ]
+      }
+    ]
   },
   "financials": {
     "latestPeriod": "Q2 FY2026 / FY2025 baseline",
@@ -2235,7 +2387,10 @@
       "accessedAt": "2026-06-07",
       "type": "company",
       "titleZh": "Apple reports second quarter results",
-      "titleEn": "Apple reports second quarter results"
+      "titleEn": "Apple reports second quarter results",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "aapl-10k-2025",
@@ -2246,7 +2401,10 @@
       "accessedAt": "2026-06-07",
       "type": "sec",
       "titleZh": "Apple FY2025 Form 10-K",
-      "titleEn": "Apple FY2025 Form 10-K"
+      "titleEn": "Apple FY2025 Form 10-K",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "apple-supplier-list",
@@ -2256,7 +2414,10 @@
       "accessedAt": "2026-06-07",
       "type": "company",
       "titleZh": "Apple Supplier List",
-      "titleEn": "Apple Supplier List"
+      "titleEn": "Apple Supplier List",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "aapl-wwdc-2026",
@@ -2267,7 +2428,10 @@
       "accessedAt": "2026-06-07",
       "type": "company",
       "titleZh": "Apple kicks off Worldwide Developers Conference on June 8",
-      "titleEn": "Apple kicks off Worldwide Developers Conference on June 8"
+      "titleEn": "Apple kicks off Worldwide Developers Conference on June 8",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "rss-aapl-apple-and-major-league-baseball-announce-july-frid",
@@ -2278,7 +2442,10 @@
       "accessedAt": "2026-06-07",
       "type": "company",
       "titleZh": "Apple 与美国职业棒球大联盟公布 7 月“Friday Night Baseball”赛程",
-      "titleEn": "Apple and Major League Baseball announce July Friday Night Baseball schedule"
+      "titleEn": "Apple and Major League Baseball announce July Friday Night Baseball schedule",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "rss-aapl-mini-football-legends-family-feud-pocket-and-seven",
@@ -2289,7 +2456,10 @@
       "accessedAt": "2026-06-07",
       "type": "company",
       "titleZh": "Mini Football Legends、Family Feud Pocket 等九款游戏加入 Apple Arcade",
-      "titleEn": "Mini Football Legends, Family Feud Pocket, and seven more games join Apple Arcade"
+      "titleEn": "Mini Football Legends, Family Feud Pocket, and seven more games join Apple Arcade",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "rss-aapl-app-store-ecosystem-reaches-1-4-trillion-as-develo",
@@ -2300,7 +2470,10 @@
       "accessedAt": "2026-06-07",
       "type": "company",
       "titleZh": "App Store 生态规模达到 1.4 万亿美元，全球开发者持续增长",
-      "titleEn": "App Store ecosystem reaches $1.4 trillion as developers thrive globally"
+      "titleEn": "App Store ecosystem reaches $1.4 trillion as developers thrive globally",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "aapl-sec-companyfacts",
@@ -2310,7 +2483,10 @@
       "publisher": "SEC EDGAR",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
       "accessedAt": "2026-06-08",
-      "type": "sec"
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     },
     {
       "id": "aapl-enterprise",
@@ -2320,7 +2496,10 @@
       "publisher": "Apple",
       "url": "https://www.apple.com/business/enterprise/",
       "accessedAt": "2026-06-08",
-      "type": "company"
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
     }
   ],
   "automation": {
