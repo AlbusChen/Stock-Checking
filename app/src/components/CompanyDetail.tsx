@@ -109,7 +109,7 @@ function FailureConditionsPanel({
 
   return (
     <article className="info-card wide failure-panel">
-      <h2>什么情况说明判断错了</h2>
+      <h2>判断失效信号</h2>
       <div className="failure-list">
         {conditions.map((condition, index) => (
           <section className="failure-item" key={`${condition.condition}-${index}`}>
@@ -168,7 +168,7 @@ function ScarceLayersPanel({
             </div>
             {layer.failureConditions.length > 0 ? (
               <div className="layer-failure">
-                <strong>证伪观察</strong>
+                <strong>需要重新评估的信号</strong>
                 {layer.failureConditions.map((condition, index) => (
                   <p key={`${layer.name}-failure-${index}`}>
                     <TextPair text={localizedField(condition, "condition")} />
