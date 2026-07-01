@@ -16,7 +16,7 @@
     "Digital services"
   ],
   "homepage": "https://www.apple.com/",
-  "lastUpdated": "2026-06-07T13:17:57.056288Z",
+  "lastUpdated": "2026-07-01T20:25:57.241222Z",
   "summary": "硬件生态和服务收入共同驱动，核心变量是 iPhone 周期、服务增长、供应链韧性与 AI 平台节奏。",
   "updateCadence": {
     "最新动态": "12 小时",
@@ -2253,10 +2253,64 @@
   },
   "news": [
     {
+      "date": "2026-06-30",
+      "title": "Apple Creator Studio gets smarter, faster, and more connected",
+      "category": "News",
+      "summary": "自动抓取条目，需人工补充摘要。",
+      "impact": "自动抓取条目，需要人工复核业务影响。",
+      "titleZh": "自动抓取新闻：Apple Creator Studio gets smarter, faster, and more connected",
+      "titleEn": "Apple Creator Studio gets smarter, faster, and more connected",
+      "categoryZh": "新闻",
+      "categoryEn": "News",
+      "summaryZh": "自动抓取条目，需人工补充摘要。",
+      "summaryEn": "Automatically fetched item; summary requires manual review.",
+      "impactZh": "自动抓取条目，需要人工复核业务影响。",
+      "impactEn": "Automatically fetched item; business impact requires manual review.",
+      "sourceIds": [
+        "rss-aapl-apple-creator-studio-gets-smarter-faster-and-more-"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "title": "Apple announces changes to iOS in Brazil",
+      "category": "News",
+      "summary": "自动抓取条目，需人工补充摘要。",
+      "impact": "自动抓取条目，需要人工复核业务影响。",
+      "titleZh": "自动抓取新闻：Apple announces changes to iOS in Brazil",
+      "titleEn": "Apple announces changes to iOS in Brazil",
+      "categoryZh": "新闻",
+      "categoryEn": "News",
+      "summaryZh": "自动抓取条目，需人工补充摘要。",
+      "summaryEn": "Automatically fetched item; summary requires manual review.",
+      "impactZh": "自动抓取条目，需要人工复核业务影响。",
+      "impactEn": "Automatically fetched item; business impact requires manual review.",
+      "sourceIds": [
+        "rss-aapl-apple-announces-changes-to-ios-in-brazil"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "title": "Apple unveils innovative features and intelligence experiences across services",
+      "category": "News",
+      "summary": "自动抓取条目，需人工补充摘要。",
+      "impact": "自动抓取条目，需要人工复核业务影响。",
+      "titleZh": "自动抓取新闻：Apple unveils innovative features and intelligence experiences across services",
+      "titleEn": "Apple unveils innovative features and intelligence experiences across services",
+      "categoryZh": "新闻",
+      "categoryEn": "News",
+      "summaryZh": "自动抓取条目，需人工补充摘要。",
+      "summaryEn": "Automatically fetched item; summary requires manual review.",
+      "impactZh": "自动抓取条目，需要人工复核业务影响。",
+      "impactEn": "Automatically fetched item; business impact requires manual review.",
+      "sourceIds": [
+        "rss-aapl-apple-unveils-innovative-features-and-intelligence"
+      ]
+    },
+    {
       "date": "2026-06-04",
       "title": "Apple and Major League Baseball announce July “Friday Night Baseball” schedule",
       "category": "News",
-      "summary": "",
+      "summary": "Apple 与 MLB 公布 7 月 Friday Night Baseball 赛程，属于 Apple TV+ 体育内容与订阅服务生态更新。",
       "impact": "自动抓取条目，需要人工复核业务影响。",
       "sourceIds": [
         "rss-aapl-apple-and-major-league-baseball-announce-july-frid"
@@ -2274,7 +2328,7 @@
       "date": "2026-06-04",
       "title": "Mini Football Legends, Family Feud Pocket, and seven more hits join Apple Arcade",
       "category": "News",
-      "summary": "",
+      "summary": "Apple Arcade 新增多款游戏，继续扩充订阅内容库并服务于设备生态粘性。",
       "impact": "自动抓取条目，需要人工复核业务影响。",
       "sourceIds": [
         "rss-aapl-mini-football-legends-family-feud-pocket-and-seven"
@@ -2292,7 +2346,7 @@
       "date": "2026-06-04",
       "title": "App Store ecosystem reaches $1.4 trillion as developers thrive globally",
       "category": "News",
-      "summary": "",
+      "summary": "Apple 强调 App Store 生态交易规模和开发者全球增长，突出服务平台的经济规模。",
       "impact": "自动抓取条目，需要人工复核业务影响。",
       "sourceIds": [
         "rss-aapl-app-store-ecosystem-reaches-1-4-trillion-as-develo"
@@ -2363,18 +2417,88 @@
   ],
   "filings": [
     {
-      "form": "10-K",
-      "filedAt": "2025-10-31",
-      "reportDate": "2025-09-27",
-      "title": "FY2025 Form 10-K",
-      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm"
+      "form": "10-Q",
+      "filedAt": "2026-05-01",
+      "reportDate": "2026-03-28",
+      "title": "10-Q filed 2026-05-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-30",
+      "reportDate": "2026-04-30",
+      "title": "8-K filed 2026-04-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000011/aapl-20260430.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-20",
+      "reportDate": "2026-04-17",
+      "title": "8-K filed 2026-04-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126015711/ef20071035_8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-24",
+      "reportDate": "2026-02-24",
+      "title": "8-K filed 2026-02-24",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126006577/ef20060722_8k.htm"
     },
     {
       "form": "10-Q",
       "filedAt": "2026-01-30",
       "reportDate": "2025-12-27",
-      "title": "Q1 FY2026 Form 10-Q",
+      "title": "10-Q filed 2026-01-30",
       "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-01-29",
+      "reportDate": "2026-01-29",
+      "title": "8-K filed 2026-01-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000005/aapl-20260129.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-01-02",
+      "reportDate": "2025-12-30",
+      "title": "8-K filed 2026-01-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126000199/ef20060722_8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-12-05",
+      "reportDate": "2025-12-04",
+      "title": "8-K filed 2025-12-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036125044561/ef20060722_8k.htm"
+    },
+    {
+      "form": "10-K",
+      "filedAt": "2025-10-31",
+      "reportDate": "2025-09-27",
+      "title": "10-K filed 2025-10-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-10-30",
+      "reportDate": "2025-10-30",
+      "title": "8-K filed 2025-10-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000077/aapl-20251030.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2025-08-01",
+      "reportDate": "2025-06-28",
+      "title": "10-Q filed 2025-08-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-07-31",
+      "reportDate": "2025-07-31",
+      "title": "8-K filed 2025-07-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000071/aapl-20250731.htm"
     }
   ],
   "sources": [
@@ -2496,6 +2620,48 @@
       "publisher": "Apple",
       "url": "https://www.apple.com/business/enterprise/",
       "accessedAt": "2026-06-08",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "rss-aapl-apple-creator-studio-gets-smarter-faster-and-more-",
+      "title": "Apple Creator Studio gets smarter, faster, and more connected",
+      "titleZh": "自动抓取新闻：Apple Creator Studio gets smarter, faster, and more connected",
+      "titleEn": "Apple Creator Studio gets smarter, faster, and more connected",
+      "publisher": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/06/apple-creator-studio-gets-smarter-faster-and-more-connected/",
+      "publishedAt": "2026-06-30",
+      "accessedAt": "2026-07-01",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "rss-aapl-apple-announces-changes-to-ios-in-brazil",
+      "title": "Apple announces changes to iOS in Brazil",
+      "titleZh": "自动抓取新闻：Apple announces changes to iOS in Brazil",
+      "titleEn": "Apple announces changes to iOS in Brazil",
+      "publisher": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/06/apple-announces-changes-to-ios-in-brazil/",
+      "publishedAt": "2026-06-18",
+      "accessedAt": "2026-07-01",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "rss-aapl-apple-unveils-innovative-features-and-intelligence",
+      "title": "Apple unveils innovative features and intelligence experiences across services",
+      "titleZh": "自动抓取新闻：Apple unveils innovative features and intelligence experiences across services",
+      "titleEn": "Apple unveils innovative features and intelligence experiences across services",
+      "publisher": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-innovative-features-and-intelligence-experiences-across-services/",
+      "publishedAt": "2026-06-09",
+      "accessedAt": "2026-07-01",
       "type": "company",
       "evidenceLevel": "strong",
       "evidenceLevelZh": "强证据",

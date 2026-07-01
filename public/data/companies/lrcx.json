@@ -18,7 +18,7 @@
     "晶圆清洗"
   ],
   "homepage": "https://www.lamresearch.com/",
-  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "lastUpdated": "2026-07-01T20:25:39.388964Z",
   "summary": "泛林集团专注刻蚀、沉积和清洗设备，是先进逻辑、HBM/DRAM 和 NAND 制造链的关键设备公司，NVIDIA AI 需求通过晶圆厂和存储厂扩产传导。 / Lam Research focuses on etch, deposition, and clean tools for advanced logic, HBM/DRAM, and NAND manufacturing, with NVIDIA AI demand transmitted through foundry and memory capex.",
   "summaryZh": "泛林集团专注刻蚀、沉积和清洗设备，是先进逻辑、HBM/DRAM 和 NAND 制造链的关键设备公司，NVIDIA AI 需求通过晶圆厂和存储厂扩产传导。",
   "summaryEn": "Lam Research focuses on etch, deposition, and clean tools for advanced logic, HBM/DRAM, and NAND manufacturing, with NVIDIA AI demand transmitted through foundry and memory capex.",
@@ -865,6 +865,48 @@
       "reportDate": "2025-11-04",
       "title": "8-K filed 2025-11-06",
       "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000094/lrcx-20251104.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2025-10-24",
+      "reportDate": "2025-09-28",
+      "title": "10-Q filed 2025-10-24",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000085/lrcx-20250928.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-10-22",
+      "reportDate": "2025-10-22",
+      "title": "8-K filed 2025-10-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000082/lrcx-20251022.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-09-11",
+      "reportDate": "2025-09-08",
+      "title": "8-K filed 2025-09-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000078/lrcx-20250908.htm"
+    },
+    {
+      "form": "10-K",
+      "filedAt": "2025-08-11",
+      "reportDate": "2025-06-29",
+      "title": "10-K filed 2025-08-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000075/lrcx-20250629.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-07-30",
+      "reportDate": "2025-07-30",
+      "title": "8-K filed 2025-07-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000068/lrcx-20250730.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-05-21",
+      "reportDate": "2025-05-20",
+      "title": "8-K filed 2025-05-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000060/lrcx-20250520.htm"
     }
   ],
   "sources": [

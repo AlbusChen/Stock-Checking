@@ -18,7 +18,7 @@
     "测试"
   ],
   "homepage": "https://amkor.com/",
-  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "lastUpdated": "2026-07-01T20:25:34.944536Z",
   "summary": "Amkor 是外包半导体封装与测试厂商，AI 芯片供应链扩张会提升先进封装和测试产能的重要性。 / Amkor is an outsourced semiconductor assembly and test provider. AI chip supply-chain expansion increases the importance of advanced packaging and test capacity.",
   "summaryZh": "Amkor 是外包半导体封装与测试厂商，AI 芯片供应链扩张会提升先进封装和测试产能的重要性。",
   "summaryEn": "Amkor is an outsourced semiconductor assembly and test provider. AI chip supply-chain expansion increases the importance of advanced packaging and test capacity.",
@@ -823,6 +823,48 @@
       "reportDate": "2026-03-31",
       "title": "10-Q filed 2026-04-28",
       "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000020/amkr-20260331.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-27",
+      "reportDate": "2026-04-27",
+      "title": "8-K filed 2026-04-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000017/amkr-20260427.htm"
+    },
+    {
+      "form": "10-K",
+      "filedAt": "2026-02-20",
+      "reportDate": "2025-12-31",
+      "title": "10-K filed 2026-02-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/amkr-20251231.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-13",
+      "reportDate": "2026-02-12",
+      "title": "8-K filed 2026-02-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000011/amkr-20260212.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-09",
+      "reportDate": "2026-02-09",
+      "title": "8-K filed 2026-02-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000007/amkr-20260209.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-02",
+      "reportDate": "2026-02-02",
+      "title": "8-K filed 2026-02-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000003/amkr-20260202.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-11-03",
+      "reportDate": "2025-10-28",
+      "title": "8-K filed 2025-11-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712725000195/amkr-20251028.htm"
     }
   ],
   "sources": [

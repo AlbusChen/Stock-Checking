@@ -18,7 +18,7 @@
     "液冷"
   ],
   "homepage": "https://www.supermicro.com/",
-  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "lastUpdated": "2026-07-01T20:25:42.152369Z",
   "summary": "Supermicro 提供 AI/GPU 服务器和机柜级系统，是 NVIDIA GPU 进入数据中心的关键整机与系统集成环节之一。 / Supermicro provides AI/GPU servers and rack-scale systems, making it a key system-integration layer for NVIDIA GPUs entering data centers.",
   "summaryZh": "Supermicro 提供 AI/GPU 服务器和机柜级系统，是 NVIDIA GPU 进入数据中心的关键整机与系统集成环节之一。",
   "summaryEn": "Supermicro provides AI/GPU servers and rack-scale systems, making it a key system-integration layer for NVIDIA GPUs entering data centers.",
@@ -833,6 +833,13 @@
   "filings": [
     {
       "form": "8-K",
+      "filedAt": "2026-06-15",
+      "reportDate": "2026-06-10",
+      "title": "8-K filed 2026-06-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/1375365/000119312526270430/d151436d8k.htm"
+    },
+    {
+      "form": "8-K",
       "filedAt": "2026-06-12",
       "reportDate": "2026-06-10",
       "title": "8-K filed 2026-06-12",
@@ -872,6 +879,41 @@
       "reportDate": "2026-04-15",
       "title": "8-K filed 2026-04-20",
       "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000012/smci-20260415.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-20",
+      "reportDate": "2026-03-20",
+      "title": "8-K filed 2026-03-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000011/smci-20260320.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-02-06",
+      "reportDate": "2025-12-31",
+      "title": "10-Q filed 2026-02-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000007/smci-20251231.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-03",
+      "reportDate": "2026-02-03",
+      "title": "8-K filed 2026-02-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000006/smci-20260203.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-01-29",
+      "reportDate": "2026-01-26",
+      "title": "8-K filed 2026-01-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000005/smci-20260126.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-01-26",
+      "reportDate": "2026-01-21",
+      "title": "8-K filed 2026-01-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000004/smci-20260121.htm"
     }
   ],
   "sources": [

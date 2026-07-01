@@ -18,7 +18,7 @@
     "AI 平台"
   ],
   "homepage": "https://www.microsoft.com/",
-  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "lastUpdated": "2026-07-01T20:25:39.739154Z",
   "summary": "微软通过 Azure 和 AI 服务消耗大规模 GPU 基础设施，是 NVIDIA 数据中心 GPU 需求的重要下游客户之一，同时也向企业客户转售 AI 算力和软件服务。 / Microsoft consumes large-scale GPU infrastructure through Azure and AI services, making it an important downstream customer for NVIDIA data-center GPUs while reselling AI compute and software services.",
   "summaryZh": "微软通过 Azure 和 AI 服务消耗大规模 GPU 基础设施，是 NVIDIA 数据中心 GPU 需求的重要下游客户之一，同时也向企业客户转售 AI 算力和软件服务。",
   "summaryEn": "Microsoft consumes large-scale GPU infrastructure through Azure and AI services, making it an important downstream customer for NVIDIA data-center GPUs while reselling AI compute and software services.",
@@ -876,6 +876,48 @@
       "reportDate": "2026-01-28",
       "title": "8-K filed 2026-01-28",
       "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027198/msft-20260128.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-12-08",
+      "reportDate": "2025-12-05",
+      "title": "8-K filed 2025-12-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525311196/d34077d8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2025-10-29",
+      "reportDate": "2025-09-30",
+      "title": "10-Q filed 2025-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-10-29",
+      "reportDate": "2025-10-28",
+      "title": "8-K filed 2025-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256310/msft-20251028.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-09-30",
+      "reportDate": "2025-09-24",
+      "title": "8-K filed 2025-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525225125/d863209d8k.htm"
+    },
+    {
+      "form": "10-K",
+      "filedAt": "2025-07-30",
+      "reportDate": "2025-06-30",
+      "title": "10-K filed 2025-07-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-07-30",
+      "reportDate": "2025-07-30",
+      "title": "8-K filed 2025-07-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100226/msft-20250730.htm"
     }
   ],
   "sources": [

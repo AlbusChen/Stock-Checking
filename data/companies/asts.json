@@ -16,7 +16,7 @@
     "卫星通信"
   ],
   "homepage": "https://ast-science.com/",
-  "lastUpdated": "2026-06-11T18:45:00+08:00",
+  "lastUpdated": "2026-07-01T20:25:35.960492Z",
   "summary": "AST SpaceMobile 正在建设面向普通手机的空间蜂窝宽带网络，是 Starlink 直连手机与卫星宽带主题下的重要上市可比公司；其仍处于高投入与商业化推进阶段。",
   "summaryZh": "AST SpaceMobile 正在建设面向普通手机的空间蜂窝宽带网络，是 Starlink 直连手机与卫星宽带主题下的重要上市可比公司；其仍处于高投入与商业化推进阶段。",
   "summaryEn": "AST SpaceMobile is building a space-based cellular broadband network for standard mobile phones, making it a public comparable for Starlink direct-to-device and satellite-broadband themes; it remains in a heavy-investment commercialization phase.",
@@ -822,18 +822,88 @@
   ],
   "filings": [
     {
+      "form": "8-K",
+      "filedAt": "2026-06-15",
+      "reportDate": "2026-06-12",
+      "title": "8-K filed 2026-06-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226028544/form8-k.htm"
+    },
+    {
       "form": "10-Q",
       "filedAt": "2026-05-11",
       "reportDate": "2026-03-31",
-      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000119312526216950/asts-20260331.htm",
-      "title": "AST SpaceMobile, Inc. 10-Q 2026-03-31"
+      "title": "10-Q filed 2026-05-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000119312526216950/asts-20260331.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-11",
+      "reportDate": "2026-05-11",
+      "title": "8-K filed 2026-05-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000119312526216946/asts-20260511.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-20",
+      "reportDate": "2026-04-19",
+      "title": "8-K filed 2026-04-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226018012/form8-k.htm"
     },
     {
       "form": "10-K",
       "filedAt": "2026-03-02",
       "reportDate": "2025-12-31",
-      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000178031226000006/asts-20251231.htm",
-      "title": "AST SpaceMobile, Inc. 10-K 2025-12-31"
+      "title": "10-K filed 2026-03-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000178031226000006/asts-20251231.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-02",
+      "reportDate": "2026-03-02",
+      "title": "8-K filed 2026-03-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000178031226000005/asts-20260302.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-23",
+      "reportDate": "2026-02-20",
+      "title": "8-K filed 2026-02-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226007772/form8-k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-20",
+      "reportDate": "2026-02-20",
+      "title": "8-K filed 2026-02-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226007626/form8-k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-17",
+      "reportDate": "2026-02-12",
+      "title": "8-K filed 2026-02-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226007126/form8-k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-11",
+      "reportDate": "2026-02-11",
+      "title": "8-K filed 2026-02-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226006223/form8-k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-01-16",
+      "reportDate": "2026-01-13",
+      "title": "8-K filed 2026-01-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226002617/form8-k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-11-21",
+      "reportDate": "2025-11-21",
+      "title": "8-K filed 2025-11-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315225024627/form8-k.htm"
     }
   ],
   "sources": [

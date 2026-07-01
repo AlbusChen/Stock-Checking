@@ -18,7 +18,7 @@
     "政府通信"
   ],
   "homepage": "https://www.viasat.com/",
-  "lastUpdated": "2026-06-11T18:45:00+08:00",
+  "lastUpdated": "2026-07-01T20:25:42.888059Z",
   "summary": "Viasat 是卫星宽带、移动连接和政府通信公司，是 Starlink 宽带/移动连接业务的重要上市可比与竞争样本。公司财年截至 3 月 31 日。",
   "summaryZh": "Viasat 是卫星宽带、移动连接和政府通信公司，是 Starlink 宽带/移动连接业务的重要上市可比与竞争样本。公司财年截至 3 月 31 日。",
   "summaryEn": "Viasat is a satellite broadband, mobility-connectivity, and government-communications company, making it an important public comparable/competitor for Starlink broadband and mobility connectivity. Its fiscal year ends March 31.",
@@ -827,15 +827,85 @@
       "form": "10-K",
       "filedAt": "2026-05-29",
       "reportDate": "2026-03-31",
-      "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312526248290/vsat-20260331.htm",
-      "title": "Viasat, Inc. 10-K 2026-03-31"
+      "title": "10-K filed 2026-05-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312526248290/vsat-20260331.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-28",
+      "reportDate": "2026-05-28",
+      "title": "8-K filed 2026-05-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312526245304/d133220d8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-07",
+      "reportDate": "2026-05-06",
+      "title": "8-K filed 2026-05-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312526210427/d108013d8k.htm"
     },
     {
       "form": "10-Q",
       "filedAt": "2026-02-06",
       "reportDate": "2025-12-31",
-      "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312526041421/vsat-20251231.htm",
-      "title": "Viasat, Inc. 10-Q 2025-12-31"
+      "title": "10-Q filed 2026-02-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312526041421/vsat-20251231.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-05",
+      "reportDate": "2026-02-05",
+      "title": "8-K filed 2026-02-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312526039528/d39970d8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-01-26",
+      "reportDate": "2026-01-21",
+      "title": "8-K filed 2026-01-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312526022564/d232462d8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-12-11",
+      "reportDate": "2025-12-05",
+      "title": "8-K filed 2025-12-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312525316132/d73015d8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-11-19",
+      "reportDate": "2025-11-17",
+      "title": "8-K filed 2025-11-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312525287000/d845120d8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2025-11-10",
+      "reportDate": "2025-09-30",
+      "title": "10-Q filed 2025-11-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312525272830/vsat-20250930.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-11-07",
+      "reportDate": "2025-11-07",
+      "title": "8-K filed 2025-11-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312525272331/d38034d8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-09-05",
+      "reportDate": "2025-09-04",
+      "title": "8-K filed 2025-09-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312525197278/d48904d8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-08-21",
+      "reportDate": "2025-08-15",
+      "title": "8-K filed 2025-08-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/797721/000119312525185295/d948130d8k.htm"
     }
   ],
   "sources": [

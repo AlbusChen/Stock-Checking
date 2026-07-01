@@ -18,7 +18,7 @@
     "DUV"
   ],
   "homepage": "https://www.asml.com/en",
-  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "lastUpdated": "2026-07-01T20:25:35.605287Z",
   "summary": "ASML 是先进光刻设备的关键供应商，虽通常不直接向 NVIDIA 销售芯片，但其 EUV/DUV 设备是台积电、三星等制造 NVIDIA AI 芯片所需先进制程的基础。 / ASML is a critical lithography supplier. It usually does not sell chips to NVIDIA directly, but its EUV/DUV systems enable the advanced nodes used by foundries that manufacture NVIDIA AI chips.",
   "summaryZh": "ASML 是先进光刻设备的关键供应商，虽通常不直接向 NVIDIA 销售芯片，但其 EUV/DUV 设备是台积电、三星等制造 NVIDIA AI 芯片所需先进制程的基础。",
   "summaryEn": "ASML is a critical lithography supplier. It usually does not sell chips to NVIDIA directly, but its EUV/DUV systems enable the advanced nodes used by foundries that manufacture NVIDIA AI chips.",
@@ -869,6 +869,48 @@
       "reportDate": "2025-12-31",
       "title": "6-K filed 2026-01-28",
       "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026003701/form6-kquarterlyfilings.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2025-10-15",
+      "reportDate": "2025-09-28",
+      "title": "6-K filed 2025-10-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828025045043/form6-kquarterlyfilings.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2025-07-16",
+      "reportDate": "2025-06-29",
+      "title": "6-K filed 2025-07-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828025034992/form6-kquarterlyfilings.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2025-04-16",
+      "reportDate": "2025-03-30",
+      "title": "6-K filed 2025-04-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796625000014/form6-kquarterlyfilings.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2025-03-05",
+      "reportDate": "2024-12-31",
+      "title": "6-K filed 2025-03-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796625000011/form6-kannualreportbasedon.htm"
+    },
+    {
+      "form": "20-F",
+      "filedAt": "2025-03-05",
+      "reportDate": "2024-12-31",
+      "title": "20-F filed 2025-03-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796625000009/asml-20241231.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2025-01-29",
+      "reportDate": "2024-12-31",
+      "title": "6-K filed 2025-01-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000093796625000003/form6-kquarterlyfilings.htm"
     }
   ],
   "sources": [

@@ -1,0 +1,797 @@
+{
+  "schemaVersion": 1,
+  "id": "tsla",
+  "ticker": "TSLA",
+  "exchange": "NASDAQ",
+  "market": "US",
+  "name": "Tesla / 特斯拉",
+  "legalName": "Tesla, Inc.",
+  "cik": "0001318605",
+  "currency": "USD",
+  "sector": "Electric vehicles, energy storage and AI / 电动车、储能与 AI",
+  "industry": [
+    "Electric vehicles",
+    "Energy storage",
+    "Autonomous driving",
+    "Robotics",
+    "电动车",
+    "储能",
+    "自动驾驶",
+    "机器人"
+  ],
+  "homepage": "https://www.tesla.com/",
+  "lastUpdated": "2026-07-01T20:31:38.807660Z",
+  "summary": "Tesla 是电动车、储能和 AI/自动驾驶平台公司；核心变量是交付增长、汽车毛利率、储能爬坡、FSD/Robotaxi/机器人商业化和电池/算力供应链。",
+  "summaryZh": "Tesla 是电动车、储能和 AI/自动驾驶平台公司；核心变量是交付增长、汽车毛利率、储能爬坡、FSD/Robotaxi/机器人商业化和电池/算力供应链。",
+  "summaryEn": "Tesla is an EV, energy-storage, and AI/autonomy platform company; key variables include delivery growth, automotive margins, storage ramp, FSD/Robotaxi/robotics commercialization, and battery/compute supply chains.",
+  "aliases": [
+    "Tesla",
+    "特斯拉",
+    "TSLA"
+  ],
+  "labels": [
+    "自选",
+    "科技",
+    "电动车",
+    "储能",
+    "AI",
+    "机器人",
+    "美股"
+  ],
+  "themeExposure": [
+    {
+      "theme": "自选组合",
+      "themeZh": "自选组合",
+      "themeEn": "Watchlist",
+      "score": 5,
+      "role": "核心自选标的",
+      "roleZh": "核心自选标的",
+      "roleEn": "Core watchlist name",
+      "rationale": "用户指定加入自选 label；业务同时连接电动车、储能、AI 和机器人主题。",
+      "rationaleZh": "用户指定加入自选 label；业务同时连接电动车、储能、AI 和机器人主题。",
+      "rationaleEn": "User-specified watchlist name spanning EVs, storage, AI, and robotics.",
+      "confidence": "high"
+    }
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "description": "Tesla 设计、制造和销售电动车、能源发电与储能系统，并推进自动驾驶、AI 训练、机器人和相关软件服务。",
+    "revenueModel": [
+      "汽车销售与租赁",
+      "能源发电与储能",
+      "服务及其他",
+      "软件/自动驾驶相关服务"
+    ],
+    "segments": [],
+    "thesis": "Tesla 的核心判断来自电动车规模化制造、储能增长、自动驾驶/机器人 AI 平台和电池成本曲线；短期需跟踪交付、毛利率、现金流、资本开支和监管进展。",
+    "riskNotes": [
+      "如果电动车需求、价格或交付不及预期，收入和毛利率会承压。",
+      "如果 FSD/机器人商业化慢于预期，AI 平台估值假设需要下调。",
+      "电池材料、功率半导体和工厂爬坡仍可能影响成本和交付。"
+    ],
+    "failureConditions": [
+      {
+        "condition": "交付量增长、汽车毛利率或经营现金流连续弱于管理层目标。",
+        "conditionZh": "交付量增长、汽车毛利率或经营现金流连续弱于管理层目标。",
+        "conditionEn": "The thesis should be reassessed if this signal appears in filings, guidance, customer disclosures, pricing, or operating metrics.",
+        "monitor": "跟踪季度交付、平均售价、汽车毛利率、库存和经营现金流。",
+        "monitorZh": "跟踪季度交付、平均售价、汽车毛利率、库存和经营现金流。",
+        "monitorEn": "Monitor filings, earnings releases, customer disclosures, pricing, margins, cash flow, and capacity plans.",
+        "sourceIds": [
+          "tsla-q1-2026",
+          "tsla-10k-2025"
+        ]
+      },
+      {
+        "condition": "自动驾驶、Robotaxi 或机器人业务没有形成可验证收入/监管进展。",
+        "conditionZh": "自动驾驶、Robotaxi 或机器人业务没有形成可验证收入/监管进展。",
+        "conditionEn": "The thesis should be reassessed if this signal appears in filings, guidance, customer disclosures, pricing, or operating metrics.",
+        "monitor": "跟踪 10-Q/8-K、监管批准、产品发布时间表和递延收入。",
+        "monitorZh": "跟踪 10-Q/8-K、监管批准、产品发布时间表和递延收入。",
+        "monitorEn": "Monitor filings, earnings releases, customer disclosures, pricing, margins, cash flow, and capacity plans.",
+        "sourceIds": [
+          "tsla-q1-2026",
+          "tsla-10k-2025"
+        ]
+      }
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-07-01T20:31:38.807660Z",
+    "thesis": "Tesla 的供应链卡点集中在电池材料/制造、功率半导体、制造自动化和 AI 训练/推理算力；需求端则由电动车、储能、自动驾驶和机器人项目共同驱动。",
+    "thesisZh": "Tesla 的供应链卡点集中在电池材料/制造、功率半导体、制造自动化和 AI 训练/推理算力；需求端则由电动车、储能、自动驾驶和机器人项目共同驱动。",
+    "thesisEn": "Tesla supply-chain constraints cluster around battery materials/manufacturing, power semiconductors, factory automation, and AI training/inference compute, with demand driven by EVs, storage, autonomy, and robotics.",
+    "scarceLayers": [
+      {
+        "name": "电池材料与电芯产能",
+        "nameZh": "电池材料与电芯产能",
+        "nameEn": "电池材料与电芯产能",
+        "rank": 1,
+        "constraintType": "capacity",
+        "constraintTypeZh": "产能",
+        "constraintTypeEn": "Capacity",
+        "whyScarce": "电池材料、良率和产能决定整车成本、储能交付和新平台爬坡速度。",
+        "whyScarceZh": "电池材料、良率和产能决定整车成本、储能交付和新平台爬坡速度。",
+        "whyScarceEn": "电池材料、良率和产能决定整车成本、储能交付和新平台爬坡速度。",
+        "relatedCompanies": [
+          "Tesla",
+          "Panasonic",
+          "LG Energy Solution",
+          "CATL"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "high",
+        "sourceIds": [
+          "tsla-q1-2026",
+          "tsla-10k-2025"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果替代供应、扩产或客户采用速度明显快于预期，该卡点的重要性需要下调。",
+            "conditionZh": "如果替代供应、扩产或客户采用速度明显快于预期，该卡点的重要性需要下调。",
+            "conditionEn": "The thesis should be reassessed if this signal appears in filings, guidance, customer disclosures, pricing, or operating metrics.",
+            "monitor": "跟踪公告、产能计划、客户认证、价格和毛利率变化。",
+            "monitorZh": "跟踪公告、产能计划、客户认证、价格和毛利率变化。",
+            "monitorEn": "Monitor filings, earnings releases, customer disclosures, pricing, margins, cash flow, and capacity plans.",
+            "sourceIds": [
+              "tsla-q1-2026",
+              "tsla-10k-2025"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AI 训练与自动驾驶计算",
+        "nameZh": "AI 训练与自动驾驶计算",
+        "nameEn": "AI 训练与自动驾驶计算",
+        "rank": 2,
+        "constraintType": "technology",
+        "constraintTypeZh": "技术",
+        "constraintTypeEn": "Technology",
+        "whyScarce": "自动驾驶和机器人路线依赖大规模训练算力、数据和车端推理效率。",
+        "whyScarceZh": "自动驾驶和机器人路线依赖大规模训练算力、数据和车端推理效率。",
+        "whyScarceEn": "自动驾驶和机器人路线依赖大规模训练算力、数据和车端推理效率。",
+        "relatedCompanies": [
+          "Tesla",
+          "NVIDIA"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "high",
+        "sourceIds": [
+          "tsla-q1-2026",
+          "tsla-10k-2025"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果替代供应、扩产或客户采用速度明显快于预期，该卡点的重要性需要下调。",
+            "conditionZh": "如果替代供应、扩产或客户采用速度明显快于预期，该卡点的重要性需要下调。",
+            "conditionEn": "The thesis should be reassessed if this signal appears in filings, guidance, customer disclosures, pricing, or operating metrics.",
+            "monitor": "跟踪公告、产能计划、客户认证、价格和毛利率变化。",
+            "monitorZh": "跟踪公告、产能计划、客户认证、价格和毛利率变化。",
+            "monitorEn": "Monitor filings, earnings releases, customer disclosures, pricing, margins, cash flow, and capacity plans.",
+            "sourceIds": [
+              "tsla-q1-2026",
+              "tsla-10k-2025"
+            ]
+          }
+        ]
+      }
+    ],
+    "tiers": [
+      {
+        "level": 0,
+        "title": "电动车、能源与 AI 平台",
+        "titleZh": "电动车、能源与 AI 平台",
+        "titleEn": "电动车、能源与 AI 平台",
+        "companies": [
+          "Tesla"
+        ],
+        "entities": [
+          {
+            "name": "Tesla",
+            "nameZh": "特斯拉",
+            "nameEn": "Tesla",
+            "relationship": "目标公司本体；负责整车、能源系统、自动驾驶软件和机器人平台。",
+            "relationshipZh": "目标公司本体；负责整车、能源系统、自动驾驶软件和机器人平台。",
+            "relationshipEn": "目标公司本体；负责整车、能源系统、自动驾驶软件和机器人平台。",
+            "productsServices": [
+              "电动车",
+              "储能系统",
+              "自动驾驶/机器人"
+            ],
+            "productsServicesZh": [
+              "电动车",
+              "储能系统",
+              "自动驾驶/机器人"
+            ],
+            "productsServicesEn": [
+              "电动车",
+              "储能系统",
+              "自动驾驶/机器人"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "TSLA",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/tsla"
+            },
+            "confidence": "high",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "target",
+              "rationale": "目标公司本体；负责整车、能源系统、自动驾驶软件和机器人平台。",
+              "rationaleZh": "目标公司本体；负责整车、能源系统、自动驾驶软件和机器人平台。",
+              "rationaleEn": "目标公司本体；负责整车、能源系统、自动驾驶软件和机器人平台。",
+              "confidence": "high"
+            },
+            "sourceIds": [
+              "tsla-q1-2026",
+              "tsla-10k-2025"
+            ]
+          }
+        ],
+        "geography": [
+          "United States",
+          "Global"
+        ],
+        "materials": [
+          "整车平台",
+          "电池系统",
+          "AI 计算"
+        ],
+        "materialsZh": [
+          "整车平台",
+          "电池系统",
+          "AI 计算"
+        ],
+        "materialsEn": [
+          "整车平台",
+          "电池系统",
+          "AI 计算"
+        ],
+        "notes": "Tesla 的业务横跨电动车、能源存储、软件、自动驾驶和机器人，制造与供应链对电池、功率半导体和 AI 计算依赖较高。",
+        "notesZh": "Tesla 的业务横跨电动车、能源存储、软件、自动驾驶和机器人，制造与供应链对电池、功率半导体和 AI 计算依赖较高。",
+        "notesEn": "Tesla 的业务横跨电动车、能源存储、软件、自动驾驶和机器人，制造与供应链对电池、功率半导体和 AI 计算依赖较高。",
+        "confidence": "high",
+        "sourceIds": [
+          "tsla-q1-2026",
+          "tsla-10k-2025"
+        ]
+      },
+      {
+        "level": 1,
+        "title": "电池材料、功率半导体与制造设备",
+        "titleZh": "电池材料、功率半导体与制造设备",
+        "titleEn": "电池材料、功率半导体与制造设备",
+        "companies": [
+          "Panasonic / LG Energy Solution / CATL",
+          "NVIDIA / custom AI compute suppliers"
+        ],
+        "entities": [
+          {
+            "name": "Panasonic / LG Energy Solution / CATL",
+            "nameZh": "松下 / LG 新能源 / 宁德时代",
+            "nameEn": "Panasonic / LG Energy Solution / CATL",
+            "relationship": "电池电芯和相关材料供应商，是整车成本、续航和储能交付的重要约束。",
+            "relationshipZh": "电池电芯和相关材料供应商，是整车成本、续航和储能交付的重要约束。",
+            "relationshipEn": "电池电芯和相关材料供应商，是整车成本、续航和储能交付的重要约束。",
+            "productsServices": [
+              "动力电池",
+              "储能电池",
+              "电池材料"
+            ],
+            "productsServicesZh": [
+              "动力电池",
+              "储能电池",
+              "电池材料"
+            ],
+            "productsServicesEn": [
+              "动力电池",
+              "储能电池",
+              "电池材料"
+            ],
+            "listing": {
+              "status": "unknown"
+            },
+            "confidence": "high",
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "direct-supplier",
+              "rationale": "电池电芯和相关材料供应商，是整车成本、续航和储能交付的重要约束。",
+              "rationaleZh": "电池电芯和相关材料供应商，是整车成本、续航和储能交付的重要约束。",
+              "rationaleEn": "电池电芯和相关材料供应商，是整车成本、续航和储能交付的重要约束。",
+              "confidence": "high"
+            },
+            "sourceIds": [
+              "tsla-q1-2026",
+              "tsla-10k-2025"
+            ]
+          },
+          {
+            "name": "NVIDIA / custom AI compute suppliers",
+            "nameZh": "英伟达及自研 AI 算力供应链",
+            "nameEn": "NVIDIA and custom AI compute suppliers",
+            "relationship": "自动驾驶训练、车端推理和机器人训练需要 GPU/AI 加速器和数据中心资源。",
+            "relationshipZh": "自动驾驶训练、车端推理和机器人训练需要 GPU/AI 加速器和数据中心资源。",
+            "relationshipEn": "自动驾驶训练、车端推理和机器人训练需要 GPU/AI 加速器和数据中心资源。",
+            "productsServices": [
+              "GPU/AI 加速器",
+              "训练算力",
+              "车端芯片"
+            ],
+            "productsServicesZh": [
+              "GPU/AI 加速器",
+              "训练算力",
+              "车端芯片"
+            ],
+            "productsServicesEn": [
+              "GPU/AI 加速器",
+              "训练算力",
+              "车端芯片"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "NVDA",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/nvda"
+            },
+            "confidence": "high",
+            "relationshipStrength": {
+              "score": 3,
+              "label": "中相关",
+              "labelZh": "中相关",
+              "labelEn": "Moderate relevance",
+              "direction": "upstream-component",
+              "rationale": "自动驾驶训练、车端推理和机器人训练需要 GPU/AI 加速器和数据中心资源。",
+              "rationaleZh": "自动驾驶训练、车端推理和机器人训练需要 GPU/AI 加速器和数据中心资源。",
+              "rationaleEn": "自动驾驶训练、车端推理和机器人训练需要 GPU/AI 加速器和数据中心资源。",
+              "confidence": "high"
+            },
+            "sourceIds": [
+              "tsla-q1-2026",
+              "tsla-10k-2025"
+            ]
+          }
+        ],
+        "geography": [
+          "United States",
+          "Global"
+        ],
+        "materials": [
+          "锂",
+          "镍",
+          "石墨",
+          "碳化硅",
+          "铜"
+        ],
+        "materialsZh": [
+          "锂",
+          "镍",
+          "石墨",
+          "碳化硅",
+          "铜"
+        ],
+        "materialsEn": [
+          "锂",
+          "镍",
+          "石墨",
+          "碳化硅",
+          "铜"
+        ],
+        "notes": "Tesla 供应链核心卡点在电池材料、4680/电池制造、功率半导体、机器人与自动驾驶芯片/算力，以及工厂资本开支执行。",
+        "notesZh": "Tesla 供应链核心卡点在电池材料、4680/电池制造、功率半导体、机器人与自动驾驶芯片/算力，以及工厂资本开支执行。",
+        "notesEn": "Tesla 供应链核心卡点在电池材料、4680/电池制造、功率半导体、机器人与自动驾驶芯片/算力，以及工厂资本开支执行。",
+        "confidence": "high",
+        "sourceIds": [
+          "tsla-q1-2026",
+          "tsla-10k-2025"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "锂/镍/石墨",
+        "nameZh": "锂/镍/石墨",
+        "nameEn": "锂/镍/石墨",
+        "usedIn": "动力电池和储能电池",
+        "usedInZh": "动力电池和储能电池",
+        "usedInEn": "动力电池和储能电池",
+        "upstream": [
+          "矿产/化工/晶圆材料",
+          "设备与制造产能"
+        ],
+        "upstreamZh": [
+          "矿产/化工/晶圆材料",
+          "设备与制造产能"
+        ],
+        "upstreamEn": [
+          "Minerals, chemicals, and wafer materials",
+          "Equipment and manufacturing capacity"
+        ],
+        "risk": "价格、供给和地缘风险会影响成本和交付。",
+        "riskZh": "价格、供给和地缘风险会影响成本和交付。",
+        "riskEn": "价格、供给和地缘风险会影响成本和交付。",
+        "confidence": "medium"
+      },
+      {
+        "name": "碳化硅/功率半导体",
+        "nameZh": "碳化硅/功率半导体",
+        "nameEn": "碳化硅/功率半导体",
+        "usedIn": "逆变器和电驱系统",
+        "usedInZh": "逆变器和电驱系统",
+        "usedInEn": "逆变器和电驱系统",
+        "upstream": [
+          "矿产/化工/晶圆材料",
+          "设备与制造产能"
+        ],
+        "upstreamZh": [
+          "矿产/化工/晶圆材料",
+          "设备与制造产能"
+        ],
+        "upstreamEn": [
+          "Minerals, chemicals, and wafer materials",
+          "Equipment and manufacturing capacity"
+        ],
+        "risk": "功率器件供给和良率会影响电驱效率与成本。",
+        "riskZh": "功率器件供给和良率会影响电驱效率与成本。",
+        "riskEn": "功率器件供给和良率会影响电驱效率与成本。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "financials": {
+    "latestPeriod": "Q1 2026 / FY2025 baseline",
+    "latestPeriodZh": "2026 年第一季度；年度基准为 FY2025",
+    "latestPeriodEn": "Q1 2026; annual baseline FY2025",
+    "highlights": [
+      {
+        "label": "Q1 2026 收入",
+        "labelZh": "Q1 2026 收入",
+        "labelEn": "Q1 2026 收入",
+        "value": 22.387,
+        "unit": "USD billions",
+        "period": "Q1 2026",
+        "periodZh": "Q1 2026",
+        "periodEn": "Q1 2026",
+        "sourceIds": [
+          "tsla-q1-2026"
+        ],
+        "change": "YoY +15.8%",
+        "changeZh": "YoY +15.8%",
+        "changeEn": "YoY +15.8%"
+      },
+      {
+        "label": "Q1 2026 净利润",
+        "labelZh": "Q1 2026 净利润",
+        "labelEn": "Q1 2026 净利润",
+        "value": 0.477,
+        "unit": "USD billions",
+        "period": "Q1 2026",
+        "periodZh": "Q1 2026",
+        "periodEn": "Q1 2026",
+        "sourceIds": [
+          "tsla-q1-2026"
+        ],
+        "change": "YoY +16.6%",
+        "changeZh": "YoY +16.6%",
+        "changeEn": "YoY +16.6%"
+      },
+      {
+        "label": "Q1 2026 经营现金流",
+        "labelZh": "Q1 2026 经营现金流",
+        "labelEn": "Q1 2026 经营现金流",
+        "value": 3.937,
+        "unit": "USD billions",
+        "period": "Q1 2026",
+        "periodZh": "Q1 2026",
+        "periodEn": "Q1 2026",
+        "sourceIds": [
+          "tsla-q1-2026"
+        ]
+      },
+      {
+        "label": "期末总资产",
+        "labelZh": "期末总资产",
+        "labelEn": "期末总资产",
+        "value": 143.724,
+        "unit": "USD billions",
+        "period": "2026-03-31",
+        "periodZh": "2026-03-31",
+        "periodEn": "2026-03-31",
+        "sourceIds": [
+          "tsla-q1-2026"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "id": "tsla-quarterly-revenue",
+        "label": "季度收入",
+        "labelZh": "季度收入",
+        "labelEn": "季度收入",
+        "unit": "USD billions",
+        "cadence": "quarterly",
+        "note": "使用 SEC companyfacts 中带 frame 的可核对数据。",
+        "noteZh": "使用 SEC companyfacts 中带 frame 的可核对数据。",
+        "noteEn": "使用 SEC companyfacts 中带 frame 的可核对数据。",
+        "sourceIds": [
+          "tsla-q1-2026"
+        ],
+        "points": [
+          {
+            "period": "Q1 2025",
+            "periodZh": "Q1 2025",
+            "periodEn": "Q1 2025",
+            "value": 19.335,
+            "sourceIds": [
+              "tsla-q1-2026"
+            ]
+          },
+          {
+            "period": "Q1 2026",
+            "periodZh": "Q1 2026",
+            "periodEn": "Q1 2026",
+            "value": 22.387,
+            "sourceIds": [
+              "tsla-q1-2026"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tsla-annual-revenue",
+        "label": "年度收入",
+        "labelZh": "年度收入",
+        "labelEn": "年度收入",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "使用 SEC companyfacts 中带 frame 的可核对数据。",
+        "noteZh": "使用 SEC companyfacts 中带 frame 的可核对数据。",
+        "noteEn": "使用 SEC companyfacts 中带 frame 的可核对数据。",
+        "sourceIds": [
+          "tsla-10k-2025"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "FY2023",
+            "periodEn": "FY2023",
+            "value": 96.773,
+            "sourceIds": [
+              "tsla-10k-2025"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "FY2024",
+            "periodEn": "FY2024",
+            "value": 97.69,
+            "sourceIds": [
+              "tsla-10k-2025"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "FY2025",
+            "periodEn": "FY2025",
+            "value": 94.827,
+            "sourceIds": [
+              "tsla-10k-2025"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "汽车业务",
+        "nameZh": "汽车业务",
+        "nameEn": "汽车业务",
+        "note": "整车销售、租赁、监管积分和相关服务仍是收入核心。",
+        "noteZh": "整车销售、租赁、监管积分和相关服务仍是收入核心。",
+        "noteEn": "整车销售、租赁、监管积分和相关服务仍是收入核心。",
+        "sourceIds": [
+          "tsla-q1-2026",
+          "tsla-10k-2025"
+        ]
+      },
+      {
+        "name": "能源发电与储能",
+        "nameZh": "能源发电与储能",
+        "nameEn": "能源发电与储能",
+        "note": "Megapack/Powerwall 等储能和能源产品是增长观察点。",
+        "noteZh": "Megapack/Powerwall 等储能和能源产品是增长观察点。",
+        "noteEn": "Megapack/Powerwall 等储能和能源产品是增长观察点。",
+        "sourceIds": [
+          "tsla-q1-2026",
+          "tsla-10k-2025"
+        ]
+      },
+      {
+        "name": "服务及其他/软件",
+        "nameZh": "服务及其他/软件",
+        "nameEn": "服务及其他/软件",
+        "note": "售后、二手车、充电、软件和自动驾驶相关服务。",
+        "noteZh": "售后、二手车、充电、软件和自动驾驶相关服务。",
+        "noteEn": "售后、二手车、充电、软件和自动驾驶相关服务。",
+        "sourceIds": [
+          "tsla-q1-2026",
+          "tsla-10k-2025"
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-04-23",
+      "title": "Tesla filed Q1 2026 Form 10-Q",
+      "titleZh": "Tesla 提交 2026 年第一季度 10-Q",
+      "titleEn": "Tesla filed Q1 2026 Form 10-Q",
+      "category": "Filing",
+      "categoryZh": "公告",
+      "categoryEn": "Filing",
+      "summary": "Q1 2026 收入 223.87 亿美元，净利润 4.77 亿美元，经营现金流 39.37 亿美元。",
+      "summaryZh": "Q1 2026 收入 223.87 亿美元，净利润 4.77 亿美元，经营现金流 39.37 亿美元。",
+      "summaryEn": "Q1 2026 revenue was $22.387B, net income was $0.477B, and operating cash flow was $3.937B.",
+      "impact": "交付、价格、毛利率和 AI/储能资本开支仍是后续跟踪重点。",
+      "impactZh": "交付、价格、毛利率和 AI/储能资本开支仍是后续跟踪重点。",
+      "impactEn": "Deliveries, pricing, margins, and AI/storage capex remain key follow-up items.",
+      "sourceIds": [
+        "tsla-q1-2026"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "10-Q",
+      "filedAt": "2026-04-23",
+      "reportDate": "2026-03-31",
+      "title": "10-Q filed 2026-04-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026026673/tsla-20260331.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-22",
+      "reportDate": "2026-04-22",
+      "title": "8-K filed 2026-04-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026026551/tsla-20260422.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-02",
+      "reportDate": "2026-04-02",
+      "title": "8-K filed 2026-04-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026022956/tsla-20260402.htm"
+    },
+    {
+      "form": "10-K",
+      "filedAt": "2026-01-29",
+      "reportDate": "2025-12-31",
+      "title": "10-K filed 2026-01-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-01-28",
+      "reportDate": "2026-01-28",
+      "title": "8-K filed 2026-01-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003837/tsla-20260128.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-01-02",
+      "reportDate": "2026-01-02",
+      "title": "8-K filed 2026-01-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026000016/tsla-20260102.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-11-07",
+      "reportDate": "2025-11-06",
+      "title": "8-K filed 2025-11-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925108507/tm2530590d1_8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2025-10-23",
+      "reportDate": "2025-09-30",
+      "title": "10-Q filed 2025-10-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-10-22",
+      "reportDate": "2025-10-22",
+      "title": "8-K filed 2025-10-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045861/tsla-20251022.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-10-02",
+      "reportDate": "2025-10-02",
+      "title": "8-K filed 2025-10-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025043530/tsla-20251002.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-09-05",
+      "reportDate": "2025-09-03",
+      "title": "8-K filed 2025-09-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925087862/tm2525337d1_8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-08-04",
+      "reportDate": "2025-08-03",
+      "title": "8-K filed 2025-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925073263/tm2522385d1_8k.htm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "tsla-q1-2026",
+      "title": "Tesla Form 10-Q for quarter ended March 31, 2026",
+      "titleZh": "Tesla Form 10-Q for quarter ended March 31, 2026",
+      "titleEn": "Tesla Form 10-Q for quarter ended March 31, 2026",
+      "publisher": "SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026026673/tsla-20260331.htm",
+      "publishedAt": "2026-04-23",
+      "accessedAt": "2026-07-01",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "tsla-10k-2025",
+      "title": "Tesla Form 10-K for fiscal year 2025",
+      "titleZh": "Tesla Form 10-K for fiscal year 2025",
+      "titleEn": "Tesla Form 10-K for fiscal year 2025",
+      "publisher": "SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+      "publishedAt": "2026-01-29",
+      "accessedAt": "2026-07-01",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "tsla-home",
+      "title": "Tesla company website",
+      "titleZh": "Tesla company website",
+      "titleEn": "Tesla company website",
+      "publisher": "Tesla",
+      "url": "https://www.tesla.com/",
+      "publishedAt": null,
+      "accessedAt": "2026-07-01",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0001318605",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K"
+      ]
+    }
+  }
+}

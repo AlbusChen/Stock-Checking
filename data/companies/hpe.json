@@ -20,7 +20,7 @@
     "AI 系统"
   ],
   "homepage": "https://www.hpe.com/",
-  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "lastUpdated": "2026-07-01T20:25:37.901631Z",
   "summary": "HPE 提供服务器、网络、存储和混合云基础设施，并与 NVIDIA 平台共同服务企业 AI/HPC 场景。 / HPE provides servers, networking, storage, and hybrid-cloud infrastructure, and works with NVIDIA platforms in enterprise AI and HPC scenarios.",
   "summaryZh": "HPE 提供服务器、网络、存储和混合云基础设施，并与 NVIDIA 平台共同服务企业 AI/HPC 场景。",
   "summaryEn": "HPE provides servers, networking, storage, and hybrid-cloud infrastructure, and works with NVIDIA platforms in enterprise AI and HPC scenarios.",
@@ -874,6 +874,48 @@
       "reportDate": "2026-03-23",
       "title": "8-K filed 2026-03-23",
       "url": "https://www.sec.gov/Archives/edgar/data/1645590/000114036126010765/ef20068405_8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-18",
+      "reportDate": "2026-03-16",
+      "title": "8-K filed 2026-03-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000114036126010222/ef20068126_8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-03-10",
+      "reportDate": "2026-01-31",
+      "title": "10-Q filed 2026-03-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000032/hpe-20260131.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-09",
+      "reportDate": "2026-03-09",
+      "title": "8-K filed 2026-03-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000028/hpe-20260309.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-06",
+      "reportDate": "2026-02-03",
+      "title": "8-K filed 2026-02-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000010/hpe-20260203.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-04",
+      "reportDate": "2026-02-04",
+      "title": "8-K filed 2026-02-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000006/hpe-20260204.htm"
+    },
+    {
+      "form": "10-K",
+      "filedAt": "2025-12-18",
+      "reportDate": "2025-10-31",
+      "title": "10-K filed 2025-12-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/hpe-20251031.htm"
     }
   ],
   "sources": [

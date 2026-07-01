@@ -18,7 +18,7 @@
     "制程控制"
   ],
   "homepage": "https://www.appliedmaterials.com/",
-  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "lastUpdated": "2026-07-01T20:25:34.640652Z",
   "summary": "应用材料提供晶圆制造设备和服务，是先进逻辑、存储和封装产线的重要设备供应商，间接受益于 NVIDIA AI 芯片供应链扩产。 / Applied Materials provides wafer-fabrication equipment and services for advanced logic, memory, and packaging lines, giving it indirect exposure to NVIDIA AI chip supply-chain expansion.",
   "summaryZh": "应用材料提供晶圆制造设备和服务，是先进逻辑、存储和封装产线的重要设备供应商，间接受益于 NVIDIA AI 芯片供应链扩产。",
   "summaryEn": "Applied Materials provides wafer-fabrication equipment and services for advanced logic, memory, and packaging lines, giving it indirect exposure to NVIDIA AI chip supply-chain expansion.",
@@ -868,6 +868,48 @@
       "reportDate": "2026-02-11",
       "title": "8-K filed 2026-02-12",
       "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026007444/amat-20260211.htm"
+    },
+    {
+      "form": "10-K",
+      "filedAt": "2025-12-12",
+      "reportDate": "2025-10-26",
+      "title": "10-K filed 2025-12-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/amat-20251026.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-11-13",
+      "reportDate": "2025-11-13",
+      "title": "8-K filed 2025-11-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025051998/amat-20251113.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-10-23",
+      "reportDate": "2025-10-23",
+      "title": "8-K filed 2025-10-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025046107/amat-20251023.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-10-02",
+      "reportDate": "2025-09-29",
+      "title": "8-K filed 2025-10-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025043753/amat-20250929.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-09-26",
+      "reportDate": "2025-09-25",
+      "title": "8-K filed 2025-09-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025042933/amat-20250925.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-09-19",
+      "reportDate": "2025-09-15",
+      "title": "8-K filed 2025-09-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/6951/000119312525209109/d82455d8k.htm"
     }
   ],
   "sources": [

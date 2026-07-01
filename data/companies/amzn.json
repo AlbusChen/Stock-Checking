@@ -20,7 +20,7 @@
     "广告"
   ],
   "homepage": "https://www.amazon.com/",
-  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "lastUpdated": "2026-07-01T20:25:35.285415Z",
   "summary": "亚马逊通过 AWS 为客户提供云计算、AI 和 GPU 实例，是 NVIDIA 数据中心 GPU 的重要下游需求方之一，同时也有自研加速器作为补充。 / Amazon provides cloud, AI, and GPU instances through AWS, making it an important downstream source of NVIDIA data-center GPU demand while also using in-house accelerators.",
   "summaryZh": "亚马逊通过 AWS 为客户提供云计算、AI 和 GPU 实例，是 NVIDIA 数据中心 GPU 的重要下游需求方之一，同时也有自研加速器作为补充。",
   "summaryEn": "Amazon provides cloud, AI, and GPU instances through AWS, making it an important downstream source of NVIDIA data-center GPU demand while also using in-house accelerators.",
@@ -878,6 +878,48 @@
       "reportDate": "2026-04-14",
       "title": "8-K filed 2026-04-14",
       "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926042880/tm2611746d1_8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-09",
+      "reportDate": "2026-04-09",
+      "title": "8-K filed 2026-04-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041034/tm263815d2_8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-16",
+      "reportDate": "2026-03-16",
+      "title": "8-K filed 2026-03-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926028556/tm266670d9_8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-13",
+      "reportDate": "2026-03-13",
+      "title": "8-K filed 2026-03-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926027729/tm266670d8_8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-27",
+      "reportDate": "2026-02-27",
+      "title": "8-K filed 2026-02-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926021050/tm267374d1_8k.htm"
+    },
+    {
+      "form": "10-K",
+      "filedAt": "2026-02-06",
+      "reportDate": "2025-12-31",
+      "title": "10-K filed 2026-02-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-05",
+      "reportDate": "2026-02-05",
+      "title": "8-K filed 2026-02-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20260205.htm"
     }
   ],
   "sources": [

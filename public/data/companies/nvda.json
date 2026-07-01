@@ -17,7 +17,7 @@
     "Autonomous systems"
   ],
   "homepage": "https://www.nvidia.com/",
-  "lastUpdated": "2026-06-07T16:45:00+08:00",
+  "lastUpdated": "2026-07-01T20:25:40.806678Z",
   "summary": "AI 数据中心平台是收入主轴，关注 Blackwell/Rubin 放量、HBM 与先进封装供给、出口限制和客户集中度。",
   "updateCadence": {
     "最新动态": "12 小时",
@@ -2492,18 +2492,88 @@
   ],
   "filings": [
     {
-      "form": "10-K",
-      "filedAt": "2026-02-25",
-      "reportDate": "2026-01-25",
-      "title": "FY2026 Form 10-K",
-      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+      "form": "8-K",
+      "filedAt": "2026-06-30",
+      "reportDate": "2026-06-24",
+      "title": "8-K filed 2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000056/nvda-20260624.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-06-18",
+      "reportDate": "2026-06-15",
+      "title": "8-K filed 2026-06-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119312526275783/d48176d8k.htm"
     },
     {
       "form": "10-Q",
-      "filedAt": "2026-05-22",
+      "filedAt": "2026-05-20",
       "reportDate": "2026-04-26",
-      "title": "Q1 FY2027 Form 10-Q",
-      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/0001045810-26-000052-index.htm"
+      "title": "10-Q filed 2026-05-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-20",
+      "reportDate": "2026-05-20",
+      "title": "8-K filed 2026-05-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/nvda-20260520.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-08",
+      "reportDate": "2026-05-07",
+      "title": "8-K filed 2026-05-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000028/nvda-20260507.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-27",
+      "reportDate": "2026-04-24",
+      "title": "8-K filed 2026-04-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000026/nvda-20260424.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-06",
+      "reportDate": "2026-03-02",
+      "title": "8-K filed 2026-03-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000024/nvda-20260302.htm"
+    },
+    {
+      "form": "10-K",
+      "filedAt": "2026-02-25",
+      "reportDate": "2026-01-25",
+      "title": "10-K filed 2026-02-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-25",
+      "reportDate": "2026-02-25",
+      "title": "8-K filed 2026-02-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/nvda-20260225.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-01-23",
+      "reportDate": "2026-01-20",
+      "title": "8-K filed 2026-01-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000003/nvda-20260120.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2025-11-19",
+      "reportDate": "2025-10-26",
+      "title": "10-Q filed 2025-11-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-11-19",
+      "reportDate": "2025-11-19",
+      "title": "8-K filed 2025-11-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000228/nvda-20251119.htm"
     }
   ],
   "sources": [
@@ -2637,6 +2707,7 @@
     ]
   },
   "labels": [
+    "自选",
     "半导体",
     "科技",
     "AI",
@@ -2646,6 +2717,19 @@
     "美股"
   ],
   "themeExposure": [
+    {
+      "theme": "自选组合",
+      "themeZh": "自选组合",
+      "themeEn": "Watchlist",
+      "score": 5,
+      "role": "核心自选标的",
+      "roleZh": "核心自选标的",
+      "roleEn": "Core watchlist name",
+      "rationale": "用户指定加入自选 label，用于集中查看重点关注股票。",
+      "rationaleZh": "用户指定加入自选 label，用于集中查看重点关注股票。",
+      "rationaleEn": "User-specified watchlist label for focused tracking.",
+      "confidence": "high"
+    },
     {
       "theme": "英伟达相关",
       "themeZh": "英伟达相关",

@@ -17,7 +17,7 @@
     "空间系统"
   ],
   "homepage": "https://www.rocketlabusa.com/",
-  "lastUpdated": "2026-06-11T18:45:00+08:00",
+  "lastUpdated": "2026-07-01T20:25:41.774921Z",
   "summary": "Rocket Lab 是一家上市航天公司，业务覆盖 Electron 发射服务、Neutron 研发以及卫星/航天器系统。SpaceX 上市后，Rocket Lab 更适合作为发射与空间系统环节的公开可比/竞争样本。",
   "summaryZh": "Rocket Lab 是一家上市航天公司，业务覆盖 Electron 发射服务、Neutron 研发以及卫星/航天器系统。SpaceX 上市后，Rocket Lab 更适合作为发射与空间系统环节的公开可比/竞争样本。",
   "summaryEn": "Rocket Lab is a public space company with Electron launch services, Neutron development, and spacecraft/space-systems businesses. After the SpaceX listing, Rocket Lab is better treated as a public comparable/competitor for the launch and space-systems layer.",
@@ -824,18 +824,88 @@
   ],
   "filings": [
     {
+      "form": "8-K",
+      "filedAt": "2026-06-29",
+      "reportDate": "2026-06-28",
+      "title": "8-K filed 2026-06-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000175392626001085/g085783_8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-06-05",
+      "reportDate": "2026-06-03",
+      "title": "8-K filed 2026-06-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000056/rklb-20260603.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-21",
+      "reportDate": "2026-05-20",
+      "title": "8-K filed 2026-05-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000048/rklb-20260520.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-20",
+      "reportDate": "2026-05-20",
+      "title": "8-K filed 2026-05-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000045/rklb-20260520.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-08",
+      "reportDate": "2026-05-08",
+      "title": "8-K filed 2026-05-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000175392626000799/g085715_8k.htm"
+    },
+    {
       "form": "10-Q",
       "filedAt": "2026-05-07",
       "reportDate": "2026-03-31",
-      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000028/rklb-20260331.htm",
-      "title": "Rocket Lab Corp 10-Q 2026-03-31"
+      "title": "10-Q filed 2026-05-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000028/rklb-20260331.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-07",
+      "reportDate": "2026-05-07",
+      "title": "8-K filed 2026-05-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000027/rklb-20260507.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-14",
+      "reportDate": "2026-04-14",
+      "title": "8-K filed 2026-04-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000175392626000654/g085683_8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-30",
+      "reportDate": "2026-03-30",
+      "title": "8-K filed 2026-03-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000175392626000568/g085462_8k-rocket.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-17",
+      "reportDate": "2026-03-17",
+      "title": "8-K filed 2026-03-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000162828026018789/rklb-20260317.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-12",
+      "reportDate": "2026-03-12",
+      "title": "8-K filed 2026-03-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000016/rklb-20260312.htm"
     },
     {
       "form": "10-K",
       "filedAt": "2026-02-26",
       "reportDate": "2025-12-31",
-      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/rklb-20251231.htm",
-      "title": "Rocket Lab Corp 10-K 2025-12-31"
+      "title": "10-K filed 2026-02-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/rklb-20251231.htm"
     }
   ],
   "sources": [

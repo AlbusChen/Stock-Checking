@@ -36,6 +36,7 @@
     "星链"
   ],
   "labels": [
+    "自选",
     "太空",
     "卫星通信",
     "发射服务",
@@ -1459,6 +1460,19 @@
     ]
   },
   "themeExposure": [
+    {
+      "theme": "自选组合",
+      "themeZh": "自选组合",
+      "themeEn": "Watchlist",
+      "score": 5,
+      "role": "核心自选标的",
+      "roleZh": "核心自选标的",
+      "roleEn": "Core watchlist name",
+      "rationale": "用户指定加入自选 label，用于集中查看重点关注股票。",
+      "rationaleZh": "用户指定加入自选 label，用于集中查看重点关注股票。",
+      "rationaleEn": "User-specified watchlist label for focused tracking.",
+      "confidence": "high"
+    },
     {
       "theme": "太空产业链",
       "themeZh": "太空产业链",

@@ -1,0 +1,728 @@
+{
+  "schemaVersion": 1,
+  "id": "sndk",
+  "ticker": "SNDK",
+  "exchange": "NASDAQ",
+  "market": "US",
+  "name": "Sandisk / 闪迪",
+  "legalName": "Sandisk Corporation",
+  "cik": "0002023554",
+  "currency": "USD",
+  "sector": "Flash memory and SSDs / 闪存与 SSD",
+  "industry": [
+    "NAND flash",
+    "Enterprise SSD",
+    "Consumer storage",
+    "NAND 闪存",
+    "企业 SSD",
+    "消费存储"
+  ],
+  "homepage": "https://www.sandisk.com/",
+  "lastUpdated": "2026-07-01T20:31:38.807660Z",
+  "summary": "Sandisk 是 NAND 闪存和 SSD 公司，AI 数据中心企业 SSD 需求、NAND 价格周期和长期客户协议是核心变量。",
+  "summaryZh": "Sandisk 是 NAND 闪存和 SSD 公司，AI 数据中心企业 SSD 需求、NAND 价格周期和长期客户协议是核心变量。",
+  "summaryEn": "Sandisk is a NAND flash and SSD company; AI data-center enterprise SSD demand, NAND pricing cycles, and long-term customer agreements are the key variables.",
+  "aliases": [
+    "SanDisk",
+    "Sandisk",
+    "闪迪",
+    "SNDK"
+  ],
+  "labels": [
+    "自选",
+    "半导体",
+    "存储",
+    "NAND",
+    "SSD",
+    "AI基础设施",
+    "美股"
+  ],
+  "themeExposure": [
+    {
+      "theme": "自选组合",
+      "themeZh": "自选组合",
+      "themeEn": "Watchlist",
+      "score": 5,
+      "role": "核心自选标的",
+      "roleZh": "核心自选标的",
+      "roleEn": "Core watchlist name",
+      "rationale": "用户指定加入自选 label；同时连接 NAND、SSD、AI 数据中心存储和存储价格周期。",
+      "rationaleZh": "用户指定加入自选 label；同时连接 NAND、SSD、AI 数据中心存储和存储价格周期。",
+      "rationaleEn": "User-specified watchlist name spanning NAND, SSDs, AI data-center storage, and memory pricing cycles.",
+      "confidence": "high"
+    }
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "description": "Sandisk 设计、制造和销售 NAND 闪存、企业/客户端 SSD、移动存储、存储卡和相关闪存解决方案。公司由 Western Digital 闪存业务分拆后重新独立上市。",
+    "revenueModel": [
+      "企业 SSD/数据中心存储",
+      "客户端 SSD/消费存储",
+      "移动和可移动闪存",
+      "NAND 闪存相关产品"
+    ],
+    "segments": [],
+    "thesis": "Sandisk 的核心弹性来自 NAND 周期上行、AI 数据中心 eSSD 需求、长期供货协议和闪存价格；关键风险是 NAND 价格周期、客户库存和资本开支纪律。",
+    "riskNotes": [
+      "如果 NAND/SSD 价格回落，收入和利润弹性可能迅速下降。",
+      "企业 SSD 需求若不能持续转化为订单，AI 主题相关性需要下调。",
+      "分拆后资本结构、客户协议和独立运营成本仍需跟踪。"
+    ],
+    "failureConditions": [
+      {
+        "condition": "NAND 价格、企业 SSD 订单或毛利率连续走弱。",
+        "conditionZh": "NAND 价格、企业 SSD 订单或毛利率连续走弱。",
+        "conditionEn": "The thesis should be reassessed if this signal appears in filings, guidance, customer disclosures, pricing, or operating metrics.",
+        "monitor": "跟踪季度收入、毛利、经营利润、客户协议和库存变化。",
+        "monitorZh": "跟踪季度收入、毛利、经营利润、客户协议和库存变化。",
+        "monitorEn": "Monitor filings, earnings releases, customer disclosures, pricing, margins, cash flow, and capacity plans.",
+        "sourceIds": [
+          "sndk-q3-2026",
+          "sndk-10k-2025"
+        ]
+      },
+      {
+        "condition": "长期供货协议没有转化为更稳定现金流或利润。",
+        "conditionZh": "长期供货协议没有转化为更稳定现金流或利润。",
+        "conditionEn": "The thesis should be reassessed if this signal appears in filings, guidance, customer disclosures, pricing, or operating metrics.",
+        "monitor": "跟踪 10-Q、8-K、经营现金流和客户集中度披露。",
+        "monitorZh": "跟踪 10-Q、8-K、经营现金流和客户集中度披露。",
+        "monitorEn": "Monitor filings, earnings releases, customer disclosures, pricing, margins, cash flow, and capacity plans.",
+        "sourceIds": [
+          "sndk-q3-2026",
+          "sndk-10k-2025"
+        ]
+      }
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-07-01T20:31:38.807660Z",
+    "thesis": "Sandisk 处于 NAND/SSD 存储产业链中游，上游依赖 NAND 晶圆制造、设备、材料和控制器生态，下游连接 AI 数据中心、PC、手机、消费电子和渠道客户。",
+    "thesisZh": "Sandisk 处于 NAND/SSD 存储产业链中游，上游依赖 NAND 晶圆制造、设备、材料和控制器生态，下游连接 AI 数据中心、PC、手机、消费电子和渠道客户。",
+    "thesisEn": "Sandisk sits in the NAND/SSD storage middle layer, relying upstream on NAND wafer manufacturing, equipment, materials, and controller ecosystems while serving AI data centers, PCs, mobile devices, consumer electronics, and channels.",
+    "scarceLayers": [
+      {
+        "name": "企业 SSD 与 NAND 价格周期",
+        "nameZh": "企业 SSD 与 NAND 价格周期",
+        "nameEn": "企业 SSD 与 NAND 价格周期",
+        "rank": 1,
+        "constraintType": "customer-demand",
+        "constraintTypeZh": "客户需求",
+        "constraintTypeEn": "Customer demand",
+        "whyScarce": "AI 数据中心提升 eSSD 需求，NAND 价格和客户长期协议决定业绩弹性。",
+        "whyScarceZh": "AI 数据中心提升 eSSD 需求，NAND 价格和客户长期协议决定业绩弹性。",
+        "whyScarceEn": "AI 数据中心提升 eSSD 需求，NAND 价格和客户长期协议决定业绩弹性。",
+        "relatedCompanies": [
+          "Sandisk",
+          "Micron",
+          "Western Digital"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "high",
+        "sourceIds": [
+          "sndk-q3-2026",
+          "sndk-10k-2025"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果替代供应、扩产或客户采用速度明显快于预期，该卡点的重要性需要下调。",
+            "conditionZh": "如果替代供应、扩产或客户采用速度明显快于预期，该卡点的重要性需要下调。",
+            "conditionEn": "The thesis should be reassessed if this signal appears in filings, guidance, customer disclosures, pricing, or operating metrics.",
+            "monitor": "跟踪公告、产能计划、客户认证、价格和毛利率变化。",
+            "monitorZh": "跟踪公告、产能计划、客户认证、价格和毛利率变化。",
+            "monitorEn": "Monitor filings, earnings releases, customer disclosures, pricing, margins, cash flow, and capacity plans.",
+            "sourceIds": [
+              "sndk-q3-2026",
+              "sndk-10k-2025"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NAND 制造、设备和材料",
+        "nameZh": "NAND 制造、设备和材料",
+        "nameEn": "NAND 制造、设备和材料",
+        "rank": 2,
+        "constraintType": "capacity",
+        "constraintTypeZh": "产能",
+        "constraintTypeEn": "Capacity",
+        "whyScarce": "NAND 晶圆、设备、化学品和控制器供应影响成本、良率和交付。",
+        "whyScarceZh": "NAND 晶圆、设备、化学品和控制器供应影响成本、良率和交付。",
+        "whyScarceEn": "NAND 晶圆、设备、化学品和控制器供应影响成本、良率和交付。",
+        "relatedCompanies": [
+          "Sandisk",
+          "Kioxia ecosystem",
+          "equipment suppliers"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "high",
+        "sourceIds": [
+          "sndk-q3-2026",
+          "sndk-10k-2025"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果替代供应、扩产或客户采用速度明显快于预期，该卡点的重要性需要下调。",
+            "conditionZh": "如果替代供应、扩产或客户采用速度明显快于预期，该卡点的重要性需要下调。",
+            "conditionEn": "The thesis should be reassessed if this signal appears in filings, guidance, customer disclosures, pricing, or operating metrics.",
+            "monitor": "跟踪公告、产能计划、客户认证、价格和毛利率变化。",
+            "monitorZh": "跟踪公告、产能计划、客户认证、价格和毛利率变化。",
+            "monitorEn": "Monitor filings, earnings releases, customer disclosures, pricing, margins, cash flow, and capacity plans.",
+            "sourceIds": [
+              "sndk-q3-2026",
+              "sndk-10k-2025"
+            ]
+          }
+        ]
+      }
+    ],
+    "tiers": [
+      {
+        "level": 0,
+        "title": "NAND 闪存与 SSD 产品平台",
+        "titleZh": "NAND 闪存与 SSD 产品平台",
+        "titleEn": "NAND 闪存与 SSD 产品平台",
+        "companies": [
+          "Sandisk"
+        ],
+        "entities": [
+          {
+            "name": "Sandisk",
+            "nameZh": "闪迪",
+            "nameEn": "Sandisk",
+            "relationship": "目标公司本体；提供 NAND 闪存、SSD、移动和消费存储产品。",
+            "relationshipZh": "目标公司本体；提供 NAND 闪存、SSD、移动和消费存储产品。",
+            "relationshipEn": "目标公司本体；提供 NAND 闪存、SSD、移动和消费存储产品。",
+            "productsServices": [
+              "NAND flash",
+              "enterprise SSDs",
+              "consumer storage"
+            ],
+            "productsServicesZh": [
+              "NAND flash",
+              "enterprise SSDs",
+              "consumer storage"
+            ],
+            "productsServicesEn": [
+              "NAND flash",
+              "enterprise SSDs",
+              "consumer storage"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "SNDK",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/sndk"
+            },
+            "confidence": "high",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "target",
+              "rationale": "目标公司本体；提供 NAND 闪存、SSD、移动和消费存储产品。",
+              "rationaleZh": "目标公司本体；提供 NAND 闪存、SSD、移动和消费存储产品。",
+              "rationaleEn": "目标公司本体；提供 NAND 闪存、SSD、移动和消费存储产品。",
+              "confidence": "high"
+            },
+            "sourceIds": [
+              "sndk-q3-2026",
+              "sndk-10k-2025"
+            ]
+          }
+        ],
+        "geography": [
+          "United States",
+          "Global"
+        ],
+        "materials": [
+          "NAND flash",
+          "SSD controllers",
+          "firmware"
+        ],
+        "materialsZh": [
+          "NAND flash",
+          "SSD controllers",
+          "firmware"
+        ],
+        "materialsEn": [
+          "NAND flash",
+          "SSD controllers",
+          "firmware"
+        ],
+        "notes": "Sandisk 提供企业 SSD、客户端 SSD、移动和消费闪存产品，受 NAND 周期和 AI 数据中心需求影响。",
+        "notesZh": "Sandisk 提供企业 SSD、客户端 SSD、移动和消费闪存产品，受 NAND 周期和 AI 数据中心需求影响。",
+        "notesEn": "Sandisk 提供企业 SSD、客户端 SSD、移动和消费闪存产品，受 NAND 周期和 AI 数据中心需求影响。",
+        "confidence": "high",
+        "sourceIds": [
+          "sndk-q3-2026",
+          "sndk-10k-2025"
+        ]
+      },
+      {
+        "level": 1,
+        "title": "NAND 制造、控制器和材料",
+        "titleZh": "NAND 制造、控制器和材料",
+        "titleEn": "NAND 制造、控制器和材料",
+        "companies": [
+          "NAND manufacturing and controller ecosystem"
+        ],
+        "entities": [
+          {
+            "name": "NAND manufacturing and controller ecosystem",
+            "nameZh": "NAND 制造与控制器生态",
+            "nameEn": "NAND manufacturing and controller ecosystem",
+            "relationship": "提供 NAND 晶圆、控制器、固件和制造/测试能力。",
+            "relationshipZh": "提供 NAND 晶圆、控制器、固件和制造/测试能力。",
+            "relationshipEn": "提供 NAND 晶圆、控制器、固件和制造/测试能力。",
+            "productsServices": [
+              "NAND wafers",
+              "controllers",
+              "test and packaging"
+            ],
+            "productsServicesZh": [
+              "NAND wafers",
+              "controllers",
+              "test and packaging"
+            ],
+            "productsServicesEn": [
+              "NAND wafers",
+              "controllers",
+              "test and packaging"
+            ],
+            "listing": {
+              "status": "unknown"
+            },
+            "confidence": "high",
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "upstream-manufacturing",
+              "rationale": "提供 NAND 晶圆、控制器、固件和制造/测试能力。",
+              "rationaleZh": "提供 NAND 晶圆、控制器、固件和制造/测试能力。",
+              "rationaleEn": "提供 NAND 晶圆、控制器、固件和制造/测试能力。",
+              "confidence": "high"
+            },
+            "sourceIds": [
+              "sndk-q3-2026",
+              "sndk-10k-2025"
+            ]
+          }
+        ],
+        "geography": [
+          "United States",
+          "Global"
+        ],
+        "materials": [
+          "硅晶圆",
+          "高纯化学品",
+          "光刻/刻蚀材料"
+        ],
+        "materialsZh": [
+          "硅晶圆",
+          "高纯化学品",
+          "光刻/刻蚀材料"
+        ],
+        "materialsEn": [
+          "硅晶圆",
+          "高纯化学品",
+          "光刻/刻蚀材料"
+        ],
+        "notes": "上游依赖 NAND 晶圆制造、控制器、设备和高纯材料；价格周期和良率决定利润弹性。",
+        "notesZh": "上游依赖 NAND 晶圆制造、控制器、设备和高纯材料；价格周期和良率决定利润弹性。",
+        "notesEn": "上游依赖 NAND 晶圆制造、控制器、设备和高纯材料；价格周期和良率决定利润弹性。",
+        "confidence": "high",
+        "sourceIds": [
+          "sndk-q3-2026",
+          "sndk-10k-2025"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "硅晶圆/高纯化学品",
+        "nameZh": "硅晶圆/高纯化学品",
+        "nameEn": "硅晶圆/高纯化学品",
+        "usedIn": "NAND 闪存制造",
+        "usedInZh": "NAND 闪存制造",
+        "usedInEn": "NAND 闪存制造",
+        "upstream": [
+          "矿产/化工/晶圆材料",
+          "设备与制造产能"
+        ],
+        "upstreamZh": [
+          "矿产/化工/晶圆材料",
+          "设备与制造产能"
+        ],
+        "upstreamEn": [
+          "Minerals, chemicals, and wafer materials",
+          "Equipment and manufacturing capacity"
+        ],
+        "risk": "材料供应、价格和良率会影响 NAND 成本。",
+        "riskZh": "材料供应、价格和良率会影响 NAND 成本。",
+        "riskEn": "材料供应、价格和良率会影响 NAND 成本。",
+        "confidence": "medium"
+      },
+      {
+        "name": "控制器/封装材料",
+        "nameZh": "控制器/封装材料",
+        "nameEn": "控制器/封装材料",
+        "usedIn": "SSD 产品",
+        "usedInZh": "SSD 产品",
+        "usedInEn": "SSD 产品",
+        "upstream": [
+          "矿产/化工/晶圆材料",
+          "设备与制造产能"
+        ],
+        "upstreamZh": [
+          "矿产/化工/晶圆材料",
+          "设备与制造产能"
+        ],
+        "upstreamEn": [
+          "Minerals, chemicals, and wafer materials",
+          "Equipment and manufacturing capacity"
+        ],
+        "risk": "控制器供给和封装测试产能影响企业 SSD 交付。",
+        "riskZh": "控制器供给和封装测试产能影响企业 SSD 交付。",
+        "riskEn": "控制器供给和封装测试产能影响企业 SSD 交付。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "financials": {
+    "latestPeriod": "Q3 FY2026 / FY2025 baseline",
+    "latestPeriodZh": "2026 财年第三财季；年度基准为 FY2025",
+    "latestPeriodEn": "Q3 FY2026; annual baseline FY2025",
+    "highlights": [
+      {
+        "label": "Q3 FY2026 收入",
+        "labelZh": "Q3 FY2026 收入",
+        "labelEn": "Q3 FY2026 收入",
+        "value": 5.95,
+        "unit": "USD billions",
+        "period": "Q3 FY2026",
+        "periodZh": "Q3 FY2026",
+        "periodEn": "Q3 FY2026",
+        "sourceIds": [
+          "sndk-q3-2026"
+        ],
+        "change": "YoY +251.0%",
+        "changeZh": "YoY +251.0%",
+        "changeEn": "YoY +251.0%"
+      },
+      {
+        "label": "Q3 FY2026 净利润",
+        "labelZh": "Q3 FY2026 净利润",
+        "labelEn": "Q3 FY2026 净利润",
+        "value": 3.615,
+        "unit": "USD billions",
+        "period": "Q3 FY2026",
+        "periodZh": "Q3 FY2026",
+        "periodEn": "Q3 FY2026",
+        "sourceIds": [
+          "sndk-q3-2026"
+        ]
+      },
+      {
+        "label": "Q3 FY2026 经营利润",
+        "labelZh": "Q3 FY2026 经营利润",
+        "labelEn": "Q3 FY2026 经营利润",
+        "value": 4.111,
+        "unit": "USD billions",
+        "period": "Q3 FY2026",
+        "periodZh": "Q3 FY2026",
+        "periodEn": "Q3 FY2026",
+        "sourceIds": [
+          "sndk-q3-2026"
+        ]
+      },
+      {
+        "label": "期末总资产",
+        "labelZh": "期末总资产",
+        "labelEn": "期末总资产",
+        "value": 17.075,
+        "unit": "USD billions",
+        "period": "2026-04-03",
+        "periodZh": "2026-04-03",
+        "periodEn": "2026-04-03",
+        "sourceIds": [
+          "sndk-q3-2026"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "id": "sndk-quarterly-revenue",
+        "label": "季度收入",
+        "labelZh": "季度收入",
+        "labelEn": "季度收入",
+        "unit": "USD billions",
+        "cadence": "quarterly",
+        "note": "使用 SEC companyfacts 中带 frame 的可核对数据。",
+        "noteZh": "使用 SEC companyfacts 中带 frame 的可核对数据。",
+        "noteEn": "使用 SEC companyfacts 中带 frame 的可核对数据。",
+        "sourceIds": [
+          "sndk-q3-2026"
+        ],
+        "points": [
+          {
+            "period": "Q1 FY2026",
+            "periodZh": "Q1 FY2026",
+            "periodEn": "Q1 FY2026",
+            "value": 2.308,
+            "sourceIds": [
+              "sndk-q3-2026"
+            ]
+          },
+          {
+            "period": "Q2 FY2026",
+            "periodZh": "Q2 FY2026",
+            "periodEn": "Q2 FY2026",
+            "value": 3.025,
+            "sourceIds": [
+              "sndk-q3-2026"
+            ]
+          },
+          {
+            "period": "Q3 FY2026",
+            "periodZh": "Q3 FY2026",
+            "periodEn": "Q3 FY2026",
+            "value": 5.95,
+            "sourceIds": [
+              "sndk-q3-2026"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sndk-annual-revenue",
+        "label": "年度收入",
+        "labelZh": "年度收入",
+        "labelEn": "年度收入",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "使用 SEC companyfacts 中带 frame 的可核对数据。",
+        "noteZh": "使用 SEC companyfacts 中带 frame 的可核对数据。",
+        "noteEn": "使用 SEC companyfacts 中带 frame 的可核对数据。",
+        "sourceIds": [
+          "sndk-10k-2025"
+        ],
+        "points": [
+          {
+            "period": "FY2024",
+            "periodZh": "FY2024",
+            "periodEn": "FY2024",
+            "value": 6.663,
+            "sourceIds": [
+              "sndk-10k-2025"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "FY2025",
+            "periodEn": "FY2025",
+            "value": 7.355,
+            "sourceIds": [
+              "sndk-10k-2025"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "企业 SSD / 数据中心存储",
+        "nameZh": "企业 SSD / 数据中心存储",
+        "nameEn": "企业 SSD / 数据中心存储",
+        "note": "AI 数据中心和企业存储是价格和需求弹性的关键观察点。",
+        "noteZh": "AI 数据中心和企业存储是价格和需求弹性的关键观察点。",
+        "noteEn": "AI 数据中心和企业存储是价格和需求弹性的关键观察点。",
+        "sourceIds": [
+          "sndk-q3-2026",
+          "sndk-10k-2025"
+        ]
+      },
+      {
+        "name": "客户端/消费闪存",
+        "nameZh": "客户端/消费闪存",
+        "nameEn": "客户端/消费闪存",
+        "note": "PC、移动、存储卡和渠道产品受终端周期和价格影响。",
+        "noteZh": "PC、移动、存储卡和渠道产品受终端周期和价格影响。",
+        "noteEn": "PC、移动、存储卡和渠道产品受终端周期和价格影响。",
+        "sourceIds": [
+          "sndk-q3-2026",
+          "sndk-10k-2025"
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-05-01",
+      "title": "Sandisk filed Q3 FY2026 Form 10-Q",
+      "titleZh": "Sandisk 提交 2026 财年第三财季 10-Q",
+      "titleEn": "Sandisk filed Q3 FY2026 Form 10-Q",
+      "category": "Filing",
+      "categoryZh": "公告",
+      "categoryEn": "Filing",
+      "summary": "Q3 FY2026 收入 59.50 亿美元，净利润 36.15 亿美元，经营利润 41.11 亿美元。",
+      "summaryZh": "Q3 FY2026 收入 59.50 亿美元，净利润 36.15 亿美元，经营利润 41.11 亿美元。",
+      "summaryEn": "Q3 FY2026 revenue was $5.950B, net income was $3.615B, and operating income was $4.111B.",
+      "impact": "NAND/SSD 价格和企业 SSD 需求是后续核心跟踪变量。",
+      "impactZh": "NAND/SSD 价格和企业 SSD 需求是后续核心跟踪变量。",
+      "impactEn": "NAND/SSD pricing and enterprise SSD demand are the key follow-up variables.",
+      "sourceIds": [
+        "sndk-q3-2026"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-15",
+      "reportDate": "2026-05-14",
+      "title": "8-K filed 2026-05-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000119312526224694/d157363d8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-05-01",
+      "reportDate": "2026-04-03",
+      "title": "10-Q filed 2026-05-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026029401/sndk-20260403.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-30",
+      "reportDate": "2026-04-30",
+      "title": "8-K filed 2026-04-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026028879/sndk-20260430.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-25",
+      "reportDate": "2026-03-25",
+      "title": "8-K filed 2026-03-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000119312526122705/d136592d8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-01-30",
+      "reportDate": "2026-01-02",
+      "title": "10-Q filed 2026-01-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026004407/sndk-20260102.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-01-29",
+      "reportDate": "2026-01-29",
+      "title": "8-K filed 2026-01-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026004121/sndk-20260129.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-01-02",
+      "reportDate": "2025-12-30",
+      "title": "8-K filed 2026-01-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026000127/sndk-20251230.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-11-20",
+      "reportDate": "2025-11-18",
+      "title": "8-K filed 2025-11-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000119312525289885/d97202d8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2025-11-07",
+      "reportDate": "2025-10-03",
+      "title": "10-Q filed 2025-11-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828025050698/sndk-20251003.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-11-06",
+      "reportDate": "2025-11-06",
+      "title": "8-K filed 2025-11-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828025050180/sndk-20251106.htm"
+    },
+    {
+      "form": "10-K",
+      "filedAt": "2025-08-21",
+      "reportDate": "2025-06-27",
+      "title": "10-K filed 2025-08-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000202355425000034/sndk-20250627.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-08-14",
+      "reportDate": "2025-08-14",
+      "title": "8-K filed 2025-08-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000119312525180782/d926236d8k.htm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "sndk-q3-2026",
+      "title": "Sandisk Form 10-Q for quarter ended April 3, 2026",
+      "titleZh": "Sandisk Form 10-Q for quarter ended April 3, 2026",
+      "titleEn": "Sandisk Form 10-Q for quarter ended April 3, 2026",
+      "publisher": "SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026029401/sndk-20260403.htm",
+      "publishedAt": "2026-05-01",
+      "accessedAt": "2026-07-01",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "sndk-10k-2025",
+      "title": "Sandisk Form 10-K for fiscal year 2025",
+      "titleZh": "Sandisk Form 10-K for fiscal year 2025",
+      "titleEn": "Sandisk Form 10-K for fiscal year 2025",
+      "publisher": "SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/2023554/000202355425000034/sndk-20250627.htm",
+      "publishedAt": "2025-08-21",
+      "accessedAt": "2026-07-01",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "sndk-home",
+      "title": "Sandisk company website",
+      "titleZh": "Sandisk company website",
+      "titleEn": "Sandisk company website",
+      "publisher": "Sandisk",
+      "url": "https://www.sandisk.com/",
+      "publishedAt": null,
+      "accessedAt": "2026-07-01",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0002023554",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K"
+      ]
+    }
+  }
+}

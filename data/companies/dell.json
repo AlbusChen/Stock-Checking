@@ -20,7 +20,7 @@
     "AI 基础设施"
   ],
   "homepage": "https://www.dell.com/",
-  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "lastUpdated": "2026-07-01T20:25:36.684126Z",
   "summary": "戴尔科技销售服务器、存储、PC 和服务，其 AI 服务器产品组合与 NVIDIA GPU/网络平台绑定度较高，是 NVIDIA 企业 AI 落地的重要 OEM 之一。 / Dell sells servers, storage, PCs, and services. Its AI server portfolio is closely tied to NVIDIA GPU and networking platforms, making Dell an important enterprise AI OEM.",
   "summaryZh": "戴尔科技销售服务器、存储、PC 和服务，其 AI 服务器产品组合与 NVIDIA GPU/网络平台绑定度较高，是 NVIDIA 企业 AI 落地的重要 OEM 之一。",
   "summaryEn": "Dell sells servers, storage, PCs, and services. Its AI server portfolio is closely tied to NVIDIA GPU and networking platforms, making Dell an important enterprise AI OEM.",
@@ -887,6 +887,27 @@
   "filings": [
     {
       "form": "8-K",
+      "filedAt": "2026-07-01",
+      "reportDate": "2026-06-25",
+      "title": "8-K filed 2026-07-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000036/dell-20260625.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-06-17",
+      "reportDate": "2026-06-11",
+      "title": "8-K filed 2026-06-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000032/dell-20260611.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-06-16",
+      "reportDate": "2026-06-16",
+      "title": "8-K filed 2026-06-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526272720/d20600d8k.htm"
+    },
+    {
+      "form": "8-K",
       "filedAt": "2026-06-12",
       "reportDate": "2026-06-11",
       "title": "8-K filed 2026-06-12",
@@ -926,6 +947,27 @@
       "reportDate": "2026-01-30",
       "title": "10-K filed 2026-03-16",
       "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-26",
+      "reportDate": "2026-02-26",
+      "title": "8-K filed 2026-02-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000003/dell-20260226.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2025-12-09",
+      "reportDate": "2025-10-31",
+      "title": "10-Q filed 2025-12-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000127/dell-20251031.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-11-25",
+      "reportDate": "2025-11-25",
+      "title": "8-K filed 2025-11-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199625000118/dell-20251125.htm"
     }
   ],
   "sources": [

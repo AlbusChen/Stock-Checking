@@ -18,7 +18,7 @@
     "量测"
   ],
   "homepage": "https://www.kla.com/",
-  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "lastUpdated": "2026-07-01T20:25:39.013389Z",
   "summary": "KLA 提供检测、量测和制程控制设备，帮助先进晶圆厂提升良率；NVIDIA AI 芯片需求通过先进制程良率和扩产需求间接传导。 / KLA provides inspection, metrology, and process-control tools that help advanced fabs improve yield, giving it indirect exposure to NVIDIA AI chip manufacturing demand.",
   "summaryZh": "KLA 提供检测、量测和制程控制设备，帮助先进晶圆厂提升良率；NVIDIA AI 芯片需求通过先进制程良率和扩产需求间接传导。",
   "summaryEn": "KLA provides inspection, metrology, and process-control tools that help advanced fabs improve yield, giving it indirect exposure to NVIDIA AI chip manufacturing demand.",
@@ -868,6 +868,48 @@
       "reportDate": "2026-02-05",
       "title": "8-K filed 2026-02-05",
       "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312526039637/d80148d8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-01-30",
+      "reportDate": "2025-12-31",
+      "title": "10-Q filed 2026-01-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000008/klac-20251231.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-01-29",
+      "reportDate": "2026-01-29",
+      "title": "8-K filed 2026-01-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000006/klac-20260129.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-11-07",
+      "reportDate": "2025-11-05",
+      "title": "8-K filed 2025-11-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312525272448/d30340d8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2025-10-31",
+      "reportDate": "2025-09-30",
+      "title": "10-Q filed 2025-10-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920125000034/klac-20250930.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-10-29",
+      "reportDate": "2025-10-29",
+      "title": "8-K filed 2025-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920125000031/klac-20251029.htm"
+    },
+    {
+      "form": "10-K",
+      "filedAt": "2025-08-08",
+      "reportDate": "2025-06-30",
+      "title": "10-K filed 2025-08-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920125000024/klac-20250630.htm"
     }
   ],
   "sources": [

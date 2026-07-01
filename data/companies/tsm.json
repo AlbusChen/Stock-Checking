@@ -18,7 +18,7 @@
     "先进封装"
   ],
   "homepage": "https://www.tsmc.com/english",
-  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "lastUpdated": "2026-07-01T20:25:42.544814Z",
   "summary": "台积电是全球领先的纯晶圆代工厂，处于 NVIDIA AI GPU/加速器制造链的核心上游，关键变量包括先进制程、CoWoS/先进封装产能和高端客户资本开支。 / TSMC is a leading pure-play foundry and a core upstream manufacturing node for NVIDIA AI GPUs and accelerators, with advanced nodes, CoWoS packaging capacity, and high-end customer capex as key variables.",
   "summaryZh": "台积电是全球领先的纯晶圆代工厂，处于 NVIDIA AI GPU/加速器制造链的核心上游，关键变量包括先进制程、CoWoS/先进封装产能和高端客户资本开支。",
   "summaryEn": "TSMC is a leading pure-play foundry and a core upstream manufacturing node for NVIDIA AI GPUs and accelerators, with advanced nodes, CoWoS packaging capacity, and high-end customer capex as key variables.",
@@ -780,6 +780,13 @@
   "filings": [
     {
       "form": "6-K",
+      "filedAt": "2026-06-25",
+      "reportDate": "2026-05-31",
+      "title": "6-K filed 2026-06-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000377/tsm-monthend6kx20260625.htm"
+    },
+    {
+      "form": "6-K",
       "filedAt": "2026-06-10",
       "reportDate": "2026-05-31",
       "title": "6-K filed 2026-06-10",
@@ -819,6 +826,41 @@
       "reportDate": "2026-03-31",
       "title": "6-K filed 2026-05-15",
       "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000278/tsm-fsx20260515x6k.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-05-12",
+      "reportDate": "2026-05-12",
+      "title": "6-K filed 2026-05-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000275/a20260512boardofdirectorsr.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-05-12",
+      "reportDate": "2026-05-12",
+      "title": "6-K filed 2026-05-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000274/tsm-boardx20260512.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-05-08",
+      "reportDate": "2026-05-08",
+      "title": "6-K filed 2026-05-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000215/sonysemiconductorsolutions.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-05-08",
+      "reportDate": "2026-04-30",
+      "title": "6-K filed 2026-05-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000213/tsm-revenue20260508.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-04-24",
+      "reportDate": "2026-03-31",
+      "title": "6-K filed 2026-04-24",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000205/tsm-monthend6kx20260424.htm"
     }
   ],
   "sources": [

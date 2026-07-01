@@ -18,7 +18,7 @@
     "数据中心"
   ],
   "homepage": "https://www.coreweave.com/",
-  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "lastUpdated": "2026-07-01T20:25:36.329650Z",
   "summary": "CoreWeave 是专注 GPU 云的上市公司，业务与 NVIDIA GPU 供给、数据中心融资和 AI 客户需求高度相关；公司仍处于高增长与高资本开支阶段。 / CoreWeave is a public GPU-cloud company with high exposure to NVIDIA GPU supply, data-center financing, and AI customer demand, while still in a high-growth, high-capex phase.",
   "summaryZh": "CoreWeave 是专注 GPU 云的上市公司，业务与 NVIDIA GPU 供给、数据中心融资和 AI 客户需求高度相关；公司仍处于高增长与高资本开支阶段。",
   "summaryEn": "CoreWeave is a public GPU-cloud company with high exposure to NVIDIA GPU supply, data-center financing, and AI customer demand, while still in a high-growth, high-capex phase.",
@@ -824,6 +824,13 @@
   "filings": [
     {
       "form": "8-K",
+      "filedAt": "2026-06-18",
+      "reportDate": "2026-06-18",
+      "title": "8-K filed 2026-06-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000291/crwv-20260618.htm"
+    },
+    {
+      "form": "8-K",
       "filedAt": "2026-06-11",
       "reportDate": "2026-06-11",
       "title": "8-K filed 2026-06-11",
@@ -863,6 +870,41 @@
       "reportDate": "2026-04-16",
       "title": "8-K filed 2026-04-21",
       "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000183/crwv-20260416.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-15",
+      "reportDate": "2026-04-15",
+      "title": "8-K filed 2026-04-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000167/crwv-20260415.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-14",
+      "reportDate": "2026-04-09",
+      "title": "8-K filed 2026-04-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000164/crwv-20260409.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-09",
+      "reportDate": "2026-04-09",
+      "title": "8-K filed 2026-04-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000119312526148912/d136714d8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-09",
+      "reportDate": "2026-03-31",
+      "title": "8-K filed 2026-04-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000154/crwv-20260331.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-31",
+      "reportDate": "2026-03-30",
+      "title": "8-K filed 2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/crwv-20260330.htm"
     }
   ],
   "sources": [

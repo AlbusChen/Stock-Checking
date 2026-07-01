@@ -20,7 +20,7 @@
     "AI"
   ],
   "homepage": "https://abc.xyz/",
-  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "lastUpdated": "2026-07-01T20:25:37.050766Z",
   "summary": "Alphabet 通过 Google Cloud 和内部 AI 工作负载使用 GPU 与自研 TPU，既是 NVIDIA 数据中心生态客户，也是不完全依赖 NVIDIA 的 AI 平台公司。 / Alphabet uses GPUs and in-house TPUs through Google Cloud and internal AI workloads, making it both an NVIDIA data-center ecosystem customer and an AI platform company with partial in-house alternatives.",
   "summaryZh": "Alphabet 通过 Google Cloud 和内部 AI 工作负载使用 GPU 与自研 TPU，既是 NVIDIA 数据中心生态客户，也是不完全依赖 NVIDIA 的 AI 平台公司。",
   "summaryEn": "Alphabet uses GPUs and in-house TPUs through Google Cloud and internal AI workloads, making it both an NVIDIA data-center ecosystem customer and an AI platform company with partial in-house alternatives.",
@@ -874,6 +874,48 @@
       "reportDate": "2026-05-11",
       "title": "8-K filed 2026-05-11",
       "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526216986/d109021d8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-04-30",
+      "reportDate": "2026-03-31",
+      "title": "10-Q filed 2026-04-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000048/goog-20260331.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-29",
+      "reportDate": "2026-04-29",
+      "title": "8-K filed 2026-04-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000043/goog-20260429.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-10",
+      "reportDate": "2026-04-07",
+      "title": "8-K filed 2026-04-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000034/goog-20260407.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-02",
+      "reportDate": "2026-03-30",
+      "title": "8-K filed 2026-04-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000031/goog-20260330.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-06",
+      "reportDate": "2026-03-04",
+      "title": "8-K filed 2026-03-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000026/goog-20260304.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-13",
+      "reportDate": "2026-02-13",
+      "title": "8-K filed 2026-02-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526051423/d946885d8k.htm"
     }
   ],
   "sources": [

@@ -7,6 +7,7 @@ import json
 import os
 import sys
 import urllib.request
+import gzip
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -25,7 +26,10 @@ def sec_json(cik: str) -> dict:
         headers={"User-Agent": USER_AGENT, "Accept-Encoding": "gzip, deflate"},
     )
     with urllib.request.urlopen(request, timeout=30) as response:
-        return json.loads(response.read().decode("utf-8"))
+        raw = response.read()
+        if response.headers.get("Content-Encoding", "").lower() == "gzip" or raw.startswith(b"\x1f\x8b"):
+            raw = gzip.decompress(raw)
+        return json.loads(raw.decode("utf-8"))
 
 
 def archive_url(cik: str, accession: str, primary_doc: str) -> str:

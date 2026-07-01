@@ -18,7 +18,7 @@
     "企业软件"
   ],
   "homepage": "https://www.oracle.com/",
-  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "lastUpdated": "2026-07-01T20:25:41.440832Z",
   "summary": "Oracle 通过 OCI 提供云基础设施、数据库和 AI 训练集群，GPU 云需求使其成为 NVIDIA 数据中心生态的重要下游客户之一。 / Oracle provides cloud infrastructure, databases, and AI training clusters through OCI, making GPU cloud demand an important NVIDIA ecosystem linkage.",
   "summaryZh": "Oracle 通过 OCI 提供云基础设施、数据库和 AI 训练集群，GPU 云需求使其成为 NVIDIA 数据中心生态的重要下游客户之一。",
   "summaryEn": "Oracle provides cloud infrastructure, databases, and AI training clusters through OCI, making GPU cloud demand an important NVIDIA ecosystem linkage.",
@@ -832,6 +832,13 @@
   ],
   "filings": [
     {
+      "form": "10-K",
+      "filedAt": "2026-06-22",
+      "reportDate": "2026-05-31",
+      "title": "10-K filed 2026-06-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm"
+    },
+    {
       "form": "8-K",
       "filedAt": "2026-06-10",
       "reportDate": "2026-06-10",
@@ -872,6 +879,41 @@
       "reportDate": "2026-02-02",
       "title": "8-K filed 2026-02-05",
       "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526039344/d63638d8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-04",
+      "reportDate": "2026-02-02",
+      "title": "8-K filed 2026-02-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526037840/d23732d8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-01-09",
+      "reportDate": "2026-01-05",
+      "title": "8-K filed 2026-01-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526009002/d34442d8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2025-12-11",
+      "reportDate": "2025-11-30",
+      "title": "10-Q filed 2025-12-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/orcl-20251130.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-12-10",
+      "reportDate": "2025-12-10",
+      "title": "8-K filed 2025-12-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525314207/orcl-20251210.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-11-21",
+      "reportDate": "2025-11-18",
+      "title": "8-K filed 2025-11-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525291441/d43173d8k.htm"
     }
   ],
   "sources": [

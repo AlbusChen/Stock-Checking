@@ -119,6 +119,9 @@ def update_report(path: Path) -> bool:
                         "publishedAt": item["date"],
                         "accessedAt": datetime.now(timezone.utc).date().isoformat(),
                         "type": feed.get("sourceType", "news"),
+                        "evidenceLevel": "strong" if feed.get("sourceType") in {"company", "exchange"} else "weak",
+                        "evidenceLevelZh": "强证据" if feed.get("sourceType") in {"company", "exchange"} else "弱证据",
+                        "evidenceLevelEn": "Strong" if feed.get("sourceType") in {"company", "exchange"} else "Weak",
                     }
                 )
                 source_ids.add(source_id)

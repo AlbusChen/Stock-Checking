@@ -1,0 +1,728 @@
+{
+  "schemaVersion": 1,
+  "id": "avgo",
+  "ticker": "AVGO",
+  "exchange": "NASDAQ",
+  "market": "US",
+  "name": "Broadcom / 博通",
+  "legalName": "Broadcom Inc.",
+  "cik": "0001730168",
+  "currency": "USD",
+  "sector": "Semiconductors and infrastructure software / 半导体与基础设施软件",
+  "industry": [
+    "Semiconductors",
+    "AI ASIC",
+    "Networking",
+    "Infrastructure software",
+    "半导体",
+    "AI ASIC",
+    "网络芯片",
+    "基础设施软件"
+  ],
+  "homepage": "https://www.broadcom.com/",
+  "lastUpdated": "2026-07-01T20:31:38.807660Z",
+  "summary": "Broadcom 是半导体与基础设施软件公司，AI 相关性集中在定制 AI ASIC、网络/互连芯片和 VMware 软件现金流。",
+  "summaryZh": "Broadcom 是半导体与基础设施软件公司，AI 相关性集中在定制 AI ASIC、网络/互连芯片和 VMware 软件现金流。",
+  "summaryEn": "Broadcom is a semiconductor and infrastructure software company with AI exposure centered on custom AI ASICs, networking/interconnect silicon, and VMware software cash flow.",
+  "aliases": [
+    "Broadcom",
+    "博通",
+    "AVGO"
+  ],
+  "labels": [
+    "自选",
+    "半导体",
+    "AI",
+    "网络芯片",
+    "基础设施软件",
+    "美股"
+  ],
+  "themeExposure": [
+    {
+      "theme": "自选组合",
+      "themeZh": "自选组合",
+      "themeEn": "Watchlist",
+      "score": 5,
+      "role": "核心自选标的",
+      "roleZh": "核心自选标的",
+      "roleEn": "Core watchlist name",
+      "rationale": "用户指定加入自选 label；同时连接 AI ASIC、网络芯片和基础设施软件主题。",
+      "rationaleZh": "用户指定加入自选 label；同时连接 AI ASIC、网络芯片和基础设施软件主题。",
+      "rationaleEn": "User-specified watchlist name spanning AI ASICs, networking silicon, and infrastructure software.",
+      "confidence": "high"
+    }
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "description": "Broadcom 设计、开发和供应半导体与基础设施软件产品，业务覆盖网络、宽带、无线、存储、工业、定制 AI 加速器和 VMware 基础设施软件。",
+    "revenueModel": [
+      "半导体解决方案",
+      "基础设施软件",
+      "定制 AI ASIC/网络芯片",
+      "存储与连接芯片"
+    ],
+    "segments": [],
+    "thesis": "Broadcom 的核心看点在定制 AI ASIC、以太网/光网络、数据中心互连和 VMware 软件现金流；与 NVIDIA 的关系更偏 AI 基础设施并行受益和部分替代/互补，而非直接供应链上下游。",
+    "riskNotes": [
+      "如果定制 AI ASIC 客户扩张慢于预期，AI 增长弹性会下降。",
+      "VMware 整合、客户续约和监管/竞争会影响软件现金流。",
+      "先进封装、代工和高端网络芯片产能可能影响交付。"
+    ],
+    "failureConditions": [
+      {
+        "condition": "AI 半导体订单、客户集中度或收入增速低于公司披露趋势。",
+        "conditionZh": "AI 半导体订单、客户集中度或收入增速低于公司披露趋势。",
+        "conditionEn": "The thesis should be reassessed if this signal appears in filings, guidance, customer disclosures, pricing, or operating metrics.",
+        "monitor": "跟踪 10-Q/8-K、管理层指引、AI 半导体收入和客户资本开支。",
+        "monitorZh": "跟踪 10-Q/8-K、管理层指引、AI 半导体收入和客户资本开支。",
+        "monitorEn": "Monitor filings, earnings releases, customer disclosures, pricing, margins, cash flow, and capacity plans.",
+        "sourceIds": [
+          "avgo-q2-2026",
+          "avgo-10k-2025"
+        ]
+      },
+      {
+        "condition": "VMware 整合导致续约、现金流或利润率弱于预期。",
+        "conditionZh": "VMware 整合导致续约、现金流或利润率弱于预期。",
+        "conditionEn": "The thesis should be reassessed if this signal appears in filings, guidance, customer disclosures, pricing, or operating metrics.",
+        "monitor": "跟踪基础设施软件收入、经营利润率、递延收入和现金流。",
+        "monitorZh": "跟踪基础设施软件收入、经营利润率、递延收入和现金流。",
+        "monitorEn": "Monitor filings, earnings releases, customer disclosures, pricing, margins, cash flow, and capacity plans.",
+        "sourceIds": [
+          "avgo-q2-2026",
+          "avgo-10k-2025"
+        ]
+      }
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-07-01T20:31:38.807660Z",
+    "thesis": "Broadcom 处于 AI 基础设施中游：上游依赖先进代工、封装、EDA/IP 和高速材料；下游连接 hyperscaler、网络设备和企业软件客户。",
+    "thesisZh": "Broadcom 处于 AI 基础设施中游：上游依赖先进代工、封装、EDA/IP 和高速材料；下游连接 hyperscaler、网络设备和企业软件客户。",
+    "thesisEn": "Broadcom sits in the AI infrastructure middle layer: upstream dependencies include leading-edge foundry, packaging, EDA/IP, and high-speed materials; downstream customers include hyperscalers, networking OEMs, and enterprise software users.",
+    "scarceLayers": [
+      {
+        "name": "定制 AI ASIC 与高速网络芯片",
+        "nameZh": "定制 AI ASIC 与高速网络芯片",
+        "nameEn": "定制 AI ASIC 与高速网络芯片",
+        "rank": 1,
+        "constraintType": "technology",
+        "constraintTypeZh": "技术",
+        "constraintTypeEn": "Technology",
+        "whyScarce": "AI 集群扩张提升定制加速器、交换芯片、SerDes 和光网络芯片的重要性。",
+        "whyScarceZh": "AI 集群扩张提升定制加速器、交换芯片、SerDes 和光网络芯片的重要性。",
+        "whyScarceEn": "AI 集群扩张提升定制加速器、交换芯片、SerDes 和光网络芯片的重要性。",
+        "relatedCompanies": [
+          "Broadcom",
+          "TSMC",
+          "hyperscalers"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "high",
+        "sourceIds": [
+          "avgo-q2-2026",
+          "avgo-10k-2025"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果替代供应、扩产或客户采用速度明显快于预期，该卡点的重要性需要下调。",
+            "conditionZh": "如果替代供应、扩产或客户采用速度明显快于预期，该卡点的重要性需要下调。",
+            "conditionEn": "The thesis should be reassessed if this signal appears in filings, guidance, customer disclosures, pricing, or operating metrics.",
+            "monitor": "跟踪公告、产能计划、客户认证、价格和毛利率变化。",
+            "monitorZh": "跟踪公告、产能计划、客户认证、价格和毛利率变化。",
+            "monitorEn": "Monitor filings, earnings releases, customer disclosures, pricing, margins, cash flow, and capacity plans.",
+            "sourceIds": [
+              "avgo-q2-2026",
+              "avgo-10k-2025"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "先进代工与封装产能",
+        "nameZh": "先进代工与封装产能",
+        "nameEn": "先进代工与封装产能",
+        "rank": 2,
+        "constraintType": "capacity",
+        "constraintTypeZh": "产能",
+        "constraintTypeEn": "Capacity",
+        "whyScarce": "定制 AI 芯片和高端网络芯片需要先进制程、封装、基板和测试产能。",
+        "whyScarceZh": "定制 AI 芯片和高端网络芯片需要先进制程、封装、基板和测试产能。",
+        "whyScarceEn": "定制 AI 芯片和高端网络芯片需要先进制程、封装、基板和测试产能。",
+        "relatedCompanies": [
+          "Broadcom",
+          "TSMC",
+          "Amkor"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "high",
+        "sourceIds": [
+          "avgo-q2-2026",
+          "avgo-10k-2025"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果替代供应、扩产或客户采用速度明显快于预期，该卡点的重要性需要下调。",
+            "conditionZh": "如果替代供应、扩产或客户采用速度明显快于预期，该卡点的重要性需要下调。",
+            "conditionEn": "The thesis should be reassessed if this signal appears in filings, guidance, customer disclosures, pricing, or operating metrics.",
+            "monitor": "跟踪公告、产能计划、客户认证、价格和毛利率变化。",
+            "monitorZh": "跟踪公告、产能计划、客户认证、价格和毛利率变化。",
+            "monitorEn": "Monitor filings, earnings releases, customer disclosures, pricing, margins, cash flow, and capacity plans.",
+            "sourceIds": [
+              "avgo-q2-2026",
+              "avgo-10k-2025"
+            ]
+          }
+        ]
+      }
+    ],
+    "tiers": [
+      {
+        "level": 0,
+        "title": "半导体与基础设施软件平台",
+        "titleZh": "半导体与基础设施软件平台",
+        "titleEn": "半导体与基础设施软件平台",
+        "companies": [
+          "Broadcom"
+        ],
+        "entities": [
+          {
+            "name": "Broadcom",
+            "nameZh": "博通",
+            "nameEn": "Broadcom",
+            "relationship": "目标公司本体；负责半导体解决方案、定制 AI ASIC、网络芯片和基础设施软件。",
+            "relationshipZh": "目标公司本体；负责半导体解决方案、定制 AI ASIC、网络芯片和基础设施软件。",
+            "relationshipEn": "目标公司本体；负责半导体解决方案、定制 AI ASIC、网络芯片和基础设施软件。",
+            "productsServices": [
+              "AI ASIC",
+              "Ethernet/networking chips",
+              "VMware infrastructure software"
+            ],
+            "productsServicesZh": [
+              "AI ASIC",
+              "Ethernet/networking chips",
+              "VMware infrastructure software"
+            ],
+            "productsServicesEn": [
+              "AI ASIC",
+              "Ethernet/networking chips",
+              "VMware infrastructure software"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "AVGO",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/avgo"
+            },
+            "confidence": "high",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "target",
+              "rationale": "目标公司本体；负责半导体解决方案、定制 AI ASIC、网络芯片和基础设施软件。",
+              "rationaleZh": "目标公司本体；负责半导体解决方案、定制 AI ASIC、网络芯片和基础设施软件。",
+              "rationaleEn": "目标公司本体；负责半导体解决方案、定制 AI ASIC、网络芯片和基础设施软件。",
+              "confidence": "high"
+            },
+            "sourceIds": [
+              "avgo-q2-2026",
+              "avgo-10k-2025"
+            ]
+          }
+        ],
+        "geography": [
+          "United States",
+          "Global"
+        ],
+        "materials": [
+          "ASIC IP",
+          "networking silicon",
+          "software subscriptions"
+        ],
+        "materialsZh": [
+          "ASIC IP",
+          "networking silicon",
+          "software subscriptions"
+        ],
+        "materialsEn": [
+          "ASIC IP",
+          "networking silicon",
+          "software subscriptions"
+        ],
+        "notes": "Broadcom 结合半导体产品和 VMware 基础设施软件，AI 相关性集中在定制 ASIC、网络和数据中心互连。",
+        "notesZh": "Broadcom 结合半导体产品和 VMware 基础设施软件，AI 相关性集中在定制 ASIC、网络和数据中心互连。",
+        "notesEn": "Broadcom 结合半导体产品和 VMware 基础设施软件，AI 相关性集中在定制 ASIC、网络和数据中心互连。",
+        "confidence": "high",
+        "sourceIds": [
+          "avgo-q2-2026",
+          "avgo-10k-2025"
+        ]
+      },
+      {
+        "level": 1,
+        "title": "代工、封装、基板和高速材料",
+        "titleZh": "代工、封装、基板和高速材料",
+        "titleEn": "代工、封装、基板和高速材料",
+        "companies": [
+          "Foundry and OSAT ecosystem"
+        ],
+        "entities": [
+          {
+            "name": "Foundry and OSAT ecosystem",
+            "nameZh": "代工与封测生态",
+            "nameEn": "Foundry and OSAT ecosystem",
+            "relationship": "为 Broadcom 高端半导体产品提供晶圆制造、封装和测试。",
+            "relationshipZh": "为 Broadcom 高端半导体产品提供晶圆制造、封装和测试。",
+            "relationshipEn": "为 Broadcom 高端半导体产品提供晶圆制造、封装和测试。",
+            "productsServices": [
+              "advanced wafers",
+              "packaging/test",
+              "substrates"
+            ],
+            "productsServicesZh": [
+              "advanced wafers",
+              "packaging/test",
+              "substrates"
+            ],
+            "productsServicesEn": [
+              "advanced wafers",
+              "packaging/test",
+              "substrates"
+            ],
+            "listing": {
+              "status": "unknown"
+            },
+            "confidence": "high",
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "upstream-manufacturing",
+              "rationale": "为 Broadcom 高端半导体产品提供晶圆制造、封装和测试。",
+              "rationaleZh": "为 Broadcom 高端半导体产品提供晶圆制造、封装和测试。",
+              "rationaleEn": "为 Broadcom 高端半导体产品提供晶圆制造、封装和测试。",
+              "confidence": "high"
+            },
+            "sourceIds": [
+              "avgo-q2-2026",
+              "avgo-10k-2025"
+            ]
+          }
+        ],
+        "geography": [
+          "United States",
+          "Global"
+        ],
+        "materials": [
+          "硅晶圆",
+          "ABF/有机基板",
+          "高速 PCB 材料"
+        ],
+        "materialsZh": [
+          "硅晶圆",
+          "ABF/有机基板",
+          "高速 PCB 材料"
+        ],
+        "materialsEn": [
+          "硅晶圆",
+          "ABF/有机基板",
+          "高速 PCB 材料"
+        ],
+        "notes": "Broadcom fabless 半导体业务依赖外部制造和封装生态，高端 AI/网络芯片对先进制程、封装和高速材料要求较高。",
+        "notesZh": "Broadcom fabless 半导体业务依赖外部制造和封装生态，高端 AI/网络芯片对先进制程、封装和高速材料要求较高。",
+        "notesEn": "Broadcom fabless 半导体业务依赖外部制造和封装生态，高端 AI/网络芯片对先进制程、封装和高速材料要求较高。",
+        "confidence": "high",
+        "sourceIds": [
+          "avgo-q2-2026",
+          "avgo-10k-2025"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "硅晶圆/光刻材料",
+        "nameZh": "硅晶圆/光刻材料",
+        "nameEn": "硅晶圆/光刻材料",
+        "usedIn": "先进逻辑和网络芯片制造",
+        "usedInZh": "先进逻辑和网络芯片制造",
+        "usedInEn": "先进逻辑和网络芯片制造",
+        "upstream": [
+          "矿产/化工/晶圆材料",
+          "设备与制造产能"
+        ],
+        "upstreamZh": [
+          "矿产/化工/晶圆材料",
+          "设备与制造产能"
+        ],
+        "upstreamEn": [
+          "Minerals, chemicals, and wafer materials",
+          "Equipment and manufacturing capacity"
+        ],
+        "risk": "先进制程供应和出口限制会影响产能。",
+        "riskZh": "先进制程供应和出口限制会影响产能。",
+        "riskEn": "先进制程供应和出口限制会影响产能。",
+        "confidence": "medium"
+      },
+      {
+        "name": "ABF/高速基板材料",
+        "nameZh": "ABF/高速基板材料",
+        "nameEn": "ABF/高速基板材料",
+        "usedIn": "AI ASIC 与高速网络封装",
+        "usedInZh": "AI ASIC 与高速网络封装",
+        "usedInEn": "AI ASIC 与高速网络封装",
+        "upstream": [
+          "矿产/化工/晶圆材料",
+          "设备与制造产能"
+        ],
+        "upstreamZh": [
+          "矿产/化工/晶圆材料",
+          "设备与制造产能"
+        ],
+        "upstreamEn": [
+          "Minerals, chemicals, and wafer materials",
+          "Equipment and manufacturing capacity"
+        ],
+        "risk": "高端基板交付周期和良率会影响出货。",
+        "riskZh": "高端基板交付周期和良率会影响出货。",
+        "riskEn": "高端基板交付周期和良率会影响出货。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "financials": {
+    "latestPeriod": "Q2 FY2026 / FY2025 baseline",
+    "latestPeriodZh": "2026 财年第二财季；年度基准为 FY2025",
+    "latestPeriodEn": "Q2 FY2026; annual baseline FY2025",
+    "highlights": [
+      {
+        "label": "Q2 FY2026 收入",
+        "labelZh": "Q2 FY2026 收入",
+        "labelEn": "Q2 FY2026 收入",
+        "value": 22.187,
+        "unit": "USD billions",
+        "period": "Q2 FY2026",
+        "periodZh": "Q2 FY2026",
+        "periodEn": "Q2 FY2026",
+        "sourceIds": [
+          "avgo-q2-2026"
+        ],
+        "change": "YoY +47.9%",
+        "changeZh": "YoY +47.9%",
+        "changeEn": "YoY +47.9%"
+      },
+      {
+        "label": "Q2 FY2026 利润",
+        "labelZh": "Q2 FY2026 利润",
+        "labelEn": "Q2 FY2026 利润",
+        "value": 9.31,
+        "unit": "USD billions",
+        "period": "Q2 FY2026",
+        "periodZh": "Q2 FY2026",
+        "periodEn": "Q2 FY2026",
+        "sourceIds": [
+          "avgo-q2-2026"
+        ]
+      },
+      {
+        "label": "Q2 FY2026 经营利润",
+        "labelZh": "Q2 FY2026 经营利润",
+        "labelEn": "Q2 FY2026 经营利润",
+        "value": 10.788,
+        "unit": "USD billions",
+        "period": "Q2 FY2026",
+        "periodZh": "Q2 FY2026",
+        "periodEn": "Q2 FY2026",
+        "sourceIds": [
+          "avgo-q2-2026"
+        ]
+      },
+      {
+        "label": "期末总资产",
+        "labelZh": "期末总资产",
+        "labelEn": "期末总资产",
+        "value": 179.158,
+        "unit": "USD billions",
+        "period": "2026-05-03",
+        "periodZh": "2026-05-03",
+        "periodEn": "2026-05-03",
+        "sourceIds": [
+          "avgo-q2-2026"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "id": "avgo-quarterly-revenue",
+        "label": "季度收入",
+        "labelZh": "季度收入",
+        "labelEn": "季度收入",
+        "unit": "USD billions",
+        "cadence": "quarterly",
+        "note": "使用 SEC companyfacts 中带 frame 的可核对数据。",
+        "noteZh": "使用 SEC companyfacts 中带 frame 的可核对数据。",
+        "noteEn": "使用 SEC companyfacts 中带 frame 的可核对数据。",
+        "sourceIds": [
+          "avgo-q2-2026"
+        ],
+        "points": [
+          {
+            "period": "Q1 FY2026",
+            "periodZh": "Q1 FY2026",
+            "periodEn": "Q1 FY2026",
+            "value": 19.311,
+            "sourceIds": [
+              "avgo-q2-2026"
+            ]
+          },
+          {
+            "period": "Q2 FY2026",
+            "periodZh": "Q2 FY2026",
+            "periodEn": "Q2 FY2026",
+            "value": 22.187,
+            "sourceIds": [
+              "avgo-q2-2026"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "avgo-annual-revenue",
+        "label": "年度收入",
+        "labelZh": "年度收入",
+        "labelEn": "年度收入",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "使用 SEC companyfacts 中带 frame 的可核对数据。",
+        "noteZh": "使用 SEC companyfacts 中带 frame 的可核对数据。",
+        "noteEn": "使用 SEC companyfacts 中带 frame 的可核对数据。",
+        "sourceIds": [
+          "avgo-10k-2025"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "FY2023",
+            "periodEn": "FY2023",
+            "value": 35.819,
+            "sourceIds": [
+              "avgo-10k-2025"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "FY2024",
+            "periodEn": "FY2024",
+            "value": 51.574,
+            "sourceIds": [
+              "avgo-10k-2025"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "FY2025",
+            "periodEn": "FY2025",
+            "value": 63.887,
+            "sourceIds": [
+              "avgo-10k-2025"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "半导体解决方案",
+        "nameZh": "半导体解决方案",
+        "nameEn": "半导体解决方案",
+        "note": "网络、宽带、无线、存储、工业和定制 AI 半导体。",
+        "noteZh": "网络、宽带、无线、存储、工业和定制 AI 半导体。",
+        "noteEn": "网络、宽带、无线、存储、工业和定制 AI 半导体。",
+        "sourceIds": [
+          "avgo-q2-2026",
+          "avgo-10k-2025"
+        ]
+      },
+      {
+        "name": "基础设施软件",
+        "nameZh": "基础设施软件",
+        "nameEn": "基础设施软件",
+        "note": "VMware 及基础设施软件订阅/许可/服务。",
+        "noteZh": "VMware 及基础设施软件订阅/许可/服务。",
+        "noteEn": "VMware 及基础设施软件订阅/许可/服务。",
+        "sourceIds": [
+          "avgo-q2-2026",
+          "avgo-10k-2025"
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-06-09",
+      "title": "Broadcom filed Q2 FY2026 Form 10-Q",
+      "titleZh": "Broadcom 提交 2026 财年第二财季 10-Q",
+      "titleEn": "Broadcom filed Q2 FY2026 Form 10-Q",
+      "category": "Filing",
+      "categoryZh": "公告",
+      "categoryEn": "Filing",
+      "summary": "Q2 FY2026 收入 221.87 亿美元，利润 93.10 亿美元，经营利润 107.88 亿美元。",
+      "summaryZh": "Q2 FY2026 收入 221.87 亿美元，利润 93.10 亿美元，经营利润 107.88 亿美元。",
+      "summaryEn": "Q2 FY2026 revenue was $22.187B, profit was $9.310B, and operating income was $10.788B.",
+      "impact": "AI ASIC、网络芯片和基础设施软件仍是核心观察线。",
+      "impactZh": "AI ASIC、网络芯片和基础设施软件仍是核心观察线。",
+      "impactEn": "AI ASICs, networking chips, and infrastructure software remain core watch items.",
+      "sourceIds": [
+        "avgo-q2-2026"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "8-K",
+      "filedAt": "2026-06-18",
+      "reportDate": "2026-06-17",
+      "title": "8-K filed 2026-06-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526275077/d149683d8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-06-11",
+      "reportDate": "2026-06-11",
+      "title": "8-K filed 2026-06-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526266777/d152717d8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-06-09",
+      "reportDate": "2026-05-03",
+      "title": "10-Q filed 2026-06-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-06-03",
+      "reportDate": "2026-06-03",
+      "title": "8-K filed 2026-06-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000051/avgo-20260603.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-21",
+      "reportDate": "2026-04-20",
+      "title": "8-K filed 2026-04-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000039/avgo-20260420.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-06",
+      "reportDate": "2026-04-06",
+      "title": "8-K filed 2026-04-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526144028/d87999d8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-02",
+      "reportDate": "2026-03-30",
+      "title": "8-K filed 2026-04-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526140574/d109450d8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-03-11",
+      "reportDate": "2026-02-01",
+      "title": "10-Q filed 2026-03-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-04",
+      "reportDate": "2026-03-04",
+      "title": "8-K filed 2026-03-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000011/avgo-20260304.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-02",
+      "reportDate": "2026-02-24",
+      "title": "8-K filed 2026-03-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526085656/d305325d8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-01-13",
+      "reportDate": "2026-01-13",
+      "title": "8-K filed 2026-01-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526011731/d104560d8k.htm"
+    },
+    {
+      "form": "10-K",
+      "filedAt": "2025-12-18",
+      "reportDate": "2025-11-02",
+      "title": "10-K filed 2025-12-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "avgo-q2-2026",
+      "title": "Broadcom Form 10-Q for quarter ended May 3, 2026",
+      "titleZh": "Broadcom Form 10-Q for quarter ended May 3, 2026",
+      "titleEn": "Broadcom Form 10-Q for quarter ended May 3, 2026",
+      "publisher": "SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+      "publishedAt": "2026-06-09",
+      "accessedAt": "2026-07-01",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "avgo-10k-2025",
+      "title": "Broadcom Form 10-K for fiscal year 2025",
+      "titleZh": "Broadcom Form 10-K for fiscal year 2025",
+      "titleEn": "Broadcom Form 10-K for fiscal year 2025",
+      "publisher": "SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+      "publishedAt": "2025-12-18",
+      "accessedAt": "2026-07-01",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "avgo-home",
+      "title": "Broadcom company website",
+      "titleZh": "Broadcom company website",
+      "titleEn": "Broadcom company website",
+      "publisher": "Broadcom",
+      "url": "https://www.broadcom.com/",
+      "publishedAt": null,
+      "accessedAt": "2026-07-01",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0001730168",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K"
+      ]
+    }
+  }
+}

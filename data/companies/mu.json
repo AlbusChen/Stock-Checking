@@ -17,7 +17,7 @@
     "Automotive and embedded memory"
   ],
   "homepage": "https://www.micron.com/",
-  "lastUpdated": "2026-06-08T20:30:00+08:00",
+  "lastUpdated": "2026-07-01T20:25:40.303363Z",
   "summary": "美光是美国存储器与存储解决方案龙头，核心变量是 AI 数据中心带来的 HBM、DDR5/LPDDR 与 SSD 需求、存储价格周期、产能/资本开支和先进封装能力。",
   "aliases": [
     "Micron",
@@ -2084,18 +2084,88 @@
   ],
   "filings": [
     {
-      "form": "10-K",
-      "filedAt": "2025-10-03",
-      "reportDate": "2025-08-28",
-      "title": "FY2025 Form 10-K",
-      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm"
+      "form": "10-Q",
+      "filedAt": "2026-06-25",
+      "reportDate": "2026-05-28",
+      "title": "10-Q filed 2026-06-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/mu-20260528.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-06-24",
+      "reportDate": "2026-06-24",
+      "title": "8-K filed 2026-06-24",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000013/mu-20260624.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-06-09",
+      "reportDate": "2026-06-09",
+      "title": "8-K filed 2026-06-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926071845/tm2617112d1_8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-01",
+      "reportDate": "2026-03-31",
+      "title": "8-K filed 2026-04-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926038249/tm2610810d1_8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-25",
+      "reportDate": "2026-03-25",
+      "title": "8-K filed 2026-03-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926034174/tm269755d1_8k.htm"
     },
     {
       "form": "10-Q",
       "filedAt": "2026-03-19",
       "reportDate": "2026-02-26",
-      "title": "Q2 FY2026 Form 10-Q",
+      "title": "10-Q filed 2026-03-19",
       "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000006/mu-20260226.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-18",
+      "reportDate": "2026-03-18",
+      "title": "8-K filed 2026-03-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000004/mu-20260318.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-01-21",
+      "reportDate": "2026-01-15",
+      "title": "8-K filed 2026-01-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926005366/tm263707d1_8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2025-12-18",
+      "reportDate": "2025-11-27",
+      "title": "10-Q filed 2025-12-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000046/mu-20251127.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-12-17",
+      "reportDate": "2025-12-17",
+      "title": "8-K filed 2025-12-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000044/mu-20251217.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-10-21",
+      "reportDate": "2025-10-15",
+      "title": "8-K filed 2025-10-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465925101237/tm2529116d1_8k.htm"
+    },
+    {
+      "form": "10-K",
+      "filedAt": "2025-10-03",
+      "reportDate": "2025-08-28",
+      "title": "10-K filed 2025-10-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm"
     }
   ],
   "sources": [
@@ -2320,6 +2390,7 @@
     ]
   },
   "labels": [
+    "自选",
     "半导体",
     "存储",
     "AI基础设施",
@@ -2328,6 +2399,19 @@
     "美股"
   ],
   "themeExposure": [
+    {
+      "theme": "自选组合",
+      "themeZh": "自选组合",
+      "themeEn": "Watchlist",
+      "score": 5,
+      "role": "核心自选标的",
+      "roleZh": "核心自选标的",
+      "roleEn": "Core watchlist name",
+      "rationale": "用户指定加入自选 label，用于集中查看重点关注股票。",
+      "rationaleZh": "用户指定加入自选 label，用于集中查看重点关注股票。",
+      "rationaleEn": "User-specified watchlist label for focused tracking.",
+      "confidence": "high"
+    },
     {
       "theme": "英伟达相关",
       "themeZh": "英伟达相关",

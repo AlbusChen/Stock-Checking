@@ -17,7 +17,7 @@
     "移动卫星服务"
   ],
   "homepage": "https://www.iridium.com/",
-  "lastUpdated": "2026-06-11T18:45:00+08:00",
+  "lastUpdated": "2026-07-01T20:25:38.664825Z",
   "summary": "Iridium 运营 L-band 低轨卫星通信网络，面向商业、政府、物联网和移动连接市场。相较 SpaceX/Starlink，它是成熟卫星通信运营商的上市样本。",
   "summaryZh": "Iridium 运营 L-band 低轨卫星通信网络，面向商业、政府、物联网和移动连接市场。相较 SpaceX/Starlink，它是成熟卫星通信运营商的上市样本。",
   "summaryEn": "Iridium operates an L-band LEO satellite communications network serving commercial, government, IoT, and mobile-connectivity markets. Relative to SpaceX/Starlink, it is a mature public satellite-operator benchmark.",
@@ -823,18 +823,88 @@
   ],
   "filings": [
     {
+      "form": "8-K",
+      "filedAt": "2026-06-29",
+      "reportDate": "2026-06-28",
+      "title": "8-K filed 2026-06-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418819/000110465926078482/tm2619278d1_8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-20",
+      "reportDate": "2026-05-20",
+      "title": "8-K filed 2026-05-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000036/irdm-20260520.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-14",
+      "reportDate": "2026-05-13",
+      "title": "8-K filed 2026-05-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000032/irdm-20260513.htm"
+    },
+    {
       "form": "10-Q",
       "filedAt": "2026-04-23",
       "reportDate": "2026-03-31",
-      "url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000026/irdm-20260331.htm",
-      "title": "Iridium Communications Inc. 10-Q 2026-03-31"
+      "title": "10-Q filed 2026-04-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000026/irdm-20260331.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-23",
+      "reportDate": "2026-04-23",
+      "title": "8-K filed 2026-04-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000027/irdm-20260423.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-05",
+      "reportDate": "2026-03-05",
+      "title": "8-K filed 2026-03-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000016/irdm-20260305.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-27",
+      "reportDate": "2026-02-26",
+      "title": "8-K filed 2026-02-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000014/irdm-20260226.htm"
     },
     {
       "form": "10-K",
       "filedAt": "2026-02-12",
       "reportDate": "2025-12-31",
-      "url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000009/irdm-20251231.htm",
-      "title": "Iridium Communications Inc. 10-K 2025-12-31"
+      "title": "10-K filed 2026-02-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000009/irdm-20251231.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-12",
+      "reportDate": "2026-02-12",
+      "title": "8-K filed 2026-02-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000008/irdm-20260212.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-12-04",
+      "reportDate": "2025-12-04",
+      "title": "8-K filed 2025-12-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881925000012/irdm-20251204.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2025-10-23",
+      "reportDate": "2025-09-30",
+      "title": "10-Q filed 2025-10-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881925000009/irdm-20250930.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2025-10-23",
+      "reportDate": "2025-10-23",
+      "title": "8-K filed 2025-10-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881925000008/irdm-20251023.htm"
     }
   ],
   "sources": [
