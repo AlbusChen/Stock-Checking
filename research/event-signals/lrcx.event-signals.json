@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-07-02T05:33:21.134413Z",
+  "companyId": "lrcx",
+  "ticker": "LRCX",
+  "query": "(LRCX OR \"Lam Research\" OR 泛林集团 OR \"LAM RESEARCH CORP\") (\"excess capacity\" OR \"cloud business\" OR contract OR customer OR competitor OR capacity OR \"export control\" OR earnings OR guidance OR financing) when:3d",
+  "applied": false,
+  "signals": [
+    {
+      "companyId": "lrcx",
+      "ticker": "LRCX",
+      "companyName": "Lam Research / 泛林集团",
+      "date": "2026-07-01",
+      "title": "Will Lam Research (LRCX) Beat Estimates Again in Its Next Earnings Report? - Yahoo Finance",
+      "sourceName": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRlU5VjZoTWZna2JacnFkclJyQWZsQnFpUzN1S1A2cF9DcjM1dXdiM21xWXJvTmlmMUNzWGFhZHdHdVA5bFM3OFNQTzIyNHdyaG93czZ5OVRDeWVaeG94UjBzaHhvTG5GSXNoWGpRRURlSnNCSmFjZ1FNYjJLY3BLemNWUElseHI0UXZKVW1OTUVBX3ZGY3V4MFg3RGozZw?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 9,
+      "matchedAliases": [
+        "LRCX",
+        "Lam Research"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Will Lam Research (LRCX) Beat Estimates Again in Its Next Earnings Report? &nbsp;&nbsp; Yahoo Finance",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    }
+  ]
+}

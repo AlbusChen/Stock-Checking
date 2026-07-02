@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-07-02T05:33:19.208837Z",
+  "companyId": "intc",
+  "ticker": "INTC",
+  "query": "(INTC OR \"Intel Corporation\") (\"excess capacity\" OR \"cloud business\" OR contract OR customer OR competitor OR capacity OR \"export control\" OR earnings OR guidance OR financing) when:3d",
+  "applied": false,
+  "signals": [
+    {
+      "companyId": "intc",
+      "ticker": "INTC",
+      "companyName": "Intel Corporation",
+      "date": "2026-06-30",
+      "title": "INTC Stock Soars Past Its 2000’s Record Closing Price After Q2 Earnings Guidance Roars Past Wall Street Estimates - Stocktwits",
+      "sourceName": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOci03VUZxUGNtaGEyVjNFNlFWWjN1c1FBcU10RVNnNHFJRW0ydjdoZnpLN0E4NjB6clpFMWthMG1nb3VvaEcwamdKakF1T3pYX3VlVmRhU0F1c09wM3JCM3c1Q0Y4UG9kZThySVJXWEZySmdfYTB3N09GMTdfblJlSDFOZ3pndjZwT0Q5VVUtMVBlb1ZXM2RFTGxpaHNSTWlqWG1SR2xQdkxpOHM0VGR6X1lFdEhyMzg1UFFEWEpSMUFvcmwtVk9GVnJkVWJ0MkNrekU4UjFVWFRncjJJZVdhMEFXVWdIUmNjbDBDVEFPSm5ROExJX2JCQjl6WXdDeVJFTmRnczZiM1A?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 9,
+      "matchedAliases": [
+        "INTC"
+      ],
+      "matchedTerms": [
+        "earnings",
+        "guidance"
+      ],
+      "summary": "INTC Stock Soars Past Its 2000’s Record Closing Price After Q2 Earnings Guidance Roars Past Wall Street Estimates &nbsp;&nbsp; Stocktwits",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "intc",
+      "ticker": "INTC",
+      "companyName": "Intel Corporation",
+      "date": "2026-07-01",
+      "title": "Intel (NASDAQ:INTC) still trades at a 37% premium despite stock slide ahead of July results - TechStock²",
+      "sourceName": "TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT1ctRWpDR2wwdHc1dW5RY0NGeFViQXJOTFFjLVpyUlNtbEp2SWdrc2VVNFdnV3FvZnNKTnNOREVFYjBOQnQtUG5HV0xCWUJhbmFMeW9ZQTBwNFpIMlVYWllUNUM4MVAwdFNZek84TVRBMFNfZnNHcDFyY0dzZnVCbHdoaXFDdmJDUXcyN2RJQks3RFhSNmhTX2hPckVic1JpRnRKaXVkZTVGQlhs?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 8,
+      "matchedAliases": [
+        "INTC"
+      ],
+      "matchedTerms": [
+        "results"
+      ],
+      "summary": "Intel (NASDAQ:INTC) still trades at a 37% premium despite stock slide ahead of July results &nbsp;&nbsp; TechStock²",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    }
+  ]
+}

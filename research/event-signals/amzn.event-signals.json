@@ -1,0 +1,161 @@
+{
+  "generatedAt": "2026-07-02T05:33:11.890993Z",
+  "companyId": "amzn",
+  "ticker": "AMZN",
+  "query": "(AMZN OR Amazon OR 亚马逊 OR \"AMAZON COM INC\") (\"excess capacity\" OR \"cloud business\" OR contract OR customer OR competitor OR capacity OR \"export control\" OR earnings OR guidance OR financing) when:3d",
+  "applied": false,
+  "signals": [
+    {
+      "companyId": "amzn",
+      "ticker": "AMZN",
+      "companyName": "Amazon / 亚马逊",
+      "date": "2026-07-01",
+      "title": "Amazon (AMZN) Launches $1 Billion AI Engineering Unit Inside Customer Organizations - Yahoo Finance",
+      "sourceName": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQjZZSzlmSmVBZF9nUHJfS3ZaTWs3UFdQWkVCSTdKOWppc2c3THVZbzd4YzU0N0NQeUZXUDdiMWJ2bU9lM3VjZVBJYjVNMEN6SjNmRGNmeWtaYi15ZThWRGs5Vi12QmxLYjhpaFQxamJ2R0ZUUmNCaENGZ0phX1pYRFRBR2w2N3otVWJzZFNRdkRITkZYX1UxcTN3?oc=5",
+      "category": "contract-order",
+      "categoryZh": "订单/合同",
+      "categoryEn": "Orders / contracts",
+      "score": 9,
+      "matchedAliases": [
+        "AMZN",
+        "Amazon"
+      ],
+      "matchedTerms": [
+        "customer"
+      ],
+      "summary": "Amazon (AMZN) Launches $1 Billion AI Engineering Unit Inside Customer Organizations &nbsp;&nbsp; Yahoo Finance",
+      "impactZh": "这类事件可能影响收入可见度、资本开支回收和客户集中度；需要确认合同金额、期限、取消条款和交付节奏。",
+      "impactEn": "This type of event may affect revenue visibility, capex payback, and customer concentration; verify contract size, duration, cancellation terms, and delivery timing.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "amzn",
+      "ticker": "AMZN",
+      "companyName": "Amazon / 亚马逊",
+      "date": "2026-07-01",
+      "title": "Meta plans cloud business to rival Amazon and Google - Crypto Briefing",
+      "sourceName": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5aUTFnbWVTSHJzNmlRekJ5TFM3SEwwMl9Za1JKRWxOZW1iVXNsT3U5Z1FFNlVnekZaR0lhX2w3cVJVYmN2ZjZjclFfM2wzSzZDY1RiRXdmMTJGc3hnQ2xaZ1o0TEE0Y0ppcGlvVFJmRGE3Q0p2SFE?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 7,
+      "matchedAliases": [
+        "Amazon"
+      ],
+      "matchedTerms": [
+        "cloud business",
+        "rival"
+      ],
+      "summary": "Meta plans cloud business to rival Amazon and Google &nbsp;&nbsp; Crypto Briefing",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "amzn",
+      "ticker": "AMZN",
+      "companyName": "Amazon / 亚马逊",
+      "date": "2026-07-01",
+      "title": "Meta plots AI cloud business to challenge Amazon, Microsoft and Google - Los Angeles Times",
+      "sourceName": "Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTVZGdlB4blRWcE83MGlTUE5INWdsZkZVekVrc0dsTno5azdvLW9sZDI5UmRBdUt6R2YzRHo4T2pja0tzQnNiNEJIcm0tamN6Y245dGFrV0ZiWGdMSmozaXRfM3BzZXk3cmFOUFROMTJrY0Zrd1d2d1FadHJNRlJPenV3enJ4Si1BdmtOQTI3VktQMXBLRmNGM2JJaWk1MjNqZTltWGRDLVMwRmNJVVZjRGZfZDVJdw?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 6,
+      "matchedAliases": [
+        "Amazon"
+      ],
+      "matchedTerms": [
+        "cloud business"
+      ],
+      "summary": "Meta plots AI cloud business to challenge Amazon, Microsoft and Google &nbsp;&nbsp; Los Angeles Times",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "amzn",
+      "ticker": "AMZN",
+      "companyName": "Amazon / 亚马逊",
+      "date": "2026-07-01",
+      "title": "Watch Meta Is Planning Cloud Business to Take on Amazon, Google - Bloomberg.com",
+      "sourceName": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR2xMbmxiSUJWYllKYkJhSTVmRzJ5NHF3UUFZTmxScmNxTEZOQzV4OEFpOXhOYjg2N0lLdjVXS0pObW5ESkRucFVWblBLOW1hNDR3LS10OEhlNHZuSnpwVUI5VW9JMTNNR0lOYXZ6TjJkQkNuTS1ob0FiUF81RlE2ZHcydl90Y29OaXdZN2V0MUJYc05vdmFuZWRxMlVISDIwNXJ4N3dIWnFNRXF1WFRVQQ?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 6,
+      "matchedAliases": [
+        "Amazon"
+      ],
+      "matchedTerms": [
+        "cloud business"
+      ],
+      "summary": "Watch Meta Is Planning Cloud Business to Take on Amazon, Google &nbsp;&nbsp; Bloomberg.com",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "amzn",
+      "ticker": "AMZN",
+      "companyName": "Amazon / 亚马逊",
+      "date": "2026-07-01",
+      "title": "Data centre of the month: Scaling Amazon’s Missouri data centre - capacityglobal.com",
+      "sourceName": "capacityglobal.com",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9SU2lHc1J1N2gtdTBXMWxtNG1RNkk5YWVKTUE5OTdLWENSbTdadnpUbW1fM3FEM1F4a0ZiTXFDNFVaaFV0TmtXNHY1ekdIcFRieENmOXZsaEpPc1M1X05zR2dvUFJsODV2VFJQRjFjM09GMWF5VzlPVUlMMFkzdw?oc=5",
+      "category": "capacity-supply",
+      "categoryZh": "产能/供给",
+      "categoryEn": "Capacity / supply",
+      "score": 6,
+      "matchedAliases": [
+        "Amazon"
+      ],
+      "matchedTerms": [
+        "capacity"
+      ],
+      "summary": "Data centre of the month: Scaling Amazon’s Missouri data centre &nbsp;&nbsp; capacityglobal.com",
+      "impactZh": "这类事件可能影响产业链卡点、价格、交付周期和利润率；需要交叉验证产能规模、时间点和客户认证。",
+      "impactEn": "This type of event may affect scarce layers, pricing, delivery lead times, and margins; cross-check capacity scale, timing, and customer qualification.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "amzn",
+      "ticker": "AMZN",
+      "companyName": "Amazon / 亚马逊",
+      "date": "2026-06-30",
+      "title": "AWS invests $1 billion to embed AI forward deployed engineers with customers - About Amazon",
+      "sourceName": "About Amazon",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVGxHaGRiWTh1QVRMMFJoSlpIWFFJUl9nWGNTN0xTWDVlWHZXMlI3Y3VlUW10Smh3VFNCdG5PT1YwNWpnOUZDYmR4OFpjcWZidURlc1hGM3BVM1pwX05IQVA2VkgzbDZLYXpWUUt2MEJuVFNGRFNMWmxXY2thdlZtWmcxNzJIMHM?oc=5",
+      "category": "contract-order",
+      "categoryZh": "订单/合同",
+      "categoryEn": "Orders / contracts",
+      "score": 6,
+      "matchedAliases": [
+        "Amazon"
+      ],
+      "matchedTerms": [
+        "customer"
+      ],
+      "summary": "AWS invests $1 billion to embed AI forward deployed engineers with customers &nbsp;&nbsp; About Amazon",
+      "impactZh": "这类事件可能影响收入可见度、资本开支回收和客户集中度；需要确认合同金额、期限、取消条款和交付节奏。",
+      "impactEn": "This type of event may affect revenue visibility, capex payback, and customer concentration; verify contract size, duration, cancellation terms, and delivery timing.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    }
+  ]
+}

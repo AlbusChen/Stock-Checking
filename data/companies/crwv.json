@@ -18,7 +18,7 @@
     "数据中心"
   ],
   "homepage": "https://www.coreweave.com/",
-  "lastUpdated": "2026-07-01T20:25:36.329650Z",
+  "lastUpdated": "2026-07-02T05:30:22.978199Z",
   "summary": "CoreWeave 是专注 GPU 云的上市公司，业务与 NVIDIA GPU 供给、数据中心融资和 AI 客户需求高度相关；公司仍处于高增长与高资本开支阶段。 / CoreWeave is a public GPU-cloud company with high exposure to NVIDIA GPU supply, data-center financing, and AI customer demand, while still in a high-growth, high-capex phase.",
   "summaryZh": "CoreWeave 是专注 GPU 云的上市公司，业务与 NVIDIA GPU 供给、数据中心融资和 AI 客户需求高度相关；公司仍处于高增长与高资本开支阶段。",
   "summaryEn": "CoreWeave is a public GPU-cloud company with high exposure to NVIDIA GPU supply, data-center financing, and AI customer demand, while still in a high-growth, high-capex phase.",
@@ -803,6 +803,24 @@
   },
   "news": [
     {
+      "date": "2026-07-01",
+      "title": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius - Barron's",
+      "titleZh": "外部事件线索：Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius - Barron's",
+      "titleEn": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius - Barron's",
+      "category": "Customer / competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "summary": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius &nbsp;&nbsp; Barron's",
+      "summaryZh": "自动发现的外部事件线索：Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius - Barron's。匹配词：move to the cloud、bad news for。需要用原始报道、公司公告或监管文件复核。",
+      "summaryEn": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius &nbsp;&nbsp; Barron's",
+      "impact": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "sourceIds": [
+        "event-crwv-8ad4e11e82"
+      ]
+    },
+    {
       "date": "2026-06-11",
       "title": "Recent SEC filing: 8-K",
       "titleZh": "最新 SEC 文件：8-K",
@@ -908,6 +926,20 @@
     }
   ],
   "sources": [
+    {
+      "id": "event-crwv-8ad4e11e82",
+      "title": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius - Barron's",
+      "titleZh": "外部事件线索：Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius - Barron's",
+      "titleEn": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius - Barron's",
+      "publisher": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaTI0bWdTNFdLenJMZkx3SlhUZGxZWWJJRENXdWdLWmZlQVZGdXA2ak9VN1c4czdSSGtpYlhQM1lEaHNsWHptOEZCRlFtRjNORUZ3M0ZuYVYwYi0yU2lORmYtWGFZSkM2dGRpUXQxXzgybEh6Z0VYR2J3M18ydDRXRjlUX0k?oc=5",
+      "publishedAt": "2026-07-01",
+      "accessedAt": "2026-07-02",
+      "type": "news",
+      "evidenceLevel": "medium",
+      "evidenceLevelZh": "中等证据",
+      "evidenceLevelEn": "Medium"
+    },
     {
       "id": "crwv-homepage",
       "title": "CoreWeave / CoreWeave AI 云 company website",

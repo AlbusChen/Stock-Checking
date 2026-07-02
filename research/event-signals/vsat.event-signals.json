@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-07-02T05:33:29.462809Z",
+  "companyId": "vsat",
+  "ticker": "VSAT",
+  "query": "(VSAT OR Viasat OR 维亚萨特 OR \"Viasat, Inc.\") (\"excess capacity\" OR \"cloud business\" OR contract OR customer OR competitor OR capacity OR \"export control\" OR earnings OR guidance OR financing) when:3d",
+  "applied": false,
+  "signals": [
+    {
+      "companyId": "vsat",
+      "ticker": "VSAT",
+      "companyName": "Viasat / 维亚萨特",
+      "date": "2026-07-01",
+      "title": "Viasat (VSAT) Secures New Award to Deliver Dual-Band Satellite System - Insider Monkey",
+      "sourceName": "Insider Monkey",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNGJZcjVvcUlPS1puUzBwMFpnMi1oODNESjhpaHZNczFjVUpMdzZ4azk1Qm1USld1akxFSGJXeHE2YVBUVlF0LWlxOU1VSDczaGd3M0tTYXRJZWs3QTgwSXZpNUZ4bHJQUWg4ZjZGaldUdW9VX2RLaWNvTVFKZ09hZElQQ2hLZUVKYk1fQTJBbDdZM2pJYmNrejJYaEhFS0xVa1VJOXpKUHczUU02NnBCd3dQa1dJdml60gG4AUFVX3lxTE00YllyNW9xSU9LWm5TMHAwWmcyLWg4M0RKOGlodk1zMWNVSkx3NnhrOTVCbVRKV3VqTEVIYld4cTZhUFRWUXQtaXE5TVVINzNoZ3czS1NhdEllazdBODBJdmk1RnhsclBRaDhmNkZqV1R1b1VfZEtpY29NUUpnT2FkSVBDaEtlRUpiTV9BMkFsN1kzakliY2t6MlhoSEVLTFVrVUk5ekpQdzNRTTY2cEJ3d1BrV0l2aXo?oc=5",
+      "category": "regulatory-policy",
+      "categoryZh": "政策/监管",
+      "categoryEn": "Policy / regulation",
+      "score": 9,
+      "matchedAliases": [
+        "VSAT",
+        "Viasat"
+      ],
+      "matchedTerms": [
+        "ban"
+      ],
+      "summary": "Viasat (VSAT) Secures New Award to Deliver Dual-Band Satellite System &nbsp;&nbsp; Insider Monkey",
+      "impactZh": "这类事件可能影响可销售市场、供应链路径、客户采购和合规成本；需要优先核对监管原文。",
+      "impactEn": "This type of event may affect addressable markets, supply-chain routing, customer procurement, and compliance costs; prioritize original regulatory text.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "vsat",
+      "ticker": "VSAT",
+      "companyName": "Viasat / 维亚萨特",
+      "date": "2026-06-30",
+      "title": "Viasat stock jumps as Space Force wins fuel bullish analyst outlook - Invezz",
+      "sourceName": "Invezz",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT3hSX2pEaE5Jd0k2OFBrV0R5YnJSckJYUFJxOHNqck1qODVya256M3p1UkMwNGJXQ1d3WUxNMjlXS3ByakhYQWFTWHd3T2tUVEozbWpTX2dTSEJWVHNqUFB0Qk5WVWFnbUU0V0pkQ0NLWXhmUE1FVzY3VjFGXzlNdWx4RkN4U1BMWGM2dGZaLXloTFM0OWhWb1ZLZUFLYzFFdUpBcnJB?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 6,
+      "matchedAliases": [
+        "Viasat"
+      ],
+      "matchedTerms": [
+        "outlook"
+      ],
+      "summary": "Viasat stock jumps as Space Force wins fuel bullish analyst outlook &nbsp;&nbsp; Invezz",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    }
+  ]
+}

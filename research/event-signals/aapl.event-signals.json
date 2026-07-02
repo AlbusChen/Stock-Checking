@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-07-02T05:33:09.650583Z",
+  "companyId": "aapl",
+  "ticker": "AAPL",
+  "query": "(AAPL OR \"Apple Inc.\") (\"excess capacity\" OR \"cloud business\" OR contract OR customer OR competitor OR capacity OR \"export control\" OR earnings OR guidance OR financing) when:3d",
+  "applied": false,
+  "signals": [
+    {
+      "companyId": "aapl",
+      "ticker": "AAPL",
+      "companyName": "Apple Inc.",
+      "date": "2026-07-01",
+      "title": "Reflecting On Consumer Discretionary Stocks’ Q1 Earnings: Apple (NASDAQ:AAPL) - Yahoo Finance",
+      "sourceName": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOU3FERGlWa3A1UFUtWjBnSVlJYnRTOGoxbjRFSktJUmxzMy1UWVhxQ3hENk15bWZrdF9CcGpVMUdJVzEzNUxKWnRvOUM1cFd4dkN3eVh6RExJZVBHZWVHdWJlcFlwcEU5WTRlNGt3a2ZQNXVGMHVFUUo2bXNial9xc21LYmFhbWtMU3ZIbTJNQTJBOFpwWmd0YzhoZWJLQUllOUhLMnZSUlM1b0tV?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 8,
+      "matchedAliases": [
+        "AAPL"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Reflecting On Consumer Discretionary Stocks’ Q1 Earnings: Apple (NASDAQ:AAPL) &nbsp;&nbsp; Yahoo Finance",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "aapl",
+      "ticker": "AAPL",
+      "companyName": "Apple Inc.",
+      "date": "2026-06-30",
+      "title": "Tax Refunds Boosting Earnings Potential for Companies Like AAPL - GuruFocus",
+      "sourceName": "GuruFocus",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ3dIUXZUU0t5SHZydUY4MFdFSm5pUXFLM25KZTJmYjZKTmkyTTB2d3ByN1gzR3ZYdmdzaVRNaE51SFhCTHViR3VUZFNRNTZDOGdyekM5UDNZdmJ1WVkxRGVMR09pVEgydGxQbzQ0VnVvOVlqWUFWSWo5OVlRNGdUbkpZcVZwc1RSV0pMUlB6UGMwZl9HTGN5ZExsUDJ6eENaVG0wTA?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 8,
+      "matchedAliases": [
+        "AAPL"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Tax Refunds Boosting Earnings Potential for Companies Like AAPL &nbsp;&nbsp; GuruFocus",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "aapl",
+      "ticker": "AAPL",
+      "companyName": "Apple Inc.",
+      "date": "2026-06-30",
+      "title": "Dow, S&P 500, Nasdaq Futures Climb On Tech Earnings Optimism: AKAN, AAPL, RDDT, RIVN Stocks In Focus - Stocktwits",
+      "sourceName": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSlFBc2U2RGU4YWVianVvbTAtUXVzX2hXQm42ZEt1SXlGRlE0dm1tbXhqRy1zbVVKUnpQVTQyWTJFUFBkdnpLRzdOYm1lTVpSZWJJVXNFVXBzMmRCckFjQ0h2SFNjd2hzTExneS16dUdRZlduekEyNFpsUmNtR25uR2hqa1R0bS1ueDRJRWVuSHVEeUgwLWhuM2tJckMtTW0xZDFaOVlCRHB4RVhzX2hpZnRKZHQ1eHhnQ0xfNg?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 8,
+      "matchedAliases": [
+        "AAPL"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Dow, S&P 500, Nasdaq Futures Climb On Tech Earnings Optimism: AKAN, AAPL, RDDT, RIVN Stocks In Focus &nbsp;&nbsp; Stocktwits",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    }
+  ]
+}

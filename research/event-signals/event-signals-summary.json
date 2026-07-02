@@ -1,0 +1,1375 @@
+{
+  "generatedAt": "2026-07-02T05:33:29.619257Z",
+  "companyCount": 29,
+  "signalCount": 58,
+  "appliedCompanyCount": 0,
+  "minScoreForApply": 8,
+  "apply": false,
+  "failures": [],
+  "actionableSignals": [
+    {
+      "companyId": "sndk",
+      "ticker": "SNDK",
+      "companyName": "Sandisk / 闪迪",
+      "date": "2026-07-01",
+      "title": "Sandisk’s and Micron’s stocks sink as the rotation trade builds, but supply shortages should limit losses - MarketWatch",
+      "sourceName": "MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQYjdLaHBXeklPektNa0dPdUJtWUVWVlBKMTNqVkxMQnZqZ29HMmFfdFppcGFlYzROSC1Ic1hrUlZ2N1c4SEZlenNCSjE5TlQxVk5tR2lkdGJHYlRjSmhqY0xtWVU1RTgyZmZIM002OXJ3T0NFR3U5dXFuSHlVb0tRZmM0NTBPNEFWckNyTld6dzNKa3c4Zm5DNGYzV29PbXNwR1A2R3NIODRzMnlUUG9BcGcyTnN0cG8xdjVUNEZoU19SY3BnQXFsenNTS18wclIxdl83Z1VMX3V5ZWJIdUE?oc=5",
+      "category": "capacity-supply",
+      "categoryZh": "产能/供给",
+      "categoryEn": "Capacity / supply",
+      "score": 9,
+      "matchedAliases": [
+        "Sandisk",
+        "SanDisk"
+      ],
+      "matchedTerms": [
+        "supply",
+        "shortage"
+      ],
+      "summary": "Sandisk’s and Micron’s stocks sink as the rotation trade builds, but supply shortages should limit losses &nbsp;&nbsp; MarketWatch",
+      "impactZh": "这类事件可能影响产业链卡点、价格、交付周期和利润率；需要交叉验证产能规模、时间点和客户认证。",
+      "impactEn": "This type of event may affect scarce layers, pricing, delivery lead times, and margins; cross-check capacity scale, timing, and customer qualification.",
+      "evidenceLevel": "medium",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "crwv",
+      "ticker": "CRWV",
+      "companyName": "CoreWeave / CoreWeave AI 云",
+      "date": "2026-07-01",
+      "title": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius - Barron's",
+      "sourceName": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaTI0bWdTNFdLenJMZkx3SlhUZGxZWWJJRENXdWdLWmZlQVZGdXA2ak9VN1c4czdSSGtpYlhQM1lEaHNsWHptOEZCRlFtRjNORUZ3M0ZuYVYwYi0yU2lORmYtWGFZSkM2dGRpUXQxXzgybEh6Z0VYR2J3M18ydDRXRjlUX0k?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 8,
+      "matchedAliases": [
+        "CoreWeave"
+      ],
+      "matchedTerms": [
+        "move to the cloud",
+        "bad news for"
+      ],
+      "summary": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius &nbsp;&nbsp; Barron's",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "medium",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "nbis",
+      "ticker": "NBIS",
+      "companyName": "Nebius / Nebius AI 云",
+      "date": "2026-07-01",
+      "title": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius - Barron's",
+      "sourceName": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaTI0bWdTNFdLenJMZkx3SlhUZGxZWWJJRENXdWdLWmZlQVZGdXA2ak9VN1c4czdSSGtpYlhQM1lEaHNsWHptOEZCRlFtRjNORUZ3M0ZuYVYwYi0yU2lORmYtWGFZSkM2dGRpUXQxXzgybEh6Z0VYR2J3M18ydDRXRjlUX0k?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 8,
+      "matchedAliases": [
+        "Nebius"
+      ],
+      "matchedTerms": [
+        "move to the cloud",
+        "bad news for"
+      ],
+      "summary": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius &nbsp;&nbsp; Barron's",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "medium",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    }
+  ],
+  "topSignals": [
+    {
+      "companyId": "asml",
+      "ticker": "ASML",
+      "companyName": "ASML Holding / 阿斯麦",
+      "date": "2026-07-01",
+      "title": "ASML Holding (NasdaqGS:ASML) Raises Revenue Guidance As AI Chip Spending Builds - Yahoo Finance",
+      "sourceName": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNU0ZUMjVFenphNElfbnN5OG84bW0tb05XNG5UM3AxSzRKeDBGbktvUUF4eDgwWTNUeWFJOUhhVVdtZnFDUDIxdDZMRlZEdFBsNzEwdnVSWXdISmpCbUluSTFxQmV2aFA1WWMzY2xJalM4aFprVk9nNGFsQW1kLUphZnZjU054N2Jhc24ycXNOMXY0NGhCQ2hUS2dkVGNtZw?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 10,
+      "matchedAliases": [
+        "ASML",
+        "ASML Holding"
+      ],
+      "matchedTerms": [
+        "guidance",
+        "revenue"
+      ],
+      "summary": "ASML Holding (NasdaqGS:ASML) Raises Revenue Guidance As AI Chip Spending Builds &nbsp;&nbsp; Yahoo Finance",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "asml",
+      "ticker": "ASML",
+      "companyName": "ASML Holding / 阿斯麦",
+      "date": "2026-07-01",
+      "title": "Price to earnings forward of ASML Holding NV Sponsored ADR – LSE:0M42 - TradingView",
+      "sourceName": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQ3diY29BbGh3OFJyY2x6RnNhaHc1bVA4Qmc3eEpBbklYUExxdnZSYUUtbUF3ZUxQRkRtUGw4RTJ2V2lMaWs5RDlHT3hqNks2OVNMRlFmN3hBQW9iMmladUdDb3lLWXllT1RZOGNRRDJkLWgyYU5UcDg1UFFvNGJTTnNueW44aWdrbmNOVWVaSUxPNjUwU3o5anA4cl9uUQ?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 10,
+      "matchedAliases": [
+        "ASML",
+        "ASML Holding",
+        "ASML HOLDING NV"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Price to earnings forward of ASML Holding NV Sponsored ADR – LSE:0M42 &nbsp;&nbsp; TradingView",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "googl",
+      "ticker": "GOOGL",
+      "companyName": "Alphabet / Google / 字母表",
+      "date": "2026-07-01",
+      "title": "Meta plans cloud business to rival Amazon and Google - Crypto Briefing",
+      "sourceName": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5aUTFnbWVTSHJzNmlRekJ5TFM3SEwwMl9Za1JKRWxOZW1iVXNsT3U5Z1FFNlVnekZaR0lhX2w3cVJVYmN2ZjZjclFfM2wzSzZDY1RiRXdmMTJGc3hnQ2xaZ1o0TEE0Y0ppcGlvVFJmRGE3Q0p2SFE?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 10,
+      "matchedAliases": [
+        "GOOGL",
+        "Google"
+      ],
+      "matchedTerms": [
+        "cloud business",
+        "rival"
+      ],
+      "summary": "Meta plans cloud business to rival Amazon and Google &nbsp;&nbsp; Crypto Briefing",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "mu",
+      "ticker": "MU",
+      "companyName": "Micron Technology, Inc.",
+      "date": "2026-07-01",
+      "title": "Micron Technology (MU) Receives Upgrade Following Record Earnings - GuruFocus",
+      "sourceName": "GuruFocus",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcmhFdk01MlRDektWWkJnMUJzcm5zNW5XbmVOcG1KY200aDc5M1FDdEhrZU9uaDlCcFZaY25sa1lBTHNYRThFZ2I3OWVHYTdoVDZFejZOaWd2TGdxZl9tZDh3MG9jeS03dnI0QllwQjlTdGd4dGduZFJ0VEk4RXp6NHI1bEpXV0tjZmxYOURYYkJObVQ0RHF3YXljcTV4Uml5bzZNQw?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 10,
+      "matchedAliases": [
+        "MU",
+        "Micron",
+        "Micron Technology"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Micron Technology (MU) Receives Upgrade Following Record Earnings &nbsp;&nbsp; GuruFocus",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "nbis",
+      "ticker": "NBIS",
+      "companyName": "Nebius / Nebius AI 云",
+      "date": "2026-07-01",
+      "title": "Nebius Group (NBIS) Stock Looks Overvalued On Earnings While AI Growth Stays Strong - Yahoo Finance",
+      "sourceName": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQmpmRjhDSi1RQWFWbzFucUxsY0s3LUFQWUNGVVVVaEJjXzNtdnpCb0NwZmxWaE05ZXlMek1CME1MLW0wMnNveFRsSlhFLVlzU1ptX1pkaVdwVTNJQjNydWJldjB0TWx4amJOWm1IOUdaS3VoNGctYllhMjl2STlFOGJ2V3pZc05lOUZzZWxoZ09FbUtVTTZDMzV3?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 10,
+      "matchedAliases": [
+        "NBIS",
+        "Nebius",
+        "Nebius Group"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Nebius Group (NBIS) Stock Looks Overvalued On Earnings While AI Growth Stays Strong &nbsp;&nbsp; Yahoo Finance",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "nbis",
+      "ticker": "NBIS",
+      "companyName": "Nebius / Nebius AI 云",
+      "date": "2026-07-01",
+      "title": "Nebius Group (NASDAQ:NBIS) slides as neocloud contract bump gets tested - TechStock²",
+      "sourceName": "TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZUFOUGRObTUxaEFLLXhYT0hPTjBoSW5JbGZlTm5rTVZRYmg3WDZkYlNvamszQkhTQUdSbXlkSE1xbk5xdDR0SDlGVkZuLVJZNGRLcldQM3pKak1WZWR5ZS1rbm9lTEN0WVlyNnVtQUdTWFVnNUxvbnZHb1NuMV94Zmc3WENyclNHbGFFZnhoZGdwU1U?oc=5",
+      "category": "contract-order",
+      "categoryZh": "订单/合同",
+      "categoryEn": "Orders / contracts",
+      "score": 10,
+      "matchedAliases": [
+        "NBIS",
+        "Nebius",
+        "Nebius Group"
+      ],
+      "matchedTerms": [
+        "contract"
+      ],
+      "summary": "Nebius Group (NASDAQ:NBIS) slides as neocloud contract bump gets tested &nbsp;&nbsp; TechStock²",
+      "impactZh": "这类事件可能影响收入可见度、资本开支回收和客户集中度；需要确认合同金额、期限、取消条款和交付节奏。",
+      "impactEn": "This type of event may affect revenue visibility, capex payback, and customer concentration; verify contract size, duration, cancellation terms, and delivery timing.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "orcl",
+      "ticker": "ORCL",
+      "companyName": "Oracle / 甲骨文",
+      "date": "2026-07-02",
+      "title": "Oracle (NYSE: ORCL) Launches AI Agents For Supply Chain Automation And Manager Coaching - foreignpolicyjournal.com",
+      "sourceName": "foreignpolicyjournal.com",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcEV6amdvcllmVmR4dFhWd3JTVmc4Uzh1MDRlWFVVRnlTSTBIQXNhQlVJeVRVM0dwcTNIVHRJVDIwYW9qajhYTFRtNHdheGh3NTM5b2VPTTAyWmo3WFpzakVINkJaQ1d3eXI1TTczWERFR21MM0FmMFAxYWZyNlVVNERDdnQ4NW5ocmd6OTJYeUdQMzVqSmFsbGk2X1FMVlhQVVBzTjFqcFpsRjVER3FoTWFCekR0MERWTHdxZmJTWjhQeU1mN1M2MXM3SGRtZw?oc=5",
+      "category": "capacity-supply",
+      "categoryZh": "产能/供给",
+      "categoryEn": "Capacity / supply",
+      "score": 9,
+      "matchedAliases": [
+        "ORCL",
+        "Oracle"
+      ],
+      "matchedTerms": [
+        "supply"
+      ],
+      "summary": "Oracle (NYSE: ORCL) Launches AI Agents For Supply Chain Automation And Manager Coaching &nbsp;&nbsp; foreignpolicyjournal.com",
+      "impactZh": "这类事件可能影响产业链卡点、价格、交付周期和利润率；需要交叉验证产能规模、时间点和客户认证。",
+      "impactEn": "This type of event may affect scarce layers, pricing, delivery lead times, and margins; cross-check capacity scale, timing, and customer qualification.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "amzn",
+      "ticker": "AMZN",
+      "companyName": "Amazon / 亚马逊",
+      "date": "2026-07-01",
+      "title": "Amazon (AMZN) Launches $1 Billion AI Engineering Unit Inside Customer Organizations - Yahoo Finance",
+      "sourceName": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQjZZSzlmSmVBZF9nUHJfS3ZaTWs3UFdQWkVCSTdKOWppc2c3THVZbzd4YzU0N0NQeUZXUDdiMWJ2bU9lM3VjZVBJYjVNMEN6SjNmRGNmeWtaYi15ZThWRGs5Vi12QmxLYjhpaFQxamJ2R0ZUUmNCaENGZ0phX1pYRFRBR2w2N3otVWJzZFNRdkRITkZYX1UxcTN3?oc=5",
+      "category": "contract-order",
+      "categoryZh": "订单/合同",
+      "categoryEn": "Orders / contracts",
+      "score": 9,
+      "matchedAliases": [
+        "AMZN",
+        "Amazon"
+      ],
+      "matchedTerms": [
+        "customer"
+      ],
+      "summary": "Amazon (AMZN) Launches $1 Billion AI Engineering Unit Inside Customer Organizations &nbsp;&nbsp; Yahoo Finance",
+      "impactZh": "这类事件可能影响收入可见度、资本开支回收和客户集中度；需要确认合同金额、期限、取消条款和交付节奏。",
+      "impactEn": "This type of event may affect revenue visibility, capex payback, and customer concentration; verify contract size, duration, cancellation terms, and delivery timing.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "avgo",
+      "ticker": "AVGO",
+      "companyName": "Broadcom / 博通",
+      "date": "2026-07-01",
+      "title": "Broadcom (AVGO) Stock Could Be A Bargain On Cash Flow Yet Rich On Earnings - Yahoo Finance",
+      "sourceName": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNc28wOUNxbzRuTE9rS3pCT29PU051dW9laEV0aGRjT2xqWWx3dFNLb2x2b1RiMEI0ZFl3RHVmM19MWVFuX0NDUUwyMzB5NVoyOFJSQ0k3M3NBWVJTYXptWU92QXE4MGFuNUpDdHJ4Mi13RFJUZ09waDhSc01tT0ZwbUpZVnNnZHliWU03TEI4UThVM1J2LWJOWGVmeDltTzA?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 9,
+      "matchedAliases": [
+        "AVGO",
+        "Broadcom"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Broadcom (AVGO) Stock Could Be A Bargain On Cash Flow Yet Rich On Earnings &nbsp;&nbsp; Yahoo Finance",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "googl",
+      "ticker": "GOOGL",
+      "companyName": "Alphabet / Google / 字母表",
+      "date": "2026-07-01",
+      "title": "Meta plots AI cloud business to challenge Amazon, Microsoft and Google - Los Angeles Times",
+      "sourceName": "Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTVZGdlB4blRWcE83MGlTUE5INWdsZkZVekVrc0dsTno5azdvLW9sZDI5UmRBdUt6R2YzRHo4T2pja0tzQnNiNEJIcm0tamN6Y245dGFrV0ZiWGdMSmozaXRfM3BzZXk3cmFOUFROMTJrY0Zrd1d2d1FadHJNRlJPenV3enJ4Si1BdmtOQTI3VktQMXBLRmNGM2JJaWk1MjNqZTltWGRDLVMwRmNJVVZjRGZfZDVJdw?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 9,
+      "matchedAliases": [
+        "GOOGL",
+        "Google"
+      ],
+      "matchedTerms": [
+        "cloud business"
+      ],
+      "summary": "Meta plots AI cloud business to challenge Amazon, Microsoft and Google &nbsp;&nbsp; Los Angeles Times",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "googl",
+      "ticker": "GOOGL",
+      "companyName": "Alphabet / Google / 字母表",
+      "date": "2026-07-01",
+      "title": "Watch Meta Is Planning Cloud Business to Take on Amazon, Google - Bloomberg.com",
+      "sourceName": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR2xMbmxiSUJWYllKYkJhSTVmRzJ5NHF3UUFZTmxScmNxTEZOQzV4OEFpOXhOYjg2N0lLdjVXS0pObW5ESkRucFVWblBLOW1hNDR3LS10OEhlNHZuSnpwVUI5VW9JMTNNR0lOYXZ6TjJkQkNuTS1ob0FiUF81RlE2ZHcydl90Y29OaXdZN2V0MUJYc05vdmFuZWRxMlVISDIwNXJ4N3dIWnFNRXF1WFRVQQ?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 9,
+      "matchedAliases": [
+        "GOOGL",
+        "Google"
+      ],
+      "matchedTerms": [
+        "cloud business"
+      ],
+      "summary": "Watch Meta Is Planning Cloud Business to Take on Amazon, Google &nbsp;&nbsp; Bloomberg.com",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "hpe",
+      "ticker": "HPE",
+      "companyName": "Hewlett Packard Enterprise / 慧与",
+      "date": "2026-07-01",
+      "title": "Why Is Hewlett Packard Enterprise (HPE) Down 19.7% Since Last Earnings Report? - Yahoo Finance",
+      "sourceName": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNTkzVkw3THg3M1FNd1pLX21UbHdEd2pnTVN3TE9COHNYcmxwa2NOWkJrNUxvRkVFbGpEN0UzdXVkX0ZPRnc4NEdoZnkyTHlkb3JETjVUSWN3QzZYaXN6cXh6UjVXMGdGdnJzMlJFcklVWFl0NHZyckVaaXd2UmdhTkQ0NzJtc3NqSmlFdWFFbk1mRkQ2d1lmbWp5MWgtWE1v?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 9,
+      "matchedAliases": [
+        "HPE",
+        "Hewlett Packard Enterprise"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Why Is Hewlett Packard Enterprise (HPE) Down 19.7% Since Last Earnings Report? &nbsp;&nbsp; Yahoo Finance",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "lrcx",
+      "ticker": "LRCX",
+      "companyName": "Lam Research / 泛林集团",
+      "date": "2026-07-01",
+      "title": "Will Lam Research (LRCX) Beat Estimates Again in Its Next Earnings Report? - Yahoo Finance",
+      "sourceName": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRlU5VjZoTWZna2JacnFkclJyQWZsQnFpUzN1S1A2cF9DcjM1dXdiM21xWXJvTmlmMUNzWGFhZHdHdVA5bFM3OFNQTzIyNHdyaG93czZ5OVRDeWVaeG94UjBzaHhvTG5GSXNoWGpRRURlSnNCSmFjZ1FNYjJLY3BLemNWUElseHI0UXZKVW1OTUVBX3ZGY3V4MFg3RGozZw?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 9,
+      "matchedAliases": [
+        "LRCX",
+        "Lam Research"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Will Lam Research (LRCX) Beat Estimates Again in Its Next Earnings Report? &nbsp;&nbsp; Yahoo Finance",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "sndk",
+      "ticker": "SNDK",
+      "companyName": "Sandisk / 闪迪",
+      "date": "2026-07-01",
+      "title": "Sandisk’s and Micron’s stocks sink as the rotation trade builds, but supply shortages should limit losses - MarketWatch",
+      "sourceName": "MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQYjdLaHBXeklPektNa0dPdUJtWUVWVlBKMTNqVkxMQnZqZ29HMmFfdFppcGFlYzROSC1Ic1hrUlZ2N1c4SEZlenNCSjE5TlQxVk5tR2lkdGJHYlRjSmhqY0xtWVU1RTgyZmZIM002OXJ3T0NFR3U5dXFuSHlVb0tRZmM0NTBPNEFWckNyTld6dzNKa3c4Zm5DNGYzV29PbXNwR1A2R3NIODRzMnlUUG9BcGcyTnN0cG8xdjVUNEZoU19SY3BnQXFsenNTS18wclIxdl83Z1VMX3V5ZWJIdUE?oc=5",
+      "category": "capacity-supply",
+      "categoryZh": "产能/供给",
+      "categoryEn": "Capacity / supply",
+      "score": 9,
+      "matchedAliases": [
+        "Sandisk",
+        "SanDisk"
+      ],
+      "matchedTerms": [
+        "supply",
+        "shortage"
+      ],
+      "summary": "Sandisk’s and Micron’s stocks sink as the rotation trade builds, but supply shortages should limit losses &nbsp;&nbsp; MarketWatch",
+      "impactZh": "这类事件可能影响产业链卡点、价格、交付周期和利润率；需要交叉验证产能规模、时间点和客户认证。",
+      "impactEn": "This type of event may affect scarce layers, pricing, delivery lead times, and margins; cross-check capacity scale, timing, and customer qualification.",
+      "evidenceLevel": "medium",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "vsat",
+      "ticker": "VSAT",
+      "companyName": "Viasat / 维亚萨特",
+      "date": "2026-07-01",
+      "title": "Viasat (VSAT) Secures New Award to Deliver Dual-Band Satellite System - Insider Monkey",
+      "sourceName": "Insider Monkey",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNGJZcjVvcUlPS1puUzBwMFpnMi1oODNESjhpaHZNczFjVUpMdzZ4azk1Qm1USld1akxFSGJXeHE2YVBUVlF0LWlxOU1VSDczaGd3M0tTYXRJZWs3QTgwSXZpNUZ4bHJQUWg4ZjZGaldUdW9VX2RLaWNvTVFKZ09hZElQQ2hLZUVKYk1fQTJBbDdZM2pJYmNrejJYaEhFS0xVa1VJOXpKUHczUU02NnBCd3dQa1dJdml60gG4AUFVX3lxTE00YllyNW9xSU9LWm5TMHAwWmcyLWg4M0RKOGlodk1zMWNVSkx3NnhrOTVCbVRKV3VqTEVIYld4cTZhUFRWUXQtaXE5TVVINzNoZ3czS1NhdEllazdBODBJdmk1RnhsclBRaDhmNkZqV1R1b1VfZEtpY29NUUpnT2FkSVBDaEtlRUpiTV9BMkFsN1kzakliY2t6MlhoSEVLTFVrVUk5ekpQdzNRTTY2cEJ3d1BrV0l2aXo?oc=5",
+      "category": "regulatory-policy",
+      "categoryZh": "政策/监管",
+      "categoryEn": "Policy / regulation",
+      "score": 9,
+      "matchedAliases": [
+        "VSAT",
+        "Viasat"
+      ],
+      "matchedTerms": [
+        "ban"
+      ],
+      "summary": "Viasat (VSAT) Secures New Award to Deliver Dual-Band Satellite System &nbsp;&nbsp; Insider Monkey",
+      "impactZh": "这类事件可能影响可销售市场、供应链路径、客户采购和合规成本；需要优先核对监管原文。",
+      "impactEn": "This type of event may affect addressable markets, supply-chain routing, customer procurement, and compliance costs; prioritize original regulatory text.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "googl",
+      "ticker": "GOOGL",
+      "companyName": "Alphabet / Google / 字母表",
+      "date": "2026-06-30",
+      "title": "Google Ads Customer Loyalty Data Can Be Uploaded Via Merchant API - Search Engine Roundtable",
+      "sourceName": "Search Engine Roundtable",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBPNVFoWkp2TFJSaWZBMzI1VDJaQnN5NFlRbS1CeWhxMHF6MEp5anl5VVFIVXg1dXp4X1huTFh1Q1dUdTZ3SzMyWXY5MWJFY0J1V3VKMmxKWjc4Z0s3VFpfV19kMnlfbmM4LWhKSGNabjdLMjdZdUoxRFJ3QmVVbkU?oc=5",
+      "category": "contract-order",
+      "categoryZh": "订单/合同",
+      "categoryEn": "Orders / contracts",
+      "score": 9,
+      "matchedAliases": [
+        "GOOGL",
+        "Google"
+      ],
+      "matchedTerms": [
+        "customer"
+      ],
+      "summary": "Google Ads Customer Loyalty Data Can Be Uploaded Via Merchant API &nbsp;&nbsp; Search Engine Roundtable",
+      "impactZh": "这类事件可能影响收入可见度、资本开支回收和客户集中度；需要确认合同金额、期限、取消条款和交付节奏。",
+      "impactEn": "This type of event may affect revenue visibility, capex payback, and customer concentration; verify contract size, duration, cancellation terms, and delivery timing.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "intc",
+      "ticker": "INTC",
+      "companyName": "Intel Corporation",
+      "date": "2026-06-30",
+      "title": "INTC Stock Soars Past Its 2000’s Record Closing Price After Q2 Earnings Guidance Roars Past Wall Street Estimates - Stocktwits",
+      "sourceName": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOci03VUZxUGNtaGEyVjNFNlFWWjN1c1FBcU10RVNnNHFJRW0ydjdoZnpLN0E4NjB6clpFMWthMG1nb3VvaEcwamdKakF1T3pYX3VlVmRhU0F1c09wM3JCM3c1Q0Y4UG9kZThySVJXWEZySmdfYTB3N09GMTdfblJlSDFOZ3pndjZwT0Q5VVUtMVBlb1ZXM2RFTGxpaHNSTWlqWG1SR2xQdkxpOHM0VGR6X1lFdEhyMzg1UFFEWEpSMUFvcmwtVk9GVnJkVWJ0MkNrekU4UjFVWFRncjJJZVdhMEFXVWdIUmNjbDBDVEFPSm5ROExJX2JCQjl6WXdDeVJFTmRnczZiM1A?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 9,
+      "matchedAliases": [
+        "INTC"
+      ],
+      "matchedTerms": [
+        "earnings",
+        "guidance"
+      ],
+      "summary": "INTC Stock Soars Past Its 2000’s Record Closing Price After Q2 Earnings Guidance Roars Past Wall Street Estimates &nbsp;&nbsp; Stocktwits",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "rklb",
+      "ticker": "RKLB",
+      "companyName": "Rocket Lab / 火箭实验室",
+      "date": "2026-06-30",
+      "title": "Rocket Lab (NASDAQ: RKLB) Agrees To Acquire Iridium Communications In $8 Billion All-Stock Deal - foreignpolicyjournal.com",
+      "sourceName": "foreignpolicyjournal.com",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUmJtWmdNdXV6V0N6clJrV093cEtmMTgwbmlId0pzR2U4X3BpaTFDZTR5c0dlc01aYlpfYlA0Tk94NGlub25HWjQwUUpvdWhLZEtCbnFBaGZWbkYzV0pWTC1NNl9vZzdoVUpTcnpWaHB6OUJxQ053eDhCX1B1dVhYTjAxenl4Ymhxa0xwTkVlWGRfOXRqLXpJZzYySEl6MWt3M2d5aUU2MTNuZUlGTTY1YnVaSDRtbHJKYm1zcWI2T2ktc0ZNUlpuQ3dYbWdXSUt0b1lQX25JYw?oc=5",
+      "category": "contract-order",
+      "categoryZh": "订单/合同",
+      "categoryEn": "Orders / contracts",
+      "score": 9,
+      "matchedAliases": [
+        "RKLB",
+        "Rocket Lab"
+      ],
+      "matchedTerms": [
+        "deal"
+      ],
+      "summary": "Rocket Lab (NASDAQ: RKLB) Agrees To Acquire Iridium Communications In $8 Billion All-Stock Deal &nbsp;&nbsp; foreignpolicyjournal.com",
+      "impactZh": "这类事件可能影响收入可见度、资本开支回收和客户集中度；需要确认合同金额、期限、取消条款和交付节奏。",
+      "impactEn": "This type of event may affect revenue visibility, capex payback, and customer concentration; verify contract size, duration, cancellation terms, and delivery timing.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "nvda",
+      "ticker": "NVDA",
+      "companyName": "NVIDIA Corporation",
+      "date": "2026-07-02",
+      "title": "NVIDIA Price Forecast: Michael Burry Shorts NVDA, but Analysts See $299 - TradingKey",
+      "sourceName": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcllYdFgteHVGLUZYa0d3ckNFSEZLSkNERXo4VDdjM2Q1YUJKSTVnZTluOUZCdnNTRWR0dWJ6OGYyNHFReXFReDFzNThLdmRPb1hfczBlb2Z1U3dnUDlPQmtadGE5bkl0T3ozVmZGZzRXejYtdjcxWkdLS3Z2b2RWYjFRSWhYb05Qd25IcWJWa19TY0U5b3puYUpUOUhKYXIwLTJyWmRoc2pQUXptM3B1TV9CMzA2TS1rMGJhbFlQTE51SmxHTmVhck1pNnliOHVuSjFobEtuNmM?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 8,
+      "matchedAliases": [
+        "NVDA"
+      ],
+      "matchedTerms": [
+        "forecast"
+      ],
+      "summary": "NVIDIA Price Forecast: Michael Burry Shorts NVDA, but Analysts See $299 &nbsp;&nbsp; TradingKey",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "orcl",
+      "ticker": "ORCL",
+      "companyName": "Oracle / 甲骨文",
+      "date": "2026-07-02",
+      "title": "CPI FIM (BDL:ORCL) Stock May Be A Bargain On Earnings But Weak On Broader Checks - Yahoo Finance",
+      "sourceName": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMVNDMXBNVURkZkVvSEpyaVVrWXNKQmloZTBtT1BrQWp5YjdSUnlUX2YyektNaE5wTjV1WmVES0VRc3BvdENfelpfbkY2bHZrZnJLSFpLTXB6Q3JHUDJ1RVZSOTREMnRmTHY0N2JEd0FYSzFRODdIYW1XLWsyVks3eTkwX1JTNURuUHFEMHVTQkI?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 8,
+      "matchedAliases": [
+        "ORCL"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "CPI FIM (BDL:ORCL) Stock May Be A Bargain On Earnings But Weak On Broader Checks &nbsp;&nbsp; Yahoo Finance",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "aapl",
+      "ticker": "AAPL",
+      "companyName": "Apple Inc.",
+      "date": "2026-07-01",
+      "title": "Reflecting On Consumer Discretionary Stocks’ Q1 Earnings: Apple (NASDAQ:AAPL) - Yahoo Finance",
+      "sourceName": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOU3FERGlWa3A1UFUtWjBnSVlJYnRTOGoxbjRFSktJUmxzMy1UWVhxQ3hENk15bWZrdF9CcGpVMUdJVzEzNUxKWnRvOUM1cFd4dkN3eVh6RExJZVBHZWVHdWJlcFlwcEU5WTRlNGt3a2ZQNXVGMHVFUUo2bXNial9xc21LYmFhbWtMU3ZIbTJNQTJBOFpwWmd0YzhoZWJLQUllOUhLMnZSUlM1b0tV?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 8,
+      "matchedAliases": [
+        "AAPL"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Reflecting On Consumer Discretionary Stocks’ Q1 Earnings: Apple (NASDAQ:AAPL) &nbsp;&nbsp; Yahoo Finance",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "asts",
+      "ticker": "ASTS",
+      "companyName": "AST SpaceMobile / AST 太空移动",
+      "date": "2026-07-01",
+      "title": "ASTS Stock Faces Launch Pressure: BlueBird 8-10 Shipment Clock Ticks Ahead Of Earnings Next Week - Stocktwits",
+      "sourceName": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNjRCTEVaV1NwZE5IOTgwbkdBa2VweUw2Z3hXcHNFN3RuZGFBWERvUVlzaGVsUGJhUFNHbURBNkdzS1BEOXpPX2ZhSmdEWGRwVkpiMzd4TS02ckxfb3RaRm9zSVhPNm1Qb3l2SzNKY1V3ZWhQTUNnazBXYkhOV1YyTEdwN2p4OEQ3bTROeV90bzJheHJBVm9VbWVCVlhHM2FKU3k4MVR3ZlhheVBNN3ZTa1hFUzFMenlPX2ZIYzAtdjQ?oc=5",
+      "category": "capacity-supply",
+      "categoryZh": "产能/供给",
+      "categoryEn": "Capacity / supply",
+      "score": 8,
+      "matchedAliases": [
+        "ASTS"
+      ],
+      "matchedTerms": [
+        "shipment"
+      ],
+      "summary": "ASTS Stock Faces Launch Pressure: BlueBird 8-10 Shipment Clock Ticks Ahead Of Earnings Next Week &nbsp;&nbsp; Stocktwits",
+      "impactZh": "这类事件可能影响产业链卡点、价格、交付周期和利润率；需要交叉验证产能规模、时间点和客户认证。",
+      "impactEn": "This type of event may affect scarce layers, pricing, delivery lead times, and margins; cross-check capacity scale, timing, and customer qualification.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "crwv",
+      "ticker": "CRWV",
+      "companyName": "CoreWeave / CoreWeave AI 云",
+      "date": "2026-07-01",
+      "title": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius - Barron's",
+      "sourceName": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaTI0bWdTNFdLenJMZkx3SlhUZGxZWWJJRENXdWdLWmZlQVZGdXA2ak9VN1c4czdSSGtpYlhQM1lEaHNsWHptOEZCRlFtRjNORUZ3M0ZuYVYwYi0yU2lORmYtWGFZSkM2dGRpUXQxXzgybEh6Z0VYR2J3M18ydDRXRjlUX0k?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 8,
+      "matchedAliases": [
+        "CoreWeave"
+      ],
+      "matchedTerms": [
+        "move to the cloud",
+        "bad news for"
+      ],
+      "summary": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius &nbsp;&nbsp; Barron's",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "medium",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "intc",
+      "ticker": "INTC",
+      "companyName": "Intel Corporation",
+      "date": "2026-07-01",
+      "title": "Intel (NASDAQ:INTC) still trades at a 37% premium despite stock slide ahead of July results - TechStock²",
+      "sourceName": "TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT1ctRWpDR2wwdHc1dW5RY0NGeFViQXJOTFFjLVpyUlNtbEp2SWdrc2VVNFdnV3FvZnNKTnNOREVFYjBOQnQtUG5HV0xCWUJhbmFMeW9ZQTBwNFpIMlVYWllUNUM4MVAwdFNZek84TVRBMFNfZnNHcDFyY0dzZnVCbHdoaXFDdmJDUXcyN2RJQks3RFhSNmhTX2hPckVic1JpRnRKaXVkZTVGQlhs?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 8,
+      "matchedAliases": [
+        "INTC"
+      ],
+      "matchedTerms": [
+        "results"
+      ],
+      "summary": "Intel (NASDAQ:INTC) still trades at a 37% premium despite stock slide ahead of July results &nbsp;&nbsp; TechStock²",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "nbis",
+      "ticker": "NBIS",
+      "companyName": "Nebius / Nebius AI 云",
+      "date": "2026-07-01",
+      "title": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius - Barron's",
+      "sourceName": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaTI0bWdTNFdLenJMZkx3SlhUZGxZWWJJRENXdWdLWmZlQVZGdXA2ak9VN1c4czdSSGtpYlhQM1lEaHNsWHptOEZCRlFtRjNORUZ3M0ZuYVYwYi0yU2lORmYtWGFZSkM2dGRpUXQxXzgybEh6Z0VYR2J3M18ydDRXRjlUX0k?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 8,
+      "matchedAliases": [
+        "Nebius"
+      ],
+      "matchedTerms": [
+        "move to the cloud",
+        "bad news for"
+      ],
+      "summary": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius &nbsp;&nbsp; Barron's",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "medium",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "nvda",
+      "ticker": "NVDA",
+      "companyName": "NVIDIA Corporation",
+      "date": "2026-07-01",
+      "title": "Nvidia (NVDA) Stock: Leading Semiconductor Analyst Predicts 20% Revenue Surge Above Consensus - Blockonomi",
+      "sourceName": "Blockonomi",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOXzlDeVNvakRSMFNfWWMwWWZBeU1oallJNEdvSGdyc0ZBVlVPdGhXeEJxSEd1bzFKajV6MXJlbW9IaWIxcHFEMWxEbktGQVZlZ2ZyMkdhRVRBQ015RW44MUJMSk1IQjk3cmVDT0VoR1plWkItd3FyOFlTdEVJUnd4NUM4c1AtZGZSN3B4bkhsRl95OEVfdW40QTljVUo3UjdvOWt4cnE5eXNzMXhVMFhhYl9FOA?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 8,
+      "matchedAliases": [
+        "NVDA"
+      ],
+      "matchedTerms": [
+        "revenue"
+      ],
+      "summary": "Nvidia (NVDA) Stock: Leading Semiconductor Analyst Predicts 20% Revenue Surge Above Consensus &nbsp;&nbsp; Blockonomi",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "tsla",
+      "ticker": "TSLA",
+      "companyName": "Tesla / 特斯拉",
+      "date": "2026-07-01",
+      "title": "TSLA Stock On Track To Snap 8-Week Losing Streak Ahead Of Q1 Earnings - Stocktwits",
+      "sourceName": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMkdyeFN6YWswZFh6WlNOTndza2RHTXgzOGxtel9UOE5lMkpUa0I1el9EMEJCN3B2YTByMGptdkEtT3lqX1NvLU5nR2x0a011TVgtb0tzaDNyVnVBQnZDdWItZjQ5Y2QwRUZFa0pTWXpBMGNUckxRNHdqRUwyVjRZT0F3VUhKdkRKZWlGc2hEZzZmYmZXV0RLbW1iM1JFSXhJZ0FrTnNLWkN5TlJCNnJmTnNfX1phLURiQ1hQVHg5V2tac2h2dnJ1RUpn?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 8,
+      "matchedAliases": [
+        "TSLA"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "TSLA Stock On Track To Snap 8-Week Losing Streak Ahead Of Q1 Earnings &nbsp;&nbsp; Stocktwits",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "aapl",
+      "ticker": "AAPL",
+      "companyName": "Apple Inc.",
+      "date": "2026-06-30",
+      "title": "Tax Refunds Boosting Earnings Potential for Companies Like AAPL - GuruFocus",
+      "sourceName": "GuruFocus",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ3dIUXZUU0t5SHZydUY4MFdFSm5pUXFLM25KZTJmYjZKTmkyTTB2d3ByN1gzR3ZYdmdzaVRNaE51SFhCTHViR3VUZFNRNTZDOGdyekM5UDNZdmJ1WVkxRGVMR09pVEgydGxQbzQ0VnVvOVlqWUFWSWo5OVlRNGdUbkpZcVZwc1RSV0pMUlB6UGMwZl9HTGN5ZExsUDJ6eENaVG0wTA?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 8,
+      "matchedAliases": [
+        "AAPL"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Tax Refunds Boosting Earnings Potential for Companies Like AAPL &nbsp;&nbsp; GuruFocus",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "aapl",
+      "ticker": "AAPL",
+      "companyName": "Apple Inc.",
+      "date": "2026-06-30",
+      "title": "Dow, S&P 500, Nasdaq Futures Climb On Tech Earnings Optimism: AKAN, AAPL, RDDT, RIVN Stocks In Focus - Stocktwits",
+      "sourceName": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSlFBc2U2RGU4YWVianVvbTAtUXVzX2hXQm42ZEt1SXlGRlE0dm1tbXhqRy1zbVVKUnpQVTQyWTJFUFBkdnpLRzdOYm1lTVpSZWJJVXNFVXBzMmRCckFjQ0h2SFNjd2hzTExneS16dUdRZlduekEyNFpsUmNtR25uR2hqa1R0bS1ueDRJRWVuSHVEeUgwLWhuM2tJckMtTW0xZDFaOVlCRHB4RVhzX2hpZnRKZHQ1eHhnQ0xfNg?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 8,
+      "matchedAliases": [
+        "AAPL"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Dow, S&P 500, Nasdaq Futures Climb On Tech Earnings Optimism: AKAN, AAPL, RDDT, RIVN Stocks In Focus &nbsp;&nbsp; Stocktwits",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "amzn",
+      "ticker": "AMZN",
+      "companyName": "Amazon / 亚马逊",
+      "date": "2026-07-01",
+      "title": "Meta plans cloud business to rival Amazon and Google - Crypto Briefing",
+      "sourceName": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5aUTFnbWVTSHJzNmlRekJ5TFM3SEwwMl9Za1JKRWxOZW1iVXNsT3U5Z1FFNlVnekZaR0lhX2w3cVJVYmN2ZjZjclFfM2wzSzZDY1RiRXdmMTJGc3hnQ2xaZ1o0TEE0Y0ppcGlvVFJmRGE3Q0p2SFE?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 7,
+      "matchedAliases": [
+        "Amazon"
+      ],
+      "matchedTerms": [
+        "cloud business",
+        "rival"
+      ],
+      "summary": "Meta plans cloud business to rival Amazon and Google &nbsp;&nbsp; Crypto Briefing",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "klac",
+      "ticker": "KLAC",
+      "companyName": "KLA / 科磊",
+      "date": "2026-07-01",
+      "title": "US market outlook: KLA rises; Swedish court orders Google to pay $1.97 billion in damages; Meta gains on reports of building a cloud business to sell excess AI computing capacity; Micron and GM sign agreement for automotive semiconductor supply - Moomoo",
+      "sourceName": "Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR1BIZ1U4WGlWRWtoeGpwZVY4YjV2OTVfYV82Q3J0ZDhQWFI3ek1PZWkwbFVKZnZDZ21zdzc3NFJVY3oyWnVjSUJTTlFGSFBpQzNjSFJfY3M1RmZqV1MzMHBxM3QtSkY4WkkwSndJYi1teWtLRnZ0VHVUUzAxZDAtaFRkMWJENDRVWHlhM2hxV1ljaV9mMlRZMlRBTHB0WUdNRlBrWkVmcEk?oc=5",
+      "category": "contract-order",
+      "categoryZh": "订单/合同",
+      "categoryEn": "Orders / contracts",
+      "score": 7,
+      "matchedAliases": [
+        "KLA"
+      ],
+      "matchedTerms": [
+        "agreement",
+        "order"
+      ],
+      "summary": "US market outlook: KLA rises; Swedish court orders Google to pay $1.97 billion in damages; Meta gains on reports of building a cloud business to sell excess AI computing capacity; Micron and GM sign agreement for automotive semiconductor supply &nbsp;&nbsp; Moomoo",
+      "impactZh": "这类事件可能影响收入可见度、资本开支回收和客户集中度；需要确认合同金额、期限、取消条款和交付节奏。",
+      "impactEn": "This type of event may affect revenue visibility, capex payback, and customer concentration; verify contract size, duration, cancellation terms, and delivery timing.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "sndk",
+      "ticker": "SNDK",
+      "companyName": "Sandisk / 闪迪",
+      "date": "2026-07-01",
+      "title": "Sandisk Is One of the Biggest Winners After Micron's Blowout Earnings - Yahoo Finance",
+      "sourceName": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSkxieUgyd1hiaVJyaS1TWXNGUVlFV1NoN0Y2YTc0UzhOUmF2Zmp2dHo0X3ZTZ2dNX1ppcjlneUp2Ymp3TUVjQlJHT0tOMlQ2Q2Y1c2toLThzYjY2dFFBSkJJSldfa1JwaUZ5STRWOGdEbF9UcjJIMkxHdjNXLXY2TTFpNVdPeHBJXy16a084bERWbWQxSkcwWWItNGlTMDl2anc?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 7,
+      "matchedAliases": [
+        "Sandisk",
+        "SanDisk"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Sandisk Is One of the Biggest Winners After Micron's Blowout Earnings &nbsp;&nbsp; Yahoo Finance",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "sndk",
+      "ticker": "SNDK",
+      "companyName": "Sandisk / 闪迪",
+      "date": "2026-07-01",
+      "title": "Bank of America Revamps Sandisk Stock Price Target for 2027 - TradingView",
+      "sourceName": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMmt2RnIwUDZTLTlFaUZfWWY5MXRVLWtpSkJIaC1EQmotaXBpLUZJTkU5U2dZdFJ0aHA4cXBkX2RKZnctWmZLS0sxRHpFWkJEa1l3SUpuUlhCcnRDR2JYa2VsX2ZBVDdhT3pQTUsxNHB5YkpkOEdxaXZtR2hDMkNSemF1czhUUFM4a0dLNENhZnZSYVFYNjZQNmNYLUo3MzZlY1JaMEpFUENBVlZ0TkZFV25iTDZSVjh3OXZN?oc=5",
+      "category": "regulatory-policy",
+      "categoryZh": "政策/监管",
+      "categoryEn": "Policy / regulation",
+      "score": 7,
+      "matchedAliases": [
+        "Sandisk",
+        "SanDisk"
+      ],
+      "matchedTerms": [
+        "ban"
+      ],
+      "summary": "Bank of America Revamps Sandisk Stock Price Target for 2027 &nbsp;&nbsp; TradingView",
+      "impactZh": "这类事件可能影响可销售市场、供应链路径、客户采购和合规成本；需要优先核对监管原文。",
+      "impactEn": "This type of event may affect addressable markets, supply-chain routing, customer procurement, and compliance costs; prioritize original regulatory text.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "sndk",
+      "ticker": "SNDK",
+      "companyName": "Sandisk / 闪迪",
+      "date": "2026-07-01",
+      "title": "Sandisk Is One of the Biggest Winners After Micron's Blowout Earnings - AOL.com",
+      "sourceName": "AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZ0J0dzlpMVFMYmw2bU9OZGhZWEZSMkh4a2Itc28zQjJya21nUlBzRHo5YTUtVTRIR2tRUWpuSlRFNGJTbVZydmNaNjlNNVNhYjZYMGtxd0JSS1J4cVZVLVJWdDJWMVA3c19jREhTclM2OXNyTUdlZkRTWEFHSmxLcHlBQkZpQQ?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 7,
+      "matchedAliases": [
+        "Sandisk",
+        "SanDisk"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Sandisk Is One of the Biggest Winners After Micron's Blowout Earnings &nbsp;&nbsp; AOL.com",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "nvda",
+      "ticker": "NVDA",
+      "companyName": "NVIDIA Corporation",
+      "date": "2026-06-30",
+      "title": "Just Ahead Of NVDA Earnings, Beijing Reportedly Tightened The Screws On Another Nvidia Chip - Stocktwits",
+      "sourceName": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPa3dYLTNYX2tXbWFLOHVjYzJpbTR0Q0IxdEJxZjJGVzQwc1Yzb0xQVTRGSllySzNaSmVsLVAwNnYzNVRDcEVFUHFrUDUxci05djhET3ZuRUlYUzFzVFRkYjdPdGItRjR6bXJreG5rMnpyOXBwY0hhczhYVW5aVFNkajBLV1RjN3hJSldqbkJoY2ZoZDBIeXpoaUFHTllmTk1pYWtMSUVMMHZVNE5Za053dEk5UXUzTk04MjNuaUZlbXdTclQwcmVtendERTI1UVBhSnlmenNPVVJtN0RoU2ltUXVXdTQ2eHJ3b3hRckJxYTlGbzlQX3dyb1lhSU8?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 7,
+      "matchedAliases": [
+        "NVDA"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Just Ahead Of NVDA Earnings, Beijing Reportedly Tightened The Screws On Another Nvidia Chip &nbsp;&nbsp; Stocktwits",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "tsla",
+      "ticker": "TSLA",
+      "companyName": "Tesla / 特斯拉",
+      "date": "2026-06-30",
+      "title": "Sunrun, Renew Home and Tesla join forces to expand residential virtual power capacity for rising data center electricity demand - Energies Media",
+      "sourceName": "Energies Media",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE92MEpFZ3UxV1hWbVpKSTNveGpnUVFPLWE2c182d0thaWFHRjBJVjF2bEs0QTdEa3A1bmJmR3lOOHh5Znlibnp0NmxRUlR1OGdadlhZVGtsTWJiNW9xSm9ZY3dHSHJPOFdpaEJHRlNpUEF2eDVyeDJhay14WEk2eGc?oc=5",
+      "category": "capacity-supply",
+      "categoryZh": "产能/供给",
+      "categoryEn": "Capacity / supply",
+      "score": 7,
+      "matchedAliases": [
+        "Tesla"
+      ],
+      "matchedTerms": [
+        "capacity",
+        "data center"
+      ],
+      "summary": "Sunrun, Renew Home and Tesla join forces to expand residential virtual power capacity for rising data center electricity demand &nbsp;&nbsp; Energies Media",
+      "impactZh": "这类事件可能影响产业链卡点、价格、交付周期和利润率；需要交叉验证产能规模、时间点和客户认证。",
+      "impactEn": "This type of event may affect scarce layers, pricing, delivery lead times, and margins; cross-check capacity scale, timing, and customer qualification.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "amzn",
+      "ticker": "AMZN",
+      "companyName": "Amazon / 亚马逊",
+      "date": "2026-07-01",
+      "title": "Meta plots AI cloud business to challenge Amazon, Microsoft and Google - Los Angeles Times",
+      "sourceName": "Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTVZGdlB4blRWcE83MGlTUE5INWdsZkZVekVrc0dsTno5azdvLW9sZDI5UmRBdUt6R2YzRHo4T2pja0tzQnNiNEJIcm0tamN6Y245dGFrV0ZiWGdMSmozaXRfM3BzZXk3cmFOUFROMTJrY0Zrd1d2d1FadHJNRlJPenV3enJ4Si1BdmtOQTI3VktQMXBLRmNGM2JJaWk1MjNqZTltWGRDLVMwRmNJVVZjRGZfZDVJdw?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 6,
+      "matchedAliases": [
+        "Amazon"
+      ],
+      "matchedTerms": [
+        "cloud business"
+      ],
+      "summary": "Meta plots AI cloud business to challenge Amazon, Microsoft and Google &nbsp;&nbsp; Los Angeles Times",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "amzn",
+      "ticker": "AMZN",
+      "companyName": "Amazon / 亚马逊",
+      "date": "2026-07-01",
+      "title": "Watch Meta Is Planning Cloud Business to Take on Amazon, Google - Bloomberg.com",
+      "sourceName": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR2xMbmxiSUJWYllKYkJhSTVmRzJ5NHF3UUFZTmxScmNxTEZOQzV4OEFpOXhOYjg2N0lLdjVXS0pObW5ESkRucFVWblBLOW1hNDR3LS10OEhlNHZuSnpwVUI5VW9JMTNNR0lOYXZ6TjJkQkNuTS1ob0FiUF81RlE2ZHcydl90Y29OaXdZN2V0MUJYc05vdmFuZWRxMlVISDIwNXJ4N3dIWnFNRXF1WFRVQQ?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 6,
+      "matchedAliases": [
+        "Amazon"
+      ],
+      "matchedTerms": [
+        "cloud business"
+      ],
+      "summary": "Watch Meta Is Planning Cloud Business to Take on Amazon, Google &nbsp;&nbsp; Bloomberg.com",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "amzn",
+      "ticker": "AMZN",
+      "companyName": "Amazon / 亚马逊",
+      "date": "2026-07-01",
+      "title": "Data centre of the month: Scaling Amazon’s Missouri data centre - capacityglobal.com",
+      "sourceName": "capacityglobal.com",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9SU2lHc1J1N2gtdTBXMWxtNG1RNkk5YWVKTUE5OTdLWENSbTdadnpUbW1fM3FEM1F4a0ZiTXFDNFVaaFV0TmtXNHY1ekdIcFRieENmOXZsaEpPc1M1X05zR2dvUFJsODV2VFJQRjFjM09GMWF5VzlPVUlMMFkzdw?oc=5",
+      "category": "capacity-supply",
+      "categoryZh": "产能/供给",
+      "categoryEn": "Capacity / supply",
+      "score": 6,
+      "matchedAliases": [
+        "Amazon"
+      ],
+      "matchedTerms": [
+        "capacity"
+      ],
+      "summary": "Data centre of the month: Scaling Amazon’s Missouri data centre &nbsp;&nbsp; capacityglobal.com",
+      "impactZh": "这类事件可能影响产业链卡点、价格、交付周期和利润率；需要交叉验证产能规模、时间点和客户认证。",
+      "impactEn": "This type of event may affect scarce layers, pricing, delivery lead times, and margins; cross-check capacity scale, timing, and customer qualification.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "crwv",
+      "ticker": "CRWV",
+      "companyName": "CoreWeave / CoreWeave AI 云",
+      "date": "2026-07-01",
+      "title": "Stock Market Today, July 1: CoreWeave Stock Tumbles as Meta Cloud Report Raises Customer Concerns - The Motley Fool",
+      "sourceName": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQcnZ3ZGpaMWhQZWI3MkxhZlVnZnFMVm91cGV2VE0yb003bnJiUVBmUWk1NDlfX2x3QWNJUWZ3ZUVkLWVldnNSRHJFNEdoeU1ReUozVTJEVU5vRXpCcXFyVUdCbXV2a2VrcjE3bmJJMDBwOXgtUm5rQ01KeVBQbkNQd01hNWU1UlpITjAxUjZBOWtXajZ2OHJFNEc3eU5UQ0xHNWZRNk0xR1F6ZlRGMUxRU1BwbzZEUFpjZkNpWEhqSGNoaHZFR2dhRkZ1UjAzNzFxek05R0dlTmFraGZNaVlYNjVEM2JlMXk3Zl9law?oc=5",
+      "category": "contract-order",
+      "categoryZh": "订单/合同",
+      "categoryEn": "Orders / contracts",
+      "score": 6,
+      "matchedAliases": [
+        "CoreWeave"
+      ],
+      "matchedTerms": [
+        "customer"
+      ],
+      "summary": "Stock Market Today, July 1: CoreWeave Stock Tumbles as Meta Cloud Report Raises Customer Concerns &nbsp;&nbsp; The Motley Fool",
+      "impactZh": "这类事件可能影响收入可见度、资本开支回收和客户集中度；需要确认合同金额、期限、取消条款和交付节奏。",
+      "impactEn": "This type of event may affect revenue visibility, capex payback, and customer concentration; verify contract size, duration, cancellation terms, and delivery timing.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "crwv",
+      "ticker": "CRWV",
+      "companyName": "CoreWeave / CoreWeave AI 云",
+      "date": "2026-07-01",
+      "title": "CoreWeave Stock Drops Sharply on Report of Meta AI Cloud Business - Benzinga",
+      "sourceName": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSDFvZ3JvWkNOemR0Y0dhZjBrZHdBZHJwZ1JEdEE4TWhMZHY4QkNNVDd3cXA2RE4tVnk5b1N0SnM2QUpveEZmanNiaHFtZmZaVzlxeE4zdWlYU0x5bXBFb1NjWkdIdTJQb1V6cWVaR0lZWkpUT3dYTzBUV0xzNWpzRFF6Vy00ODEtWngwc05yX05iOUQtLTBhT0hveWxJbTVpNkdhdHJCVE5kdVNTd2NTTl9LS3dNSDJzZExqbnNUWkZFOWU5?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 6,
+      "matchedAliases": [
+        "CoreWeave"
+      ],
+      "matchedTerms": [
+        "cloud business"
+      ],
+      "summary": "CoreWeave Stock Drops Sharply on Report of Meta AI Cloud Business &nbsp;&nbsp; Benzinga",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "crwv",
+      "ticker": "CRWV",
+      "companyName": "CoreWeave / CoreWeave AI 云",
+      "date": "2026-07-01",
+      "title": "CoreWeave dips 13% on Meta cloud business report - Breakingthenews.net",
+      "sourceName": "Breakingthenews.net",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdFlKU0tFdy1DX0MtcWQyMTNFUUlmekFVU0VoakZXYjVXd3MzSlpkQWFsMy10ODdJWnp4NUZ6ZTBUNU8yWlY1RnNJb3pXVmhIN0wxSnlyY0RqbmgzTXc4dlh3dWxTNWk5MXA0OVNwTk5WQVVoX3pWdlFORzdSSlZMWHV2TUswZDZMNmdjRUhFMTRDZHlCSDAw?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 6,
+      "matchedAliases": [
+        "CoreWeave"
+      ],
+      "matchedTerms": [
+        "cloud business"
+      ],
+      "summary": "CoreWeave dips 13% on Meta cloud business report &nbsp;&nbsp; Breakingthenews.net",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "klac",
+      "ticker": "KLAC",
+      "companyName": "KLA / 科磊",
+      "date": "2026-07-01",
+      "title": "Moody’s affirms KLA stock rating, shifts outlook to positive on AI demand - Investing.com",
+      "sourceName": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONXhpUEtEYnFILW42aWdlMW1WVkk2azBsOHh6UmhnZE9kSXBwWGFPeGM2TXE2ZUxXMTBvdkhSOFQ1N2w5VWFTQVB0RVBfRk03cmk3V1d0OXpDLVhaX3AxaFFKT1o3MnlzUmJDeERtY3pUR2hnNVNtMDE0Y0Z2c3hmQ280TzlfNGEyOUZ3Qm84TWhfcE9XaGZsc3FSaEdIS3VuQlpLdzdGUEZtTUk5SGhVZWxPdnoyV1RnSzRYb3ctOXJjQlU5SEI4a0ltX3FIdw?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 6,
+      "matchedAliases": [
+        "KLA"
+      ],
+      "matchedTerms": [
+        "outlook"
+      ],
+      "summary": "Moody’s affirms KLA stock rating, shifts outlook to positive on AI demand &nbsp;&nbsp; Investing.com",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "msft",
+      "ticker": "MSFT",
+      "companyName": "Microsoft / 微软",
+      "date": "2026-07-01",
+      "title": "FoodPharma cuts reporting time from 2 days to 90 minutes with Microsoft Fabric - Microsoft",
+      "sourceName": "Microsoft",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVUhGZjdQc3Y5RTViRFNCWWZxSlB4bHRIWFFVLVVmWDU4SVRRUkJIejExelVMZ0k5OG9nWHRoUDhRM01PMjRvbGwtQUNBRGtubzNodDZXZWJHSTdxNmJ1TVZuVnBkdGJjZ3hYNGdoVlBCSTFRY08yTzROYTBBQmtWcUJVbzY?oc=5",
+      "category": "capacity-supply",
+      "categoryZh": "产能/供给",
+      "categoryEn": "Capacity / supply",
+      "score": 6,
+      "matchedAliases": [
+        "Microsoft"
+      ],
+      "matchedTerms": [
+        "fab"
+      ],
+      "summary": "FoodPharma cuts reporting time from 2 days to 90 minutes with Microsoft Fabric &nbsp;&nbsp; Microsoft",
+      "impactZh": "这类事件可能影响产业链卡点、价格、交付周期和利润率；需要交叉验证产能规模、时间点和客户认证。",
+      "impactEn": "This type of event may affect scarce layers, pricing, delivery lead times, and margins; cross-check capacity scale, timing, and customer qualification.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "msft",
+      "ticker": "MSFT",
+      "companyName": "Microsoft / 微软",
+      "date": "2026-07-01",
+      "title": "Meta plots AI cloud business to challenge Amazon, Microsoft and Google - Los Angeles Times",
+      "sourceName": "Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTVZGdlB4blRWcE83MGlTUE5INWdsZkZVekVrc0dsTno5azdvLW9sZDI5UmRBdUt6R2YzRHo4T2pja0tzQnNiNEJIcm0tamN6Y245dGFrV0ZiWGdMSmozaXRfM3BzZXk3cmFOUFROMTJrY0Zrd1d2d1FadHJNRlJPenV3enJ4Si1BdmtOQTI3VktQMXBLRmNGM2JJaWk1MjNqZTltWGRDLVMwRmNJVVZjRGZfZDVJdw?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 6,
+      "matchedAliases": [
+        "Microsoft"
+      ],
+      "matchedTerms": [
+        "cloud business"
+      ],
+      "summary": "Meta plots AI cloud business to challenge Amazon, Microsoft and Google &nbsp;&nbsp; Los Angeles Times",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "msft",
+      "ticker": "MSFT",
+      "companyName": "Microsoft / 微软",
+      "date": "2026-07-01",
+      "title": "Amazon accused Trump of bias, and now Microsoft's $10 billion JEDI cloud contract is on hold - Mashable",
+      "sourceName": "Mashable",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNa2ZjMGtOMlhSZC1JUlhCOXI5YWRSTU53cXJCQ0Jwcl9PRWdqOU1wYVo1ZVIyTFhHZWN0Sk5QT0pBdXJCMnNSSEdQcWo4VmhodnZudXRXcFJVbEJIVDJIVS0wNVR2N0xFaE1jRmF1ZEN0UFRhYmxkTkt0Q2J5VVRJMjk5amZ1Y1NfRmtYY3YyeGlhdXZELVZFZkc4XzZIbnN5RmY0RU9naDl4OGtvekFzMjZiUzM0aEI3UkVVMmZhUXJjUmlVaWFTSDBDT0JBNTROYV9wQ0tfenpsRUl2ZkRWN1k3dHQ3dkpvNTRubjFqbi1raHRLY2o5T042VVFEeXhYRVhKS1JGZ1ZoNUIxRUd1TURXdGZ2THp4R3RDUDkwLVc5dXc?oc=5",
+      "category": "contract-order",
+      "categoryZh": "订单/合同",
+      "categoryEn": "Orders / contracts",
+      "score": 6,
+      "matchedAliases": [
+        "Microsoft"
+      ],
+      "matchedTerms": [
+        "contract"
+      ],
+      "summary": "Amazon accused Trump of bias, and now Microsoft's $10 billion JEDI cloud contract is on hold &nbsp;&nbsp; Mashable",
+      "impactZh": "这类事件可能影响收入可见度、资本开支回收和客户集中度；需要确认合同金额、期限、取消条款和交付节奏。",
+      "impactEn": "This type of event may affect revenue visibility, capex payback, and customer concentration; verify contract size, duration, cancellation terms, and delivery timing.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "msft",
+      "ticker": "MSFT",
+      "companyName": "Microsoft / 微软",
+      "date": "2026-07-01",
+      "title": "Velosio Deepens its Investment as a Top Microsoft Partner with Acquisitions of Kopis and Acuitas - GlobeNewswire",
+      "sourceName": "GlobeNewswire",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOUDlhbk1uQ1hRcjRJSWlEYkVqWEhfSUdGWVMzMFVLRzFXX0xxekYwQWdYOXU4T2M0YV9PVERlLU9lX09KMkgzUHNuTThTSDRyTUw4QWs4Q1dUVFZTcThZaW1HUmpkQU40NTlxbldXX2l5S0FjdERoQnBrR0FQb2NPdTI2Q01qdm41OTcybUNmRU5DOXo3RVRqdlJYRTY5TGNDVW5yZXotajhvV1Fya3pSQnZuQVlLQ2syRTdzcmkxb3VGdnNOa3Y1M1RubHQ4dGswcHZXc2FFTEc0dHE2UDVTcFpHLUlMbkwwc2JtVTBGdTNLWEF4emRHUURXMFA?oc=5",
+      "category": "financing-capex",
+      "categoryZh": "融资/资本开支",
+      "categoryEn": "Financing / capex",
+      "score": 6,
+      "matchedAliases": [
+        "Microsoft"
+      ],
+      "matchedTerms": [
+        "investment"
+      ],
+      "summary": "Velosio Deepens its Investment as a Top Microsoft Partner with Acquisitions of Kopis and Acuitas &nbsp;&nbsp; GlobeNewswire",
+      "impactZh": "这类事件可能影响扩产资金、摊薄、资产负债表和现金流压力；需要确认融资条款和资金用途。",
+      "impactEn": "This type of event may affect expansion funding, dilution, balance-sheet risk, and cash-flow pressure; verify financing terms and use of proceeds.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "msft",
+      "ticker": "MSFT",
+      "companyName": "Microsoft / 微软",
+      "date": "2026-07-01",
+      "title": "Microsoft to cut under 2.5% of workforce: report - capacityglobal.com",
+      "sourceName": "capacityglobal.com",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9iVVZ3YkxEOUNLdVl2TUJac0hoYmwwbjRWX2dsbVpPVDVpNlFIOGw2eW5QaUZPZmEwc1pHODhGT0FJdUFmTGptaVg1QjZyTkgyM3ZERTUtSHBrTWE1cDljN0U3Umd5REdlNXZB?oc=5",
+      "category": "capacity-supply",
+      "categoryZh": "产能/供给",
+      "categoryEn": "Capacity / supply",
+      "score": 6,
+      "matchedAliases": [
+        "Microsoft"
+      ],
+      "matchedTerms": [
+        "capacity"
+      ],
+      "summary": "Microsoft to cut under 2.5% of workforce: report &nbsp;&nbsp; capacityglobal.com",
+      "impactZh": "这类事件可能影响产业链卡点、价格、交付周期和利润率；需要交叉验证产能规模、时间点和客户认证。",
+      "impactEn": "This type of event may affect scarce layers, pricing, delivery lead times, and margins; cross-check capacity scale, timing, and customer qualification.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "mu",
+      "ticker": "MU",
+      "companyName": "Micron Technology, Inc.",
+      "date": "2026-07-01",
+      "title": "Sandisk Is One of the Biggest Winners After Micron's Blowout Earnings - Yahoo Finance",
+      "sourceName": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSkxieUgyd1hiaVJyaS1TWXNGUVlFV1NoN0Y2YTc0UzhOUmF2Zmp2dHo0X3ZTZ2dNX1ppcjlneUp2Ymp3TUVjQlJHT0tOMlQ2Q2Y1c2toLThzYjY2dFFBSkJJSldfa1JwaUZ5STRWOGdEbF9UcjJIMkxHdjNXLXY2TTFpNVdPeHBJXy16a084bERWbWQxSkcwWWItNGlTMDl2anc?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 6,
+      "matchedAliases": [
+        "Micron"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Sandisk Is One of the Biggest Winners After Micron's Blowout Earnings &nbsp;&nbsp; Yahoo Finance",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "mu",
+      "ticker": "MU",
+      "companyName": "Micron Technology, Inc.",
+      "date": "2026-07-01",
+      "title": "Micron signs long-term memory supply deal with GM - grafa.com",
+      "sourceName": "grafa.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQek5RRVV0SXRUbDdmMmZySi1iTUhoTTNUZlZ0WGhGRGVvY1lhTUx5elhaUUQtd2R6ZmI4eENzRVF4VmJ6T0JhTlF5WW9EVTFuNjFNX09CcVBXUDEwb1piUmIwZ1g5WnJBN3RWX1FnWUNPU2hHdGxOZVRxWjl6aTUwbjRFOTB6SUhfMEJsRGJSWFJBUUlTNmMw?oc=5",
+      "category": "contract-order",
+      "categoryZh": "订单/合同",
+      "categoryEn": "Orders / contracts",
+      "score": 6,
+      "matchedAliases": [
+        "Micron"
+      ],
+      "matchedTerms": [
+        "deal"
+      ],
+      "summary": "Micron signs long-term memory supply deal with GM &nbsp;&nbsp; grafa.com",
+      "impactZh": "这类事件可能影响收入可见度、资本开支回收和客户集中度；需要确认合同金额、期限、取消条款和交付节奏。",
+      "impactEn": "This type of event may affect revenue visibility, capex payback, and customer concentration; verify contract size, duration, cancellation terms, and delivery timing.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    }
+  ]
+}

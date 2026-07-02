@@ -1,0 +1,110 @@
+{
+  "generatedAt": "2026-07-02T05:33:14.764634Z",
+  "companyId": "crwv",
+  "ticker": "CRWV",
+  "query": "(CRWV OR CoreWeave OR \"CoreWeave AI 云\" OR \"CoreWeave, Inc.\") (\"excess capacity\" OR \"cloud business\" OR contract OR customer OR competitor OR capacity OR \"export control\" OR earnings OR guidance OR financing) when:3d",
+  "applied": false,
+  "signals": [
+    {
+      "companyId": "crwv",
+      "ticker": "CRWV",
+      "companyName": "CoreWeave / CoreWeave AI 云",
+      "date": "2026-07-01",
+      "title": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius - Barron's",
+      "sourceName": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaTI0bWdTNFdLenJMZkx3SlhUZGxZWWJJRENXdWdLWmZlQVZGdXA2ak9VN1c4czdSSGtpYlhQM1lEaHNsWHptOEZCRlFtRjNORUZ3M0ZuYVYwYi0yU2lORmYtWGFZSkM2dGRpUXQxXzgybEh6Z0VYR2J3M18ydDRXRjlUX0k?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 8,
+      "matchedAliases": [
+        "CoreWeave"
+      ],
+      "matchedTerms": [
+        "move to the cloud",
+        "bad news for"
+      ],
+      "summary": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius &nbsp;&nbsp; Barron's",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "medium",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "crwv",
+      "ticker": "CRWV",
+      "companyName": "CoreWeave / CoreWeave AI 云",
+      "date": "2026-07-01",
+      "title": "Stock Market Today, July 1: CoreWeave Stock Tumbles as Meta Cloud Report Raises Customer Concerns - The Motley Fool",
+      "sourceName": "The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQcnZ3ZGpaMWhQZWI3MkxhZlVnZnFMVm91cGV2VE0yb003bnJiUVBmUWk1NDlfX2x3QWNJUWZ3ZUVkLWVldnNSRHJFNEdoeU1ReUozVTJEVU5vRXpCcXFyVUdCbXV2a2VrcjE3bmJJMDBwOXgtUm5rQ01KeVBQbkNQd01hNWU1UlpITjAxUjZBOWtXajZ2OHJFNEc3eU5UQ0xHNWZRNk0xR1F6ZlRGMUxRU1BwbzZEUFpjZkNpWEhqSGNoaHZFR2dhRkZ1UjAzNzFxek05R0dlTmFraGZNaVlYNjVEM2JlMXk3Zl9law?oc=5",
+      "category": "contract-order",
+      "categoryZh": "订单/合同",
+      "categoryEn": "Orders / contracts",
+      "score": 6,
+      "matchedAliases": [
+        "CoreWeave"
+      ],
+      "matchedTerms": [
+        "customer"
+      ],
+      "summary": "Stock Market Today, July 1: CoreWeave Stock Tumbles as Meta Cloud Report Raises Customer Concerns &nbsp;&nbsp; The Motley Fool",
+      "impactZh": "这类事件可能影响收入可见度、资本开支回收和客户集中度；需要确认合同金额、期限、取消条款和交付节奏。",
+      "impactEn": "This type of event may affect revenue visibility, capex payback, and customer concentration; verify contract size, duration, cancellation terms, and delivery timing.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "crwv",
+      "ticker": "CRWV",
+      "companyName": "CoreWeave / CoreWeave AI 云",
+      "date": "2026-07-01",
+      "title": "CoreWeave Stock Drops Sharply on Report of Meta AI Cloud Business - Benzinga",
+      "sourceName": "Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSDFvZ3JvWkNOemR0Y0dhZjBrZHdBZHJwZ1JEdEE4TWhMZHY4QkNNVDd3cXA2RE4tVnk5b1N0SnM2QUpveEZmanNiaHFtZmZaVzlxeE4zdWlYU0x5bXBFb1NjWkdIdTJQb1V6cWVaR0lZWkpUT3dYTzBUV0xzNWpzRFF6Vy00ODEtWngwc05yX05iOUQtLTBhT0hveWxJbTVpNkdhdHJCVE5kdVNTd2NTTl9LS3dNSDJzZExqbnNUWkZFOWU5?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 6,
+      "matchedAliases": [
+        "CoreWeave"
+      ],
+      "matchedTerms": [
+        "cloud business"
+      ],
+      "summary": "CoreWeave Stock Drops Sharply on Report of Meta AI Cloud Business &nbsp;&nbsp; Benzinga",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "crwv",
+      "ticker": "CRWV",
+      "companyName": "CoreWeave / CoreWeave AI 云",
+      "date": "2026-07-01",
+      "title": "CoreWeave dips 13% on Meta cloud business report - Breakingthenews.net",
+      "sourceName": "Breakingthenews.net",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdFlKU0tFdy1DX0MtcWQyMTNFUUlmekFVU0VoakZXYjVXd3MzSlpkQWFsMy10ODdJWnp4NUZ6ZTBUNU8yWlY1RnNJb3pXVmhIN0wxSnlyY0RqbmgzTXc4dlh3dWxTNWk5MXA0OVNwTk5WQVVoX3pWdlFORzdSSlZMWHV2TUswZDZMNmdjRUhFMTRDZHlCSDAw?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 6,
+      "matchedAliases": [
+        "CoreWeave"
+      ],
+      "matchedTerms": [
+        "cloud business"
+      ],
+      "summary": "CoreWeave dips 13% on Meta cloud business report &nbsp;&nbsp; Breakingthenews.net",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    }
+  ]
+}

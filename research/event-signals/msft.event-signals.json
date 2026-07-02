@@ -1,0 +1,134 @@
+{
+  "generatedAt": "2026-07-02T05:33:21.872002Z",
+  "companyId": "msft",
+  "ticker": "MSFT",
+  "query": "(MSFT OR Microsoft OR 微软 OR \"MICROSOFT CORP\") (\"excess capacity\" OR \"cloud business\" OR contract OR customer OR competitor OR capacity OR \"export control\" OR earnings OR guidance OR financing) when:3d",
+  "applied": false,
+  "signals": [
+    {
+      "companyId": "msft",
+      "ticker": "MSFT",
+      "companyName": "Microsoft / 微软",
+      "date": "2026-07-01",
+      "title": "FoodPharma cuts reporting time from 2 days to 90 minutes with Microsoft Fabric - Microsoft",
+      "sourceName": "Microsoft",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVUhGZjdQc3Y5RTViRFNCWWZxSlB4bHRIWFFVLVVmWDU4SVRRUkJIejExelVMZ0k5OG9nWHRoUDhRM01PMjRvbGwtQUNBRGtubzNodDZXZWJHSTdxNmJ1TVZuVnBkdGJjZ3hYNGdoVlBCSTFRY08yTzROYTBBQmtWcUJVbzY?oc=5",
+      "category": "capacity-supply",
+      "categoryZh": "产能/供给",
+      "categoryEn": "Capacity / supply",
+      "score": 6,
+      "matchedAliases": [
+        "Microsoft"
+      ],
+      "matchedTerms": [
+        "fab"
+      ],
+      "summary": "FoodPharma cuts reporting time from 2 days to 90 minutes with Microsoft Fabric &nbsp;&nbsp; Microsoft",
+      "impactZh": "这类事件可能影响产业链卡点、价格、交付周期和利润率；需要交叉验证产能规模、时间点和客户认证。",
+      "impactEn": "This type of event may affect scarce layers, pricing, delivery lead times, and margins; cross-check capacity scale, timing, and customer qualification.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "msft",
+      "ticker": "MSFT",
+      "companyName": "Microsoft / 微软",
+      "date": "2026-07-01",
+      "title": "Meta plots AI cloud business to challenge Amazon, Microsoft and Google - Los Angeles Times",
+      "sourceName": "Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTVZGdlB4blRWcE83MGlTUE5INWdsZkZVekVrc0dsTno5azdvLW9sZDI5UmRBdUt6R2YzRHo4T2pja0tzQnNiNEJIcm0tamN6Y245dGFrV0ZiWGdMSmozaXRfM3BzZXk3cmFOUFROMTJrY0Zrd1d2d1FadHJNRlJPenV3enJ4Si1BdmtOQTI3VktQMXBLRmNGM2JJaWk1MjNqZTltWGRDLVMwRmNJVVZjRGZfZDVJdw?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 6,
+      "matchedAliases": [
+        "Microsoft"
+      ],
+      "matchedTerms": [
+        "cloud business"
+      ],
+      "summary": "Meta plots AI cloud business to challenge Amazon, Microsoft and Google &nbsp;&nbsp; Los Angeles Times",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "msft",
+      "ticker": "MSFT",
+      "companyName": "Microsoft / 微软",
+      "date": "2026-07-01",
+      "title": "Amazon accused Trump of bias, and now Microsoft's $10 billion JEDI cloud contract is on hold - Mashable",
+      "sourceName": "Mashable",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNa2ZjMGtOMlhSZC1JUlhCOXI5YWRSTU53cXJCQ0Jwcl9PRWdqOU1wYVo1ZVIyTFhHZWN0Sk5QT0pBdXJCMnNSSEdQcWo4VmhodnZudXRXcFJVbEJIVDJIVS0wNVR2N0xFaE1jRmF1ZEN0UFRhYmxkTkt0Q2J5VVRJMjk5amZ1Y1NfRmtYY3YyeGlhdXZELVZFZkc4XzZIbnN5RmY0RU9naDl4OGtvekFzMjZiUzM0aEI3UkVVMmZhUXJjUmlVaWFTSDBDT0JBNTROYV9wQ0tfenpsRUl2ZkRWN1k3dHQ3dkpvNTRubjFqbi1raHRLY2o5T042VVFEeXhYRVhKS1JGZ1ZoNUIxRUd1TURXdGZ2THp4R3RDUDkwLVc5dXc?oc=5",
+      "category": "contract-order",
+      "categoryZh": "订单/合同",
+      "categoryEn": "Orders / contracts",
+      "score": 6,
+      "matchedAliases": [
+        "Microsoft"
+      ],
+      "matchedTerms": [
+        "contract"
+      ],
+      "summary": "Amazon accused Trump of bias, and now Microsoft's $10 billion JEDI cloud contract is on hold &nbsp;&nbsp; Mashable",
+      "impactZh": "这类事件可能影响收入可见度、资本开支回收和客户集中度；需要确认合同金额、期限、取消条款和交付节奏。",
+      "impactEn": "This type of event may affect revenue visibility, capex payback, and customer concentration; verify contract size, duration, cancellation terms, and delivery timing.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "msft",
+      "ticker": "MSFT",
+      "companyName": "Microsoft / 微软",
+      "date": "2026-07-01",
+      "title": "Velosio Deepens its Investment as a Top Microsoft Partner with Acquisitions of Kopis and Acuitas - GlobeNewswire",
+      "sourceName": "GlobeNewswire",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOUDlhbk1uQ1hRcjRJSWlEYkVqWEhfSUdGWVMzMFVLRzFXX0xxekYwQWdYOXU4T2M0YV9PVERlLU9lX09KMkgzUHNuTThTSDRyTUw4QWs4Q1dUVFZTcThZaW1HUmpkQU40NTlxbldXX2l5S0FjdERoQnBrR0FQb2NPdTI2Q01qdm41OTcybUNmRU5DOXo3RVRqdlJYRTY5TGNDVW5yZXotajhvV1Fya3pSQnZuQVlLQ2syRTdzcmkxb3VGdnNOa3Y1M1RubHQ4dGswcHZXc2FFTEc0dHE2UDVTcFpHLUlMbkwwc2JtVTBGdTNLWEF4emRHUURXMFA?oc=5",
+      "category": "financing-capex",
+      "categoryZh": "融资/资本开支",
+      "categoryEn": "Financing / capex",
+      "score": 6,
+      "matchedAliases": [
+        "Microsoft"
+      ],
+      "matchedTerms": [
+        "investment"
+      ],
+      "summary": "Velosio Deepens its Investment as a Top Microsoft Partner with Acquisitions of Kopis and Acuitas &nbsp;&nbsp; GlobeNewswire",
+      "impactZh": "这类事件可能影响扩产资金、摊薄、资产负债表和现金流压力；需要确认融资条款和资金用途。",
+      "impactEn": "This type of event may affect expansion funding, dilution, balance-sheet risk, and cash-flow pressure; verify financing terms and use of proceeds.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "msft",
+      "ticker": "MSFT",
+      "companyName": "Microsoft / 微软",
+      "date": "2026-07-01",
+      "title": "Microsoft to cut under 2.5% of workforce: report - capacityglobal.com",
+      "sourceName": "capacityglobal.com",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9iVVZ3YkxEOUNLdVl2TUJac0hoYmwwbjRWX2dsbVpPVDVpNlFIOGw2eW5QaUZPZmEwc1pHODhGT0FJdUFmTGptaVg1QjZyTkgyM3ZERTUtSHBrTWE1cDljN0U3Umd5REdlNXZB?oc=5",
+      "category": "capacity-supply",
+      "categoryZh": "产能/供给",
+      "categoryEn": "Capacity / supply",
+      "score": 6,
+      "matchedAliases": [
+        "Microsoft"
+      ],
+      "matchedTerms": [
+        "capacity"
+      ],
+      "summary": "Microsoft to cut under 2.5% of workforce: report &nbsp;&nbsp; capacityglobal.com",
+      "impactZh": "这类事件可能影响产业链卡点、价格、交付周期和利润率；需要交叉验证产能规模、时间点和客户认证。",
+      "impactEn": "This type of event may affect scarce layers, pricing, delivery lead times, and margins; cross-check capacity scale, timing, and customer qualification.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    }
+  ]
+}

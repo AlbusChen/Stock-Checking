@@ -1,0 +1,8 @@
+{
+  "generatedAt": "2026-07-02T05:33:15.336516Z",
+  "companyId": "cssc-special-gas",
+  "ticker": "688146",
+  "query": "(688146 OR 中船特气 OR 中船（邯郸）派瑞特种气体股份有限公司 OR 中船派瑞特气) (公告 OR 合同 OR 订单 OR 产能 OR 涨价 OR 政策 OR 监管 OR 客户) when:3d",
+  "applied": false,
+  "signals": []
+}

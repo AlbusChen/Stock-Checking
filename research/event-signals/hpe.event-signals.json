@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-07-02T05:33:18.661313Z",
+  "companyId": "hpe",
+  "ticker": "HPE",
+  "query": "(HPE OR \"Hewlett Packard Enterprise\" OR 慧与 OR \"Hewlett Packard Enterprise Co\") (\"excess capacity\" OR \"cloud business\" OR contract OR customer OR competitor OR capacity OR \"export control\" OR earnings OR guidance OR financing) when:3d",
+  "applied": false,
+  "signals": [
+    {
+      "companyId": "hpe",
+      "ticker": "HPE",
+      "companyName": "Hewlett Packard Enterprise / 慧与",
+      "date": "2026-07-01",
+      "title": "Why Is Hewlett Packard Enterprise (HPE) Down 19.7% Since Last Earnings Report? - Yahoo Finance",
+      "sourceName": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNTkzVkw3THg3M1FNd1pLX21UbHdEd2pnTVN3TE9COHNYcmxwa2NOWkJrNUxvRkVFbGpEN0UzdXVkX0ZPRnc4NEdoZnkyTHlkb3JETjVUSWN3QzZYaXN6cXh6UjVXMGdGdnJzMlJFcklVWFl0NHZyckVaaXd2UmdhTkQ0NzJtc3NqSmlFdWFFbk1mRkQ2d1lmbWp5MWgtWE1v?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 9,
+      "matchedAliases": [
+        "HPE",
+        "Hewlett Packard Enterprise"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Why Is Hewlett Packard Enterprise (HPE) Down 19.7% Since Last Earnings Report? &nbsp;&nbsp; Yahoo Finance",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    }
+  ]
+}

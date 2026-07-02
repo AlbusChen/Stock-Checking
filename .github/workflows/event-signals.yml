@@ -1,0 +1,67 @@
+name: Discover Event Signals
+
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: "Apply high-scoring signals to company JSON"
+        required: false
+        default: "false"
+      min_score:
+        description: "Minimum score for apply mode"
+        required: false
+        default: "8"
+      lookback_days:
+        description: "News lookback window"
+        required: false
+        default: "7"
+
+  # Scheduled runs are intentionally disabled until the page/data review flow is mature.
+  # To enable later:
+  # schedule:
+  #   - cron: "23 */12 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - name: Discover event signals
+        run: |
+          ARGS="--lookback-days ${{ inputs.lookback_days }} --min-score ${{ inputs.min_score }}"
+          if [[ "${{ inputs.apply }}" == "true" ]]; then
+            ARGS="$ARGS --apply"
+          fi
+          python3 scripts/update_event_signals.py $ARGS
+      - name: Upload event signal drafts
+        uses: actions/upload-artifact@v4
+        with:
+          name: event-signals
+          path: research/event-signals/*.json
+          if-no-files-found: warn
+      - name: Validate and publish applied data
+        if: ${{ inputs.apply == 'true' }}
+        run: |
+          python3 scripts/build_company_index.py
+          python3 scripts/validate_data.py
+          npm ci
+          npm run sync:pages
+          if [[ -n "$(git status --porcelain public/data data assets index.html)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add public/data data assets index.html
+            git commit -m "chore: apply event signal updates"
+            git push
+          else
+            echo "No applied data changes"
+          fi

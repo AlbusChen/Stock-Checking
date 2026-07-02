@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-07-02T05:33:13.958833Z",
+  "companyId": "avgo",
+  "ticker": "AVGO",
+  "query": "(AVGO OR Broadcom OR 博通 OR \"Broadcom Inc.\") (\"excess capacity\" OR \"cloud business\" OR contract OR customer OR competitor OR capacity OR \"export control\" OR earnings OR guidance OR financing) when:3d",
+  "applied": false,
+  "signals": [
+    {
+      "companyId": "avgo",
+      "ticker": "AVGO",
+      "companyName": "Broadcom / 博通",
+      "date": "2026-07-01",
+      "title": "Broadcom (AVGO) Stock Could Be A Bargain On Cash Flow Yet Rich On Earnings - Yahoo Finance",
+      "sourceName": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNc28wOUNxbzRuTE9rS3pCT29PU051dW9laEV0aGRjT2xqWWx3dFNLb2x2b1RiMEI0ZFl3RHVmM19MWVFuX0NDUUwyMzB5NVoyOFJSQ0k3M3NBWVJTYXptWU92QXE4MGFuNUpDdHJ4Mi13RFJUZ09waDhSc01tT0ZwbUpZVnNnZHliWU03TEI4UThVM1J2LWJOWGVmeDltTzA?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 9,
+      "matchedAliases": [
+        "AVGO",
+        "Broadcom"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Broadcom (AVGO) Stock Could Be A Bargain On Cash Flow Yet Rich On Earnings &nbsp;&nbsp; Yahoo Finance",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    }
+  ]
+}

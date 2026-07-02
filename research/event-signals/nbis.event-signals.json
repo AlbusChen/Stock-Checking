@@ -1,0 +1,139 @@
+{
+  "generatedAt": "2026-07-02T05:33:23.415756Z",
+  "companyId": "nbis",
+  "ticker": "NBIS",
+  "query": "(NBIS OR Nebius OR \"Nebius AI 云\" OR \"Nebius Group N.V.\") (\"excess capacity\" OR \"cloud business\" OR contract OR customer OR competitor OR capacity OR \"export control\" OR earnings OR guidance OR financing) when:3d",
+  "applied": false,
+  "signals": [
+    {
+      "companyId": "nbis",
+      "ticker": "NBIS",
+      "companyName": "Nebius / Nebius AI 云",
+      "date": "2026-07-01",
+      "title": "Nebius Group (NBIS) Stock Looks Overvalued On Earnings While AI Growth Stays Strong - Yahoo Finance",
+      "sourceName": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQmpmRjhDSi1RQWFWbzFucUxsY0s3LUFQWUNGVVVVaEJjXzNtdnpCb0NwZmxWaE05ZXlMek1CME1MLW0wMnNveFRsSlhFLVlzU1ptX1pkaVdwVTNJQjNydWJldjB0TWx4amJOWm1IOUdaS3VoNGctYllhMjl2STlFOGJ2V3pZc05lOUZzZWxoZ09FbUtVTTZDMzV3?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 10,
+      "matchedAliases": [
+        "NBIS",
+        "Nebius",
+        "Nebius Group"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Nebius Group (NBIS) Stock Looks Overvalued On Earnings While AI Growth Stays Strong &nbsp;&nbsp; Yahoo Finance",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "nbis",
+      "ticker": "NBIS",
+      "companyName": "Nebius / Nebius AI 云",
+      "date": "2026-07-01",
+      "title": "Nebius Group (NASDAQ:NBIS) slides as neocloud contract bump gets tested - TechStock²",
+      "sourceName": "TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZUFOUGRObTUxaEFLLXhYT0hPTjBoSW5JbGZlTm5rTVZRYmg3WDZkYlNvamszQkhTQUdSbXlkSE1xbk5xdDR0SDlGVkZuLVJZNGRLcldQM3pKak1WZWR5ZS1rbm9lTEN0WVlyNnVtQUdTWFVnNUxvbnZHb1NuMV94Zmc3WENyclNHbGFFZnhoZGdwU1U?oc=5",
+      "category": "contract-order",
+      "categoryZh": "订单/合同",
+      "categoryEn": "Orders / contracts",
+      "score": 10,
+      "matchedAliases": [
+        "NBIS",
+        "Nebius",
+        "Nebius Group"
+      ],
+      "matchedTerms": [
+        "contract"
+      ],
+      "summary": "Nebius Group (NASDAQ:NBIS) slides as neocloud contract bump gets tested &nbsp;&nbsp; TechStock²",
+      "impactZh": "这类事件可能影响收入可见度、资本开支回收和客户集中度；需要确认合同金额、期限、取消条款和交付节奏。",
+      "impactEn": "This type of event may affect revenue visibility, capex payback, and customer concentration; verify contract size, duration, cancellation terms, and delivery timing.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "nbis",
+      "ticker": "NBIS",
+      "companyName": "Nebius / Nebius AI 云",
+      "date": "2026-07-01",
+      "title": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius - Barron's",
+      "sourceName": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaTI0bWdTNFdLenJMZkx3SlhUZGxZWWJJRENXdWdLWmZlQVZGdXA2ak9VN1c4czdSSGtpYlhQM1lEaHNsWHptOEZCRlFtRjNORUZ3M0ZuYVYwYi0yU2lORmYtWGFZSkM2dGRpUXQxXzgybEh6Z0VYR2J3M18ydDRXRjlUX0k?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 8,
+      "matchedAliases": [
+        "Nebius"
+      ],
+      "matchedTerms": [
+        "move to the cloud",
+        "bad news for"
+      ],
+      "summary": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius &nbsp;&nbsp; Barron's",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "medium",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "nbis",
+      "ticker": "NBIS",
+      "companyName": "Nebius / Nebius AI 云",
+      "date": "2026-07-01",
+      "title": "Nebius stock is crashing, and it has its biggest customer to blame - Invezz",
+      "sourceName": "Invezz",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRTlUVUZxMkNQbkVfUnlZdFQyLVExVEo1T3NWZ1lyc3FaeHFjMlhyWE5qWUNDQzdlNjlGc1l0X3RjM0hNX24zaGJMRXh0T25HM0xuWmNyaUQ4emZ4M0VOYmN6a1E1RnhuTU9nLXQ5LTVOSXhHeElJS2dySHpCXzJHYVNXNzk4X3AtMGRSdUdHeEFNaWZkT2NjWU1mMnZtVm1LUnp3?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 6,
+      "matchedAliases": [
+        "Nebius"
+      ],
+      "matchedTerms": [
+        "biggest customer to blame"
+      ],
+      "summary": "Nebius stock is crashing, and it has its biggest customer to blame &nbsp;&nbsp; Invezz",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "nbis",
+      "ticker": "NBIS",
+      "companyName": "Nebius / Nebius AI 云",
+      "date": "2026-07-01",
+      "title": "Will Nebius' Strong Customer Pipeline Drive Future Growth? - Yahoo Finance",
+      "sourceName": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOM09fVEFUZ3U2M1N1Nl9LUHFUS3J5UEdHX0dzSGRVTTFNNW9jbWJIbG4zeTdyU25IS1RmRmVJV1RQMEJKNV9oMkpJN3NnTVBjNVlwOXFrNFc1Z2NaUzVNb0JTTVh1dkotZVU2a09DbEltSFR2Y2VXWXRvTlhIYmszRmxCNnhkZGNpeGRCZTRMWXlvSVQ2TW5xTUlxSjlGS1ZYLUxR?oc=5",
+      "category": "contract-order",
+      "categoryZh": "订单/合同",
+      "categoryEn": "Orders / contracts",
+      "score": 6,
+      "matchedAliases": [
+        "Nebius"
+      ],
+      "matchedTerms": [
+        "customer"
+      ],
+      "summary": "Will Nebius' Strong Customer Pipeline Drive Future Growth? &nbsp;&nbsp; Yahoo Finance",
+      "impactZh": "这类事件可能影响收入可见度、资本开支回收和客户集中度；需要确认合同金额、期限、取消条款和交付节奏。",
+      "impactEn": "This type of event may affect revenue visibility, capex payback, and customer concentration; verify contract size, duration, cancellation terms, and delivery timing.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    }
+  ]
+}

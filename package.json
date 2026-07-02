@@ -12,7 +12,8 @@
     "validate:data": "python3 scripts/validate_data.py",
     "refresh:index": "python3 scripts/build_company_index.py",
     "research:plan": "python3 scripts/research_pipeline.py --plan-only",
-    "research:draft": "python3 scripts/research_pipeline.py --watchlist config/research-watchlist.json --output research/drafts"
+    "research:draft": "python3 scripts/research_pipeline.py --watchlist config/research-watchlist.json --output research/drafts",
+    "events:scan": "python3 scripts/update_event_signals.py"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",

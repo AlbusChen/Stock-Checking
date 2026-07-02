@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-07-02T05:33:12.665664Z",
+  "companyId": "asml",
+  "ticker": "ASML",
+  "query": "(ASML OR \"ASML Holding\" OR 阿斯麦 OR \"ASML HOLDING NV\") (\"excess capacity\" OR \"cloud business\" OR contract OR customer OR competitor OR capacity OR \"export control\" OR earnings OR guidance OR financing) when:3d",
+  "applied": false,
+  "signals": [
+    {
+      "companyId": "asml",
+      "ticker": "ASML",
+      "companyName": "ASML Holding / 阿斯麦",
+      "date": "2026-07-01",
+      "title": "ASML Holding (NasdaqGS:ASML) Raises Revenue Guidance As AI Chip Spending Builds - Yahoo Finance",
+      "sourceName": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNU0ZUMjVFenphNElfbnN5OG84bW0tb05XNG5UM3AxSzRKeDBGbktvUUF4eDgwWTNUeWFJOUhhVVdtZnFDUDIxdDZMRlZEdFBsNzEwdnVSWXdISmpCbUluSTFxQmV2aFA1WWMzY2xJalM4aFprVk9nNGFsQW1kLUphZnZjU054N2Jhc24ycXNOMXY0NGhCQ2hUS2dkVGNtZw?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 10,
+      "matchedAliases": [
+        "ASML",
+        "ASML Holding"
+      ],
+      "matchedTerms": [
+        "guidance",
+        "revenue"
+      ],
+      "summary": "ASML Holding (NasdaqGS:ASML) Raises Revenue Guidance As AI Chip Spending Builds &nbsp;&nbsp; Yahoo Finance",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "asml",
+      "ticker": "ASML",
+      "companyName": "ASML Holding / 阿斯麦",
+      "date": "2026-07-01",
+      "title": "Price to earnings forward of ASML Holding NV Sponsored ADR – LSE:0M42 - TradingView",
+      "sourceName": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQ3diY29BbGh3OFJyY2x6RnNhaHc1bVA4Qmc3eEpBbklYUExxdnZSYUUtbUF3ZUxQRkRtUGw4RTJ2V2lMaWs5RDlHT3hqNks2OVNMRlFmN3hBQW9iMmladUdDb3lLWXllT1RZOGNRRDJkLWgyYU5UcDg1UFFvNGJTTnNueW44aWdrbmNOVWVaSUxPNjUwU3o5anA4cl9uUQ?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 10,
+      "matchedAliases": [
+        "ASML",
+        "ASML Holding",
+        "ASML HOLDING NV"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Price to earnings forward of ASML Holding NV Sponsored ADR – LSE:0M42 &nbsp;&nbsp; TradingView",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    }
+  ]
+}

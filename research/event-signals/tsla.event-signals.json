@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-07-02T05:33:28.549842Z",
+  "companyId": "tsla",
+  "ticker": "TSLA",
+  "query": "(TSLA OR Tesla OR 特斯拉 OR \"Tesla, Inc.\") (\"excess capacity\" OR \"cloud business\" OR contract OR customer OR competitor OR capacity OR \"export control\" OR earnings OR guidance OR financing) when:3d",
+  "applied": false,
+  "signals": [
+    {
+      "companyId": "tsla",
+      "ticker": "TSLA",
+      "companyName": "Tesla / 特斯拉",
+      "date": "2026-07-01",
+      "title": "TSLA Stock On Track To Snap 8-Week Losing Streak Ahead Of Q1 Earnings - Stocktwits",
+      "sourceName": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMkdyeFN6YWswZFh6WlNOTndza2RHTXgzOGxtel9UOE5lMkpUa0I1el9EMEJCN3B2YTByMGptdkEtT3lqX1NvLU5nR2x0a011TVgtb0tzaDNyVnVBQnZDdWItZjQ5Y2QwRUZFa0pTWXpBMGNUckxRNHdqRUwyVjRZT0F3VUhKdkRKZWlGc2hEZzZmYmZXV0RLbW1iM1JFSXhJZ0FrTnNLWkN5TlJCNnJmTnNfX1phLURiQ1hQVHg5V2tac2h2dnJ1RUpn?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 8,
+      "matchedAliases": [
+        "TSLA"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "TSLA Stock On Track To Snap 8-Week Losing Streak Ahead Of Q1 Earnings &nbsp;&nbsp; Stocktwits",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "tsla",
+      "ticker": "TSLA",
+      "companyName": "Tesla / 特斯拉",
+      "date": "2026-06-30",
+      "title": "Sunrun, Renew Home and Tesla join forces to expand residential virtual power capacity for rising data center electricity demand - Energies Media",
+      "sourceName": "Energies Media",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE92MEpFZ3UxV1hWbVpKSTNveGpnUVFPLWE2c182d0thaWFHRjBJVjF2bEs0QTdEa3A1bmJmR3lOOHh5Znlibnp0NmxRUlR1OGdadlhZVGtsTWJiNW9xSm9ZY3dHSHJPOFdpaEJHRlNpUEF2eDVyeDJhay14WEk2eGc?oc=5",
+      "category": "capacity-supply",
+      "categoryZh": "产能/供给",
+      "categoryEn": "Capacity / supply",
+      "score": 7,
+      "matchedAliases": [
+        "Tesla"
+      ],
+      "matchedTerms": [
+        "capacity",
+        "data center"
+      ],
+      "summary": "Sunrun, Renew Home and Tesla join forces to expand residential virtual power capacity for rising data center electricity demand &nbsp;&nbsp; Energies Media",
+      "impactZh": "这类事件可能影响产业链卡点、价格、交付周期和利润率；需要交叉验证产能规模、时间点和客户认证。",
+      "impactEn": "This type of event may affect scarce layers, pricing, delivery lead times, and margins; cross-check capacity scale, timing, and customer qualification.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "tsla",
+      "ticker": "TSLA",
+      "companyName": "Tesla / 特斯拉",
+      "date": "2026-07-01",
+      "title": "Tesla stock on track to end week lower after capex guidance spooks investors - AOL.com",
+      "sourceName": "AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE04SWx1RW1JT1oxRXhocGVMSFdQNUpSVXl4TThzUVNPMFdWeFRsUWtTa3lYSktnNzFYUDJsejZSNktmcmxDR1dPUnZsVGRIc1Njdk1LYmNDR21FNy1GZGt3SHJRaGxvTko1TUhmdlk5QXhHX1dmbEN5X2hR?oc=5",
+      "category": "financing-capex",
+      "categoryZh": "融资/资本开支",
+      "categoryEn": "Financing / capex",
+      "score": 6,
+      "matchedAliases": [
+        "Tesla"
+      ],
+      "matchedTerms": [
+        "capex"
+      ],
+      "summary": "Tesla stock on track to end week lower after capex guidance spooks investors &nbsp;&nbsp; AOL.com",
+      "impactZh": "这类事件可能影响扩产资金、摊薄、资产负债表和现金流压力；需要确认融资条款和资金用途。",
+      "impactEn": "This type of event may affect expansion funding, dilution, balance-sheet risk, and cash-flow pressure; verify financing terms and use of proceeds.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    }
+  ]
+}

@@ -25,6 +25,8 @@ python3 scripts/research_pipeline.py --plan-only
 python3 scripts/research_pipeline.py --watchlist config/research-watchlist.json --output research/drafts
 python3 scripts/research_pipeline.py --target MSFT --market US --output research/drafts
 python3 scripts/research_pipeline.py --target 600519 --market CN --exchange SSE --output research/drafts
+npm run events:scan
+python3 scripts/update_event_signals.py --lookback-days 7 --apply --min-score 8
 ```
 
 脚本会：
@@ -35,6 +37,50 @@ python3 scripts/research_pipeline.py --target 600519 --market CN --exchange SSE 
 - 当巨潮查询无结果时，对 A 股使用东方财富公告索引做候选发现；正式数据落库前应优先回链交易所或公告 PDF。
 - 输出候选稿：`research/drafts/<market>-<ticker>.draft.json`。
 - 记录失败：如果部分公司抓取失败，会写入 `research/drafts/research-failures.json`。
+
+## 外部事件线索扫描
+
+有些重要信息不会出现在目标公司自己的公告或 RSS 中，而是来自客户、供应商、竞争对手或行业新闻。例如：大客户把自建算力商品化、供应商扩产、原材料涨价、出口管制、融资压力、合同续约风险等。为覆盖这类横向影响，新增 `scripts/update_event_signals.py`。
+
+脚本会对 `public/data/companies/*.json` 中所有公司生成公开新闻搜索 query，并按规则识别：
+
+- 客户/竞争格局：客户变成竞争者、多余算力、云业务、竞争压力。
+- 订单/合同：重大合同、客户、backlog、take-or-pay、合作。
+- 产能/供给：扩产、投产、短缺、过剩、利用率、数据中心。
+- 价格/原材料：涨价、降价、关税、原材料价格。
+- 政策/监管：出口管制、制裁、审批、调查、许可证。
+- 融资/资本开支：可转债、债务、融资、资本开支。
+- 业绩/指引：财报、收入、利润、毛利率、指引。
+
+默认运行只生成 review artifact：
+
+```bash
+python3 scripts/update_event_signals.py --lookback-days 7
+```
+
+输出位置：
+
+- `research/event-signals/<company-id>.event-signals.json`
+- `research/event-signals/event-signals-summary.json`
+
+只有显式启用 `--apply` 时，脚本才会把高分线索写入公司 JSON 的 `news` 和 `sources`：
+
+```bash
+python3 scripts/update_event_signals.py --lookback-days 7 --apply --min-score 8
+python3 scripts/build_company_index.py
+python3 scripts/validate_data.py
+npm run sync:pages
+```
+
+落库原则：
+
+- 资讯聚合、券商社区、同花顺/Tiger/Futu 等可以作为线索发现入口，但不作为唯一强证据。
+- Google News RSS 线索默认是弱证据；Reuters、Bloomberg、MarketWatch、Barron's、Investopedia、IBD 等可信媒体可作为中等证据。
+- SEC、交易所公告、公司 IR、监管原文才能升级为强证据。
+- 对“影响判断”只写成需要验证的业务影响，不直接断言因果。
+- 对数值、合同金额、财务指标，必须回到公司公告、SEC/交易所文件或原文披露后再写入财务模块。
+
+例子：如果 Meta 计划出售多余 AI 算力，NBIS 的记录应归为“客户/竞争格局”，影响判断是 Meta 可能从 Nebius 的大客户部分转向潜在竞争者，从而影响续约增长、议价能力和 AI 云稀缺叙事；但现有合同是否变化必须等待公司公告或正式 filing 验证。
 
 ## Review 到正式数据
 
@@ -70,6 +116,7 @@ npm run sync:pages
 建议的未来频率：
 
 - 12 小时：官方公告和新闻候选。
+- 12 小时：外部事件线索候选，例如客户/竞争对手/供应商新闻对已收录公司的影响。
 - 每日：SEC filings、A 股公告、财务公告候选。
 - 每周：供应链、客户/供应商、业务描述和原材料溯源候选。
 

@@ -1,0 +1,139 @@
+{
+  "generatedAt": "2026-07-02T05:33:16.777294Z",
+  "companyId": "googl",
+  "ticker": "GOOGL",
+  "query": "(GOOGL OR Alphabet OR Google OR 字母表) (\"excess capacity\" OR \"cloud business\" OR contract OR customer OR competitor OR capacity OR \"export control\" OR earnings OR guidance OR financing) when:3d",
+  "applied": false,
+  "signals": [
+    {
+      "companyId": "googl",
+      "ticker": "GOOGL",
+      "companyName": "Alphabet / Google / 字母表",
+      "date": "2026-07-01",
+      "title": "Meta plans cloud business to rival Amazon and Google - Crypto Briefing",
+      "sourceName": "Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5aUTFnbWVTSHJzNmlRekJ5TFM3SEwwMl9Za1JKRWxOZW1iVXNsT3U5Z1FFNlVnekZaR0lhX2w3cVJVYmN2ZjZjclFfM2wzSzZDY1RiRXdmMTJGc3hnQ2xaZ1o0TEE0Y0ppcGlvVFJmRGE3Q0p2SFE?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 10,
+      "matchedAliases": [
+        "GOOGL",
+        "Google"
+      ],
+      "matchedTerms": [
+        "cloud business",
+        "rival"
+      ],
+      "summary": "Meta plans cloud business to rival Amazon and Google &nbsp;&nbsp; Crypto Briefing",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "googl",
+      "ticker": "GOOGL",
+      "companyName": "Alphabet / Google / 字母表",
+      "date": "2026-07-01",
+      "title": "Meta plots AI cloud business to challenge Amazon, Microsoft and Google - Los Angeles Times",
+      "sourceName": "Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTVZGdlB4blRWcE83MGlTUE5INWdsZkZVekVrc0dsTno5azdvLW9sZDI5UmRBdUt6R2YzRHo4T2pja0tzQnNiNEJIcm0tamN6Y245dGFrV0ZiWGdMSmozaXRfM3BzZXk3cmFOUFROMTJrY0Zrd1d2d1FadHJNRlJPenV3enJ4Si1BdmtOQTI3VktQMXBLRmNGM2JJaWk1MjNqZTltWGRDLVMwRmNJVVZjRGZfZDVJdw?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 9,
+      "matchedAliases": [
+        "GOOGL",
+        "Google"
+      ],
+      "matchedTerms": [
+        "cloud business"
+      ],
+      "summary": "Meta plots AI cloud business to challenge Amazon, Microsoft and Google &nbsp;&nbsp; Los Angeles Times",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "googl",
+      "ticker": "GOOGL",
+      "companyName": "Alphabet / Google / 字母表",
+      "date": "2026-07-01",
+      "title": "Watch Meta Is Planning Cloud Business to Take on Amazon, Google - Bloomberg.com",
+      "sourceName": "Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR2xMbmxiSUJWYllKYkJhSTVmRzJ5NHF3UUFZTmxScmNxTEZOQzV4OEFpOXhOYjg2N0lLdjVXS0pObW5ESkRucFVWblBLOW1hNDR3LS10OEhlNHZuSnpwVUI5VW9JMTNNR0lOYXZ6TjJkQkNuTS1ob0FiUF81RlE2ZHcydl90Y29OaXdZN2V0MUJYc05vdmFuZWRxMlVISDIwNXJ4N3dIWnFNRXF1WFRVQQ?oc=5",
+      "category": "customer-competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "score": 9,
+      "matchedAliases": [
+        "GOOGL",
+        "Google"
+      ],
+      "matchedTerms": [
+        "cloud business"
+      ],
+      "summary": "Watch Meta Is Planning Cloud Business to Take on Amazon, Google &nbsp;&nbsp; Bloomberg.com",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "googl",
+      "ticker": "GOOGL",
+      "companyName": "Alphabet / Google / 字母表",
+      "date": "2026-06-30",
+      "title": "Google Ads Customer Loyalty Data Can Be Uploaded Via Merchant API - Search Engine Roundtable",
+      "sourceName": "Search Engine Roundtable",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBPNVFoWkp2TFJSaWZBMzI1VDJaQnN5NFlRbS1CeWhxMHF6MEp5anl5VVFIVXg1dXp4X1huTFh1Q1dUdTZ3SzMyWXY5MWJFY0J1V3VKMmxKWjc4Z0s3VFpfV19kMnlfbmM4LWhKSGNabjdLMjdZdUoxRFJ3QmVVbkU?oc=5",
+      "category": "contract-order",
+      "categoryZh": "订单/合同",
+      "categoryEn": "Orders / contracts",
+      "score": 9,
+      "matchedAliases": [
+        "GOOGL",
+        "Google"
+      ],
+      "matchedTerms": [
+        "customer"
+      ],
+      "summary": "Google Ads Customer Loyalty Data Can Be Uploaded Via Merchant API &nbsp;&nbsp; Search Engine Roundtable",
+      "impactZh": "这类事件可能影响收入可见度、资本开支回收和客户集中度；需要确认合同金额、期限、取消条款和交付节奏。",
+      "impactEn": "This type of event may affect revenue visibility, capex payback, and customer concentration; verify contract size, duration, cancellation terms, and delivery timing.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "googl",
+      "ticker": "GOOGL",
+      "companyName": "Alphabet / Google / 字母表",
+      "date": "2026-06-30",
+      "title": "What You Need To Know Ahead of Alphabet’s Earnings Release - Barchart.com",
+      "sourceName": "Barchart.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOazY5cG5FdDcyT3ZWRnFyVG56QlRnenlrNm5hcWVmMzRPd29kZ0wtU1N3OGJCRHNZaU5WdGpFeWZsU0FwalkzckVmTmtrbGdqbC1KUm5LZUI0TXJvd25tSGo3SHltMXo2YTd2VGxnMGZxTnRMNkVCalkzREJXOXN5Rm5taFViR1JCTkx5S0s0bGpzcHFLb1FoSVlNV0lQa29RRk9V?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 6,
+      "matchedAliases": [
+        "Alphabet"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "What You Need To Know Ahead of Alphabet’s Earnings Release &nbsp;&nbsp; Barchart.com",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    }
+  ]
+}

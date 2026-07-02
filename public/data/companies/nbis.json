@@ -20,7 +20,7 @@
     "AI 基础设施"
   ],
   "homepage": "https://nebius.com/",
-  "lastUpdated": "2026-07-02T04:56:40.910187Z",
+  "lastUpdated": "2026-07-02T05:29:05.994452Z",
   "summary": "Nebius 是 AI 云基础设施公司，核心变量是 GPU 云容量、数据中心交付、电力/网络配套、AI 客户需求和资本开支现金流。",
   "summaryZh": "Nebius 是 AI 云基础设施公司，核心变量是 GPU 云容量、数据中心交付、电力/网络配套、AI 客户需求和资本开支现金流。",
   "summaryEn": "Nebius is an AI cloud infrastructure company; key variables are GPU cloud capacity, data-center delivery, power/network buildout, AI customer demand, and capex cash flow.",
@@ -759,6 +759,24 @@
   },
   "news": [
     {
+      "date": "2026-07-01",
+      "title": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius - Barron's",
+      "titleZh": "外部事件线索：Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius - Barron's",
+      "titleEn": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius - Barron's",
+      "category": "Customer / competition",
+      "categoryZh": "客户/竞争格局",
+      "categoryEn": "Customer / competition",
+      "summary": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius &nbsp;&nbsp; Barron's",
+      "summaryZh": "自动发现的外部事件线索：Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius - Barron's。匹配词：move to the cloud、bad news for。需要用原始报道、公司公告或监管文件复核。",
+      "summaryEn": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius &nbsp;&nbsp; Barron's",
+      "impact": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactZh": "这类事件可能改变客户关系、续约增长、议价能力或行业供需叙事；需要复核正式公告、管理层表述和后续订单/价格变化。",
+      "impactEn": "This type of event may change customer relationships, renewal growth, bargaining power, or the industry supply-demand narrative; verify with filings, management comments, and follow-on order or pricing data.",
+      "sourceIds": [
+        "event-nbis-8ad4e11e82"
+      ]
+    },
+    {
       "date": "2026-05-20",
       "title": "Nebius filed Q1 2026 Form 6-K",
       "titleZh": "Nebius 提交 2026 年第一季度 6-K",
@@ -864,6 +882,20 @@
     }
   ],
   "sources": [
+    {
+      "id": "event-nbis-8ad4e11e82",
+      "title": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius - Barron's",
+      "titleZh": "外部事件线索：Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius - Barron's",
+      "titleEn": "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius - Barron's",
+      "publisher": "Barron's",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaTI0bWdTNFdLenJMZkx3SlhUZGxZWWJJRENXdWdLWmZlQVZGdXA2ak9VN1c4czdSSGtpYlhQM1lEaHNsWHptOEZCRlFtRjNORUZ3M0ZuYVYwYi0yU2lORmYtWGFZSkM2dGRpUXQxXzgybEh6Z0VYR2J3M18ydDRXRjlUX0k?oc=5",
+      "publishedAt": "2026-07-01",
+      "accessedAt": "2026-07-02",
+      "type": "news",
+      "evidenceLevel": "medium",
+      "evidenceLevelZh": "中等证据",
+      "evidenceLevelEn": "Medium"
+    },
     {
       "id": "nbis-q1-2026-6k",
       "title": "Nebius Form 6-K with Q1 2026 operating and financial review",

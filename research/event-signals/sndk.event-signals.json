@@ -1,0 +1,114 @@
+{
+  "generatedAt": "2026-07-02T05:33:27.083027Z",
+  "companyId": "sndk",
+  "ticker": "SNDK",
+  "query": "(SNDK OR Sandisk OR 闪迪 OR \"Sandisk Corporation\") (\"excess capacity\" OR \"cloud business\" OR contract OR customer OR competitor OR capacity OR \"export control\" OR earnings OR guidance OR financing) when:3d",
+  "applied": false,
+  "signals": [
+    {
+      "companyId": "sndk",
+      "ticker": "SNDK",
+      "companyName": "Sandisk / 闪迪",
+      "date": "2026-07-01",
+      "title": "Sandisk’s and Micron’s stocks sink as the rotation trade builds, but supply shortages should limit losses - MarketWatch",
+      "sourceName": "MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQYjdLaHBXeklPektNa0dPdUJtWUVWVlBKMTNqVkxMQnZqZ29HMmFfdFppcGFlYzROSC1Ic1hrUlZ2N1c4SEZlenNCSjE5TlQxVk5tR2lkdGJHYlRjSmhqY0xtWVU1RTgyZmZIM002OXJ3T0NFR3U5dXFuSHlVb0tRZmM0NTBPNEFWckNyTld6dzNKa3c4Zm5DNGYzV29PbXNwR1A2R3NIODRzMnlUUG9BcGcyTnN0cG8xdjVUNEZoU19SY3BnQXFsenNTS18wclIxdl83Z1VMX3V5ZWJIdUE?oc=5",
+      "category": "capacity-supply",
+      "categoryZh": "产能/供给",
+      "categoryEn": "Capacity / supply",
+      "score": 9,
+      "matchedAliases": [
+        "Sandisk",
+        "SanDisk"
+      ],
+      "matchedTerms": [
+        "supply",
+        "shortage"
+      ],
+      "summary": "Sandisk’s and Micron’s stocks sink as the rotation trade builds, but supply shortages should limit losses &nbsp;&nbsp; MarketWatch",
+      "impactZh": "这类事件可能影响产业链卡点、价格、交付周期和利润率；需要交叉验证产能规模、时间点和客户认证。",
+      "impactEn": "This type of event may affect scarce layers, pricing, delivery lead times, and margins; cross-check capacity scale, timing, and customer qualification.",
+      "evidenceLevel": "medium",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "sndk",
+      "ticker": "SNDK",
+      "companyName": "Sandisk / 闪迪",
+      "date": "2026-07-01",
+      "title": "Sandisk Is One of the Biggest Winners After Micron's Blowout Earnings - Yahoo Finance",
+      "sourceName": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSkxieUgyd1hiaVJyaS1TWXNGUVlFV1NoN0Y2YTc0UzhOUmF2Zmp2dHo0X3ZTZ2dNX1ppcjlneUp2Ymp3TUVjQlJHT0tOMlQ2Q2Y1c2toLThzYjY2dFFBSkJJSldfa1JwaUZ5STRWOGdEbF9UcjJIMkxHdjNXLXY2TTFpNVdPeHBJXy16a084bERWbWQxSkcwWWItNGlTMDl2anc?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 7,
+      "matchedAliases": [
+        "Sandisk",
+        "SanDisk"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Sandisk Is One of the Biggest Winners After Micron's Blowout Earnings &nbsp;&nbsp; Yahoo Finance",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "sndk",
+      "ticker": "SNDK",
+      "companyName": "Sandisk / 闪迪",
+      "date": "2026-07-01",
+      "title": "Bank of America Revamps Sandisk Stock Price Target for 2027 - TradingView",
+      "sourceName": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMmt2RnIwUDZTLTlFaUZfWWY5MXRVLWtpSkJIaC1EQmotaXBpLUZJTkU5U2dZdFJ0aHA4cXBkX2RKZnctWmZLS0sxRHpFWkJEa1l3SUpuUlhCcnRDR2JYa2VsX2ZBVDdhT3pQTUsxNHB5YkpkOEdxaXZtR2hDMkNSemF1czhUUFM4a0dLNENhZnZSYVFYNjZQNmNYLUo3MzZlY1JaMEpFUENBVlZ0TkZFV25iTDZSVjh3OXZN?oc=5",
+      "category": "regulatory-policy",
+      "categoryZh": "政策/监管",
+      "categoryEn": "Policy / regulation",
+      "score": 7,
+      "matchedAliases": [
+        "Sandisk",
+        "SanDisk"
+      ],
+      "matchedTerms": [
+        "ban"
+      ],
+      "summary": "Bank of America Revamps Sandisk Stock Price Target for 2027 &nbsp;&nbsp; TradingView",
+      "impactZh": "这类事件可能影响可销售市场、供应链路径、客户采购和合规成本；需要优先核对监管原文。",
+      "impactEn": "This type of event may affect addressable markets, supply-chain routing, customer procurement, and compliance costs; prioritize original regulatory text.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "sndk",
+      "ticker": "SNDK",
+      "companyName": "Sandisk / 闪迪",
+      "date": "2026-07-01",
+      "title": "Sandisk Is One of the Biggest Winners After Micron's Blowout Earnings - AOL.com",
+      "sourceName": "AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZ0J0dzlpMVFMYmw2bU9OZGhZWEZSMkh4a2Itc28zQjJya21nUlBzRHo5YTUtVTRIR2tRUWpuSlRFNGJTbVZydmNaNjlNNVNhYjZYMGtxd0JSS1J4cVZVLVJWdDJWMVA3c19jREhTclM2OXNyTUdlZkRTWEFHSmxLcHlBQkZpQQ?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 7,
+      "matchedAliases": [
+        "Sandisk",
+        "SanDisk"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Sandisk Is One of the Biggest Winners After Micron's Blowout Earnings &nbsp;&nbsp; AOL.com",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T04:56:40.953769Z",
+  "generatedAt": "2026-07-02T05:32:22.473484Z",
   "companies": [
     {
       "id": "cssc-special-gas",
@@ -229,7 +229,7 @@
         "美股"
       ],
       "sector": "AI cloud infrastructure / AI 云基础设施",
-      "lastUpdated": "2026-07-01T20:25:36.329650Z",
+      "lastUpdated": "2026-07-02T05:30:22.978199Z",
       "summary": "CoreWeave 是专注 GPU 云的上市公司，业务与 NVIDIA GPU 供给、数据中心融资和 AI 客户需求高度相关；公司仍处于高增长与高资本开支阶段。 / CoreWeave is a public GPU-cloud company with high exposure to NVIDIA GPU supply, data-center financing, and AI customer demand, while still in a high-growth, high-capex phase."
     },
     {
@@ -483,7 +483,7 @@
         "美股"
       ],
       "sector": "Memory and storage semiconductors",
-      "lastUpdated": "2026-07-01T20:25:40.303363Z",
+      "lastUpdated": "2026-07-02T05:00:41.408195Z",
       "summary": "美光是美国存储器与存储解决方案龙头，核心变量是 AI 数据中心带来的 HBM、DDR5/LPDDR 与 SSD 需求、存储价格周期、产能/资本开支和先进封装能力。"
     },
     {
@@ -510,7 +510,7 @@
         "美股"
       ],
       "sector": "AI cloud infrastructure / AI 云基础设施",
-      "lastUpdated": "2026-07-02T04:56:40.910187Z",
+      "lastUpdated": "2026-07-02T05:29:05.994452Z",
       "summary": "Nebius 是 AI 云基础设施公司，核心变量是 GPU 云容量、数据中心交付、电力/网络配套、AI 客户需求和资本开支现金流。"
     },
     {
@@ -637,7 +637,7 @@
         "美股"
       ],
       "sector": "Flash memory and SSDs / 闪存与 SSD",
-      "lastUpdated": "2026-07-01T20:31:38.807660Z",
+      "lastUpdated": "2026-07-02T05:31:19.411907Z",
       "summary": "Sandisk 是 NAND 闪存和 SSD 公司，AI 数据中心企业 SSD 需求、NAND 价格周期和长期客户协议是核心变量。"
     },
     {

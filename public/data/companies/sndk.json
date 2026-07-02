@@ -18,7 +18,7 @@
     "消费存储"
   ],
   "homepage": "https://www.sandisk.com/",
-  "lastUpdated": "2026-07-01T20:31:38.807660Z",
+  "lastUpdated": "2026-07-02T05:31:19.411907Z",
   "summary": "Sandisk 是 NAND 闪存和 SSD 公司，AI 数据中心企业 SSD 需求、NAND 价格周期和长期客户协议是核心变量。",
   "summaryZh": "Sandisk 是 NAND 闪存和 SSD 公司，AI 数据中心企业 SSD 需求、NAND 价格周期和长期客户协议是核心变量。",
   "summaryEn": "Sandisk is a NAND flash and SSD company; AI data-center enterprise SSD demand, NAND pricing cycles, and long-term customer agreements are the key variables.",
@@ -567,6 +567,24 @@
   },
   "news": [
     {
+      "date": "2026-07-01",
+      "title": "Sandisk’s and Micron’s stocks sink as the rotation trade builds, but supply shortages should limit losses - MarketWatch",
+      "titleZh": "外部事件线索：Sandisk’s and Micron’s stocks sink as the rotation trade builds, but supply shortages should limit losses - MarketWatch",
+      "titleEn": "Sandisk’s and Micron’s stocks sink as the rotation trade builds, but supply shortages should limit losses - MarketWatch",
+      "category": "Capacity / supply",
+      "categoryZh": "产能/供给",
+      "categoryEn": "Capacity / supply",
+      "summary": "Sandisk’s and Micron’s stocks sink as the rotation trade builds, but supply shortages should limit losses &nbsp;&nbsp; MarketWatch",
+      "summaryZh": "自动发现的外部事件线索：Sandisk’s and Micron’s stocks sink as the rotation trade builds, but supply shortages should limit losses - MarketWatch。匹配词：supply、shortage。需要用原始报道、公司公告或监管文件复核。",
+      "summaryEn": "Sandisk’s and Micron’s stocks sink as the rotation trade builds, but supply shortages should limit losses &nbsp;&nbsp; MarketWatch",
+      "impact": "这类事件可能影响产业链卡点、价格、交付周期和利润率；需要交叉验证产能规模、时间点和客户认证。",
+      "impactZh": "这类事件可能影响产业链卡点、价格、交付周期和利润率；需要交叉验证产能规模、时间点和客户认证。",
+      "impactEn": "This type of event may affect scarce layers, pricing, delivery lead times, and margins; cross-check capacity scale, timing, and customer qualification.",
+      "sourceIds": [
+        "event-sndk-c5fa0a676e"
+      ]
+    },
+    {
       "date": "2026-05-01",
       "title": "Sandisk filed Q3 FY2026 Form 10-Q",
       "titleZh": "Sandisk 提交 2026 财年第三财季 10-Q",
@@ -672,6 +690,20 @@
     }
   ],
   "sources": [
+    {
+      "id": "event-sndk-c5fa0a676e",
+      "title": "Sandisk’s and Micron’s stocks sink as the rotation trade builds, but supply shortages should limit losses - MarketWatch",
+      "titleZh": "外部事件线索：Sandisk’s and Micron’s stocks sink as the rotation trade builds, but supply shortages should limit losses - MarketWatch",
+      "titleEn": "Sandisk’s and Micron’s stocks sink as the rotation trade builds, but supply shortages should limit losses - MarketWatch",
+      "publisher": "MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQYjdLaHBXeklPektNa0dPdUJtWUVWVlBKMTNqVkxMQnZqZ29HMmFfdFppcGFlYzROSC1Ic1hrUlZ2N1c4SEZlenNCSjE5TlQxVk5tR2lkdGJHYlRjSmhqY0xtWVU1RTgyZmZIM002OXJ3T0NFR3U5dXFuSHlVb0tRZmM0NTBPNEFWckNyTld6dzNKa3c4Zm5DNGYzV29PbXNwR1A2R3NIODRzMnlUUG9BcGcyTnN0cG8xdjVUNEZoU19SY3BnQXFsenNTS18wclIxdl83Z1VMX3V5ZWJIdUE?oc=5",
+      "publishedAt": "2026-07-01",
+      "accessedAt": "2026-07-02",
+      "type": "news",
+      "evidenceLevel": "medium",
+      "evidenceLevelZh": "中等证据",
+      "evidenceLevelEn": "Medium"
+    },
     {
       "id": "sndk-q3-2026",
       "title": "Sandisk Form 10-Q for quarter ended April 3, 2026",

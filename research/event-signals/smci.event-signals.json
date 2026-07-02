@@ -1,0 +1,8 @@
+{
+  "generatedAt": "2026-07-02T05:33:26.164483Z",
+  "companyId": "smci",
+  "ticker": "SMCI",
+  "query": "(SMCI OR Supermicro OR 超微电脑 OR \"Super Micro Computer, Inc.\") (\"excess capacity\" OR \"cloud business\" OR contract OR customer OR competitor OR capacity OR \"export control\" OR earnings OR guidance OR financing) when:3d",
+  "applied": false,
+  "signals": []
+}

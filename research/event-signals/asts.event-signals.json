@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-07-02T05:33:13.271919Z",
+  "companyId": "asts",
+  "ticker": "ASTS",
+  "query": "(ASTS OR \"AST SpaceMobile\" OR \"AST 太空移动\" OR \"AST SpaceMobile, Inc.\") (\"excess capacity\" OR \"cloud business\" OR contract OR customer OR competitor OR capacity OR \"export control\" OR earnings OR guidance OR financing) when:3d",
+  "applied": false,
+  "signals": [
+    {
+      "companyId": "asts",
+      "ticker": "ASTS",
+      "companyName": "AST SpaceMobile / AST 太空移动",
+      "date": "2026-07-01",
+      "title": "ASTS Stock Faces Launch Pressure: BlueBird 8-10 Shipment Clock Ticks Ahead Of Earnings Next Week - Stocktwits",
+      "sourceName": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNjRCTEVaV1NwZE5IOTgwbkdBa2VweUw2Z3hXcHNFN3RuZGFBWERvUVlzaGVsUGJhUFNHbURBNkdzS1BEOXpPX2ZhSmdEWGRwVkpiMzd4TS02ckxfb3RaRm9zSVhPNm1Qb3l2SzNKY1V3ZWhQTUNnazBXYkhOV1YyTEdwN2p4OEQ3bTROeV90bzJheHJBVm9VbWVCVlhHM2FKU3k4MVR3ZlhheVBNN3ZTa1hFUzFMenlPX2ZIYzAtdjQ?oc=5",
+      "category": "capacity-supply",
+      "categoryZh": "产能/供给",
+      "categoryEn": "Capacity / supply",
+      "score": 8,
+      "matchedAliases": [
+        "ASTS"
+      ],
+      "matchedTerms": [
+        "shipment"
+      ],
+      "summary": "ASTS Stock Faces Launch Pressure: BlueBird 8-10 Shipment Clock Ticks Ahead Of Earnings Next Week &nbsp;&nbsp; Stocktwits",
+      "impactZh": "这类事件可能影响产业链卡点、价格、交付周期和利润率；需要交叉验证产能规模、时间点和客户认证。",
+      "impactEn": "This type of event may affect scarce layers, pricing, delivery lead times, and margins; cross-check capacity scale, timing, and customer qualification.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    }
+  ]
+}

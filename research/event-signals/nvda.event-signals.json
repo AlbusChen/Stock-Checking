@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-07-02T05:33:23.980120Z",
+  "companyId": "nvda",
+  "ticker": "NVDA",
+  "query": "(NVDA OR \"NVIDIA Corporation\") (\"excess capacity\" OR \"cloud business\" OR contract OR customer OR competitor OR capacity OR \"export control\" OR earnings OR guidance OR financing) when:3d",
+  "applied": false,
+  "signals": [
+    {
+      "companyId": "nvda",
+      "ticker": "NVDA",
+      "companyName": "NVIDIA Corporation",
+      "date": "2026-07-02",
+      "title": "NVIDIA Price Forecast: Michael Burry Shorts NVDA, but Analysts See $299 - TradingKey",
+      "sourceName": "TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcllYdFgteHVGLUZYa0d3ckNFSEZLSkNERXo4VDdjM2Q1YUJKSTVnZTluOUZCdnNTRWR0dWJ6OGYyNHFReXFReDFzNThLdmRPb1hfczBlb2Z1U3dnUDlPQmtadGE5bkl0T3ozVmZGZzRXejYtdjcxWkdLS3Z2b2RWYjFRSWhYb05Qd25IcWJWa19TY0U5b3puYUpUOUhKYXIwLTJyWmRoc2pQUXptM3B1TV9CMzA2TS1rMGJhbFlQTE51SmxHTmVhck1pNnliOHVuSjFobEtuNmM?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 8,
+      "matchedAliases": [
+        "NVDA"
+      ],
+      "matchedTerms": [
+        "forecast"
+      ],
+      "summary": "NVIDIA Price Forecast: Michael Burry Shorts NVDA, but Analysts See $299 &nbsp;&nbsp; TradingKey",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "nvda",
+      "ticker": "NVDA",
+      "companyName": "NVIDIA Corporation",
+      "date": "2026-07-01",
+      "title": "Nvidia (NVDA) Stock: Leading Semiconductor Analyst Predicts 20% Revenue Surge Above Consensus - Blockonomi",
+      "sourceName": "Blockonomi",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOXzlDeVNvakRSMFNfWWMwWWZBeU1oallJNEdvSGdyc0ZBVlVPdGhXeEJxSEd1bzFKajV6MXJlbW9IaWIxcHFEMWxEbktGQVZlZ2ZyMkdhRVRBQ015RW44MUJMSk1IQjk3cmVDT0VoR1plWkItd3FyOFlTdEVJUnd4NUM4c1AtZGZSN3B4bkhsRl95OEVfdW40QTljVUo3UjdvOWt4cnE5eXNzMXhVMFhhYl9FOA?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 8,
+      "matchedAliases": [
+        "NVDA"
+      ],
+      "matchedTerms": [
+        "revenue"
+      ],
+      "summary": "Nvidia (NVDA) Stock: Leading Semiconductor Analyst Predicts 20% Revenue Surge Above Consensus &nbsp;&nbsp; Blockonomi",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    },
+    {
+      "companyId": "nvda",
+      "ticker": "NVDA",
+      "companyName": "NVIDIA Corporation",
+      "date": "2026-06-30",
+      "title": "Just Ahead Of NVDA Earnings, Beijing Reportedly Tightened The Screws On Another Nvidia Chip - Stocktwits",
+      "sourceName": "Stocktwits",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPa3dYLTNYX2tXbWFLOHVjYzJpbTR0Q0IxdEJxZjJGVzQwc1Yzb0xQVTRGSllySzNaSmVsLVAwNnYzNVRDcEVFUHFrUDUxci05djhET3ZuRUlYUzFzVFRkYjdPdGItRjR6bXJreG5rMnpyOXBwY0hhczhYVW5aVFNkajBLV1RjN3hJSldqbkJoY2ZoZDBIeXpoaUFHTllmTk1pYWtMSUVMMHZVNE5Za053dEk5UXUzTk04MjNuaUZlbXdTclQwcmVtendERTI1UVBhSnlmenNPVVJtN0RoU2ltUXVXdTQ2eHJ3b3hRckJxYTlGbzlQX3dyb1lhSU8?oc=5",
+      "category": "earnings-guidance",
+      "categoryZh": "业绩/指引",
+      "categoryEn": "Earnings / guidance",
+      "score": 7,
+      "matchedAliases": [
+        "NVDA"
+      ],
+      "matchedTerms": [
+        "earnings"
+      ],
+      "summary": "Just Ahead Of NVDA Earnings, Beijing Reportedly Tightened The Screws On Another Nvidia Chip &nbsp;&nbsp; Stocktwits",
+      "impactZh": "这类事件可能影响最新业绩口径和趋势判断；需要用公司公告或 SEC/交易所文件更新财务模块。",
+      "impactEn": "This type of event may affect the latest financial baseline and trend judgment; update financial modules from company releases or SEC/exchange filings.",
+      "evidenceLevel": "weak",
+      "reviewNoteZh": "该条为自动发现的外部事件线索，落库前应复核原始报道、公司公告或监管文件。",
+      "reviewNoteEn": "Automatically discovered external event lead. Verify original reporting, company releases, or regulatory filings before treating it as confirmed."
+    }
+  ]
+}
