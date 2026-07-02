@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T20:31:53.923358Z",
+  "generatedAt": "2026-07-02T04:56:40.953769Z",
   "companies": [
     {
       "id": "cssc-special-gas",
@@ -485,6 +485,33 @@
       "sector": "Memory and storage semiconductors",
       "lastUpdated": "2026-07-01T20:25:40.303363Z",
       "summary": "美光是美国存储器与存储解决方案龙头，核心变量是 AI 数据中心带来的 HBM、DDR5/LPDDR 与 SSD 需求、存储价格周期、产能/资本开支和先进封装能力。"
+    },
+    {
+      "id": "nbis",
+      "ticker": "NBIS",
+      "name": "Nebius / Nebius AI 云",
+      "legalName": "Nebius Group N.V.",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/nbis.json",
+      "aliases": [
+        "Nebius",
+        "NBIS",
+        "Nebius Group",
+        "AI cloud"
+      ],
+      "labels": [
+        "自选",
+        "AI",
+        "AI云",
+        "GPU云",
+        "数据中心",
+        "英伟达相关",
+        "美股"
+      ],
+      "sector": "AI cloud infrastructure / AI 云基础设施",
+      "lastUpdated": "2026-07-02T04:56:40.910187Z",
+      "summary": "Nebius 是 AI 云基础设施公司，核心变量是 GPU 云容量、数据中心交付、电力/网络配套、AI 客户需求和资本开支现金流。"
     },
     {
       "id": "nvda",

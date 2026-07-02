@@ -1,0 +1,926 @@
+{
+  "schemaVersion": 1,
+  "id": "nbis",
+  "ticker": "NBIS",
+  "exchange": "NASDAQ",
+  "market": "US",
+  "name": "Nebius / Nebius AI 云",
+  "legalName": "Nebius Group N.V.",
+  "cik": "0001513845",
+  "currency": "USD",
+  "sector": "AI cloud infrastructure / AI 云基础设施",
+  "industry": [
+    "AI cloud",
+    "GPU cloud",
+    "Data centers",
+    "AI infrastructure",
+    "AI 云",
+    "GPU 云",
+    "数据中心",
+    "AI 基础设施"
+  ],
+  "homepage": "https://nebius.com/",
+  "lastUpdated": "2026-07-02T04:56:40.910187Z",
+  "summary": "Nebius 是 AI 云基础设施公司，核心变量是 GPU 云容量、数据中心交付、电力/网络配套、AI 客户需求和资本开支现金流。",
+  "summaryZh": "Nebius 是 AI 云基础设施公司，核心变量是 GPU 云容量、数据中心交付、电力/网络配套、AI 客户需求和资本开支现金流。",
+  "summaryEn": "Nebius is an AI cloud infrastructure company; key variables are GPU cloud capacity, data-center delivery, power/network buildout, AI customer demand, and capex cash flow.",
+  "aliases": [
+    "Nebius",
+    "NBIS",
+    "Nebius Group",
+    "AI cloud"
+  ],
+  "labels": [
+    "自选",
+    "AI",
+    "AI云",
+    "GPU云",
+    "数据中心",
+    "英伟达相关",
+    "美股"
+  ],
+  "themeExposure": [
+    {
+      "theme": "自选组合",
+      "themeZh": "自选组合",
+      "themeEn": "Watchlist",
+      "score": 5,
+      "role": "核心自选标的",
+      "roleZh": "核心自选标的",
+      "roleEn": "Core watchlist name",
+      "rationale": "用户指定加入自选 label；业务连接 AI 云、GPU 云、数据中心和英伟达相关基础设施主题。",
+      "rationaleZh": "用户指定加入自选 label；业务连接 AI 云、GPU 云、数据中心和英伟达相关基础设施主题。",
+      "rationaleEn": "User-specified watchlist name spanning AI cloud, GPU cloud, data centers, and NVIDIA-related infrastructure.",
+      "confidence": "high"
+    },
+    {
+      "theme": "英伟达相关",
+      "themeZh": "英伟达相关",
+      "themeEn": "NVIDIA-related",
+      "score": 3,
+      "role": "GPU 云需求端",
+      "roleZh": "GPU 云需求端",
+      "roleEn": "GPU cloud demand layer",
+      "rationale": "Nebius 的 GPU 云容量与 AI 加速器、服务器和网络供应相关，但它主要是下游/中游算力平台，不是 NVIDIA 的直接核心供应商。",
+      "rationaleZh": "Nebius 的 GPU 云容量与 AI 加速器、服务器和网络供应相关，但它主要是下游/中游算力平台，不是 NVIDIA 的直接核心供应商。",
+      "rationaleEn": "Nebius GPU cloud capacity is tied to AI accelerators, servers, and networking supply, but it is mainly a downstream/midstream compute platform rather than a direct core NVIDIA supplier.",
+      "confidence": "medium"
+    }
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "description": "Nebius Group N.V. 是 AI 基础设施公司，核心业务围绕 GPU 云、AI 训练/推理基础设施、数据中心、托管服务和面向 AI 开发者/企业客户的平台能力。",
+    "revenueModel": [
+      "GPU 云与 AI 基础设施服务",
+      "数据中心容量与托管服务",
+      "AI 开发平台和相关软件服务"
+    ],
+    "segments": [],
+    "thesis": "Nebius 的投资和产业链判断核心在 GPU 云供给、数据中心容量、电力和网络基础设施，以及 AI 客户需求能否持续转化为收入和现金流。",
+    "riskNotes": [
+      "业务处于快速扩张阶段，资本开支、数据中心交付和 GPU 采购会影响现金流。",
+      "AI 云需求如果弱于预期或价格竞争加剧，收入增长和毛利率会承压。",
+      "GPU、网络、电力和数据中心建设周期是供应链核心约束。"
+    ],
+    "failureConditions": [
+      {
+        "condition": "收入增长、GPU 可用容量或数据中心交付明显慢于公司披露节奏。",
+        "conditionZh": "收入增长、GPU 可用容量或数据中心交付明显慢于公司披露节奏。",
+        "conditionEn": "The thesis should be reassessed if this signal appears in filings, customer disclosures, pricing, capacity, or operating metrics.",
+        "monitor": "跟踪 6-K/20-F、客户披露、数据中心容量、资本开支和现金流。",
+        "monitorZh": "跟踪 6-K/20-F、客户披露、数据中心容量、资本开支和现金流。",
+        "monitorEn": "Monitor filings, customer disclosures, GPU capacity, data-center delivery, revenue growth, margins, and cash flow.",
+        "sourceIds": [
+          "nbis-q1-2026-6k",
+          "nbis-20f-2025"
+        ]
+      },
+      {
+        "condition": "AI 云价格竞争加剧，经营亏损或现金消耗扩大。",
+        "conditionZh": "AI 云价格竞争加剧，经营亏损或现金消耗扩大。",
+        "conditionEn": "The thesis should be reassessed if this signal appears in filings, customer disclosures, pricing, capacity, or operating metrics.",
+        "monitor": "跟踪收入、经营亏损、现金余额、经营现金流和融资活动。",
+        "monitorZh": "跟踪收入、经营亏损、现金余额、经营现金流和融资活动。",
+        "monitorEn": "Monitor filings, customer disclosures, GPU capacity, data-center delivery, revenue growth, margins, and cash flow.",
+        "sourceIds": [
+          "nbis-q1-2026-6k",
+          "nbis-20f-2025"
+        ]
+      }
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-07-02T04:56:40.910187Z",
+    "thesis": "Nebius 位于 AI 基础设施中游：上游依赖 NVIDIA/AI 加速器、高速网络、服务器、液冷、电力和数据中心建设；下游连接 AI 初创、企业、模型训练和推理客户。",
+    "thesisZh": "Nebius 位于 AI 基础设施中游：上游依赖 NVIDIA/AI 加速器、高速网络、服务器、液冷、电力和数据中心建设；下游连接 AI 初创、企业、模型训练和推理客户。",
+    "thesisEn": "Nebius sits in the AI infrastructure middle layer: upstream dependencies include NVIDIA/AI accelerators, high-speed networking, servers, liquid cooling, power, and data-center buildout; downstream customers include AI startups, enterprises, model training, and inference workloads.",
+    "scarceLayers": [
+      {
+        "name": "GPU 云可用容量",
+        "nameZh": "GPU 云可用容量",
+        "nameEn": "GPU 云可用容量",
+        "rank": 1,
+        "constraintType": "capacity",
+        "constraintTypeZh": "产能",
+        "constraintTypeEn": "Capacity",
+        "whyScarce": "AI 云最直接的卡点是 GPU/AI 加速器可用容量、网络互连和集群交付速度。",
+        "whyScarceZh": "AI 云最直接的卡点是 GPU/AI 加速器可用容量、网络互连和集群交付速度。",
+        "whyScarceEn": "AI 云最直接的卡点是 GPU/AI 加速器可用容量、网络互连和集群交付速度。",
+        "relatedCompanies": [
+          "Nebius",
+          "NVIDIA",
+          "server OEMs"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "high",
+        "sourceIds": [
+          "nbis-q1-2026-6k",
+          "nbis-20f-2025"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果 GPU 可用产能、数据中心交付或客户需求扩张慢于预期，该卡点重要性需要下调。",
+            "conditionZh": "如果 GPU 可用产能、数据中心交付或客户需求扩张慢于预期，该卡点重要性需要下调。",
+            "conditionEn": "The thesis should be reassessed if this signal appears in filings, customer disclosures, pricing, capacity, or operating metrics.",
+            "monitor": "跟踪 6-K/20-F、客户合同、数据中心容量、资本开支和收入增长。",
+            "monitorZh": "跟踪 6-K/20-F、客户合同、数据中心容量、资本开支和收入增长。",
+            "monitorEn": "Monitor filings, customer disclosures, GPU capacity, data-center delivery, revenue growth, margins, and cash flow.",
+            "sourceIds": [
+              "nbis-q1-2026-6k",
+              "nbis-20f-2025"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "电力与数据中心建设",
+        "nameZh": "电力与数据中心建设",
+        "nameEn": "电力与数据中心建设",
+        "rank": 2,
+        "constraintType": "capital-intensity",
+        "constraintTypeZh": "资本强度",
+        "constraintTypeEn": "Capital intensity",
+        "whyScarce": "GPU 集群扩张需要电力、土地、冷却、网络和资本开支配套，交付周期会限制收入兑现。",
+        "whyScarceZh": "GPU 集群扩张需要电力、土地、冷却、网络和资本开支配套，交付周期会限制收入兑现。",
+        "whyScarceEn": "GPU 集群扩张需要电力、土地、冷却、网络和资本开支配套，交付周期会限制收入兑现。",
+        "relatedCompanies": [
+          "Nebius",
+          "data-center ecosystem"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "high",
+        "sourceIds": [
+          "nbis-q1-2026-6k",
+          "nbis-20f-2025"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果 GPU 可用产能、数据中心交付或客户需求扩张慢于预期，该卡点重要性需要下调。",
+            "conditionZh": "如果 GPU 可用产能、数据中心交付或客户需求扩张慢于预期，该卡点重要性需要下调。",
+            "conditionEn": "The thesis should be reassessed if this signal appears in filings, customer disclosures, pricing, capacity, or operating metrics.",
+            "monitor": "跟踪 6-K/20-F、客户合同、数据中心容量、资本开支和收入增长。",
+            "monitorZh": "跟踪 6-K/20-F、客户合同、数据中心容量、资本开支和收入增长。",
+            "monitorEn": "Monitor filings, customer disclosures, GPU capacity, data-center delivery, revenue growth, margins, and cash flow.",
+            "sourceIds": [
+              "nbis-q1-2026-6k",
+              "nbis-20f-2025"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AI 客户需求转化",
+        "nameZh": "AI 客户需求转化",
+        "nameEn": "AI 客户需求转化",
+        "rank": 3,
+        "constraintType": "customer-demand",
+        "constraintTypeZh": "客户需求",
+        "constraintTypeEn": "Customer demand",
+        "whyScarce": "平台价值取决于训练/推理客户能否持续使用高价值 GPU 资源。",
+        "whyScarceZh": "平台价值取决于训练/推理客户能否持续使用高价值 GPU 资源。",
+        "whyScarceEn": "平台价值取决于训练/推理客户能否持续使用高价值 GPU 资源。",
+        "relatedCompanies": [
+          "Nebius",
+          "AI customers"
+        ],
+        "evidenceLevel": "strong",
+        "confidence": "high",
+        "sourceIds": [
+          "nbis-q1-2026-6k",
+          "nbis-20f-2025"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果 GPU 可用产能、数据中心交付或客户需求扩张慢于预期，该卡点重要性需要下调。",
+            "conditionZh": "如果 GPU 可用产能、数据中心交付或客户需求扩张慢于预期，该卡点重要性需要下调。",
+            "conditionEn": "The thesis should be reassessed if this signal appears in filings, customer disclosures, pricing, capacity, or operating metrics.",
+            "monitor": "跟踪 6-K/20-F、客户合同、数据中心容量、资本开支和收入增长。",
+            "monitorZh": "跟踪 6-K/20-F、客户合同、数据中心容量、资本开支和收入增长。",
+            "monitorEn": "Monitor filings, customer disclosures, GPU capacity, data-center delivery, revenue growth, margins, and cash flow.",
+            "sourceIds": [
+              "nbis-q1-2026-6k",
+              "nbis-20f-2025"
+            ]
+          }
+        ]
+      }
+    ],
+    "tiers": [
+      {
+        "level": 0,
+        "title": "AI 基础设施平台",
+        "titleZh": "AI 基础设施平台",
+        "titleEn": "AI 基础设施平台",
+        "companies": [
+          "Nebius"
+        ],
+        "entities": [
+          {
+            "name": "Nebius",
+            "nameZh": "Nebius",
+            "nameEn": "Nebius",
+            "relationship": "目标公司本体；提供 GPU 云、AI 基础设施和数据中心平台。",
+            "relationshipZh": "目标公司本体；提供 GPU 云、AI 基础设施和数据中心平台。",
+            "relationshipEn": "目标公司本体；提供 GPU 云、AI 基础设施和数据中心平台。",
+            "productsServices": [
+              "GPU cloud",
+              "AI infrastructure",
+              "data-center platform"
+            ],
+            "productsServicesZh": [
+              "GPU cloud",
+              "AI infrastructure",
+              "data-center platform"
+            ],
+            "productsServicesEn": [
+              "GPU cloud",
+              "AI infrastructure",
+              "data-center platform"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "NBIS",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/nbis"
+            },
+            "companyUrl": "https://www.nasdaq.com/market-activity/stocks/nbis",
+            "confidence": "high",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心瓶颈",
+              "labelZh": "核心瓶颈",
+              "labelEn": "Core bottleneck",
+              "direction": "target",
+              "rationale": "目标公司本体；提供 GPU 云、AI 基础设施和数据中心平台。",
+              "rationaleZh": "目标公司本体；提供 GPU 云、AI 基础设施和数据中心平台。",
+              "rationaleEn": "目标公司本体；提供 GPU 云、AI 基础设施和数据中心平台。",
+              "confidence": "high"
+            },
+            "sourceIds": [
+              "nbis-q1-2026-6k",
+              "nbis-20f-2025"
+            ]
+          }
+        ],
+        "geography": [
+          "Europe",
+          "United States",
+          "Global"
+        ],
+        "materials": [
+          "GPU cloud",
+          "AI infrastructure platform",
+          "data-center operations"
+        ],
+        "materialsZh": [
+          "GPU cloud",
+          "AI infrastructure platform",
+          "data-center operations"
+        ],
+        "materialsEn": [
+          "GPU cloud",
+          "AI infrastructure platform",
+          "data-center operations"
+        ],
+        "notes": "Nebius 提供 GPU 云和 AI 基础设施，重点是把 GPU、数据中心、电力和软件平台转化为可售算力。",
+        "notesZh": "Nebius 提供 GPU 云和 AI 基础设施，重点是把 GPU、数据中心、电力和软件平台转化为可售算力。",
+        "notesEn": "Nebius 提供 GPU 云和 AI 基础设施，重点是把 GPU、数据中心、电力和软件平台转化为可售算力。",
+        "confidence": "high",
+        "sourceIds": [
+          "nbis-q1-2026-6k",
+          "nbis-20f-2025"
+        ]
+      },
+      {
+        "level": 1,
+        "title": "GPU、服务器、网络与电力上游",
+        "titleZh": "GPU、服务器、网络与电力上游",
+        "titleEn": "GPU、服务器、网络与电力上游",
+        "companies": [
+          "NVIDIA and AI accelerator supply chain",
+          "Data-center power and cooling ecosystem"
+        ],
+        "entities": [
+          {
+            "name": "NVIDIA and AI accelerator supply chain",
+            "nameZh": "英伟达及 AI 加速器供应链",
+            "nameEn": "NVIDIA and AI accelerator supply chain",
+            "relationship": "GPU 云容量与 NVIDIA/AI 加速器供给、服务器交付和网络互连高度相关。",
+            "relationshipZh": "GPU 云容量与 NVIDIA/AI 加速器供给、服务器交付和网络互连高度相关。",
+            "relationshipEn": "GPU 云容量与 NVIDIA/AI 加速器供给、服务器交付和网络互连高度相关。",
+            "productsServices": [
+              "GPU/AI accelerators",
+              "networking",
+              "AI servers"
+            ],
+            "productsServicesZh": [
+              "GPU/AI accelerators",
+              "networking",
+              "AI servers"
+            ],
+            "productsServicesEn": [
+              "GPU/AI accelerators",
+              "networking",
+              "AI servers"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "NVDA",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/nvda"
+            },
+            "companyUrl": "https://www.nasdaq.com/market-activity/stocks/nvda",
+            "confidence": "high",
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "upstream-component",
+              "rationale": "GPU 云容量与 NVIDIA/AI 加速器供给、服务器交付和网络互连高度相关。",
+              "rationaleZh": "GPU 云容量与 NVIDIA/AI 加速器供给、服务器交付和网络互连高度相关。",
+              "rationaleEn": "GPU 云容量与 NVIDIA/AI 加速器供给、服务器交付和网络互连高度相关。",
+              "confidence": "high"
+            },
+            "sourceIds": [
+              "nbis-q1-2026-6k",
+              "nbis-20f-2025"
+            ]
+          },
+          {
+            "name": "Data-center power and cooling ecosystem",
+            "nameZh": "数据中心电力与冷却生态",
+            "nameEn": "Data-center power and cooling ecosystem",
+            "relationship": "为 GPU 集群提供电力、冷却、机房和网络基础设施。",
+            "relationshipZh": "为 GPU 集群提供电力、冷却、机房和网络基础设施。",
+            "relationshipEn": "为 GPU 集群提供电力、冷却、机房和网络基础设施。",
+            "productsServices": [
+              "power",
+              "cooling",
+              "data-center buildout"
+            ],
+            "productsServicesZh": [
+              "power",
+              "cooling",
+              "data-center buildout"
+            ],
+            "productsServicesEn": [
+              "power",
+              "cooling",
+              "data-center buildout"
+            ],
+            "listing": {
+              "status": "unknown"
+            },
+            "companyUrl": null,
+            "confidence": "high",
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "upstream-equipment",
+              "rationale": "为 GPU 集群提供电力、冷却、机房和网络基础设施。",
+              "rationaleZh": "为 GPU 集群提供电力、冷却、机房和网络基础设施。",
+              "rationaleEn": "为 GPU 集群提供电力、冷却、机房和网络基础设施。",
+              "confidence": "high"
+            },
+            "sourceIds": [
+              "nbis-q1-2026-6k",
+              "nbis-20f-2025"
+            ]
+          }
+        ],
+        "geography": [
+          "Europe",
+          "United States",
+          "Global"
+        ],
+        "materials": [
+          "GPU/AI accelerators",
+          "servers",
+          "power",
+          "cooling",
+          "optical networking"
+        ],
+        "materialsZh": [
+          "GPU/AI accelerators",
+          "servers",
+          "power",
+          "cooling",
+          "optical networking"
+        ],
+        "materialsEn": [
+          "GPU/AI accelerators",
+          "servers",
+          "power",
+          "cooling",
+          "optical networking"
+        ],
+        "notes": "AI 云供给依赖 GPU/AI 加速器、服务器、网络设备、光模块、液冷、电力和数据中心建设。",
+        "notesZh": "AI 云供给依赖 GPU/AI 加速器、服务器、网络设备、光模块、液冷、电力和数据中心建设。",
+        "notesEn": "AI 云供给依赖 GPU/AI 加速器、服务器、网络设备、光模块、液冷、电力和数据中心建设。",
+        "confidence": "high",
+        "sourceIds": [
+          "nbis-q1-2026-6k",
+          "nbis-20f-2025"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "GPU/AI 加速器",
+        "nameZh": "GPU/AI 加速器",
+        "nameEn": "GPU/AI 加速器",
+        "usedIn": "GPU 云训练与推理集群",
+        "usedInZh": "GPU 云训练与推理集群",
+        "usedInEn": "GPU 云训练与推理集群",
+        "upstream": [
+          "GPU/AI 加速器",
+          "电力与数据中心基础设施",
+          "高速网络和光模块"
+        ],
+        "upstreamZh": [
+          "GPU/AI 加速器",
+          "电力与数据中心基础设施",
+          "高速网络和光模块"
+        ],
+        "upstreamEn": [
+          "GPU/AI accelerators",
+          "Power and data-center infrastructure",
+          "High-speed networking and optics"
+        ],
+        "risk": "GPU 供应、交付周期和价格会直接影响可售算力。",
+        "riskZh": "GPU 供应、交付周期和价格会直接影响可售算力。",
+        "riskEn": "GPU 供应、交付周期和价格会直接影响可售算力。",
+        "confidence": "medium"
+      },
+      {
+        "name": "电力/冷却/数据中心设施",
+        "nameZh": "电力/冷却/数据中心设施",
+        "nameEn": "电力/冷却/数据中心设施",
+        "usedIn": "高密度 AI 数据中心",
+        "usedInZh": "高密度 AI 数据中心",
+        "usedInEn": "高密度 AI 数据中心",
+        "upstream": [
+          "GPU/AI 加速器",
+          "电力与数据中心基础设施",
+          "高速网络和光模块"
+        ],
+        "upstreamZh": [
+          "GPU/AI 加速器",
+          "电力与数据中心基础设施",
+          "高速网络和光模块"
+        ],
+        "upstreamEn": [
+          "GPU/AI accelerators",
+          "Power and data-center infrastructure",
+          "High-speed networking and optics"
+        ],
+        "risk": "电力接入、冷却和建设周期会限制集群上线。",
+        "riskZh": "电力接入、冷却和建设周期会限制集群上线。",
+        "riskEn": "电力接入、冷却和建设周期会限制集群上线。",
+        "confidence": "medium"
+      },
+      {
+        "name": "高速网络/光模块",
+        "nameZh": "高速网络/光模块",
+        "nameEn": "高速网络/光模块",
+        "usedIn": "GPU 集群互连",
+        "usedInZh": "GPU 集群互连",
+        "usedInEn": "GPU 集群互连",
+        "upstream": [
+          "GPU/AI 加速器",
+          "电力与数据中心基础设施",
+          "高速网络和光模块"
+        ],
+        "upstreamZh": [
+          "GPU/AI 加速器",
+          "电力与数据中心基础设施",
+          "高速网络和光模块"
+        ],
+        "upstreamEn": [
+          "GPU/AI accelerators",
+          "Power and data-center infrastructure",
+          "High-speed networking and optics"
+        ],
+        "risk": "网络带宽和低延迟互连影响大规模训练效率。",
+        "riskZh": "网络带宽和低延迟互连影响大规模训练效率。",
+        "riskEn": "网络带宽和低延迟互连影响大规模训练效率。",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "financials": {
+    "latestPeriod": "FY2025 baseline; Q1 2026 6-K available",
+    "latestPeriodZh": "年度基准为 FY2025；已有 2026 年第一季度 6-K",
+    "latestPeriodEn": "FY2025 baseline; Q1 2026 6-K available",
+    "highlights": [
+      {
+        "label": "FY2025 收入",
+        "labelZh": "FY2025 收入",
+        "labelEn": "FY2025 收入",
+        "value": 0.5298,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "FY2025",
+        "periodEn": "FY2025",
+        "sourceIds": [
+          "nbis-20f-2025"
+        ],
+        "change": "YoY +479.0%",
+        "changeZh": "YoY +479.0%",
+        "changeEn": "YoY +479.0%"
+      },
+      {
+        "label": "FY2025 净利润",
+        "labelZh": "FY2025 净利润",
+        "labelEn": "FY2025 净利润",
+        "value": 0.0825,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "FY2025",
+        "periodEn": "FY2025",
+        "sourceIds": [
+          "nbis-20f-2025"
+        ]
+      },
+      {
+        "label": "FY2025 经营亏损",
+        "labelZh": "FY2025 经营亏损",
+        "labelEn": "FY2025 经营亏损",
+        "value": -0.6117,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "FY2025",
+        "periodEn": "FY2025",
+        "sourceIds": [
+          "nbis-20f-2025"
+        ]
+      },
+      {
+        "label": "期末总资产",
+        "labelZh": "期末总资产",
+        "labelEn": "期末总资产",
+        "value": 12.4306,
+        "unit": "USD billions",
+        "period": "2025-12-31",
+        "periodZh": "2025-12-31",
+        "periodEn": "2025-12-31",
+        "sourceIds": [
+          "nbis-20f-2025"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "id": "nbis-annual-revenue",
+        "label": "年度收入",
+        "labelZh": "年度收入",
+        "labelEn": "年度收入",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "使用 SEC companyfacts 中可核对的年度数据。",
+        "noteZh": "使用 SEC companyfacts 中可核对的年度数据。",
+        "noteEn": "使用 SEC companyfacts 中可核对的年度数据。",
+        "sourceIds": [
+          "nbis-20f-2025"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "FY2023",
+            "periodEn": "FY2023",
+            "value": 0.0098,
+            "sourceIds": [
+              "nbis-20f-2025"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "FY2024",
+            "periodEn": "FY2024",
+            "value": 0.0915,
+            "sourceIds": [
+              "nbis-20f-2025"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "FY2025",
+            "periodEn": "FY2025",
+            "value": 0.5298,
+            "sourceIds": [
+              "nbis-20f-2025"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nbis-annual-net-income",
+        "label": "年度净利润 / 净亏损",
+        "labelZh": "年度净利润 / 净亏损",
+        "labelEn": "年度净利润 / 净亏损",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "使用 SEC companyfacts 中可核对的年度数据。",
+        "noteZh": "使用 SEC companyfacts 中可核对的年度数据。",
+        "noteEn": "使用 SEC companyfacts 中可核对的年度数据。",
+        "sourceIds": [
+          "nbis-20f-2025"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "FY2023",
+            "periodEn": "FY2023",
+            "value": 0.2413,
+            "sourceIds": [
+              "nbis-20f-2025"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "FY2024",
+            "periodEn": "FY2024",
+            "value": -0.6414,
+            "sourceIds": [
+              "nbis-20f-2025"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "FY2025",
+            "periodEn": "FY2025",
+            "value": 0.0825,
+            "sourceIds": [
+              "nbis-20f-2025"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nbis-annual-operating-income",
+        "label": "年度经营利润 / 亏损",
+        "labelZh": "年度经营利润 / 亏损",
+        "labelEn": "年度经营利润 / 亏损",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "使用 SEC companyfacts 中可核对的年度数据。",
+        "noteZh": "使用 SEC companyfacts 中可核对的年度数据。",
+        "noteEn": "使用 SEC companyfacts 中可核对的年度数据。",
+        "sourceIds": [
+          "nbis-20f-2025"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "FY2023",
+            "periodEn": "FY2023",
+            "value": -0.2857,
+            "sourceIds": [
+              "nbis-20f-2025"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "FY2024",
+            "periodEn": "FY2024",
+            "value": -0.3996,
+            "sourceIds": [
+              "nbis-20f-2025"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "FY2025",
+            "periodEn": "FY2025",
+            "value": -0.6117,
+            "sourceIds": [
+              "nbis-20f-2025"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "GPU 云与 AI 基础设施",
+        "nameZh": "GPU 云与 AI 基础设施",
+        "nameEn": "GPU 云与 AI 基础设施",
+        "note": "面向 AI 模型训练、推理和企业工作负载的 GPU 云/基础设施能力。",
+        "noteZh": "面向 AI 模型训练、推理和企业工作负载的 GPU 云/基础设施能力。",
+        "noteEn": "面向 AI 模型训练、推理和企业工作负载的 GPU 云/基础设施能力。",
+        "sourceIds": [
+          "nbis-q1-2026-6k",
+          "nbis-20f-2025"
+        ]
+      },
+      {
+        "name": "数据中心与平台服务",
+        "nameZh": "数据中心与平台服务",
+        "nameEn": "数据中心与平台服务",
+        "note": "数据中心容量、托管、网络和开发者平台能力。",
+        "noteZh": "数据中心容量、托管、网络和开发者平台能力。",
+        "noteEn": "数据中心容量、托管、网络和开发者平台能力。",
+        "sourceIds": [
+          "nbis-q1-2026-6k",
+          "nbis-20f-2025"
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-05-20",
+      "title": "Nebius filed Q1 2026 Form 6-K",
+      "titleZh": "Nebius 提交 2026 年第一季度 6-K",
+      "titleEn": "Nebius filed Q1 2026 Form 6-K",
+      "category": "Filing",
+      "categoryZh": "公告",
+      "categoryEn": "Filing",
+      "summary": "Nebius 6-K 包含 2026 年第一季度经营和财务回顾，以及截至 2026 年 3 月 31 日的未经审计简明合并财务报表。",
+      "summaryZh": "Nebius 6-K 包含 2026 年第一季度经营和财务回顾，以及截至 2026 年 3 月 31 日的未经审计简明合并财务报表。",
+      "summaryEn": "The 6-K includes Nebius operating and financial review for Q1 2026 and unaudited condensed consolidated financial statements as of March 31, 2026.",
+      "impact": "后续重点跟踪 GPU 云容量、数据中心交付、资本开支、收入增长和现金流。",
+      "impactZh": "后续重点跟踪 GPU 云容量、数据中心交付、资本开支、收入增长和现金流。",
+      "impactEn": "Key follow-up items are GPU cloud capacity, data-center delivery, capex, revenue growth, and cash flow.",
+      "sourceIds": [
+        "nbis-q1-2026-6k"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "6-K",
+      "filedAt": "2026-06-16",
+      "reportDate": "2026-06-16",
+      "title": "6-K filed 2026-06-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926074352/tm2618059d1_6k.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-05-20",
+      "reportDate": "2026-03-31",
+      "title": "6-K filed 2026-05-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926064092/nbis-20260331x6k.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-05-13",
+      "reportDate": "2026-05-13",
+      "title": "6-K filed 2026-05-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926059872/tm2614392d1_6k.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-05-01",
+      "reportDate": "2026-05-01",
+      "title": "6-K filed 2026-05-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926053464/tm2613296d1_6k.htm"
+    },
+    {
+      "form": "20-F",
+      "filedAt": "2026-04-30",
+      "reportDate": "2025-12-31",
+      "title": "20-F filed 2026-04-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-03-20",
+      "reportDate": "2026-03-20",
+      "title": "6-K filed 2026-03-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926032735/tm268409d4_6k.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-03-18",
+      "reportDate": "2026-03-18",
+      "title": "6-K filed 2026-03-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926029863/tm268409d3_6k.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-03-17",
+      "reportDate": "2026-03-17",
+      "title": "6-K filed 2026-03-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926029074/tm268409d2_6k.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-03-16",
+      "reportDate": "2026-03-16",
+      "title": "6-K filed 2026-03-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926027886/tm268879d1_6k.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-03-11",
+      "reportDate": "2026-03-11",
+      "title": "6-K filed 2026-03-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926026163/tm268532d1_6k.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-02-12",
+      "reportDate": "2026-02-12",
+      "title": "6-K filed 2026-02-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926013947/tm266173d2_6k.htm"
+    },
+    {
+      "form": "6-K",
+      "filedAt": "2026-02-12",
+      "reportDate": "2026-02-12",
+      "title": "6-K filed 2026-02-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926013946/tm266173d1_6k.htm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "nbis-q1-2026-6k",
+      "title": "Nebius Form 6-K with Q1 2026 operating and financial review",
+      "titleZh": "Nebius Form 6-K with Q1 2026 operating and financial review",
+      "titleEn": "Nebius Form 6-K with Q1 2026 operating and financial review",
+      "publisher": "SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926064092/nbis-20260331x6k.htm",
+      "publishedAt": "2026-05-20",
+      "accessedAt": "2026-07-02",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "nbis-20f-2025",
+      "title": "Nebius Form 20-F for fiscal year 2025",
+      "titleZh": "Nebius Form 20-F for fiscal year 2025",
+      "titleEn": "Nebius Form 20-F for fiscal year 2025",
+      "publisher": "SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm",
+      "publishedAt": "2026-04-30",
+      "accessedAt": "2026-07-02",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "nbis-home",
+      "title": "Nebius company website",
+      "titleZh": "Nebius company website",
+      "titleEn": "Nebius company website",
+      "publisher": "Nebius",
+      "url": "https://nebius.com/",
+      "publishedAt": null,
+      "accessedAt": "2026-07-02",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0001513845",
+      "forms": [
+        "20-F",
+        "6-K"
+      ]
+    },
+    "newsFeeds": [
+      {
+        "url": "https://nebius.com/news",
+        "publisher": "Nebius",
+        "sourceType": "company"
+      }
+    ]
+  }
+}
