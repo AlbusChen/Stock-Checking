@@ -1,4 +1,4 @@
-import { AlertCircle, BarChart3, Building2, List, Loader2, RefreshCcw, Search } from "lucide-react";
+import { AlertCircle, BarChart3, Building2, List, Loader2, RefreshCcw, Search, Star } from "lucide-react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { CompanyDetail } from "./components/CompanyDetail";
 import { VolumeBreakouts } from "./components/VolumeBreakouts";
@@ -18,6 +18,8 @@ const preferredLabelOrder = [
   "美股",
   "A股",
 ];
+
+const watchlistLabel = "自选";
 
 function scoreCompany(company: CompanyIndexItem, query: string) {
   const target = query.trim().toLowerCase();
@@ -58,7 +60,7 @@ function sortLabels(labels: string[]) {
 function App() {
   const sidebarRef = useRef<HTMLElement | null>(null);
   const workspaceRef = useRef<HTMLElement | null>(null);
-  const [activeMode, setActiveMode] = useState<"companies" | "breakouts">("companies");
+  const [activeMode, setActiveMode] = useState<"companies" | "watchlist" | "breakouts">("companies");
   const [index, setIndex] = useState<CompanyIndex | null>(null);
   const [query, setQuery] = useState("");
   const [activeLabel, setActiveLabel] = useState<string | null>(null);
@@ -112,21 +114,33 @@ function App() {
   const matches = useMemo(() => {
     if (!index) return [];
     return index.companies
+      .filter((company) => activeMode !== "watchlist" || company.labels.includes(watchlistLabel))
       .map((company) => ({ company, score: scoreCompany(company, query) }))
       .filter(({ score }) => score > 0)
-      .filter(({ company }) => !activeLabel || company.labels.includes(activeLabel))
+      .filter(({ company }) => activeMode !== "companies" || !activeLabel || company.labels.includes(activeLabel))
       .sort((a, b) => b.score - a.score)
       .map(({ company }) => company);
-  }, [activeLabel, index, query]);
+  }, [activeLabel, activeMode, index, query]);
 
   const labelFacets = useMemo(() => {
     if (!index) return [];
     const counts = new Map<string, number>();
     index.companies.forEach((company) => {
-      company.labels.forEach((label) => counts.set(label, (counts.get(label) ?? 0) + 1));
+      company.labels
+        .filter((label) => label !== watchlistLabel)
+        .forEach((label) => counts.set(label, (counts.get(label) ?? 0) + 1));
     });
     return sortLabels([...counts.keys()]).map((label) => ({ label, count: counts.get(label) ?? 0 }));
   }, [index]);
+
+  const displayLabels = useCallback((company: CompanyIndexItem) => {
+    return company.labels.filter((label) => label !== watchlistLabel).slice(0, 4);
+  }, []);
+
+  const switchMode = useCallback((mode: "companies" | "watchlist" | "breakouts") => {
+    setActiveMode(mode);
+    if (mode !== "companies") setActiveLabel(null);
+  }, []);
 
   useEffect(() => {
     if (!index || loading) return;
@@ -171,16 +185,25 @@ function App() {
           <button
             aria-pressed={activeMode === "companies"}
             className={activeMode === "companies" ? "mode-button active" : "mode-button"}
-            onClick={() => setActiveMode("companies")}
+            onClick={() => switchMode("companies")}
             type="button"
           >
             <Building2 size={16} aria-hidden="true" />
             <span>公司溯源</span>
           </button>
           <button
+            aria-pressed={activeMode === "watchlist"}
+            className={activeMode === "watchlist" ? "mode-button active" : "mode-button"}
+            onClick={() => switchMode("watchlist")}
+            type="button"
+          >
+            <Star size={16} aria-hidden="true" />
+            <span>自选</span>
+          </button>
+          <button
             aria-pressed={activeMode === "breakouts"}
             className={activeMode === "breakouts" ? "mode-button active" : "mode-button"}
-            onClick={() => setActiveMode("breakouts")}
+            onClick={() => switchMode("breakouts")}
             type="button"
           >
             <BarChart3 size={16} aria-hidden="true" />
@@ -188,7 +211,7 @@ function App() {
           </button>
         </nav>
 
-        {activeMode === "companies" ? (
+        {activeMode !== "breakouts" ? (
           <>
             <label className="search-box">
               <Search size={18} aria-hidden="true" />
@@ -200,31 +223,38 @@ function App() {
               />
             </label>
 
-            <div className="label-filter" aria-label="company label filters">
-              <button
-                aria-label={`全部公司 (${index?.companies.length ?? 0})`}
-                aria-pressed={!activeLabel}
-                className={!activeLabel ? "label-chip active" : "label-chip"}
-                onClick={() => setActiveLabel(null)}
-                type="button"
-              >
-                全部
-                <span>{index?.companies.length ?? 0}</span>
-              </button>
-              {labelFacets.map(({ label, count }) => (
+            {activeMode === "companies" ? (
+              <div className="label-filter" aria-label="company label filters">
                 <button
-                  aria-label={`${label} (${count})`}
-                  aria-pressed={activeLabel === label}
-                  className={activeLabel === label ? "label-chip active" : "label-chip"}
-                  key={label}
-                  onClick={() => setActiveLabel(label)}
+                  aria-label={`全部公司 (${index?.companies.length ?? 0})`}
+                  aria-pressed={!activeLabel}
+                  className={!activeLabel ? "label-chip active" : "label-chip"}
+                  onClick={() => setActiveLabel(null)}
                   type="button"
                 >
-                  {label}
-                  <span>{count}</span>
+                  全部
+                  <span>{index?.companies.length ?? 0}</span>
                 </button>
-              ))}
-            </div>
+                {labelFacets.map(({ label, count }) => (
+                  <button
+                    aria-label={`${label} (${count})`}
+                    aria-pressed={activeLabel === label}
+                    className={activeLabel === label ? "label-chip active" : "label-chip"}
+                    key={label}
+                    onClick={() => setActiveLabel(label)}
+                    type="button"
+                  >
+                    {label}
+                    <span>{count}</span>
+                  </button>
+                ))}
+              </div>
+            ) : (
+              <div className="sidebar-mode-card compact">
+                <strong>自选股票</strong>
+                <span>{matches.length} / {index?.companies.filter((company) => company.labels.includes(watchlistLabel)).length ?? 0}</span>
+              </div>
+            )}
 
             <div className="result-list">
               {loading && (
@@ -252,7 +282,7 @@ function App() {
                     <strong>{company.name}</strong>
                     <small>{company.sector}</small>
                     <div className="company-labels">
-                      {company.labels.slice(0, 4).map((label) => (
+                      {displayLabels(company).map((label) => (
                         <em key={`${company.id}-${label}`}>{label}</em>
                       ))}
                     </div>
@@ -282,7 +312,9 @@ function App() {
               ? index
                 ? new Date(index.generatedAt).toLocaleString("zh-CN")
                 : "未生成"
-              : "每日更新"}
+              : activeMode === "watchlist"
+                ? "自选"
+                : "每日更新"}
           </span>
         </footer>
       </aside>

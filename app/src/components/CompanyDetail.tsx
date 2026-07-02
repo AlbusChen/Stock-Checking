@@ -425,6 +425,7 @@ function DownstreamPanel({
 export function CompanyDetail({ report }: CompanyDetailProps) {
   const [activeTab, setActiveTab] = useState<TabId>("overview");
   const sources = useMemo(() => sourceLookup(report.sources), [report.sources]);
+  const visibleLabels = useMemo(() => report.labels.filter((label) => label !== "自选"), [report.labels]);
 
   return (
     <section className="company-panel">
@@ -448,7 +449,7 @@ export function CompanyDetail({ report }: CompanyDetailProps) {
           </div>
           <h1>{report.name}</h1>
           <div className="detail-labels" aria-label="company labels">
-            {report.labels.map((label) => (
+            {visibleLabels.map((label) => (
               <span key={`${report.id}-${label}`}>{label}</span>
             ))}
           </div>

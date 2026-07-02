@@ -88,7 +88,7 @@ a {
 .mode-switch {
   display: grid;
   gap: 6px;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .mode-button {
@@ -337,6 +337,18 @@ a {
 
 .sidebar-mode-card small {
   font-size: 12px;
+}
+
+.sidebar-mode-card.compact {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  min-height: 42px;
+  padding: 10px 12px;
+}
+
+.sidebar-mode-card.compact span {
+  font-weight: 800;
 }
 
 .workspace {
