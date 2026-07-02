@@ -1,0 +1,1004 @@
+{
+  "schemaVersion": 1,
+  "id": "pltr",
+  "ticker": "PLTR",
+  "exchange": "NASDAQ",
+  "market": "US",
+  "name": "Palantir / 帕兰蒂尔",
+  "legalName": "Palantir Technologies Inc.",
+  "cik": "0001321655",
+  "currency": "USD",
+  "sector": "AI software and data platforms / AI 软件与数据平台",
+  "industry": [
+    "AI software",
+    "Data analytics",
+    "Government software",
+    "Enterprise AI",
+    "AI 软件",
+    "数据分析",
+    "政府软件",
+    "企业 AI"
+  ],
+  "homepage": "https://www.palantir.com/",
+  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "summary": "Palantir 是 AI 应用和数据平台公司，代表算力、数据和模型落到政府与企业工作流后的应用层。 / Palantir is an AI application and data-platform company, representing the application layer where compute, data, and models enter government and enterprise workflows.",
+  "summaryZh": "Palantir 是 AI 应用和数据平台公司，代表算力、数据和模型落到政府与企业工作流后的应用层。",
+  "summaryEn": "Palantir is an AI application and data-platform company, representing the application layer where compute, data, and models enter government and enterprise workflows.",
+  "aliases": [
+    "PLTR",
+    "Palantir / 帕兰蒂尔",
+    "Palantir Technologies Inc.",
+    "Palantir Technologies Inc."
+  ],
+  "labels": [
+    "科技",
+    "AI",
+    "AI应用",
+    "软件服务",
+    "国防",
+    "AI基建扩展",
+    "美股"
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "description": "公司提供 Gotham、Foundry、Apollo 和 AIP 等软件平台，服务政府、国防、情报、商业和工业客户。 / The company provides software platforms such as Gotham, Foundry, Apollo, and AIP for government, defense, intelligence, commercial, and industrial customers.",
+    "descriptionZh": "公司提供 Gotham、Foundry、Apollo 和 AIP 等软件平台，服务政府、国防、情报、商业和工业客户。",
+    "descriptionEn": "The company provides software platforms such as Gotham, Foundry, Apollo, and AIP for government, defense, intelligence, commercial, and industrial customers.",
+    "revenueModel": [
+      "政府软件 / government software",
+      "商业软件 / commercial software",
+      "AI 平台订阅与服务 / AI platform subscriptions and services"
+    ],
+    "segments": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 4.475,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "pltr-sec-companyfacts"
+        ]
+      }
+    ],
+    "thesis": "如果 AI 基建投资进入应用兑现阶段，Palantir 的关键变量是 AIP 落地、政府/商业客户扩张和软件利润率，而不是上游硬件瓶颈。 / If AI infrastructure spending moves into application monetization, Palantir's key variables are AIP adoption, government/commercial customer expansion, and software margins rather than upstream hardware bottlenecks.",
+    "thesisZh": "如果 AI 基建投资进入应用兑现阶段，Palantir 的关键变量是 AIP 落地、政府/商业客户扩张和软件利润率，而不是上游硬件瓶颈。",
+    "thesisEn": "If AI infrastructure spending moves into application monetization, Palantir's key variables are AIP adoption, government/commercial customer expansion, and software margins rather than upstream hardware bottlenecks.",
+    "riskNotes": [
+      "估值对增长和利润率预期敏感，客户扩张若放慢会压缩弹性。 / Valuation is sensitive to growth and margin expectations; slower customer expansion would compress upside.",
+      "政府合同、隐私/监管和企业 AI 预算周期会影响需求。 / Government contracts, privacy/regulation, and enterprise AI budget cycles affect demand."
+    ],
+    "failureConditions": [
+      {
+        "condition": "AI 应用落地没有带来商业客户扩张、净留存或利润率改善。",
+        "conditionZh": "AI 应用落地没有带来商业客户扩张、净留存或利润率改善。",
+        "conditionEn": "The thesis weakens if AI application deployment does not translate into commercial customer growth, retention, or margin improvement.",
+        "monitor": "跟踪客户数、剩余履约义务、政府/商业收入、AIP 采用和经营利润率。",
+        "monitorZh": "跟踪客户数、剩余履约义务、政府/商业收入、AIP 采用和经营利润率。",
+        "monitorEn": "Monitor customer count, remaining performance obligations, government/commercial revenue, AIP adoption, and operating margin.",
+        "sourceIds": [
+          "pltr-homepage",
+          "pltr-sec-submissions"
+        ]
+      },
+      {
+        "condition": "企业 AI 预算回报不清晰，导致软件订单推迟。",
+        "conditionZh": "企业 AI 预算回报不清晰，导致软件订单推迟。",
+        "conditionEn": "The thesis weakens if unclear enterprise AI ROI delays software orders.",
+        "monitor": "跟踪销售周期、合同规模、续约、试点转正式部署比例。",
+        "monitorZh": "跟踪销售周期、合同规模、续约、试点转正式部署比例。",
+        "monitorEn": "Monitor sales cycles, contract size, renewals, and pilot-to-production conversion.",
+        "sourceIds": [
+          "pltr-homepage",
+          "pltr-sec-submissions"
+        ]
+      }
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-14T12:00:00+08:00",
+    "thesis": "如果 AI 基建投资进入应用兑现阶段，Palantir 的关键变量是 AIP 落地、政府/商业客户扩张和软件利润率，而不是上游硬件瓶颈。 / If AI infrastructure spending moves into application monetization, Palantir's key variables are AIP adoption, government/commercial customer expansion, and software margins rather than upstream hardware bottlenecks.",
+    "thesisZh": "如果 AI 基建投资进入应用兑现阶段，Palantir 的关键变量是 AIP 落地、政府/商业客户扩张和软件利润率，而不是上游硬件瓶颈。",
+    "thesisEn": "If AI infrastructure spending moves into application monetization, Palantir's key variables are AIP adoption, government/commercial customer expansion, and software margins rather than upstream hardware bottlenecks.",
+    "scarceLayers": [
+      {
+        "name": "AI 应用从试点到生产",
+        "nameZh": "AI 应用从试点到生产",
+        "nameEn": "AI applications from pilot to production",
+        "rank": 1,
+        "constraintType": "customer-demand",
+        "constraintTypeZh": "客户需求",
+        "constraintTypeEn": "Customer demand",
+        "whyScarce": "真正的应用层价值取决于客户是否把 AI 从试点转为生产工作流。",
+        "whyScarceZh": "真正的应用层价值取决于客户是否把 AI 从试点转为生产工作流。",
+        "whyScarceEn": "Application-layer value depends on customers moving AI from pilots into production workflows.",
+        "relatedCompanies": [
+          "Palantir / 帕兰蒂尔"
+        ],
+        "evidenceLevel": "medium",
+        "confidence": "medium",
+        "sourceIds": [
+          "pltr-homepage",
+          "pltr-sec-submissions"
+        ],
+        "failureConditions": [
+          {
+            "condition": "AI 应用落地没有带来商业客户扩张、净留存或利润率改善。",
+            "conditionZh": "AI 应用落地没有带来商业客户扩张、净留存或利润率改善。",
+            "conditionEn": "The thesis weakens if AI application deployment does not translate into commercial customer growth, retention, or margin improvement.",
+            "monitor": "跟踪客户数、剩余履约义务、政府/商业收入、AIP 采用和经营利润率。",
+            "monitorZh": "跟踪客户数、剩余履约义务、政府/商业收入、AIP 采用和经营利润率。",
+            "monitorEn": "Monitor customer count, remaining performance obligations, government/commercial revenue, AIP adoption, and operating margin.",
+            "sourceIds": [
+              "pltr-homepage",
+              "pltr-sec-submissions"
+            ]
+          },
+          {
+            "condition": "企业 AI 预算回报不清晰，导致软件订单推迟。",
+            "conditionZh": "企业 AI 预算回报不清晰，导致软件订单推迟。",
+            "conditionEn": "The thesis weakens if unclear enterprise AI ROI delays software orders.",
+            "monitor": "跟踪销售周期、合同规模、续约、试点转正式部署比例。",
+            "monitorZh": "跟踪销售周期、合同规模、续约、试点转正式部署比例。",
+            "monitorEn": "Monitor sales cycles, contract size, renewals, and pilot-to-production conversion.",
+            "sourceIds": [
+              "pltr-homepage",
+              "pltr-sec-submissions"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "数据治理与行业工作流集成",
+        "nameZh": "数据治理与行业工作流集成",
+        "nameEn": "Data governance and workflow integration",
+        "rank": 2,
+        "constraintType": "technology",
+        "constraintTypeZh": "技术",
+        "constraintTypeEn": "Technology",
+        "whyScarce": "企业/政府客户需要数据权限、安全、审计和行业流程集成，进入门槛高于普通软件。",
+        "whyScarceZh": "企业/政府客户需要数据权限、安全、审计和行业流程集成，进入门槛高于普通软件。",
+        "whyScarceEn": "Enterprise/government customers need data permissions, security, auditability, and domain workflow integration, raising the bar above ordinary software.",
+        "relatedCompanies": [
+          "Palantir / 帕兰蒂尔"
+        ],
+        "evidenceLevel": "medium",
+        "confidence": "medium",
+        "sourceIds": [
+          "pltr-homepage",
+          "pltr-sec-submissions"
+        ],
+        "failureConditions": [
+          {
+            "condition": "AI 应用落地没有带来商业客户扩张、净留存或利润率改善。",
+            "conditionZh": "AI 应用落地没有带来商业客户扩张、净留存或利润率改善。",
+            "conditionEn": "The thesis weakens if AI application deployment does not translate into commercial customer growth, retention, or margin improvement.",
+            "monitor": "跟踪客户数、剩余履约义务、政府/商业收入、AIP 采用和经营利润率。",
+            "monitorZh": "跟踪客户数、剩余履约义务、政府/商业收入、AIP 采用和经营利润率。",
+            "monitorEn": "Monitor customer count, remaining performance obligations, government/commercial revenue, AIP adoption, and operating margin.",
+            "sourceIds": [
+              "pltr-homepage",
+              "pltr-sec-submissions"
+            ]
+          },
+          {
+            "condition": "企业 AI 预算回报不清晰，导致软件订单推迟。",
+            "conditionZh": "企业 AI 预算回报不清晰，导致软件订单推迟。",
+            "conditionEn": "The thesis weakens if unclear enterprise AI ROI delays software orders.",
+            "monitor": "跟踪销售周期、合同规模、续约、试点转正式部署比例。",
+            "monitorZh": "跟踪销售周期、合同规模、续约、试点转正式部署比例。",
+            "monitorEn": "Monitor sales cycles, contract size, renewals, and pilot-to-production conversion.",
+            "sourceIds": [
+              "pltr-homepage",
+              "pltr-sec-submissions"
+            ]
+          }
+        ]
+      }
+    ],
+    "tiers": [
+      {
+        "level": 0,
+        "title": "Target company",
+        "titleZh": "目标公司",
+        "titleEn": "Target company",
+        "companies": [
+          "Palantir / 帕兰蒂尔"
+        ],
+        "entities": [
+          {
+            "name": "Palantir / 帕兰蒂尔",
+            "nameZh": "Palantir / 帕兰蒂尔",
+            "nameEn": "Palantir Technologies Inc.",
+            "relationship": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipZh": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipEn": "Target company; this page maps its NVIDIA-related supply-chain position.",
+            "productsServices": [
+              "政府软件 / government software",
+              "商业软件 / commercial software",
+              "AI 平台订阅与服务 / AI platform subscriptions and services"
+            ],
+            "productsServicesZh": [
+              "政府软件 / government software",
+              "商业软件 / commercial software",
+              "AI 平台订阅与服务 / AI platform subscriptions and services"
+            ],
+            "productsServicesEn": [
+              "政府软件 / government software",
+              "商业软件 / commercial software",
+              "AI 平台订阅与服务 / AI platform subscriptions and services"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "PLTR",
+              "exchange": "NASDAQ",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/pltr"
+            },
+            "confidence": "high",
+            "sourceIds": [
+              "pltr-homepage",
+              "pltr-nasdaq-quote"
+            ],
+            "companyUrl": "https://www.palantir.com/",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "目标公司",
+              "labelZh": "目标公司",
+              "labelEn": "Target company",
+              "direction": "target",
+              "rationale": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleZh": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleEn": "The target company itself, used as the reference point for this supply-chain analysis.",
+              "confidence": "high"
+            }
+          }
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "云算力和 GPU/加速器资源",
+          "数据资产和安全/权限系统",
+          "专业服务和行业知识"
+        ],
+        "materialsZh": [
+          "云算力和 GPU/加速器资源",
+          "数据资产和安全/权限系统",
+          "专业服务和行业知识"
+        ],
+        "materialsEn": [
+          "Cloud compute and GPU/accelerator resources",
+          "Data assets and security/permission systems",
+          "Professional services and domain expertise"
+        ],
+        "notes": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesZh": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesEn": "Target company itself; listed ticker and quote link reviewed.",
+        "confidence": "high",
+        "sourceIds": [
+          "pltr-homepage",
+          "pltr-nasdaq-quote"
+        ]
+      },
+      {
+        "level": 1,
+        "title": "Key upstream inputs",
+        "titleZh": "关键上游投入",
+        "titleEn": "Key upstream inputs",
+        "companies": [
+          "Cloud and compute infrastructure / 云与算力基础设施"
+        ],
+        "entities": [
+          {
+            "name": "Cloud and compute infrastructure / 云与算力基础设施",
+            "nameZh": "云与算力基础设施",
+            "nameEn": "Cloud and compute infrastructure",
+            "relationship": "AI 应用落地依赖底层云、模型、GPU/加速器和数据平台。",
+            "relationshipZh": "AI 应用落地依赖底层云、模型、GPU/加速器和数据平台。",
+            "relationshipEn": "AI application deployment depends on cloud, models, GPUs/accelerators, and data platforms.",
+            "productsServices": [
+              "云算力",
+              "模型与数据平台",
+              "企业工作流集成"
+            ],
+            "productsServicesZh": [
+              "云算力",
+              "模型与数据平台",
+              "企业工作流集成"
+            ],
+            "productsServicesEn": [
+              "cloud compute",
+              "model and data platforms",
+              "enterprise workflow integration"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "底层供应商会随客户架构变化。",
+              "noteZh": "底层供应商会随客户架构变化。",
+              "noteEn": "Underlying suppliers vary with customer architecture."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "pltr-homepage",
+              "nvidia-10k-2026"
+            ],
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "direct-supplier",
+              "rationale": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleZh": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleEn": "NVIDIA platforms are a key input for this company's AI server or GPU-cloud capacity, so supply changes directly affect delivery.",
+              "confidence": "medium"
+            }
+          }
+        ],
+        "geography": [
+          "US",
+          "Europe",
+          "Asia"
+        ],
+        "materials": [
+          "云算力和 GPU/加速器资源",
+          "数据资产和安全/权限系统",
+          "专业服务和行业知识"
+        ],
+        "materialsZh": [
+          "云算力和 GPU/加速器资源",
+          "数据资产和安全/权限系统",
+          "专业服务和行业知识"
+        ],
+        "materialsEn": [
+          "Cloud compute and GPU/accelerator resources",
+          "Data assets and security/permission systems",
+          "Professional services and domain expertise"
+        ],
+        "notes": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesZh": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesEn": "Lists the most important upstream inputs for NVIDIA-related business; exact purchase shares require further manual work.",
+        "confidence": "medium",
+        "sourceIds": [
+          "pltr-homepage",
+          "nvidia-10k-2026"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "云算力和 GPU/加速器资源",
+        "nameZh": "云算力和 GPU/加速器资源",
+        "nameEn": "Cloud compute and GPU/accelerator resources",
+        "usedIn": "用于 AI 平台部署、模型推理和客户工作流。",
+        "usedInZh": "用于 AI 平台部署、模型推理和客户工作流。",
+        "usedInEn": "Used for AI platform deployment, model inference, and customer workflows.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "数据资产和安全/权限系统",
+        "nameZh": "数据资产和安全/权限系统",
+        "nameEn": "Data assets and security/permission systems",
+        "usedIn": "用于企业和政府数据集成、治理和安全。",
+        "usedInZh": "用于企业和政府数据集成、治理和安全。",
+        "usedInEn": "Used for enterprise and government data integration, governance, and security.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "专业服务和行业知识",
+        "nameZh": "专业服务和行业知识",
+        "nameEn": "Professional services and domain expertise",
+        "usedIn": "用于把 AI 软件落到具体业务流程。",
+        "usedInZh": "用于把 AI 软件落到具体业务流程。",
+        "usedInEn": "Used to deploy AI software into concrete business workflows.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      }
+    ],
+    "downstream": {
+      "updatedAt": "2026-06-14T12:00:00+08:00",
+      "thesis": "如果 AI 基建投资进入应用兑现阶段，Palantir 的关键变量是 AIP 落地、政府/商业客户扩张和软件利润率，而不是上游硬件瓶颈。 / If AI infrastructure spending moves into application monetization, Palantir's key variables are AIP adoption, government/commercial customer expansion, and software margins rather than upstream hardware bottlenecks.",
+      "thesisZh": "如果 AI 基建投资进入应用兑现阶段，Palantir 的关键变量是 AIP 落地、政府/商业客户扩张和软件利润率，而不是上游硬件瓶颈。",
+      "thesisEn": "If AI infrastructure spending moves into application monetization, Palantir's key variables are AIP adoption, government/commercial customer expansion, and software margins rather than upstream hardware bottlenecks.",
+      "tiers": [
+        {
+          "level": 1,
+          "title": "NVIDIA-related demand path",
+          "titleZh": "英伟达相关需求路径",
+          "titleEn": "NVIDIA-related demand path",
+          "entities": [
+            {
+              "name": "Government and enterprise AI users / 政府与企业 AI 用户",
+              "nameZh": "政府与企业 AI 用户",
+              "nameEn": "Government and enterprise AI users",
+              "relationship": "把模型和算力转化为实际工作流、决策系统、国防/情报和企业运营应用。",
+              "relationshipZh": "把模型和算力转化为实际工作流、决策系统、国防/情报和企业运营应用。",
+              "relationshipEn": "Convert models and compute into workflows, decision systems, defense/intelligence, and enterprise operations applications.",
+              "productsServices": [
+                "AI 应用",
+                "数据平台",
+                "企业工作流"
+              ],
+              "productsServicesZh": [
+                "AI 应用",
+                "数据平台",
+                "企业工作流"
+              ],
+              "productsServicesEn": [
+                "AI applications",
+                "data platforms",
+                "enterprise workflows"
+              ],
+              "listing": {
+                "status": "unknown",
+                "note": "客户组合广泛，需按政府/商业合同继续拆解。",
+                "noteZh": "客户组合广泛，需按政府/商业合同继续拆解。",
+                "noteEn": "Customer mix is broad and requires further review by government/commercial contracts."
+              },
+              "confidence": "medium",
+              "sourceIds": [
+                "pltr-homepage"
+              ],
+              "customerRole": "AI 应用客户 / 需求兑现层",
+              "customerRoleZh": "AI 应用客户 / 需求兑现层",
+              "customerRoleEn": "AI application customer / demand monetization layer",
+              "relationshipStrength": {
+                "score": 3,
+                "label": "中相关",
+                "labelZh": "中相关",
+                "labelEn": "Moderate relevance",
+                "direction": "indirect-demand",
+                "rationale": "NVIDIA 需求通过晶圆厂、存储厂或封装投资间接传导，不等同于直接采购关系。",
+                "rationaleZh": "NVIDIA 需求通过晶圆厂、存储厂或封装投资间接传导，不等同于直接采购关系。",
+                "rationaleEn": "NVIDIA demand transmits indirectly through foundry, memory, or packaging investment and is not the same as a direct purchasing relationship.",
+                "confidence": "medium"
+              }
+            }
+          ],
+          "notes": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesZh": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesEn": "This layer explains how the target company functions as NVIDIA's upstream supplier, partner, customer, or indirect demand beneficiary.",
+          "confidence": "medium",
+          "sourceIds": [
+            "pltr-homepage",
+            "nvidia-10k-2026"
+          ]
+        }
+      ]
+    }
+  },
+  "financials": {
+    "latestPeriod": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "latestPeriodZh": "使用 SEC companyfacts 中的最新可核对候选；年度基准来自最近审计年报。",
+    "latestPeriodEn": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "highlights": [
+      {
+        "label": "Q1 FY2026 revenue",
+        "labelZh": "2026 财年第 1 财季 收入",
+        "labelEn": "Q1 FY2026 revenue",
+        "value": 1.633,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "pltr-sec-companyfacts"
+        ],
+        "change": "+84.7% vs prior comparable period",
+        "changeZh": "较上一可比期间 +84.7%",
+        "changeEn": "+84.7% vs prior comparable period"
+      },
+      {
+        "label": "Q1 FY2026 net income / loss",
+        "labelZh": "2026 财年第 1 财季 净利润 / 净亏损",
+        "labelEn": "Q1 FY2026 net income / loss",
+        "value": 0.871,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "pltr-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q1 FY2026 total assets",
+        "labelZh": "2026 财年第 1 财季 总资产",
+        "labelEn": "Q1 FY2026 total assets",
+        "value": 10.199,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "pltr-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q1 FY2026 operating cash flow",
+        "labelZh": "2026 财年第 1 财季 经营现金流",
+        "labelEn": "Q1 FY2026 operating cash flow",
+        "value": 0.899,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "pltr-sec-companyfacts"
+        ]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 4.475,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "pltr-sec-companyfacts"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "id": "annual-revenue",
+        "label": "Annual revenue",
+        "labelZh": "年度收入",
+        "labelEn": "Annual revenue",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "pltr-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 2.225,
+            "sourceIds": [
+              "pltr-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 2.866,
+            "sourceIds": [
+              "pltr-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 4.475,
+            "sourceIds": [
+              "pltr-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-net-income",
+        "label": "Annual net income / loss",
+        "labelZh": "年度净利润 / 净亏损",
+        "labelEn": "Annual net income / loss",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "pltr-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 0.21,
+            "sourceIds": [
+              "pltr-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 0.462,
+            "sourceIds": [
+              "pltr-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 1.625,
+            "sourceIds": [
+              "pltr-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-assets",
+        "label": "Annual total assets",
+        "labelZh": "年度总资产",
+        "labelEn": "Annual total assets",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "pltr-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 4.522,
+            "sourceIds": [
+              "pltr-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 6.341,
+            "sourceIds": [
+              "pltr-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 8.9,
+            "sourceIds": [
+              "pltr-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenueMixHistory": [
+      {
+        "period": "FY2023",
+        "periodZh": "2023 财年",
+        "periodEn": "FY2023",
+        "totalRevenue": 2.225,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "pltr-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 2.225,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "pltr-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2024",
+        "periodZh": "2024 财年",
+        "periodEn": "FY2024",
+        "totalRevenue": 2.866,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "pltr-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 2.866,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "pltr-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "totalRevenue": 4.475,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "pltr-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 4.475,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "pltr-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-06-09",
+      "title": "Recent SEC filing: 8-K",
+      "titleZh": "最新 SEC 文件：8-K",
+      "titleEn": "Recent SEC filing: 8-K",
+      "category": "SEC filing",
+      "categoryZh": "SEC 文件",
+      "categoryEn": "SEC filing",
+      "summary": "SEC submissions show a 8-K filed on 2026-06-09; report date 2026-06-03.",
+      "summaryZh": "SEC submissions 显示公司于 2026-06-09 提交 8-K；报告期为 2026-06-03。",
+      "summaryEn": "SEC submissions show a 8-K filed on 2026-06-09; report date 2026-06-03.",
+      "impact": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "impactZh": "作为本批次最新公开文件检查点；每日定时刷新仍未启用。",
+      "impactEn": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "sourceIds": [
+        "pltr-sec-submissions"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "8-K",
+      "filedAt": "2026-06-09",
+      "reportDate": "2026-06-03",
+      "title": "8-K filed 2026-06-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000033/pltr-20260603.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-05-05",
+      "reportDate": "2026-03-31",
+      "title": "10-Q filed 2026-05-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000028/pltr-20260331.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-04",
+      "reportDate": "2026-05-04",
+      "title": "8-K filed 2026-05-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000026/pltr-20260504.htm"
+    },
+    {
+      "form": "10-K",
+      "filedAt": "2026-02-17",
+      "reportDate": "2025-12-31",
+      "title": "10-K filed 2026-02-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-02",
+      "reportDate": "2026-02-02",
+      "title": "8-K filed 2026-02-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000004/pltr-20260202.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2025-11-04",
+      "reportDate": "2025-09-30",
+      "title": "10-Q filed 2025-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000131/pltr-20250930.htm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "pltr-homepage",
+      "title": "Palantir / 帕兰蒂尔 company website",
+      "titleZh": "Palantir / 帕兰蒂尔 公司官网",
+      "titleEn": "Palantir / 帕兰蒂尔 company website",
+      "publisher": "Palantir / 帕兰蒂尔",
+      "url": "https://www.palantir.com/",
+      "accessedAt": "2026-06-14",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "pltr-sec-submissions",
+      "title": "PLTR SEC submissions",
+      "titleZh": "PLTR SEC submissions 数据",
+      "titleEn": "PLTR SEC submissions",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/submissions/CIK0001321655.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "pltr-sec-companyfacts",
+      "title": "PLTR SEC companyfacts XBRL data",
+      "titleZh": "PLTR SEC companyfacts XBRL 数据",
+      "titleEn": "PLTR SEC companyfacts XBRL data",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001321655.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "pltr-nasdaq-quote",
+      "title": "PLTR Nasdaq quote page",
+      "titleZh": "PLTR Nasdaq 行情页面",
+      "titleEn": "PLTR Nasdaq quote page",
+      "publisher": "Nasdaq",
+      "url": "https://www.nasdaq.com/market-activity/stocks/pltr",
+      "accessedAt": "2026-06-14",
+      "type": "exchange",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "nvidia-10k-2026",
+      "title": "NVIDIA FY2026 Form 10-K",
+      "titleZh": "NVIDIA 2026 财年 10-K 年报",
+      "titleEn": "NVIDIA FY2026 Form 10-K",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "nvidia-rtx-pro-systems-2025",
+      "title": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "titleZh": "NVIDIA RTX PRO Blackwell 服务器进入企业系统生态",
+      "titleEn": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "publisher": "NVIDIA Investor Relations",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-RTX-PRO-Servers-With-Blackwell-Coming-to-Worlds-Most-Popular-Enterprise-Systems/",
+      "accessedAt": "2026-06-14",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0001321655",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K",
+        "20-F",
+        "6-K"
+      ]
+    },
+    "newsFeeds": [
+      {
+        "url": "https://www.palantir.com/",
+        "publisher": "Palantir / 帕兰蒂尔",
+        "sourceType": "company"
+      }
+    ]
+  },
+  "themeExposure": [
+    {
+      "theme": "AI 应用落地",
+      "themeZh": "AI 应用落地",
+      "themeEn": "AI application deployment",
+      "score": 3,
+      "role": "企业与政府 AI 应用平台",
+      "roleZh": "企业与政府 AI 应用平台",
+      "roleEn": "Enterprise and government AI application platform",
+      "rationale": "Palantir 处在 AI 应用兑现层，受益于算力和模型进入真实工作流，但瓶颈属性弱于电力、网络和存储等基础设施层。",
+      "rationaleZh": "Palantir 处在 AI 应用兑现层，受益于算力和模型进入真实工作流，但瓶颈属性弱于电力、网络和存储等基础设施层。",
+      "rationaleEn": "Palantir sits in the AI application monetization layer and benefits as compute and models enter real workflows, but its bottleneck attributes are weaker than power, networking, and memory infrastructure layers.",
+      "confidence": "medium"
+    }
+  ]
+}

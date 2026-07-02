@@ -1,0 +1,1087 @@
+{
+  "schemaVersion": 1,
+  "id": "mod",
+  "ticker": "MOD",
+  "exchange": "NYSE",
+  "market": "US",
+  "name": "Modine / 摩丁制造",
+  "legalName": "MODINE MANUFACTURING CO",
+  "cik": "0000067347",
+  "currency": "USD",
+  "sector": "Thermal management / 热管理",
+  "industry": [
+    "Thermal management",
+    "Data-center cooling",
+    "HVAC",
+    "热管理",
+    "数据中心散热",
+    "暖通空调"
+  ],
+  "homepage": "https://www.modine.com/",
+  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "summary": "Modine 是热管理和数据中心散热相关公司，AI 机柜功率密度上升使冷却能力成为关键配套。 / Modine is a thermal-management and data-center cooling company, and rising AI rack power density makes cooling capacity a key support layer.",
+  "summaryZh": "Modine 是热管理和数据中心散热相关公司，AI 机柜功率密度上升使冷却能力成为关键配套。",
+  "summaryEn": "Modine is a thermal-management and data-center cooling company, and rising AI rack power density makes cooling capacity a key support layer.",
+  "aliases": [
+    "MOD",
+    "Modine / 摩丁制造",
+    "MODINE MANUFACTURING CO",
+    "MODINE MANUFACTURING CO"
+  ],
+  "labels": [
+    "散热",
+    "液冷",
+    "热管理",
+    "数据中心",
+    "AI基础设施",
+    "AI基建扩展",
+    "美股"
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "description": "公司提供热管理、暖通空调、冷却系统和相关服务，覆盖数据中心、工业、商用和交通领域。 / The company provides thermal management, HVAC, cooling systems, and related services across data centers, industrial, commercial, and transportation markets.",
+    "descriptionZh": "公司提供热管理、暖通空调、冷却系统和相关服务，覆盖数据中心、工业、商用和交通领域。",
+    "descriptionEn": "The company provides thermal management, HVAC, cooling systems, and related services across data centers, industrial, commercial, and transportation markets.",
+    "revenueModel": [
+      "数据中心冷却 / data-center cooling",
+      "热管理系统 / thermal-management systems",
+      "暖通与服务 / HVAC and services"
+    ],
+    "segments": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 3.181,
+        "unit": "USD billions",
+        "period": "FY2026",
+        "periodZh": "2026 财年",
+        "periodEn": "FY2026",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "mod-sec-companyfacts"
+        ]
+      }
+    ],
+    "thesis": "AI 数据中心扩张推动更高功率密度和冷却需求，Modine 代表散热/热管理侧的美股弹性。 / AI data-center expansion drives higher power density and cooling demand, making Modine a US-listed thermal-management exposure.",
+    "thesisZh": "AI 数据中心扩张推动更高功率密度和冷却需求，Modine 代表散热/热管理侧的美股弹性。",
+    "thesisEn": "AI data-center expansion drives higher power density and cooling demand, making Modine a US-listed thermal-management exposure.",
+    "riskNotes": [
+      "数据中心业务占比、订单可见度和毛利率需继续拆分。 / Data-center exposure, order visibility, and margins need further segmentation.",
+      "项目型收入、原材料成本和产能爬坡会影响波动。 / Project revenue, material costs, and capacity ramp can affect volatility."
+    ],
+    "failureConditions": [
+      {
+        "condition": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+        "conditionZh": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+        "conditionEn": "The thesis weakens if AI data-center power/cooling orders or backlog stop improving.",
+        "monitor": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+        "monitorZh": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+        "monitorEn": "Monitor orders, backlog, data-center customer disclosures, delivery lead times, and project margins.",
+        "sourceIds": [
+          "mod-homepage",
+          "mod-sec-submissions"
+        ]
+      },
+      {
+        "condition": "电力接入和电网项目审批慢于数据中心建设需求。",
+        "conditionZh": "电力接入和电网项目审批慢于数据中心建设需求。",
+        "conditionEn": "The thesis weakens if grid interconnection and power projects lag data-center buildout needs.",
+        "monitor": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+        "monitorZh": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+        "monitorEn": "Monitor utility capex, project approvals, transformer/distribution delivery, and customer construction starts.",
+        "sourceIds": [
+          "mod-homepage",
+          "mod-sec-submissions"
+        ]
+      }
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-14T12:00:00+08:00",
+    "thesis": "AI 数据中心扩张推动更高功率密度和冷却需求，Modine 代表散热/热管理侧的美股弹性。 / AI data-center expansion drives higher power density and cooling demand, making Modine a US-listed thermal-management exposure.",
+    "thesisZh": "AI 数据中心扩张推动更高功率密度和冷却需求，Modine 代表散热/热管理侧的美股弹性。",
+    "thesisEn": "AI data-center expansion drives higher power density and cooling demand, making Modine a US-listed thermal-management exposure.",
+    "scarceLayers": [
+      {
+        "name": "高功率机柜散热与液冷",
+        "nameZh": "高功率机柜散热与液冷",
+        "nameEn": "High-density rack cooling and liquid cooling",
+        "rank": 1,
+        "constraintType": "capacity",
+        "constraintTypeZh": "产能",
+        "constraintTypeEn": "Capacity",
+        "whyScarce": "AI 机柜功率密度提升后，液冷、热管理和机柜配套能力直接影响部署节奏。",
+        "whyScarceZh": "AI 机柜功率密度提升后，液冷、热管理和机柜配套能力直接影响部署节奏。",
+        "whyScarceEn": "As AI rack power density rises, liquid cooling, thermal management, and rack infrastructure directly affect deployment cadence.",
+        "relatedCompanies": [
+          "Modine / 摩丁制造"
+        ],
+        "evidenceLevel": "medium",
+        "confidence": "medium",
+        "sourceIds": [
+          "mod-homepage",
+          "mod-sec-submissions"
+        ],
+        "failureConditions": [
+          {
+            "condition": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+            "conditionZh": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+            "conditionEn": "The thesis weakens if AI data-center power/cooling orders or backlog stop improving.",
+            "monitor": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+            "monitorZh": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+            "monitorEn": "Monitor orders, backlog, data-center customer disclosures, delivery lead times, and project margins.",
+            "sourceIds": [
+              "mod-homepage",
+              "mod-sec-submissions"
+            ]
+          },
+          {
+            "condition": "电力接入和电网项目审批慢于数据中心建设需求。",
+            "conditionZh": "电力接入和电网项目审批慢于数据中心建设需求。",
+            "conditionEn": "The thesis weakens if grid interconnection and power projects lag data-center buildout needs.",
+            "monitor": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+            "monitorZh": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+            "monitorEn": "Monitor utility capex, project approvals, transformer/distribution delivery, and customer construction starts.",
+            "sourceIds": [
+              "mod-homepage",
+              "mod-sec-submissions"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "数据中心电力与热管理交付",
+        "nameZh": "数据中心电力与热管理交付",
+        "nameEn": "Data-center power and thermal delivery",
+        "rank": 2,
+        "constraintType": "qualification",
+        "constraintTypeZh": "客户认证",
+        "constraintTypeEn": "Qualification",
+        "whyScarce": "客户认证、可靠性和项目交付经验会影响供应商能否进入大型 AI 数据中心。",
+        "whyScarceZh": "客户认证、可靠性和项目交付经验会影响供应商能否进入大型 AI 数据中心。",
+        "whyScarceEn": "Customer qualification, reliability, and project-delivery experience affect supplier access to large AI data centers.",
+        "relatedCompanies": [
+          "Modine / 摩丁制造"
+        ],
+        "evidenceLevel": "medium",
+        "confidence": "medium",
+        "sourceIds": [
+          "mod-homepage",
+          "mod-sec-submissions"
+        ],
+        "failureConditions": [
+          {
+            "condition": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+            "conditionZh": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+            "conditionEn": "The thesis weakens if AI data-center power/cooling orders or backlog stop improving.",
+            "monitor": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+            "monitorZh": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+            "monitorEn": "Monitor orders, backlog, data-center customer disclosures, delivery lead times, and project margins.",
+            "sourceIds": [
+              "mod-homepage",
+              "mod-sec-submissions"
+            ]
+          },
+          {
+            "condition": "电力接入和电网项目审批慢于数据中心建设需求。",
+            "conditionZh": "电力接入和电网项目审批慢于数据中心建设需求。",
+            "conditionEn": "The thesis weakens if grid interconnection and power projects lag data-center buildout needs.",
+            "monitor": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+            "monitorZh": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+            "monitorEn": "Monitor utility capex, project approvals, transformer/distribution delivery, and customer construction starts.",
+            "sourceIds": [
+              "mod-homepage",
+              "mod-sec-submissions"
+            ]
+          }
+        ]
+      }
+    ],
+    "tiers": [
+      {
+        "level": 0,
+        "title": "Target company",
+        "titleZh": "目标公司",
+        "titleEn": "Target company",
+        "companies": [
+          "Modine / 摩丁制造"
+        ],
+        "entities": [
+          {
+            "name": "Modine / 摩丁制造",
+            "nameZh": "Modine / 摩丁制造",
+            "nameEn": "MODINE MANUFACTURING CO",
+            "relationship": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipZh": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipEn": "Target company; this page maps its NVIDIA-related supply-chain position.",
+            "productsServices": [
+              "数据中心冷却 / data-center cooling",
+              "热管理系统 / thermal-management systems",
+              "暖通与服务 / HVAC and services"
+            ],
+            "productsServicesZh": [
+              "数据中心冷却 / data-center cooling",
+              "热管理系统 / thermal-management systems",
+              "暖通与服务 / HVAC and services"
+            ],
+            "productsServicesEn": [
+              "数据中心冷却 / data-center cooling",
+              "热管理系统 / thermal-management systems",
+              "暖通与服务 / HVAC and services"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "MOD",
+              "exchange": "NYSE",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/mod"
+            },
+            "confidence": "high",
+            "sourceIds": [
+              "mod-homepage",
+              "mod-nasdaq-quote"
+            ],
+            "companyUrl": "https://www.modine.com/",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "目标公司",
+              "labelZh": "目标公司",
+              "labelEn": "Target company",
+              "direction": "target",
+              "rationale": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleZh": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleEn": "The target company itself, used as the reference point for this supply-chain analysis.",
+              "confidence": "high"
+            }
+          }
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "铜、铝和电工钢",
+          "功率器件、开关和控制部件",
+          "冷却剂、压缩机和热交换部件"
+        ],
+        "materialsZh": [
+          "铜、铝和电工钢",
+          "功率器件、开关和控制部件",
+          "冷却剂、压缩机和热交换部件"
+        ],
+        "materialsEn": [
+          "Copper, aluminum, and electrical steel",
+          "Power devices, switchgear, and controls",
+          "Coolants, compressors, and heat-exchange components"
+        ],
+        "notes": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesZh": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesEn": "Target company itself; listed ticker and quote link reviewed.",
+        "confidence": "high",
+        "sourceIds": [
+          "mod-homepage",
+          "mod-nasdaq-quote"
+        ]
+      },
+      {
+        "level": 1,
+        "title": "Key upstream inputs",
+        "titleZh": "关键上游投入",
+        "titleEn": "Key upstream inputs",
+        "companies": [
+          "Data-center developers and hyperscalers / 数据中心开发商与云厂商",
+          "Electrical and thermal supply chain / 电力与热管理供应链"
+        ],
+        "entities": [
+          {
+            "name": "Data-center developers and hyperscalers / 数据中心开发商与云厂商",
+            "nameZh": "数据中心开发商与云厂商",
+            "nameEn": "Data-center developers and hyperscalers",
+            "relationship": "AI 数据中心扩张直接拉动供电、配电、施工、机柜和散热需求。",
+            "relationshipZh": "AI 数据中心扩张直接拉动供电、配电、施工、机柜和散热需求。",
+            "relationshipEn": "AI data-center expansion directly drives demand for power, distribution, construction, racks, and cooling.",
+            "productsServices": [
+              "数据中心项目",
+              "电力接入",
+              "机柜与散热"
+            ],
+            "productsServicesZh": [
+              "数据中心项目",
+              "电力接入",
+              "机柜与散热"
+            ],
+            "productsServicesEn": [
+              "data-center projects",
+              "power interconnection",
+              "racks and cooling"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "客户和项目需按公告/合同继续拆解。",
+              "noteZh": "客户和项目需按公告/合同继续拆解。",
+              "noteEn": "Customers and projects require further review through releases/contracts."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "mod-homepage",
+              "nvidia-rtx-pro-systems-2025"
+            ],
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "direct-supplier",
+              "rationale": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleZh": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleEn": "NVIDIA platforms are a key input for this company's AI server or GPU-cloud capacity, so supply changes directly affect delivery.",
+              "confidence": "medium"
+            }
+          },
+          {
+            "name": "Electrical and thermal supply chain / 电力与热管理供应链",
+            "nameZh": "电力与热管理供应链",
+            "nameEn": "Electrical and thermal supply chain",
+            "relationship": "上游依赖铜、变压器、功率器件、冷却部件、压缩机和高可靠工程交付。",
+            "relationshipZh": "上游依赖铜、变压器、功率器件、冷却部件、压缩机和高可靠工程交付。",
+            "relationshipEn": "Upstream inputs include copper, transformers, power components, cooling parts, compressors, and high-reliability project delivery.",
+            "productsServices": [
+              "铜与电气部件",
+              "变压器与配电",
+              "冷却系统部件"
+            ],
+            "productsServicesZh": [
+              "铜与电气部件",
+              "变压器与配电",
+              "冷却系统部件"
+            ],
+            "productsServicesEn": [
+              "copper and electrical parts",
+              "transformers and distribution",
+              "cooling-system components"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "多为多层供应商，需逐项映射。",
+              "noteZh": "多为多层供应商，需逐项映射。",
+              "noteEn": "Often multi-tier suppliers requiring supplier-by-supplier mapping."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "mod-homepage"
+            ],
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "direct-supplier",
+              "rationale": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleZh": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleEn": "NVIDIA platforms are a key input for this company's AI server or GPU-cloud capacity, so supply changes directly affect delivery.",
+              "confidence": "medium"
+            }
+          }
+        ],
+        "geography": [
+          "US",
+          "Europe",
+          "Asia"
+        ],
+        "materials": [
+          "铜、铝和电工钢",
+          "功率器件、开关和控制部件",
+          "冷却剂、压缩机和热交换部件"
+        ],
+        "materialsZh": [
+          "铜、铝和电工钢",
+          "功率器件、开关和控制部件",
+          "冷却剂、压缩机和热交换部件"
+        ],
+        "materialsEn": [
+          "Copper, aluminum, and electrical steel",
+          "Power devices, switchgear, and controls",
+          "Coolants, compressors, and heat-exchange components"
+        ],
+        "notes": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesZh": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesEn": "Lists the most important upstream inputs for NVIDIA-related business; exact purchase shares require further manual work.",
+        "confidence": "medium",
+        "sourceIds": [
+          "mod-homepage",
+          "nvidia-10k-2026"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "铜、铝和电工钢",
+        "nameZh": "铜、铝和电工钢",
+        "nameEn": "Copper, aluminum, and electrical steel",
+        "usedIn": "用于配电设备、线缆、变压器、电机和机柜。",
+        "usedInZh": "用于配电设备、线缆、变压器、电机和机柜。",
+        "usedInEn": "Used in power distribution equipment, cables, transformers, motors, and enclosures.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "功率器件、开关和控制部件",
+        "nameZh": "功率器件、开关和控制部件",
+        "nameEn": "Power devices, switchgear, and controls",
+        "usedIn": "用于 UPS、配电、开关柜和数据中心电力可靠性系统。",
+        "usedInZh": "用于 UPS、配电、开关柜和数据中心电力可靠性系统。",
+        "usedInEn": "Used in UPS, distribution, switchgear, and data-center power reliability systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "冷却剂、压缩机和热交换部件",
+        "nameZh": "冷却剂、压缩机和热交换部件",
+        "nameEn": "Coolants, compressors, and heat-exchange components",
+        "usedIn": "用于风冷、液冷、冷冻水和热管理系统。",
+        "usedInZh": "用于风冷、液冷、冷冻水和热管理系统。",
+        "usedInEn": "Used in air cooling, liquid cooling, chilled water, and thermal-management systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      }
+    ],
+    "downstream": {
+      "updatedAt": "2026-06-14T12:00:00+08:00",
+      "thesis": "AI 数据中心扩张推动更高功率密度和冷却需求，Modine 代表散热/热管理侧的美股弹性。 / AI data-center expansion drives higher power density and cooling demand, making Modine a US-listed thermal-management exposure.",
+      "thesisZh": "AI 数据中心扩张推动更高功率密度和冷却需求，Modine 代表散热/热管理侧的美股弹性。",
+      "thesisEn": "AI data-center expansion drives higher power density and cooling demand, making Modine a US-listed thermal-management exposure.",
+      "tiers": [
+        {
+          "level": 1,
+          "title": "NVIDIA-related demand path",
+          "titleZh": "英伟达相关需求路径",
+          "titleEn": "NVIDIA-related demand path",
+          "entities": [
+            {
+              "name": "AI data centers and utilities / AI 数据中心与公用事业",
+              "nameZh": "AI 数据中心与公用事业",
+              "nameEn": "AI data centers and utilities",
+              "relationship": "需要电力接入、配电、散热、工程建设和可靠性服务，以支撑高功率密度 AI 机柜。",
+              "relationshipZh": "需要电力接入、配电、散热、工程建设和可靠性服务，以支撑高功率密度 AI 机柜。",
+              "relationshipEn": "Need power interconnection, distribution, cooling, construction, and reliability services to support high-density AI racks.",
+              "productsServices": [
+                "数据中心电力",
+                "配电与施工",
+                "散热与液冷"
+              ],
+              "productsServicesZh": [
+                "数据中心电力",
+                "配电与施工",
+                "散热与液冷"
+              ],
+              "productsServicesEn": [
+                "data-center power",
+                "distribution and construction",
+                "cooling and liquid cooling"
+              ],
+              "listing": {
+                "status": "unknown",
+                "note": "客户和项目需用合同、公告或财报电话会继续确认。",
+                "noteZh": "客户和项目需用合同、公告或财报电话会继续确认。",
+                "noteEn": "Customers and projects should be confirmed through contracts, releases, or earnings calls."
+              },
+              "confidence": "medium",
+              "sourceIds": [
+                "mod-homepage",
+                "nvidia-rtx-pro-systems-2025"
+              ],
+              "customerRole": "AI 数据中心基础设施需求方",
+              "customerRoleZh": "AI 数据中心基础设施需求方",
+              "customerRoleEn": "AI data-center infrastructure demand source",
+              "relationshipStrength": {
+                "score": 3,
+                "label": "中相关",
+                "labelZh": "中相关",
+                "labelEn": "Moderate relevance",
+                "direction": "indirect-demand",
+                "rationale": "NVIDIA 需求通过晶圆厂、存储厂或封装投资间接传导，不等同于直接采购关系。",
+                "rationaleZh": "NVIDIA 需求通过晶圆厂、存储厂或封装投资间接传导，不等同于直接采购关系。",
+                "rationaleEn": "NVIDIA demand transmits indirectly through foundry, memory, or packaging investment and is not the same as a direct purchasing relationship.",
+                "confidence": "medium"
+              }
+            }
+          ],
+          "notes": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesZh": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesEn": "This layer explains how the target company functions as NVIDIA's upstream supplier, partner, customer, or indirect demand beneficiary.",
+          "confidence": "medium",
+          "sourceIds": [
+            "mod-homepage",
+            "nvidia-10k-2026"
+          ]
+        }
+      ]
+    }
+  },
+  "financials": {
+    "latestPeriod": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "latestPeriodZh": "使用 SEC companyfacts 中的最新可核对候选；年度基准来自最近审计年报。",
+    "latestPeriodEn": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "highlights": [
+      {
+        "label": "Q3 FY2026 revenue",
+        "labelZh": "2026 财年第 3 财季 收入",
+        "labelEn": "Q3 FY2026 revenue",
+        "value": 0.805,
+        "unit": "USD billions",
+        "period": "Quarter ended 2025-12-31",
+        "periodZh": "截至 2025-12-31 的季度",
+        "periodEn": "Quarter ended 2025-12-31",
+        "sourceIds": [
+          "mod-sec-companyfacts"
+        ],
+        "change": "+30.5% vs prior comparable period",
+        "changeZh": "较上一可比期间 +30.5%",
+        "changeEn": "+30.5% vs prior comparable period"
+      },
+      {
+        "label": "Q3 FY2026 net income / loss",
+        "labelZh": "2026 财年第 3 财季 净利润 / 净亏损",
+        "labelEn": "Q3 FY2026 net income / loss",
+        "value": -0.047,
+        "unit": "USD billions",
+        "period": "Quarter ended 2025-12-31",
+        "periodZh": "截至 2025-12-31 的季度",
+        "periodEn": "Quarter ended 2025-12-31",
+        "sourceIds": [
+          "mod-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q3 FY2026 total assets",
+        "labelZh": "2026 财年第 3 财季 总资产",
+        "labelEn": "Q3 FY2026 total assets",
+        "value": 2.483,
+        "unit": "USD billions",
+        "period": "Quarter ended 2025-12-31",
+        "periodZh": "截至 2025-12-31 的季度",
+        "periodEn": "Quarter ended 2025-12-31",
+        "sourceIds": [
+          "mod-sec-companyfacts"
+        ]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 3.181,
+        "unit": "USD billions",
+        "period": "FY2026",
+        "periodZh": "2026 财年",
+        "periodEn": "FY2026",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "mod-sec-companyfacts"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "id": "annual-revenue",
+        "label": "Annual revenue",
+        "labelZh": "年度收入",
+        "labelEn": "Annual revenue",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "mod-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 2.298,
+            "sourceIds": [
+              "mod-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 2.408,
+            "sourceIds": [
+              "mod-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 2.583,
+            "sourceIds": [
+              "mod-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2026",
+            "periodZh": "2026 财年",
+            "periodEn": "FY2026",
+            "value": 3.181,
+            "sourceIds": [
+              "mod-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-net-income",
+        "label": "Annual net income / loss",
+        "labelZh": "年度净利润 / 净亏损",
+        "labelEn": "Annual net income / loss",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "mod-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 0.153,
+            "sourceIds": [
+              "mod-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 0.162,
+            "sourceIds": [
+              "mod-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 0.184,
+            "sourceIds": [
+              "mod-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2026",
+            "periodZh": "2026 财年",
+            "periodEn": "FY2026",
+            "value": 0.121,
+            "sourceIds": [
+              "mod-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-assets",
+        "label": "Annual total assets",
+        "labelZh": "年度总资产",
+        "labelEn": "Annual total assets",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "mod-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 1.566,
+            "sourceIds": [
+              "mod-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 1.851,
+            "sourceIds": [
+              "mod-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 1.918,
+            "sourceIds": [
+              "mod-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2026",
+            "periodZh": "2026 财年",
+            "periodEn": "FY2026",
+            "value": 2.675,
+            "sourceIds": [
+              "mod-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenueMixHistory": [
+      {
+        "period": "FY2023",
+        "periodZh": "2023 财年",
+        "periodEn": "FY2023",
+        "totalRevenue": 2.298,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "mod-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 2.298,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "mod-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2024",
+        "periodZh": "2024 财年",
+        "periodEn": "FY2024",
+        "totalRevenue": 2.408,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "mod-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 2.408,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "mod-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "totalRevenue": 2.583,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "mod-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 2.583,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "mod-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2026",
+        "periodZh": "2026 财年",
+        "periodEn": "FY2026",
+        "totalRevenue": 3.181,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "mod-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 3.181,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "mod-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-05-27",
+      "title": "Recent SEC filing: 10-K",
+      "titleZh": "最新 SEC 文件：10-K",
+      "titleEn": "Recent SEC filing: 10-K",
+      "category": "SEC filing",
+      "categoryZh": "SEC 文件",
+      "categoryEn": "SEC filing",
+      "summary": "SEC submissions show a 10-K filed on 2026-05-27; report date 2026-03-31.",
+      "summaryZh": "SEC submissions 显示公司于 2026-05-27 提交 10-K；报告期为 2026-03-31。",
+      "summaryEn": "SEC submissions show a 10-K filed on 2026-05-27; report date 2026-03-31.",
+      "impact": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "impactZh": "作为本批次最新公开文件检查点；每日定时刷新仍未启用。",
+      "impactEn": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "sourceIds": [
+        "mod-sec-submissions"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "10-K",
+      "filedAt": "2026-05-27",
+      "reportDate": "2026-03-31",
+      "title": "10-K filed 2026-05-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926066795/mod-20260331x10k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-26",
+      "reportDate": "2026-05-26",
+      "title": "8-K filed 2026-05-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926066291/mod-20260526x8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-05",
+      "reportDate": "2026-04-30",
+      "title": "8-K filed 2026-05-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926055654/mod-20260430x8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-17",
+      "reportDate": "2026-02-17",
+      "title": "8-K filed 2026-02-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926015568/tm266551d1_8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-02-05",
+      "reportDate": "2025-12-31",
+      "title": "10-Q filed 2026-02-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926010790/mod-20251231x10q.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-04",
+      "reportDate": "2026-02-04",
+      "title": "8-K filed 2026-02-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926010338/mod-20260204x8k.htm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "mod-homepage",
+      "title": "Modine / 摩丁制造 company website",
+      "titleZh": "Modine / 摩丁制造 公司官网",
+      "titleEn": "Modine / 摩丁制造 company website",
+      "publisher": "Modine / 摩丁制造",
+      "url": "https://www.modine.com/",
+      "accessedAt": "2026-06-14",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "mod-sec-submissions",
+      "title": "MOD SEC submissions",
+      "titleZh": "MOD SEC submissions 数据",
+      "titleEn": "MOD SEC submissions",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/submissions/CIK0000067347.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "mod-sec-companyfacts",
+      "title": "MOD SEC companyfacts XBRL data",
+      "titleZh": "MOD SEC companyfacts XBRL 数据",
+      "titleEn": "MOD SEC companyfacts XBRL data",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000067347.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "mod-nasdaq-quote",
+      "title": "MOD Nasdaq quote page",
+      "titleZh": "MOD Nasdaq 行情页面",
+      "titleEn": "MOD Nasdaq quote page",
+      "publisher": "Nasdaq",
+      "url": "https://www.nasdaq.com/market-activity/stocks/mod",
+      "accessedAt": "2026-06-14",
+      "type": "exchange",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "nvidia-10k-2026",
+      "title": "NVIDIA FY2026 Form 10-K",
+      "titleZh": "NVIDIA 2026 财年 10-K 年报",
+      "titleEn": "NVIDIA FY2026 Form 10-K",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "nvidia-rtx-pro-systems-2025",
+      "title": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "titleZh": "NVIDIA RTX PRO Blackwell 服务器进入企业系统生态",
+      "titleEn": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "publisher": "NVIDIA Investor Relations",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-RTX-PRO-Servers-With-Blackwell-Coming-to-Worlds-Most-Popular-Enterprise-Systems/",
+      "accessedAt": "2026-06-14",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0000067347",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K",
+        "20-F",
+        "6-K"
+      ]
+    },
+    "newsFeeds": [
+      {
+        "url": "https://www.modine.com/",
+        "publisher": "Modine / 摩丁制造",
+        "sourceType": "company"
+      }
+    ]
+  },
+  "themeExposure": [
+    {
+      "theme": "AI 数据中心散热",
+      "themeZh": "AI 数据中心散热",
+      "themeEn": "AI data-center cooling",
+      "score": 4,
+      "role": "热管理与冷却系统",
+      "roleZh": "热管理与冷却系统",
+      "roleEn": "Thermal management and cooling systems",
+      "rationale": "AI 机柜功率密度提升会放大热管理、冷却系统和数据中心散热产品的重要性。",
+      "rationaleZh": "AI 机柜功率密度提升会放大热管理、冷却系统和数据中心散热产品的重要性。",
+      "rationaleEn": "Rising AI rack power density increases the importance of thermal management, cooling systems, and data-center cooling products.",
+      "confidence": "medium"
+    }
+  ]
+}

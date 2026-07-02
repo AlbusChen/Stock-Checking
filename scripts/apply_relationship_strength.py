@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import json
 from pathlib import Path
 from typing import Any
@@ -138,6 +139,116 @@ THEME_EXPOSURE_BY_TICKER: dict[str, dict[str, Any]] = {
             "Its service capacity depends heavily on NVIDIA GPU procurement, deployment, and financing, so it is tighter than a normal downstream buyer.",
         ),
         "confidence": "high",
+    },
+    "ANET": {
+        "theme": ("AI 数据中心网络", "AI data-center networking"),
+        "score": 4,
+        "role": ("AI 集群以太网交换层", "AI cluster Ethernet switching layer"),
+        "rationale": (
+            "GPU 集群扩张会提升东西向流量、以太网交换和网络软件的重要性，Arista 比普通应用公司更接近算力互连瓶颈。",
+            "GPU cluster expansion raises the importance of east-west traffic, Ethernet switching, and network software, placing Arista closer to the compute interconnect bottleneck than ordinary application companies.",
+        ),
+        "confidence": "medium",
+    },
+    "VRT": {
+        "theme": ("AI 数据中心电力与散热", "AI data-center power and cooling"),
+        "score": 5,
+        "role": ("高功率机柜电力与散热核心配套", "Core high-density rack power and cooling support"),
+        "rationale": (
+            "AI 机柜功率密度提升后，供电、配电、热管理和液冷会直接影响数据中心交付节奏。",
+            "As AI rack power density rises, power, distribution, thermal management, and liquid cooling directly affect data-center delivery cadence.",
+        ),
+        "confidence": "high",
+    },
+    "PLTR": {
+        "theme": ("AI 应用落地", "AI application deployment"),
+        "score": 3,
+        "role": ("企业与政府 AI 应用平台", "Enterprise and government AI application platform"),
+        "rationale": (
+            "Palantir 处在 AI 应用兑现层，受益于算力和模型进入真实工作流，但瓶颈属性弱于电力、网络和存储等基础设施层。",
+            "Palantir sits in the AI application monetization layer and benefits as compute and models enter real workflows, but its bottleneck attributes are weaker than power, networking, and memory infrastructure layers.",
+        ),
+        "confidence": "medium",
+    },
+    "ETN": {
+        "theme": ("AI 数据中心电力", "AI data-center power"),
+        "score": 4,
+        "role": ("配电与电力管理设备", "Power distribution and management equipment"),
+        "rationale": (
+            "数据中心电力接入和配电扩容是 AI 基建的物理约束之一，Eaton 处于设备供给层。",
+            "Data-center power access and distribution expansion are physical constraints for AI infrastructure, and Eaton sits in the equipment supply layer.",
+        ),
+        "confidence": "medium",
+    },
+    "GEV": {
+        "theme": ("AI 电力基础设施", "AI power infrastructure"),
+        "score": 4,
+        "role": ("发电与电网设备", "Generation and grid equipment"),
+        "rationale": (
+            "AI 负荷增长会拉动发电容量、电网设备和电气化投资，GE Vernova 位于更上游的电力系统扩容层。",
+            "AI load growth drives generation capacity, grid equipment, and electrification investment, placing GE Vernova in an upstream power-system expansion layer.",
+        ),
+        "confidence": "medium",
+    },
+    "PWR": {
+        "theme": ("AI 电网建设", "AI grid buildout"),
+        "score": 4,
+        "role": ("电网工程与接入服务", "Grid engineering and interconnection services"),
+        "rationale": (
+            "如果数据中心扩张卡在电网接入和输配电建设，工程交付能力会成为关键约束。",
+            "If data-center expansion is constrained by grid interconnection and transmission/distribution buildout, engineering delivery becomes a key constraint.",
+        ),
+        "confidence": "medium",
+    },
+    "MOD": {
+        "theme": ("AI 数据中心散热", "AI data-center cooling"),
+        "score": 4,
+        "role": ("热管理与冷却系统", "Thermal management and cooling systems"),
+        "rationale": (
+            "AI 机柜功率密度提升会放大热管理、冷却系统和数据中心散热产品的重要性。",
+            "Rising AI rack power density increases the importance of thermal management, cooling systems, and data-center cooling products.",
+        ),
+        "confidence": "medium",
+    },
+    "NVT": {
+        "theme": ("AI 电力与机柜配套", "AI power and enclosure support"),
+        "score": 3,
+        "role": ("电气连接、机柜与热管理配套", "Electrical connection, enclosures, and thermal support"),
+        "rationale": (
+            "nVent 处于配电、机柜、连接和热管理配套层，相关性明确但通常低于核心电力设备和液冷系统供应商。",
+            "nVent sits in power distribution, enclosures, connection, and thermal support; relevance is clear but usually below core power-equipment and liquid-cooling suppliers.",
+        ),
+        "confidence": "medium",
+    },
+    "MRVL": {
+        "theme": ("AI 网络芯片与光互连", "AI networking silicon and optical interconnect"),
+        "score": 4,
+        "role": ("数据中心网络与定制芯片", "Data-center networking and custom silicon"),
+        "rationale": (
+            "AI 集群扩张提升网络芯片、光互连 DSP 和定制芯片需求，Marvell 处于算力互连和定制硅层。",
+            "AI cluster expansion raises demand for networking silicon, optical-interconnect DSPs, and custom silicon, placing Marvell in the compute-interconnect and custom-silicon layer.",
+        ),
+        "confidence": "medium",
+    },
+    "COHR": {
+        "theme": ("AI 光互连", "AI optical interconnect"),
+        "score": 4,
+        "role": ("高速光模块与光器件", "High-speed optical modules and components"),
+        "rationale": (
+            "AI 数据中心带宽需求推动高速光模块和光器件升级，Coherent 处于网络互连物理层。",
+            "AI data-center bandwidth demand drives high-speed optical module and component upgrades, placing Coherent in the physical networking layer.",
+        ),
+        "confidence": "medium",
+    },
+    "LITE": {
+        "theme": ("AI 光通信", "AI optical communications"),
+        "score": 3,
+        "role": ("光通信与激光器件供应", "Optical communications and laser supply"),
+        "rationale": (
+            "Lumentum 与云网络和高速光器件需求相关，但客户、速率转换和竞争路径仍需继续验证。",
+            "Lumentum is tied to cloud networking and high-speed optical-component demand, but customer exposure, speed transitions, and competition require further verification.",
+        ),
+        "confidence": "medium",
     },
     "MSFT": {
         "theme": ("英伟达相关", "NVIDIA-related"),
@@ -568,7 +679,18 @@ def apply_strength(report: dict[str, Any]) -> None:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Apply relationship-strength scoring to company reports.")
+    parser.add_argument("--tickers", help="Comma-separated ticker or id subset. Defaults to all companies.")
+    args = parser.parse_args()
+    selected = {item.strip().upper() for item in args.tickers.split(",")} if args.tickers else None
     paths = sorted(COMPANIES_DIR.glob("*.json"))
+    if selected:
+        filtered = []
+        for path in paths:
+            report = read_json(path)
+            if str(report.get("ticker", "")).upper() in selected or str(report.get("id", "")).upper() in selected:
+                filtered.append(path)
+        paths = filtered
     for path in paths:
         report = read_json(path)
         apply_strength(report)

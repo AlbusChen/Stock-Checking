@@ -1,0 +1,1034 @@
+{
+  "schemaVersion": 1,
+  "id": "lite",
+  "ticker": "LITE",
+  "exchange": "NASDAQ",
+  "market": "US",
+  "name": "Lumentum / Lumentum 光通信",
+  "legalName": "Lumentum Holdings Inc.",
+  "cik": "0001633978",
+  "currency": "USD",
+  "sector": "Optical and photonic products / 光通信与光子产品",
+  "industry": [
+    "Optical components",
+    "Cloud networking",
+    "Lasers",
+    "光器件",
+    "云网络",
+    "激光器"
+  ],
+  "homepage": "https://www.lumentum.com/",
+  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "summary": "Lumentum 提供光通信和激光器件，受 AI 数据中心光互连、云网络升级和高速光器件需求影响。 / Lumentum provides optical communications and laser products, exposed to AI data-center optical interconnect, cloud networking upgrades, and high-speed optical-component demand.",
+  "summaryZh": "Lumentum 提供光通信和激光器件，受 AI 数据中心光互连、云网络升级和高速光器件需求影响。",
+  "summaryEn": "Lumentum provides optical communications and laser products, exposed to AI data-center optical interconnect, cloud networking upgrades, and high-speed optical-component demand.",
+  "aliases": [
+    "LITE",
+    "Lumentum / Lumentum 光通信",
+    "Lumentum Holdings Inc.",
+    "Lumentum Holdings Inc."
+  ],
+  "labels": [
+    "光模块",
+    "光通信",
+    "激光器",
+    "数据中心网络",
+    "AI基础设施",
+    "AI基建扩展",
+    "美股"
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "description": "公司提供云、通信、工业和消费市场的光通信产品、激光器和光子解决方案。 / The company provides optical communications products, lasers, and photonics solutions for cloud, communications, industrial, and consumer markets.",
+    "descriptionZh": "公司提供云、通信、工业和消费市场的光通信产品、激光器和光子解决方案。",
+    "descriptionEn": "The company provides optical communications products, lasers, and photonics solutions for cloud, communications, industrial, and consumer markets.",
+    "revenueModel": [
+      "光通信产品 / optical communications products",
+      "商用激光器 / commercial lasers",
+      "云与通信客户 / cloud and telecom customers"
+    ],
+    "segments": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 1.645,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "lite-sec-companyfacts"
+        ]
+      }
+    ],
+    "thesis": "AI 网络升级会拉动高速光器件需求，Lumentum 是光通信链条中的美股观察对象。 / AI networking upgrades can drive high-speed optical-component demand, making Lumentum a US-listed watch item in the optical communications chain.",
+    "thesisZh": "AI 网络升级会拉动高速光器件需求，Lumentum 是光通信链条中的美股观察对象。",
+    "thesisEn": "AI networking upgrades can drive high-speed optical-component demand, making Lumentum a US-listed watch item in the optical communications chain.",
+    "riskNotes": [
+      "客户需求、库存周期和产品转换会带来波动。 / Customer demand, inventory cycles, and product transitions can create volatility.",
+      "高速光模块竞争和定价压力需持续观察。 / Competition and pricing pressure in high-speed optics need monitoring."
+    ],
+    "failureConditions": [
+      {
+        "condition": "AI 集群网络、光互连或高速交换需求低于公司披露趋势。",
+        "conditionZh": "AI 集群网络、光互连或高速交换需求低于公司披露趋势。",
+        "conditionEn": "The thesis weakens if AI cluster networking, optical interconnect, or high-speed switching demand falls below company-disclosed trends.",
+        "monitor": "跟踪云客户资本开支、AI 网络订单、产品认证、价格和毛利率。",
+        "monitorZh": "跟踪云客户资本开支、AI 网络订单、产品认证、价格和毛利率。",
+        "monitorEn": "Monitor cloud customer capex, AI networking orders, product qualification, pricing, and margins.",
+        "sourceIds": [
+          "lite-homepage",
+          "lite-sec-submissions"
+        ]
+      },
+      {
+        "condition": "技术路线被替代，或客户转向自研/其他供应商。",
+        "conditionZh": "技术路线被替代，或客户转向自研/其他供应商。",
+        "conditionEn": "The thesis weakens if architectures shift away or customers move to in-house/alternative suppliers.",
+        "monitor": "跟踪以太网/InfiniBand/CPO/光模块路线、客户披露和竞争对手订单。",
+        "monitorZh": "跟踪以太网/InfiniBand/CPO/光模块路线、客户披露和竞争对手订单。",
+        "monitorEn": "Monitor Ethernet/InfiniBand/CPO/optics roadmaps, customer disclosures, and competitor orders.",
+        "sourceIds": [
+          "lite-homepage",
+          "lite-sec-submissions"
+        ]
+      }
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-14T12:00:00+08:00",
+    "thesis": "AI 网络升级会拉动高速光器件需求，Lumentum 是光通信链条中的美股观察对象。 / AI networking upgrades can drive high-speed optical-component demand, making Lumentum a US-listed watch item in the optical communications chain.",
+    "thesisZh": "AI 网络升级会拉动高速光器件需求，Lumentum 是光通信链条中的美股观察对象。",
+    "thesisEn": "AI networking upgrades can drive high-speed optical-component demand, making Lumentum a US-listed watch item in the optical communications chain.",
+    "scarceLayers": [
+      {
+        "name": "高速光模块与光互连",
+        "nameZh": "高速光模块与光互连",
+        "nameEn": "High-speed optical modules and optical interconnects",
+        "rank": 1,
+        "constraintType": "capacity",
+        "constraintTypeZh": "产能",
+        "constraintTypeEn": "Capacity",
+        "whyScarce": "AI 集群规模扩大需要更高带宽、低功耗和稳定供应的光器件。",
+        "whyScarceZh": "AI 集群规模扩大需要更高带宽、低功耗和稳定供应的光器件。",
+        "whyScarceEn": "AI cluster scale requires higher-bandwidth, lower-power, and reliably supplied optical components.",
+        "relatedCompanies": [
+          "Lumentum / Lumentum 光通信"
+        ],
+        "evidenceLevel": "medium",
+        "confidence": "medium",
+        "sourceIds": [
+          "lite-homepage",
+          "lite-sec-submissions"
+        ],
+        "failureConditions": [
+          {
+            "condition": "AI 集群网络、光互连或高速交换需求低于公司披露趋势。",
+            "conditionZh": "AI 集群网络、光互连或高速交换需求低于公司披露趋势。",
+            "conditionEn": "The thesis weakens if AI cluster networking, optical interconnect, or high-speed switching demand falls below company-disclosed trends.",
+            "monitor": "跟踪云客户资本开支、AI 网络订单、产品认证、价格和毛利率。",
+            "monitorZh": "跟踪云客户资本开支、AI 网络订单、产品认证、价格和毛利率。",
+            "monitorEn": "Monitor cloud customer capex, AI networking orders, product qualification, pricing, and margins.",
+            "sourceIds": [
+              "lite-homepage",
+              "lite-sec-submissions"
+            ]
+          },
+          {
+            "condition": "技术路线被替代，或客户转向自研/其他供应商。",
+            "conditionZh": "技术路线被替代，或客户转向自研/其他供应商。",
+            "conditionEn": "The thesis weakens if architectures shift away or customers move to in-house/alternative suppliers.",
+            "monitor": "跟踪以太网/InfiniBand/CPO/光模块路线、客户披露和竞争对手订单。",
+            "monitorZh": "跟踪以太网/InfiniBand/CPO/光模块路线、客户披露和竞争对手订单。",
+            "monitorEn": "Monitor Ethernet/InfiniBand/CPO/optics roadmaps, customer disclosures, and competitor orders.",
+            "sourceIds": [
+              "lite-homepage",
+              "lite-sec-submissions"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "速率升级与客户认证",
+        "nameZh": "速率升级与客户认证",
+        "nameEn": "Speed transitions and customer qualification",
+        "rank": 2,
+        "constraintType": "qualification",
+        "constraintTypeZh": "客户认证",
+        "constraintTypeEn": "Qualification",
+        "whyScarce": "800G/1.6T 等速率升级和客户认证会影响订单节奏与毛利率。",
+        "whyScarceZh": "800G/1.6T 等速率升级和客户认证会影响订单节奏与毛利率。",
+        "whyScarceEn": "800G/1.6T speed transitions and customer qualification affect orders and margins.",
+        "relatedCompanies": [
+          "Lumentum / Lumentum 光通信"
+        ],
+        "evidenceLevel": "medium",
+        "confidence": "medium",
+        "sourceIds": [
+          "lite-homepage",
+          "lite-sec-submissions"
+        ],
+        "failureConditions": [
+          {
+            "condition": "AI 集群网络、光互连或高速交换需求低于公司披露趋势。",
+            "conditionZh": "AI 集群网络、光互连或高速交换需求低于公司披露趋势。",
+            "conditionEn": "The thesis weakens if AI cluster networking, optical interconnect, or high-speed switching demand falls below company-disclosed trends.",
+            "monitor": "跟踪云客户资本开支、AI 网络订单、产品认证、价格和毛利率。",
+            "monitorZh": "跟踪云客户资本开支、AI 网络订单、产品认证、价格和毛利率。",
+            "monitorEn": "Monitor cloud customer capex, AI networking orders, product qualification, pricing, and margins.",
+            "sourceIds": [
+              "lite-homepage",
+              "lite-sec-submissions"
+            ]
+          },
+          {
+            "condition": "技术路线被替代，或客户转向自研/其他供应商。",
+            "conditionZh": "技术路线被替代，或客户转向自研/其他供应商。",
+            "conditionEn": "The thesis weakens if architectures shift away or customers move to in-house/alternative suppliers.",
+            "monitor": "跟踪以太网/InfiniBand/CPO/光模块路线、客户披露和竞争对手订单。",
+            "monitorZh": "跟踪以太网/InfiniBand/CPO/光模块路线、客户披露和竞争对手订单。",
+            "monitorEn": "Monitor Ethernet/InfiniBand/CPO/optics roadmaps, customer disclosures, and competitor orders.",
+            "sourceIds": [
+              "lite-homepage",
+              "lite-sec-submissions"
+            ]
+          }
+        ]
+      }
+    ],
+    "tiers": [
+      {
+        "level": 0,
+        "title": "Target company",
+        "titleZh": "目标公司",
+        "titleEn": "Target company",
+        "companies": [
+          "Lumentum / Lumentum 光通信"
+        ],
+        "entities": [
+          {
+            "name": "Lumentum / Lumentum 光通信",
+            "nameZh": "Lumentum / Lumentum 光通信",
+            "nameEn": "Lumentum Holdings Inc.",
+            "relationship": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipZh": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipEn": "Target company; this page maps its NVIDIA-related supply-chain position.",
+            "productsServices": [
+              "光通信产品 / optical communications products",
+              "商用激光器 / commercial lasers",
+              "云与通信客户 / cloud and telecom customers"
+            ],
+            "productsServicesZh": [
+              "光通信产品 / optical communications products",
+              "商用激光器 / commercial lasers",
+              "云与通信客户 / cloud and telecom customers"
+            ],
+            "productsServicesEn": [
+              "光通信产品 / optical communications products",
+              "商用激光器 / commercial lasers",
+              "云与通信客户 / cloud and telecom customers"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "LITE",
+              "exchange": "NASDAQ",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/lite"
+            },
+            "confidence": "high",
+            "sourceIds": [
+              "lite-homepage",
+              "lite-nasdaq-quote"
+            ],
+            "companyUrl": "https://www.lumentum.com/",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "目标公司",
+              "labelZh": "目标公司",
+              "labelEn": "Target company",
+              "direction": "target",
+              "rationale": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleZh": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleEn": "The target company itself, used as the reference point for this supply-chain analysis.",
+              "confidence": "high"
+            }
+          }
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "高速交换芯片和 SerDes IP",
+          "光器件、激光器和光纤材料",
+          "高端 PCB、连接器和电源材料"
+        ],
+        "materialsZh": [
+          "高速交换芯片和 SerDes IP",
+          "光器件、激光器和光纤材料",
+          "高端 PCB、连接器和电源材料"
+        ],
+        "materialsEn": [
+          "High-speed switching silicon and SerDes IP",
+          "Optical components, lasers, and fiber materials",
+          "High-end PCBs, connectors, and power materials"
+        ],
+        "notes": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesZh": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesEn": "Target company itself; listed ticker and quote link reviewed.",
+        "confidence": "high",
+        "sourceIds": [
+          "lite-homepage",
+          "lite-nasdaq-quote"
+        ]
+      },
+      {
+        "level": 1,
+        "title": "Key upstream inputs",
+        "titleZh": "关键上游投入",
+        "titleEn": "Key upstream inputs",
+        "companies": [
+          "NVIDIA and accelerator platforms / NVIDIA 与加速计算平台",
+          "Cloud and data-center customers / 云与数据中心客户"
+        ],
+        "entities": [
+          {
+            "name": "NVIDIA and accelerator platforms / NVIDIA 与加速计算平台",
+            "nameZh": "NVIDIA 与加速计算平台",
+            "nameEn": "NVIDIA and accelerator platforms",
+            "relationship": "GPU 集群扩张带来高速网络、光互连、交换芯片和云网络需求。",
+            "relationshipZh": "GPU 集群扩张带来高速网络、光互连、交换芯片和云网络需求。",
+            "relationshipEn": "GPU cluster expansion drives demand for high-speed networking, optical interconnects, switching silicon, and cloud networking.",
+            "productsServices": [
+              "GPU 集群互连",
+              "以太网交换",
+              "光互连"
+            ],
+            "productsServicesZh": [
+              "GPU 集群互连",
+              "以太网交换",
+              "光互连"
+            ],
+            "productsServicesEn": [
+              "GPU cluster interconnect",
+              "Ethernet switching",
+              "optical interconnect"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "NVDA",
+              "exchange": "NASDAQ",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/nvda"
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "nvidia-10k-2026",
+              "nvidia-rtx-pro-systems-2025"
+            ],
+            "companyUrl": "https://www.nvidia.com/",
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "direct-supplier",
+              "rationale": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleZh": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleEn": "NVIDIA platforms are a key input for this company's AI server or GPU-cloud capacity, so supply changes directly affect delivery.",
+              "confidence": "medium"
+            }
+          },
+          {
+            "name": "Cloud and data-center customers / 云与数据中心客户",
+            "nameZh": "云与数据中心客户",
+            "nameEn": "Cloud and data-center customers",
+            "relationship": "大规模训练和推理集群需要高速网络、光模块和数据中心互连。",
+            "relationshipZh": "大规模训练和推理集群需要高速网络、光模块和数据中心互连。",
+            "relationshipEn": "Large training and inference clusters require high-speed networking, optical modules, and data-center interconnects.",
+            "productsServices": [
+              "云网络",
+              "数据中心互连",
+              "AI 集群网络"
+            ],
+            "productsServicesZh": [
+              "云网络",
+              "数据中心互连",
+              "AI 集群网络"
+            ],
+            "productsServicesEn": [
+              "cloud networking",
+              "data-center interconnect",
+              "AI cluster networking"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "客户群体分散，需继续拆解具体客户。",
+              "noteZh": "客户群体分散，需继续拆解具体客户。",
+              "noteEn": "Customer base is broad and requires further customer-level review."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "lite-homepage"
+            ],
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "direct-supplier",
+              "rationale": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleZh": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleEn": "NVIDIA platforms are a key input for this company's AI server or GPU-cloud capacity, so supply changes directly affect delivery.",
+              "confidence": "medium"
+            }
+          }
+        ],
+        "geography": [
+          "US",
+          "Europe",
+          "Asia"
+        ],
+        "materials": [
+          "高速交换芯片和 SerDes IP",
+          "光器件、激光器和光纤材料",
+          "高端 PCB、连接器和电源材料"
+        ],
+        "materialsZh": [
+          "高速交换芯片和 SerDes IP",
+          "光器件、激光器和光纤材料",
+          "高端 PCB、连接器和电源材料"
+        ],
+        "materialsEn": [
+          "High-speed switching silicon and SerDes IP",
+          "Optical components, lasers, and fiber materials",
+          "High-end PCBs, connectors, and power materials"
+        ],
+        "notes": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesZh": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesEn": "Lists the most important upstream inputs for NVIDIA-related business; exact purchase shares require further manual work.",
+        "confidence": "medium",
+        "sourceIds": [
+          "lite-homepage",
+          "nvidia-10k-2026"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "高速交换芯片和 SerDes IP",
+        "nameZh": "高速交换芯片和 SerDes IP",
+        "nameEn": "High-speed switching silicon and SerDes IP",
+        "usedIn": "用于 AI 数据中心交换、路由和高速互连。",
+        "usedInZh": "用于 AI 数据中心交换、路由和高速互连。",
+        "usedInEn": "Used in AI data-center switching, routing, and high-speed interconnects.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "光器件、激光器和光纤材料",
+        "nameZh": "光器件、激光器和光纤材料",
+        "nameEn": "Optical components, lasers, and fiber materials",
+        "usedIn": "用于光模块、数据中心光互连和长距离通信。",
+        "usedInZh": "用于光模块、数据中心光互连和长距离通信。",
+        "usedInEn": "Used in optical modules, data-center optical interconnects, and long-haul communications.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "高端 PCB、连接器和电源材料",
+        "nameZh": "高端 PCB、连接器和电源材料",
+        "nameEn": "High-end PCBs, connectors, and power materials",
+        "usedIn": "用于交换机、光模块、服务器和机柜互连。",
+        "usedInZh": "用于交换机、光模块、服务器和机柜互连。",
+        "usedInEn": "Used in switches, optical modules, servers, and rack interconnects.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      }
+    ],
+    "downstream": {
+      "updatedAt": "2026-06-14T12:00:00+08:00",
+      "thesis": "AI 网络升级会拉动高速光器件需求，Lumentum 是光通信链条中的美股观察对象。 / AI networking upgrades can drive high-speed optical-component demand, making Lumentum a US-listed watch item in the optical communications chain.",
+      "thesisZh": "AI 网络升级会拉动高速光器件需求，Lumentum 是光通信链条中的美股观察对象。",
+      "thesisEn": "AI networking upgrades can drive high-speed optical-component demand, making Lumentum a US-listed watch item in the optical communications chain.",
+      "tiers": [
+        {
+          "level": 1,
+          "title": "NVIDIA-related demand path",
+          "titleZh": "英伟达相关需求路径",
+          "titleEn": "NVIDIA-related demand path",
+          "entities": [
+            {
+              "name": "Hyperscale AI data centers / 超大规模 AI 数据中心",
+              "nameZh": "超大规模 AI 数据中心",
+              "nameEn": "Hyperscale AI data centers",
+              "relationship": "购买高速网络、交换、光互连或相关芯片，把 GPU 集群连接成可训练和可推理的系统。",
+              "relationshipZh": "购买高速网络、交换、光互连或相关芯片，把 GPU 集群连接成可训练和可推理的系统。",
+              "relationshipEn": "Buy high-speed networking, switching, optical interconnects, or related silicon to connect GPU clusters into trainable and inferable systems.",
+              "productsServices": [
+                "AI 集群网络",
+                "数据中心互连",
+                "高速光通信"
+              ],
+              "productsServicesZh": [
+                "AI 集群网络",
+                "数据中心互连",
+                "高速光通信"
+              ],
+              "productsServicesEn": [
+                "AI cluster networking",
+                "data-center interconnect",
+                "high-speed optical communications"
+              ],
+              "listing": {
+                "status": "unknown",
+                "note": "具体客户需从公司披露和客户资本开支继续核实。",
+                "noteZh": "具体客户需从公司披露和客户资本开支继续核实。",
+                "noteEn": "Specific customers require verification through company disclosures and customer capex."
+              },
+              "confidence": "medium",
+              "sourceIds": [
+                "lite-homepage",
+                "nvidia-rtx-pro-systems-2025"
+              ],
+              "customerRole": "AI 网络客户 / 算力互连需求方",
+              "customerRoleZh": "AI 网络客户 / 算力互连需求方",
+              "customerRoleEn": "AI networking customer / compute-interconnect demand source",
+              "relationshipStrength": {
+                "score": 3,
+                "label": "中相关",
+                "labelZh": "中相关",
+                "labelEn": "Moderate relevance",
+                "direction": "indirect-demand",
+                "rationale": "NVIDIA 需求通过晶圆厂、存储厂或封装投资间接传导，不等同于直接采购关系。",
+                "rationaleZh": "NVIDIA 需求通过晶圆厂、存储厂或封装投资间接传导，不等同于直接采购关系。",
+                "rationaleEn": "NVIDIA demand transmits indirectly through foundry, memory, or packaging investment and is not the same as a direct purchasing relationship.",
+                "confidence": "medium"
+              }
+            }
+          ],
+          "notes": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesZh": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesEn": "This layer explains how the target company functions as NVIDIA's upstream supplier, partner, customer, or indirect demand beneficiary.",
+          "confidence": "medium",
+          "sourceIds": [
+            "lite-homepage",
+            "nvidia-10k-2026"
+          ]
+        }
+      ]
+    }
+  },
+  "financials": {
+    "latestPeriod": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "latestPeriodZh": "使用 SEC companyfacts 中的最新可核对候选；年度基准来自最近审计年报。",
+    "latestPeriodEn": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "highlights": [
+      {
+        "label": "Q3 FY2026 net income / loss",
+        "labelZh": "2026 财年第 3 财季 净利润 / 净亏损",
+        "labelEn": "Q3 FY2026 net income / loss",
+        "value": 0.144,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-28",
+        "periodZh": "截至 2026-03-28 的季度",
+        "periodEn": "Quarter ended 2026-03-28",
+        "sourceIds": [
+          "lite-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q3 FY2026 total assets",
+        "labelZh": "2026 财年第 3 财季 总资产",
+        "labelEn": "Q3 FY2026 total assets",
+        "value": 7.028,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-28",
+        "periodZh": "截至 2026-03-28 的季度",
+        "periodEn": "Quarter ended 2026-03-28",
+        "sourceIds": [
+          "lite-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q1 FY2026 operating cash flow",
+        "labelZh": "2026 财年第 1 财季 经营现金流",
+        "labelEn": "Q1 FY2026 operating cash flow",
+        "value": 0.058,
+        "unit": "USD billions",
+        "period": "Quarter ended 2025-09-27",
+        "periodZh": "截至 2025-09-27 的季度",
+        "periodEn": "Quarter ended 2025-09-27",
+        "sourceIds": [
+          "lite-sec-companyfacts"
+        ]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 1.645,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "lite-sec-companyfacts"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "id": "annual-revenue",
+        "label": "Annual revenue",
+        "labelZh": "年度收入",
+        "labelEn": "Annual revenue",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "lite-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 1.767,
+            "sourceIds": [
+              "lite-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 1.359,
+            "sourceIds": [
+              "lite-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 1.645,
+            "sourceIds": [
+              "lite-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-net-income",
+        "label": "Annual net income / loss",
+        "labelZh": "年度净利润 / 净亏损",
+        "labelEn": "Annual net income / loss",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "lite-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": -0.132,
+            "sourceIds": [
+              "lite-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": -0.546,
+            "sourceIds": [
+              "lite-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 0.026,
+            "sourceIds": [
+              "lite-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-assets",
+        "label": "Annual total assets",
+        "labelZh": "年度总资产",
+        "labelEn": "Annual total assets",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "lite-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 4.632,
+            "sourceIds": [
+              "lite-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 3.932,
+            "sourceIds": [
+              "lite-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 4.219,
+            "sourceIds": [
+              "lite-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenueMixHistory": [
+      {
+        "period": "FY2023",
+        "periodZh": "2023 财年",
+        "periodEn": "FY2023",
+        "totalRevenue": 1.767,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "lite-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 1.767,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "lite-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2024",
+        "periodZh": "2024 财年",
+        "periodEn": "FY2024",
+        "totalRevenue": 1.359,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "lite-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 1.359,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "lite-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "totalRevenue": 1.645,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "lite-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 1.645,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "lite-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-06-01",
+      "title": "Recent SEC filing: 8-K",
+      "titleZh": "最新 SEC 文件：8-K",
+      "titleEn": "Recent SEC filing: 8-K",
+      "category": "SEC filing",
+      "categoryZh": "SEC 文件",
+      "categoryEn": "SEC filing",
+      "summary": "SEC submissions show a 8-K filed on 2026-06-01; report date 2026-05-29.",
+      "summaryZh": "SEC submissions 显示公司于 2026-06-01 提交 8-K；报告期为 2026-05-29。",
+      "summaryEn": "SEC submissions show a 8-K filed on 2026-06-01; report date 2026-05-29.",
+      "impact": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "impactZh": "作为本批次最新公开文件检查点；每日定时刷新仍未启用。",
+      "impactEn": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "sourceIds": [
+        "lite-sec-submissions"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "8-K",
+      "filedAt": "2026-06-01",
+      "reportDate": "2026-05-29",
+      "title": "8-K filed 2026-06-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526249535/d112771d8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-05-06",
+      "reportDate": "2026-03-28",
+      "title": "10-Q filed 2026-05-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026030777/lite-20260328.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-05",
+      "reportDate": "2026-05-05",
+      "title": "8-K filed 2026-05-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026030530/lite-20260505.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-08",
+      "reportDate": "2026-04-07",
+      "title": "8-K filed 2026-04-08",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526146256/d13152d8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-02",
+      "reportDate": "2026-03-02",
+      "title": "8-K filed 2026-03-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633978/000119312526085412/d41019d8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-02-04",
+      "reportDate": "2025-12-27",
+      "title": "10-Q filed 2026-02-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026005129/lite-20251227.htm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "lite-homepage",
+      "title": "Lumentum / Lumentum 光通信 company website",
+      "titleZh": "Lumentum / Lumentum 光通信 公司官网",
+      "titleEn": "Lumentum / Lumentum 光通信 company website",
+      "publisher": "Lumentum / Lumentum 光通信",
+      "url": "https://www.lumentum.com/",
+      "accessedAt": "2026-06-14",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "lite-sec-submissions",
+      "title": "LITE SEC submissions",
+      "titleZh": "LITE SEC submissions 数据",
+      "titleEn": "LITE SEC submissions",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/submissions/CIK0001633978.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "lite-sec-companyfacts",
+      "title": "LITE SEC companyfacts XBRL data",
+      "titleZh": "LITE SEC companyfacts XBRL 数据",
+      "titleEn": "LITE SEC companyfacts XBRL data",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001633978.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "lite-nasdaq-quote",
+      "title": "LITE Nasdaq quote page",
+      "titleZh": "LITE Nasdaq 行情页面",
+      "titleEn": "LITE Nasdaq quote page",
+      "publisher": "Nasdaq",
+      "url": "https://www.nasdaq.com/market-activity/stocks/lite",
+      "accessedAt": "2026-06-14",
+      "type": "exchange",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "nvidia-10k-2026",
+      "title": "NVIDIA FY2026 Form 10-K",
+      "titleZh": "NVIDIA 2026 财年 10-K 年报",
+      "titleEn": "NVIDIA FY2026 Form 10-K",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "nvidia-rtx-pro-systems-2025",
+      "title": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "titleZh": "NVIDIA RTX PRO Blackwell 服务器进入企业系统生态",
+      "titleEn": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "publisher": "NVIDIA Investor Relations",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-RTX-PRO-Servers-With-Blackwell-Coming-to-Worlds-Most-Popular-Enterprise-Systems/",
+      "accessedAt": "2026-06-14",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0001633978",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K",
+        "20-F",
+        "6-K"
+      ]
+    },
+    "newsFeeds": [
+      {
+        "url": "https://www.lumentum.com/",
+        "publisher": "Lumentum / Lumentum 光通信",
+        "sourceType": "company"
+      }
+    ]
+  },
+  "themeExposure": [
+    {
+      "theme": "AI 光通信",
+      "themeZh": "AI 光通信",
+      "themeEn": "AI optical communications",
+      "score": 3,
+      "role": "光通信与激光器件供应",
+      "roleZh": "光通信与激光器件供应",
+      "roleEn": "Optical communications and laser supply",
+      "rationale": "Lumentum 与云网络和高速光器件需求相关，但客户、速率转换和竞争路径仍需继续验证。",
+      "rationaleZh": "Lumentum 与云网络和高速光器件需求相关，但客户、速率转换和竞争路径仍需继续验证。",
+      "rationaleEn": "Lumentum is tied to cloud networking and high-speed optical-component demand, but customer exposure, speed transitions, and competition require further verification.",
+      "confidence": "medium"
+    }
+  ]
+}

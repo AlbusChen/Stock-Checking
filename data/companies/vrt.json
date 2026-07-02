@@ -1,0 +1,1051 @@
+{
+  "schemaVersion": 1,
+  "id": "vrt",
+  "ticker": "VRT",
+  "exchange": "NYSE",
+  "market": "US",
+  "name": "Vertiv / 维谛技术",
+  "legalName": "Vertiv Holdings Co",
+  "cik": "0001674101",
+  "currency": "USD",
+  "sector": "Data-center power and cooling / 数据中心电力与散热",
+  "industry": [
+    "Critical digital infrastructure",
+    "Power management",
+    "Thermal management",
+    "Liquid cooling",
+    "关键数字基础设施",
+    "电力管理",
+    "热管理",
+    "液冷"
+  ],
+  "homepage": "https://www.vertiv.com/",
+  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "summary": "Vertiv 提供数据中心电力、热管理、液冷和机柜基础设施，是 AI 机柜功率密度提升后的关键配套公司。 / Vertiv provides data-center power, thermal management, liquid cooling, and rack infrastructure, making it a key support company as AI rack power density rises.",
+  "summaryZh": "Vertiv 提供数据中心电力、热管理、液冷和机柜基础设施，是 AI 机柜功率密度提升后的关键配套公司。",
+  "summaryEn": "Vertiv provides data-center power, thermal management, liquid cooling, and rack infrastructure, making it a key support company as AI rack power density rises.",
+  "aliases": [
+    "VRT",
+    "Vertiv / 维谛技术",
+    "Vertiv Holdings Co",
+    "Vertiv Holdings Co"
+  ],
+  "labels": [
+    "数据中心",
+    "电力",
+    "散热",
+    "液冷",
+    "AI基础设施",
+    "AI基建扩展",
+    "英伟达相关",
+    "美股"
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "description": "公司向数据中心、通信网络和商业/工业客户提供关键电源、热管理、机柜、监控和服务。 / The company provides critical power, thermal management, racks, monitoring, and services to data centers, communication networks, and commercial/industrial customers.",
+    "descriptionZh": "公司向数据中心、通信网络和商业/工业客户提供关键电源、热管理、机柜、监控和服务。",
+    "descriptionEn": "The company provides critical power, thermal management, racks, monitoring, and services to data centers, communication networks, and commercial/industrial customers.",
+    "revenueModel": [
+      "关键电源 / critical power",
+      "热管理与液冷 / thermal management and liquid cooling",
+      "机柜与服务 / racks and services"
+    ],
+    "segments": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 10.23,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "vrt-sec-companyfacts"
+        ]
+      }
+    ],
+    "thesis": "AI 下一阶段不仅看 GPU，还要看电力、制冷和机柜交付；Vertiv 直接处在数据中心电力与散热扩容层。 / The next AI phase is not just GPUs; power, cooling, and rack delivery matter, and Vertiv sits directly in the data-center power and thermal expansion layer.",
+    "thesisZh": "AI 下一阶段不仅看 GPU，还要看电力、制冷和机柜交付；Vertiv 直接处在数据中心电力与散热扩容层。",
+    "thesisEn": "The next AI phase is not just GPUs; power, cooling, and rack delivery matter, and Vertiv sits directly in the data-center power and thermal expansion layer.",
+    "riskNotes": [
+      "数据中心建设节奏、客户资本开支和交付能力会影响订单兑现。 / Data-center construction timing, customer capex, and delivery capacity affect order conversion.",
+      "液冷路线、供应链成本和项目毛利率仍需跟踪。 / Liquid-cooling architecture, supply-chain costs, and project margins need monitoring."
+    ],
+    "failureConditions": [
+      {
+        "condition": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+        "conditionZh": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+        "conditionEn": "The thesis weakens if AI data-center power/cooling orders or backlog stop improving.",
+        "monitor": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+        "monitorZh": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+        "monitorEn": "Monitor orders, backlog, data-center customer disclosures, delivery lead times, and project margins.",
+        "sourceIds": [
+          "vrt-homepage",
+          "vrt-sec-submissions"
+        ]
+      },
+      {
+        "condition": "电力接入和电网项目审批慢于数据中心建设需求。",
+        "conditionZh": "电力接入和电网项目审批慢于数据中心建设需求。",
+        "conditionEn": "The thesis weakens if grid interconnection and power projects lag data-center buildout needs.",
+        "monitor": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+        "monitorZh": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+        "monitorEn": "Monitor utility capex, project approvals, transformer/distribution delivery, and customer construction starts.",
+        "sourceIds": [
+          "vrt-homepage",
+          "vrt-sec-submissions"
+        ]
+      }
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-14T12:00:00+08:00",
+    "thesis": "AI 下一阶段不仅看 GPU，还要看电力、制冷和机柜交付；Vertiv 直接处在数据中心电力与散热扩容层。 / The next AI phase is not just GPUs; power, cooling, and rack delivery matter, and Vertiv sits directly in the data-center power and thermal expansion layer.",
+    "thesisZh": "AI 下一阶段不仅看 GPU，还要看电力、制冷和机柜交付；Vertiv 直接处在数据中心电力与散热扩容层。",
+    "thesisEn": "The next AI phase is not just GPUs; power, cooling, and rack delivery matter, and Vertiv sits directly in the data-center power and thermal expansion layer.",
+    "scarceLayers": [
+      {
+        "name": "高功率机柜散热与液冷",
+        "nameZh": "高功率机柜散热与液冷",
+        "nameEn": "High-density rack cooling and liquid cooling",
+        "rank": 1,
+        "constraintType": "capacity",
+        "constraintTypeZh": "产能",
+        "constraintTypeEn": "Capacity",
+        "whyScarce": "AI 机柜功率密度提升后，液冷、热管理和机柜配套能力直接影响部署节奏。",
+        "whyScarceZh": "AI 机柜功率密度提升后，液冷、热管理和机柜配套能力直接影响部署节奏。",
+        "whyScarceEn": "As AI rack power density rises, liquid cooling, thermal management, and rack infrastructure directly affect deployment cadence.",
+        "relatedCompanies": [
+          "Vertiv / 维谛技术"
+        ],
+        "evidenceLevel": "medium",
+        "confidence": "medium",
+        "sourceIds": [
+          "vrt-homepage",
+          "vrt-sec-submissions"
+        ],
+        "failureConditions": [
+          {
+            "condition": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+            "conditionZh": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+            "conditionEn": "The thesis weakens if AI data-center power/cooling orders or backlog stop improving.",
+            "monitor": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+            "monitorZh": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+            "monitorEn": "Monitor orders, backlog, data-center customer disclosures, delivery lead times, and project margins.",
+            "sourceIds": [
+              "vrt-homepage",
+              "vrt-sec-submissions"
+            ]
+          },
+          {
+            "condition": "电力接入和电网项目审批慢于数据中心建设需求。",
+            "conditionZh": "电力接入和电网项目审批慢于数据中心建设需求。",
+            "conditionEn": "The thesis weakens if grid interconnection and power projects lag data-center buildout needs.",
+            "monitor": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+            "monitorZh": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+            "monitorEn": "Monitor utility capex, project approvals, transformer/distribution delivery, and customer construction starts.",
+            "sourceIds": [
+              "vrt-homepage",
+              "vrt-sec-submissions"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "数据中心电力与热管理交付",
+        "nameZh": "数据中心电力与热管理交付",
+        "nameEn": "Data-center power and thermal delivery",
+        "rank": 2,
+        "constraintType": "qualification",
+        "constraintTypeZh": "客户认证",
+        "constraintTypeEn": "Qualification",
+        "whyScarce": "客户认证、可靠性和项目交付经验会影响供应商能否进入大型 AI 数据中心。",
+        "whyScarceZh": "客户认证、可靠性和项目交付经验会影响供应商能否进入大型 AI 数据中心。",
+        "whyScarceEn": "Customer qualification, reliability, and project-delivery experience affect supplier access to large AI data centers.",
+        "relatedCompanies": [
+          "Vertiv / 维谛技术"
+        ],
+        "evidenceLevel": "medium",
+        "confidence": "medium",
+        "sourceIds": [
+          "vrt-homepage",
+          "vrt-sec-submissions"
+        ],
+        "failureConditions": [
+          {
+            "condition": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+            "conditionZh": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+            "conditionEn": "The thesis weakens if AI data-center power/cooling orders or backlog stop improving.",
+            "monitor": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+            "monitorZh": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+            "monitorEn": "Monitor orders, backlog, data-center customer disclosures, delivery lead times, and project margins.",
+            "sourceIds": [
+              "vrt-homepage",
+              "vrt-sec-submissions"
+            ]
+          },
+          {
+            "condition": "电力接入和电网项目审批慢于数据中心建设需求。",
+            "conditionZh": "电力接入和电网项目审批慢于数据中心建设需求。",
+            "conditionEn": "The thesis weakens if grid interconnection and power projects lag data-center buildout needs.",
+            "monitor": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+            "monitorZh": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+            "monitorEn": "Monitor utility capex, project approvals, transformer/distribution delivery, and customer construction starts.",
+            "sourceIds": [
+              "vrt-homepage",
+              "vrt-sec-submissions"
+            ]
+          }
+        ]
+      }
+    ],
+    "tiers": [
+      {
+        "level": 0,
+        "title": "Target company",
+        "titleZh": "目标公司",
+        "titleEn": "Target company",
+        "companies": [
+          "Vertiv / 维谛技术"
+        ],
+        "entities": [
+          {
+            "name": "Vertiv / 维谛技术",
+            "nameZh": "Vertiv / 维谛技术",
+            "nameEn": "Vertiv Holdings Co",
+            "relationship": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipZh": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipEn": "Target company; this page maps its NVIDIA-related supply-chain position.",
+            "productsServices": [
+              "关键电源 / critical power",
+              "热管理与液冷 / thermal management and liquid cooling",
+              "机柜与服务 / racks and services"
+            ],
+            "productsServicesZh": [
+              "关键电源 / critical power",
+              "热管理与液冷 / thermal management and liquid cooling",
+              "机柜与服务 / racks and services"
+            ],
+            "productsServicesEn": [
+              "关键电源 / critical power",
+              "热管理与液冷 / thermal management and liquid cooling",
+              "机柜与服务 / racks and services"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "VRT",
+              "exchange": "NYSE",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/vrt"
+            },
+            "confidence": "high",
+            "sourceIds": [
+              "vrt-homepage",
+              "vrt-nasdaq-quote"
+            ],
+            "companyUrl": "https://www.vertiv.com/",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "目标公司",
+              "labelZh": "目标公司",
+              "labelEn": "Target company",
+              "direction": "target",
+              "rationale": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleZh": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleEn": "The target company itself, used as the reference point for this supply-chain analysis.",
+              "confidence": "high"
+            }
+          }
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "铜、铝和电工钢",
+          "功率器件、开关和控制部件",
+          "冷却剂、压缩机和热交换部件"
+        ],
+        "materialsZh": [
+          "铜、铝和电工钢",
+          "功率器件、开关和控制部件",
+          "冷却剂、压缩机和热交换部件"
+        ],
+        "materialsEn": [
+          "Copper, aluminum, and electrical steel",
+          "Power devices, switchgear, and controls",
+          "Coolants, compressors, and heat-exchange components"
+        ],
+        "notes": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesZh": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesEn": "Target company itself; listed ticker and quote link reviewed.",
+        "confidence": "high",
+        "sourceIds": [
+          "vrt-homepage",
+          "vrt-nasdaq-quote"
+        ]
+      },
+      {
+        "level": 1,
+        "title": "Key upstream inputs",
+        "titleZh": "关键上游投入",
+        "titleEn": "Key upstream inputs",
+        "companies": [
+          "Data-center developers and hyperscalers / 数据中心开发商与云厂商",
+          "Electrical and thermal supply chain / 电力与热管理供应链"
+        ],
+        "entities": [
+          {
+            "name": "Data-center developers and hyperscalers / 数据中心开发商与云厂商",
+            "nameZh": "数据中心开发商与云厂商",
+            "nameEn": "Data-center developers and hyperscalers",
+            "relationship": "AI 数据中心扩张直接拉动供电、配电、施工、机柜和散热需求。",
+            "relationshipZh": "AI 数据中心扩张直接拉动供电、配电、施工、机柜和散热需求。",
+            "relationshipEn": "AI data-center expansion directly drives demand for power, distribution, construction, racks, and cooling.",
+            "productsServices": [
+              "数据中心项目",
+              "电力接入",
+              "机柜与散热"
+            ],
+            "productsServicesZh": [
+              "数据中心项目",
+              "电力接入",
+              "机柜与散热"
+            ],
+            "productsServicesEn": [
+              "data-center projects",
+              "power interconnection",
+              "racks and cooling"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "客户和项目需按公告/合同继续拆解。",
+              "noteZh": "客户和项目需按公告/合同继续拆解。",
+              "noteEn": "Customers and projects require further review through releases/contracts."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "vrt-homepage",
+              "nvidia-rtx-pro-systems-2025"
+            ],
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "direct-supplier",
+              "rationale": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleZh": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleEn": "NVIDIA platforms are a key input for this company's AI server or GPU-cloud capacity, so supply changes directly affect delivery.",
+              "confidence": "medium"
+            }
+          },
+          {
+            "name": "Electrical and thermal supply chain / 电力与热管理供应链",
+            "nameZh": "电力与热管理供应链",
+            "nameEn": "Electrical and thermal supply chain",
+            "relationship": "上游依赖铜、变压器、功率器件、冷却部件、压缩机和高可靠工程交付。",
+            "relationshipZh": "上游依赖铜、变压器、功率器件、冷却部件、压缩机和高可靠工程交付。",
+            "relationshipEn": "Upstream inputs include copper, transformers, power components, cooling parts, compressors, and high-reliability project delivery.",
+            "productsServices": [
+              "铜与电气部件",
+              "变压器与配电",
+              "冷却系统部件"
+            ],
+            "productsServicesZh": [
+              "铜与电气部件",
+              "变压器与配电",
+              "冷却系统部件"
+            ],
+            "productsServicesEn": [
+              "copper and electrical parts",
+              "transformers and distribution",
+              "cooling-system components"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "多为多层供应商，需逐项映射。",
+              "noteZh": "多为多层供应商，需逐项映射。",
+              "noteEn": "Often multi-tier suppliers requiring supplier-by-supplier mapping."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "vrt-homepage"
+            ],
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "direct-supplier",
+              "rationale": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleZh": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleEn": "NVIDIA platforms are a key input for this company's AI server or GPU-cloud capacity, so supply changes directly affect delivery.",
+              "confidence": "medium"
+            }
+          }
+        ],
+        "geography": [
+          "US",
+          "Europe",
+          "Asia"
+        ],
+        "materials": [
+          "铜、铝和电工钢",
+          "功率器件、开关和控制部件",
+          "冷却剂、压缩机和热交换部件"
+        ],
+        "materialsZh": [
+          "铜、铝和电工钢",
+          "功率器件、开关和控制部件",
+          "冷却剂、压缩机和热交换部件"
+        ],
+        "materialsEn": [
+          "Copper, aluminum, and electrical steel",
+          "Power devices, switchgear, and controls",
+          "Coolants, compressors, and heat-exchange components"
+        ],
+        "notes": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesZh": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesEn": "Lists the most important upstream inputs for NVIDIA-related business; exact purchase shares require further manual work.",
+        "confidence": "medium",
+        "sourceIds": [
+          "vrt-homepage",
+          "nvidia-10k-2026"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "铜、铝和电工钢",
+        "nameZh": "铜、铝和电工钢",
+        "nameEn": "Copper, aluminum, and electrical steel",
+        "usedIn": "用于配电设备、线缆、变压器、电机和机柜。",
+        "usedInZh": "用于配电设备、线缆、变压器、电机和机柜。",
+        "usedInEn": "Used in power distribution equipment, cables, transformers, motors, and enclosures.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "功率器件、开关和控制部件",
+        "nameZh": "功率器件、开关和控制部件",
+        "nameEn": "Power devices, switchgear, and controls",
+        "usedIn": "用于 UPS、配电、开关柜和数据中心电力可靠性系统。",
+        "usedInZh": "用于 UPS、配电、开关柜和数据中心电力可靠性系统。",
+        "usedInEn": "Used in UPS, distribution, switchgear, and data-center power reliability systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "冷却剂、压缩机和热交换部件",
+        "nameZh": "冷却剂、压缩机和热交换部件",
+        "nameEn": "Coolants, compressors, and heat-exchange components",
+        "usedIn": "用于风冷、液冷、冷冻水和热管理系统。",
+        "usedInZh": "用于风冷、液冷、冷冻水和热管理系统。",
+        "usedInEn": "Used in air cooling, liquid cooling, chilled water, and thermal-management systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      }
+    ],
+    "downstream": {
+      "updatedAt": "2026-06-14T12:00:00+08:00",
+      "thesis": "AI 下一阶段不仅看 GPU，还要看电力、制冷和机柜交付；Vertiv 直接处在数据中心电力与散热扩容层。 / The next AI phase is not just GPUs; power, cooling, and rack delivery matter, and Vertiv sits directly in the data-center power and thermal expansion layer.",
+      "thesisZh": "AI 下一阶段不仅看 GPU，还要看电力、制冷和机柜交付；Vertiv 直接处在数据中心电力与散热扩容层。",
+      "thesisEn": "The next AI phase is not just GPUs; power, cooling, and rack delivery matter, and Vertiv sits directly in the data-center power and thermal expansion layer.",
+      "tiers": [
+        {
+          "level": 1,
+          "title": "NVIDIA-related demand path",
+          "titleZh": "英伟达相关需求路径",
+          "titleEn": "NVIDIA-related demand path",
+          "entities": [
+            {
+              "name": "AI data centers and utilities / AI 数据中心与公用事业",
+              "nameZh": "AI 数据中心与公用事业",
+              "nameEn": "AI data centers and utilities",
+              "relationship": "需要电力接入、配电、散热、工程建设和可靠性服务，以支撑高功率密度 AI 机柜。",
+              "relationshipZh": "需要电力接入、配电、散热、工程建设和可靠性服务，以支撑高功率密度 AI 机柜。",
+              "relationshipEn": "Need power interconnection, distribution, cooling, construction, and reliability services to support high-density AI racks.",
+              "productsServices": [
+                "数据中心电力",
+                "配电与施工",
+                "散热与液冷"
+              ],
+              "productsServicesZh": [
+                "数据中心电力",
+                "配电与施工",
+                "散热与液冷"
+              ],
+              "productsServicesEn": [
+                "data-center power",
+                "distribution and construction",
+                "cooling and liquid cooling"
+              ],
+              "listing": {
+                "status": "unknown",
+                "note": "客户和项目需用合同、公告或财报电话会继续确认。",
+                "noteZh": "客户和项目需用合同、公告或财报电话会继续确认。",
+                "noteEn": "Customers and projects should be confirmed through contracts, releases, or earnings calls."
+              },
+              "confidence": "medium",
+              "sourceIds": [
+                "vrt-homepage",
+                "nvidia-rtx-pro-systems-2025"
+              ],
+              "customerRole": "AI 数据中心基础设施需求方",
+              "customerRoleZh": "AI 数据中心基础设施需求方",
+              "customerRoleEn": "AI data-center infrastructure demand source",
+              "relationshipStrength": {
+                "score": 3,
+                "label": "中相关",
+                "labelZh": "中相关",
+                "labelEn": "Moderate relevance",
+                "direction": "indirect-demand",
+                "rationale": "NVIDIA 需求通过晶圆厂、存储厂或封装投资间接传导，不等同于直接采购关系。",
+                "rationaleZh": "NVIDIA 需求通过晶圆厂、存储厂或封装投资间接传导，不等同于直接采购关系。",
+                "rationaleEn": "NVIDIA demand transmits indirectly through foundry, memory, or packaging investment and is not the same as a direct purchasing relationship.",
+                "confidence": "medium"
+              }
+            }
+          ],
+          "notes": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesZh": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesEn": "This layer explains how the target company functions as NVIDIA's upstream supplier, partner, customer, or indirect demand beneficiary.",
+          "confidence": "medium",
+          "sourceIds": [
+            "vrt-homepage",
+            "nvidia-10k-2026"
+          ]
+        }
+      ]
+    }
+  },
+  "financials": {
+    "latestPeriod": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "latestPeriodZh": "使用 SEC companyfacts 中的最新可核对候选；年度基准来自最近审计年报。",
+    "latestPeriodEn": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "highlights": [
+      {
+        "label": "Q1 FY2026 revenue",
+        "labelZh": "2026 财年第 1 财季 收入",
+        "labelEn": "Q1 FY2026 revenue",
+        "value": 2.65,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "vrt-sec-companyfacts"
+        ],
+        "change": "+30.1% vs prior comparable period",
+        "changeZh": "较上一可比期间 +30.1%",
+        "changeEn": "+30.1% vs prior comparable period"
+      },
+      {
+        "label": "Q1 FY2026 net income / loss",
+        "labelZh": "2026 财年第 1 财季 净利润 / 净亏损",
+        "labelEn": "Q1 FY2026 net income / loss",
+        "value": 0.39,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "vrt-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q1 FY2026 total assets",
+        "labelZh": "2026 财年第 1 财季 总资产",
+        "labelEn": "Q1 FY2026 total assets",
+        "value": 13.4,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "vrt-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q1 FY2026 operating cash flow",
+        "labelZh": "2026 财年第 1 财季 经营现金流",
+        "labelEn": "Q1 FY2026 operating cash flow",
+        "value": 0.767,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "vrt-sec-companyfacts"
+        ]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 10.23,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "vrt-sec-companyfacts"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "id": "annual-revenue",
+        "label": "Annual revenue",
+        "labelZh": "年度收入",
+        "labelEn": "Annual revenue",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "vrt-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 6.863,
+            "sourceIds": [
+              "vrt-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 8.012,
+            "sourceIds": [
+              "vrt-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 10.23,
+            "sourceIds": [
+              "vrt-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-net-income",
+        "label": "Annual net income / loss",
+        "labelZh": "年度净利润 / 净亏损",
+        "labelEn": "Annual net income / loss",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "vrt-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 0.46,
+            "sourceIds": [
+              "vrt-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 0.496,
+            "sourceIds": [
+              "vrt-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 1.333,
+            "sourceIds": [
+              "vrt-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-assets",
+        "label": "Annual total assets",
+        "labelZh": "年度总资产",
+        "labelEn": "Annual total assets",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "vrt-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 7.998,
+            "sourceIds": [
+              "vrt-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 9.133,
+            "sourceIds": [
+              "vrt-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 12.212,
+            "sourceIds": [
+              "vrt-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenueMixHistory": [
+      {
+        "period": "FY2023",
+        "periodZh": "2023 财年",
+        "periodEn": "FY2023",
+        "totalRevenue": 6.863,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "vrt-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 6.863,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "vrt-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2024",
+        "periodZh": "2024 财年",
+        "periodEn": "FY2024",
+        "totalRevenue": 8.012,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "vrt-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 8.012,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "vrt-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "totalRevenue": 10.23,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "vrt-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 10.23,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "vrt-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-06-18",
+      "title": "Recent SEC filing: 8-K",
+      "titleZh": "最新 SEC 文件：8-K",
+      "titleEn": "Recent SEC filing: 8-K",
+      "category": "SEC filing",
+      "categoryZh": "SEC 文件",
+      "categoryEn": "SEC filing",
+      "summary": "SEC submissions show a 8-K filed on 2026-06-18; report date 2026-06-17.",
+      "summaryZh": "SEC submissions 显示公司于 2026-06-18 提交 8-K；报告期为 2026-06-17。",
+      "summaryEn": "SEC submissions show a 8-K filed on 2026-06-18; report date 2026-06-17.",
+      "impact": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "impactZh": "作为本批次最新公开文件检查点；每日定时刷新仍未启用。",
+      "impactEn": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "sourceIds": [
+        "vrt-sec-submissions"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "8-K",
+      "filedAt": "2026-06-18",
+      "reportDate": "2026-06-17",
+      "title": "8-K filed 2026-06-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026044317/vrt-20260617.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-06-12",
+      "reportDate": "2026-06-12",
+      "title": "8-K filed 2026-06-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026042641/vrt-20260612.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-06-03",
+      "reportDate": "2026-06-03",
+      "title": "8-K filed 2026-06-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026040031/vrt-20260603.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-27",
+      "reportDate": "2026-04-27",
+      "title": "8-K filed 2026-04-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026027297/vrt-20260427.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-04-22",
+      "reportDate": "2026-03-31",
+      "title": "10-Q filed 2026-04-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026026556/vrt-20260331.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-22",
+      "reportDate": "2026-04-22",
+      "title": "8-K filed 2026-04-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026026379/vrt-20260422.htm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "vrt-homepage",
+      "title": "Vertiv / 维谛技术 company website",
+      "titleZh": "Vertiv / 维谛技术 公司官网",
+      "titleEn": "Vertiv / 维谛技术 company website",
+      "publisher": "Vertiv / 维谛技术",
+      "url": "https://www.vertiv.com/",
+      "accessedAt": "2026-06-14",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "vrt-sec-submissions",
+      "title": "VRT SEC submissions",
+      "titleZh": "VRT SEC submissions 数据",
+      "titleEn": "VRT SEC submissions",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/submissions/CIK0001674101.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "vrt-sec-companyfacts",
+      "title": "VRT SEC companyfacts XBRL data",
+      "titleZh": "VRT SEC companyfacts XBRL 数据",
+      "titleEn": "VRT SEC companyfacts XBRL data",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001674101.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "vrt-nasdaq-quote",
+      "title": "VRT Nasdaq quote page",
+      "titleZh": "VRT Nasdaq 行情页面",
+      "titleEn": "VRT Nasdaq quote page",
+      "publisher": "Nasdaq",
+      "url": "https://www.nasdaq.com/market-activity/stocks/vrt",
+      "accessedAt": "2026-06-14",
+      "type": "exchange",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "nvidia-10k-2026",
+      "title": "NVIDIA FY2026 Form 10-K",
+      "titleZh": "NVIDIA 2026 财年 10-K 年报",
+      "titleEn": "NVIDIA FY2026 Form 10-K",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "nvidia-rtx-pro-systems-2025",
+      "title": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "titleZh": "NVIDIA RTX PRO Blackwell 服务器进入企业系统生态",
+      "titleEn": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "publisher": "NVIDIA Investor Relations",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-RTX-PRO-Servers-With-Blackwell-Coming-to-Worlds-Most-Popular-Enterprise-Systems/",
+      "accessedAt": "2026-06-14",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0001674101",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K",
+        "20-F",
+        "6-K"
+      ]
+    },
+    "newsFeeds": [
+      {
+        "url": "https://www.vertiv.com/",
+        "publisher": "Vertiv / 维谛技术",
+        "sourceType": "company"
+      }
+    ]
+  },
+  "themeExposure": [
+    {
+      "theme": "AI 数据中心电力与散热",
+      "themeZh": "AI 数据中心电力与散热",
+      "themeEn": "AI data-center power and cooling",
+      "score": 5,
+      "role": "高功率机柜电力与散热核心配套",
+      "roleZh": "高功率机柜电力与散热核心配套",
+      "roleEn": "Core high-density rack power and cooling support",
+      "rationale": "AI 机柜功率密度提升后，供电、配电、热管理和液冷会直接影响数据中心交付节奏。",
+      "rationaleZh": "AI 机柜功率密度提升后，供电、配电、热管理和液冷会直接影响数据中心交付节奏。",
+      "rationaleEn": "As AI rack power density rises, power, distribution, thermal management, and liquid cooling directly affect data-center delivery cadence.",
+      "confidence": "high"
+    }
+  ]
+}

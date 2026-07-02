@@ -3,7 +3,10 @@
 
 from __future__ import annotations
 
+import argparse
 import json
+import re
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -326,6 +329,237 @@ COMPANY_META: dict[str, dict[str, Any]] = {
         ],
         "kind": "cloud",
     },
+    "ANET": {
+        "id": "anet",
+        "exchange": "NYSE",
+        "name": "Arista Networks / Arista 网络",
+        "homepage": "https://www.arista.com/",
+        "sector": "Cloud networking / 云与数据中心网络",
+        "industry": ["Cloud networking", "Ethernet switching", "AI data-center networking", "云网络", "以太网交换", "AI 数据中心网络"],
+        "labels": ["科技", "网络设备", "数据中心网络", "算力网络", "AI基础设施", "AI基建扩展", "英伟达相关", "美股"],
+        "summaryZh": "Arista Networks 提供云和 AI 数据中心以太网交换平台，处于 GPU 集群从单机算力走向大规模网络互连的关键环节。",
+        "summaryEn": "Arista Networks provides cloud and AI data-center Ethernet switching platforms, sitting in the key interconnect layer as GPU clusters scale from single-node compute to large fabrics.",
+        "descriptionZh": "公司设计、销售和支持数据中心、云、AI、园区和路由网络的高速交换、路由、软件和自动化平台。",
+        "descriptionEn": "The company designs, sells, and supports high-speed switching, routing, software, and automation platforms for data-center, cloud, AI, campus, and routing networks.",
+        "thesisZh": "AI 集群扩张会把瓶颈从单颗 GPU 延伸到东西向流量、以太网交换、延迟和网络可靠性，Arista 是这一层的代表性美股公司。",
+        "thesisEn": "AI cluster expansion extends bottlenecks from individual GPUs to east-west traffic, Ethernet switching, latency, and network reliability, making Arista a representative US-listed company in this layer.",
+        "revenueModel": ["云网络交换平台 / cloud switching platforms", "路由与软件 / routing and software", "服务与支持 / service and support"],
+        "risks": [
+            "云大客户资本开支、以太网与专用互连路线竞争会影响订单节奏。 / Hyperscaler capex and competition between Ethernet and proprietary fabrics can affect order timing.",
+            "客户集中和 AI 网络产品迭代可能放大收入波动。 / Customer concentration and AI networking product transitions can amplify revenue volatility.",
+        ],
+        "kind": "networking",
+    },
+    "VRT": {
+        "id": "vrt",
+        "exchange": "NYSE",
+        "name": "Vertiv / 维谛技术",
+        "homepage": "https://www.vertiv.com/",
+        "sector": "Data-center power and cooling / 数据中心电力与散热",
+        "industry": ["Critical digital infrastructure", "Power management", "Thermal management", "Liquid cooling", "关键数字基础设施", "电力管理", "热管理", "液冷"],
+        "labels": ["数据中心", "电力", "散热", "液冷", "AI基础设施", "AI基建扩展", "英伟达相关", "美股"],
+        "summaryZh": "Vertiv 提供数据中心电力、热管理、液冷和机柜基础设施，是 AI 机柜功率密度提升后的关键配套公司。",
+        "summaryEn": "Vertiv provides data-center power, thermal management, liquid cooling, and rack infrastructure, making it a key support company as AI rack power density rises.",
+        "descriptionZh": "公司向数据中心、通信网络和商业/工业客户提供关键电源、热管理、机柜、监控和服务。",
+        "descriptionEn": "The company provides critical power, thermal management, racks, monitoring, and services to data centers, communication networks, and commercial/industrial customers.",
+        "thesisZh": "AI 下一阶段不仅看 GPU，还要看电力、制冷和机柜交付；Vertiv 直接处在数据中心电力与散热扩容层。",
+        "thesisEn": "The next AI phase is not just GPUs; power, cooling, and rack delivery matter, and Vertiv sits directly in the data-center power and thermal expansion layer.",
+        "revenueModel": ["关键电源 / critical power", "热管理与液冷 / thermal management and liquid cooling", "机柜与服务 / racks and services"],
+        "risks": [
+            "数据中心建设节奏、客户资本开支和交付能力会影响订单兑现。 / Data-center construction timing, customer capex, and delivery capacity affect order conversion.",
+            "液冷路线、供应链成本和项目毛利率仍需跟踪。 / Liquid-cooling architecture, supply-chain costs, and project margins need monitoring.",
+        ],
+        "kind": "power-cooling",
+    },
+    "PLTR": {
+        "id": "pltr",
+        "exchange": "NASDAQ",
+        "name": "Palantir / 帕兰蒂尔",
+        "homepage": "https://www.palantir.com/",
+        "sector": "AI software and data platforms / AI 软件与数据平台",
+        "industry": ["AI software", "Data analytics", "Government software", "Enterprise AI", "AI 软件", "数据分析", "政府软件", "企业 AI"],
+        "labels": ["科技", "AI", "AI应用", "软件服务", "国防", "AI基建扩展", "美股"],
+        "summaryZh": "Palantir 是 AI 应用和数据平台公司，代表算力、数据和模型落到政府与企业工作流后的应用层。",
+        "summaryEn": "Palantir is an AI application and data-platform company, representing the application layer where compute, data, and models enter government and enterprise workflows.",
+        "descriptionZh": "公司提供 Gotham、Foundry、Apollo 和 AIP 等软件平台，服务政府、国防、情报、商业和工业客户。",
+        "descriptionEn": "The company provides software platforms such as Gotham, Foundry, Apollo, and AIP for government, defense, intelligence, commercial, and industrial customers.",
+        "thesisZh": "如果 AI 基建投资进入应用兑现阶段，Palantir 的关键变量是 AIP 落地、政府/商业客户扩张和软件利润率，而不是上游硬件瓶颈。",
+        "thesisEn": "If AI infrastructure spending moves into application monetization, Palantir's key variables are AIP adoption, government/commercial customer expansion, and software margins rather than upstream hardware bottlenecks.",
+        "revenueModel": ["政府软件 / government software", "商业软件 / commercial software", "AI 平台订阅与服务 / AI platform subscriptions and services"],
+        "risks": [
+            "估值对增长和利润率预期敏感，客户扩张若放慢会压缩弹性。 / Valuation is sensitive to growth and margin expectations; slower customer expansion would compress upside.",
+            "政府合同、隐私/监管和企业 AI 预算周期会影响需求。 / Government contracts, privacy/regulation, and enterprise AI budget cycles affect demand.",
+        ],
+        "kind": "application",
+    },
+    "ETN": {
+        "id": "etn",
+        "exchange": "NYSE",
+        "name": "Eaton / 伊顿",
+        "homepage": "https://www.eaton.com/",
+        "sector": "Electrical equipment and power management / 电气设备与电力管理",
+        "industry": ["Electrical equipment", "Power distribution", "Data-center power", "电气设备", "配电", "数据中心电力"],
+        "labels": ["电力", "电力设备", "数据中心电力", "AI基础设施", "AI基建扩展", "美股"],
+        "summaryZh": "Eaton 提供电气设备、配电和电力管理方案，是 AI 数据中心电力接入和配电扩容的重要上游。",
+        "summaryEn": "Eaton provides electrical equipment, power distribution, and power-management solutions, making it an important upstream layer for AI data-center power access and distribution expansion.",
+        "descriptionZh": "公司业务覆盖电气、美洲/全球电气、航空航天、车辆和 eMobility 等，数据中心电力需求是增量变量之一。",
+        "descriptionEn": "The company spans electrical Americas/global, aerospace, vehicle, and eMobility businesses, with data-center power demand as one incremental variable.",
+        "thesisZh": "AI 数据中心受电力接入、配电和可靠性约束时，Eaton 这类电力设备公司比下游应用更接近物理瓶颈。",
+        "thesisEn": "When AI data centers are constrained by power access, distribution, and reliability, power-equipment companies like Eaton sit closer to the physical bottleneck than downstream applications.",
+        "revenueModel": ["电气设备 / electrical equipment", "配电与电力管理 / distribution and power management", "工业与航空航天 / industrial and aerospace"],
+        "risks": [
+            "数据中心订单占比和交付周期需持续核实。 / Data-center order exposure and delivery timing need ongoing verification.",
+            "工业周期、供应链成本和利率会影响利润率。 / Industrial cycles, supply-chain costs, and rates affect margins.",
+        ],
+        "kind": "power",
+    },
+    "GEV": {
+        "id": "gev",
+        "exchange": "NYSE",
+        "name": "GE Vernova / GE Vernova",
+        "homepage": "https://www.gevernova.com/",
+        "sector": "Power generation and grid equipment / 发电与电网设备",
+        "industry": ["Gas power", "Grid equipment", "Electrification", "Renewables", "燃气发电", "电网设备", "电气化", "可再生能源"],
+        "labels": ["电力", "电网", "发电设备", "AI基础设施", "AI基建扩展", "美股"],
+        "summaryZh": "GE Vernova 覆盖发电、电网和电气化设备，代表 AI 数据中心用电增长背后的发电与电网扩容层。",
+        "summaryEn": "GE Vernova spans power generation, grid, and electrification equipment, representing the generation and grid-expansion layer behind AI data-center electricity growth.",
+        "descriptionZh": "公司提供燃气发电、风电、电网、电气化和相关服务，处于电力系统扩容与可靠性建设环节。",
+        "descriptionEn": "The company provides gas power, wind, grid, electrification, and related services, sitting in power-system expansion and reliability buildout.",
+        "thesisZh": "AI 负荷增长会提高电网接入、发电容量和电气设备需求，GE Vernova 适合作为电力基础设施层观察对象。",
+        "thesisEn": "AI load growth increases demand for grid connection, generation capacity, and electrification equipment, making GE Vernova a power-infrastructure layer to watch.",
+        "revenueModel": ["发电设备与服务 / power equipment and services", "电网设备 / grid equipment", "风电与电气化 / wind and electrification"],
+        "risks": [
+            "项目交付、燃机周期和电网投资审批会影响收入节奏。 / Project delivery, gas-turbine cycles, and grid-investment approvals affect revenue timing.",
+            "可再生能源业务盈利能力和大项目风险仍需跟踪。 / Renewables profitability and large-project risk need monitoring.",
+        ],
+        "kind": "power",
+    },
+    "PWR": {
+        "id": "pwr",
+        "exchange": "NYSE",
+        "name": "Quanta Services / Quanta Services",
+        "homepage": "https://www.quantaservices.com/",
+        "sector": "Utility and grid infrastructure services / 公用事业与电网工程服务",
+        "industry": ["Electric grid services", "Utility infrastructure", "Energy transition", "电网工程", "公用事业基础设施", "能源转型"],
+        "labels": ["电力", "电网建设", "工程服务", "AI基础设施", "AI基建扩展", "美股"],
+        "summaryZh": "Quanta Services 提供电网、公用事业和能源基础设施工程服务，是 AI 数据中心电力接入和电网升级的施工服务层。",
+        "summaryEn": "Quanta Services provides electric-grid, utility, and energy-infrastructure services, sitting in the construction-services layer for AI data-center power access and grid upgrades.",
+        "descriptionZh": "公司为电力、公用事业、通信、管道和可再生能源客户提供设计、安装、维护和项目管理服务。",
+        "descriptionEn": "The company provides design, installation, maintenance, and project-management services for electric power, utilities, communications, pipelines, and renewable-energy customers.",
+        "thesisZh": "如果 AI 数据中心扩张卡在电网接入和输配电建设，Quanta 的价值在于工程交付能力，而非设备或芯片。",
+        "thesisEn": "If AI data-center expansion is constrained by grid interconnection and transmission/distribution buildout, Quanta's value lies in engineering delivery rather than equipment or chips.",
+        "revenueModel": ["电力基础设施服务 / electric infrastructure services", "地下与基础设施服务 / underground and infrastructure services", "可再生能源工程 / renewable-energy services"],
+        "risks": [
+            "项目延迟、劳动力成本和公用事业资本开支周期会影响业绩。 / Project delays, labor costs, and utility capex cycles affect results.",
+            "AI 数据中心相关订单需与传统电网需求区分。 / AI data-center related orders need to be separated from traditional grid demand.",
+        ],
+        "kind": "power-service",
+    },
+    "MOD": {
+        "id": "mod",
+        "exchange": "NYSE",
+        "name": "Modine / 摩丁制造",
+        "homepage": "https://www.modine.com/",
+        "sector": "Thermal management / 热管理",
+        "industry": ["Thermal management", "Data-center cooling", "HVAC", "热管理", "数据中心散热", "暖通空调"],
+        "labels": ["散热", "液冷", "热管理", "数据中心", "AI基础设施", "AI基建扩展", "美股"],
+        "summaryZh": "Modine 是热管理和数据中心散热相关公司，AI 机柜功率密度上升使冷却能力成为关键配套。",
+        "summaryEn": "Modine is a thermal-management and data-center cooling company, and rising AI rack power density makes cooling capacity a key support layer.",
+        "descriptionZh": "公司提供热管理、暖通空调、冷却系统和相关服务，覆盖数据中心、工业、商用和交通领域。",
+        "descriptionEn": "The company provides thermal management, HVAC, cooling systems, and related services across data centers, industrial, commercial, and transportation markets.",
+        "thesisZh": "AI 数据中心扩张推动更高功率密度和冷却需求，Modine 代表散热/热管理侧的美股弹性。",
+        "thesisEn": "AI data-center expansion drives higher power density and cooling demand, making Modine a US-listed thermal-management exposure.",
+        "revenueModel": ["数据中心冷却 / data-center cooling", "热管理系统 / thermal-management systems", "暖通与服务 / HVAC and services"],
+        "risks": [
+            "数据中心业务占比、订单可见度和毛利率需继续拆分。 / Data-center exposure, order visibility, and margins need further segmentation.",
+            "项目型收入、原材料成本和产能爬坡会影响波动。 / Project revenue, material costs, and capacity ramp can affect volatility.",
+        ],
+        "kind": "cooling",
+    },
+    "NVT": {
+        "id": "nvt",
+        "exchange": "NYSE",
+        "name": "nVent Electric / nVent Electric",
+        "homepage": "https://www.nvent.com/",
+        "sector": "Electrical connection and enclosures / 电气连接与机柜",
+        "industry": ["Electrical connection", "Enclosures", "Thermal management", "电气连接", "机柜", "热管理"],
+        "labels": ["电力", "散热", "机柜", "电气连接", "AI基础设施", "AI基建扩展", "美股"],
+        "summaryZh": "nVent 提供电气连接、机柜和热管理产品，是数据中心配电、保护和热管理系统的配套层。",
+        "summaryEn": "nVent provides electrical connection, enclosures, and thermal-management products, supporting data-center power distribution, protection, and thermal systems.",
+        "descriptionZh": "公司提供电气连接与保护、机柜、热管理和电气解决方案，服务数据中心、工业和商业基础设施。",
+        "descriptionEn": "The company provides electrical connection and protection, enclosures, thermal management, and electrical solutions for data centers, industrial, and commercial infrastructure.",
+        "thesisZh": "AI 数据中心建设需要更高密度的机柜、连接、保护和热管理，nVent 处于电力与散热的配套设备层。",
+        "thesisEn": "AI data-center buildout needs denser enclosures, connection, protection, and thermal management, placing nVent in the support-equipment layer for power and cooling.",
+        "revenueModel": ["机柜与连接 / enclosures and connection", "热管理 / thermal management", "电气保护 / electrical protection"],
+        "risks": [
+            "数据中心相关产品占比和项目周期需继续核实。 / Data-center product exposure and project cycles require further verification.",
+            "工业需求和原材料成本会影响毛利。 / Industrial demand and raw-material costs affect margins.",
+        ],
+        "kind": "power-cooling",
+    },
+    "MRVL": {
+        "id": "mrvl",
+        "exchange": "NASDAQ",
+        "name": "Marvell Technology / 美满电子",
+        "homepage": "https://www.marvell.com/",
+        "sector": "Semiconductors and data infrastructure / 半导体与数据基础设施",
+        "industry": ["Data-center silicon", "Networking", "Custom silicon", "Optical DSP", "数据中心芯片", "网络芯片", "定制芯片", "光互连 DSP"],
+        "labels": ["半导体", "网络芯片", "光互连", "数据中心网络", "AI基础设施", "AI基建扩展", "英伟达相关", "美股"],
+        "summaryZh": "Marvell 提供数据中心网络、定制芯片和光互连相关半导体，是 AI 集群网络和定制加速器链条的重要公司。",
+        "summaryEn": "Marvell provides data-center networking, custom silicon, and optical-interconnect semiconductors, making it important in AI cluster networking and custom-accelerator chains.",
+        "descriptionZh": "公司提供数据基础设施半导体，覆盖数据中心、运营商、企业网络、汽车和存储市场。",
+        "descriptionEn": "The company provides data-infrastructure semiconductors across data center, carrier, enterprise networking, automotive, and storage markets.",
+        "thesisZh": "AI 集群扩张推动高速网络、光互连和定制芯片需求，Marvell 与 NVIDIA 生态更多是并行受益和部分互补。",
+        "thesisEn": "AI cluster expansion drives high-speed networking, optical interconnect, and custom silicon demand; Marvell benefits alongside and partly complements the NVIDIA ecosystem.",
+        "revenueModel": ["数据中心芯片 / data-center silicon", "网络与存储芯片 / networking and storage chips", "定制芯片 / custom silicon"],
+        "risks": [
+            "定制芯片客户项目节奏和库存周期会影响收入。 / Custom-silicon customer project timing and inventory cycles affect revenue.",
+            "高速光互连路线和竞争格局需持续跟踪。 / High-speed optical-interconnect architectures and competition need monitoring.",
+        ],
+        "kind": "semiconductor-networking",
+    },
+    "COHR": {
+        "id": "cohr",
+        "exchange": "NYSE",
+        "name": "Coherent / Coherent 光电",
+        "homepage": "https://www.coherent.com/",
+        "sector": "Optical components and lasers / 光通信与激光器件",
+        "industry": ["Optical transceivers", "Lasers", "Photonics", "Data-center optics", "光模块", "激光器", "光子器件", "数据中心光通信"],
+        "labels": ["光模块", "光通信", "数据中心网络", "光互连", "AI基础设施", "AI基建扩展", "美股"],
+        "summaryZh": "Coherent 提供光模块、激光器和光子器件，是 AI 数据中心高速互连和光通信链条的重要公司。",
+        "summaryEn": "Coherent provides optical transceivers, lasers, and photonics components, making it an important company in AI data-center high-speed interconnect and optical communications.",
+        "descriptionZh": "公司提供材料、网络、激光、光通信和工业/电子器件，数据中心光模块需求是 AI 相关重点。",
+        "descriptionEn": "The company provides materials, networking, lasers, optical communications, and industrial/electronics components, with data-center optics as the AI-related focus.",
+        "thesisZh": "AI 集群规模扩大提升光模块和高速互连需求，Coherent 位于数据中心网络的光器件供给层。",
+        "thesisEn": "AI cluster scale raises demand for optical modules and high-speed interconnects, placing Coherent in the optical-component supply layer of data-center networks.",
+        "revenueModel": ["光通信 / optical communications", "激光器 / lasers", "材料与工业器件 / materials and industrial components"],
+        "risks": [
+            "光模块价格、客户认证和产能利用率会影响利润率。 / Optical-module pricing, customer qualification, and utilization affect margins.",
+            "电互连、CPO 和不同速率路线竞争会改变需求结构。 / Electrical interconnect, CPO, and speed transitions can change demand mix.",
+        ],
+        "kind": "optical",
+    },
+    "LITE": {
+        "id": "lite",
+        "exchange": "NASDAQ",
+        "name": "Lumentum / Lumentum 光通信",
+        "homepage": "https://www.lumentum.com/",
+        "sector": "Optical and photonic products / 光通信与光子产品",
+        "industry": ["Optical components", "Cloud networking", "Lasers", "光器件", "云网络", "激光器"],
+        "labels": ["光模块", "光通信", "激光器", "数据中心网络", "AI基础设施", "AI基建扩展", "美股"],
+        "summaryZh": "Lumentum 提供光通信和激光器件，受 AI 数据中心光互连、云网络升级和高速光器件需求影响。",
+        "summaryEn": "Lumentum provides optical communications and laser products, exposed to AI data-center optical interconnect, cloud networking upgrades, and high-speed optical-component demand.",
+        "descriptionZh": "公司提供云、通信、工业和消费市场的光通信产品、激光器和光子解决方案。",
+        "descriptionEn": "The company provides optical communications products, lasers, and photonics solutions for cloud, communications, industrial, and consumer markets.",
+        "thesisZh": "AI 网络升级会拉动高速光器件需求，Lumentum 是光通信链条中的美股观察对象。",
+        "thesisEn": "AI networking upgrades can drive high-speed optical-component demand, making Lumentum a US-listed watch item in the optical communications chain.",
+        "revenueModel": ["光通信产品 / optical communications products", "商用激光器 / commercial lasers", "云与通信客户 / cloud and telecom customers"],
+        "risks": [
+            "客户需求、库存周期和产品转换会带来波动。 / Customer demand, inventory cycles, and product transitions can create volatility.",
+            "高速光模块竞争和定价压力需持续观察。 / Competition and pricing pressure in high-speed optics need monitoring.",
+        ],
+        "kind": "optical",
+    },
 }
 
 
@@ -363,7 +597,7 @@ def source_ids(meta: dict[str, Any]) -> dict[str, str]:
 
 def sources_for(meta: dict[str, Any], draft: dict[str, Any], ids: dict[str, str]) -> list[dict[str, Any]]:
     cik = draft["identity"]["cik"]
-    return [
+    sources = [
         {
             "id": ids["homepage"],
             "title": f"{meta['name']} company website",
@@ -425,6 +659,16 @@ def sources_for(meta: dict[str, Any], draft: dict[str, Any], ids: dict[str, str]
             "type": "company",
         },
     ]
+    for source in sources:
+        if source["type"] in {"company", "sec", "exchange"}:
+            source["evidenceLevel"] = "strong"
+            source["evidenceLevelZh"] = "强证据"
+            source["evidenceLevelEn"] = "Strong"
+        else:
+            source["evidenceLevel"] = "medium"
+            source["evidenceLevelZh"] = "中等证据"
+            source["evidenceLevelEn"] = "Medium"
+    return sources
 
 
 def fact_period(fact: dict[str, Any], cadence: str) -> tuple[str, str, str]:
@@ -509,6 +753,17 @@ def make_highlight(draft: dict[str, Any], metric: str, source_id: str) -> dict[s
         if change:
             highlight["change"], highlight["changeZh"], highlight["changeEn"] = change
     return highlight
+
+
+def highlight_is_fresh(highlight: dict[str, Any], *, max_age_days: int = 365) -> bool:
+    match = re.search(r"\d{4}-\d{2}-\d{2}", str(highlight.get("period", "")))
+    if not match:
+        return True
+    try:
+        end_date = date.fromisoformat(match.group(0))
+    except ValueError:
+        return True
+    return (date.today() - end_date).days <= max_age_days
 
 
 def make_trend(draft: dict[str, Any], metric: str, source_id: str) -> dict[str, Any] | None:
@@ -714,6 +969,76 @@ def generic_input_entities(meta: dict[str, Any], ids: dict[str, str]) -> list[di
                 confidence="medium",
             ),
         ]
+    if kind in {"networking", "semiconductor-networking", "optical"}:
+        return [
+            entity(
+                "NVIDIA and accelerator platforms / NVIDIA 与加速计算平台",
+                "NVIDIA 与加速计算平台",
+                "NVIDIA and accelerator platforms",
+                "GPU 集群扩张带来高速网络、光互连、交换芯片和云网络需求。",
+                "GPU cluster expansion drives demand for high-speed networking, optical interconnects, switching silicon, and cloud networking.",
+                ["GPU 集群互连", "以太网交换", "光互连"],
+                ["GPU cluster interconnect", "Ethernet switching", "optical interconnect"],
+                listed("NVDA", "NASDAQ"),
+                [ids["nvidia10k"], ids["nvidiaSystems"]],
+                confidence="medium",
+                company_url="https://www.nvidia.com/",
+            ),
+            entity(
+                "Cloud and data-center customers / 云与数据中心客户",
+                "云与数据中心客户",
+                "Cloud and data-center customers",
+                "大规模训练和推理集群需要高速网络、光模块和数据中心互连。",
+                "Large training and inference clusters require high-speed networking, optical modules, and data-center interconnects.",
+                ["云网络", "数据中心互连", "AI 集群网络"],
+                ["cloud networking", "data-center interconnect", "AI cluster networking"],
+                unknown_listing("客户群体分散，需继续拆解具体客户。", "Customer base is broad and requires further customer-level review."),
+                [ids["homepage"]],
+                confidence="medium",
+            ),
+        ]
+    if kind in {"power", "power-service", "power-cooling", "cooling"}:
+        return [
+            entity(
+                "Data-center developers and hyperscalers / 数据中心开发商与云厂商",
+                "数据中心开发商与云厂商",
+                "Data-center developers and hyperscalers",
+                "AI 数据中心扩张直接拉动供电、配电、施工、机柜和散热需求。",
+                "AI data-center expansion directly drives demand for power, distribution, construction, racks, and cooling.",
+                ["数据中心项目", "电力接入", "机柜与散热"],
+                ["data-center projects", "power interconnection", "racks and cooling"],
+                unknown_listing("客户和项目需按公告/合同继续拆解。", "Customers and projects require further review through releases/contracts."),
+                [ids["homepage"], ids["nvidiaSystems"]],
+                confidence="medium",
+            ),
+            entity(
+                "Electrical and thermal supply chain / 电力与热管理供应链",
+                "电力与热管理供应链",
+                "Electrical and thermal supply chain",
+                "上游依赖铜、变压器、功率器件、冷却部件、压缩机和高可靠工程交付。",
+                "Upstream inputs include copper, transformers, power components, cooling parts, compressors, and high-reliability project delivery.",
+                ["铜与电气部件", "变压器与配电", "冷却系统部件"],
+                ["copper and electrical parts", "transformers and distribution", "cooling-system components"],
+                unknown_listing("多为多层供应商，需逐项映射。", "Often multi-tier suppliers requiring supplier-by-supplier mapping."),
+                [ids["homepage"]],
+                confidence="medium",
+            ),
+        ]
+    if kind == "application":
+        return [
+            entity(
+                "Cloud and compute infrastructure / 云与算力基础设施",
+                "云与算力基础设施",
+                "Cloud and compute infrastructure",
+                "AI 应用落地依赖底层云、模型、GPU/加速器和数据平台。",
+                "AI application deployment depends on cloud, models, GPUs/accelerators, and data platforms.",
+                ["云算力", "模型与数据平台", "企业工作流集成"],
+                ["cloud compute", "model and data platforms", "enterprise workflow integration"],
+                unknown_listing("底层供应商会随客户架构变化。", "Underlying suppliers vary with customer architecture."),
+                [ids["homepage"], ids["nvidia10k"]],
+                confidence="medium",
+            )
+        ]
     if kind == "osat":
         return [
             entity(
@@ -821,6 +1146,63 @@ def downstream_entities(meta: dict[str, Any], ids: dict[str, str]) -> list[dict[
                 "AI packaging and test demand source",
             )
         ]
+    if kind in {"networking", "semiconductor-networking", "optical"}:
+        return [
+            downstream_entity(
+                entity(
+                    "Hyperscale AI data centers / 超大规模 AI 数据中心",
+                    "超大规模 AI 数据中心",
+                    "Hyperscale AI data centers",
+                    "购买高速网络、交换、光互连或相关芯片，把 GPU 集群连接成可训练和可推理的系统。",
+                    "Buy high-speed networking, switching, optical interconnects, or related silicon to connect GPU clusters into trainable and inferable systems.",
+                    ["AI 集群网络", "数据中心互连", "高速光通信"],
+                    ["AI cluster networking", "data-center interconnect", "high-speed optical communications"],
+                    unknown_listing("具体客户需从公司披露和客户资本开支继续核实。", "Specific customers require verification through company disclosures and customer capex."),
+                    [ids["homepage"], ids["nvidiaSystems"]],
+                    confidence="medium",
+                ),
+                "AI 网络客户 / 算力互连需求方",
+                "AI networking customer / compute-interconnect demand source",
+            )
+        ]
+    if kind in {"power", "power-service", "power-cooling", "cooling"}:
+        return [
+            downstream_entity(
+                entity(
+                    "AI data centers and utilities / AI 数据中心与公用事业",
+                    "AI 数据中心与公用事业",
+                    "AI data centers and utilities",
+                    "需要电力接入、配电、散热、工程建设和可靠性服务，以支撑高功率密度 AI 机柜。",
+                    "Need power interconnection, distribution, cooling, construction, and reliability services to support high-density AI racks.",
+                    ["数据中心电力", "配电与施工", "散热与液冷"],
+                    ["data-center power", "distribution and construction", "cooling and liquid cooling"],
+                    unknown_listing("客户和项目需用合同、公告或财报电话会继续确认。", "Customers and projects should be confirmed through contracts, releases, or earnings calls."),
+                    [ids["homepage"], ids["nvidiaSystems"]],
+                    confidence="medium",
+                ),
+                "AI 数据中心基础设施需求方",
+                "AI data-center infrastructure demand source",
+            )
+        ]
+    if kind == "application":
+        return [
+            downstream_entity(
+                entity(
+                    "Government and enterprise AI users / 政府与企业 AI 用户",
+                    "政府与企业 AI 用户",
+                    "Government and enterprise AI users",
+                    "把模型和算力转化为实际工作流、决策系统、国防/情报和企业运营应用。",
+                    "Convert models and compute into workflows, decision systems, defense/intelligence, and enterprise operations applications.",
+                    ["AI 应用", "数据平台", "企业工作流"],
+                    ["AI applications", "data platforms", "enterprise workflows"],
+                    unknown_listing("客户组合广泛，需按政府/商业合同继续拆解。", "Customer mix is broad and requires further review by government/commercial contracts."),
+                    [ids["homepage"]],
+                    confidence="medium",
+                ),
+                "AI 应用客户 / 需求兑现层",
+                "AI application customer / demand monetization layer",
+            )
+        ]
     return [
         downstream_entity(
             entity(
@@ -847,6 +1229,24 @@ def raw_materials_for(kind: str) -> list[dict[str, Any]]:
             ("硅晶圆", "Silicon wafers", "用于晶圆制造、设备验证或封装测试。", "Used in wafer manufacturing, tool qualification, or packaging and test."),
             ("高纯特种气体与化学品", "High-purity specialty gases and chemicals", "用于光刻、沉积、刻蚀、清洗和封装流程。", "Used in lithography, deposition, etch, clean, and packaging processes."),
             ("铜、铝、钨、钴等金属材料", "Copper, aluminum, tungsten, cobalt and other metals", "用于互连、沉积、封装和设备部件。", "Used in interconnects, deposition, packaging, and tool components."),
+        ]
+    elif kind in {"power", "power-service", "power-cooling", "cooling"}:
+        materials = [
+            ("铜、铝和电工钢", "Copper, aluminum, and electrical steel", "用于配电设备、线缆、变压器、电机和机柜。", "Used in power distribution equipment, cables, transformers, motors, and enclosures."),
+            ("功率器件、开关和控制部件", "Power devices, switchgear, and controls", "用于 UPS、配电、开关柜和数据中心电力可靠性系统。", "Used in UPS, distribution, switchgear, and data-center power reliability systems."),
+            ("冷却剂、压缩机和热交换部件", "Coolants, compressors, and heat-exchange components", "用于风冷、液冷、冷冻水和热管理系统。", "Used in air cooling, liquid cooling, chilled water, and thermal-management systems."),
+        ]
+    elif kind in {"networking", "semiconductor-networking", "optical"}:
+        materials = [
+            ("高速交换芯片和 SerDes IP", "High-speed switching silicon and SerDes IP", "用于 AI 数据中心交换、路由和高速互连。", "Used in AI data-center switching, routing, and high-speed interconnects."),
+            ("光器件、激光器和光纤材料", "Optical components, lasers, and fiber materials", "用于光模块、数据中心光互连和长距离通信。", "Used in optical modules, data-center optical interconnects, and long-haul communications."),
+            ("高端 PCB、连接器和电源材料", "High-end PCBs, connectors, and power materials", "用于交换机、光模块、服务器和机柜互连。", "Used in switches, optical modules, servers, and rack interconnects."),
+        ]
+    elif kind == "application":
+        materials = [
+            ("云算力和 GPU/加速器资源", "Cloud compute and GPU/accelerator resources", "用于 AI 平台部署、模型推理和客户工作流。", "Used for AI platform deployment, model inference, and customer workflows."),
+            ("数据资产和安全/权限系统", "Data assets and security/permission systems", "用于企业和政府数据集成、治理和安全。", "Used for enterprise and government data integration, governance, and security."),
+            ("专业服务和行业知识", "Professional services and domain expertise", "用于把 AI 软件落到具体业务流程。", "Used to deploy AI software into concrete business workflows."),
         ]
     else:
         materials = [
@@ -875,6 +1275,150 @@ def raw_materials_for(kind: str) -> list[dict[str, Any]]:
     ]
 
 
+def failure_conditions_for(meta: dict[str, Any], ids: dict[str, str]) -> list[dict[str, Any]]:
+    kind = meta["kind"]
+    if kind in {"power", "power-service", "power-cooling", "cooling"}:
+        pairs = [
+            (
+                "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+                "The thesis weakens if AI data-center power/cooling orders or backlog stop improving.",
+                "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+                "Monitor orders, backlog, data-center customer disclosures, delivery lead times, and project margins.",
+            ),
+            (
+                "电力接入和电网项目审批慢于数据中心建设需求。",
+                "The thesis weakens if grid interconnection and power projects lag data-center buildout needs.",
+                "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+                "Monitor utility capex, project approvals, transformer/distribution delivery, and customer construction starts.",
+            ),
+        ]
+    elif kind in {"networking", "semiconductor-networking", "optical"}:
+        pairs = [
+            (
+                "AI 集群网络、光互连或高速交换需求低于公司披露趋势。",
+                "The thesis weakens if AI cluster networking, optical interconnect, or high-speed switching demand falls below company-disclosed trends.",
+                "跟踪云客户资本开支、AI 网络订单、产品认证、价格和毛利率。",
+                "Monitor cloud customer capex, AI networking orders, product qualification, pricing, and margins.",
+            ),
+            (
+                "技术路线被替代，或客户转向自研/其他供应商。",
+                "The thesis weakens if architectures shift away or customers move to in-house/alternative suppliers.",
+                "跟踪以太网/InfiniBand/CPO/光模块路线、客户披露和竞争对手订单。",
+                "Monitor Ethernet/InfiniBand/CPO/optics roadmaps, customer disclosures, and competitor orders.",
+            ),
+        ]
+    elif kind == "application":
+        pairs = [
+            (
+                "AI 应用落地没有带来商业客户扩张、净留存或利润率改善。",
+                "The thesis weakens if AI application deployment does not translate into commercial customer growth, retention, or margin improvement.",
+                "跟踪客户数、剩余履约义务、政府/商业收入、AIP 采用和经营利润率。",
+                "Monitor customer count, remaining performance obligations, government/commercial revenue, AIP adoption, and operating margin.",
+            ),
+            (
+                "企业 AI 预算回报不清晰，导致软件订单推迟。",
+                "The thesis weakens if unclear enterprise AI ROI delays software orders.",
+                "跟踪销售周期、合同规模、续约、试点转正式部署比例。",
+                "Monitor sales cycles, contract size, renewals, and pilot-to-production conversion.",
+            ),
+        ]
+    else:
+        pairs = [
+            (
+                "AI 相关订单、客户资本开支或收入增速低于公司披露趋势。",
+                "The thesis weakens if AI-related orders, customer capex, or revenue growth fall below company-disclosed trends.",
+                "跟踪 SEC 文件、业绩会、订单/backlog、客户披露、毛利率和现金流。",
+                "Monitor SEC filings, earnings calls, orders/backlog, customer disclosures, margins, and cash flow.",
+            ),
+            (
+                "上游产能、客户认证或供应链交付无法支撑扩张。",
+                "The thesis weakens if upstream capacity, customer qualification, or supply-chain delivery cannot support expansion.",
+                "跟踪交付周期、库存、供应商扩产、客户认证和项目延迟。",
+                "Monitor lead times, inventory, supplier expansion, customer qualification, and project delays.",
+            ),
+        ]
+
+    return [
+        {
+            "condition": zh,
+            "conditionZh": zh,
+            "conditionEn": en,
+            "monitor": monitor_zh,
+            "monitorZh": monitor_zh,
+            "monitorEn": monitor_en,
+            "sourceIds": [ids["homepage"], ids["submissions"]],
+        }
+        for zh, en, monitor_zh, monitor_en in pairs
+    ]
+
+
+def scarce_layers_for(meta: dict[str, Any], ids: dict[str, str]) -> list[dict[str, Any]]:
+    kind = meta["kind"]
+    if kind in {"power", "power-service"}:
+        layers = [
+            ("数据中心电力接入与配电", "Data-center power interconnection and distribution", "capacity", "AI 数据中心扩张需要可用电力、变压器、配电设备和工程交付，扩容周期往往长于服务器采购。", "AI data-center expansion requires available power, transformers, distribution equipment, and engineering delivery, often on longer cycles than server procurement."),
+            ("电网工程与公用事业资本开支", "Grid engineering and utility capex", "capital-intensity", "输配电升级和公用事业项目审批决定数据中心能否按期接入电力。", "Transmission/distribution upgrades and utility approvals determine whether data centers receive power on time."),
+        ]
+    elif kind in {"power-cooling", "cooling"}:
+        layers = [
+            ("高功率机柜散热与液冷", "High-density rack cooling and liquid cooling", "capacity", "AI 机柜功率密度提升后，液冷、热管理和机柜配套能力直接影响部署节奏。", "As AI rack power density rises, liquid cooling, thermal management, and rack infrastructure directly affect deployment cadence."),
+            ("数据中心电力与热管理交付", "Data-center power and thermal delivery", "qualification", "客户认证、可靠性和项目交付经验会影响供应商能否进入大型 AI 数据中心。", "Customer qualification, reliability, and project-delivery experience affect supplier access to large AI data centers."),
+        ]
+    elif kind in {"networking", "semiconductor-networking"}:
+        layers = [
+            ("AI 集群高速网络", "High-speed AI cluster networking", "technology", "多 GPU 集群扩张提高东西向流量、交换芯片、SerDes 和网络软件的重要性。", "Multi-GPU cluster expansion raises the importance of east-west traffic, switching silicon, SerDes, and network software."),
+            ("客户认证与云厂商资本开支", "Customer qualification and hyperscaler capex", "customer-demand", "云客户采购节奏和产品认证决定网络设备/芯片收入兑现。", "Cloud customer procurement cadence and product qualification determine networking equipment/silicon revenue conversion."),
+        ]
+    elif kind == "optical":
+        layers = [
+            ("高速光模块与光互连", "High-speed optical modules and optical interconnects", "capacity", "AI 集群规模扩大需要更高带宽、低功耗和稳定供应的光器件。", "AI cluster scale requires higher-bandwidth, lower-power, and reliably supplied optical components."),
+            ("速率升级与客户认证", "Speed transitions and customer qualification", "qualification", "800G/1.6T 等速率升级和客户认证会影响订单节奏与毛利率。", "800G/1.6T speed transitions and customer qualification affect orders and margins."),
+        ]
+    elif kind == "application":
+        layers = [
+            ("AI 应用从试点到生产", "AI applications from pilot to production", "customer-demand", "真正的应用层价值取决于客户是否把 AI 从试点转为生产工作流。", "Application-layer value depends on customers moving AI from pilots into production workflows."),
+            ("数据治理与行业工作流集成", "Data governance and workflow integration", "technology", "企业/政府客户需要数据权限、安全、审计和行业流程集成，进入门槛高于普通软件。", "Enterprise/government customers need data permissions, security, auditability, and domain workflow integration, raising the bar above ordinary software."),
+        ]
+    else:
+        layers = [
+            ("AI 基础设施关键供给", "Critical AI infrastructure supply", "capacity", "该层影响 AI 基础设施扩张的交付、成本或可靠性。", "This layer affects AI infrastructure delivery, cost, or reliability."),
+            ("客户认证和交付节奏", "Customer qualification and delivery cadence", "qualification", "客户认证和交付节奏决定主题能否转化为收入。", "Customer qualification and delivery cadence determine whether the theme converts into revenue."),
+        ]
+
+    return [
+        {
+            "name": name_zh,
+            "nameZh": name_zh,
+            "nameEn": name_en,
+            "rank": index + 1,
+            "constraintType": constraint,
+            "constraintTypeZh": {
+                "capacity": "产能",
+                "capital-intensity": "资本强度",
+                "qualification": "客户认证",
+                "technology": "技术",
+                "customer-demand": "客户需求",
+            }.get(constraint, "未知"),
+            "constraintTypeEn": {
+                "capacity": "Capacity",
+                "capital-intensity": "Capital intensity",
+                "qualification": "Qualification",
+                "technology": "Technology",
+                "customer-demand": "Customer demand",
+            }.get(constraint, "Unknown"),
+            "whyScarce": why_zh,
+            "whyScarceZh": why_zh,
+            "whyScarceEn": why_en,
+            "relatedCompanies": [meta["name"]],
+            "evidenceLevel": "medium",
+            "confidence": "medium",
+            "sourceIds": [ids["homepage"], ids["submissions"]],
+            "failureConditions": failure_conditions_for(meta, ids),
+        }
+        for index, (name_zh, name_en, constraint, why_zh, why_en) in enumerate(layers)
+    ]
+
+
 def make_supply_chain(meta: dict[str, Any], draft: dict[str, Any], ids: dict[str, str]) -> dict[str, Any]:
     upstream_entities = generic_input_entities(meta, ids)
     downstream = downstream_entities(meta, ids)
@@ -885,6 +1429,7 @@ def make_supply_chain(meta: dict[str, Any], draft: dict[str, Any], ids: dict[str
         "thesis": f"{meta['thesisZh']} / {meta['thesisEn']}",
         "thesisZh": meta["thesisZh"],
         "thesisEn": meta["thesisEn"],
+        "scarceLayers": scarce_layers_for(meta, ids),
         "tiers": [
             {
                 "level": 0,
@@ -951,6 +1496,7 @@ def make_financials(meta: dict[str, Any], draft: dict[str, Any], ids: dict[str, 
         for metric in ["revenue", "net_income", "assets", "cash_from_operations"]
         if (item := make_highlight(draft, metric, ids["companyfacts"]))
     ]
+    highlights = [item for item in highlights if highlight_is_fresh(item)]
     trends = [
         item
         for metric in ["revenue", "net_income", "assets"]
@@ -1051,6 +1597,7 @@ def build_company(ticker: str) -> dict[str, Any]:
             "thesisZh": meta["thesisZh"],
             "thesisEn": meta["thesisEn"],
             "riskNotes": meta["risks"],
+            "failureConditions": failure_conditions_for(meta, ids),
         },
         "supplyChain": make_supply_chain(meta, draft, ids),
         "financials": make_financials(meta, draft, ids),
@@ -1075,6 +1622,8 @@ def build_company(ticker: str) -> dict[str, Any]:
 
 def add_label_to_existing(file_name: str, label: str) -> None:
     path = COMPANIES_DIR / file_name
+    if not path.exists():
+        return
     payload = read_json(path)
     labels = payload.setdefault("labels", [])
     if label not in labels:
@@ -1082,16 +1631,49 @@ def add_label_to_existing(file_name: str, label: str) -> None:
     write_json(path, payload)
 
 
+def add_labels_to_existing(file_name: str, labels_to_add: list[str]) -> None:
+    for label in labels_to_add:
+        add_label_to_existing(file_name, label)
+
+
+def apply_ai_infra_existing_labels() -> None:
+    updates = {
+        "nvda.json": ["AI基建扩展", "算力"],
+        "mu.json": ["AI基建扩展", "HBM"],
+        "spcx.json": ["AI基建扩展", "AI应用", "融资敏感"],
+        "avgo.json": ["AI基建扩展", "算力网络"],
+        "crwv.json": ["AI基建扩展", "算力", "融资敏感"],
+        "nbis.json": ["AI基建扩展", "算力", "融资敏感"],
+        "sndk.json": ["AI基建扩展", "NAND"],
+        "tsm.json": ["AI基建扩展"],
+        "amkr.json": ["AI基建扩展"],
+        "smci.json": ["AI基建扩展"],
+        "dell.json": ["AI基建扩展"],
+        "hpe.json": ["AI基建扩展"],
+    }
+    for file_name, labels_to_add in updates.items():
+        add_labels_to_existing(file_name, labels_to_add)
+
+
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Create reviewed company JSON files for the NVIDIA-related US-listed batch.")
+    parser.add_argument(
+        "--tickers",
+        help="Comma-separated ticker subset to generate. Defaults to every ticker in COMPANY_META.",
+    )
+    args = parser.parse_args()
+    tickers = [item.strip().upper() for item in args.tickers.split(",")] if args.tickers else list(COMPANY_META)
+
     COMPANIES_DIR.mkdir(parents=True, exist_ok=True)
-    for ticker in COMPANY_META:
+    for ticker in tickers:
+        if ticker not in COMPANY_META:
+            raise SystemExit(f"Unknown ticker in COMPANY_META: {ticker}")
         report = build_company(ticker)
         write_json(COMPANIES_DIR / f"{report['id']}.json", report)
         print(f"Wrote public/data/companies/{report['id']}.json")
 
-    add_label_to_existing("nvda.json", "英伟达相关")
-    add_label_to_existing("mu.json", "英伟达相关")
-    print("Updated NVDA and MU labels")
+    apply_ai_infra_existing_labels()
+    print("Updated existing AI infrastructure labels")
 
 
 if __name__ == "__main__":

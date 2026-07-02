@@ -1,0 +1,1047 @@
+{
+  "schemaVersion": 1,
+  "id": "pwr",
+  "ticker": "PWR",
+  "exchange": "NYSE",
+  "market": "US",
+  "name": "Quanta Services / Quanta Services",
+  "legalName": "QUANTA SERVICES, INC.",
+  "cik": "0001050915",
+  "currency": "USD",
+  "sector": "Utility and grid infrastructure services / 公用事业与电网工程服务",
+  "industry": [
+    "Electric grid services",
+    "Utility infrastructure",
+    "Energy transition",
+    "电网工程",
+    "公用事业基础设施",
+    "能源转型"
+  ],
+  "homepage": "https://www.quantaservices.com/",
+  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "summary": "Quanta Services 提供电网、公用事业和能源基础设施工程服务，是 AI 数据中心电力接入和电网升级的施工服务层。 / Quanta Services provides electric-grid, utility, and energy-infrastructure services, sitting in the construction-services layer for AI data-center power access and grid upgrades.",
+  "summaryZh": "Quanta Services 提供电网、公用事业和能源基础设施工程服务，是 AI 数据中心电力接入和电网升级的施工服务层。",
+  "summaryEn": "Quanta Services provides electric-grid, utility, and energy-infrastructure services, sitting in the construction-services layer for AI data-center power access and grid upgrades.",
+  "aliases": [
+    "PWR",
+    "Quanta Services / Quanta Services",
+    "QUANTA SERVICES, INC.",
+    "QUANTA SERVICES, INC."
+  ],
+  "labels": [
+    "电力",
+    "电网建设",
+    "工程服务",
+    "AI基础设施",
+    "AI基建扩展",
+    "美股"
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "description": "公司为电力、公用事业、通信、管道和可再生能源客户提供设计、安装、维护和项目管理服务。 / The company provides design, installation, maintenance, and project-management services for electric power, utilities, communications, pipelines, and renewable-energy customers.",
+    "descriptionZh": "公司为电力、公用事业、通信、管道和可再生能源客户提供设计、安装、维护和项目管理服务。",
+    "descriptionEn": "The company provides design, installation, maintenance, and project-management services for electric power, utilities, communications, pipelines, and renewable-energy customers.",
+    "revenueModel": [
+      "电力基础设施服务 / electric infrastructure services",
+      "地下与基础设施服务 / underground and infrastructure services",
+      "可再生能源工程 / renewable-energy services"
+    ],
+    "segments": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 28.48,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "pwr-sec-companyfacts"
+        ]
+      }
+    ],
+    "thesis": "如果 AI 数据中心扩张卡在电网接入和输配电建设，Quanta 的价值在于工程交付能力，而非设备或芯片。 / If AI data-center expansion is constrained by grid interconnection and transmission/distribution buildout, Quanta's value lies in engineering delivery rather than equipment or chips.",
+    "thesisZh": "如果 AI 数据中心扩张卡在电网接入和输配电建设，Quanta 的价值在于工程交付能力，而非设备或芯片。",
+    "thesisEn": "If AI data-center expansion is constrained by grid interconnection and transmission/distribution buildout, Quanta's value lies in engineering delivery rather than equipment or chips.",
+    "riskNotes": [
+      "项目延迟、劳动力成本和公用事业资本开支周期会影响业绩。 / Project delays, labor costs, and utility capex cycles affect results.",
+      "AI 数据中心相关订单需与传统电网需求区分。 / AI data-center related orders need to be separated from traditional grid demand."
+    ],
+    "failureConditions": [
+      {
+        "condition": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+        "conditionZh": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+        "conditionEn": "The thesis weakens if AI data-center power/cooling orders or backlog stop improving.",
+        "monitor": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+        "monitorZh": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+        "monitorEn": "Monitor orders, backlog, data-center customer disclosures, delivery lead times, and project margins.",
+        "sourceIds": [
+          "pwr-homepage",
+          "pwr-sec-submissions"
+        ]
+      },
+      {
+        "condition": "电力接入和电网项目审批慢于数据中心建设需求。",
+        "conditionZh": "电力接入和电网项目审批慢于数据中心建设需求。",
+        "conditionEn": "The thesis weakens if grid interconnection and power projects lag data-center buildout needs.",
+        "monitor": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+        "monitorZh": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+        "monitorEn": "Monitor utility capex, project approvals, transformer/distribution delivery, and customer construction starts.",
+        "sourceIds": [
+          "pwr-homepage",
+          "pwr-sec-submissions"
+        ]
+      }
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-14T12:00:00+08:00",
+    "thesis": "如果 AI 数据中心扩张卡在电网接入和输配电建设，Quanta 的价值在于工程交付能力，而非设备或芯片。 / If AI data-center expansion is constrained by grid interconnection and transmission/distribution buildout, Quanta's value lies in engineering delivery rather than equipment or chips.",
+    "thesisZh": "如果 AI 数据中心扩张卡在电网接入和输配电建设，Quanta 的价值在于工程交付能力，而非设备或芯片。",
+    "thesisEn": "If AI data-center expansion is constrained by grid interconnection and transmission/distribution buildout, Quanta's value lies in engineering delivery rather than equipment or chips.",
+    "scarceLayers": [
+      {
+        "name": "数据中心电力接入与配电",
+        "nameZh": "数据中心电力接入与配电",
+        "nameEn": "Data-center power interconnection and distribution",
+        "rank": 1,
+        "constraintType": "capacity",
+        "constraintTypeZh": "产能",
+        "constraintTypeEn": "Capacity",
+        "whyScarce": "AI 数据中心扩张需要可用电力、变压器、配电设备和工程交付，扩容周期往往长于服务器采购。",
+        "whyScarceZh": "AI 数据中心扩张需要可用电力、变压器、配电设备和工程交付，扩容周期往往长于服务器采购。",
+        "whyScarceEn": "AI data-center expansion requires available power, transformers, distribution equipment, and engineering delivery, often on longer cycles than server procurement.",
+        "relatedCompanies": [
+          "Quanta Services / Quanta Services"
+        ],
+        "evidenceLevel": "medium",
+        "confidence": "medium",
+        "sourceIds": [
+          "pwr-homepage",
+          "pwr-sec-submissions"
+        ],
+        "failureConditions": [
+          {
+            "condition": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+            "conditionZh": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+            "conditionEn": "The thesis weakens if AI data-center power/cooling orders or backlog stop improving.",
+            "monitor": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+            "monitorZh": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+            "monitorEn": "Monitor orders, backlog, data-center customer disclosures, delivery lead times, and project margins.",
+            "sourceIds": [
+              "pwr-homepage",
+              "pwr-sec-submissions"
+            ]
+          },
+          {
+            "condition": "电力接入和电网项目审批慢于数据中心建设需求。",
+            "conditionZh": "电力接入和电网项目审批慢于数据中心建设需求。",
+            "conditionEn": "The thesis weakens if grid interconnection and power projects lag data-center buildout needs.",
+            "monitor": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+            "monitorZh": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+            "monitorEn": "Monitor utility capex, project approvals, transformer/distribution delivery, and customer construction starts.",
+            "sourceIds": [
+              "pwr-homepage",
+              "pwr-sec-submissions"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "电网工程与公用事业资本开支",
+        "nameZh": "电网工程与公用事业资本开支",
+        "nameEn": "Grid engineering and utility capex",
+        "rank": 2,
+        "constraintType": "capital-intensity",
+        "constraintTypeZh": "资本强度",
+        "constraintTypeEn": "Capital intensity",
+        "whyScarce": "输配电升级和公用事业项目审批决定数据中心能否按期接入电力。",
+        "whyScarceZh": "输配电升级和公用事业项目审批决定数据中心能否按期接入电力。",
+        "whyScarceEn": "Transmission/distribution upgrades and utility approvals determine whether data centers receive power on time.",
+        "relatedCompanies": [
+          "Quanta Services / Quanta Services"
+        ],
+        "evidenceLevel": "medium",
+        "confidence": "medium",
+        "sourceIds": [
+          "pwr-homepage",
+          "pwr-sec-submissions"
+        ],
+        "failureConditions": [
+          {
+            "condition": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+            "conditionZh": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+            "conditionEn": "The thesis weakens if AI data-center power/cooling orders or backlog stop improving.",
+            "monitor": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+            "monitorZh": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+            "monitorEn": "Monitor orders, backlog, data-center customer disclosures, delivery lead times, and project margins.",
+            "sourceIds": [
+              "pwr-homepage",
+              "pwr-sec-submissions"
+            ]
+          },
+          {
+            "condition": "电力接入和电网项目审批慢于数据中心建设需求。",
+            "conditionZh": "电力接入和电网项目审批慢于数据中心建设需求。",
+            "conditionEn": "The thesis weakens if grid interconnection and power projects lag data-center buildout needs.",
+            "monitor": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+            "monitorZh": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+            "monitorEn": "Monitor utility capex, project approvals, transformer/distribution delivery, and customer construction starts.",
+            "sourceIds": [
+              "pwr-homepage",
+              "pwr-sec-submissions"
+            ]
+          }
+        ]
+      }
+    ],
+    "tiers": [
+      {
+        "level": 0,
+        "title": "Target company",
+        "titleZh": "目标公司",
+        "titleEn": "Target company",
+        "companies": [
+          "Quanta Services / Quanta Services"
+        ],
+        "entities": [
+          {
+            "name": "Quanta Services / Quanta Services",
+            "nameZh": "Quanta Services / Quanta Services",
+            "nameEn": "QUANTA SERVICES, INC.",
+            "relationship": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipZh": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipEn": "Target company; this page maps its NVIDIA-related supply-chain position.",
+            "productsServices": [
+              "电力基础设施服务 / electric infrastructure services",
+              "地下与基础设施服务 / underground and infrastructure services",
+              "可再生能源工程 / renewable-energy services"
+            ],
+            "productsServicesZh": [
+              "电力基础设施服务 / electric infrastructure services",
+              "地下与基础设施服务 / underground and infrastructure services",
+              "可再生能源工程 / renewable-energy services"
+            ],
+            "productsServicesEn": [
+              "电力基础设施服务 / electric infrastructure services",
+              "地下与基础设施服务 / underground and infrastructure services",
+              "可再生能源工程 / renewable-energy services"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "PWR",
+              "exchange": "NYSE",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/pwr"
+            },
+            "confidence": "high",
+            "sourceIds": [
+              "pwr-homepage",
+              "pwr-nasdaq-quote"
+            ],
+            "companyUrl": "https://www.quantaservices.com/",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "目标公司",
+              "labelZh": "目标公司",
+              "labelEn": "Target company",
+              "direction": "target",
+              "rationale": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleZh": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleEn": "The target company itself, used as the reference point for this supply-chain analysis.",
+              "confidence": "high"
+            }
+          }
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "铜、铝和电工钢",
+          "功率器件、开关和控制部件",
+          "冷却剂、压缩机和热交换部件"
+        ],
+        "materialsZh": [
+          "铜、铝和电工钢",
+          "功率器件、开关和控制部件",
+          "冷却剂、压缩机和热交换部件"
+        ],
+        "materialsEn": [
+          "Copper, aluminum, and electrical steel",
+          "Power devices, switchgear, and controls",
+          "Coolants, compressors, and heat-exchange components"
+        ],
+        "notes": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesZh": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesEn": "Target company itself; listed ticker and quote link reviewed.",
+        "confidence": "high",
+        "sourceIds": [
+          "pwr-homepage",
+          "pwr-nasdaq-quote"
+        ]
+      },
+      {
+        "level": 1,
+        "title": "Key upstream inputs",
+        "titleZh": "关键上游投入",
+        "titleEn": "Key upstream inputs",
+        "companies": [
+          "Data-center developers and hyperscalers / 数据中心开发商与云厂商",
+          "Electrical and thermal supply chain / 电力与热管理供应链"
+        ],
+        "entities": [
+          {
+            "name": "Data-center developers and hyperscalers / 数据中心开发商与云厂商",
+            "nameZh": "数据中心开发商与云厂商",
+            "nameEn": "Data-center developers and hyperscalers",
+            "relationship": "AI 数据中心扩张直接拉动供电、配电、施工、机柜和散热需求。",
+            "relationshipZh": "AI 数据中心扩张直接拉动供电、配电、施工、机柜和散热需求。",
+            "relationshipEn": "AI data-center expansion directly drives demand for power, distribution, construction, racks, and cooling.",
+            "productsServices": [
+              "数据中心项目",
+              "电力接入",
+              "机柜与散热"
+            ],
+            "productsServicesZh": [
+              "数据中心项目",
+              "电力接入",
+              "机柜与散热"
+            ],
+            "productsServicesEn": [
+              "data-center projects",
+              "power interconnection",
+              "racks and cooling"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "客户和项目需按公告/合同继续拆解。",
+              "noteZh": "客户和项目需按公告/合同继续拆解。",
+              "noteEn": "Customers and projects require further review through releases/contracts."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "pwr-homepage",
+              "nvidia-rtx-pro-systems-2025"
+            ],
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "direct-supplier",
+              "rationale": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleZh": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleEn": "NVIDIA platforms are a key input for this company's AI server or GPU-cloud capacity, so supply changes directly affect delivery.",
+              "confidence": "medium"
+            }
+          },
+          {
+            "name": "Electrical and thermal supply chain / 电力与热管理供应链",
+            "nameZh": "电力与热管理供应链",
+            "nameEn": "Electrical and thermal supply chain",
+            "relationship": "上游依赖铜、变压器、功率器件、冷却部件、压缩机和高可靠工程交付。",
+            "relationshipZh": "上游依赖铜、变压器、功率器件、冷却部件、压缩机和高可靠工程交付。",
+            "relationshipEn": "Upstream inputs include copper, transformers, power components, cooling parts, compressors, and high-reliability project delivery.",
+            "productsServices": [
+              "铜与电气部件",
+              "变压器与配电",
+              "冷却系统部件"
+            ],
+            "productsServicesZh": [
+              "铜与电气部件",
+              "变压器与配电",
+              "冷却系统部件"
+            ],
+            "productsServicesEn": [
+              "copper and electrical parts",
+              "transformers and distribution",
+              "cooling-system components"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "多为多层供应商，需逐项映射。",
+              "noteZh": "多为多层供应商，需逐项映射。",
+              "noteEn": "Often multi-tier suppliers requiring supplier-by-supplier mapping."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "pwr-homepage"
+            ],
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "direct-supplier",
+              "rationale": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleZh": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleEn": "NVIDIA platforms are a key input for this company's AI server or GPU-cloud capacity, so supply changes directly affect delivery.",
+              "confidence": "medium"
+            }
+          }
+        ],
+        "geography": [
+          "US",
+          "Europe",
+          "Asia"
+        ],
+        "materials": [
+          "铜、铝和电工钢",
+          "功率器件、开关和控制部件",
+          "冷却剂、压缩机和热交换部件"
+        ],
+        "materialsZh": [
+          "铜、铝和电工钢",
+          "功率器件、开关和控制部件",
+          "冷却剂、压缩机和热交换部件"
+        ],
+        "materialsEn": [
+          "Copper, aluminum, and electrical steel",
+          "Power devices, switchgear, and controls",
+          "Coolants, compressors, and heat-exchange components"
+        ],
+        "notes": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesZh": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesEn": "Lists the most important upstream inputs for NVIDIA-related business; exact purchase shares require further manual work.",
+        "confidence": "medium",
+        "sourceIds": [
+          "pwr-homepage",
+          "nvidia-10k-2026"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "铜、铝和电工钢",
+        "nameZh": "铜、铝和电工钢",
+        "nameEn": "Copper, aluminum, and electrical steel",
+        "usedIn": "用于配电设备、线缆、变压器、电机和机柜。",
+        "usedInZh": "用于配电设备、线缆、变压器、电机和机柜。",
+        "usedInEn": "Used in power distribution equipment, cables, transformers, motors, and enclosures.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "功率器件、开关和控制部件",
+        "nameZh": "功率器件、开关和控制部件",
+        "nameEn": "Power devices, switchgear, and controls",
+        "usedIn": "用于 UPS、配电、开关柜和数据中心电力可靠性系统。",
+        "usedInZh": "用于 UPS、配电、开关柜和数据中心电力可靠性系统。",
+        "usedInEn": "Used in UPS, distribution, switchgear, and data-center power reliability systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "冷却剂、压缩机和热交换部件",
+        "nameZh": "冷却剂、压缩机和热交换部件",
+        "nameEn": "Coolants, compressors, and heat-exchange components",
+        "usedIn": "用于风冷、液冷、冷冻水和热管理系统。",
+        "usedInZh": "用于风冷、液冷、冷冻水和热管理系统。",
+        "usedInEn": "Used in air cooling, liquid cooling, chilled water, and thermal-management systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      }
+    ],
+    "downstream": {
+      "updatedAt": "2026-06-14T12:00:00+08:00",
+      "thesis": "如果 AI 数据中心扩张卡在电网接入和输配电建设，Quanta 的价值在于工程交付能力，而非设备或芯片。 / If AI data-center expansion is constrained by grid interconnection and transmission/distribution buildout, Quanta's value lies in engineering delivery rather than equipment or chips.",
+      "thesisZh": "如果 AI 数据中心扩张卡在电网接入和输配电建设，Quanta 的价值在于工程交付能力，而非设备或芯片。",
+      "thesisEn": "If AI data-center expansion is constrained by grid interconnection and transmission/distribution buildout, Quanta's value lies in engineering delivery rather than equipment or chips.",
+      "tiers": [
+        {
+          "level": 1,
+          "title": "NVIDIA-related demand path",
+          "titleZh": "英伟达相关需求路径",
+          "titleEn": "NVIDIA-related demand path",
+          "entities": [
+            {
+              "name": "AI data centers and utilities / AI 数据中心与公用事业",
+              "nameZh": "AI 数据中心与公用事业",
+              "nameEn": "AI data centers and utilities",
+              "relationship": "需要电力接入、配电、散热、工程建设和可靠性服务，以支撑高功率密度 AI 机柜。",
+              "relationshipZh": "需要电力接入、配电、散热、工程建设和可靠性服务，以支撑高功率密度 AI 机柜。",
+              "relationshipEn": "Need power interconnection, distribution, cooling, construction, and reliability services to support high-density AI racks.",
+              "productsServices": [
+                "数据中心电力",
+                "配电与施工",
+                "散热与液冷"
+              ],
+              "productsServicesZh": [
+                "数据中心电力",
+                "配电与施工",
+                "散热与液冷"
+              ],
+              "productsServicesEn": [
+                "data-center power",
+                "distribution and construction",
+                "cooling and liquid cooling"
+              ],
+              "listing": {
+                "status": "unknown",
+                "note": "客户和项目需用合同、公告或财报电话会继续确认。",
+                "noteZh": "客户和项目需用合同、公告或财报电话会继续确认。",
+                "noteEn": "Customers and projects should be confirmed through contracts, releases, or earnings calls."
+              },
+              "confidence": "medium",
+              "sourceIds": [
+                "pwr-homepage",
+                "nvidia-rtx-pro-systems-2025"
+              ],
+              "customerRole": "AI 数据中心基础设施需求方",
+              "customerRoleZh": "AI 数据中心基础设施需求方",
+              "customerRoleEn": "AI data-center infrastructure demand source",
+              "relationshipStrength": {
+                "score": 3,
+                "label": "中相关",
+                "labelZh": "中相关",
+                "labelEn": "Moderate relevance",
+                "direction": "indirect-demand",
+                "rationale": "NVIDIA 需求通过晶圆厂、存储厂或封装投资间接传导，不等同于直接采购关系。",
+                "rationaleZh": "NVIDIA 需求通过晶圆厂、存储厂或封装投资间接传导，不等同于直接采购关系。",
+                "rationaleEn": "NVIDIA demand transmits indirectly through foundry, memory, or packaging investment and is not the same as a direct purchasing relationship.",
+                "confidence": "medium"
+              }
+            }
+          ],
+          "notes": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesZh": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesEn": "This layer explains how the target company functions as NVIDIA's upstream supplier, partner, customer, or indirect demand beneficiary.",
+          "confidence": "medium",
+          "sourceIds": [
+            "pwr-homepage",
+            "nvidia-10k-2026"
+          ]
+        }
+      ]
+    }
+  },
+  "financials": {
+    "latestPeriod": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "latestPeriodZh": "使用 SEC companyfacts 中的最新可核对候选；年度基准来自最近审计年报。",
+    "latestPeriodEn": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "highlights": [
+      {
+        "label": "Q1 FY2026 revenue",
+        "labelZh": "2026 财年第 1 财季 收入",
+        "labelEn": "Q1 FY2026 revenue",
+        "value": 7.875,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "pwr-sec-companyfacts"
+        ],
+        "change": "+26.3% vs prior comparable period",
+        "changeZh": "较上一可比期间 +26.3%",
+        "changeEn": "+26.3% vs prior comparable period"
+      },
+      {
+        "label": "Q1 FY2026 net income / loss",
+        "labelZh": "2026 财年第 1 财季 净利润 / 净亏损",
+        "labelEn": "Q1 FY2026 net income / loss",
+        "value": 0.221,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "pwr-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q1 FY2026 total assets",
+        "labelZh": "2026 财年第 1 财季 总资产",
+        "labelEn": "Q1 FY2026 total assets",
+        "value": 25.747,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "pwr-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q1 FY2026 operating cash flow",
+        "labelZh": "2026 财年第 1 财季 经营现金流",
+        "labelEn": "Q1 FY2026 operating cash flow",
+        "value": 0.392,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "pwr-sec-companyfacts"
+        ]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 28.48,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "pwr-sec-companyfacts"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "id": "annual-revenue",
+        "label": "Annual revenue",
+        "labelZh": "年度收入",
+        "labelEn": "Annual revenue",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "pwr-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 20.882,
+            "sourceIds": [
+              "pwr-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 23.673,
+            "sourceIds": [
+              "pwr-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 28.48,
+            "sourceIds": [
+              "pwr-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-net-income",
+        "label": "Annual net income / loss",
+        "labelZh": "年度净利润 / 净亏损",
+        "labelEn": "Annual net income / loss",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "pwr-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 0.745,
+            "sourceIds": [
+              "pwr-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 0.905,
+            "sourceIds": [
+              "pwr-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 1.028,
+            "sourceIds": [
+              "pwr-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-assets",
+        "label": "Annual total assets",
+        "labelZh": "年度总资产",
+        "labelEn": "Annual total assets",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "pwr-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 16.237,
+            "sourceIds": [
+              "pwr-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 18.684,
+            "sourceIds": [
+              "pwr-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 24.927,
+            "sourceIds": [
+              "pwr-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenueMixHistory": [
+      {
+        "period": "FY2023",
+        "periodZh": "2023 财年",
+        "periodEn": "FY2023",
+        "totalRevenue": 20.882,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "pwr-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 20.882,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "pwr-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2024",
+        "periodZh": "2024 财年",
+        "periodEn": "FY2024",
+        "totalRevenue": 23.673,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "pwr-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 23.673,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "pwr-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "totalRevenue": 28.48,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "pwr-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 28.48,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "pwr-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-05-27",
+      "title": "Recent SEC filing: 8-K",
+      "titleZh": "最新 SEC 文件：8-K",
+      "titleEn": "Recent SEC filing: 8-K",
+      "category": "SEC filing",
+      "categoryZh": "SEC 文件",
+      "categoryEn": "SEC filing",
+      "summary": "SEC submissions show a 8-K filed on 2026-05-27; report date 2026-05-21.",
+      "summaryZh": "SEC submissions 显示公司于 2026-05-27 提交 8-K；报告期为 2026-05-21。",
+      "summaryEn": "SEC submissions show a 8-K filed on 2026-05-27; report date 2026-05-21.",
+      "impact": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "impactZh": "作为本批次最新公开文件检查点；每日定时刷新仍未启用。",
+      "impactEn": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "sourceIds": [
+        "pwr-sec-submissions"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-27",
+      "reportDate": "2026-05-21",
+      "title": "8-K filed 2026-05-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526241989/d122565d8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-04-30",
+      "reportDate": "2026-03-31",
+      "title": "10-Q filed 2026-04-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050915/000105091526000016/pwr-20260331.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-30",
+      "reportDate": "2026-04-30",
+      "title": "8-K filed 2026-04-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526193918/d107542d8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-16",
+      "reportDate": "2026-04-10",
+      "title": "8-K filed 2026-04-16",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526159117/d126144d8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-04",
+      "reportDate": "2026-02-26",
+      "title": "8-K filed 2026-03-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526091646/d115375d8k.htm"
+    },
+    {
+      "form": "10-K",
+      "filedAt": "2026-02-19",
+      "reportDate": "2025-12-31",
+      "title": "10-K filed 2026-02-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050915/000105091526000006/pwr-20251231.htm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "pwr-homepage",
+      "title": "Quanta Services / Quanta Services company website",
+      "titleZh": "Quanta Services / Quanta Services 公司官网",
+      "titleEn": "Quanta Services / Quanta Services company website",
+      "publisher": "Quanta Services / Quanta Services",
+      "url": "https://www.quantaservices.com/",
+      "accessedAt": "2026-06-14",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "pwr-sec-submissions",
+      "title": "PWR SEC submissions",
+      "titleZh": "PWR SEC submissions 数据",
+      "titleEn": "PWR SEC submissions",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/submissions/CIK0001050915.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "pwr-sec-companyfacts",
+      "title": "PWR SEC companyfacts XBRL data",
+      "titleZh": "PWR SEC companyfacts XBRL 数据",
+      "titleEn": "PWR SEC companyfacts XBRL data",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001050915.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "pwr-nasdaq-quote",
+      "title": "PWR Nasdaq quote page",
+      "titleZh": "PWR Nasdaq 行情页面",
+      "titleEn": "PWR Nasdaq quote page",
+      "publisher": "Nasdaq",
+      "url": "https://www.nasdaq.com/market-activity/stocks/pwr",
+      "accessedAt": "2026-06-14",
+      "type": "exchange",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "nvidia-10k-2026",
+      "title": "NVIDIA FY2026 Form 10-K",
+      "titleZh": "NVIDIA 2026 财年 10-K 年报",
+      "titleEn": "NVIDIA FY2026 Form 10-K",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "nvidia-rtx-pro-systems-2025",
+      "title": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "titleZh": "NVIDIA RTX PRO Blackwell 服务器进入企业系统生态",
+      "titleEn": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "publisher": "NVIDIA Investor Relations",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-RTX-PRO-Servers-With-Blackwell-Coming-to-Worlds-Most-Popular-Enterprise-Systems/",
+      "accessedAt": "2026-06-14",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0001050915",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K",
+        "20-F",
+        "6-K"
+      ]
+    },
+    "newsFeeds": [
+      {
+        "url": "https://www.quantaservices.com/",
+        "publisher": "Quanta Services / Quanta Services",
+        "sourceType": "company"
+      }
+    ]
+  },
+  "themeExposure": [
+    {
+      "theme": "AI 电网建设",
+      "themeZh": "AI 电网建设",
+      "themeEn": "AI grid buildout",
+      "score": 4,
+      "role": "电网工程与接入服务",
+      "roleZh": "电网工程与接入服务",
+      "roleEn": "Grid engineering and interconnection services",
+      "rationale": "如果数据中心扩张卡在电网接入和输配电建设，工程交付能力会成为关键约束。",
+      "rationaleZh": "如果数据中心扩张卡在电网接入和输配电建设，工程交付能力会成为关键约束。",
+      "rationaleEn": "If data-center expansion is constrained by grid interconnection and transmission/distribution buildout, engineering delivery becomes a key constraint.",
+      "confidence": "medium"
+    }
+  ]
+}

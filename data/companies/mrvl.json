@@ -1,0 +1,1105 @@
+{
+  "schemaVersion": 1,
+  "id": "mrvl",
+  "ticker": "MRVL",
+  "exchange": "NASDAQ",
+  "market": "US",
+  "name": "Marvell Technology / 美满电子",
+  "legalName": "Marvell Technology, Inc.",
+  "cik": "0001835632",
+  "currency": "USD",
+  "sector": "Semiconductors and data infrastructure / 半导体与数据基础设施",
+  "industry": [
+    "Data-center silicon",
+    "Networking",
+    "Custom silicon",
+    "Optical DSP",
+    "数据中心芯片",
+    "网络芯片",
+    "定制芯片",
+    "光互连 DSP"
+  ],
+  "homepage": "https://www.marvell.com/",
+  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "summary": "Marvell 提供数据中心网络、定制芯片和光互连相关半导体，是 AI 集群网络和定制加速器链条的重要公司。 / Marvell provides data-center networking, custom silicon, and optical-interconnect semiconductors, making it important in AI cluster networking and custom-accelerator chains.",
+  "summaryZh": "Marvell 提供数据中心网络、定制芯片和光互连相关半导体，是 AI 集群网络和定制加速器链条的重要公司。",
+  "summaryEn": "Marvell provides data-center networking, custom silicon, and optical-interconnect semiconductors, making it important in AI cluster networking and custom-accelerator chains.",
+  "aliases": [
+    "MRVL",
+    "Marvell Technology / 美满电子",
+    "Marvell Technology, Inc.",
+    "Marvell Technology, Inc."
+  ],
+  "labels": [
+    "半导体",
+    "网络芯片",
+    "光互连",
+    "数据中心网络",
+    "AI基础设施",
+    "AI基建扩展",
+    "英伟达相关",
+    "美股"
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "description": "公司提供数据基础设施半导体，覆盖数据中心、运营商、企业网络、汽车和存储市场。 / The company provides data-infrastructure semiconductors across data center, carrier, enterprise networking, automotive, and storage markets.",
+    "descriptionZh": "公司提供数据基础设施半导体，覆盖数据中心、运营商、企业网络、汽车和存储市场。",
+    "descriptionEn": "The company provides data-infrastructure semiconductors across data center, carrier, enterprise networking, automotive, and storage markets.",
+    "revenueModel": [
+      "数据中心芯片 / data-center silicon",
+      "网络与存储芯片 / networking and storage chips",
+      "定制芯片 / custom silicon"
+    ],
+    "segments": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 8.195,
+        "unit": "USD billions",
+        "period": "FY2026",
+        "periodZh": "2026 财年",
+        "periodEn": "FY2026",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "mrvl-sec-companyfacts"
+        ]
+      }
+    ],
+    "thesis": "AI 集群扩张推动高速网络、光互连和定制芯片需求，Marvell 与 NVIDIA 生态更多是并行受益和部分互补。 / AI cluster expansion drives high-speed networking, optical interconnect, and custom silicon demand; Marvell benefits alongside and partly complements the NVIDIA ecosystem.",
+    "thesisZh": "AI 集群扩张推动高速网络、光互连和定制芯片需求，Marvell 与 NVIDIA 生态更多是并行受益和部分互补。",
+    "thesisEn": "AI cluster expansion drives high-speed networking, optical interconnect, and custom silicon demand; Marvell benefits alongside and partly complements the NVIDIA ecosystem.",
+    "riskNotes": [
+      "定制芯片客户项目节奏和库存周期会影响收入。 / Custom-silicon customer project timing and inventory cycles affect revenue.",
+      "高速光互连路线和竞争格局需持续跟踪。 / High-speed optical-interconnect architectures and competition need monitoring."
+    ],
+    "failureConditions": [
+      {
+        "condition": "AI 集群网络、光互连或高速交换需求低于公司披露趋势。",
+        "conditionZh": "AI 集群网络、光互连或高速交换需求低于公司披露趋势。",
+        "conditionEn": "The thesis weakens if AI cluster networking, optical interconnect, or high-speed switching demand falls below company-disclosed trends.",
+        "monitor": "跟踪云客户资本开支、AI 网络订单、产品认证、价格和毛利率。",
+        "monitorZh": "跟踪云客户资本开支、AI 网络订单、产品认证、价格和毛利率。",
+        "monitorEn": "Monitor cloud customer capex, AI networking orders, product qualification, pricing, and margins.",
+        "sourceIds": [
+          "mrvl-homepage",
+          "mrvl-sec-submissions"
+        ]
+      },
+      {
+        "condition": "技术路线被替代，或客户转向自研/其他供应商。",
+        "conditionZh": "技术路线被替代，或客户转向自研/其他供应商。",
+        "conditionEn": "The thesis weakens if architectures shift away or customers move to in-house/alternative suppliers.",
+        "monitor": "跟踪以太网/InfiniBand/CPO/光模块路线、客户披露和竞争对手订单。",
+        "monitorZh": "跟踪以太网/InfiniBand/CPO/光模块路线、客户披露和竞争对手订单。",
+        "monitorEn": "Monitor Ethernet/InfiniBand/CPO/optics roadmaps, customer disclosures, and competitor orders.",
+        "sourceIds": [
+          "mrvl-homepage",
+          "mrvl-sec-submissions"
+        ]
+      }
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-14T12:00:00+08:00",
+    "thesis": "AI 集群扩张推动高速网络、光互连和定制芯片需求，Marvell 与 NVIDIA 生态更多是并行受益和部分互补。 / AI cluster expansion drives high-speed networking, optical interconnect, and custom silicon demand; Marvell benefits alongside and partly complements the NVIDIA ecosystem.",
+    "thesisZh": "AI 集群扩张推动高速网络、光互连和定制芯片需求，Marvell 与 NVIDIA 生态更多是并行受益和部分互补。",
+    "thesisEn": "AI cluster expansion drives high-speed networking, optical interconnect, and custom silicon demand; Marvell benefits alongside and partly complements the NVIDIA ecosystem.",
+    "scarceLayers": [
+      {
+        "name": "AI 集群高速网络",
+        "nameZh": "AI 集群高速网络",
+        "nameEn": "High-speed AI cluster networking",
+        "rank": 1,
+        "constraintType": "technology",
+        "constraintTypeZh": "技术",
+        "constraintTypeEn": "Technology",
+        "whyScarce": "多 GPU 集群扩张提高东西向流量、交换芯片、SerDes 和网络软件的重要性。",
+        "whyScarceZh": "多 GPU 集群扩张提高东西向流量、交换芯片、SerDes 和网络软件的重要性。",
+        "whyScarceEn": "Multi-GPU cluster expansion raises the importance of east-west traffic, switching silicon, SerDes, and network software.",
+        "relatedCompanies": [
+          "Marvell Technology / 美满电子"
+        ],
+        "evidenceLevel": "medium",
+        "confidence": "medium",
+        "sourceIds": [
+          "mrvl-homepage",
+          "mrvl-sec-submissions"
+        ],
+        "failureConditions": [
+          {
+            "condition": "AI 集群网络、光互连或高速交换需求低于公司披露趋势。",
+            "conditionZh": "AI 集群网络、光互连或高速交换需求低于公司披露趋势。",
+            "conditionEn": "The thesis weakens if AI cluster networking, optical interconnect, or high-speed switching demand falls below company-disclosed trends.",
+            "monitor": "跟踪云客户资本开支、AI 网络订单、产品认证、价格和毛利率。",
+            "monitorZh": "跟踪云客户资本开支、AI 网络订单、产品认证、价格和毛利率。",
+            "monitorEn": "Monitor cloud customer capex, AI networking orders, product qualification, pricing, and margins.",
+            "sourceIds": [
+              "mrvl-homepage",
+              "mrvl-sec-submissions"
+            ]
+          },
+          {
+            "condition": "技术路线被替代，或客户转向自研/其他供应商。",
+            "conditionZh": "技术路线被替代，或客户转向自研/其他供应商。",
+            "conditionEn": "The thesis weakens if architectures shift away or customers move to in-house/alternative suppliers.",
+            "monitor": "跟踪以太网/InfiniBand/CPO/光模块路线、客户披露和竞争对手订单。",
+            "monitorZh": "跟踪以太网/InfiniBand/CPO/光模块路线、客户披露和竞争对手订单。",
+            "monitorEn": "Monitor Ethernet/InfiniBand/CPO/optics roadmaps, customer disclosures, and competitor orders.",
+            "sourceIds": [
+              "mrvl-homepage",
+              "mrvl-sec-submissions"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "客户认证与云厂商资本开支",
+        "nameZh": "客户认证与云厂商资本开支",
+        "nameEn": "Customer qualification and hyperscaler capex",
+        "rank": 2,
+        "constraintType": "customer-demand",
+        "constraintTypeZh": "客户需求",
+        "constraintTypeEn": "Customer demand",
+        "whyScarce": "云客户采购节奏和产品认证决定网络设备/芯片收入兑现。",
+        "whyScarceZh": "云客户采购节奏和产品认证决定网络设备/芯片收入兑现。",
+        "whyScarceEn": "Cloud customer procurement cadence and product qualification determine networking equipment/silicon revenue conversion.",
+        "relatedCompanies": [
+          "Marvell Technology / 美满电子"
+        ],
+        "evidenceLevel": "medium",
+        "confidence": "medium",
+        "sourceIds": [
+          "mrvl-homepage",
+          "mrvl-sec-submissions"
+        ],
+        "failureConditions": [
+          {
+            "condition": "AI 集群网络、光互连或高速交换需求低于公司披露趋势。",
+            "conditionZh": "AI 集群网络、光互连或高速交换需求低于公司披露趋势。",
+            "conditionEn": "The thesis weakens if AI cluster networking, optical interconnect, or high-speed switching demand falls below company-disclosed trends.",
+            "monitor": "跟踪云客户资本开支、AI 网络订单、产品认证、价格和毛利率。",
+            "monitorZh": "跟踪云客户资本开支、AI 网络订单、产品认证、价格和毛利率。",
+            "monitorEn": "Monitor cloud customer capex, AI networking orders, product qualification, pricing, and margins.",
+            "sourceIds": [
+              "mrvl-homepage",
+              "mrvl-sec-submissions"
+            ]
+          },
+          {
+            "condition": "技术路线被替代，或客户转向自研/其他供应商。",
+            "conditionZh": "技术路线被替代，或客户转向自研/其他供应商。",
+            "conditionEn": "The thesis weakens if architectures shift away or customers move to in-house/alternative suppliers.",
+            "monitor": "跟踪以太网/InfiniBand/CPO/光模块路线、客户披露和竞争对手订单。",
+            "monitorZh": "跟踪以太网/InfiniBand/CPO/光模块路线、客户披露和竞争对手订单。",
+            "monitorEn": "Monitor Ethernet/InfiniBand/CPO/optics roadmaps, customer disclosures, and competitor orders.",
+            "sourceIds": [
+              "mrvl-homepage",
+              "mrvl-sec-submissions"
+            ]
+          }
+        ]
+      }
+    ],
+    "tiers": [
+      {
+        "level": 0,
+        "title": "Target company",
+        "titleZh": "目标公司",
+        "titleEn": "Target company",
+        "companies": [
+          "Marvell Technology / 美满电子"
+        ],
+        "entities": [
+          {
+            "name": "Marvell Technology / 美满电子",
+            "nameZh": "Marvell Technology / 美满电子",
+            "nameEn": "Marvell Technology, Inc.",
+            "relationship": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipZh": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipEn": "Target company; this page maps its NVIDIA-related supply-chain position.",
+            "productsServices": [
+              "数据中心芯片 / data-center silicon",
+              "网络与存储芯片 / networking and storage chips",
+              "定制芯片 / custom silicon"
+            ],
+            "productsServicesZh": [
+              "数据中心芯片 / data-center silicon",
+              "网络与存储芯片 / networking and storage chips",
+              "定制芯片 / custom silicon"
+            ],
+            "productsServicesEn": [
+              "数据中心芯片 / data-center silicon",
+              "网络与存储芯片 / networking and storage chips",
+              "定制芯片 / custom silicon"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "MRVL",
+              "exchange": "NASDAQ",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/mrvl"
+            },
+            "confidence": "high",
+            "sourceIds": [
+              "mrvl-homepage",
+              "mrvl-nasdaq-quote"
+            ],
+            "companyUrl": "https://www.marvell.com/",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "目标公司",
+              "labelZh": "目标公司",
+              "labelEn": "Target company",
+              "direction": "target",
+              "rationale": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleZh": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleEn": "The target company itself, used as the reference point for this supply-chain analysis.",
+              "confidence": "high"
+            }
+          }
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "高速交换芯片和 SerDes IP",
+          "光器件、激光器和光纤材料",
+          "高端 PCB、连接器和电源材料"
+        ],
+        "materialsZh": [
+          "高速交换芯片和 SerDes IP",
+          "光器件、激光器和光纤材料",
+          "高端 PCB、连接器和电源材料"
+        ],
+        "materialsEn": [
+          "High-speed switching silicon and SerDes IP",
+          "Optical components, lasers, and fiber materials",
+          "High-end PCBs, connectors, and power materials"
+        ],
+        "notes": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesZh": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesEn": "Target company itself; listed ticker and quote link reviewed.",
+        "confidence": "high",
+        "sourceIds": [
+          "mrvl-homepage",
+          "mrvl-nasdaq-quote"
+        ]
+      },
+      {
+        "level": 1,
+        "title": "Key upstream inputs",
+        "titleZh": "关键上游投入",
+        "titleEn": "Key upstream inputs",
+        "companies": [
+          "NVIDIA and accelerator platforms / NVIDIA 与加速计算平台",
+          "Cloud and data-center customers / 云与数据中心客户"
+        ],
+        "entities": [
+          {
+            "name": "NVIDIA and accelerator platforms / NVIDIA 与加速计算平台",
+            "nameZh": "NVIDIA 与加速计算平台",
+            "nameEn": "NVIDIA and accelerator platforms",
+            "relationship": "GPU 集群扩张带来高速网络、光互连、交换芯片和云网络需求。",
+            "relationshipZh": "GPU 集群扩张带来高速网络、光互连、交换芯片和云网络需求。",
+            "relationshipEn": "GPU cluster expansion drives demand for high-speed networking, optical interconnects, switching silicon, and cloud networking.",
+            "productsServices": [
+              "GPU 集群互连",
+              "以太网交换",
+              "光互连"
+            ],
+            "productsServicesZh": [
+              "GPU 集群互连",
+              "以太网交换",
+              "光互连"
+            ],
+            "productsServicesEn": [
+              "GPU cluster interconnect",
+              "Ethernet switching",
+              "optical interconnect"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "NVDA",
+              "exchange": "NASDAQ",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/nvda"
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "nvidia-10k-2026",
+              "nvidia-rtx-pro-systems-2025"
+            ],
+            "companyUrl": "https://www.nvidia.com/",
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "direct-supplier",
+              "rationale": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleZh": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleEn": "NVIDIA platforms are a key input for this company's AI server or GPU-cloud capacity, so supply changes directly affect delivery.",
+              "confidence": "medium"
+            }
+          },
+          {
+            "name": "Cloud and data-center customers / 云与数据中心客户",
+            "nameZh": "云与数据中心客户",
+            "nameEn": "Cloud and data-center customers",
+            "relationship": "大规模训练和推理集群需要高速网络、光模块和数据中心互连。",
+            "relationshipZh": "大规模训练和推理集群需要高速网络、光模块和数据中心互连。",
+            "relationshipEn": "Large training and inference clusters require high-speed networking, optical modules, and data-center interconnects.",
+            "productsServices": [
+              "云网络",
+              "数据中心互连",
+              "AI 集群网络"
+            ],
+            "productsServicesZh": [
+              "云网络",
+              "数据中心互连",
+              "AI 集群网络"
+            ],
+            "productsServicesEn": [
+              "cloud networking",
+              "data-center interconnect",
+              "AI cluster networking"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "客户群体分散，需继续拆解具体客户。",
+              "noteZh": "客户群体分散，需继续拆解具体客户。",
+              "noteEn": "Customer base is broad and requires further customer-level review."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "mrvl-homepage"
+            ],
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "direct-supplier",
+              "rationale": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleZh": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleEn": "NVIDIA platforms are a key input for this company's AI server or GPU-cloud capacity, so supply changes directly affect delivery.",
+              "confidence": "medium"
+            }
+          }
+        ],
+        "geography": [
+          "US",
+          "Europe",
+          "Asia"
+        ],
+        "materials": [
+          "高速交换芯片和 SerDes IP",
+          "光器件、激光器和光纤材料",
+          "高端 PCB、连接器和电源材料"
+        ],
+        "materialsZh": [
+          "高速交换芯片和 SerDes IP",
+          "光器件、激光器和光纤材料",
+          "高端 PCB、连接器和电源材料"
+        ],
+        "materialsEn": [
+          "High-speed switching silicon and SerDes IP",
+          "Optical components, lasers, and fiber materials",
+          "High-end PCBs, connectors, and power materials"
+        ],
+        "notes": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesZh": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesEn": "Lists the most important upstream inputs for NVIDIA-related business; exact purchase shares require further manual work.",
+        "confidence": "medium",
+        "sourceIds": [
+          "mrvl-homepage",
+          "nvidia-10k-2026"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "高速交换芯片和 SerDes IP",
+        "nameZh": "高速交换芯片和 SerDes IP",
+        "nameEn": "High-speed switching silicon and SerDes IP",
+        "usedIn": "用于 AI 数据中心交换、路由和高速互连。",
+        "usedInZh": "用于 AI 数据中心交换、路由和高速互连。",
+        "usedInEn": "Used in AI data-center switching, routing, and high-speed interconnects.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "光器件、激光器和光纤材料",
+        "nameZh": "光器件、激光器和光纤材料",
+        "nameEn": "Optical components, lasers, and fiber materials",
+        "usedIn": "用于光模块、数据中心光互连和长距离通信。",
+        "usedInZh": "用于光模块、数据中心光互连和长距离通信。",
+        "usedInEn": "Used in optical modules, data-center optical interconnects, and long-haul communications.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "高端 PCB、连接器和电源材料",
+        "nameZh": "高端 PCB、连接器和电源材料",
+        "nameEn": "High-end PCBs, connectors, and power materials",
+        "usedIn": "用于交换机、光模块、服务器和机柜互连。",
+        "usedInZh": "用于交换机、光模块、服务器和机柜互连。",
+        "usedInEn": "Used in switches, optical modules, servers, and rack interconnects.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      }
+    ],
+    "downstream": {
+      "updatedAt": "2026-06-14T12:00:00+08:00",
+      "thesis": "AI 集群扩张推动高速网络、光互连和定制芯片需求，Marvell 与 NVIDIA 生态更多是并行受益和部分互补。 / AI cluster expansion drives high-speed networking, optical interconnect, and custom silicon demand; Marvell benefits alongside and partly complements the NVIDIA ecosystem.",
+      "thesisZh": "AI 集群扩张推动高速网络、光互连和定制芯片需求，Marvell 与 NVIDIA 生态更多是并行受益和部分互补。",
+      "thesisEn": "AI cluster expansion drives high-speed networking, optical interconnect, and custom silicon demand; Marvell benefits alongside and partly complements the NVIDIA ecosystem.",
+      "tiers": [
+        {
+          "level": 1,
+          "title": "NVIDIA-related demand path",
+          "titleZh": "英伟达相关需求路径",
+          "titleEn": "NVIDIA-related demand path",
+          "entities": [
+            {
+              "name": "Hyperscale AI data centers / 超大规模 AI 数据中心",
+              "nameZh": "超大规模 AI 数据中心",
+              "nameEn": "Hyperscale AI data centers",
+              "relationship": "购买高速网络、交换、光互连或相关芯片，把 GPU 集群连接成可训练和可推理的系统。",
+              "relationshipZh": "购买高速网络、交换、光互连或相关芯片，把 GPU 集群连接成可训练和可推理的系统。",
+              "relationshipEn": "Buy high-speed networking, switching, optical interconnects, or related silicon to connect GPU clusters into trainable and inferable systems.",
+              "productsServices": [
+                "AI 集群网络",
+                "数据中心互连",
+                "高速光通信"
+              ],
+              "productsServicesZh": [
+                "AI 集群网络",
+                "数据中心互连",
+                "高速光通信"
+              ],
+              "productsServicesEn": [
+                "AI cluster networking",
+                "data-center interconnect",
+                "high-speed optical communications"
+              ],
+              "listing": {
+                "status": "unknown",
+                "note": "具体客户需从公司披露和客户资本开支继续核实。",
+                "noteZh": "具体客户需从公司披露和客户资本开支继续核实。",
+                "noteEn": "Specific customers require verification through company disclosures and customer capex."
+              },
+              "confidence": "medium",
+              "sourceIds": [
+                "mrvl-homepage",
+                "nvidia-rtx-pro-systems-2025"
+              ],
+              "customerRole": "AI 网络客户 / 算力互连需求方",
+              "customerRoleZh": "AI 网络客户 / 算力互连需求方",
+              "customerRoleEn": "AI networking customer / compute-interconnect demand source",
+              "relationshipStrength": {
+                "score": 3,
+                "label": "中相关",
+                "labelZh": "中相关",
+                "labelEn": "Moderate relevance",
+                "direction": "indirect-demand",
+                "rationale": "NVIDIA 需求通过晶圆厂、存储厂或封装投资间接传导，不等同于直接采购关系。",
+                "rationaleZh": "NVIDIA 需求通过晶圆厂、存储厂或封装投资间接传导，不等同于直接采购关系。",
+                "rationaleEn": "NVIDIA demand transmits indirectly through foundry, memory, or packaging investment and is not the same as a direct purchasing relationship.",
+                "confidence": "medium"
+              }
+            }
+          ],
+          "notes": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesZh": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesEn": "This layer explains how the target company functions as NVIDIA's upstream supplier, partner, customer, or indirect demand beneficiary.",
+          "confidence": "medium",
+          "sourceIds": [
+            "mrvl-homepage",
+            "nvidia-10k-2026"
+          ]
+        }
+      ]
+    }
+  },
+  "financials": {
+    "latestPeriod": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "latestPeriodZh": "使用 SEC companyfacts 中的最新可核对候选；年度基准来自最近审计年报。",
+    "latestPeriodEn": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "highlights": [
+      {
+        "label": "Q1 FY2027 revenue",
+        "labelZh": "2027 财年第 1 财季 收入",
+        "labelEn": "Q1 FY2027 revenue",
+        "value": 2.418,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-05-02",
+        "periodZh": "截至 2026-05-02 的季度",
+        "periodEn": "Quarter ended 2026-05-02",
+        "sourceIds": [
+          "mrvl-sec-companyfacts"
+        ],
+        "change": "+27.6% vs prior comparable period",
+        "changeZh": "较上一可比期间 +27.6%",
+        "changeEn": "+27.6% vs prior comparable period"
+      },
+      {
+        "label": "Q1 FY2027 net income / loss",
+        "labelZh": "2027 财年第 1 财季 净利润 / 净亏损",
+        "labelEn": "Q1 FY2027 net income / loss",
+        "value": 0.035,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-05-02",
+        "periodZh": "截至 2026-05-02 的季度",
+        "periodEn": "Quarter ended 2026-05-02",
+        "sourceIds": [
+          "mrvl-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q1 FY2027 total assets",
+        "labelZh": "2027 财年第 1 财季 总资产",
+        "labelEn": "Q1 FY2027 total assets",
+        "value": 26.945,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-05-02",
+        "periodZh": "截至 2026-05-02 的季度",
+        "periodEn": "Quarter ended 2026-05-02",
+        "sourceIds": [
+          "mrvl-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q1 FY2027 operating cash flow",
+        "labelZh": "2027 财年第 1 财季 经营现金流",
+        "labelEn": "Q1 FY2027 operating cash flow",
+        "value": 0.639,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-05-02",
+        "periodZh": "截至 2026-05-02 的季度",
+        "periodEn": "Quarter ended 2026-05-02",
+        "sourceIds": [
+          "mrvl-sec-companyfacts"
+        ]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 8.195,
+        "unit": "USD billions",
+        "period": "FY2026",
+        "periodZh": "2026 财年",
+        "periodEn": "FY2026",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "mrvl-sec-companyfacts"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "id": "annual-revenue",
+        "label": "Annual revenue",
+        "labelZh": "年度收入",
+        "labelEn": "Annual revenue",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "mrvl-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 5.92,
+            "sourceIds": [
+              "mrvl-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 5.508,
+            "sourceIds": [
+              "mrvl-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 5.767,
+            "sourceIds": [
+              "mrvl-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2026",
+            "periodZh": "2026 财年",
+            "periodEn": "FY2026",
+            "value": 8.195,
+            "sourceIds": [
+              "mrvl-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-net-income",
+        "label": "Annual net income / loss",
+        "labelZh": "年度净利润 / 净亏损",
+        "labelEn": "Annual net income / loss",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "mrvl-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": -0.164,
+            "sourceIds": [
+              "mrvl-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": -0.933,
+            "sourceIds": [
+              "mrvl-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": -0.885,
+            "sourceIds": [
+              "mrvl-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2026",
+            "periodZh": "2026 财年",
+            "periodEn": "FY2026",
+            "value": 2.67,
+            "sourceIds": [
+              "mrvl-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-assets",
+        "label": "Annual total assets",
+        "labelZh": "年度总资产",
+        "labelEn": "Annual total assets",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "mrvl-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 22.522,
+            "sourceIds": [
+              "mrvl-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 21.229,
+            "sourceIds": [
+              "mrvl-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 20.204,
+            "sourceIds": [
+              "mrvl-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2026",
+            "periodZh": "2026 财年",
+            "periodEn": "FY2026",
+            "value": 22.285,
+            "sourceIds": [
+              "mrvl-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenueMixHistory": [
+      {
+        "period": "FY2023",
+        "periodZh": "2023 财年",
+        "periodEn": "FY2023",
+        "totalRevenue": 5.92,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "mrvl-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 5.92,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "mrvl-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2024",
+        "periodZh": "2024 财年",
+        "periodEn": "FY2024",
+        "totalRevenue": 5.508,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "mrvl-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 5.508,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "mrvl-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "totalRevenue": 5.767,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "mrvl-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 5.767,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "mrvl-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2026",
+        "periodZh": "2026 财年",
+        "periodEn": "FY2026",
+        "totalRevenue": 8.195,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "mrvl-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 8.195,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "mrvl-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-06-25",
+      "title": "Recent SEC filing: 8-K",
+      "titleZh": "最新 SEC 文件：8-K",
+      "titleEn": "Recent SEC filing: 8-K",
+      "category": "SEC filing",
+      "categoryZh": "SEC 文件",
+      "categoryEn": "SEC filing",
+      "summary": "SEC submissions show a 8-K filed on 2026-06-25; report date 2026-06-25.",
+      "summaryZh": "SEC submissions 显示公司于 2026-06-25 提交 8-K；报告期为 2026-06-25。",
+      "summaryEn": "SEC submissions show a 8-K filed on 2026-06-25; report date 2026-06-25.",
+      "impact": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "impactZh": "作为本批次最新公开文件检查点；每日定时刷新仍未启用。",
+      "impactEn": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "sourceIds": [
+        "mrvl-sec-submissions"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "8-K",
+      "filedAt": "2026-06-25",
+      "reportDate": "2026-06-25",
+      "title": "8-K filed 2026-06-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/1835632/000162828026045564/mrvl-20260625.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-06-11",
+      "reportDate": "2026-06-10",
+      "title": "8-K filed 2026-06-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526267688/d151562d8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-05-28",
+      "reportDate": "2026-05-02",
+      "title": "10-Q filed 2026-05-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000019/mrvl-20260502.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-27",
+      "reportDate": "2026-05-27",
+      "title": "8-K filed 2026-05-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000014/mrvl-20260527.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-15",
+      "reportDate": "2026-04-15",
+      "title": "8-K filed 2026-04-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526157134/d123910d8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-31",
+      "reportDate": "2026-03-31",
+      "title": "8-K filed 2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526134462/d113606d8k.htm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "mrvl-homepage",
+      "title": "Marvell Technology / 美满电子 company website",
+      "titleZh": "Marvell Technology / 美满电子 公司官网",
+      "titleEn": "Marvell Technology / 美满电子 company website",
+      "publisher": "Marvell Technology / 美满电子",
+      "url": "https://www.marvell.com/",
+      "accessedAt": "2026-06-14",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "mrvl-sec-submissions",
+      "title": "MRVL SEC submissions",
+      "titleZh": "MRVL SEC submissions 数据",
+      "titleEn": "MRVL SEC submissions",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/submissions/CIK0001835632.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "mrvl-sec-companyfacts",
+      "title": "MRVL SEC companyfacts XBRL data",
+      "titleZh": "MRVL SEC companyfacts XBRL 数据",
+      "titleEn": "MRVL SEC companyfacts XBRL data",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001835632.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "mrvl-nasdaq-quote",
+      "title": "MRVL Nasdaq quote page",
+      "titleZh": "MRVL Nasdaq 行情页面",
+      "titleEn": "MRVL Nasdaq quote page",
+      "publisher": "Nasdaq",
+      "url": "https://www.nasdaq.com/market-activity/stocks/mrvl",
+      "accessedAt": "2026-06-14",
+      "type": "exchange",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "nvidia-10k-2026",
+      "title": "NVIDIA FY2026 Form 10-K",
+      "titleZh": "NVIDIA 2026 财年 10-K 年报",
+      "titleEn": "NVIDIA FY2026 Form 10-K",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "nvidia-rtx-pro-systems-2025",
+      "title": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "titleZh": "NVIDIA RTX PRO Blackwell 服务器进入企业系统生态",
+      "titleEn": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "publisher": "NVIDIA Investor Relations",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-RTX-PRO-Servers-With-Blackwell-Coming-to-Worlds-Most-Popular-Enterprise-Systems/",
+      "accessedAt": "2026-06-14",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0001835632",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K",
+        "20-F",
+        "6-K"
+      ]
+    },
+    "newsFeeds": [
+      {
+        "url": "https://www.marvell.com/",
+        "publisher": "Marvell Technology / 美满电子",
+        "sourceType": "company"
+      }
+    ]
+  },
+  "themeExposure": [
+    {
+      "theme": "AI 网络芯片与光互连",
+      "themeZh": "AI 网络芯片与光互连",
+      "themeEn": "AI networking silicon and optical interconnect",
+      "score": 4,
+      "role": "数据中心网络与定制芯片",
+      "roleZh": "数据中心网络与定制芯片",
+      "roleEn": "Data-center networking and custom silicon",
+      "rationale": "AI 集群扩张提升网络芯片、光互连 DSP 和定制芯片需求，Marvell 处于算力互连和定制硅层。",
+      "rationaleZh": "AI 集群扩张提升网络芯片、光互连 DSP 和定制芯片需求，Marvell 处于算力互连和定制硅层。",
+      "rationaleEn": "AI cluster expansion raises demand for networking silicon, optical-interconnect DSPs, and custom silicon, placing Marvell in the compute-interconnect and custom-silicon layer.",
+      "confidence": "medium"
+    }
+  ]
+}

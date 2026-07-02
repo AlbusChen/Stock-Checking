@@ -63,6 +63,72 @@
       "name": "中船特气",
       "enabled": true,
       "notes": "Tracked A-share company; CNINFO and exchange announcements are the primary automated sources."
+    },
+    {
+      "query": "ANET",
+      "market": "US",
+      "enabled": true,
+      "notes": "AI infrastructure expansion theme: data-center networking and compute interconnect."
+    },
+    {
+      "query": "VRT",
+      "market": "US",
+      "enabled": true,
+      "notes": "AI infrastructure expansion theme: data-center power, cooling, racks, and liquid cooling."
+    },
+    {
+      "query": "PLTR",
+      "market": "US",
+      "enabled": true,
+      "notes": "AI infrastructure expansion theme: AI application and enterprise/government software layer."
+    },
+    {
+      "query": "ETN",
+      "market": "US",
+      "enabled": true,
+      "notes": "AI infrastructure expansion theme: electrical equipment and data-center power distribution."
+    },
+    {
+      "query": "GEV",
+      "market": "US",
+      "enabled": true,
+      "notes": "AI infrastructure expansion theme: power generation, grid equipment, and electrification."
+    },
+    {
+      "query": "PWR",
+      "market": "US",
+      "enabled": true,
+      "notes": "AI infrastructure expansion theme: grid engineering, utility services, and power interconnection."
+    },
+    {
+      "query": "MOD",
+      "market": "US",
+      "enabled": true,
+      "notes": "AI infrastructure expansion theme: data-center cooling and thermal management."
+    },
+    {
+      "query": "NVT",
+      "market": "US",
+      "enabled": true,
+      "notes": "AI infrastructure expansion theme: electrical connection, enclosures, and thermal support."
+    },
+    {
+      "query": "MRVL",
+      "market": "US",
+      "enabled": true,
+      "notes": "AI infrastructure expansion theme: networking silicon, optical interconnect, and custom silicon."
+    },
+    {
+      "query": "COHR",
+      "market": "US",
+      "enabled": true,
+      "notes": "AI infrastructure expansion theme: optical components, photonics, and data-center optics."
+    },
+    {
+      "query": "LITE",
+      "market": "US",
+      "enabled": true,
+      "notes": "AI infrastructure expansion theme: optical communications and laser components."
     }
   ]
 }

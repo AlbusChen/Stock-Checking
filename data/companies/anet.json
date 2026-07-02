@@ -1,0 +1,1051 @@
+{
+  "schemaVersion": 1,
+  "id": "anet",
+  "ticker": "ANET",
+  "exchange": "NYSE",
+  "market": "US",
+  "name": "Arista Networks / Arista 网络",
+  "legalName": "Arista Networks, Inc.",
+  "cik": "0001596532",
+  "currency": "USD",
+  "sector": "Cloud networking / 云与数据中心网络",
+  "industry": [
+    "Cloud networking",
+    "Ethernet switching",
+    "AI data-center networking",
+    "云网络",
+    "以太网交换",
+    "AI 数据中心网络"
+  ],
+  "homepage": "https://www.arista.com/",
+  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "summary": "Arista Networks 提供云和 AI 数据中心以太网交换平台，处于 GPU 集群从单机算力走向大规模网络互连的关键环节。 / Arista Networks provides cloud and AI data-center Ethernet switching platforms, sitting in the key interconnect layer as GPU clusters scale from single-node compute to large fabrics.",
+  "summaryZh": "Arista Networks 提供云和 AI 数据中心以太网交换平台，处于 GPU 集群从单机算力走向大规模网络互连的关键环节。",
+  "summaryEn": "Arista Networks provides cloud and AI data-center Ethernet switching platforms, sitting in the key interconnect layer as GPU clusters scale from single-node compute to large fabrics.",
+  "aliases": [
+    "ANET",
+    "Arista Networks / Arista 网络",
+    "Arista Networks, Inc.",
+    "Arista Networks, Inc."
+  ],
+  "labels": [
+    "科技",
+    "网络设备",
+    "数据中心网络",
+    "算力网络",
+    "AI基础设施",
+    "AI基建扩展",
+    "英伟达相关",
+    "美股"
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "description": "公司设计、销售和支持数据中心、云、AI、园区和路由网络的高速交换、路由、软件和自动化平台。 / The company designs, sells, and supports high-speed switching, routing, software, and automation platforms for data-center, cloud, AI, campus, and routing networks.",
+    "descriptionZh": "公司设计、销售和支持数据中心、云、AI、园区和路由网络的高速交换、路由、软件和自动化平台。",
+    "descriptionEn": "The company designs, sells, and supports high-speed switching, routing, software, and automation platforms for data-center, cloud, AI, campus, and routing networks.",
+    "revenueModel": [
+      "云网络交换平台 / cloud switching platforms",
+      "路由与软件 / routing and software",
+      "服务与支持 / service and support"
+    ],
+    "segments": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 9.006,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "anet-sec-companyfacts"
+        ]
+      }
+    ],
+    "thesis": "AI 集群扩张会把瓶颈从单颗 GPU 延伸到东西向流量、以太网交换、延迟和网络可靠性，Arista 是这一层的代表性美股公司。 / AI cluster expansion extends bottlenecks from individual GPUs to east-west traffic, Ethernet switching, latency, and network reliability, making Arista a representative US-listed company in this layer.",
+    "thesisZh": "AI 集群扩张会把瓶颈从单颗 GPU 延伸到东西向流量、以太网交换、延迟和网络可靠性，Arista 是这一层的代表性美股公司。",
+    "thesisEn": "AI cluster expansion extends bottlenecks from individual GPUs to east-west traffic, Ethernet switching, latency, and network reliability, making Arista a representative US-listed company in this layer.",
+    "riskNotes": [
+      "云大客户资本开支、以太网与专用互连路线竞争会影响订单节奏。 / Hyperscaler capex and competition between Ethernet and proprietary fabrics can affect order timing.",
+      "客户集中和 AI 网络产品迭代可能放大收入波动。 / Customer concentration and AI networking product transitions can amplify revenue volatility."
+    ],
+    "failureConditions": [
+      {
+        "condition": "AI 集群网络、光互连或高速交换需求低于公司披露趋势。",
+        "conditionZh": "AI 集群网络、光互连或高速交换需求低于公司披露趋势。",
+        "conditionEn": "The thesis weakens if AI cluster networking, optical interconnect, or high-speed switching demand falls below company-disclosed trends.",
+        "monitor": "跟踪云客户资本开支、AI 网络订单、产品认证、价格和毛利率。",
+        "monitorZh": "跟踪云客户资本开支、AI 网络订单、产品认证、价格和毛利率。",
+        "monitorEn": "Monitor cloud customer capex, AI networking orders, product qualification, pricing, and margins.",
+        "sourceIds": [
+          "anet-homepage",
+          "anet-sec-submissions"
+        ]
+      },
+      {
+        "condition": "技术路线被替代，或客户转向自研/其他供应商。",
+        "conditionZh": "技术路线被替代，或客户转向自研/其他供应商。",
+        "conditionEn": "The thesis weakens if architectures shift away or customers move to in-house/alternative suppliers.",
+        "monitor": "跟踪以太网/InfiniBand/CPO/光模块路线、客户披露和竞争对手订单。",
+        "monitorZh": "跟踪以太网/InfiniBand/CPO/光模块路线、客户披露和竞争对手订单。",
+        "monitorEn": "Monitor Ethernet/InfiniBand/CPO/optics roadmaps, customer disclosures, and competitor orders.",
+        "sourceIds": [
+          "anet-homepage",
+          "anet-sec-submissions"
+        ]
+      }
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-14T12:00:00+08:00",
+    "thesis": "AI 集群扩张会把瓶颈从单颗 GPU 延伸到东西向流量、以太网交换、延迟和网络可靠性，Arista 是这一层的代表性美股公司。 / AI cluster expansion extends bottlenecks from individual GPUs to east-west traffic, Ethernet switching, latency, and network reliability, making Arista a representative US-listed company in this layer.",
+    "thesisZh": "AI 集群扩张会把瓶颈从单颗 GPU 延伸到东西向流量、以太网交换、延迟和网络可靠性，Arista 是这一层的代表性美股公司。",
+    "thesisEn": "AI cluster expansion extends bottlenecks from individual GPUs to east-west traffic, Ethernet switching, latency, and network reliability, making Arista a representative US-listed company in this layer.",
+    "scarceLayers": [
+      {
+        "name": "AI 集群高速网络",
+        "nameZh": "AI 集群高速网络",
+        "nameEn": "High-speed AI cluster networking",
+        "rank": 1,
+        "constraintType": "technology",
+        "constraintTypeZh": "技术",
+        "constraintTypeEn": "Technology",
+        "whyScarce": "多 GPU 集群扩张提高东西向流量、交换芯片、SerDes 和网络软件的重要性。",
+        "whyScarceZh": "多 GPU 集群扩张提高东西向流量、交换芯片、SerDes 和网络软件的重要性。",
+        "whyScarceEn": "Multi-GPU cluster expansion raises the importance of east-west traffic, switching silicon, SerDes, and network software.",
+        "relatedCompanies": [
+          "Arista Networks / Arista 网络"
+        ],
+        "evidenceLevel": "medium",
+        "confidence": "medium",
+        "sourceIds": [
+          "anet-homepage",
+          "anet-sec-submissions"
+        ],
+        "failureConditions": [
+          {
+            "condition": "AI 集群网络、光互连或高速交换需求低于公司披露趋势。",
+            "conditionZh": "AI 集群网络、光互连或高速交换需求低于公司披露趋势。",
+            "conditionEn": "The thesis weakens if AI cluster networking, optical interconnect, or high-speed switching demand falls below company-disclosed trends.",
+            "monitor": "跟踪云客户资本开支、AI 网络订单、产品认证、价格和毛利率。",
+            "monitorZh": "跟踪云客户资本开支、AI 网络订单、产品认证、价格和毛利率。",
+            "monitorEn": "Monitor cloud customer capex, AI networking orders, product qualification, pricing, and margins.",
+            "sourceIds": [
+              "anet-homepage",
+              "anet-sec-submissions"
+            ]
+          },
+          {
+            "condition": "技术路线被替代，或客户转向自研/其他供应商。",
+            "conditionZh": "技术路线被替代，或客户转向自研/其他供应商。",
+            "conditionEn": "The thesis weakens if architectures shift away or customers move to in-house/alternative suppliers.",
+            "monitor": "跟踪以太网/InfiniBand/CPO/光模块路线、客户披露和竞争对手订单。",
+            "monitorZh": "跟踪以太网/InfiniBand/CPO/光模块路线、客户披露和竞争对手订单。",
+            "monitorEn": "Monitor Ethernet/InfiniBand/CPO/optics roadmaps, customer disclosures, and competitor orders.",
+            "sourceIds": [
+              "anet-homepage",
+              "anet-sec-submissions"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "客户认证与云厂商资本开支",
+        "nameZh": "客户认证与云厂商资本开支",
+        "nameEn": "Customer qualification and hyperscaler capex",
+        "rank": 2,
+        "constraintType": "customer-demand",
+        "constraintTypeZh": "客户需求",
+        "constraintTypeEn": "Customer demand",
+        "whyScarce": "云客户采购节奏和产品认证决定网络设备/芯片收入兑现。",
+        "whyScarceZh": "云客户采购节奏和产品认证决定网络设备/芯片收入兑现。",
+        "whyScarceEn": "Cloud customer procurement cadence and product qualification determine networking equipment/silicon revenue conversion.",
+        "relatedCompanies": [
+          "Arista Networks / Arista 网络"
+        ],
+        "evidenceLevel": "medium",
+        "confidence": "medium",
+        "sourceIds": [
+          "anet-homepage",
+          "anet-sec-submissions"
+        ],
+        "failureConditions": [
+          {
+            "condition": "AI 集群网络、光互连或高速交换需求低于公司披露趋势。",
+            "conditionZh": "AI 集群网络、光互连或高速交换需求低于公司披露趋势。",
+            "conditionEn": "The thesis weakens if AI cluster networking, optical interconnect, or high-speed switching demand falls below company-disclosed trends.",
+            "monitor": "跟踪云客户资本开支、AI 网络订单、产品认证、价格和毛利率。",
+            "monitorZh": "跟踪云客户资本开支、AI 网络订单、产品认证、价格和毛利率。",
+            "monitorEn": "Monitor cloud customer capex, AI networking orders, product qualification, pricing, and margins.",
+            "sourceIds": [
+              "anet-homepage",
+              "anet-sec-submissions"
+            ]
+          },
+          {
+            "condition": "技术路线被替代，或客户转向自研/其他供应商。",
+            "conditionZh": "技术路线被替代，或客户转向自研/其他供应商。",
+            "conditionEn": "The thesis weakens if architectures shift away or customers move to in-house/alternative suppliers.",
+            "monitor": "跟踪以太网/InfiniBand/CPO/光模块路线、客户披露和竞争对手订单。",
+            "monitorZh": "跟踪以太网/InfiniBand/CPO/光模块路线、客户披露和竞争对手订单。",
+            "monitorEn": "Monitor Ethernet/InfiniBand/CPO/optics roadmaps, customer disclosures, and competitor orders.",
+            "sourceIds": [
+              "anet-homepage",
+              "anet-sec-submissions"
+            ]
+          }
+        ]
+      }
+    ],
+    "tiers": [
+      {
+        "level": 0,
+        "title": "Target company",
+        "titleZh": "目标公司",
+        "titleEn": "Target company",
+        "companies": [
+          "Arista Networks / Arista 网络"
+        ],
+        "entities": [
+          {
+            "name": "Arista Networks / Arista 网络",
+            "nameZh": "Arista Networks / Arista 网络",
+            "nameEn": "Arista Networks, Inc.",
+            "relationship": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipZh": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipEn": "Target company; this page maps its NVIDIA-related supply-chain position.",
+            "productsServices": [
+              "云网络交换平台 / cloud switching platforms",
+              "路由与软件 / routing and software",
+              "服务与支持 / service and support"
+            ],
+            "productsServicesZh": [
+              "云网络交换平台 / cloud switching platforms",
+              "路由与软件 / routing and software",
+              "服务与支持 / service and support"
+            ],
+            "productsServicesEn": [
+              "云网络交换平台 / cloud switching platforms",
+              "路由与软件 / routing and software",
+              "服务与支持 / service and support"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "ANET",
+              "exchange": "NYSE",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/anet"
+            },
+            "confidence": "high",
+            "sourceIds": [
+              "anet-homepage",
+              "anet-nasdaq-quote"
+            ],
+            "companyUrl": "https://www.arista.com/",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "目标公司",
+              "labelZh": "目标公司",
+              "labelEn": "Target company",
+              "direction": "target",
+              "rationale": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleZh": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleEn": "The target company itself, used as the reference point for this supply-chain analysis.",
+              "confidence": "high"
+            }
+          }
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "高速交换芯片和 SerDes IP",
+          "光器件、激光器和光纤材料",
+          "高端 PCB、连接器和电源材料"
+        ],
+        "materialsZh": [
+          "高速交换芯片和 SerDes IP",
+          "光器件、激光器和光纤材料",
+          "高端 PCB、连接器和电源材料"
+        ],
+        "materialsEn": [
+          "High-speed switching silicon and SerDes IP",
+          "Optical components, lasers, and fiber materials",
+          "High-end PCBs, connectors, and power materials"
+        ],
+        "notes": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesZh": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesEn": "Target company itself; listed ticker and quote link reviewed.",
+        "confidence": "high",
+        "sourceIds": [
+          "anet-homepage",
+          "anet-nasdaq-quote"
+        ]
+      },
+      {
+        "level": 1,
+        "title": "Key upstream inputs",
+        "titleZh": "关键上游投入",
+        "titleEn": "Key upstream inputs",
+        "companies": [
+          "NVIDIA and accelerator platforms / NVIDIA 与加速计算平台",
+          "Cloud and data-center customers / 云与数据中心客户"
+        ],
+        "entities": [
+          {
+            "name": "NVIDIA and accelerator platforms / NVIDIA 与加速计算平台",
+            "nameZh": "NVIDIA 与加速计算平台",
+            "nameEn": "NVIDIA and accelerator platforms",
+            "relationship": "GPU 集群扩张带来高速网络、光互连、交换芯片和云网络需求。",
+            "relationshipZh": "GPU 集群扩张带来高速网络、光互连、交换芯片和云网络需求。",
+            "relationshipEn": "GPU cluster expansion drives demand for high-speed networking, optical interconnects, switching silicon, and cloud networking.",
+            "productsServices": [
+              "GPU 集群互连",
+              "以太网交换",
+              "光互连"
+            ],
+            "productsServicesZh": [
+              "GPU 集群互连",
+              "以太网交换",
+              "光互连"
+            ],
+            "productsServicesEn": [
+              "GPU cluster interconnect",
+              "Ethernet switching",
+              "optical interconnect"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "NVDA",
+              "exchange": "NASDAQ",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/nvda"
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "nvidia-10k-2026",
+              "nvidia-rtx-pro-systems-2025"
+            ],
+            "companyUrl": "https://www.nvidia.com/",
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "direct-supplier",
+              "rationale": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleZh": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleEn": "NVIDIA platforms are a key input for this company's AI server or GPU-cloud capacity, so supply changes directly affect delivery.",
+              "confidence": "medium"
+            }
+          },
+          {
+            "name": "Cloud and data-center customers / 云与数据中心客户",
+            "nameZh": "云与数据中心客户",
+            "nameEn": "Cloud and data-center customers",
+            "relationship": "大规模训练和推理集群需要高速网络、光模块和数据中心互连。",
+            "relationshipZh": "大规模训练和推理集群需要高速网络、光模块和数据中心互连。",
+            "relationshipEn": "Large training and inference clusters require high-speed networking, optical modules, and data-center interconnects.",
+            "productsServices": [
+              "云网络",
+              "数据中心互连",
+              "AI 集群网络"
+            ],
+            "productsServicesZh": [
+              "云网络",
+              "数据中心互连",
+              "AI 集群网络"
+            ],
+            "productsServicesEn": [
+              "cloud networking",
+              "data-center interconnect",
+              "AI cluster networking"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "客户群体分散，需继续拆解具体客户。",
+              "noteZh": "客户群体分散，需继续拆解具体客户。",
+              "noteEn": "Customer base is broad and requires further customer-level review."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "anet-homepage"
+            ],
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "direct-supplier",
+              "rationale": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleZh": "NVIDIA 平台是该公司 AI 服务器或 GPU 云能力的关键投入，供给变化会直接影响交付。",
+              "rationaleEn": "NVIDIA platforms are a key input for this company's AI server or GPU-cloud capacity, so supply changes directly affect delivery.",
+              "confidence": "medium"
+            }
+          }
+        ],
+        "geography": [
+          "US",
+          "Europe",
+          "Asia"
+        ],
+        "materials": [
+          "高速交换芯片和 SerDes IP",
+          "光器件、激光器和光纤材料",
+          "高端 PCB、连接器和电源材料"
+        ],
+        "materialsZh": [
+          "高速交换芯片和 SerDes IP",
+          "光器件、激光器和光纤材料",
+          "高端 PCB、连接器和电源材料"
+        ],
+        "materialsEn": [
+          "High-speed switching silicon and SerDes IP",
+          "Optical components, lasers, and fiber materials",
+          "High-end PCBs, connectors, and power materials"
+        ],
+        "notes": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesZh": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesEn": "Lists the most important upstream inputs for NVIDIA-related business; exact purchase shares require further manual work.",
+        "confidence": "medium",
+        "sourceIds": [
+          "anet-homepage",
+          "nvidia-10k-2026"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "高速交换芯片和 SerDes IP",
+        "nameZh": "高速交换芯片和 SerDes IP",
+        "nameEn": "High-speed switching silicon and SerDes IP",
+        "usedIn": "用于 AI 数据中心交换、路由和高速互连。",
+        "usedInZh": "用于 AI 数据中心交换、路由和高速互连。",
+        "usedInEn": "Used in AI data-center switching, routing, and high-speed interconnects.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "光器件、激光器和光纤材料",
+        "nameZh": "光器件、激光器和光纤材料",
+        "nameEn": "Optical components, lasers, and fiber materials",
+        "usedIn": "用于光模块、数据中心光互连和长距离通信。",
+        "usedInZh": "用于光模块、数据中心光互连和长距离通信。",
+        "usedInEn": "Used in optical modules, data-center optical interconnects, and long-haul communications.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "高端 PCB、连接器和电源材料",
+        "nameZh": "高端 PCB、连接器和电源材料",
+        "nameEn": "High-end PCBs, connectors, and power materials",
+        "usedIn": "用于交换机、光模块、服务器和机柜互连。",
+        "usedInZh": "用于交换机、光模块、服务器和机柜互连。",
+        "usedInEn": "Used in switches, optical modules, servers, and rack interconnects.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      }
+    ],
+    "downstream": {
+      "updatedAt": "2026-06-14T12:00:00+08:00",
+      "thesis": "AI 集群扩张会把瓶颈从单颗 GPU 延伸到东西向流量、以太网交换、延迟和网络可靠性，Arista 是这一层的代表性美股公司。 / AI cluster expansion extends bottlenecks from individual GPUs to east-west traffic, Ethernet switching, latency, and network reliability, making Arista a representative US-listed company in this layer.",
+      "thesisZh": "AI 集群扩张会把瓶颈从单颗 GPU 延伸到东西向流量、以太网交换、延迟和网络可靠性，Arista 是这一层的代表性美股公司。",
+      "thesisEn": "AI cluster expansion extends bottlenecks from individual GPUs to east-west traffic, Ethernet switching, latency, and network reliability, making Arista a representative US-listed company in this layer.",
+      "tiers": [
+        {
+          "level": 1,
+          "title": "NVIDIA-related demand path",
+          "titleZh": "英伟达相关需求路径",
+          "titleEn": "NVIDIA-related demand path",
+          "entities": [
+            {
+              "name": "Hyperscale AI data centers / 超大规模 AI 数据中心",
+              "nameZh": "超大规模 AI 数据中心",
+              "nameEn": "Hyperscale AI data centers",
+              "relationship": "购买高速网络、交换、光互连或相关芯片，把 GPU 集群连接成可训练和可推理的系统。",
+              "relationshipZh": "购买高速网络、交换、光互连或相关芯片，把 GPU 集群连接成可训练和可推理的系统。",
+              "relationshipEn": "Buy high-speed networking, switching, optical interconnects, or related silicon to connect GPU clusters into trainable and inferable systems.",
+              "productsServices": [
+                "AI 集群网络",
+                "数据中心互连",
+                "高速光通信"
+              ],
+              "productsServicesZh": [
+                "AI 集群网络",
+                "数据中心互连",
+                "高速光通信"
+              ],
+              "productsServicesEn": [
+                "AI cluster networking",
+                "data-center interconnect",
+                "high-speed optical communications"
+              ],
+              "listing": {
+                "status": "unknown",
+                "note": "具体客户需从公司披露和客户资本开支继续核实。",
+                "noteZh": "具体客户需从公司披露和客户资本开支继续核实。",
+                "noteEn": "Specific customers require verification through company disclosures and customer capex."
+              },
+              "confidence": "medium",
+              "sourceIds": [
+                "anet-homepage",
+                "nvidia-rtx-pro-systems-2025"
+              ],
+              "customerRole": "AI 网络客户 / 算力互连需求方",
+              "customerRoleZh": "AI 网络客户 / 算力互连需求方",
+              "customerRoleEn": "AI networking customer / compute-interconnect demand source",
+              "relationshipStrength": {
+                "score": 3,
+                "label": "中相关",
+                "labelZh": "中相关",
+                "labelEn": "Moderate relevance",
+                "direction": "downstream-customer",
+                "rationale": "大型云或平台客户会影响需求预期，但传导链条位于采购和应用端，弱于供给瓶颈。",
+                "rationaleZh": "大型云或平台客户会影响需求预期，但传导链条位于采购和应用端，弱于供给瓶颈。",
+                "rationaleEn": "Large cloud or platform customers affect demand expectations, but the transmission sits on the purchasing and application side and is weaker than supply bottlenecks.",
+                "confidence": "medium"
+              }
+            }
+          ],
+          "notes": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesZh": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesEn": "This layer explains how the target company functions as NVIDIA's upstream supplier, partner, customer, or indirect demand beneficiary.",
+          "confidence": "medium",
+          "sourceIds": [
+            "anet-homepage",
+            "nvidia-10k-2026"
+          ]
+        }
+      ]
+    }
+  },
+  "financials": {
+    "latestPeriod": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "latestPeriodZh": "使用 SEC companyfacts 中的最新可核对候选；年度基准来自最近审计年报。",
+    "latestPeriodEn": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "highlights": [
+      {
+        "label": "Q1 FY2026 revenue",
+        "labelZh": "2026 财年第 1 财季 收入",
+        "labelEn": "Q1 FY2026 revenue",
+        "value": 2.709,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "anet-sec-companyfacts"
+        ],
+        "change": "+35.1% vs prior comparable period",
+        "changeZh": "较上一可比期间 +35.1%",
+        "changeEn": "+35.1% vs prior comparable period"
+      },
+      {
+        "label": "Q1 FY2026 net income / loss",
+        "labelZh": "2026 财年第 1 财季 净利润 / 净亏损",
+        "labelEn": "Q1 FY2026 net income / loss",
+        "value": 1.023,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "anet-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q1 FY2026 total assets",
+        "labelZh": "2026 财年第 1 财季 总资产",
+        "labelEn": "Q1 FY2026 total assets",
+        "value": 21.657,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "anet-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q1 FY2026 operating cash flow",
+        "labelZh": "2026 财年第 1 财季 经营现金流",
+        "labelEn": "Q1 FY2026 operating cash flow",
+        "value": 1.694,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "anet-sec-companyfacts"
+        ]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 9.006,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "anet-sec-companyfacts"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "id": "annual-revenue",
+        "label": "Annual revenue",
+        "labelZh": "年度收入",
+        "labelEn": "Annual revenue",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "anet-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 5.86,
+            "sourceIds": [
+              "anet-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 7.003,
+            "sourceIds": [
+              "anet-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 9.006,
+            "sourceIds": [
+              "anet-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-net-income",
+        "label": "Annual net income / loss",
+        "labelZh": "年度净利润 / 净亏损",
+        "labelEn": "Annual net income / loss",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "anet-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 2.087,
+            "sourceIds": [
+              "anet-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 2.852,
+            "sourceIds": [
+              "anet-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 3.511,
+            "sourceIds": [
+              "anet-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-assets",
+        "label": "Annual total assets",
+        "labelZh": "年度总资产",
+        "labelEn": "Annual total assets",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "anet-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 9.957,
+            "sourceIds": [
+              "anet-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 14.044,
+            "sourceIds": [
+              "anet-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 19.449,
+            "sourceIds": [
+              "anet-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenueMixHistory": [
+      {
+        "period": "FY2023",
+        "periodZh": "2023 财年",
+        "periodEn": "FY2023",
+        "totalRevenue": 5.86,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "anet-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 5.86,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "anet-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2024",
+        "periodZh": "2024 财年",
+        "periodEn": "FY2024",
+        "totalRevenue": 7.003,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "anet-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 7.003,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "anet-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "totalRevenue": 9.006,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "anet-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 9.006,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "anet-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-06-02",
+      "title": "Recent SEC filing: 8-K",
+      "titleZh": "最新 SEC 文件：8-K",
+      "titleEn": "Recent SEC filing: 8-K",
+      "category": "SEC filing",
+      "categoryZh": "SEC 文件",
+      "categoryEn": "SEC filing",
+      "summary": "SEC submissions show a 8-K filed on 2026-06-02; report date 2026-05-29.",
+      "summaryZh": "SEC submissions 显示公司于 2026-06-02 提交 8-K；报告期为 2026-05-29。",
+      "summaryEn": "SEC submissions show a 8-K filed on 2026-06-02; report date 2026-05-29.",
+      "impact": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "impactZh": "作为本批次最新公开文件检查点；每日定时刷新仍未启用。",
+      "impactEn": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "sourceIds": [
+        "anet-sec-submissions"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "8-K",
+      "filedAt": "2026-06-02",
+      "reportDate": "2026-05-29",
+      "title": "8-K filed 2026-06-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000118/anet-20260529.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-05-06",
+      "reportDate": "2026-03-31",
+      "title": "10-Q filed 2026-05-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000078/anet-20260331.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-05",
+      "reportDate": "2026-05-05",
+      "title": "8-K filed 2026-05-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000074/anet-20260505.htm"
+    },
+    {
+      "form": "10-K",
+      "filedAt": "2026-02-17",
+      "reportDate": "2025-12-31",
+      "title": "10-K filed 2026-02-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000013/anet-20251231.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-02-12",
+      "reportDate": "2026-02-12",
+      "title": "8-K filed 2026-02-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000010/anet-20260212.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2025-11-05",
+      "reportDate": "2025-09-30",
+      "title": "10-Q filed 2025-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000286/anet-20250930.htm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "anet-homepage",
+      "title": "Arista Networks / Arista 网络 company website",
+      "titleZh": "Arista Networks / Arista 网络 公司官网",
+      "titleEn": "Arista Networks / Arista 网络 company website",
+      "publisher": "Arista Networks / Arista 网络",
+      "url": "https://www.arista.com/",
+      "accessedAt": "2026-06-14",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "anet-sec-submissions",
+      "title": "ANET SEC submissions",
+      "titleZh": "ANET SEC submissions 数据",
+      "titleEn": "ANET SEC submissions",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/submissions/CIK0001596532.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "anet-sec-companyfacts",
+      "title": "ANET SEC companyfacts XBRL data",
+      "titleZh": "ANET SEC companyfacts XBRL 数据",
+      "titleEn": "ANET SEC companyfacts XBRL data",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001596532.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "anet-nasdaq-quote",
+      "title": "ANET Nasdaq quote page",
+      "titleZh": "ANET Nasdaq 行情页面",
+      "titleEn": "ANET Nasdaq quote page",
+      "publisher": "Nasdaq",
+      "url": "https://www.nasdaq.com/market-activity/stocks/anet",
+      "accessedAt": "2026-06-14",
+      "type": "exchange",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "nvidia-10k-2026",
+      "title": "NVIDIA FY2026 Form 10-K",
+      "titleZh": "NVIDIA 2026 财年 10-K 年报",
+      "titleEn": "NVIDIA FY2026 Form 10-K",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "nvidia-rtx-pro-systems-2025",
+      "title": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "titleZh": "NVIDIA RTX PRO Blackwell 服务器进入企业系统生态",
+      "titleEn": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "publisher": "NVIDIA Investor Relations",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-RTX-PRO-Servers-With-Blackwell-Coming-to-Worlds-Most-Popular-Enterprise-Systems/",
+      "accessedAt": "2026-06-14",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0001596532",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K",
+        "20-F",
+        "6-K"
+      ]
+    },
+    "newsFeeds": [
+      {
+        "url": "https://www.arista.com/",
+        "publisher": "Arista Networks / Arista 网络",
+        "sourceType": "company"
+      }
+    ]
+  },
+  "themeExposure": [
+    {
+      "theme": "AI 数据中心网络",
+      "themeZh": "AI 数据中心网络",
+      "themeEn": "AI data-center networking",
+      "score": 4,
+      "role": "AI 集群以太网交换层",
+      "roleZh": "AI 集群以太网交换层",
+      "roleEn": "AI cluster Ethernet switching layer",
+      "rationale": "GPU 集群扩张会提升东西向流量、以太网交换和网络软件的重要性，Arista 比普通应用公司更接近算力互连瓶颈。",
+      "rationaleZh": "GPU 集群扩张会提升东西向流量、以太网交换和网络软件的重要性，Arista 比普通应用公司更接近算力互连瓶颈。",
+      "rationaleEn": "GPU cluster expansion raises the importance of east-west traffic, Ethernet switching, and network software, placing Arista closer to the compute interconnect bottleneck than ordinary application companies.",
+      "confidence": "medium"
+    }
+  ]
+}

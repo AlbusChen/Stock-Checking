@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T05:32:22.473484Z",
+  "generatedAt": "2026-07-02T06:22:05.862602Z",
   "companies": [
     {
       "id": "cssc-special-gas",
@@ -98,6 +98,7 @@
         "先进封装",
         "AI基础设施",
         "英伟达相关",
+        "AI基建扩展",
         "美股"
       ],
       "sector": "Semiconductor packaging and test / 半导体封测",
@@ -129,6 +130,34 @@
       "sector": "E-commerce, cloud and AI / 电商、云与 AI",
       "lastUpdated": "2026-07-01T20:25:35.285415Z",
       "summary": "亚马逊通过 AWS 为客户提供云计算、AI 和 GPU 实例，是 NVIDIA 数据中心 GPU 的重要下游需求方之一，同时也有自研加速器作为补充。 / Amazon provides cloud, AI, and GPU instances through AWS, making it an important downstream source of NVIDIA data-center GPU demand while also using in-house accelerators."
+    },
+    {
+      "id": "anet",
+      "ticker": "ANET",
+      "name": "Arista Networks / Arista 网络",
+      "legalName": "Arista Networks, Inc.",
+      "exchange": "NYSE",
+      "market": "US",
+      "dataPath": "data/companies/anet.json",
+      "aliases": [
+        "ANET",
+        "Arista Networks / Arista 网络",
+        "Arista Networks, Inc.",
+        "Arista Networks, Inc."
+      ],
+      "labels": [
+        "科技",
+        "网络设备",
+        "数据中心网络",
+        "算力网络",
+        "AI基础设施",
+        "AI基建扩展",
+        "英伟达相关",
+        "美股"
+      ],
+      "sector": "Cloud networking / 云与数据中心网络",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "Arista Networks 提供云和 AI 数据中心以太网交换平台，处于 GPU 集群从单机算力走向大规模网络互连的关键环节。 / Arista Networks provides cloud and AI data-center Ethernet switching platforms, sitting in the key interconnect layer as GPU clusters scale from single-node compute to large fabrics."
     },
     {
       "id": "asml",
@@ -200,11 +229,40 @@
         "AI",
         "网络芯片",
         "基础设施软件",
+        "AI基建扩展",
+        "算力网络",
         "美股"
       ],
       "sector": "Semiconductors and infrastructure software / 半导体与基础设施软件",
       "lastUpdated": "2026-07-01T20:31:38.807660Z",
       "summary": "Broadcom 是半导体与基础设施软件公司，AI 相关性集中在定制 AI ASIC、网络/互连芯片和 VMware 软件现金流。"
+    },
+    {
+      "id": "cohr",
+      "ticker": "COHR",
+      "name": "Coherent / Coherent 光电",
+      "legalName": "COHERENT CORP.",
+      "exchange": "NYSE",
+      "market": "US",
+      "dataPath": "data/companies/cohr.json",
+      "aliases": [
+        "COHR",
+        "Coherent / Coherent 光电",
+        "COHERENT CORP.",
+        "COHERENT CORP."
+      ],
+      "labels": [
+        "光模块",
+        "光通信",
+        "数据中心网络",
+        "光互连",
+        "AI基础设施",
+        "AI基建扩展",
+        "美股"
+      ],
+      "sector": "Optical components and lasers / 光通信与激光器件",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "Coherent 提供光模块、激光器和光子器件，是 AI 数据中心高速互连和光通信链条的重要公司。 / Coherent provides optical transceivers, lasers, and photonics components, making it an important company in AI data-center high-speed interconnect and optical communications."
     },
     {
       "id": "crwv",
@@ -226,6 +284,9 @@
         "GPU云",
         "数据中心",
         "英伟达相关",
+        "AI基建扩展",
+        "算力",
+        "融资敏感",
         "美股"
       ],
       "sector": "AI cloud infrastructure / AI 云基础设施",
@@ -252,11 +313,64 @@
         "AI基础设施",
         "企业硬件",
         "英伟达相关",
+        "AI基建扩展",
         "美股"
       ],
       "sector": "Enterprise hardware and AI infrastructure / 企业硬件与 AI 基础设施",
       "lastUpdated": "2026-07-01T20:25:36.684126Z",
       "summary": "戴尔科技销售服务器、存储、PC 和服务，其 AI 服务器产品组合与 NVIDIA GPU/网络平台绑定度较高，是 NVIDIA 企业 AI 落地的重要 OEM 之一。 / Dell sells servers, storage, PCs, and services. Its AI server portfolio is closely tied to NVIDIA GPU and networking platforms, making Dell an important enterprise AI OEM."
+    },
+    {
+      "id": "etn",
+      "ticker": "ETN",
+      "name": "Eaton / 伊顿",
+      "legalName": "Eaton Corp plc",
+      "exchange": "NYSE",
+      "market": "US",
+      "dataPath": "data/companies/etn.json",
+      "aliases": [
+        "ETN",
+        "Eaton / 伊顿",
+        "Eaton Corp plc",
+        "Eaton Corp plc"
+      ],
+      "labels": [
+        "电力",
+        "电力设备",
+        "数据中心电力",
+        "AI基础设施",
+        "AI基建扩展",
+        "美股"
+      ],
+      "sector": "Electrical equipment and power management / 电气设备与电力管理",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "Eaton 提供电气设备、配电和电力管理方案，是 AI 数据中心电力接入和配电扩容的重要上游。 / Eaton provides electrical equipment, power distribution, and power-management solutions, making it an important upstream layer for AI data-center power access and distribution expansion."
+    },
+    {
+      "id": "gev",
+      "ticker": "GEV",
+      "name": "GE Vernova / GE Vernova",
+      "legalName": "GE Vernova Inc.",
+      "exchange": "NYSE",
+      "market": "US",
+      "dataPath": "data/companies/gev.json",
+      "aliases": [
+        "GEV",
+        "GE Vernova / GE Vernova",
+        "GE Vernova Inc.",
+        "GE Vernova Inc."
+      ],
+      "labels": [
+        "电力",
+        "电网",
+        "发电设备",
+        "AI基础设施",
+        "AI基建扩展",
+        "美股"
+      ],
+      "sector": "Power generation and grid equipment / 发电与电网设备",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "GE Vernova 覆盖发电、电网和电气化设备，代表 AI 数据中心用电增长背后的发电与电网扩容层。 / GE Vernova spans power generation, grid, and electrification equipment, representing the generation and grid-expansion layer behind AI data-center electricity growth."
     },
     {
       "id": "googl",
@@ -328,6 +442,7 @@
         "AI基础设施",
         "企业网络",
         "英伟达相关",
+        "AI基建扩展",
         "美股"
       ],
       "sector": "Enterprise infrastructure / 企业基础设施",
@@ -406,6 +521,33 @@
       "summary": "KLA 提供检测、量测和制程控制设备，帮助先进晶圆厂提升良率；NVIDIA AI 芯片需求通过先进制程良率和扩产需求间接传导。 / KLA provides inspection, metrology, and process-control tools that help advanced fabs improve yield, giving it indirect exposure to NVIDIA AI chip manufacturing demand."
     },
     {
+      "id": "lite",
+      "ticker": "LITE",
+      "name": "Lumentum / Lumentum 光通信",
+      "legalName": "Lumentum Holdings Inc.",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/lite.json",
+      "aliases": [
+        "LITE",
+        "Lumentum / Lumentum 光通信",
+        "Lumentum Holdings Inc.",
+        "Lumentum Holdings Inc."
+      ],
+      "labels": [
+        "光模块",
+        "光通信",
+        "激光器",
+        "数据中心网络",
+        "AI基础设施",
+        "AI基建扩展",
+        "美股"
+      ],
+      "sector": "Optical and photonic products / 光通信与光子产品",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "Lumentum 提供光通信和激光器件，受 AI 数据中心光互连、云网络升级和高速光器件需求影响。 / Lumentum provides optical communications and laser products, exposed to AI data-center optical interconnect, cloud networking upgrades, and high-speed optical-component demand."
+    },
+    {
       "id": "lrcx",
       "ticker": "LRCX",
       "name": "Lam Research / 泛林集团",
@@ -431,6 +573,61 @@
       "sector": "Semiconductor equipment / 半导体设备",
       "lastUpdated": "2026-07-01T20:25:39.388964Z",
       "summary": "泛林集团专注刻蚀、沉积和清洗设备，是先进逻辑、HBM/DRAM 和 NAND 制造链的关键设备公司，NVIDIA AI 需求通过晶圆厂和存储厂扩产传导。 / Lam Research focuses on etch, deposition, and clean tools for advanced logic, HBM/DRAM, and NAND manufacturing, with NVIDIA AI demand transmitted through foundry and memory capex."
+    },
+    {
+      "id": "mod",
+      "ticker": "MOD",
+      "name": "Modine / 摩丁制造",
+      "legalName": "MODINE MANUFACTURING CO",
+      "exchange": "NYSE",
+      "market": "US",
+      "dataPath": "data/companies/mod.json",
+      "aliases": [
+        "MOD",
+        "Modine / 摩丁制造",
+        "MODINE MANUFACTURING CO",
+        "MODINE MANUFACTURING CO"
+      ],
+      "labels": [
+        "散热",
+        "液冷",
+        "热管理",
+        "数据中心",
+        "AI基础设施",
+        "AI基建扩展",
+        "美股"
+      ],
+      "sector": "Thermal management / 热管理",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "Modine 是热管理和数据中心散热相关公司，AI 机柜功率密度上升使冷却能力成为关键配套。 / Modine is a thermal-management and data-center cooling company, and rising AI rack power density makes cooling capacity a key support layer."
+    },
+    {
+      "id": "mrvl",
+      "ticker": "MRVL",
+      "name": "Marvell Technology / 美满电子",
+      "legalName": "Marvell Technology, Inc.",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/mrvl.json",
+      "aliases": [
+        "MRVL",
+        "Marvell Technology / 美满电子",
+        "Marvell Technology, Inc.",
+        "Marvell Technology, Inc."
+      ],
+      "labels": [
+        "半导体",
+        "网络芯片",
+        "光互连",
+        "数据中心网络",
+        "AI基础设施",
+        "AI基建扩展",
+        "英伟达相关",
+        "美股"
+      ],
+      "sector": "Semiconductors and data infrastructure / 半导体与数据基础设施",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "Marvell 提供数据中心网络、定制芯片和光互连相关半导体，是 AI 集群网络和定制加速器链条的重要公司。 / Marvell provides data-center networking, custom silicon, and optical-interconnect semiconductors, making it important in AI cluster networking and custom-accelerator chains."
     },
     {
       "id": "msft",
@@ -480,6 +677,8 @@
         "AI基础设施",
         "数据中心",
         "英伟达相关",
+        "AI基建扩展",
+        "HBM",
         "美股"
       ],
       "sector": "Memory and storage semiconductors",
@@ -507,6 +706,9 @@
         "GPU云",
         "数据中心",
         "英伟达相关",
+        "AI基建扩展",
+        "算力",
+        "融资敏感",
         "美股"
       ],
       "sector": "AI cloud infrastructure / AI 云基础设施",
@@ -530,11 +732,40 @@
         "数据中心",
         "GPU",
         "英伟达相关",
+        "AI基建扩展",
+        "算力",
         "美股"
       ],
       "sector": "Accelerated computing and AI infrastructure",
       "lastUpdated": "2026-07-01T20:25:40.806678Z",
       "summary": "AI 数据中心平台是收入主轴，关注 Blackwell/Rubin 放量、HBM 与先进封装供给、出口限制和客户集中度。"
+    },
+    {
+      "id": "nvt",
+      "ticker": "NVT",
+      "name": "nVent Electric / nVent Electric",
+      "legalName": "nVent Electric plc",
+      "exchange": "NYSE",
+      "market": "US",
+      "dataPath": "data/companies/nvt.json",
+      "aliases": [
+        "NVT",
+        "nVent Electric / nVent Electric",
+        "nVent Electric plc",
+        "nVent Electric plc"
+      ],
+      "labels": [
+        "电力",
+        "散热",
+        "机柜",
+        "电气连接",
+        "AI基础设施",
+        "AI基建扩展",
+        "美股"
+      ],
+      "sector": "Electrical connection and enclosures / 电气连接与机柜",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "nVent 提供电气连接、机柜和热管理产品，是数据中心配电、保护和热管理系统的配套层。 / nVent provides electrical connection, enclosures, and thermal-management products, supporting data-center power distribution, protection, and thermal systems."
     },
     {
       "id": "orcl",
@@ -561,6 +792,59 @@
       "sector": "Enterprise software and cloud / 企业软件与云",
       "lastUpdated": "2026-07-01T20:25:41.440832Z",
       "summary": "Oracle 通过 OCI 提供云基础设施、数据库和 AI 训练集群，GPU 云需求使其成为 NVIDIA 数据中心生态的重要下游客户之一。 / Oracle provides cloud infrastructure, databases, and AI training clusters through OCI, making GPU cloud demand an important NVIDIA ecosystem linkage."
+    },
+    {
+      "id": "pltr",
+      "ticker": "PLTR",
+      "name": "Palantir / 帕兰蒂尔",
+      "legalName": "Palantir Technologies Inc.",
+      "exchange": "NASDAQ",
+      "market": "US",
+      "dataPath": "data/companies/pltr.json",
+      "aliases": [
+        "PLTR",
+        "Palantir / 帕兰蒂尔",
+        "Palantir Technologies Inc.",
+        "Palantir Technologies Inc."
+      ],
+      "labels": [
+        "科技",
+        "AI",
+        "AI应用",
+        "软件服务",
+        "国防",
+        "AI基建扩展",
+        "美股"
+      ],
+      "sector": "AI software and data platforms / AI 软件与数据平台",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "Palantir 是 AI 应用和数据平台公司，代表算力、数据和模型落到政府与企业工作流后的应用层。 / Palantir is an AI application and data-platform company, representing the application layer where compute, data, and models enter government and enterprise workflows."
+    },
+    {
+      "id": "pwr",
+      "ticker": "PWR",
+      "name": "Quanta Services / Quanta Services",
+      "legalName": "QUANTA SERVICES, INC.",
+      "exchange": "NYSE",
+      "market": "US",
+      "dataPath": "data/companies/pwr.json",
+      "aliases": [
+        "PWR",
+        "Quanta Services / Quanta Services",
+        "QUANTA SERVICES, INC.",
+        "QUANTA SERVICES, INC."
+      ],
+      "labels": [
+        "电力",
+        "电网建设",
+        "工程服务",
+        "AI基础设施",
+        "AI基建扩展",
+        "美股"
+      ],
+      "sector": "Utility and grid infrastructure services / 公用事业与电网工程服务",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "Quanta Services 提供电网、公用事业和能源基础设施工程服务，是 AI 数据中心电力接入和电网升级的施工服务层。 / Quanta Services provides electric-grid, utility, and energy-infrastructure services, sitting in the construction-services layer for AI data-center power access and grid upgrades."
     },
     {
       "id": "rklb",
@@ -607,6 +891,7 @@
         "数据中心",
         "液冷",
         "英伟达相关",
+        "AI基建扩展",
         "美股"
       ],
       "sector": "AI servers / AI 服务器",
@@ -634,6 +919,7 @@
         "NAND",
         "SSD",
         "AI基础设施",
+        "AI基建扩展",
         "美股"
       ],
       "sector": "Flash memory and SSDs / 闪存与 SSD",
@@ -665,6 +951,9 @@
         "发射服务",
         "国防",
         "AI",
+        "AI基建扩展",
+        "AI应用",
+        "融资敏感",
         "美股"
       ],
       "sector": "Aerospace, satellite communications and AI infrastructure / 航天、卫星通信与 AI 基础设施",
@@ -718,11 +1007,40 @@
         "先进封装",
         "AI基础设施",
         "英伟达相关",
+        "AI基建扩展",
         "美股"
       ],
       "sector": "Semiconductors / 半导体",
       "lastUpdated": "2026-07-01T20:25:42.544814Z",
       "summary": "台积电是全球领先的纯晶圆代工厂，处于 NVIDIA AI GPU/加速器制造链的核心上游，关键变量包括先进制程、CoWoS/先进封装产能和高端客户资本开支。 / TSMC is a leading pure-play foundry and a core upstream manufacturing node for NVIDIA AI GPUs and accelerators, with advanced nodes, CoWoS packaging capacity, and high-end customer capex as key variables."
+    },
+    {
+      "id": "vrt",
+      "ticker": "VRT",
+      "name": "Vertiv / 维谛技术",
+      "legalName": "Vertiv Holdings Co",
+      "exchange": "NYSE",
+      "market": "US",
+      "dataPath": "data/companies/vrt.json",
+      "aliases": [
+        "VRT",
+        "Vertiv / 维谛技术",
+        "Vertiv Holdings Co",
+        "Vertiv Holdings Co"
+      ],
+      "labels": [
+        "数据中心",
+        "电力",
+        "散热",
+        "液冷",
+        "AI基础设施",
+        "AI基建扩展",
+        "英伟达相关",
+        "美股"
+      ],
+      "sector": "Data-center power and cooling / 数据中心电力与散热",
+      "lastUpdated": "2026-06-14T12:00:00+08:00",
+      "summary": "Vertiv 提供数据中心电力、热管理、液冷和机柜基础设施，是 AI 机柜功率密度提升后的关键配套公司。 / Vertiv provides data-center power, thermal management, liquid cooling, and rack infrastructure, making it a key support company as AI rack power density rises."
     },
     {
       "id": "vsat",

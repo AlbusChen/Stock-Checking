@@ -1,0 +1,1047 @@
+{
+  "schemaVersion": 1,
+  "id": "etn",
+  "ticker": "ETN",
+  "exchange": "NYSE",
+  "market": "US",
+  "name": "Eaton / 伊顿",
+  "legalName": "Eaton Corp plc",
+  "cik": "0001551182",
+  "currency": "USD",
+  "sector": "Electrical equipment and power management / 电气设备与电力管理",
+  "industry": [
+    "Electrical equipment",
+    "Power distribution",
+    "Data-center power",
+    "电气设备",
+    "配电",
+    "数据中心电力"
+  ],
+  "homepage": "https://www.eaton.com/",
+  "lastUpdated": "2026-06-14T12:00:00+08:00",
+  "summary": "Eaton 提供电气设备、配电和电力管理方案，是 AI 数据中心电力接入和配电扩容的重要上游。 / Eaton provides electrical equipment, power distribution, and power-management solutions, making it an important upstream layer for AI data-center power access and distribution expansion.",
+  "summaryZh": "Eaton 提供电气设备、配电和电力管理方案，是 AI 数据中心电力接入和配电扩容的重要上游。",
+  "summaryEn": "Eaton provides electrical equipment, power distribution, and power-management solutions, making it an important upstream layer for AI data-center power access and distribution expansion.",
+  "aliases": [
+    "ETN",
+    "Eaton / 伊顿",
+    "Eaton Corp plc",
+    "Eaton Corp plc"
+  ],
+  "labels": [
+    "电力",
+    "电力设备",
+    "数据中心电力",
+    "AI基础设施",
+    "AI基建扩展",
+    "美股"
+  ],
+  "updateCadence": {
+    "最新动态": "暂不启用定时；计划启用后每 12 小时",
+    "财务与公告": "暂不启用定时；计划启用后每日",
+    "主营业务": "暂不启用定时；计划启用后每周",
+    "供应链溯源": "暂不启用定时；计划启用后每周"
+  },
+  "business": {
+    "description": "公司业务覆盖电气、美洲/全球电气、航空航天、车辆和 eMobility 等，数据中心电力需求是增量变量之一。 / The company spans electrical Americas/global, aerospace, vehicle, and eMobility businesses, with data-center power demand as one incremental variable.",
+    "descriptionZh": "公司业务覆盖电气、美洲/全球电气、航空航天、车辆和 eMobility 等，数据中心电力需求是增量变量之一。",
+    "descriptionEn": "The company spans electrical Americas/global, aerospace, vehicle, and eMobility businesses, with data-center power demand as one incremental variable.",
+    "revenueModel": [
+      "电气设备 / electrical equipment",
+      "配电与电力管理 / distribution and power management",
+      "工业与航空航天 / industrial and aerospace"
+    ],
+    "segments": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 27.448,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "etn-sec-companyfacts"
+        ]
+      }
+    ],
+    "thesis": "AI 数据中心受电力接入、配电和可靠性约束时，Eaton 这类电力设备公司比下游应用更接近物理瓶颈。 / When AI data centers are constrained by power access, distribution, and reliability, power-equipment companies like Eaton sit closer to the physical bottleneck than downstream applications.",
+    "thesisZh": "AI 数据中心受电力接入、配电和可靠性约束时，Eaton 这类电力设备公司比下游应用更接近物理瓶颈。",
+    "thesisEn": "When AI data centers are constrained by power access, distribution, and reliability, power-equipment companies like Eaton sit closer to the physical bottleneck than downstream applications.",
+    "riskNotes": [
+      "数据中心订单占比和交付周期需持续核实。 / Data-center order exposure and delivery timing need ongoing verification.",
+      "工业周期、供应链成本和利率会影响利润率。 / Industrial cycles, supply-chain costs, and rates affect margins."
+    ],
+    "failureConditions": [
+      {
+        "condition": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+        "conditionZh": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+        "conditionEn": "The thesis weakens if AI data-center power/cooling orders or backlog stop improving.",
+        "monitor": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+        "monitorZh": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+        "monitorEn": "Monitor orders, backlog, data-center customer disclosures, delivery lead times, and project margins.",
+        "sourceIds": [
+          "etn-homepage",
+          "etn-sec-submissions"
+        ]
+      },
+      {
+        "condition": "电力接入和电网项目审批慢于数据中心建设需求。",
+        "conditionZh": "电力接入和电网项目审批慢于数据中心建设需求。",
+        "conditionEn": "The thesis weakens if grid interconnection and power projects lag data-center buildout needs.",
+        "monitor": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+        "monitorZh": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+        "monitorEn": "Monitor utility capex, project approvals, transformer/distribution delivery, and customer construction starts.",
+        "sourceIds": [
+          "etn-homepage",
+          "etn-sec-submissions"
+        ]
+      }
+    ]
+  },
+  "supplyChain": {
+    "updatedAt": "2026-06-14T12:00:00+08:00",
+    "thesis": "AI 数据中心受电力接入、配电和可靠性约束时，Eaton 这类电力设备公司比下游应用更接近物理瓶颈。 / When AI data centers are constrained by power access, distribution, and reliability, power-equipment companies like Eaton sit closer to the physical bottleneck than downstream applications.",
+    "thesisZh": "AI 数据中心受电力接入、配电和可靠性约束时，Eaton 这类电力设备公司比下游应用更接近物理瓶颈。",
+    "thesisEn": "When AI data centers are constrained by power access, distribution, and reliability, power-equipment companies like Eaton sit closer to the physical bottleneck than downstream applications.",
+    "scarceLayers": [
+      {
+        "name": "数据中心电力接入与配电",
+        "nameZh": "数据中心电力接入与配电",
+        "nameEn": "Data-center power interconnection and distribution",
+        "rank": 1,
+        "constraintType": "capacity",
+        "constraintTypeZh": "产能",
+        "constraintTypeEn": "Capacity",
+        "whyScarce": "AI 数据中心扩张需要可用电力、变压器、配电设备和工程交付，扩容周期往往长于服务器采购。",
+        "whyScarceZh": "AI 数据中心扩张需要可用电力、变压器、配电设备和工程交付，扩容周期往往长于服务器采购。",
+        "whyScarceEn": "AI data-center expansion requires available power, transformers, distribution equipment, and engineering delivery, often on longer cycles than server procurement.",
+        "relatedCompanies": [
+          "Eaton / 伊顿"
+        ],
+        "evidenceLevel": "medium",
+        "confidence": "medium",
+        "sourceIds": [
+          "etn-homepage",
+          "etn-sec-submissions"
+        ],
+        "failureConditions": [
+          {
+            "condition": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+            "conditionZh": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+            "conditionEn": "The thesis weakens if AI data-center power/cooling orders or backlog stop improving.",
+            "monitor": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+            "monitorZh": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+            "monitorEn": "Monitor orders, backlog, data-center customer disclosures, delivery lead times, and project margins.",
+            "sourceIds": [
+              "etn-homepage",
+              "etn-sec-submissions"
+            ]
+          },
+          {
+            "condition": "电力接入和电网项目审批慢于数据中心建设需求。",
+            "conditionZh": "电力接入和电网项目审批慢于数据中心建设需求。",
+            "conditionEn": "The thesis weakens if grid interconnection and power projects lag data-center buildout needs.",
+            "monitor": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+            "monitorZh": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+            "monitorEn": "Monitor utility capex, project approvals, transformer/distribution delivery, and customer construction starts.",
+            "sourceIds": [
+              "etn-homepage",
+              "etn-sec-submissions"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "电网工程与公用事业资本开支",
+        "nameZh": "电网工程与公用事业资本开支",
+        "nameEn": "Grid engineering and utility capex",
+        "rank": 2,
+        "constraintType": "capital-intensity",
+        "constraintTypeZh": "资本强度",
+        "constraintTypeEn": "Capital intensity",
+        "whyScarce": "输配电升级和公用事业项目审批决定数据中心能否按期接入电力。",
+        "whyScarceZh": "输配电升级和公用事业项目审批决定数据中心能否按期接入电力。",
+        "whyScarceEn": "Transmission/distribution upgrades and utility approvals determine whether data centers receive power on time.",
+        "relatedCompanies": [
+          "Eaton / 伊顿"
+        ],
+        "evidenceLevel": "medium",
+        "confidence": "medium",
+        "sourceIds": [
+          "etn-homepage",
+          "etn-sec-submissions"
+        ],
+        "failureConditions": [
+          {
+            "condition": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+            "conditionZh": "AI 数据中心电力/散热订单或 backlog 没有继续改善。",
+            "conditionEn": "The thesis weakens if AI data-center power/cooling orders or backlog stop improving.",
+            "monitor": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+            "monitorZh": "跟踪订单、backlog、数据中心客户披露、交付周期和项目毛利率。",
+            "monitorEn": "Monitor orders, backlog, data-center customer disclosures, delivery lead times, and project margins.",
+            "sourceIds": [
+              "etn-homepage",
+              "etn-sec-submissions"
+            ]
+          },
+          {
+            "condition": "电力接入和电网项目审批慢于数据中心建设需求。",
+            "conditionZh": "电力接入和电网项目审批慢于数据中心建设需求。",
+            "conditionEn": "The thesis weakens if grid interconnection and power projects lag data-center buildout needs.",
+            "monitor": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+            "monitorZh": "跟踪公用事业资本开支、项目审批、变压器/配电交付和客户开工节奏。",
+            "monitorEn": "Monitor utility capex, project approvals, transformer/distribution delivery, and customer construction starts.",
+            "sourceIds": [
+              "etn-homepage",
+              "etn-sec-submissions"
+            ]
+          }
+        ]
+      }
+    ],
+    "tiers": [
+      {
+        "level": 0,
+        "title": "Target company",
+        "titleZh": "目标公司",
+        "titleEn": "Target company",
+        "companies": [
+          "Eaton / 伊顿"
+        ],
+        "entities": [
+          {
+            "name": "Eaton / 伊顿",
+            "nameZh": "Eaton / 伊顿",
+            "nameEn": "Eaton Corp plc",
+            "relationship": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipZh": "目标公司；本页围绕其 NVIDIA 相关供应链位置进行整理。",
+            "relationshipEn": "Target company; this page maps its NVIDIA-related supply-chain position.",
+            "productsServices": [
+              "电气设备 / electrical equipment",
+              "配电与电力管理 / distribution and power management",
+              "工业与航空航天 / industrial and aerospace"
+            ],
+            "productsServicesZh": [
+              "电气设备 / electrical equipment",
+              "配电与电力管理 / distribution and power management",
+              "工业与航空航天 / industrial and aerospace"
+            ],
+            "productsServicesEn": [
+              "电气设备 / electrical equipment",
+              "配电与电力管理 / distribution and power management",
+              "工业与航空航天 / industrial and aerospace"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "ETN",
+              "exchange": "NYSE",
+              "market": "US",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/etn"
+            },
+            "confidence": "high",
+            "sourceIds": [
+              "etn-homepage",
+              "etn-nasdaq-quote"
+            ],
+            "companyUrl": "https://www.eaton.com/",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "目标公司",
+              "labelZh": "目标公司",
+              "labelEn": "Target company",
+              "direction": "target",
+              "rationale": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleZh": "目标公司本身，是本页产业链分析的参照对象。",
+              "rationaleEn": "The target company itself, used as the reference point for this supply-chain analysis.",
+              "confidence": "high"
+            }
+          }
+        ],
+        "geography": [
+          "US",
+          "Global"
+        ],
+        "materials": [
+          "铜、铝和电工钢",
+          "功率器件、开关和控制部件",
+          "冷却剂、压缩机和热交换部件"
+        ],
+        "materialsZh": [
+          "铜、铝和电工钢",
+          "功率器件、开关和控制部件",
+          "冷却剂、压缩机和热交换部件"
+        ],
+        "materialsEn": [
+          "Copper, aluminum, and electrical steel",
+          "Power devices, switchgear, and controls",
+          "Coolants, compressors, and heat-exchange components"
+        ],
+        "notes": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesZh": "目标公司本身；上市公司代码和行情链接已核对。",
+        "notesEn": "Target company itself; listed ticker and quote link reviewed.",
+        "confidence": "high",
+        "sourceIds": [
+          "etn-homepage",
+          "etn-nasdaq-quote"
+        ]
+      },
+      {
+        "level": 1,
+        "title": "Key upstream inputs",
+        "titleZh": "关键上游投入",
+        "titleEn": "Key upstream inputs",
+        "companies": [
+          "Data-center developers and hyperscalers / 数据中心开发商与云厂商",
+          "Electrical and thermal supply chain / 电力与热管理供应链"
+        ],
+        "entities": [
+          {
+            "name": "Data-center developers and hyperscalers / 数据中心开发商与云厂商",
+            "nameZh": "数据中心开发商与云厂商",
+            "nameEn": "Data-center developers and hyperscalers",
+            "relationship": "AI 数据中心扩张直接拉动供电、配电、施工、机柜和散热需求。",
+            "relationshipZh": "AI 数据中心扩张直接拉动供电、配电、施工、机柜和散热需求。",
+            "relationshipEn": "AI data-center expansion directly drives demand for power, distribution, construction, racks, and cooling.",
+            "productsServices": [
+              "数据中心项目",
+              "电力接入",
+              "机柜与散热"
+            ],
+            "productsServicesZh": [
+              "数据中心项目",
+              "电力接入",
+              "机柜与散热"
+            ],
+            "productsServicesEn": [
+              "data-center projects",
+              "power interconnection",
+              "racks and cooling"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "客户和项目需按公告/合同继续拆解。",
+              "noteZh": "客户和项目需按公告/合同继续拆解。",
+              "noteEn": "Customers and projects require further review through releases/contracts."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "etn-homepage",
+              "nvidia-rtx-pro-systems-2025"
+            ],
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "upstream-equipment",
+              "rationale": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
+              "rationaleZh": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
+              "rationaleEn": "Sits in process equipment or metrology/inspection, with demand transmitted through foundry, memory, and packaging line expansion.",
+              "confidence": "medium"
+            }
+          },
+          {
+            "name": "Electrical and thermal supply chain / 电力与热管理供应链",
+            "nameZh": "电力与热管理供应链",
+            "nameEn": "Electrical and thermal supply chain",
+            "relationship": "上游依赖铜、变压器、功率器件、冷却部件、压缩机和高可靠工程交付。",
+            "relationshipZh": "上游依赖铜、变压器、功率器件、冷却部件、压缩机和高可靠工程交付。",
+            "relationshipEn": "Upstream inputs include copper, transformers, power components, cooling parts, compressors, and high-reliability project delivery.",
+            "productsServices": [
+              "铜与电气部件",
+              "变压器与配电",
+              "冷却系统部件"
+            ],
+            "productsServicesZh": [
+              "铜与电气部件",
+              "变压器与配电",
+              "冷却系统部件"
+            ],
+            "productsServicesEn": [
+              "copper and electrical parts",
+              "transformers and distribution",
+              "cooling-system components"
+            ],
+            "listing": {
+              "status": "unknown",
+              "note": "多为多层供应商，需逐项映射。",
+              "noteZh": "多为多层供应商，需逐项映射。",
+              "noteEn": "Often multi-tier suppliers requiring supplier-by-supplier mapping."
+            },
+            "confidence": "medium",
+            "sourceIds": [
+              "etn-homepage"
+            ],
+            "relationshipStrength": {
+              "score": 4,
+              "label": "强相关",
+              "labelZh": "强相关",
+              "labelEn": "Strong relevance",
+              "direction": "upstream-equipment",
+              "rationale": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
+              "rationaleZh": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
+              "rationaleEn": "Sits in process equipment or metrology/inspection, with demand transmitted through foundry, memory, and packaging line expansion.",
+              "confidence": "medium"
+            }
+          }
+        ],
+        "geography": [
+          "US",
+          "Europe",
+          "Asia"
+        ],
+        "materials": [
+          "铜、铝和电工钢",
+          "功率器件、开关和控制部件",
+          "冷却剂、压缩机和热交换部件"
+        ],
+        "materialsZh": [
+          "铜、铝和电工钢",
+          "功率器件、开关和控制部件",
+          "冷却剂、压缩机和热交换部件"
+        ],
+        "materialsEn": [
+          "Copper, aluminum, and electrical steel",
+          "Power devices, switchgear, and controls",
+          "Coolants, compressors, and heat-exchange components"
+        ],
+        "notes": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesZh": "列出与 NVIDIA 相关业务最重要的上游投入；具体采购比例需继续人工拆解。",
+        "notesEn": "Lists the most important upstream inputs for NVIDIA-related business; exact purchase shares require further manual work.",
+        "confidence": "medium",
+        "sourceIds": [
+          "etn-homepage",
+          "nvidia-10k-2026"
+        ]
+      }
+    ],
+    "rawMaterials": [
+      {
+        "name": "铜、铝和电工钢",
+        "nameZh": "铜、铝和电工钢",
+        "nameEn": "Copper, aluminum, and electrical steel",
+        "usedIn": "用于配电设备、线缆、变压器、电机和机柜。",
+        "usedInZh": "用于配电设备、线缆、变压器、电机和机柜。",
+        "usedInEn": "Used in power distribution equipment, cables, transformers, motors, and enclosures.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "功率器件、开关和控制部件",
+        "nameZh": "功率器件、开关和控制部件",
+        "nameEn": "Power devices, switchgear, and controls",
+        "usedIn": "用于 UPS、配电、开关柜和数据中心电力可靠性系统。",
+        "usedInZh": "用于 UPS、配电、开关柜和数据中心电力可靠性系统。",
+        "usedInEn": "Used in UPS, distribution, switchgear, and data-center power reliability systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      },
+      {
+        "name": "冷却剂、压缩机和热交换部件",
+        "nameZh": "冷却剂、压缩机和热交换部件",
+        "nameEn": "Coolants, compressors, and heat-exchange components",
+        "usedIn": "用于风冷、液冷、冷冻水和热管理系统。",
+        "usedInZh": "用于风冷、液冷、冷冻水和热管理系统。",
+        "usedInEn": "Used in air cooling, liquid cooling, chilled water, and thermal-management systems.",
+        "upstream": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamZh": [
+          "矿产开采与冶炼",
+          "高纯加工与认证",
+          "设备/材料供应商交付"
+        ],
+        "upstreamEn": [
+          "mining and refining",
+          "high-purity processing and qualification",
+          "equipment/material supplier delivery"
+        ],
+        "risk": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskZh": "价格、地缘限制、认证周期和扩产节奏会影响可得性。",
+        "riskEn": "Availability can be affected by price, geopolitical restrictions, qualification cycles, and expansion timing.",
+        "confidence": "medium"
+      }
+    ],
+    "downstream": {
+      "updatedAt": "2026-06-14T12:00:00+08:00",
+      "thesis": "AI 数据中心受电力接入、配电和可靠性约束时，Eaton 这类电力设备公司比下游应用更接近物理瓶颈。 / When AI data centers are constrained by power access, distribution, and reliability, power-equipment companies like Eaton sit closer to the physical bottleneck than downstream applications.",
+      "thesisZh": "AI 数据中心受电力接入、配电和可靠性约束时，Eaton 这类电力设备公司比下游应用更接近物理瓶颈。",
+      "thesisEn": "When AI data centers are constrained by power access, distribution, and reliability, power-equipment companies like Eaton sit closer to the physical bottleneck than downstream applications.",
+      "tiers": [
+        {
+          "level": 1,
+          "title": "NVIDIA-related demand path",
+          "titleZh": "英伟达相关需求路径",
+          "titleEn": "NVIDIA-related demand path",
+          "entities": [
+            {
+              "name": "AI data centers and utilities / AI 数据中心与公用事业",
+              "nameZh": "AI 数据中心与公用事业",
+              "nameEn": "AI data centers and utilities",
+              "relationship": "需要电力接入、配电、散热、工程建设和可靠性服务，以支撑高功率密度 AI 机柜。",
+              "relationshipZh": "需要电力接入、配电、散热、工程建设和可靠性服务，以支撑高功率密度 AI 机柜。",
+              "relationshipEn": "Need power interconnection, distribution, cooling, construction, and reliability services to support high-density AI racks.",
+              "productsServices": [
+                "数据中心电力",
+                "配电与施工",
+                "散热与液冷"
+              ],
+              "productsServicesZh": [
+                "数据中心电力",
+                "配电与施工",
+                "散热与液冷"
+              ],
+              "productsServicesEn": [
+                "data-center power",
+                "distribution and construction",
+                "cooling and liquid cooling"
+              ],
+              "listing": {
+                "status": "unknown",
+                "note": "客户和项目需用合同、公告或财报电话会继续确认。",
+                "noteZh": "客户和项目需用合同、公告或财报电话会继续确认。",
+                "noteEn": "Customers and projects should be confirmed through contracts, releases, or earnings calls."
+              },
+              "confidence": "medium",
+              "sourceIds": [
+                "etn-homepage",
+                "nvidia-rtx-pro-systems-2025"
+              ],
+              "customerRole": "AI 数据中心基础设施需求方",
+              "customerRoleZh": "AI 数据中心基础设施需求方",
+              "customerRoleEn": "AI data-center infrastructure demand source",
+              "relationshipStrength": {
+                "score": 3,
+                "label": "中相关",
+                "labelZh": "中相关",
+                "labelEn": "Moderate relevance",
+                "direction": "indirect-demand",
+                "rationale": "NVIDIA 需求通过晶圆厂、存储厂或封装投资间接传导，不等同于直接采购关系。",
+                "rationaleZh": "NVIDIA 需求通过晶圆厂、存储厂或封装投资间接传导，不等同于直接采购关系。",
+                "rationaleEn": "NVIDIA demand transmits indirectly through foundry, memory, or packaging investment and is not the same as a direct purchasing relationship.",
+                "confidence": "medium"
+              }
+            }
+          ],
+          "notes": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesZh": "该层说明目标公司如何作为 NVIDIA 的上游、伙伴、客户或间接需求受益方。",
+          "notesEn": "This layer explains how the target company functions as NVIDIA's upstream supplier, partner, customer, or indirect demand beneficiary.",
+          "confidence": "medium",
+          "sourceIds": [
+            "etn-homepage",
+            "nvidia-10k-2026"
+          ]
+        }
+      ]
+    }
+  },
+  "financials": {
+    "latestPeriod": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "latestPeriodZh": "使用 SEC companyfacts 中的最新可核对候选；年度基准来自最近审计年报。",
+    "latestPeriodEn": "Latest SEC companyfacts candidates; annual baseline from the latest audited filing.",
+    "highlights": [
+      {
+        "label": "Q1 FY2026 revenue",
+        "labelZh": "2026 财年第 1 财季 收入",
+        "labelEn": "Q1 FY2026 revenue",
+        "value": 7.451,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "etn-sec-companyfacts"
+        ],
+        "change": "+16.8% vs prior comparable period",
+        "changeZh": "较上一可比期间 +16.8%",
+        "changeEn": "+16.8% vs prior comparable period"
+      },
+      {
+        "label": "Q1 FY2026 net income / loss",
+        "labelZh": "2026 财年第 1 财季 净利润 / 净亏损",
+        "labelEn": "Q1 FY2026 net income / loss",
+        "value": 0.866,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "etn-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q1 FY2026 total assets",
+        "labelZh": "2026 财年第 1 财季 总资产",
+        "labelEn": "Q1 FY2026 total assets",
+        "value": 55.085,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "etn-sec-companyfacts"
+        ]
+      },
+      {
+        "label": "Q1 FY2026 operating cash flow",
+        "labelZh": "2026 财年第 1 财季 经营现金流",
+        "labelEn": "Q1 FY2026 operating cash flow",
+        "value": 0.507,
+        "unit": "USD billions",
+        "period": "Quarter ended 2026-03-31",
+        "periodZh": "截至 2026-03-31 的季度",
+        "periodEn": "Quarter ended 2026-03-31",
+        "sourceIds": [
+          "etn-sec-companyfacts"
+        ]
+      }
+    ],
+    "revenueMix": [
+      {
+        "name": "Total revenue",
+        "nameZh": "总收入",
+        "nameEn": "Total revenue",
+        "revenue": 27.448,
+        "unit": "USD billions",
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "share": 100,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "etn-sec-companyfacts"
+        ]
+      }
+    ],
+    "trends": [
+      {
+        "id": "annual-revenue",
+        "label": "Annual revenue",
+        "labelZh": "年度收入",
+        "labelEn": "Annual revenue",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "etn-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 23.196,
+            "sourceIds": [
+              "etn-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 24.878,
+            "sourceIds": [
+              "etn-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 27.448,
+            "sourceIds": [
+              "etn-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-net-income",
+        "label": "Annual net income / loss",
+        "labelZh": "年度净利润 / 净亏损",
+        "labelEn": "Annual net income / loss",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "etn-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 3.218,
+            "sourceIds": [
+              "etn-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 3.794,
+            "sourceIds": [
+              "etn-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 4.087,
+            "sourceIds": [
+              "etn-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "annual-assets",
+        "label": "Annual total assets",
+        "labelZh": "年度总资产",
+        "labelEn": "Annual total assets",
+        "unit": "USD billions",
+        "cadence": "annual",
+        "note": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "noteZh": "使用 SEC companyfacts 年度序列；分部构成另行复核。",
+        "noteEn": "SEC companyfacts annual series; segment-level mix is reviewed separately.",
+        "sourceIds": [
+          "etn-sec-companyfacts"
+        ],
+        "points": [
+          {
+            "period": "FY2023",
+            "periodZh": "2023 财年",
+            "periodEn": "FY2023",
+            "value": 38.432,
+            "sourceIds": [
+              "etn-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2024",
+            "periodZh": "2024 财年",
+            "periodEn": "FY2024",
+            "value": 38.381,
+            "sourceIds": [
+              "etn-sec-companyfacts"
+            ]
+          },
+          {
+            "period": "FY2025",
+            "periodZh": "2025 财年",
+            "periodEn": "FY2025",
+            "value": 41.251,
+            "sourceIds": [
+              "etn-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenueMixHistory": [
+      {
+        "period": "FY2023",
+        "periodZh": "2023 财年",
+        "periodEn": "FY2023",
+        "totalRevenue": 23.196,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "etn-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 23.196,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "etn-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2024",
+        "periodZh": "2024 财年",
+        "periodEn": "FY2024",
+        "totalRevenue": 24.878,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "etn-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 24.878,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "etn-sec-companyfacts"
+            ]
+          }
+        ]
+      },
+      {
+        "period": "FY2025",
+        "periodZh": "2025 财年",
+        "periodEn": "FY2025",
+        "totalRevenue": 27.448,
+        "note": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteZh": "批量自动稿仅使用可核对的总收入；分部收入拆分需要后续人工读取年报表格。",
+        "noteEn": "The batch draft uses only verifiable total revenue; segment revenue split requires later manual annual-report table review.",
+        "sourceIds": [
+          "etn-sec-companyfacts"
+        ],
+        "segments": [
+          {
+            "name": "Total revenue",
+            "nameZh": "总收入",
+            "nameEn": "Total revenue",
+            "revenue": 27.448,
+            "unit": "USD billions",
+            "share": 100,
+            "sourceIds": [
+              "etn-sec-companyfacts"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-06-11",
+      "title": "Recent SEC filing: 8-K",
+      "titleZh": "最新 SEC 文件：8-K",
+      "titleEn": "Recent SEC filing: 8-K",
+      "category": "SEC filing",
+      "categoryZh": "SEC 文件",
+      "categoryEn": "SEC filing",
+      "summary": "SEC submissions show a 8-K filed on 2026-06-11; report date 2026-06-10.",
+      "summaryZh": "SEC submissions 显示公司于 2026-06-11 提交 8-K；报告期为 2026-06-10。",
+      "summaryEn": "SEC submissions show a 8-K filed on 2026-06-11; report date 2026-06-10.",
+      "impact": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "impactZh": "作为本批次最新公开文件检查点；每日定时刷新仍未启用。",
+      "impactEn": "Used as the latest public filing checkpoint for this batch; scheduled daily refresh remains disabled.",
+      "sourceIds": [
+        "etn-sec-submissions"
+      ]
+    }
+  ],
+  "filings": [
+    {
+      "form": "8-K",
+      "filedAt": "2026-06-11",
+      "reportDate": "2026-06-10",
+      "title": "8-K filed 2026-06-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/1551182/000095014226001733/eh260792115_8k.htm"
+    },
+    {
+      "form": "10-Q",
+      "filedAt": "2026-05-05",
+      "reportDate": "2026-03-31",
+      "title": "10-Q filed 2026-05-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000013/etn-20260331.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-05-05",
+      "reportDate": "2026-05-05",
+      "title": "8-K filed 2026-05-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000010/etn-20260505.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-04-23",
+      "reportDate": "2026-04-22",
+      "title": "8-K filed 2026-04-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126016399/ef20071273_8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-10",
+      "reportDate": "2026-03-06",
+      "title": "8-K filed 2026-03-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126008836/ef20067414_8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filedAt": "2026-03-02",
+      "reportDate": "2026-02-25",
+      "title": "8-K filed 2026-03-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126007362/ef20066947_8k.htm"
+    }
+  ],
+  "sources": [
+    {
+      "id": "etn-homepage",
+      "title": "Eaton / 伊顿 company website",
+      "titleZh": "Eaton / 伊顿 公司官网",
+      "titleEn": "Eaton / 伊顿 company website",
+      "publisher": "Eaton / 伊顿",
+      "url": "https://www.eaton.com/",
+      "accessedAt": "2026-06-14",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "etn-sec-submissions",
+      "title": "ETN SEC submissions",
+      "titleZh": "ETN SEC submissions 数据",
+      "titleEn": "ETN SEC submissions",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/submissions/CIK0001551182.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "etn-sec-companyfacts",
+      "title": "ETN SEC companyfacts XBRL data",
+      "titleZh": "ETN SEC companyfacts XBRL 数据",
+      "titleEn": "ETN SEC companyfacts XBRL data",
+      "publisher": "SEC EDGAR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001551182.json",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "etn-nasdaq-quote",
+      "title": "ETN Nasdaq quote page",
+      "titleZh": "ETN Nasdaq 行情页面",
+      "titleEn": "ETN Nasdaq quote page",
+      "publisher": "Nasdaq",
+      "url": "https://www.nasdaq.com/market-activity/stocks/etn",
+      "accessedAt": "2026-06-14",
+      "type": "exchange",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "nvidia-10k-2026",
+      "title": "NVIDIA FY2026 Form 10-K",
+      "titleZh": "NVIDIA 2026 财年 10-K 年报",
+      "titleEn": "NVIDIA FY2026 Form 10-K",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "accessedAt": "2026-06-14",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "nvidia-rtx-pro-systems-2025",
+      "title": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "titleZh": "NVIDIA RTX PRO Blackwell 服务器进入企业系统生态",
+      "titleEn": "NVIDIA RTX PRO Servers With Blackwell Coming to Enterprise Systems",
+      "publisher": "NVIDIA Investor Relations",
+      "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-RTX-PRO-Servers-With-Blackwell-Coming-to-Worlds-Most-Popular-Enterprise-Systems/",
+      "accessedAt": "2026-06-14",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    }
+  ],
+  "automation": {
+    "sec": {
+      "cik": "0001551182",
+      "forms": [
+        "10-K",
+        "10-Q",
+        "8-K",
+        "20-F",
+        "6-K"
+      ]
+    },
+    "newsFeeds": [
+      {
+        "url": "https://www.eaton.com/",
+        "publisher": "Eaton / 伊顿",
+        "sourceType": "company"
+      }
+    ]
+  },
+  "themeExposure": [
+    {
+      "theme": "AI 数据中心电力",
+      "themeZh": "AI 数据中心电力",
+      "themeEn": "AI data-center power",
+      "score": 4,
+      "role": "配电与电力管理设备",
+      "roleZh": "配电与电力管理设备",
+      "roleEn": "Power distribution and management equipment",
+      "rationale": "数据中心电力接入和配电扩容是 AI 基建的物理约束之一，Eaton 处于设备供给层。",
+      "rationaleZh": "数据中心电力接入和配电扩容是 AI 基建的物理约束之一，Eaton 处于设备供给层。",
+      "rationaleEn": "Data-center power access and distribution expansion are physical constraints for AI infrastructure, and Eaton sits in the equipment supply layer.",
+      "confidence": "medium"
+    }
+  ]
+}
