@@ -17,7 +17,7 @@
     "Automotive and embedded memory"
   ],
   "homepage": "https://www.micron.com/",
-  "lastUpdated": "2026-07-01T20:25:40.303363Z",
+  "lastUpdated": "2026-07-02T05:00:41.408195Z",
   "summary": "美光是美国存储器与存储解决方案龙头，核心变量是 AI 数据中心带来的 HBM、DDR5/LPDDR 与 SSD 需求、存储价格周期、产能/资本开支和先进封装能力。",
   "aliases": [
     "Micron",
@@ -114,7 +114,7 @@
         ]
       }
     ],
-    "thesis": "Micron 的投资与产业链逻辑从传统存储周期扩展到 AI 基础设施：HBM 和高端 DRAM 推动 ASP、毛利率与资本开支上行，NAND/SSD 则受数据中心和客户端需求共同影响。需要同时跟踪 AI GPU 平台认证、存储价格、产能利用率、先进封装、设备/材料供给和中国/美国政策风险。",
+    "thesis": "Micron 的核心判断已从周期复苏进一步转向 AI 内存紧供给和战略客户协议兑现；Q3 FY2026 创纪录收入、毛利率和 Q4 指引强化了 HBM、数据中心 SSD 与先进 DRAM/NAND 的供给约束属性。",
     "riskNotes": [
       "存储器仍有明显周期性，价格、库存和客户采购节奏会显著影响收入与毛利率。",
       "HBM、先进 DRAM、NAND 和封装扩产依赖昂贵设备、材料和长期资本开支，供给约束可能同时带来增长和执行风险。",
@@ -157,7 +157,9 @@
           "mu-fy2025-results"
         ]
       }
-    ]
+    ],
+    "thesisZh": "Micron 的核心判断已从周期复苏进一步转向 AI 内存紧供给和战略客户协议兑现；Q3 FY2026 创纪录收入、毛利率和 Q4 指引强化了 HBM、数据中心 SSD 与先进 DRAM/NAND 的供给约束属性。",
+    "thesisEn": "Micron thesis has shifted further from cyclical recovery toward tight AI memory supply and execution of strategic customer agreements; record Q3 FY2026 revenue, margin, and Q4 guidance reinforce the supply-constrained nature of HBM, data-center SSDs, and advanced DRAM/NAND."
   },
   "supplyChain": {
     "updatedAt": "2026-06-08T20:30:00+08:00",
@@ -1437,144 +1439,144 @@
     ]
   },
   "financials": {
-    "latestPeriod": "Q2 FY2026 / FY2025 baseline",
-    "latestPeriodZh": "2026 财年第二财季 / 2025 财年基准",
-    "latestPeriodEn": "Q2 FY2026 / FY2025 baseline",
+    "latestPeriod": "Q3 FY2026 / FY2025 baseline",
+    "latestPeriodZh": "2026 财年第三财季；年度基准为 FY2025",
+    "latestPeriodEn": "Q3 FY2026; annual baseline FY2025",
     "highlights": [
       {
-        "label": "Q2 FY2026 revenue",
-        "labelZh": "2026 财年第二财季收入",
-        "labelEn": "Q2 FY2026 revenue",
-        "value": 23.86,
+        "label": "Q3 FY2026 revenue",
+        "labelZh": "Q3 FY2026 收入",
+        "labelEn": "Q3 FY2026 revenue",
+        "value": 41.456,
         "unit": "USD billions",
-        "period": "Quarter ended 2026-02-26",
-        "periodZh": "截至 2026-02-26 的季度",
-        "periodEn": "Quarter ended 2026-02-26",
-        "change": "+196% year over year; +75% quarter over quarter",
-        "changeZh": "同比增长 196%；环比增长 75%",
-        "changeEn": "+196% year over year; +75% quarter over quarter",
+        "period": "Quarter ended 2026-05-28",
+        "periodZh": "截至 2026 年 5 月 28 日季度",
+        "periodEn": "Quarter ended 2026-05-28",
+        "change": "Q2 FY2026: $23.86B; Q3 FY2025: $9.301B",
+        "changeZh": "上一财季 238.60 亿美元；去年同期 93.01 亿美元",
+        "changeEn": "Q2 FY2026: $23.86B; Q3 FY2025: $9.301B",
         "sourceIds": [
-          "mu-q2-fy2026-results"
+          "mu-q3-fy2026-results",
+          "mu-10q-q3-fy2026"
         ]
       },
       {
-        "label": "Q2 FY2026 GAAP gross margin",
-        "labelZh": "2026 财年第二财季 GAAP 毛利率",
-        "labelEn": "Q2 FY2026 GAAP gross margin",
-        "value": 74.4,
+        "label": "Q3 FY2026 GAAP gross margin",
+        "labelZh": "Q3 FY2026 GAAP 毛利率",
+        "labelEn": "Q3 FY2026 GAAP gross margin",
+        "value": 84.6,
         "unit": "percent",
-        "period": "Quarter ended 2026-02-26",
-        "periodZh": "截至 2026-02-26 的季度",
-        "periodEn": "Quarter ended 2026-02-26",
-        "change": "vs. 56.0% in Q1 FY2026 and 36.8% in Q2 FY2025",
-        "changeZh": "上一财季为 56.0%，上年同期为 36.8%",
-        "changeEn": "vs. 56.0% in Q1 FY2026 and 36.8% in Q2 FY2025",
+        "period": "Quarter ended 2026-05-28",
+        "periodZh": "截至 2026 年 5 月 28 日季度",
+        "periodEn": "Quarter ended 2026-05-28",
+        "change": "Q2 FY2026: 74.4%; Q3 FY2025: 37.7%",
+        "changeZh": "上一财季 74.4%；去年同期 37.7%",
+        "changeEn": "Q2 FY2026: 74.4%; Q3 FY2025: 37.7%",
         "sourceIds": [
-          "mu-q2-fy2026-results"
+          "mu-q3-fy2026-results"
         ]
       },
       {
-        "label": "Q2 FY2026 GAAP diluted EPS",
-        "labelZh": "2026 财年第二财季 GAAP 摊薄 EPS",
-        "labelEn": "Q2 FY2026 GAAP diluted EPS",
-        "value": 12.07,
+        "label": "Q3 FY2026 GAAP diluted EPS",
+        "labelZh": "Q3 FY2026 GAAP 摊薄 EPS",
+        "labelEn": "Q3 FY2026 GAAP diluted EPS",
+        "value": 24.67,
         "unit": "USD/share",
-        "period": "Quarter ended 2026-02-26",
-        "periodZh": "截至 2026-02-26 的季度",
-        "periodEn": "Quarter ended 2026-02-26",
-        "change": "vs. $4.60 in Q1 FY2026 and $1.41 in Q2 FY2025",
-        "changeZh": "上一财季为 4.60 美元，上年同期为 1.41 美元",
-        "changeEn": "vs. $4.60 in Q1 FY2026 and $1.41 in Q2 FY2025",
+        "period": "Quarter ended 2026-05-28",
+        "periodZh": "截至 2026 年 5 月 28 日季度",
+        "periodEn": "Quarter ended 2026-05-28",
+        "change": "Q2 FY2026: $12.07; Q3 FY2025: $1.68",
+        "changeZh": "上一财季 12.07 美元；去年同期 1.68 美元",
+        "changeEn": "Q2 FY2026: $12.07; Q3 FY2025: $1.68",
         "sourceIds": [
-          "mu-q2-fy2026-results"
+          "mu-q3-fy2026-results",
+          "mu-10q-q3-fy2026"
         ]
       },
       {
-        "label": "FY2025 revenue",
-        "labelZh": "2025 财年收入",
-        "labelEn": "FY2025 revenue",
-        "value": 37.378,
+        "label": "Q3 FY2026 operating cash flow",
+        "labelZh": "Q3 FY2026 经营现金流",
+        "labelEn": "Q3 FY2026 operating cash flow",
+        "value": 25.39,
         "unit": "USD billions",
-        "period": "Fiscal year ended 2025-08-28",
-        "periodZh": "截至 2025-08-28 的财年",
-        "periodEn": "Fiscal year ended 2025-08-28",
-        "change": "+49% year over year",
-        "changeZh": "同比增长 49%",
-        "changeEn": "+49% year over year",
+        "period": "Quarter ended 2026-05-28",
+        "periodZh": "截至 2026 年 5 月 28 日季度",
+        "periodEn": "Quarter ended 2026-05-28",
+        "change": "Q2 FY2026: $11.90B; Q3 FY2025: $4.61B",
+        "changeZh": "上一财季 119.0 亿美元；去年同期 46.1 亿美元",
+        "changeEn": "Q2 FY2026: $11.90B; Q3 FY2025: $4.61B",
         "sourceIds": [
-          "mu-fy2025-results",
-          "mu-10k-2025"
+          "mu-q3-fy2026-results"
         ]
       }
     ],
     "revenueMix": [
       {
         "name": "Cloud Memory Business Unit",
-        "nameZh": "云内存业务单元",
+        "nameZh": "云内存业务部",
         "nameEn": "Cloud Memory Business Unit",
-        "revenue": 7.749,
+        "revenue": 13.769,
         "unit": "USD billions",
-        "period": "Q2 FY2026",
-        "periodZh": "2026 财年第二财季",
-        "periodEn": "Q2 FY2026",
-        "share": 32.48,
-        "note": "HBM and high-performance cloud memory demand are the main signal to watch.",
-        "noteZh": "HBM 与高性能云内存需求是最核心的观察信号。",
-        "noteEn": "HBM and high-performance cloud memory demand are the main signal to watch.",
+        "period": "Q3 FY2026",
+        "periodZh": "2026 财年第三财季",
+        "periodEn": "Q3 FY2026",
+        "share": 33.21,
+        "note": "HBM/DRAM and cloud memory demand; Q3 FY2026 revenue from earnings release.",
+        "noteZh": "HBM/DRAM and cloud memory demand; Q3 FY2026 revenue from earnings release.",
+        "noteEn": "HBM/DRAM and cloud memory demand; Q3 FY2026 revenue from earnings release.",
         "sourceIds": [
-          "mu-q2-fy2026-results"
+          "mu-q3-fy2026-results"
         ]
       },
       {
         "name": "Core Data Center Business Unit",
-        "nameZh": "核心数据中心业务单元",
+        "nameZh": "核心数据中心业务部",
         "nameEn": "Core Data Center Business Unit",
-        "revenue": 5.687,
+        "revenue": 11.524,
         "unit": "USD billions",
-        "period": "Q2 FY2026",
-        "periodZh": "2026 财年第二财季",
-        "periodEn": "Q2 FY2026",
-        "share": 23.84,
-        "note": "Includes server memory, data center SSDs and NAND components for enterprise and OEM customers.",
-        "noteZh": "包含面向企业与 OEM 客户的服务器内存、数据中心 SSD 和 NAND 组件。",
-        "noteEn": "Includes server memory, data center SSDs, and NAND components for enterprise and OEM customers.",
+        "period": "Q3 FY2026",
+        "periodZh": "2026 财年第三财季",
+        "periodEn": "Q3 FY2026",
+        "share": 27.8,
+        "note": "Data-center SSD and memory products; Q3 FY2026 revenue from earnings release.",
+        "noteZh": "Data-center SSD and memory products; Q3 FY2026 revenue from earnings release.",
+        "noteEn": "Data-center SSD and memory products; Q3 FY2026 revenue from earnings release.",
         "sourceIds": [
-          "mu-q2-fy2026-results"
+          "mu-q3-fy2026-results"
         ]
       },
       {
         "name": "Mobile and Client Business Unit",
-        "nameZh": "移动与客户端业务单元",
+        "nameZh": "移动与客户端业务部",
         "nameEn": "Mobile and Client Business Unit",
-        "revenue": 7.711,
+        "revenue": 11.521,
         "unit": "USD billions",
-        "period": "Q2 FY2026",
-        "periodZh": "2026 财年第二财季",
-        "periodEn": "Q2 FY2026",
-        "share": 32.32,
-        "note": "Covers smartphone, PC and client storage demand; consumer channel strategy changed after the Crucial exit decision.",
-        "noteZh": "覆盖智能手机、PC 和客户端存储需求；Crucial 退出后消费渠道策略发生变化。",
-        "noteEn": "Covers smartphone, PC, and client storage demand; consumer channel strategy changed after the Crucial exit decision.",
+        "period": "Q3 FY2026",
+        "periodZh": "2026 财年第三财季",
+        "periodEn": "Q3 FY2026",
+        "share": 27.79,
+        "note": "Mobile and client DRAM/NAND products; Q3 FY2026 revenue from earnings release.",
+        "noteZh": "Mobile and client DRAM/NAND products; Q3 FY2026 revenue from earnings release.",
+        "noteEn": "Mobile and client DRAM/NAND products; Q3 FY2026 revenue from earnings release.",
         "sourceIds": [
-          "mu-q2-fy2026-results",
-          "mu-crucial-exit-2025"
+          "mu-q3-fy2026-results"
         ]
       },
       {
         "name": "Automotive and Embedded Business Unit",
-        "nameZh": "汽车与嵌入式业务单元",
+        "nameZh": "汽车与嵌入式业务部",
         "nameEn": "Automotive and Embedded Business Unit",
-        "revenue": 2.708,
+        "revenue": 4.634,
         "unit": "USD billions",
-        "period": "Q2 FY2026",
-        "periodZh": "2026 财年第二财季",
-        "periodEn": "Q2 FY2026",
-        "share": 11.35,
-        "note": "Long-lifecycle automotive and industrial products can behave differently from AI-driven leading-edge memory.",
-        "noteZh": "长生命周期汽车和工业产品与 AI 驱动的先进存储周期可能不同步。",
-        "noteEn": "Long-lifecycle automotive and industrial products can behave differently from AI-driven leading-edge memory.",
+        "period": "Q3 FY2026",
+        "periodZh": "2026 财年第三财季",
+        "periodEn": "Q3 FY2026",
+        "share": 11.18,
+        "note": "Automotive and embedded memory/storage products; Q3 FY2026 revenue from earnings release.",
+        "noteZh": "Automotive and embedded memory/storage products; Q3 FY2026 revenue from earnings release.",
+        "noteEn": "Automotive and embedded memory/storage products; Q3 FY2026 revenue from earnings release.",
         "sourceIds": [
-          "mu-q2-fy2026-results"
+          "mu-q3-fy2026-results"
         ]
       }
     ],
@@ -1592,7 +1594,9 @@
         "sourceIds": [
           "mu-q2-fy2026-results",
           "mu-fy2025-results",
-          "mu-sec-companyfacts"
+          "mu-sec-companyfacts",
+          "mu-q3-fy2026-results",
+          "mu-10q-q3-fy2026"
         ],
         "points": [
           {
@@ -1643,6 +1647,16 @@
               "mu-q2-fy2026-results",
               "mu-sec-companyfacts"
             ]
+          },
+          {
+            "period": "Q3 FY2026",
+            "periodZh": "2026 财年第三财季",
+            "periodEn": "Q3 FY2026",
+            "value": 41.456,
+            "sourceIds": [
+              "mu-q3-fy2026-results",
+              "mu-10q-q3-fy2026"
+            ]
           }
         ]
       },
@@ -1659,7 +1673,8 @@
         "sourceIds": [
           "mu-q2-fy2026-results",
           "mu-fy2025-results",
-          "mu-sec-companyfacts"
+          "mu-sec-companyfacts",
+          "mu-q3-fy2026-results"
         ],
         "points": [
           {
@@ -1691,6 +1706,15 @@
             "periodZh": "26财年Q2",
             "periodEn": "Q2 FY2026",
             "value": 74.4
+          },
+          {
+            "period": "Q3 FY2026",
+            "periodZh": "2026 财年第三财季",
+            "periodEn": "Q3 FY2026",
+            "value": 84.6,
+            "sourceIds": [
+              "mu-q3-fy2026-results"
+            ]
           }
         ]
       },
@@ -2005,10 +2029,86 @@
             "share": 11.35
           }
         ]
+      },
+      {
+        "period": "Q3 FY2026",
+        "periodZh": "2026 财年第三财季",
+        "periodEn": "Q3 FY2026",
+        "totalRevenue": 41.456,
+        "note": "Q3 FY2026 business unit revenue from Micron earnings release; percentages calculated against reported total revenue.",
+        "noteZh": "Q3 FY2026 业务部收入来自 Micron 业绩新闻稿；百分比按披露总收入计算。",
+        "noteEn": "Q3 FY2026 business unit revenue from Micron earnings release; percentages calculated against reported total revenue.",
+        "sourceIds": [
+          "mu-q3-fy2026-results"
+        ],
+        "segments": [
+          {
+            "name": "Cloud Memory Business Unit",
+            "nameZh": "云内存业务部",
+            "nameEn": "Cloud Memory Business Unit",
+            "revenue": 13.769,
+            "unit": "USD billions",
+            "share": 33.21,
+            "sourceIds": [
+              "mu-q3-fy2026-results"
+            ]
+          },
+          {
+            "name": "Core Data Center Business Unit",
+            "nameZh": "核心数据中心业务部",
+            "nameEn": "Core Data Center Business Unit",
+            "revenue": 11.524,
+            "unit": "USD billions",
+            "share": 27.8,
+            "sourceIds": [
+              "mu-q3-fy2026-results"
+            ]
+          },
+          {
+            "name": "Mobile and Client Business Unit",
+            "nameZh": "移动与客户端业务部",
+            "nameEn": "Mobile and Client Business Unit",
+            "revenue": 11.521,
+            "unit": "USD billions",
+            "share": 27.79,
+            "sourceIds": [
+              "mu-q3-fy2026-results"
+            ]
+          },
+          {
+            "name": "Automotive and Embedded Business Unit",
+            "nameZh": "汽车与嵌入式业务部",
+            "nameEn": "Automotive and Embedded Business Unit",
+            "revenue": 4.634,
+            "unit": "USD billions",
+            "share": 11.18,
+            "sourceIds": [
+              "mu-q3-fy2026-results"
+            ]
+          }
+        ]
       }
     ]
   },
   "news": [
+    {
+      "date": "2026-06-24",
+      "title": "Micron 发布 2026 财年第三财季创纪录业绩",
+      "titleZh": "Micron 发布 2026 财年第三财季创纪录业绩",
+      "titleEn": "Micron reports record third-quarter FY2026 results",
+      "category": "Earnings",
+      "categoryZh": "业绩",
+      "categoryEn": "Earnings",
+      "summary": "季度收入 414.56 亿美元，GAAP 毛利率 84.6%，GAAP 摊薄 EPS 24.67 美元；公司称 Q4 展望更强，并给出收入 500 亿美元上下 10 亿美元的指引。",
+      "summaryZh": "季度收入 414.56 亿美元，GAAP 毛利率 84.6%，GAAP 摊薄 EPS 24.67 美元；公司称 Q4 展望更强，并给出收入 500 亿美元上下 10 亿美元的指引。",
+      "summaryEn": "Revenue was $41.456B, GAAP gross margin was 84.6%, and GAAP diluted EPS was $24.67; Micron also guided Q4 FY2026 revenue to $50.0B plus or minus $1.0B.",
+      "impact": "AI 时代内存紧供给和战略客户协议继续推升收入与利润弹性；后续重点跟踪 HBM、数据中心 SSD、资本开支和客户协议兑现。",
+      "impactZh": "AI 时代内存紧供给和战略客户协议继续推升收入与利润弹性；后续重点跟踪 HBM、数据中心 SSD、资本开支和客户协议兑现。",
+      "impactEn": "Tight AI-era memory supply and strategic customer agreements continue to lift revenue and profit leverage; HBM, data-center SSDs, capex, and customer-agreement execution remain key follow-up items.",
+      "sourceIds": [
+        "mu-q3-fy2026-results"
+      ]
+    },
     {
       "date": "2026-03-18",
       "title": "Micron 发布 2026 财年第二财季创纪录业绩",
@@ -2169,6 +2269,34 @@
     }
   ],
   "sources": [
+    {
+      "id": "mu-q3-fy2026-results",
+      "title": "Micron Technology, Inc. Reports Results for the Third Quarter of Fiscal 2026",
+      "titleZh": "Micron 发布 2026 财年第三财季业绩",
+      "titleEn": "Micron Technology, Inc. Reports Results for the Third Quarter of Fiscal 2026",
+      "publisher": "Micron Investor Relations / SEC Exhibit 99.1",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000013/a2026q3ex991-pressrelease.htm",
+      "publishedAt": "2026-06-24",
+      "accessedAt": "2026-07-02",
+      "type": "company",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "mu-10q-q3-fy2026",
+      "title": "Micron Form 10-Q for quarter ended May 28, 2026",
+      "titleZh": "Micron 截至 2026 年 5 月 28 日季度 10-Q",
+      "titleEn": "Micron Form 10-Q for quarter ended May 28, 2026",
+      "publisher": "SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/mu-20260528.htm",
+      "publishedAt": "2026-06-25",
+      "accessedAt": "2026-07-02",
+      "type": "sec",
+      "evidenceLevel": "strong",
+      "evidenceLevelZh": "强证据",
+      "evidenceLevelEn": "Strong"
+    },
     {
       "id": "mu-q2-fy2026-results",
       "title": "Micron Technology, Inc. Reports Results for the Second Quarter of Fiscal 2026",
