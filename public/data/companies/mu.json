@@ -45,72 +45,72 @@
         "name": "Cloud Memory Business Unit",
         "nameZh": "云内存业务单元",
         "nameEn": "Cloud Memory Business Unit",
-        "revenue": 7.749,
+        "revenue": 13.769,
         "unit": "USD billions",
-        "period": "Q2 FY2026",
-        "periodZh": "2026 财年第二财季",
-        "periodEn": "Q2 FY2026",
-        "share": 32.48,
+        "period": "Q3 FY2026",
+        "periodZh": "2026 财年第三财季",
+        "periodEn": "Q3 FY2026",
+        "share": 33.21,
         "note": "主要面向 hyperscale 云数据中心，涵盖 HBM、DDR5/DDR4、LPDDR5 和 GDDR6 等内存产品。",
         "noteZh": "主要面向 hyperscale 云数据中心，涵盖 HBM、DDR5/DDR4、LPDDR5 和 GDDR6 等内存产品。",
         "noteEn": "Focused on hyperscale cloud data centers, including HBM, DDR5/DDR4, LPDDR5, and GDDR6 memory products.",
         "sourceIds": [
-          "mu-q2-fy2026-results",
-          "mu-10k-2025"
+          "mu-q3-fy2026-results",
+          "mu-10q-q3-fy2026"
         ]
       },
       {
         "name": "Core Data Center Business Unit",
         "nameZh": "核心数据中心业务单元",
         "nameEn": "Core Data Center Business Unit",
-        "revenue": 5.687,
+        "revenue": 11.524,
         "unit": "USD billions",
-        "period": "Q2 FY2026",
-        "periodZh": "2026 财年第二财季",
-        "periodEn": "Q2 FY2026",
-        "share": 23.84,
+        "period": "Q3 FY2026",
+        "periodZh": "2026 财年第三财季",
+        "periodEn": "Q3 FY2026",
+        "share": 27.8,
         "note": "面向中型云、企业和 OEM 数据中心客户，覆盖服务器 DRAM、数据中心 SSD 和 NAND 组件。",
         "noteZh": "面向中型云、企业和 OEM 数据中心客户，覆盖服务器 DRAM、数据中心 SSD 和 NAND 组件。",
         "noteEn": "Focused on mid-tier cloud, enterprise, and OEM data center customers, including server DRAM, data center SSDs, and NAND components.",
         "sourceIds": [
-          "mu-q2-fy2026-results",
-          "mu-10k-2025"
+          "mu-q3-fy2026-results",
+          "mu-10q-q3-fy2026"
         ]
       },
       {
         "name": "Mobile and Client Business Unit",
         "nameZh": "移动与客户端业务单元",
         "nameEn": "Mobile and Client Business Unit",
-        "revenue": 7.711,
+        "revenue": 11.521,
         "unit": "USD billions",
-        "period": "Q2 FY2026",
-        "periodZh": "2026 财年第二财季",
-        "periodEn": "Q2 FY2026",
-        "share": 32.32,
+        "period": "Q3 FY2026",
+        "periodZh": "2026 财年第三财季",
+        "periodEn": "Q3 FY2026",
+        "share": 27.79,
         "note": "覆盖智能手机、PC、客户端 SSD、LPDDR、UFS 和托管 NAND 等产品。",
         "noteZh": "覆盖智能手机、PC、客户端 SSD、LPDDR、UFS 和托管 NAND 等产品。",
         "noteEn": "Covers smartphones, PCs, client SSDs, LPDDR, UFS, and managed NAND products.",
         "sourceIds": [
-          "mu-q2-fy2026-results",
-          "mu-10k-2025"
+          "mu-q3-fy2026-results",
+          "mu-10q-q3-fy2026"
         ]
       },
       {
         "name": "Automotive and Embedded Business Unit",
         "nameZh": "汽车与嵌入式业务单元",
         "nameEn": "Automotive and Embedded Business Unit",
-        "revenue": 2.708,
+        "revenue": 4.634,
         "unit": "USD billions",
-        "period": "Q2 FY2026",
-        "periodZh": "2026 财年第二财季",
-        "periodEn": "Q2 FY2026",
-        "share": 11.35,
+        "period": "Q3 FY2026",
+        "periodZh": "2026 财年第三财季",
+        "periodEn": "Q3 FY2026",
+        "share": 11.18,
         "note": "面向汽车、工业和消费嵌入式场景的长生命周期内存与存储。",
         "noteZh": "面向汽车、工业和消费嵌入式场景的长生命周期内存与存储。",
         "noteEn": "Long-life memory and storage products for automotive, industrial, and embedded consumer applications.",
         "sourceIds": [
-          "mu-q2-fy2026-results",
-          "mu-10k-2025"
+          "mu-q3-fy2026-results",
+          "mu-10q-q3-fy2026"
         ]
       }
     ],
