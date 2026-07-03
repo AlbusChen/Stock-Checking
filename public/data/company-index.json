@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T06:22:05.862602Z",
+  "generatedAt": "2026-07-03T06:55:04.072968Z",
   "companies": [
     {
       "id": "cssc-special-gas",
@@ -46,10 +46,12 @@
         "终端硬件",
         "软件服务",
         "AI生态",
-        "美股"
+        "美股",
+        "苹果供应链",
+        "供应链安全"
       ],
       "sector": "Consumer electronics and services",
-      "lastUpdated": "2026-07-01T20:25:57.241222Z",
+      "lastUpdated": "2026-07-03T06:51:22Z",
       "summary": "硬件生态和服务收入共同驱动，核心变量是 iPhone 周期、服务增长、供应链韧性与 AI 平台节奏。"
     },
     {

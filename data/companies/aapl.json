@@ -16,7 +16,7 @@
     "Digital services"
   ],
   "homepage": "https://www.apple.com/",
-  "lastUpdated": "2026-07-01T20:25:57.241222Z",
+  "lastUpdated": "2026-07-03T06:51:22Z",
   "summary": "硬件生态和服务收入共同驱动，核心变量是 iPhone 周期、服务增长、供应链韧性与 AI 平台节奏。",
   "updateCadence": {
     "最新动态": "12 小时",
@@ -165,8 +165,8 @@
     ]
   },
   "supplyChain": {
-    "updatedAt": "2026-06-07T16:45:00+08:00",
-    "thesis": "Apple 采用轻资产设计与重度外包制造模式。公司披露其制造主要由外包伙伴完成，地区包括中国大陆、印度、日本、韩国、台湾、越南和美国；进一步上溯后，关键瓶颈集中在先进晶圆制造、显示面板、摄像头、存储、被动元件、电池材料和精密组装。",
+    "updatedAt": "2026-07-03T06:51:22Z",
+    "thesis": "Apple 采用轻资产设计与重度外包制造模式。Tata Electronics 泄露事件显示，未发布 iPhone 的主板、电池、摄像头和芯片资料会把 Apple 极力保护的供应商映射暴露出来；因此本页把供应链拆成最终组装/模组、半导体显示电池、再上游设备材料三层，并用 Apple 官方供应商名单交叉核验公开可确认的企业。",
     "tiers": [
       {
         "level": 0,
@@ -259,7 +259,11 @@
           "Luxshare Precision",
           "Pegatron",
           "Compal",
-          "Wistron"
+          "Wistron",
+          "Tata Electronics",
+          "LG Innotek",
+          "Largan Precision",
+          "Sunny Optical"
         ],
         "entities": [
           {
@@ -298,14 +302,14 @@
             "nameZh": "鸿海精密 / 富士康",
             "nameEn": "Hon Hai Precision / Foxconn",
             "relationshipStrength": {
-              "score": 4,
-              "label": "强相关",
-              "labelZh": "强相关",
-              "labelEn": "Strong relevance",
-              "direction": "upstream-equipment",
-              "rationale": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
-              "rationaleZh": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
-              "rationaleEn": "Sits in process equipment or metrology/inspection, with demand transmitted through foundry, memory, and packaging line expansion.",
+              "score": 5,
+              "label": "核心制造节点",
+              "labelZh": "核心制造节点",
+              "labelEn": "Core manufacturing node",
+              "direction": "upstream-manufacturing",
+              "rationale": "直接承担整机组装、关键机电件或区域产能，是 Apple 硬件交付节奏的近端约束。",
+              "rationaleZh": "直接承担整机组装、关键机电件或区域产能，是 Apple 硬件交付节奏的近端约束。",
+              "rationaleEn": "Directly handles device assembly, key mechanical/electrical parts, or regional capacity, making it a near-term constraint on Apple's hardware delivery cadence.",
               "confidence": "medium"
             }
           },
@@ -345,14 +349,14 @@
             "nameZh": "立讯精密",
             "nameEn": "Luxshare Precision",
             "relationshipStrength": {
-              "score": 4,
-              "label": "强相关",
-              "labelZh": "强相关",
-              "labelEn": "Strong relevance",
-              "direction": "upstream-equipment",
-              "rationale": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
-              "rationaleZh": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
-              "rationaleEn": "Sits in process equipment or metrology/inspection, with demand transmitted through foundry, memory, and packaging line expansion.",
+              "score": 5,
+              "label": "核心制造节点",
+              "labelZh": "核心制造节点",
+              "labelEn": "Core manufacturing node",
+              "direction": "upstream-manufacturing",
+              "rationale": "直接承担整机组装、关键机电件或区域产能，是 Apple 硬件交付节奏的近端约束。",
+              "rationaleZh": "直接承担整机组装、关键机电件或区域产能，是 Apple 硬件交付节奏的近端约束。",
+              "rationaleEn": "Directly handles device assembly, key mechanical/electrical parts, or regional capacity, making it a near-term constraint on Apple's hardware delivery cadence.",
               "confidence": "medium"
             }
           },
@@ -392,14 +396,14 @@
             "nameZh": "和硕",
             "nameEn": "Pegatron",
             "relationshipStrength": {
-              "score": 4,
-              "label": "强相关",
-              "labelZh": "强相关",
-              "labelEn": "Strong relevance",
-              "direction": "upstream-equipment",
-              "rationale": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
-              "rationaleZh": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
-              "rationaleEn": "Sits in process equipment or metrology/inspection, with demand transmitted through foundry, memory, and packaging line expansion.",
+              "score": 5,
+              "label": "核心制造节点",
+              "labelZh": "核心制造节点",
+              "labelEn": "Core manufacturing node",
+              "direction": "upstream-manufacturing",
+              "rationale": "直接承担整机组装、关键机电件或区域产能，是 Apple 硬件交付节奏的近端约束。",
+              "rationaleZh": "直接承担整机组装、关键机电件或区域产能，是 Apple 硬件交付节奏的近端约束。",
+              "rationaleEn": "Directly handles device assembly, key mechanical/electrical parts, or regional capacity, making it a near-term constraint on Apple's hardware delivery cadence.",
               "confidence": "medium"
             }
           },
@@ -439,14 +443,14 @@
             "nameZh": "仁宝电脑",
             "nameEn": "Compal",
             "relationshipStrength": {
-              "score": 4,
-              "label": "强相关",
-              "labelZh": "强相关",
-              "labelEn": "Strong relevance",
-              "direction": "upstream-equipment",
-              "rationale": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
-              "rationaleZh": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
-              "rationaleEn": "Sits in process equipment or metrology/inspection, with demand transmitted through foundry, memory, and packaging line expansion.",
+              "score": 5,
+              "label": "核心制造节点",
+              "labelZh": "核心制造节点",
+              "labelEn": "Core manufacturing node",
+              "direction": "upstream-manufacturing",
+              "rationale": "直接承担整机组装、关键机电件或区域产能，是 Apple 硬件交付节奏的近端约束。",
+              "rationaleZh": "直接承担整机组装、关键机电件或区域产能，是 Apple 硬件交付节奏的近端约束。",
+              "rationaleEn": "Directly handles device assembly, key mechanical/electrical parts, or regional capacity, making it a near-term constraint on Apple's hardware delivery cadence.",
               "confidence": "medium"
             }
           },
@@ -486,14 +490,204 @@
             "nameZh": "纬创",
             "nameEn": "Wistron",
             "relationshipStrength": {
+              "score": 5,
+              "label": "核心制造节点",
+              "labelZh": "核心制造节点",
+              "labelEn": "Core manufacturing node",
+              "direction": "upstream-manufacturing",
+              "rationale": "直接承担整机组装、关键机电件或区域产能，是 Apple 硬件交付节奏的近端约束。",
+              "rationaleZh": "直接承担整机组装、关键机电件或区域产能，是 Apple 硬件交付节奏的近端约束。",
+              "rationaleEn": "Directly handles device assembly, key mechanical/electrical parts, or regional capacity, making it a near-term constraint on Apple's hardware delivery cadence.",
+              "confidence": "medium"
+            }
+          },
+          {
+            "name": "Tata Electronics",
+            "relationship": "Apple 官方供应商名单列示的印度制造伙伴；最新公开报道显示，Tata 既参与 iPhone 部件供应也参与组装，泄露资料中出现了未发布 iPhone 的零件清单、供应商映射、跌落测试图片以及主板/电池/摄像头相关文件。",
+            "productsServices": [
+              "iPhone assembly",
+              "back panels/enclosures",
+              "circuit-board related parts",
+              "India manufacturing capacity"
+            ],
+            "listing": {
+              "status": "private",
+              "note": "Tata Electronics 为 Tata Group 旗下未上市公司。",
+              "noteZh": "Tata Electronics 为 Tata Group 旗下未上市公司。",
+              "noteEn": "Tata Electronics is an unlisted Tata Group company."
+            },
+            "companyUrl": "https://www.tataelectronics.com/",
+            "confidence": "medium",
+            "sourceIds": [
+              "apple-supplier-list",
+              "aapl-tata-breach-techradar-2026",
+              "aapl-tata-leak-toi-2026",
+              "aapl-tata-leak-verge-2026"
+            ],
+            "relationshipZh": "Apple 官方供应商名单列示的印度制造伙伴；最新公开报道显示，Tata 既参与 iPhone 部件供应也参与组装，泄露资料中出现了未发布 iPhone 的零件清单、供应商映射、跌落测试图片以及主板/电池/摄像头相关文件。",
+            "relationshipEn": "Apple's official supplier list identifies Tata Electronics as an India manufacturing partner. Recent reports say Tata supplies iPhone parts and assembly capacity, and leaked files included unreleased-iPhone parts lists, supplier maps, drop-test images, and mainboard/battery/camera documents.",
+            "productsServicesZh": [
+              "iPhone 组装",
+              "背板/外壳",
+              "电路板相关部件",
+              "印度制造产能"
+            ],
+            "productsServicesEn": [
+              "iPhone assembly",
+              "back panels/enclosures",
+              "circuit-board related parts",
+              "India manufacturing capacity"
+            ],
+            "nameZh": "塔塔电子",
+            "nameEn": "Tata Electronics",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心制造节点",
+              "labelZh": "核心制造节点",
+              "labelEn": "Core manufacturing node",
+              "direction": "upstream-manufacturing",
+              "rationale": "直接承担整机组装、关键机电件或区域产能，是 Apple 硬件交付节奏的近端约束。",
+              "rationaleZh": "直接承担整机组装、关键机电件或区域产能，是 Apple 硬件交付节奏的近端约束。",
+              "rationaleEn": "Directly handles device assembly, key mechanical/electrical parts, or regional capacity, making it a near-term constraint on Apple's hardware delivery cadence.",
+              "confidence": "medium"
+            }
+          },
+          {
+            "name": "LG Innotek",
+            "relationship": "Apple 官方供应商名单中的摄像头和光学模组供应商；Tata 泄露报道明确提到 iPhone 18 Pro 摄像头系统文件，因此摄像头模组链条是此次需要重点溯源的公开可验证层。",
+            "productsServices": [
+              "camera modules",
+              "optical components",
+              "sensor-module integration"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "011070.KS",
+              "exchange": "KRX",
+              "market": "South Korea",
+              "stockUrl": "https://finance.yahoo.com/quote/011070.KS"
+            },
+            "companyUrl": "https://www.lginnotek.com/",
+            "confidence": "medium",
+            "sourceIds": [
+              "apple-supplier-list",
+              "aapl-tata-leak-toi-2026"
+            ],
+            "relationshipZh": "Apple 官方供应商名单中的摄像头和光学模组供应商；Tata 泄露报道明确提到 iPhone 18 Pro 摄像头系统文件，因此摄像头模组链条是此次需要重点溯源的公开可验证层。",
+            "relationshipEn": "Apple's official supplier list includes LG Innotek. Because the Tata leak reports specifically mention iPhone 18 Pro camera-system files, camera-module suppliers are a public, verifiable layer to trace.",
+            "productsServicesZh": [
+              "摄像头模组",
+              "光学组件",
+              "传感器模组集成"
+            ],
+            "productsServicesEn": [
+              "camera modules",
+              "optical components",
+              "sensor-module integration"
+            ],
+            "nameZh": "LG Innotek / 乐金伊诺特",
+            "nameEn": "LG Innotek",
+            "relationshipStrength": {
               "score": 4,
-              "label": "强相关",
-              "labelZh": "强相关",
-              "labelEn": "Strong relevance",
-              "direction": "upstream-equipment",
-              "rationale": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
-              "rationaleZh": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
-              "rationaleEn": "Sits in process equipment or metrology/inspection, with demand transmitted through foundry, memory, and packaging line expansion.",
+              "label": "关键模组供应商",
+              "labelZh": "关键模组供应商",
+              "labelEn": "Key module supplier",
+              "direction": "direct-supplier",
+              "rationale": "直接进入摄像头、光学、连接器或机电模组，影响单机 BOM、良率和高端机型爬坡。",
+              "rationaleZh": "直接进入摄像头、光学、连接器或机电模组，影响单机 BOM、良率和高端机型爬坡。",
+              "rationaleEn": "Directly enters camera, optical, connector, or mechanical/electrical modules, affecting BOM cost, yield, and high-end model ramp.",
+              "confidence": "medium"
+            }
+          },
+          {
+            "name": "Largan Precision",
+            "relationship": "Apple 官方供应商名单中的光学镜头供应商；在 iPhone 摄像头系统中，镜头良率、规格升级和多摄模组爬坡会影响高端机型交付。",
+            "productsServices": [
+              "smartphone lenses",
+              "optical lenses",
+              "high-end camera optics"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "3008.TW",
+              "exchange": "TWSE",
+              "market": "Taiwan",
+              "stockUrl": "https://finance.yahoo.com/quote/3008.TW"
+            },
+            "companyUrl": "https://www.largan.com.tw/",
+            "confidence": "medium",
+            "sourceIds": [
+              "apple-supplier-list"
+            ],
+            "relationshipZh": "Apple 官方供应商名单中的光学镜头供应商；在 iPhone 摄像头系统中，镜头良率、规格升级和多摄模组爬坡会影响高端机型交付。",
+            "relationshipEn": "Apple's official supplier list includes Largan Precision. In the iPhone camera chain, lens yield, specification upgrades, and multi-camera ramp affect high-end model delivery.",
+            "productsServicesZh": [
+              "手机镜头",
+              "光学镜片",
+              "高端摄像头光学件"
+            ],
+            "productsServicesEn": [
+              "smartphone lenses",
+              "optical lenses",
+              "high-end camera optics"
+            ],
+            "nameZh": "大立光",
+            "nameEn": "Largan Precision",
+            "relationshipStrength": {
+              "score": 4,
+              "label": "关键模组供应商",
+              "labelZh": "关键模组供应商",
+              "labelEn": "Key module supplier",
+              "direction": "direct-supplier",
+              "rationale": "直接进入摄像头、光学、连接器或机电模组，影响单机 BOM、良率和高端机型爬坡。",
+              "rationaleZh": "直接进入摄像头、光学、连接器或机电模组，影响单机 BOM、良率和高端机型爬坡。",
+              "rationaleEn": "Directly enters camera, optical, connector, or mechanical/electrical modules, affecting BOM cost, yield, and high-end model ramp.",
+              "confidence": "medium"
+            }
+          },
+          {
+            "name": "Sunny Optical",
+            "relationship": "Apple 官方供应商名单中的光学/摄像头相关供应商；用于补足摄像头系统从传感器、镜头到模组的公开上市公司链条。",
+            "productsServices": [
+              "optical components",
+              "camera-related parts",
+              "lens/module capabilities"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "2382.HK",
+              "exchange": "HKEX",
+              "market": "Hong Kong",
+              "stockUrl": "https://finance.yahoo.com/quote/2382.HK"
+            },
+            "companyUrl": "https://www.sunnyoptical.com/",
+            "confidence": "medium",
+            "sourceIds": [
+              "apple-supplier-list"
+            ],
+            "relationshipZh": "Apple 官方供应商名单中的光学/摄像头相关供应商；用于补足摄像头系统从传感器、镜头到模组的公开上市公司链条。",
+            "relationshipEn": "Apple's official supplier list includes Sunny Optical. It helps complete the public camera-system chain from sensors and lenses to modules.",
+            "productsServicesZh": [
+              "光学组件",
+              "摄像头相关部件",
+              "镜头/模组能力"
+            ],
+            "productsServicesEn": [
+              "optical components",
+              "camera-related parts",
+              "lens/module capabilities"
+            ],
+            "nameZh": "舜宇光学科技",
+            "nameEn": "Sunny Optical",
+            "relationshipStrength": {
+              "score": 4,
+              "label": "关键模组供应商",
+              "labelZh": "关键模组供应商",
+              "labelEn": "Key module supplier",
+              "direction": "direct-supplier",
+              "rationale": "直接进入摄像头、光学、连接器或机电模组，影响单机 BOM、良率和高端机型爬坡。",
+              "rationaleZh": "直接进入摄像头、光学、连接器或机电模组，影响单机 BOM、良率和高端机型爬坡。",
+              "rationaleEn": "Directly enters camera, optical, connector, or mechanical/electrical modules, affecting BOM cost, yield, and high-end model ramp.",
               "confidence": "medium"
             }
           }
@@ -508,29 +702,38 @@
           "Finished devices",
           "Camera modules",
           "Enclosures",
-          "Connectors"
+          "Connectors",
+          "iPhone 18 Pro leak-exposed parts maps",
+          "India manufacturing capacity"
         ],
-        "notes": "Apple 官方供应商名单覆盖组装、机械件、连接器、声学、摄像头和其他模组供应商；不同产品线的直接供应关系会随年份和机型变化。",
+        "notes": "Apple 官方供应商名单覆盖组装、机械件、连接器、声学、摄像头和其他模组供应商；Tata 泄露事件使未发布 iPhone 的主板、电池和摄像头供应映射成为新的跟踪点，但公开报道没有完整列出暗网文件中的全部供应商名称。",
         "confidence": "medium",
         "sourceIds": [
           "apple-supplier-list",
-          "aapl-10k-2025"
+          "aapl-10k-2025",
+          "aapl-tata-leak-toi-2026",
+          "aapl-tata-breach-techradar-2026",
+          "aapl-tata-leak-verge-2026"
         ],
         "titleZh": "最终组装与关键模组",
         "titleEn": "Final assembly and key modules",
-        "notesZh": "Apple 官方供应商名单覆盖组装、机械件、连接器、声学、摄像头和其他模组供应商；不同产品线的直接供应关系会随年份和机型变化。",
-        "notesEn": "Apple 官方供应商名单覆盖组装、机械件、连接器、声学、摄像头和其他模组供应商；不同产品线的直接供应关系会随年份和机型变化。",
+        "notesZh": "Apple 官方供应商名单覆盖组装、机械件、连接器、声学、摄像头和其他模组供应商；Tata 泄露事件使未发布 iPhone 的主板、电池和摄像头供应映射成为新的跟踪点，但公开报道没有完整列出暗网文件中的全部供应商名称。",
+        "notesEn": "Apple's official supplier list covers assembly, mechanical parts, connectors, acoustics, camera modules, and other modules. The Tata breach makes unreleased-iPhone mainboard, battery, and camera supplier mapping a new tracking point, but public reporting has not fully enumerated every supplier name in the dark-web files.",
         "materialsZh": [
           "成品设备",
           "摄像头模组",
           "外壳",
-          "连接器"
+          "连接器",
+          "iPhone 18 Pro 泄露暴露的零件映射",
+          "印度制造产能"
         ],
         "materialsEn": [
           "Finished devices",
           "Camera modules",
           "Enclosures",
-          "Connectors"
+          "Connectors",
+          "iPhone 18 Pro leak-exposed parts maps",
+          "India manufacturing capacity"
         ]
       },
       {
@@ -543,12 +746,17 @@
           "Sony Semiconductor",
           "Murata",
           "TDK",
-          "Sunwoda"
+          "Sunwoda",
+          "Qualcomm",
+          "Broadcom",
+          "Micron",
+          "LG Energy Solution",
+          "Samsung SDI"
         ],
         "entities": [
           {
             "name": "TSMC",
-            "relationship": "Apple 自研 A/M/S 系列芯片的核心晶圆代工伙伴；关系重点是先进制程产能、良率、封装排产与 Apple silicon 节奏。",
+            "relationship": "Apple 自研 A/M/S 系列芯片的核心晶圆代工伙伴；最新泄露报道提到 A20 Pro/芯片资料与主板文件，强化了先进制程、良率、封装排产与 Apple silicon 节奏的关键性。",
             "productsServices": [
               "Advanced logic wafers",
               "Apple silicon manufacturing",
@@ -565,10 +773,13 @@
             "confidence": "medium",
             "sourceIds": [
               "apple-supplier-list",
-              "aapl-10k-2025"
+              "aapl-10k-2025",
+              "aapl-tata-leak-verge-2026",
+              "aapl-tata-leak-toi-2026",
+              "aapl-tata-leak-tomsguide-2026"
             ],
-            "relationshipZh": "Apple 自研 A/M/S 系列芯片的核心晶圆代工伙伴；关系重点是先进制程产能、良率、封装排产与 Apple silicon 节奏。",
-            "relationshipEn": "TSMC is tracked in the Semiconductors, displays, and batteries layer for Advanced logic wafers, Apple silicon manufacturing, Foundry services. Read the relationship together with the confidence level and cited sources.",
+            "relationshipZh": "Apple 自研 A/M/S 系列芯片的核心晶圆代工伙伴；最新泄露报道提到 A20 Pro/芯片资料与主板文件，强化了先进制程、良率、封装排产与 Apple silicon 节奏的关键性。",
+            "relationshipEn": "TSMC is Apple's core foundry partner for A/M/S-series silicon. Recent leak coverage references A20 Pro/chip materials and board files, reinforcing the importance of advanced-node capacity, yield, packaging scheduling, and Apple silicon timing.",
             "productsServicesZh": [
               "先进逻辑晶圆",
               "Apple silicon 制造",
@@ -583,14 +794,14 @@
             "nameEn": "TSMC",
             "relationshipStrength": {
               "score": 5,
-              "label": "核心瓶颈",
-              "labelZh": "核心瓶颈",
-              "labelEn": "Core bottleneck",
-              "direction": "upstream-manufacturing",
-              "rationale": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
-              "rationaleZh": "直接进入关键制造、存储或封装环节，对产能、良率和交付节奏有较强约束。",
-              "rationaleEn": "Directly enters critical manufacturing, memory, or packaging layers, strongly affecting capacity, yield, and delivery cadence.",
-              "confidence": "high"
+              "label": "核心芯片/器件瓶颈",
+              "labelZh": "核心芯片/器件瓶颈",
+              "labelEn": "Core chip/device bottleneck",
+              "direction": "direct-supplier",
+              "rationale": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleZh": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleEn": "Directly enters processors, modem/RF, memory, display, or battery systems; supplier concentration and qualification cycles can materially affect new-product timing.",
+              "confidence": "medium"
             }
           },
           {
@@ -633,14 +844,14 @@
             "nameZh": "三星显示",
             "nameEn": "Samsung Display",
             "relationshipStrength": {
-              "score": 4,
-              "label": "强相关",
-              "labelZh": "强相关",
-              "labelEn": "Strong relevance",
-              "direction": "upstream-equipment",
-              "rationale": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
-              "rationaleZh": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
-              "rationaleEn": "Sits in process equipment or metrology/inspection, with demand transmitted through foundry, memory, and packaging line expansion.",
+              "score": 5,
+              "label": "核心芯片/器件瓶颈",
+              "labelZh": "核心芯片/器件瓶颈",
+              "labelEn": "Core chip/device bottleneck",
+              "direction": "direct-supplier",
+              "rationale": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleZh": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleEn": "Directly enters processors, modem/RF, memory, display, or battery systems; supplier concentration and qualification cycles can materially affect new-product timing.",
               "confidence": "medium"
             }
           },
@@ -680,14 +891,14 @@
             "nameZh": "乐金显示",
             "nameEn": "LG Display",
             "relationshipStrength": {
-              "score": 4,
-              "label": "强相关",
-              "labelZh": "强相关",
-              "labelEn": "Strong relevance",
-              "direction": "upstream-equipment",
-              "rationale": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
-              "rationaleZh": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
-              "rationaleEn": "Sits in process equipment or metrology/inspection, with demand transmitted through foundry, memory, and packaging line expansion.",
+              "score": 5,
+              "label": "核心芯片/器件瓶颈",
+              "labelZh": "核心芯片/器件瓶颈",
+              "labelEn": "Core chip/device bottleneck",
+              "direction": "direct-supplier",
+              "rationale": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleZh": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleEn": "Directly enters processors, modem/RF, memory, display, or battery systems; supplier concentration and qualification cycles can materially affect new-product timing.",
               "confidence": "medium"
             }
           },
@@ -731,14 +942,14 @@
             "nameZh": "索尼半导体解决方案",
             "nameEn": "Sony Semiconductor Solutions",
             "relationshipStrength": {
-              "score": 4,
-              "label": "强相关",
-              "labelZh": "强相关",
-              "labelEn": "Strong relevance",
-              "direction": "system-integration",
-              "rationale": "把关键芯片、网络、散热和整机方案转化为可交付系统，相关性强但通常低于制造瓶颈。",
-              "rationaleZh": "把关键芯片、网络、散热和整机方案转化为可交付系统，相关性强但通常低于制造瓶颈。",
-              "rationaleEn": "Converts chips, networking, cooling, and system design into deliverable systems; strong relevance but usually below manufacturing bottlenecks.",
+              "score": 5,
+              "label": "核心芯片/器件瓶颈",
+              "labelZh": "核心芯片/器件瓶颈",
+              "labelEn": "Core chip/device bottleneck",
+              "direction": "direct-supplier",
+              "rationale": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleZh": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleEn": "Directly enters processors, modem/RF, memory, display, or battery systems; supplier concentration and qualification cycles can materially affect new-product timing.",
               "confidence": "medium"
             }
           },
@@ -778,14 +989,14 @@
             "nameZh": "村田制作所",
             "nameEn": "Murata",
             "relationshipStrength": {
-              "score": 4,
-              "label": "强相关",
-              "labelZh": "强相关",
-              "labelEn": "Strong relevance",
-              "direction": "system-integration",
-              "rationale": "把关键芯片、网络、散热和整机方案转化为可交付系统，相关性强但通常低于制造瓶颈。",
-              "rationaleZh": "把关键芯片、网络、散热和整机方案转化为可交付系统，相关性强但通常低于制造瓶颈。",
-              "rationaleEn": "Converts chips, networking, cooling, and system design into deliverable systems; strong relevance but usually below manufacturing bottlenecks.",
+              "score": 5,
+              "label": "核心芯片/器件瓶颈",
+              "labelZh": "核心芯片/器件瓶颈",
+              "labelEn": "Core chip/device bottleneck",
+              "direction": "direct-supplier",
+              "rationale": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleZh": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleEn": "Directly enters processors, modem/RF, memory, display, or battery systems; supplier concentration and qualification cycles can materially affect new-product timing.",
               "confidence": "medium"
             }
           },
@@ -825,14 +1036,14 @@
             "nameZh": "TDK",
             "nameEn": "TDK",
             "relationshipStrength": {
-              "score": 4,
-              "label": "强相关",
-              "labelZh": "强相关",
-              "labelEn": "Strong relevance",
-              "direction": "upstream-equipment",
-              "rationale": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
-              "rationaleZh": "处于制程设备或检测量测层，需求通过晶圆厂、存储厂和封装产线扩产传导。",
-              "rationaleEn": "Sits in process equipment or metrology/inspection, with demand transmitted through foundry, memory, and packaging line expansion.",
+              "score": 5,
+              "label": "核心芯片/器件瓶颈",
+              "labelZh": "核心芯片/器件瓶颈",
+              "labelEn": "Core chip/device bottleneck",
+              "direction": "direct-supplier",
+              "rationale": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleZh": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleEn": "Directly enters processors, modem/RF, memory, display, or battery systems; supplier concentration and qualification cycles can materially affect new-product timing.",
               "confidence": "medium"
             }
           },
@@ -872,14 +1083,247 @@
             "nameZh": "欣旺达",
             "nameEn": "Sunwoda",
             "relationshipStrength": {
-              "score": 4,
-              "label": "强相关",
-              "labelZh": "强相关",
-              "labelEn": "Strong relevance",
-              "direction": "system-integration",
-              "rationale": "把关键芯片、网络、散热和整机方案转化为可交付系统，相关性强但通常低于制造瓶颈。",
-              "rationaleZh": "把关键芯片、网络、散热和整机方案转化为可交付系统，相关性强但通常低于制造瓶颈。",
-              "rationaleEn": "Converts chips, networking, cooling, and system design into deliverable systems; strong relevance but usually below manufacturing bottlenecks.",
+              "score": 5,
+              "label": "核心芯片/器件瓶颈",
+              "labelZh": "核心芯片/器件瓶颈",
+              "labelEn": "Core chip/device bottleneck",
+              "direction": "direct-supplier",
+              "rationale": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleZh": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleEn": "Directly enters processors, modem/RF, memory, display, or battery systems; supplier concentration and qualification cycles can materially affect new-product timing.",
+              "confidence": "medium"
+            }
+          },
+          {
+            "name": "Qualcomm",
+            "relationship": "Apple 官方供应商名单列示 Qualcomm；Tata 泄露报道提到部分泄露文件与 Qualcomm 相关，且 iPhone 主板/无线通信链条通常涉及基带、射频前端和连接芯片。",
+            "productsServices": [
+              "cellular modems",
+              "RF/wireless chips",
+              "mainboard semiconductors"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "QCOM",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/qcom"
+            },
+            "companyUrl": "https://www.qualcomm.com/",
+            "confidence": "medium",
+            "sourceIds": [
+              "apple-supplier-list",
+              "aapl-tata-leak-toi-2026",
+              "aapl-tata-leak-verge-2026"
+            ],
+            "relationshipZh": "Apple 官方供应商名单列示 Qualcomm；Tata 泄露报道提到部分泄露文件与 Qualcomm 相关，且 iPhone 主板/无线通信链条通常涉及基带、射频前端和连接芯片。",
+            "relationshipEn": "Apple's official supplier list includes Qualcomm. Tata leak coverage also says some leaked files were linked to Qualcomm; the iPhone mainboard/wireless chain typically involves modem, RF front-end, and connectivity components.",
+            "productsServicesZh": [
+              "蜂窝基带",
+              "射频/无线通信芯片",
+              "主板关键芯片"
+            ],
+            "productsServicesEn": [
+              "cellular modems",
+              "RF/wireless chips",
+              "mainboard semiconductors"
+            ],
+            "nameZh": "高通",
+            "nameEn": "Qualcomm",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心芯片/器件瓶颈",
+              "labelZh": "核心芯片/器件瓶颈",
+              "labelEn": "Core chip/device bottleneck",
+              "direction": "direct-supplier",
+              "rationale": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleZh": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleEn": "Directly enters processors, modem/RF, memory, display, or battery systems; supplier concentration and qualification cycles can materially affect new-product timing.",
+              "confidence": "medium"
+            }
+          },
+          {
+            "name": "Broadcom",
+            "relationship": "Apple 官方供应商名单列示 Broadcom；关系集中在无线连接、射频和定制半导体组件，是 iPhone 主板和通信链条的重要公开上市公司。",
+            "productsServices": [
+              "wireless connectivity chips",
+              "RF components",
+              "custom semiconductors"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "AVGO",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/avgo"
+            },
+            "companyUrl": "https://www.broadcom.com/",
+            "confidence": "medium",
+            "sourceIds": [
+              "apple-supplier-list"
+            ],
+            "relationshipZh": "Apple 官方供应商名单列示 Broadcom；关系集中在无线连接、射频和定制半导体组件，是 iPhone 主板和通信链条的重要公开上市公司。",
+            "relationshipEn": "Apple's official supplier list includes Broadcom; the relationship is centered on wireless connectivity, RF, and custom semiconductor components, making it an important public company in the iPhone board and communications chain.",
+            "productsServicesZh": [
+              "无线连接芯片",
+              "射频组件",
+              "定制半导体"
+            ],
+            "productsServicesEn": [
+              "wireless connectivity chips",
+              "RF components",
+              "custom semiconductors"
+            ],
+            "nameZh": "博通",
+            "nameEn": "Broadcom",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心芯片/器件瓶颈",
+              "labelZh": "核心芯片/器件瓶颈",
+              "labelEn": "Core chip/device bottleneck",
+              "direction": "direct-supplier",
+              "rationale": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleZh": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleEn": "Directly enters processors, modem/RF, memory, display, or battery systems; supplier concentration and qualification cycles can materially affect new-product timing.",
+              "confidence": "medium"
+            }
+          },
+          {
+            "name": "Micron",
+            "relationship": "Apple 官方供应商名单列示 Micron；关系主要在 DRAM/NAND 等存储器件，存储价格和容量配置会影响设备成本与毛利。",
+            "productsServices": [
+              "DRAM",
+              "NAND",
+              "memory components"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "MU",
+              "exchange": "NASDAQ",
+              "market": "United States",
+              "stockUrl": "https://www.nasdaq.com/market-activity/stocks/mu"
+            },
+            "companyUrl": "https://www.micron.com/",
+            "confidence": "medium",
+            "sourceIds": [
+              "apple-supplier-list"
+            ],
+            "relationshipZh": "Apple 官方供应商名单列示 Micron；关系主要在 DRAM/NAND 等存储器件，存储价格和容量配置会影响设备成本与毛利。",
+            "relationshipEn": "Apple's official supplier list includes Micron. The relationship is mainly DRAM/NAND memory, where pricing and device capacity mix affect hardware cost and gross margin.",
+            "productsServicesZh": [
+              "DRAM",
+              "NAND",
+              "存储器件"
+            ],
+            "productsServicesEn": [
+              "DRAM",
+              "NAND",
+              "memory components"
+            ],
+            "nameZh": "美光科技",
+            "nameEn": "Micron",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心芯片/器件瓶颈",
+              "labelZh": "核心芯片/器件瓶颈",
+              "labelEn": "Core chip/device bottleneck",
+              "direction": "direct-supplier",
+              "rationale": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleZh": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleEn": "Directly enters processors, modem/RF, memory, display, or battery systems; supplier concentration and qualification cycles can materially affect new-product timing.",
+              "confidence": "medium"
+            }
+          },
+          {
+            "name": "LG Energy Solution",
+            "relationship": "Apple 官方供应商名单中的电池供应商之一；Tata 泄露报道提到电池系统文件，使电池电芯/电池包供应链成为此次溯源的重点。",
+            "productsServices": [
+              "battery cells",
+              "battery components",
+              "consumer-electronics battery supply"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "373220.KS",
+              "exchange": "KRX",
+              "market": "South Korea",
+              "stockUrl": "https://finance.yahoo.com/quote/373220.KS"
+            },
+            "companyUrl": "https://www.lgensol.com/",
+            "confidence": "medium",
+            "sourceIds": [
+              "apple-supplier-list",
+              "aapl-tata-leak-toi-2026"
+            ],
+            "relationshipZh": "Apple 官方供应商名单中的电池供应商之一；Tata 泄露报道提到电池系统文件，使电池电芯/电池包供应链成为此次溯源的重点。",
+            "relationshipEn": "Apple's official supplier list includes LG Energy Solution. Tata leak coverage mentions battery-system files, making cell and pack suppliers a priority layer for tracing.",
+            "productsServicesZh": [
+              "电池电芯",
+              "电池组件",
+              "消费电子电池供应"
+            ],
+            "productsServicesEn": [
+              "battery cells",
+              "battery components",
+              "consumer-electronics battery supply"
+            ],
+            "nameZh": "LG 新能源",
+            "nameEn": "LG Energy Solution",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心芯片/器件瓶颈",
+              "labelZh": "核心芯片/器件瓶颈",
+              "labelEn": "Core chip/device bottleneck",
+              "direction": "direct-supplier",
+              "rationale": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleZh": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleEn": "Directly enters processors, modem/RF, memory, display, or battery systems; supplier concentration and qualification cycles can materially affect new-product timing.",
+              "confidence": "medium"
+            }
+          },
+          {
+            "name": "Samsung SDI",
+            "relationship": "Apple 官方供应商名单中的电池供应商之一；与 LG Energy Solution、Sunwoda 等共同构成消费电子电池供应备份。",
+            "productsServices": [
+              "battery cells",
+              "battery materials and components",
+              "power systems"
+            ],
+            "listing": {
+              "status": "listed",
+              "ticker": "006400.KS",
+              "exchange": "KRX",
+              "market": "South Korea",
+              "stockUrl": "https://finance.yahoo.com/quote/006400.KS"
+            },
+            "companyUrl": "https://www.samsungsdi.com/",
+            "confidence": "medium",
+            "sourceIds": [
+              "apple-supplier-list"
+            ],
+            "relationshipZh": "Apple 官方供应商名单中的电池供应商之一；与 LG Energy Solution、Sunwoda 等共同构成消费电子电池供应备份。",
+            "relationshipEn": "Apple's official supplier list includes Samsung SDI. Together with LG Energy Solution and Sunwoda, it forms part of the consumer-electronics battery supplier set.",
+            "productsServicesZh": [
+              "电池电芯",
+              "电池材料与组件",
+              "电源系统"
+            ],
+            "productsServicesEn": [
+              "battery cells",
+              "battery materials and components",
+              "power systems"
+            ],
+            "nameZh": "三星 SDI",
+            "nameEn": "Samsung SDI",
+            "relationshipStrength": {
+              "score": 5,
+              "label": "核心芯片/器件瓶颈",
+              "labelZh": "核心芯片/器件瓶颈",
+              "labelEn": "Core chip/device bottleneck",
+              "direction": "direct-supplier",
+              "rationale": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleZh": "直接进入主芯片、基带/RF、存储、显示或电池系统，供应集中度和认证周期对新机节奏影响较大。",
+              "rationaleEn": "Directly enters processors, modem/RF, memory, display, or battery systems; supplier concentration and qualification cycles can materially affect new-product timing.",
               "confidence": "medium"
             }
           }
@@ -895,31 +1339,46 @@
           "OLED panels",
           "Image sensors",
           "MLCC",
-          "Batteries"
+          "Batteries",
+          "Baseband/RF chips",
+          "Memory",
+          "Battery systems",
+          "A20 Pro leak-exposed chip materials"
         ],
-        "notes": "该层决定高端产品可得性和成本结构。Apple 年报没有逐项确认所有型号供应比例，因此供应商名单与行业公开资料需结合使用。",
+        "notes": "该层决定高端产品可得性和成本结构。Tata 泄露报道提到 iPhone 18 Pro 主板、电池、摄像头系统和 A20 Pro/芯片相关资料，说明 Apple 最敏感的不是单一供应商名称，而是每个关键部件对应的供应商集中度与备份情况。",
         "confidence": "medium",
         "sourceIds": [
           "apple-supplier-list",
-          "aapl-10k-2025"
+          "aapl-10k-2025",
+          "aapl-tata-leak-toi-2026",
+          "aapl-tata-leak-verge-2026",
+          "aapl-tata-leak-tomsguide-2026"
         ],
         "titleZh": "半导体、显示与电池",
         "titleEn": "Semiconductors, displays, and batteries",
-        "notesZh": "该层决定高端产品可得性和成本结构。Apple 年报没有逐项确认所有型号供应比例，因此供应商名单与行业公开资料需结合使用。",
-        "notesEn": "该层决定高端产品可得性和成本结构。Apple 年报没有逐项确认所有型号供应比例，因此供应商名单与行业公开资料需结合使用。",
+        "notesZh": "该层决定高端产品可得性和成本结构。Tata 泄露报道提到 iPhone 18 Pro 主板、电池、摄像头系统和 A20 Pro/芯片相关资料，说明 Apple 最敏感的不是单一供应商名称，而是每个关键部件对应的供应商集中度与备份情况。",
+        "notesEn": "This layer determines high-end product availability and cost structure. Tata leak coverage mentions iPhone 18 Pro mainboard, battery, camera-system, and A20 Pro/chip-related materials, showing that the most sensitive information is not just supplier names but supplier concentration and backups for each critical part.",
         "materialsZh": [
           "应用处理器",
           "OLED 面板",
           "图像传感器",
           "多层陶瓷电容",
-          "电池"
+          "电池",
+          "基带/RF 芯片",
+          "存储器",
+          "电池系统",
+          "A20 Pro 泄露暴露的芯片资料"
         ],
         "materialsEn": [
           "Application processors",
           "OLED panels",
           "Image sensors",
           "MLCC",
-          "Batteries"
+          "Batteries",
+          "Baseband/RF chips",
+          "Memory",
+          "Battery systems",
+          "A20 Pro leak-exposed chip materials"
         ]
       },
       {
@@ -970,14 +1429,14 @@
             "nameZh": "阿斯麦",
             "nameEn": "ASML",
             "relationshipStrength": {
-              "score": 5,
-              "label": "核心瓶颈",
-              "labelZh": "核心瓶颈",
-              "labelEn": "Core bottleneck",
-              "direction": "upstream-raw-material",
-              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
-              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
-              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "score": 4,
+              "label": "上游制造约束",
+              "labelZh": "上游制造约束",
+              "labelEn": "Upstream manufacturing constraint",
+              "direction": "upstream-equipment",
+              "rationale": "通过晶圆厂、封装厂或材料厂传导到 Apple silicon 产能与良率，相关性强但不是 Apple 的直接采购关系。",
+              "rationaleZh": "通过晶圆厂、封装厂或材料厂传导到 Apple silicon 产能与良率，相关性强但不是 Apple 的直接采购关系。",
+              "rationaleEn": "Demand transmits through foundries, packaging houses, or material suppliers into Apple silicon capacity and yield; relevance is strong but indirect.",
               "confidence": "medium"
             }
           },
@@ -1016,14 +1475,14 @@
             "nameZh": "应用材料",
             "nameEn": "Applied Materials",
             "relationshipStrength": {
-              "score": 5,
-              "label": "核心瓶颈",
-              "labelZh": "核心瓶颈",
-              "labelEn": "Core bottleneck",
-              "direction": "upstream-raw-material",
-              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
-              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
-              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "score": 4,
+              "label": "上游制造约束",
+              "labelZh": "上游制造约束",
+              "labelEn": "Upstream manufacturing constraint",
+              "direction": "upstream-equipment",
+              "rationale": "通过晶圆厂、封装厂或材料厂传导到 Apple silicon 产能与良率，相关性强但不是 Apple 的直接采购关系。",
+              "rationaleZh": "通过晶圆厂、封装厂或材料厂传导到 Apple silicon 产能与良率，相关性强但不是 Apple 的直接采购关系。",
+              "rationaleEn": "Demand transmits through foundries, packaging houses, or material suppliers into Apple silicon capacity and yield; relevance is strong but indirect.",
               "confidence": "medium"
             }
           },
@@ -1062,14 +1521,14 @@
             "nameZh": "泛林集团",
             "nameEn": "Lam Research",
             "relationshipStrength": {
-              "score": 5,
-              "label": "核心瓶颈",
-              "labelZh": "核心瓶颈",
-              "labelEn": "Core bottleneck",
-              "direction": "upstream-raw-material",
-              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
-              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
-              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "score": 4,
+              "label": "上游制造约束",
+              "labelZh": "上游制造约束",
+              "labelEn": "Upstream manufacturing constraint",
+              "direction": "upstream-equipment",
+              "rationale": "通过晶圆厂、封装厂或材料厂传导到 Apple silicon 产能与良率，相关性强但不是 Apple 的直接采购关系。",
+              "rationaleZh": "通过晶圆厂、封装厂或材料厂传导到 Apple silicon 产能与良率，相关性强但不是 Apple 的直接采购关系。",
+              "rationaleEn": "Demand transmits through foundries, packaging houses, or material suppliers into Apple silicon capacity and yield; relevance is strong but indirect.",
               "confidence": "medium"
             }
           },
@@ -1108,14 +1567,14 @@
             "nameZh": "东京电子",
             "nameEn": "Tokyo Electron",
             "relationshipStrength": {
-              "score": 5,
-              "label": "核心瓶颈",
-              "labelZh": "核心瓶颈",
-              "labelEn": "Core bottleneck",
-              "direction": "upstream-raw-material",
-              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
-              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
-              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "score": 4,
+              "label": "上游制造约束",
+              "labelZh": "上游制造约束",
+              "labelEn": "Upstream manufacturing constraint",
+              "direction": "upstream-equipment",
+              "rationale": "通过晶圆厂、封装厂或材料厂传导到 Apple silicon 产能与良率，相关性强但不是 Apple 的直接采购关系。",
+              "rationaleZh": "通过晶圆厂、封装厂或材料厂传导到 Apple silicon 产能与良率，相关性强但不是 Apple 的直接采购关系。",
+              "rationaleEn": "Demand transmits through foundries, packaging houses, or material suppliers into Apple silicon capacity and yield; relevance is strong but indirect.",
               "confidence": "medium"
             }
           },
@@ -1154,14 +1613,14 @@
             "nameZh": "KLA",
             "nameEn": "KLA",
             "relationshipStrength": {
-              "score": 5,
-              "label": "核心瓶颈",
-              "labelZh": "核心瓶颈",
-              "labelEn": "Core bottleneck",
-              "direction": "upstream-raw-material",
-              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
-              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
-              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "score": 4,
+              "label": "上游制造约束",
+              "labelZh": "上游制造约束",
+              "labelEn": "Upstream manufacturing constraint",
+              "direction": "upstream-equipment",
+              "rationale": "通过晶圆厂、封装厂或材料厂传导到 Apple silicon 产能与良率，相关性强但不是 Apple 的直接采购关系。",
+              "rationaleZh": "通过晶圆厂、封装厂或材料厂传导到 Apple silicon 产能与良率，相关性强但不是 Apple 的直接采购关系。",
+              "rationaleEn": "Demand transmits through foundries, packaging houses, or material suppliers into Apple silicon capacity and yield; relevance is strong but indirect.",
               "confidence": "medium"
             }
           },
@@ -1200,14 +1659,14 @@
             "nameZh": "信越化学",
             "nameEn": "Shin-Etsu",
             "relationshipStrength": {
-              "score": 5,
-              "label": "核心瓶颈",
-              "labelZh": "核心瓶颈",
-              "labelEn": "Core bottleneck",
-              "direction": "upstream-raw-material",
-              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
-              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
-              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "score": 4,
+              "label": "上游制造约束",
+              "labelZh": "上游制造约束",
+              "labelEn": "Upstream manufacturing constraint",
+              "direction": "upstream-equipment",
+              "rationale": "通过晶圆厂、封装厂或材料厂传导到 Apple silicon 产能与良率，相关性强但不是 Apple 的直接采购关系。",
+              "rationaleZh": "通过晶圆厂、封装厂或材料厂传导到 Apple silicon 产能与良率，相关性强但不是 Apple 的直接采购关系。",
+              "rationaleEn": "Demand transmits through foundries, packaging houses, or material suppliers into Apple silicon capacity and yield; relevance is strong but indirect.",
               "confidence": "medium"
             }
           },
@@ -1246,14 +1705,14 @@
             "nameZh": "胜高",
             "nameEn": "SUMCO",
             "relationshipStrength": {
-              "score": 5,
-              "label": "核心瓶颈",
-              "labelZh": "核心瓶颈",
-              "labelEn": "Core bottleneck",
-              "direction": "upstream-raw-material",
-              "rationale": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
-              "rationaleZh": "处于原材料或高纯材料层，产业扩产时通常最先形成供给、认证或价格约束。",
-              "rationaleEn": "Sits in the raw-material or high-purity material layer, where expansion cycles often first create supply, qualification, or pricing constraints.",
+              "score": 4,
+              "label": "上游制造约束",
+              "labelZh": "上游制造约束",
+              "labelEn": "Upstream manufacturing constraint",
+              "direction": "upstream-equipment",
+              "rationale": "通过晶圆厂、封装厂或材料厂传导到 Apple silicon 产能与良率，相关性强但不是 Apple 的直接采购关系。",
+              "rationaleZh": "通过晶圆厂、封装厂或材料厂传导到 Apple silicon 产能与良率，相关性强但不是 Apple 的直接采购关系。",
+              "rationaleEn": "Demand transmits through foundries, packaging houses, or material suppliers into Apple silicon capacity and yield; relevance is strong but indirect.",
               "confidence": "medium"
             }
           }
@@ -1383,6 +1842,36 @@
           "Bauxite",
           "Conflict minerals"
         ]
+      },
+      {
+        "name": "铜箔、树脂、玻纤与高纯化学品",
+        "nameZh": "铜箔、树脂、玻纤与高纯化学品",
+        "nameEn": "Copper foil, resin, glass fiber, and high-purity chemicals",
+        "usedIn": "主板、柔性电路板、芯片制造和封装",
+        "usedInZh": "主板、柔性电路板、芯片制造和封装",
+        "usedInEn": "mainboards, flexible PCBs, chip manufacturing, and packaging",
+        "upstream": [
+          "Copper concentrate",
+          "Epoxy resin",
+          "Electronic glass fiber",
+          "Semiconductor-grade chemicals"
+        ],
+        "upstreamZh": [
+          "铜精矿",
+          "环氧树脂",
+          "电子级玻纤",
+          "半导体级化学品"
+        ],
+        "upstreamEn": [
+          "Copper concentrate",
+          "epoxy resin",
+          "electronic-grade glass fiber",
+          "semiconductor-grade chemicals"
+        ],
+        "risk": "泄露资料提到主板和部件映射后，PCB/FPC 与半导体耗材是进一步向原材料层溯源的重点；但具体机型供应商仍需以公开文件继续交叉验证。",
+        "riskZh": "泄露资料提到主板和部件映射后，PCB/FPC 与半导体耗材是进一步向原材料层溯源的重点；但具体机型供应商仍需以公开文件继续交叉验证。",
+        "riskEn": "Because the leak reports mention mainboard and component mapping, PCB/FPC and semiconductor consumables become priority raw-material layers to trace; exact model-level suppliers still need public cross-checking.",
+        "confidence": "medium"
       }
     ],
     "downstream": {
@@ -1654,23 +2143,33 @@
         "nameZh": "半导体、显示与电池",
         "nameEn": "Semiconductors, displays, and batteries",
         "rank": 1,
-        "constraintType": "unknown",
-        "constraintTypeZh": "待确认",
-        "constraintTypeEn": "Unknown",
-        "whyScarce": "该层决定高端产品可得性和成本结构。Apple 年报没有逐项确认所有型号供应比例，因此供应商名单与行业公开资料需结合使用。",
-        "whyScarceZh": "该层决定高端产品可得性和成本结构。Apple 年报没有逐项确认所有型号供应比例，因此供应商名单与行业公开资料需结合使用。",
-        "whyScarceEn": "该层决定高端产品可得性和成本结构。Apple 年报没有逐项确认所有型号供应比例，因此供应商名单与行业公开资料需结合使用。",
+        "constraintType": "qualification",
+        "constraintTypeZh": "客户认证",
+        "constraintTypeEn": "Qualification",
+        "whyScarce": "Tata 泄露报道显示，未发布 iPhone 的主板、电池、摄像头系统和 A20 Pro/芯片相关资料会把具体部件与供应商对应关系暴露出来；该层的稀缺性来自供应商集中、长认证周期、先进制程/摄像头/电池良率和备份供应难度。",
+        "whyScarceZh": "Tata 泄露报道显示，未发布 iPhone 的主板、电池、摄像头系统和 A20 Pro/芯片相关资料会把具体部件与供应商对应关系暴露出来；该层的稀缺性来自供应商集中、长认证周期、先进制程/摄像头/电池良率和备份供应难度。",
+        "whyScarceEn": "Tata leak coverage indicates that unreleased-iPhone mainboard, battery, camera-system, and A20 Pro/chip-related materials can expose part-to-supplier mapping. Scarcity comes from supplier concentration, long qualification cycles, advanced-node/camera/battery yield, and backup-supply difficulty.",
         "relatedCompanies": [
           "TSMC",
           "Samsung Display",
           "LG Display",
-          "Sony Semiconductor Solutions"
+          "Sony Semiconductor Solutions",
+          "Qualcomm",
+          "Broadcom",
+          "Micron",
+          "LG Energy Solution",
+          "Samsung SDI",
+          "LG Innotek",
+          "Largan Precision"
         ],
-        "evidenceLevel": "strong",
+        "evidenceLevel": "medium",
         "confidence": "medium",
         "sourceIds": [
           "apple-supplier-list",
-          "aapl-10k-2025"
+          "aapl-10k-2025",
+          "aapl-tata-leak-toi-2026",
+          "aapl-tata-leak-verge-2026",
+          "aapl-tata-leak-tomsguide-2026"
         ],
         "failureConditions": [
           {
@@ -1728,23 +2227,30 @@
         "nameZh": "最终组装与关键模组",
         "nameEn": "Final assembly and key modules",
         "rank": 3,
-        "constraintType": "unknown",
-        "constraintTypeZh": "待确认",
-        "constraintTypeEn": "Unknown",
-        "whyScarce": "Apple 官方供应商名单覆盖组装、机械件、连接器、声学、摄像头和其他模组供应商；不同产品线的直接供应关系会随年份和机型变化。",
-        "whyScarceZh": "Apple 官方供应商名单覆盖组装、机械件、连接器、声学、摄像头和其他模组供应商；不同产品线的直接供应关系会随年份和机型变化。",
-        "whyScarceEn": "Apple 官方供应商名单覆盖组装、机械件、连接器、声学、摄像头和其他模组供应商；不同产品线的直接供应关系会随年份和机型变化。",
+        "constraintType": "capacity",
+        "constraintTypeZh": "产能",
+        "constraintTypeEn": "Capacity",
+        "whyScarce": "印度制造迁移使 Tata Electronics 等区域制造伙伴的重要性上升；泄露事件显示，组装厂不仅承担产能，也持有足以暴露主板、电池、摄像头和供应商映射的工程数据。",
+        "whyScarceZh": "印度制造迁移使 Tata Electronics 等区域制造伙伴的重要性上升；泄露事件显示，组装厂不仅承担产能，也持有足以暴露主板、电池、摄像头和供应商映射的工程数据。",
+        "whyScarceEn": "India manufacturing diversification raises the importance of regional partners such as Tata Electronics. The breach shows assemblers hold engineering data capable of exposing mainboard, battery, camera, and supplier mappings.",
         "relatedCompanies": [
           "Hon Hai Precision / Foxconn",
           "Luxshare Precision",
           "Pegatron",
-          "Compal"
+          "Compal",
+          "Tata Electronics",
+          "LG Innotek",
+          "Largan Precision",
+          "Sunny Optical"
         ],
-        "evidenceLevel": "strong",
+        "evidenceLevel": "medium",
         "confidence": "medium",
         "sourceIds": [
           "apple-supplier-list",
-          "aapl-10k-2025"
+          "aapl-10k-2025",
+          "aapl-tata-breach-techradar-2026",
+          "aapl-tata-leak-toi-2026",
+          "aapl-tata-leak-verge-2026"
         ],
         "failureConditions": [
           {
@@ -1760,8 +2266,49 @@
             ]
           }
         ]
+      },
+      {
+        "name": "供应链信息安全与供应商映射",
+        "nameZh": "供应链信息安全与供应商映射",
+        "nameEn": "Supply-chain security and supplier mapping",
+        "rank": 4,
+        "constraintType": "regulatory",
+        "constraintTypeZh": "监管/安全",
+        "constraintTypeEn": "Regulatory/security",
+        "whyScarce": "此次泄露本身不等同于生产中断，但它暴露了 Apple 对供应商映射、工程文档和区域制造伙伴访问控制的依赖。若后续审计收紧，Tata 或其他制造伙伴可能需要投入更多安全整改和流程隔离。",
+        "whyScarceZh": "此次泄露本身不等同于生产中断，但它暴露了 Apple 对供应商映射、工程文档和区域制造伙伴访问控制的依赖。若后续审计收紧，Tata 或其他制造伙伴可能需要投入更多安全整改和流程隔离。",
+        "whyScarceEn": "The leak itself is not the same as a production interruption, but it exposes Apple’s dependence on supplier mapping, engineering documents, and access control at regional manufacturing partners. If audits tighten, Tata or other manufacturing partners may need more security remediation and process separation.",
+        "relatedCompanies": [
+          "Tata Electronics",
+          "Hon Hai Precision / Foxconn",
+          "Pegatron",
+          "Luxshare Precision"
+        ],
+        "evidenceLevel": "medium",
+        "confidence": "medium",
+        "sourceIds": [
+          "aapl-tata-breach-techradar-2026",
+          "aapl-tata-leak-toi-2026",
+          "aapl-tata-leak-verge-2026"
+        ],
+        "failureConditions": [
+          {
+            "condition": "如果 Tata/Apple 后续确认泄露范围有限、未涉及有效供应商映射，且审计没有导致产能或交付流程变化，则该风险权重应下调。",
+            "conditionZh": "如果 Tata/Apple 后续确认泄露范围有限、未涉及有效供应商映射，且审计没有导致产能或交付流程变化，则该风险权重应下调。",
+            "conditionEn": "Reduce this risk weight if Tata/Apple later confirm the scope was limited, no usable supplier mapping was exposed, and audits do not change capacity or delivery processes.",
+            "monitor": "跟踪 Tata 与 Apple 后续声明、取证审计结果、印度制造产能安排、供应商访问控制整改和新机量产节奏。",
+            "monitorZh": "跟踪 Tata 与 Apple 后续声明、取证审计结果、印度制造产能安排、供应商访问控制整改和新机量产节奏。",
+            "monitorEn": "Track Tata and Apple statements, forensic-audit results, India manufacturing capacity plans, supplier access-control remediation, and new-iPhone production timing.",
+            "sourceIds": [
+              "aapl-tata-breach-techradar-2026",
+              "aapl-tata-leak-toi-2026"
+            ]
+          }
+        ]
       }
-    ]
+    ],
+    "thesisZh": "Apple 采用轻资产设计与重度外包制造模式。Tata Electronics 泄露事件显示，未发布 iPhone 的主板、电池、摄像头和芯片资料会把 Apple 极力保护的供应商映射暴露出来；因此本页把供应链拆成最终组装/模组、半导体显示电池、再上游设备材料三层，并用 Apple 官方供应商名单交叉核验公开可确认的企业。",
+    "thesisEn": "Apple uses a design-led, heavily outsourced manufacturing model. The Tata Electronics breach reportedly exposed supplier mapping for unreleased iPhone mainboard, battery, camera, and chip materials; this page therefore separates final assembly/modules, semiconductors-displays-batteries, and upstream equipment/materials, and cross-checks public company links against Apple’s official supplier list."
   },
   "financials": {
     "latestPeriod": "Q2 FY2026 / FY2025 baseline",
@@ -2254,6 +2801,26 @@
   "news": [
     {
       "date": "2026-06-30",
+      "title": "Tata Electronics 泄露暴露未发布 iPhone 供应链映射",
+      "titleZh": "Tata Electronics 泄露暴露未发布 iPhone 供应链映射",
+      "titleEn": "Tata Electronics breach reportedly exposed unreleased-iPhone supplier mapping",
+      "category": "Supply chain / Security",
+      "categoryZh": "供应链 / 安全",
+      "categoryEn": "Supply chain / Security",
+      "summary": "公开报道显示，Tata Electronics 数据泄露涉及超过 20 万个文件，包含未发布 iPhone 18 Pro 的零件清单、供应商映射、主板、电池、摄像头系统和 A20 Pro/芯片相关资料。",
+      "summaryZh": "公开报道显示，Tata Electronics 数据泄露涉及超过 20 万个文件，包含未发布 iPhone 18 Pro 的零件清单、供应商映射、主板、电池、摄像头系统和 A20 Pro/芯片相关资料。",
+      "summaryEn": "Public reports say the Tata Electronics breach involved more than 200,000 files, including parts lists, supplier maps, mainboard, battery, camera-system, and A20 Pro/chip-related materials for the unreleased iPhone 18 Pro.",
+      "impact": "短期更像供应链信息安全与保密风险，而非已确认生产中断；中期需要观察 Apple 对 Tata、印度制造伙伴和关键模组供应商的安全审计是否影响量产节奏。",
+      "impactZh": "短期更像供应链信息安全与保密风险，而非已确认生产中断；中期需要观察 Apple 对 Tata、印度制造伙伴和关键模组供应商的安全审计是否影响量产节奏。",
+      "impactEn": "Near term this is more a supply-chain information-security and secrecy risk than a confirmed production disruption; mid term, watch whether Apple security audits of Tata, India manufacturing partners, and key module suppliers affect production timing.",
+      "sourceIds": [
+        "aapl-tata-leak-toi-2026",
+        "aapl-tata-leak-verge-2026",
+        "aapl-tata-breach-techradar-2026"
+      ]
+    },
+    {
+      "date": "2026-06-30",
       "title": "Apple Creator Studio gets smarter, faster, and more connected",
       "category": "News",
       "summary": "自动抓取条目，需人工补充摘要。",
@@ -2534,10 +3101,10 @@
       "id": "apple-supplier-list",
       "title": "Apple Supplier List",
       "publisher": "Apple Supplier Responsibility",
-      "url": "https://www.apple.com/in/supplier-responsibility/pdf/Apple-Supplier-List.pdf",
-      "accessedAt": "2026-06-07",
+      "url": "https://www.supplychainreports.apple/Apple-Supplier-List",
+      "accessedAt": "2026-07-03",
       "type": "company",
-      "titleZh": "Apple Supplier List",
+      "titleZh": "Apple 供应商名单",
       "titleEn": "Apple Supplier List",
       "evidenceLevel": "strong",
       "evidenceLevelZh": "强证据",
@@ -2666,6 +3233,62 @@
       "evidenceLevel": "strong",
       "evidenceLevelZh": "强证据",
       "evidenceLevelEn": "Strong"
+    },
+    {
+      "id": "aapl-tata-leak-verge-2026",
+      "title": "Leaked iPhone 18 Pro photos reportedly wound up on the dark web",
+      "titleZh": "据报 iPhone 18 Pro 照片与零件清单在暗网泄露",
+      "titleEn": "Leaked iPhone 18 Pro photos reportedly wound up on the dark web",
+      "publisher": "The Verge",
+      "url": "https://www.theverge.com/tech/959229/iphone-18-pro-leak-apple-dark-web",
+      "publishedAt": "2026-06-29",
+      "accessedAt": "2026-07-03",
+      "type": "news",
+      "evidenceLevel": "medium",
+      "evidenceLevelZh": "中等证据",
+      "evidenceLevelEn": "Medium"
+    },
+    {
+      "id": "aapl-tata-leak-toi-2026",
+      "title": "Apple iPhone 18 Pro data leak: Tata Electronics breach exposes key components",
+      "titleZh": "Tata Electronics 泄露暴露 Apple iPhone 18 Pro 关键零部件信息",
+      "titleEn": "Apple iPhone 18 Pro data leak: Tata Electronics breach exposes key components",
+      "publisher": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/apple-iphone-18-pro-data-leak-tata-electronics-breach-exposes-key-components-what-we-know/articleshow/132082261.cms",
+      "publishedAt": "2026-06-30",
+      "accessedAt": "2026-07-03",
+      "type": "news",
+      "evidenceLevel": "medium",
+      "evidenceLevelZh": "中等证据",
+      "evidenceLevelEn": "Medium"
+    },
+    {
+      "id": "aapl-tata-breach-techradar-2026",
+      "title": "Tata Electronics confirm data breach, with hackers claiming 200,000 Apple, Tesla files stolen",
+      "titleZh": "Tata Electronics 确认数据泄露，黑客称窃取 Apple 与 Tesla 文件",
+      "titleEn": "Tata Electronics confirm data breach, with hackers claiming 200,000 Apple, Tesla files stolen",
+      "publisher": "TechRadar",
+      "url": "https://www.techradar.com/pro/security/tata-electronics-confirm-data-breach-with-hackers-claiming-200-000-apple-tesla-files-stolen",
+      "publishedAt": "2026-06-23",
+      "accessedAt": "2026-07-03",
+      "type": "news",
+      "evidenceLevel": "medium",
+      "evidenceLevelZh": "中等证据",
+      "evidenceLevelEn": "Medium"
+    },
+    {
+      "id": "aapl-tata-leak-tomsguide-2026",
+      "title": "'Easily the biggest leak in Apple's history': iPhone 18 Pro final design may have just been revealed",
+      "titleZh": "Tata 供应商泄露可能暴露 iPhone 18 Pro 设计与组件清单",
+      "titleEn": "'Easily the biggest leak in Apple's history': iPhone 18 Pro final design may have just been revealed",
+      "publisher": "Tom's Guide",
+      "url": "https://www.tomsguide.com/phones/iphones/easily-the-biggest-leak-in-apples-history-iphone-18-pro-final-design-may-have-just-been-revealed-in-a-stolen-drop-test-video",
+      "publishedAt": "2026-06-30",
+      "accessedAt": "2026-07-03",
+      "type": "news",
+      "evidenceLevel": "medium",
+      "evidenceLevelZh": "中等证据",
+      "evidenceLevelEn": "Medium"
     }
   ],
   "automation": {
@@ -2691,7 +3314,9 @@
     "终端硬件",
     "软件服务",
     "AI生态",
-    "美股"
+    "美股",
+    "苹果供应链",
+    "供应链安全"
   ],
   "themeExposure": [
     {
@@ -2705,6 +3330,19 @@
       "rationale": "公司通过终端硬件、芯片设计和服务生态影响上游需求，但在半导体热潮中通常不如关键制造和材料环节紧密。",
       "rationaleZh": "公司通过终端硬件、芯片设计和服务生态影响上游需求，但在半导体热潮中通常不如关键制造和材料环节紧密。",
       "rationaleEn": "The company affects upstream demand through devices, chip design, and services, but in a semiconductor boom it is usually less tightly linked than critical manufacturing and materials layers.",
+      "confidence": "medium"
+    },
+    {
+      "theme": "供应链安全与苹果制造迁移",
+      "themeZh": "供应链安全与苹果制造迁移",
+      "themeEn": "Supply-chain security and Apple manufacturing diversification",
+      "score": 4,
+      "role": "供应链保密和制造迁移锚点",
+      "roleZh": "供应链保密和制造迁移锚点",
+      "roleEn": "Supply-chain secrecy and manufacturing-diversification anchor",
+      "rationale": "Tata 泄露事件让 Apple 的印度制造迁移、供应商映射保护和关键模组备份关系成为新的跟踪变量。",
+      "rationaleZh": "Tata 泄露事件让 Apple 的印度制造迁移、供应商映射保护和关键模组备份关系成为新的跟踪变量。",
+      "rationaleEn": "The Tata breach makes Apple’s India manufacturing shift, supplier-map protection, and backup relationships for key modules a new tracking variable.",
       "confidence": "medium"
     }
   ]
