@@ -88,7 +88,7 @@ a {
 .mode-switch {
   display: grid;
   gap: 6px;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .mode-button {
@@ -354,6 +354,388 @@ a {
 .workspace {
   min-width: 0;
   padding: 28px;
+}
+
+.chain-panel {
+  display: grid;
+  gap: 18px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.chain-header {
+  align-items: flex-start;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.chain-kicker {
+  align-items: center;
+  color: #4a627a;
+  display: inline-flex;
+  font-size: 13px;
+  font-weight: 800;
+  gap: 7px;
+  margin-bottom: 7px;
+}
+
+.chain-header h1 {
+  color: #111817;
+  font-size: 34px;
+  letter-spacing: 0;
+  line-height: 1.08;
+  margin: 0 0 10px;
+}
+
+.chain-header p {
+  color: #46524f;
+  line-height: 1.55;
+  margin: 0;
+  max-width: 760px;
+}
+
+.chain-stat {
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #dfe4de;
+  border-radius: 8px;
+  color: #46524f;
+  display: grid;
+  flex: 0 0 178px;
+  gap: 4px;
+  justify-items: start;
+  min-height: 118px;
+  padding: 15px;
+}
+
+.chain-stat strong {
+  color: #111817;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.chain-stat span,
+.chain-stat small {
+  color: #5f6d68;
+  font-size: 13px;
+}
+
+.chain-flow {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(188px, 1fr));
+}
+
+.chain-node {
+  align-content: start;
+  background: #ffffff;
+  border: 1px solid #d9dfd7;
+  border-radius: 8px;
+  color: #26312f;
+  cursor: pointer;
+  display: grid;
+  gap: 8px;
+  min-height: 184px;
+  min-width: 0;
+  padding: 14px;
+  position: relative;
+  text-align: left;
+}
+
+.chain-node:hover,
+.chain-node.active {
+  background: #eef6fb;
+  border-color: #4a627a;
+}
+
+.chain-node.active {
+  box-shadow: inset 0 0 0 1px #4a627a;
+}
+
+.chain-stage {
+  align-items: center;
+  color: #2b7a78;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  font-weight: 900;
+  gap: 5px 8px;
+  min-width: 0;
+}
+
+.chain-stage small,
+.chain-node strong small {
+  color: #6b756f;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.chain-node strong {
+  color: #111817;
+  display: grid;
+  font-size: 16px;
+  gap: 2px;
+  line-height: 1.25;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.chain-node p {
+  color: #52605b;
+  font-size: 13px;
+  line-height: 1.45;
+  margin: 0;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.chain-node em {
+  align-self: end;
+  background: #eef1ec;
+  border-radius: 999px;
+  color: #596660;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 900;
+  justify-self: start;
+  min-height: 25px;
+  padding: 4px 8px;
+}
+
+.chain-node.active em,
+.chain-node:hover em {
+  background: #dcebea;
+  color: #22625f;
+}
+
+.chain-arrow {
+  color: #9ba8a1;
+  position: absolute;
+  right: 11px;
+  top: 12px;
+}
+
+.chain-detail {
+  background: #ffffff;
+  border: 1px solid #dfe4de;
+  border-radius: 8px;
+  display: grid;
+  gap: 16px;
+  padding: 18px;
+}
+
+.chain-detail-heading {
+  align-items: flex-start;
+  display: flex;
+  gap: 18px;
+  justify-content: space-between;
+}
+
+.chain-detail-heading span {
+  color: #2b7a78;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.chain-detail-heading h2 {
+  color: #111817;
+  font-size: 22px;
+  letter-spacing: 0;
+  margin: 3px 0 6px;
+}
+
+.chain-detail-heading p {
+  color: #46524f;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.chain-detail-count {
+  align-items: center;
+  background: #f6efe0;
+  border: 1px solid #e2c98f;
+  border-radius: 8px;
+  color: #7a5d13;
+  display: grid;
+  flex: 0 0 142px;
+  gap: 4px;
+  min-height: 84px;
+  padding: 12px;
+}
+
+.chain-detail-count strong {
+  color: #111817;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.chain-detail-count span {
+  color: #7a5d13;
+  font-size: 13px;
+}
+
+.chain-company-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.chain-company-card {
+  border: 1px solid #d9dfd7;
+  border-radius: 8px;
+  display: grid;
+  gap: 10px;
+  min-height: 172px;
+  overflow: hidden;
+  padding: 13px;
+  position: relative;
+}
+
+.chain-company-card::before {
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 5px;
+}
+
+.chain-company-card.market-us {
+  background: #fbfdff;
+  border-color: #d8e1e8;
+}
+
+.chain-company-card.market-us::before {
+  background: #4a627a;
+}
+
+.chain-company-card.market-cn {
+  background: #fffdf7;
+  border-color: #e6dcc8;
+}
+
+.chain-company-card.market-cn::before {
+  background: #a06d3b;
+}
+
+.chain-company-card > button {
+  background: transparent;
+  border: 0;
+  color: #293331;
+  cursor: pointer;
+  display: grid;
+  gap: 5px;
+  min-width: 0;
+  padding: 0 0 0 5px;
+  text-align: left;
+}
+
+.chain-company-card > button span {
+  color: #2b7a78;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.chain-company-card.market-us > button span {
+  color: #335f7d;
+}
+
+.chain-company-card.market-cn > button span {
+  color: #8a5b28;
+}
+
+.chain-company-card > button strong {
+  color: #111817;
+  font-size: 16px;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.chain-company-card > button small {
+  color: #5f6d68;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.chain-company-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding-left: 5px;
+}
+
+.chain-company-tags em {
+  background: #eef1ec;
+  border-radius: 999px;
+  color: #596660;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.2;
+  min-height: 22px;
+  padding: 4px 7px;
+}
+
+.chain-company-card.market-us .chain-company-tags em {
+  background: #e7eef5;
+  color: #3f5f75;
+}
+
+.chain-company-card.market-cn .chain-company-tags em {
+  background: #f4ebd9;
+  color: #7a5a2d;
+}
+
+.chain-company-actions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: auto;
+  padding-left: 5px;
+}
+
+.chain-company-actions button,
+.chain-company-actions a {
+  align-items: center;
+  border: 1px solid #d9dfd7;
+  border-radius: 999px;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 900;
+  gap: 5px;
+  min-height: 28px;
+  padding: 4px 9px;
+  text-decoration: none;
+}
+
+.chain-company-actions button {
+  background: #233634;
+  border-color: #233634;
+  color: #ffffff;
+}
+
+.chain-company-actions a {
+  background: #e8f3f1;
+  color: #22625f;
+}
+
+.chain-company-actions button:hover,
+.chain-company-actions a:hover {
+  filter: brightness(0.96);
+}
+
+.chain-empty {
+  align-items: center;
+  background: #fbfcfa;
+  border: 1px solid #e2e8e1;
+  border-radius: 8px;
+  color: #5f6d68;
+  display: flex;
+  min-height: 92px;
+  padding: 16px;
 }
 
 .mobile-list-return {
@@ -2366,6 +2748,7 @@ a {
   .trend-grid,
   .raw-grid,
   .source-list,
+  .chain-company-grid,
   .breakout-summary-grid,
   .breakout-provider-list,
   .breakout-factor-grid {
@@ -2405,6 +2788,8 @@ a {
   .section-grid,
   .raw-grid,
   .source-list,
+  .chain-flow,
+  .chain-company-grid,
   .breakout-window-tabs,
   .breakout-summary-grid,
   .breakout-metrics,
@@ -2415,14 +2800,31 @@ a {
   }
 
   .company-header,
+  .chain-header,
+  .chain-detail-heading,
   .breakout-header,
   .breakout-stock-top {
     flex-direction: column;
   }
 
   .company-header h1,
+  .chain-header h1,
   .breakout-header h1 {
     font-size: 28px;
+  }
+
+  .chain-stat,
+  .chain-detail-count {
+    flex-basis: auto;
+    width: 100%;
+  }
+
+  .chain-node {
+    min-height: 156px;
+  }
+
+  .chain-arrow {
+    display: none;
   }
 
   .breakout-freshness,

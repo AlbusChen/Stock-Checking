@@ -1,6 +1,7 @@
-import { AlertCircle, BarChart3, Building2, List, Loader2, RefreshCcw, Search, Star } from "lucide-react";
+import { AlertCircle, BarChart3, Building2, List, Loader2, Network, RefreshCcw, Search, Star } from "lucide-react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { CompanyDetail } from "./components/CompanyDetail";
+import { IndustryChainMap } from "./components/IndustryChainMap";
 import { VolumeBreakouts } from "./components/VolumeBreakouts";
 import { loadCompanyIndex, loadCompanyReport } from "./lib/data";
 import type { CompanyIndex, CompanyIndexItem, CompanyReport } from "./types/company";
@@ -20,6 +21,7 @@ const preferredLabelOrder = [
 ];
 
 const watchlistLabel = "自选";
+type ActiveMode = "companies" | "watchlist" | "chain" | "breakouts";
 
 function scoreCompany(company: CompanyIndexItem, query: string) {
   const target = query.trim().toLowerCase();
@@ -60,7 +62,7 @@ function sortLabels(labels: string[]) {
 function App() {
   const sidebarRef = useRef<HTMLElement | null>(null);
   const workspaceRef = useRef<HTMLElement | null>(null);
-  const [activeMode, setActiveMode] = useState<"companies" | "watchlist" | "breakouts">("companies");
+  const [activeMode, setActiveMode] = useState<ActiveMode>("companies");
   const [index, setIndex] = useState<CompanyIndex | null>(null);
   const [query, setQuery] = useState("");
   const [activeLabel, setActiveLabel] = useState<string | null>(null);
@@ -137,7 +139,7 @@ function App() {
     return company.labels.filter((label) => label !== watchlistLabel).slice(0, 4);
   }, []);
 
-  const switchMode = useCallback((mode: "companies" | "watchlist" | "breakouts") => {
+  const switchMode = useCallback((mode: ActiveMode) => {
     setActiveMode(mode);
     if (mode !== "companies") setActiveLabel(null);
   }, []);
@@ -167,6 +169,16 @@ function App() {
       scrollIntoViewOnMobile(workspaceRef.current);
     },
     [scrollIntoViewOnMobile],
+  );
+
+  const openCompanyFromChain = useCallback(
+    (company: CompanyIndexItem) => {
+      setActiveMode("companies");
+      setActiveLabel(null);
+      setQuery("");
+      selectCompany(company);
+    },
+    [selectCompany],
   );
 
   const returnToCompanyList = useCallback(() => {
@@ -201,6 +213,15 @@ function App() {
             <span>自选</span>
           </button>
           <button
+            aria-pressed={activeMode === "chain"}
+            className={activeMode === "chain" ? "mode-button active" : "mode-button"}
+            onClick={() => switchMode("chain")}
+            type="button"
+          >
+            <Network size={16} aria-hidden="true" />
+            <span>产业链</span>
+          </button>
+          <button
             aria-pressed={activeMode === "breakouts"}
             className={activeMode === "breakouts" ? "mode-button active" : "mode-button"}
             onClick={() => switchMode("breakouts")}
@@ -211,7 +232,7 @@ function App() {
           </button>
         </nav>
 
-        {activeMode !== "breakouts" ? (
+        {activeMode === "companies" || activeMode === "watchlist" ? (
           <>
             <label className="search-box">
               <Search size={18} aria-hidden="true" />
@@ -297,6 +318,12 @@ function App() {
               )}
             </div>
           </>
+        ) : activeMode === "chain" ? (
+          <div className="sidebar-mode-card">
+            <strong>产业链图谱</strong>
+            <span>按当前收录公司与标签生成上游、中游、下游视图。</span>
+            <small>{index ? `${index.companies.length} companies mapped` : "Loading company index"}</small>
+          </div>
         ) : (
           <div className="sidebar-mode-card">
             <strong>放量突破</strong>
@@ -314,7 +341,9 @@ function App() {
                 : "未生成"
               : activeMode === "watchlist"
                 ? "自选"
-                : "每日更新"}
+                : activeMode === "chain"
+                  ? "产业链"
+                  : "每日更新"}
           </span>
         </footer>
       </aside>
@@ -322,6 +351,22 @@ function App() {
       <section className="workspace" ref={workspaceRef}>
         {activeMode === "breakouts" ? (
           <VolumeBreakouts />
+        ) : activeMode === "chain" ? (
+          <>
+            {companyError && (
+              <div className="error-banner">
+                <AlertCircle size={18} aria-hidden="true" />
+                <span>{companyError}</span>
+              </div>
+            )}
+            {!companyError && loading && (
+              <div className="loading-panel">
+                <Loader2 className="spin" size={22} aria-hidden="true" />
+                <span>加载产业链图谱</span>
+              </div>
+            )}
+            {!companyError && index && <IndustryChainMap index={index} onOpenCompany={openCompanyFromChain} />}
+          </>
         ) : (
           <>
             {selected && (
